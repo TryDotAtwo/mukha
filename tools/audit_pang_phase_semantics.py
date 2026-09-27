@@ -21,6 +21,11 @@ FILES = {
     "L2_highLum.mat": "745fc159b808f14b7876cdfcdfad12a96ea7473a",
     "L2_lowLum.mat": "1d6cc9f26c015a85c5dfbbce687d4449a79b65fc",
 }
+AUTHOR_CODE = {
+    "compute_bootstrappedMetrics.m": "6d59a6ee4bc0ce6ac39f3e122bb972e19ccb7422",
+    "computeFrameZero1.m": "6ec2fd08c4324e36a337f1c6a3f49ebd024d6bd6",
+    "computeFrameZero2.m": "5c4edb0ebc108f65b7745382fffd696c301e8324",
+}
 
 
 def require(condition, message):
@@ -120,6 +125,21 @@ def main():
     source.mkdir(parents=True, exist_ok=True)
     old_path = ROOT / "reports/pang_author_curve_audit.json"
     old = json.loads(old_path.read_text())
+    code_receipts = []
+    for name, blob in AUTHOR_CODE.items():
+        url = f"https://raw.githubusercontent.com/ClandininLab/L1L2-recurrent-feedback/{COMMIT}/imaging-analysis/HHY_stimulusSpecificAnalysisScripts/{name}"
+        path = source / name
+        if not path.exists():
+            if not args.fetch:
+                raise FileNotFoundError(f"{path}: use --fetch for initial acquisition")
+            with urlopen(url, timeout=30) as response:
+                content = response.read(100_000)
+            verify_blob(content, blob)
+            path.write_bytes(content)
+        content = path.read_bytes()
+        verify_blob(content, blob)
+        code_receipts.append({"name": name, "url": url, "git_blob": blob,
+                              "sha256": hashlib.sha256(content).hexdigest(), "bytes": len(content)})
     rows, receipts = [], []
     for name, blob in FILES.items():
         url = f"https://raw.githubusercontent.com/ClandininLab/L1L2-recurrent-feedback/{COMMIT}/computational-model/data/{name}"
@@ -152,6 +172,13 @@ def main():
                      analysis_start_s=float(t[2]), analysis_end_s=float(t[end]))
             rows.append(r)
     report = {"source_commit": COMMIT, "sources": receipts, "controls": checks,
+              "author_code_sources": code_receipts,
+              "author_code_interpretation": {
+                  "area2": "signed trapz(frameZero2:endPhase2) * 100 * ifi; cancellation is source behavior",
+                  "ratio": "signed area2/area1, without absolute value in compute_bootstrappedMetrics.m",
+                  "boundaries": "sample-based frameZero2; derivative-based frameZero1; endPhase2=floor(.25/ifi)",
+                  "scope": "Static source inspection, not MATLAB execution or bootstrap reconstruction",
+                  "conclusion": "Do not replace author net-tail metric with opposite-only metric; keep sensitivity definitions separate"},
               "historical_report_sha256": hashlib.sha256(old_path.read_bytes()).hexdigest(),
               "executed_script_sha256": hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
               "numpy_version": np.__version__, "rows": rows,
