@@ -184,5 +184,5 @@
       }
     }
   ],
-  "actual_review_status": "PENDING independent numerical/provenance/interpretation"
+  "actual_review_status": "CLOSED: Astra2 NUMERICAL APPROVE ee804810571a022e3ad9867bf0a4eb1109925273 (4648 comparisons); Astra3 provenance APPROVE message39 (131 checks); Astra4 interpretation 17222606f237d88bf7b9b4a145098a09625503ec integrated"
 }

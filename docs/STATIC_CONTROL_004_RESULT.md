@@ -12,7 +12,7 @@ was then explicitly selected with unchanged code/config and no installation.
 This was two process invocations, only one reached computation; no claim of
 an error-free first invocation. See both reports/static_control_004*receipt.json.
 
-## Complete preliminary result (independent actual-result reviews pending)
+## Complete result (independent actual-result reviews APPROVED)
 
 Es is original-grid trapezoid SSE divided by the curve's CONTROL energy.
 Positive delta means the static model has lower error than the baseline.
@@ -45,7 +45,10 @@ indicator, causal, animal-generalization and calibration claims remain open.
 Original temporal003 all_six_improved=false is unchanged; static all-six versus
 H1 is separately false. No new model classes, degree/search/split changes or
 residual-selected fits follow this result: the frozen model-sweep stop rule is
-now active. Independent arithmetic/provenance review is still required.
+now active. Independent arithmetic/provenance reviews are now closed:
+Astra2 ee804810571a022e3ad9867bf0a4eb1109925273 APPROVE,4648 floating
+comparisons, maximum discrepancy3.9968028886505635e-15; Astra3 message39
+APPROVE,131 artifact/receipt checks. Evidence and checker are included.
 
 ## Artifact and offline inspection
 
@@ -66,5 +69,14 @@ tar -xOzf reports/recorded_runs/static-control-004.tar.gz static-control-004/res
 tar -xOzf reports/recorded_runs/static-control-004.tar.gz static-control-004/manifest.json
 ```
 
-Independent arithmetic, provenance and interpretation reviews requested in
-Astra1 message53. Prelaunch synthetic approvals are not post-run approvals.
+Final interpretation17222606f237d88bf7b9b4a145098a09625503ec is integrated.
+All three actual-result lanes are closed; no scientific launch gate remains.
+Prelaunch synthetic approvals were separate from these actual-result approvals.
+For an optional independent archive check (not a production experiment), with
+NumPy/SciPy already installed, from the restored repository:
+
+```sh
+python -O tools/check_static_actual.py reports/recorded_runs/static-control-004.tar.gz .
+```
+
+This command is provided for reproduction, not rerun during publication.

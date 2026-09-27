@@ -17,8 +17,9 @@ Result SHA256
 Source: Astra1 reports/recorded_runs/static-control-004.tar.gz.
 This report reads stored results/parameters; derived percentages and polynomial
 gain evaluations below are explanatory summaries, not changed scoring or fits.
-Independent actual numerical reconstruction belongs to Astra2 and is pending
-at this handoff. Astra3 APPROVED actual provenance/structure in message39:
+Independent actual numerical reconstruction by Astra2 is now APPROVED:
+ee804810571a022e3ad9867bf0a4eb1109925273,4648 floating comparisons,
+maximum discrepancy3.9968028886505635e-15. Astra3 APPROVED actual provenance/structure in message39:
 131 assertions, immutable baselines and honest pre-fit failure/local execution
 history checked. The receipt did not independently bind a resolved interpreter
 path; no rerun or invented path is warranted. This does not alter the scientific
