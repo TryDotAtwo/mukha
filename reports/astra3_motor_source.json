@@ -1,0 +1,115 @@
+{
+  "export_sha256": "8108d056414b6898f25067bb555cae45dbf660ddf492ac6c67fe22f3890d7bb0",
+  "gate_D_passed": false,
+  "graph_indices_compared": 815,
+  "leg_motor_population": 381,
+  "motor_population": 815,
+  "raw_group_members": [
+    {
+      "bodyId": 800636,
+      "exitNerve": "ProLN",
+      "graph_index": 145248,
+      "instance": "Ti extensor MN_L",
+      "mancBodyid": 12704.0,
+      "mancGroup": 11706.0,
+      "mancType": "Ti extensor MN",
+      "matchingNotes": null,
+      "rootSide": null,
+      "somaNeuromere": "T1",
+      "somaSide": "L",
+      "status": "Traced",
+      "subclass": "fl",
+      "superclass": "vnc_motor",
+      "synonyms": null,
+      "type": "Ti extensor MN"
+    },
+    {
+      "bodyId": 804257,
+      "exitNerve": "ProLN",
+      "graph_index": 148012,
+      "instance": "Ti extensor MN_R",
+      "mancBodyid": 13115.0,
+      "mancGroup": 11657.0,
+      "mancType": "Ti extensor MN",
+      "matchingNotes": null,
+      "rootSide": null,
+      "somaNeuromere": "T1",
+      "somaSide": "R",
+      "status": "Traced",
+      "subclass": "fl",
+      "superclass": "vnc_motor",
+      "synonyms": null,
+      "type": "Ti extensor MN"
+    },
+    {
+      "bodyId": 815344,
+      "exitNerve": "ProLN",
+      "graph_index": 156979,
+      "instance": "Ti extensor MN_L",
+      "mancBodyid": 10256.0,
+      "mancGroup": 11657.0,
+      "mancType": "Ti extensor MN",
+      "matchingNotes": null,
+      "rootSide": null,
+      "somaNeuromere": "T1",
+      "somaSide": "L",
+      "status": "Traced",
+      "subclass": "fl",
+      "superclass": "vnc_motor",
+      "synonyms": null,
+      "type": "Ti extensor MN"
+    },
+    {
+      "bodyId": 815678,
+      "exitNerve": "ProLN",
+      "graph_index": 157213,
+      "instance": "Ti extensor MN_R",
+      "mancBodyid": 22126.0,
+      "mancGroup": 11706.0,
+      "mancType": "Ti extensor MN",
+      "matchingNotes": null,
+      "rootSide": null,
+      "somaNeuromere": "T1",
+      "somaSide": "R",
+      "status": "Traced",
+      "subclass": "fl",
+      "superclass": "vnc_motor",
+      "synonyms": null,
+      "type": "Ti extensor MN"
+    }
+  ],
+  "reconstructed_graph_ids_sha256": "6bad3ab247ccb08f958962dd2a3da97289822bb4fe1e345a936db1c8741e05f8",
+  "schema": "astra3-raw-motor-source-v1",
+  "scope": "Raw annotation-to-export identity and reconstructed sorted population indices; no graph edges, morphology, individual MANC identity or physiology verified",
+  "selected_population": 167216,
+  "selected_predicted_id_multiplicity": {
+    "10256": [
+      {
+        "bodyId": 800163,
+        "superclass": "vnc_intrinsic",
+        "type": "IN19A002"
+      },
+      {
+        "bodyId": 815344,
+        "superclass": "vnc_motor",
+        "type": "Ti extensor MN"
+      }
+    ],
+    "22126": [
+      {
+        "bodyId": 815678,
+        "superclass": "vnc_motor",
+        "type": "Ti extensor MN"
+      }
+    ]
+  },
+  "source": {
+    "bytes": 14483314,
+    "gcs_generation": "1780494878811468",
+    "name": "body-annotations-male-cns-v1.0-minconf-0.5.feather",
+    "pinned_url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/body-annotations-male-cns-v1.0-minconf-0.5.feather?generation=1780494878811468",
+    "sha256": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2"
+  },
+  "source_fields_compared": 12225,
+  "source_lock_sha256": "5a70071623459ee5b997eb59212d439f5e385afd37c37b76720e072b64fd2b7e"
+}
