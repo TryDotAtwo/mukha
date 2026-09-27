@@ -77,3 +77,29 @@ fields at relative tolerance 1e-12 / absolute 1e-14, maximum absolute discrepanc
 8.881784197001252e-16. In-memory display-sign, area-unit and duplicate-row
 mutations were rejected under `python -O`. This checker does not authenticate
 remote execution, enforce single ownership or replace archive-manifest checks.
+
+## Retrieved Molab result review
+
+The externally retrieved `measurement-001.tar.gz` was independently read and
+extracted by Astra 2. Its 21,622 bytes hash to
+`713ffec2e9f62553b8a4b350b29611fd02c26f822a96ae93ec8a9617e640b6c2`.
+All 12 manifest files match sizes/digests; the member set is exact, with no
+duplicate names, links or traversal. All three archived Python sources equal
+runner commit `ea7f4945cff90e390868a425180db595c2fb6683` byte for byte.
+Four MAT Git blobs and three MATLAB Git blobs/receipts match. The historical
+report matches the pinned baseline digest and all 16 copied signed-area fields.
+
+Exact checker `6c12eb9` independently reproduced the eight remote-result rows.
+Astra 3's review additionally found that schema/policy labels were unchecked
+and fractional frame IDs were tolerated. These checker gaps are now fixed:
+schema and policy are exact, row/frame types are integers excluding booleans,
+frame bounds are 1..63, and frame values compare exactly. Four targeted test
+methods (including all four frame fields) pass under `python -O`; the retrieved
+result still passes with maximum numerical difference 8.881784197001252e-16.
+
+The runner pins the historical comparator before use and labels the differences
+as combined onset/endpoint/crossing sensitivity. These earlier review requests
+are satisfied. No remote job was repeated for this review. Remote execution
+itself is supported by Astra 1's transport/export receipt, not independently
+authenticated by a numeric checker or a `location` string. No physiological,
+ROI-bootstrap, calibrated-light or gate-B success claim is approved.
