@@ -7,8 +7,6 @@ import json
 import math
 from pathlib import Path
 
-import numpy as np
-
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / 'data/raw/malecns_v1_swcs'
 REPORT = ROOT / 'reports/malecns_downloaded_swc_audit.json'
@@ -64,16 +62,15 @@ def inspect(path):
                 zero_length_edges=zero_length_edges)
 
 
-def main():
-    inventory_report = json.loads((ROOT / 'reports/malecns_swc_bucket_inventory.json').read_text(encoding='utf-8'))
-    path = ROOT / inventory_report['inventory_path']
-    assert hashlib.sha256(path.read_bytes()).hexdigest() == inventory_report['inventory_sha256']
-    with gzip.open(path, 'rt', newline='', encoding='utf-8') as file:
-        inventory = {int(row['body_id']): row for row in csv.DictReader(file)}
-    population = set(map(int, np.load(ROOT / 'data/derived/malecns_v1_candidates/body_ids.npy')))
+def audit(source, inventory, population, inventory_sha256):
+    """Audit a possibly partial download, never equating it with gate A."""
+    if not population:
+        raise ValueError('empty graph population')
     rows = {}
-    for swc in sorted(SOURCE.glob('*.swc')):
+    for swc in sorted(source.glob('*.swc')):
         body = int(swc.stem)
+        if body in rows:
+            raise ValueError(f'duplicate SWC body ID: {swc}')
         if body not in population:
             raise ValueError(f'SWC outside selected population: {swc}')
         payload = swc.read_bytes()
@@ -83,11 +80,12 @@ def main():
             raise ValueError(f'source byte mismatch: {swc}')
         rows[body] = inspect(swc)
     bad = {str(body): row for body, row in rows.items()
-           if row['malformed_lines'] or row['missing_parent'] or row['cycles'] or
+           if not row['nodes'] or not row['roots'] or
+           row['malformed_lines'] or row['missing_parent'] or row['cycles'] or
            row['duplicate_id_lines'] or row['nonfinite_nodes']}
-    report = {
+    return {
         'dataset': 'male-cns:v1.0',
-        'source_inventory_sha256': inventory_report['inventory_sha256'],
+        'source_inventory_sha256': inventory_sha256,
         'downloaded_swc_files': len(rows),
         'graph_population': len(population),
         'downloaded_fraction': len(rows) / len(population),
@@ -96,14 +94,29 @@ def main():
         'multi_root_files': sum(row['roots'] > 1 for row in rows.values()),
         'files_with_zero_length_edges': sum(row['zero_length_edges'] > 0 for row in rows.values()),
         'structural_issue_files': bad,
+        'structural_checks_passed': bool(rows) and not bad,
         'scope': 'Basic SWC syntax/topology and source bytes for downloaded files only; '
                  'no EM segmentation, synapse-site, or biological fidelity validation.'
     }
+
+
+def main():
+    import numpy as np
+
+    inventory_report = json.loads((ROOT / 'reports/malecns_swc_bucket_inventory.json').read_text(encoding='utf-8'))
+    path = ROOT / inventory_report['inventory_path']
+    if hashlib.sha256(path.read_bytes()).hexdigest() != inventory_report['inventory_sha256']:
+        raise ValueError('source inventory SHA256 mismatch')
+    with gzip.open(path, 'rt', newline='', encoding='utf-8') as file:
+        inventory = {int(row['body_id']): row for row in csv.DictReader(file)}
+    population = set(map(int, np.load(ROOT / 'data/derived/malecns_v1_candidates/body_ids.npy')))
+    report = audit(SOURCE, inventory, population, inventory_report['inventory_sha256'])
     REPORT.write_text(json.dumps(report, indent=2) + '\n', encoding='utf-8')
     print(json.dumps({k: v for k, v in report.items() if k != 'structural_issue_files'}))
-    if bad:
-        print(f'structural_issue_files={len(bad)}')
+    if report['structural_issue_files']:
+        print(f"structural_issue_files={len(report['structural_issue_files'])}")
+    return 0 if report['structural_checks_passed'] else 1
 
 
 if __name__ == '__main__':
-    main()
+    raise SystemExit(main())
