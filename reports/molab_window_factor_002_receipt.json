@@ -1,0 +1,35 @@
+{
+  "schema": "mukha-window-factor-operator-receipt-v1",
+  "run_id": "window-factor-002",
+  "operator": "astra1",
+  "implementation_commit": "f61ef73c869a0d54170b3e4212c1a5605dc4af4b",
+  "plan_commit": "39387c38305d235c90a8887337b1486ed0300550",
+  "pre_execution_reviews": {
+    "astra2": "APPROVE exact implementation, numeric evidence carried forward after validation-only diff",
+    "astra3": "APPROVE exact implementation, 68 synthetic protective controls"
+  },
+  "transport": "official marimo-pair; synchronous scratchpad launcher",
+  "execution": {
+    "runs": 1,
+    "device": "CPU",
+    "foreground": true,
+    "returncode": 0,
+    "timeout": false,
+    "gpu_job_started": false,
+    "background_job_started": false,
+    "previous_measurement_repeated": false,
+    "child_wall_seconds": 0.3997325897216797,
+    "timing_scope": "child startup and entire script, not pure arithmetic or hardware benchmark"
+  },
+  "artifact": {
+    "sha256": "af79f4143614bb275c84605b8627b4faf28301cad61aad4d8f4c20425c8cd444",
+    "bytes": 40875,
+    "manifest_files": 17,
+    "retrieved_and_verified_outside_notebook": true,
+    "records": 64,
+    "curves": 8,
+    "runner_status": "ok"
+  },
+  "independent_result_review": "requested; pending",
+  "scientific_scope": "fixed-input onset/end/phase-boundary convention attribution and interactions; no new biological observations or gate B closure"
+}
