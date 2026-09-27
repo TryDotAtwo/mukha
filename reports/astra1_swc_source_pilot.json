@@ -1,0 +1,120 @@
+{
+  "scope": "Four deliberately selected real SWCs, including known multiroot cases; no whole-population coverage claim",
+  "selection": [
+    800636,
+    812953,
+    815344,
+    815678
+  ],
+  "rows": {
+    "800636": {
+      "nodes": 4124,
+      "roots": 2,
+      "missing_parent": 0,
+      "self_parent": 0,
+      "cycles": 0,
+      "duplicate_id_lines": 0,
+      "malformed_lines": 0,
+      "nonfinite_nodes": 0,
+      "nonpositive_radius_nodes": 0,
+      "zero_length_edges": 0,
+      "independent_component_sizes": [
+        4112,
+        12
+      ],
+      "historical_topology_summary_matches": true,
+      "source": {
+        "generation": "1777993478583165",
+        "bytes": 139728,
+        "md5_base64": "g9I8VZ8h3vZl95OBrMiXcA==",
+        "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/segmentation/skeletons-malecns/skeletons-swc/800636.swc?generation=1777993478583165",
+        "metadata_url": "https://storage.googleapis.com/storage/v1/b/flyem-male-cns/o/v1.0%2Fsegmentation%2Fskeletons-malecns%2Fskeletons-swc%2F800636.swc",
+        "sha256": "3ed277abac59af1c257a80c28a94187939da11804845e36510e6ebb034c2f00c"
+      }
+    },
+    "812953": {
+      "nodes": 1802,
+      "roots": 2,
+      "missing_parent": 0,
+      "self_parent": 0,
+      "cycles": 0,
+      "duplicate_id_lines": 0,
+      "malformed_lines": 0,
+      "nonfinite_nodes": 0,
+      "nonpositive_radius_nodes": 0,
+      "zero_length_edges": 0,
+      "independent_component_sizes": [
+        1782,
+        20
+      ],
+      "historical_topology_summary_matches": true,
+      "source": {
+        "generation": "1777993508358466",
+        "bytes": 62296,
+        "md5_base64": "L2xu3FgrACIWHTKBn4gwkQ==",
+        "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/segmentation/skeletons-malecns/skeletons-swc/812953.swc?generation=1777993508358466",
+        "metadata_url": "https://storage.googleapis.com/storage/v1/b/flyem-male-cns/o/v1.0%2Fsegmentation%2Fskeletons-malecns%2Fskeletons-swc%2F812953.swc",
+        "sha256": "7f2963b849999b0c5fd6ad5f93fd40e6867a7767e96e27f703a07c576e6d59d5"
+      }
+    },
+    "815344": {
+      "nodes": 8975,
+      "roots": 3,
+      "missing_parent": 0,
+      "self_parent": 0,
+      "cycles": 0,
+      "duplicate_id_lines": 0,
+      "malformed_lines": 0,
+      "nonfinite_nodes": 0,
+      "nonpositive_radius_nodes": 0,
+      "zero_length_edges": 0,
+      "independent_component_sizes": [
+        8889,
+        59,
+        27
+      ],
+      "historical_topology_summary_matches": true,
+      "source": {
+        "generation": "1777993513585774",
+        "bytes": 304887,
+        "md5_base64": "EIvGQZ4ion5UIjqtYohMdg==",
+        "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/segmentation/skeletons-malecns/skeletons-swc/815344.swc?generation=1777993513585774",
+        "metadata_url": "https://storage.googleapis.com/storage/v1/b/flyem-male-cns/o/v1.0%2Fsegmentation%2Fskeletons-malecns%2Fskeletons-swc%2F815344.swc",
+        "sha256": "f64b43d25040b01d0751763d0447464a39c930d2d55fbc1415efa5109e7a3d7d"
+      }
+    },
+    "815678": {
+      "nodes": 4282,
+      "roots": 1,
+      "missing_parent": 0,
+      "self_parent": 0,
+      "cycles": 0,
+      "duplicate_id_lines": 0,
+      "malformed_lines": 0,
+      "nonfinite_nodes": 0,
+      "nonpositive_radius_nodes": 0,
+      "zero_length_edges": 0,
+      "independent_component_sizes": [
+        4282
+      ],
+      "historical_topology_summary_matches": true,
+      "source": {
+        "generation": "1777993514248719",
+        "bytes": 145071,
+        "md5_base64": "tstHKO6AXSC3DmNcGSDMYQ==",
+        "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/segmentation/skeletons-malecns/skeletons-swc/815678.swc?generation=1777993514248719",
+        "metadata_url": "https://storage.googleapis.com/storage/v1/b/flyem-male-cns/o/v1.0%2Fsegmentation%2Fskeletons-malecns%2Fskeletons-swc%2F815678.swc",
+        "sha256": "9554cfb076fa4ab69305f363a89a7922d5b1c4e7332f25aa8b5cb4baead4fec2"
+      }
+    }
+  },
+  "total_source_bytes": 651982,
+  "historical_report_sha256": "cee7de727519255c9e67cfa8652b7d7539b638b688fe8195efdff58213b5d978",
+  "executed_script_sha256": "8e022588b8b923fedb6d055145aa497652b77df88b63149fa75064a4d3b78bb5",
+  "inspector_sha256": "3a6ec24ed79e819177c3a03fbc55c0e3ec04044c506636d7ba00b4e8875b94c7",
+  "limitations": [
+    "New generation/MD5/SHA256 receipts from public v1.0 bucket; historical per-file bytes not independently compared",
+    "Matching topology counts do not establish morphology completeness, motor identity or physiology",
+    "Full graph population and all internal source rows unchanged; gate A remains open"
+  ]
+}
