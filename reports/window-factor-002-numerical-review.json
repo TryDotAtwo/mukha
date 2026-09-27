@@ -1,0 +1,185 @@
+{
+  "verdict": "NUMERICAL APPROVE",
+  "archive_sha256": "af79f4143614bb275c84605b8627b4faf28301cad61aad4d8f4c20425c8cd444",
+  "archive_bytes": 40875,
+  "runner_commit": "f61ef73c869a0d54170b3e4212c1a5605dc4af4b",
+  "plan_sha256": "263d6f4a55f4277f5804f7a4e8d2c07e8757f839e3935c27b0b60d47b334e099",
+  "curves_checked": 8,
+  "records_checked": 64,
+  "comparisons": {
+    "area_or_clock": 1712,
+    "ratio_or_contrast": 440
+  },
+  "max_absolute_errors": {
+    "area_or_clock": 1.3877787807814457e-17,
+    "ratio_or_contrast": 1.7763568394002505e-15
+  },
+  "observations": [
+    {
+      "file": "L1_highLum.mat",
+      "row": 0,
+      "start_indices": [
+        2,
+        0
+      ],
+      "end_indices": [
+        32,
+        29
+      ],
+      "bracket": [
+        4,
+        5
+      ],
+      "HHH_Q": 5.869375199541059,
+      "SSS_Q": 5.119463144983293,
+      "delta_Q": -0.7499120545577664,
+      "minimum_abs_A1": 0.00040443421992245396
+    },
+    {
+      "file": "L1_highLum.mat",
+      "row": 1,
+      "start_indices": [
+        2,
+        0
+      ],
+      "end_indices": [
+        32,
+        29
+      ],
+      "bracket": [
+        8,
+        9
+      ],
+      "HHH_Q": -0.044967506319576724,
+      "SSS_Q": -0.04968394148428345,
+      "delta_Q": -0.004716435164706725,
+      "minimum_abs_A1": 0.001201664388945798
+    },
+    {
+      "file": "L1_lowLum.mat",
+      "row": 0,
+      "start_indices": [
+        2,
+        0
+      ],
+      "end_indices": [
+        32,
+        29
+      ],
+      "bracket": [
+        5,
+        6
+      ],
+      "HHH_Q": 2.3195261441692474,
+      "SSS_Q": 2.260648491451875,
+      "delta_Q": -0.05887765271737244,
+      "minimum_abs_A1": 0.00035519065883677617
+    },
+    {
+      "file": "L1_lowLum.mat",
+      "row": 1,
+      "start_indices": [
+        2,
+        0
+      ],
+      "end_indices": [
+        32,
+        29
+      ],
+      "bracket": [
+        6,
+        7
+      ],
+      "HHH_Q": 0.03798341594985857,
+      "SSS_Q": 0.022032961676808658,
+      "delta_Q": -0.015950454273049915,
+      "minimum_abs_A1": 0.0007492120587549222
+    },
+    {
+      "file": "L2_highLum.mat",
+      "row": 0,
+      "start_indices": [
+        2,
+        0
+      ],
+      "end_indices": [
+        32,
+        29
+      ],
+      "bracket": [
+        5,
+        6
+      ],
+      "HHH_Q": 2.5074345957659503,
+      "SSS_Q": 2.2631878926579625,
+      "delta_Q": -0.2442467031079878,
+      "minimum_abs_A1": 0.00048360952659510083
+    },
+    {
+      "file": "L2_highLum.mat",
+      "row": 1,
+      "start_indices": [
+        2,
+        0
+      ],
+      "end_indices": [
+        32,
+        29
+      ],
+      "bracket": [
+        5,
+        6
+      ],
+      "HHH_Q": 0.47842514003558234,
+      "SSS_Q": 0.4327915280892721,
+      "delta_Q": -0.045633611946310215,
+      "minimum_abs_A1": 0.0009435536371732302
+    },
+    {
+      "file": "L2_lowLum.mat",
+      "row": 0,
+      "start_indices": [
+        2,
+        0
+      ],
+      "end_indices": [
+        32,
+        29
+      ],
+      "bracket": [
+        6,
+        7
+      ],
+      "HHH_Q": 1.4583109613113032,
+      "SSS_Q": 1.3136496641739412,
+      "delta_Q": -0.14466129713736198,
+      "minimum_abs_A1": 0.0005654554300474962
+    },
+    {
+      "file": "L2_lowLum.mat",
+      "row": 1,
+      "start_indices": [
+        2,
+        0
+      ],
+      "end_indices": [
+        32,
+        29
+      ],
+      "bracket": [
+        6,
+        7
+      ],
+      "HHH_Q": 0.5133588657575563,
+      "SSS_Q": 0.4743174512997093,
+      "delta_Q": -0.03904141445784698,
+      "minimum_abs_A1": 0.0008258272043745456
+    }
+  ],
+  "method": "No runner/helper imports; clipped segment antiderivatives with math.fsum; independently derived indices and cube signed sums",
+  "limitations": [
+    "Eight fixed processed means only; no biological gate closure, animal/ROI uncertainty, calibration or causal shares",
+    "Manifest/transport/identity review belongs to Astra3; numerical review does not establish remote execution",
+    "No Molab request or repeat of measurement001"
+  ]
+}
