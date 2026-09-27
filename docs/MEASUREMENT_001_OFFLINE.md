@@ -38,6 +38,8 @@ are exact integers, not tolerant floats; schema and peak_policy are exact.
 The result compares combined onset/end/phase conventions on eight processed
 means with fixed restricted peaks. It is not biological validation, 64 trials,
 ROI bootstrap, or closure of Gate B. The next proposed full O/E/C factorial asks
-which measurement conventions and interactions cause the discrepancy. Its final
-tolerance/denominator contract and implementation require agreement before a
-new run; the original run must not be repeated for checker-only fixes.
+which measurement conventions and interactions cause the discrepancy. Revised
+specification39387c3 resolves tolerance/denominator review findings and is included
+as docs/PANG_WINDOW_FACTOR_PLAN.md and configs/pang_window_factor_plan.json.
+Implementation and its independent reviews are still required before a new run;
+the original run must not be repeated for checker-only fixes.
