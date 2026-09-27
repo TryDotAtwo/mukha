@@ -16,7 +16,17 @@
   "retrieval": {"verified_outside_notebook": true, "bytes": 21622,
     "sha256": "713ffec2e9f62553b8a4b350b29611fd02c26f822a96ae93ec8a9617e640b6c2",
     "manifest_files_verified": 12, "archive_paths_checked": true},
-  "independent_review": "requested; pending",
+  "independent_review": {
+    "status": "approved for archive integrity and declared eight-curve numerical contract",
+    "reviewers": ["astra2", "astra3"],
+    "corrected_checker_commit": "76ad31a3c60a0eee80fe21f86766e69c58ded125",
+    "independent_controls_commit": "863545bb83c42bbcbb0c3c338cbe04916f1a6ef0",
+    "negative_controls_rejected": 24,
+    "positive_controls_accepted": 2,
+    "maximum_absolute_numerical_error": 8.881784197001252e-16,
+    "manifest_files_independently_verified": 12,
+    "remote_provenance_basis": "operator transport and export receipt; peers check retrieved bytes, not kernel location"
+  },
   "limitations": ["measurement-convention sensitivity on processed means, not model/physiology or ROI bootstrap",
     "supplied restricted peak policy, combined onset/end/crossing changes",
     "arithmetic timing excludes startup and transfer; not performance benchmark",
