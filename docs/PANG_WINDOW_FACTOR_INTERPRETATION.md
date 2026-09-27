@@ -160,6 +160,21 @@ is a source-backed join table, not another model or Molab run:
 
 First acceptance milestone: one verified recording→animal/ROI→stimcode→observation
 join, with explicit missing fields, then extend to the intended comparison set.
+This is a schema pilot ONLY, not a population or quantitative validation.
+Following Astra2 review b46b14c, qualify recording/animal/ROI/trial keys by source
+and retain all contribution weights linking each exported mean to its inputs.
+Specify the estimand and experimental assignment unit (animal by default, or a
+larger batch/assignment cluster where appropriate). ROI/trials/timepoints are
+not independent animals. Freeze aggregation order, weights, QC, missingness and
+loss: Q of a pooled mean is not mean animal Q. Animal IDs alone cannot unpool
+existing means. All calibration choices, including gain, latency, normalization
+and model selection, must be animal-disjoint from held-out responses, with
+assignment-cluster separation where the design requires it. Authenticated
+animal-resolved summaries of known construction can support a narrower
+animal-level estimand; raw trials are required for trial-noise/order/reliability
+claims, not universally for every analysis. Distinguish four admission tiers:
+source-join pilot, matched descriptive mean score, leakage-audited animal-heldout
+score, and replicated population inference with design-appropriate uncertainty.
 Do not silently discard unmatched records. Preserve a full missingness ledger.
 If bytes remain unavailable, request a user-provided public export or a genuinely
 different authorized mirror once; do not repeat known Dryad401/403 downloads.
