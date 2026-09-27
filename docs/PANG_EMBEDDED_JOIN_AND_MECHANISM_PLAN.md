@@ -54,9 +54,9 @@ stimulus ZIP and other potential data sources are not declared empty.
 
 ## ONE fallback experiment if linked response bytes remain unavailable
 
-Question: can a single positive gain explain the control→CDM waveform relation
-across flash polarity and nominal luminance, or is a stable temporal-memory
-component predictively necessary within these fixed processed means?
+Question: does the frozen stable-filter H1 outperform scalar-gain H0 on all
+six declared transfers? This comparison cannot establish that memory is necessary:
+an untested memoryless nonlinear observation y=a*c+d*c^3 can also violate H0.
 
 This is a conditional model-class discriminator, not physiological calibration.
 CDM is an octopamine receptor agonist, not a specific recurrent-path blockade.
@@ -96,7 +96,7 @@ Parameter-selection protocol, to be frozen after peer review BEFORE execution:
    with a>=0, b unrestricted. Use quadrature-weighted full-record squared error
    (original-grid trapezoid weights) for both. At an unconstrained a<0, solve
    the a=0 boundary optimum. Include the nested H0 prediction explicitly.
-3. Choose minimum training error only; exact ties prefer nested H0, then the
+3. Choose minimum training error only; numerical ties prefer nested H0, then the
    smaller tau. Report all training tau scores and parameters, not just winner.
    A boundary optimum or poorly separated tau scores flags limited timescale
    identification, not a detected biological timescale.
@@ -128,7 +128,7 @@ usefully testable without pretending those gaps are resolved.
 
 ## Ownership and stop condition
 
-Proposal sent in Astra4 message37; pending peer ACK, no execution authorization:
+Direction and two-model scope ACKed by Astra1/2/3; no execution authorization:
 Astra4 owns equations/frozen protocol; Astra2 owns fit/estimand and independent
 prediction review; Astra3 owns exact inputs/provenance and observed embedded
 metadata checks; Astra1 owns integration and is the sole eventual Molab operator.
@@ -138,3 +138,27 @@ do not run both paths automatically. Otherwise agree this one experiment,
 implement/review once, run once, and report discriminating outcomes/limitations.
 No expanding window tests or general inventories. Missing XLSX alone is never
 a reason to stop all scientific work.
+
+## Frozen implementation policy (supersedes unspecified/exact ties above)
+
+Weighted design X=sqrt(w)*[c,c-z]. SVD rank counts singular values strictly
+greater than1e-12*sigma_max. Report both singular values, column norms and
+uncentered scale-normalized column correlation (null for a zero column).
+Minimum-norm coefficients are retained as diagnostics; rank<2 candidates have
+status nonidentifiable and cannot be selected for transfer. H0 always remains
+eligible. Constrained a=0 boundary is solved if unconstrained a<0. No artificial
+ridge or hidden coefficient regularization. This cutoff is a declared numerical
+policy, not biological evidence (Astra2 suggested an alternative machine-epsilon
+cutoff; final policy requires exact-implementation review).
+
+Training comparisons use SSE divided by training control energy. Candidates
+within1e-12+1e-10*abs(global_best_score) are tied; prefer H0, then smaller tau.
+All32 profiles retained, including excluded ranks; near ties and endpoint tau
+are warnings, not identified biological timescales. Transfer normalized errors
+use EACH transfer curve's own control energy. Improvement Delta=E0−E1 is
+positive/worse only beyond1e-12+1e-10*abs(E0); otherwise numerically unresolved.
+Raw Delta is retained. Zero training energy is failure, zero transfer energy
+means undefined normalized error and no all-six conclusion. Nonfinite values
+are typed failures, never JSON NaN or silently dropped keys. No actual fits were
+performed before setting this policy. Code/config and tolerances require
+independent Astra2/3 approval before the sole operator runs.
