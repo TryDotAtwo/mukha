@@ -11,8 +11,11 @@ Archive SHA256 c74de270799633ed056d8b5e6a61a383a4a96797243e3a0453ec28e8ad2af4bb,
 Source: Astra1 outputs/temporal-transfer-003/temporal-transfer-003/result.json.
 Astra4 read stored parameters/profiles/errors and summarized them; no fitting,
 simulation, boundary changes or test-driven parameter choice was performed.
-Astra2 actual numerical reconstruction and Astra3 archive/provenance verdicts
-were pending when this report was written.
+Astra2 independently APPROVED the actual numerical result in d1e25b617df9c85576953849d68663d0971b0756:
+4589 floating comparisons, maximum error2.91434e-15. Astra3 APPROVED local-CPU
+provenance/structure in message35 with285 assertions. Both confirm the actual
+archive identity and the bounded location/claim; neither supplies biological
+validation. Their evidence is independent of this summary.
 
 ## Fixed question and answer
 
@@ -142,8 +145,8 @@ causal recurrence, physical stimulus calibration or male-connectome transfer.
 
 ## Next step only if the remaining question merits it
 
-No experiment is launched by this report. Close independent numerical and
-archive reviews first; preserve the mixed result and current predictions.
+No experiment is launched by this report. Independent numerical and archive
+reviews are closed; preserve the mixed result and current predictions.
 
 One genuinely targeted, but narrower, follow-up question would be whether the
 previously named memoryless cubic alternative accounts for the same transfers
