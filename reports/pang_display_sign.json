@@ -1,0 +1,209 @@
+{
+  "source_commit": "7fa5829e37d566e02beaaa87efd6a0f1de4e48c0",
+  "sources": [
+    {
+      "name": "plot_shortFlash_bootstrappedMetrics_compareGenotypes_L2Project.m",
+      "url": "https://raw.githubusercontent.com/ClandininLab/L1L2-recurrent-feedback/7fa5829e37d566e02beaaa87efd6a0f1de4e48c0/imaging-analysis/HHY_stimulusSpecificAnalysisScripts/plot_shortFlash_bootstrappedMetrics_compareGenotypes_L2Project.m",
+      "git_blob": "e2e33072ceb1ff3ab197b2505141eb44635ace6a",
+      "sha256": "a02cdf43c1e594f1ead0e972820d739221148993bada6750c0ff830fb632707b",
+      "bytes": 3504,
+      "selected_source_lines": [
+        {
+          "line": 29,
+          "text": "fieldList = {'area1', 'area2', 'areaRatio', 'tPeak1', 'tPeak2'};"
+        },
+        {
+          "line": 66,
+          "text": "(strcmpi(fieldList{j},'areaRatio'))"
+        },
+        {
+          "line": 67,
+          "text": "dataMatrix = dataMatrix * -1;"
+        },
+        {
+          "line": 71,
+          "text": "allMeans = mean(dataMatrix,1);"
+        },
+        {
+          "line": 73,
+          "text": "ciLowAll = allMeans - quantile(dataMatrix,ciLowVal,1);"
+        },
+        {
+          "line": 74,
+          "text": "ciHighAll = quantile(dataMatrix,ciHighVal,1) - allMeans;"
+        },
+        {
+          "line": 104,
+          "text": "(strcmpi(fieldList{j},'areaRatio'))"
+        },
+        {
+          "line": 105,
+          "text": "dataMatrix(:,i) = -1*..."
+        },
+        {
+          "line": 114,
+          "text": "allMeans = mean(dataMatrix,1);"
+        },
+        {
+          "line": 116,
+          "text": "ciLowAll = allMeans - quantile(dataMatrix,ciLowVal,1);"
+        },
+        {
+          "line": 117,
+          "text": "ciHighAll = quantile(dataMatrix,ciHighVal,1) - allMeans;"
+        }
+      ]
+    },
+    {
+      "name": "computeSignificance_shortFlash_bootstrappedMetrics_L2Project.m",
+      "url": "https://raw.githubusercontent.com/ClandininLab/L1L2-recurrent-feedback/7fa5829e37d566e02beaaa87efd6a0f1de4e48c0/imaging-analysis/HHY_stimulusSpecificAnalysisScripts/computeSignificance_shortFlash_bootstrappedMetrics_L2Project.m",
+      "git_blob": "2c86f7ff80e437c6b5a0aabf87343cdd8e7c60dd",
+      "sha256": "e7cc9ec1c60484694e4b282af7d46101708dcd8bced693bafcd3c0aa6a26991d",
+      "bytes": 3944,
+      "selected_source_lines": [
+        {
+          "line": 24,
+          "text": "fieldList = {'area1', 'area2', 'areaRatio', 'tPeak1', 'tPeak2'};"
+        },
+        {
+          "line": 67,
+          "text": "(strcmpi(fieldList{j},'areaRatio'))"
+        },
+        {
+          "line": 68,
+          "text": "dataMatrix = dataMatrix * -1;"
+        },
+        {
+          "line": 72,
+          "text": "allMeans = mean(dataMatrix,1);"
+        },
+        {
+          "line": 78,
+          "text": "ciLowAll = quantile(dataMatrix,ciLowVal,1);"
+        },
+        {
+          "line": 79,
+          "text": "ciHighAll = quantile(dataMatrix,ciHighVal,1);"
+        },
+        {
+          "line": 113,
+          "text": "(strcmpi(fieldList{j},'areaRatio'))"
+        },
+        {
+          "line": 114,
+          "text": "dataMatrix(:,i) = -1*..."
+        },
+        {
+          "line": 125,
+          "text": "allMeans = mean(dataMatrix,1);"
+        },
+        {
+          "line": 131,
+          "text": "ciLowAll = quantile(dataMatrix,ciLowVal,1);"
+        },
+        {
+          "line": 132,
+          "text": "ciHighAll = quantile(dataMatrix,ciHighVal,1);"
+        }
+      ]
+    },
+    {
+      "name": "returnMetricSAF.m",
+      "url": "https://raw.githubusercontent.com/ClandininLab/L1L2-recurrent-feedback/7fa5829e37d566e02beaaa87efd6a0f1de4e48c0/imaging-analysis/HHY_stimulusSpecificAnalysisScripts/returnMetricSAF.m",
+      "git_blob": "7a56bb14fa73b274700db992e6f49209e5cdbfd2",
+      "sha256": "66e239b0796164ce0020094e639bd5e1ed1a67f16ed02397fd646eba9a3cf0fe",
+      "bytes": 1414,
+      "selected_source_lines": []
+    }
+  ],
+  "controls": {
+    "four_sign_cases": "pass",
+    "invalid_inputs": "rejected",
+    "synthetic_raw_ratios": [
+      -2.0,
+      1.0
+    ],
+    "mean_after_negation": 0.5,
+    "mean_after_absolute_value": 1.5
+  },
+  "executed_script_sha256": "f4acb397d620cc42c1f6884a37e01609bf87117d19b0dbc36a2981f9945cbf94",
+  "historical_input_sha256": "8acfef3940ce736afda0f95ef4c44cd839259c973b25f5069f8f3965cccc70f1",
+  "source_transform": {
+    "dark": {
+      "area1": -1,
+      "area2": 1,
+      "areaRatio": -1
+    },
+    "light": {
+      "area1": 1,
+      "area2": -1,
+      "areaRatio": -1
+    }
+  },
+  "transform_order": "returnMetricSAF extracts bootstrap metric values; negate selected metrics; then mean and quantile",
+  "scope": "Static inspection of these pinned scripts plus arithmetic controls; no general MATLAB interpretation",
+  "processed_mean_illustrations": [
+    {
+      "file": "L1_highLum.mat",
+      "row": 0,
+      "historical_absolute_ratio": 5.869375199541058,
+      "negative_signed_ratio_on_same_historical_areas": 5.869375199541058,
+      "absolute_hides_sign": false
+    },
+    {
+      "file": "L1_highLum.mat",
+      "row": 1,
+      "historical_absolute_ratio": 0.044967506319576724,
+      "negative_signed_ratio_on_same_historical_areas": -0.044967506319576724,
+      "absolute_hides_sign": true
+    },
+    {
+      "file": "L1_lowLum.mat",
+      "row": 0,
+      "historical_absolute_ratio": 2.3195261441692465,
+      "negative_signed_ratio_on_same_historical_areas": 2.3195261441692465,
+      "absolute_hides_sign": false
+    },
+    {
+      "file": "L1_lowLum.mat",
+      "row": 1,
+      "historical_absolute_ratio": 0.03798341594985855,
+      "negative_signed_ratio_on_same_historical_areas": 0.03798341594985855,
+      "absolute_hides_sign": false
+    },
+    {
+      "file": "L2_highLum.mat",
+      "row": 0,
+      "historical_absolute_ratio": 2.5074345957659503,
+      "negative_signed_ratio_on_same_historical_areas": 2.5074345957659503,
+      "absolute_hides_sign": false
+    },
+    {
+      "file": "L2_highLum.mat",
+      "row": 1,
+      "historical_absolute_ratio": 0.4784251400355823,
+      "negative_signed_ratio_on_same_historical_areas": 0.4784251400355823,
+      "absolute_hides_sign": false
+    },
+    {
+      "file": "L2_lowLum.mat",
+      "row": 0,
+      "historical_absolute_ratio": 1.4583109613113032,
+      "negative_signed_ratio_on_same_historical_areas": 1.4583109613113032,
+      "absolute_hides_sign": false
+    },
+    {
+      "file": "L2_lowLum.mat",
+      "row": 1,
+      "historical_absolute_ratio": 0.5133588657575563,
+      "negative_signed_ratio_on_same_historical_areas": 0.5133588657575563,
+      "absolute_hides_sign": false
+    }
+  ],
+  "limitations": [
+    "No claim these scripts produced a specific published panel",
+    "Historical processed-mean areas retain different boundaries from author ROI bootstrap",
+    "No physiological latency, calibrated optical input, fly-level uncertainty or model score",
+    "Author significance script's nonoverlapping-CI heuristic is described, not endorsed as a statistical test"
+  ]
+}
