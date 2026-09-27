@@ -1,0 +1,98 @@
+{
+  "schema": "pang-window-factor-plan-v1",
+  "status": "proposed_not_executed",
+  "operator": "astra1",
+  "notebook": "faithful-fly-compact-recovery-v2",
+  "reference_archive_sha256": "713ffec2e9f62553b8a4b350b29611fd02c26f822a96ae93ec8a9617e640b6c2",
+  "reference_result_sha256": "a271bb07b0d5556ef08a1874353d63145947adce626fec6eef4133135b510591",
+  "reference_manifest_sha256": "df314608a6d18e91efad95938dfd4df0a6f3a7493bec3c8941526e1454d09ab2",
+  "input_mat_sha256": {
+    "L1_highLum.mat": "bbc8c90dbc57fba0c4d2afdebe29797e06360448a9dfb0b9018cd32583da6746",
+    "L1_lowLum.mat": "8b539a2b34c39e8fec11e6576f3f7badd1fc80815e93319093a4cf41ea03d33a",
+    "L2_highLum.mat": "1c9266f5c387a217013f8715a49f6351f78e9a9de9894a5ac2892b2a06cf6e36",
+    "L2_lowLum.mat": "49c0e5587618f9d11e0dea12a218b6eecd511e563d8d42ad986e9c410c6d012c"
+  },
+  "rows": [
+    0,
+    1
+  ],
+  "factor_order": [
+    "start",
+    "end",
+    "split"
+  ],
+  "conditions": [
+    "HHH",
+    "SHH",
+    "HSH",
+    "HHS",
+    "SSH",
+    "SHS",
+    "HSS",
+    "SSS"
+  ],
+  "expected_condition_rows": 64,
+  "primary_contrasts": [
+    [
+      "SHH",
+      "HHH"
+    ],
+    [
+      "HSH",
+      "HHH"
+    ],
+    [
+      "HHS",
+      "HHH"
+    ]
+  ],
+  "fixed_peak_policy": "zero-based 2 + first_argmax(polarity*y[2:31]); compute once per curve",
+  "common_grid": "u[i]=t[0]+i*median(diff(t)); no amplitude resampling",
+  "start_levels": {
+    "H": "u[2]",
+    "S": "u[frameZero1-1]"
+  },
+  "end_levels": {
+    "H": "u[searchsorted(original_t, original_t[2]+0.25, right)-1]",
+    "S": "u[floor(0.25/ifi)-1]"
+  },
+  "split_levels": {
+    "H": "linear zero in frozen [j-1,j] bracket on common grid",
+    "S": "u[j]; frozen first opposite-or-zero sample from source helper"
+  },
+  "fixed_baseline": 0,
+  "area_units": "deltaF/F seconds",
+  "raw_ratio": "A2/A1",
+  "display_ratio": "-A2/A1",
+  "numerical_thresholds": {
+    "max_clock_deviation_seconds": 1e-12,
+    "area_and_conservation_absolute": 1e-12,
+    "corner_ratio_absolute": 1e-10,
+    "minimum_abs_area1_for_ratio_check": 1e-10
+  },
+  "failures": [
+    "clock admissibility exceeded",
+    "source/corner mismatch",
+    "missing crossing",
+    "inconsistent original crossing bracket",
+    "invalid interval",
+    "zero first area",
+    "missing or duplicate condition key",
+    "noninteger or boolean frame index"
+  ],
+  "outputs": [
+    "signed A1",
+    "signed A2",
+    "total area",
+    "raw and display ratios",
+    "all boundary indices and times",
+    "clock deviation",
+    "corner residuals",
+    "baseline conditional contrasts",
+    "factor-averaged contrasts",
+    "pair and triple interactions",
+    "typed per-condition status"
+  ],
+  "interpretation": "deterministic measurement-convention effects on fixed processed means; no physiology, ROI bootstrap or animal-level uncertainty",
+  "execution_authorized_by_this_file": false
+}
