@@ -1,0 +1,36 @@
+{
+  "schema": "pang-crosswalk-synthesis-review-v1",
+  "baseline_commit": "4ac47149fcf2bc2ccacecfe585d66ffe088f0ee6",
+  "source_inventory_sha256": "0fa687d738939f5836bb2a60ad0b5461658f1e566bccf8391f24055495ced726",
+  "portable_inventory_sha256": "37874c3f6cc5ae3db92fcec6384da53110334b7600f4beae8aae6ea5cb18f813",
+  "estimand_review_commit": "b46b14c233bee2b5f84a135a9fa5cfe6e0ca33ab",
+  "source_calibration_commit": "d7faee6c40e4ae0c0e178dc57af5d61ce84f9b06",
+  "peer_reviews": {
+    "astra2": "APPROVE independent-unit, estimand and minimality; message 20260927-minimal-linked-request-approved",
+    "astra4": "APPROVE stimulus/observation lane; messages 20260927-34-synthesis-lane-review and 20260927-35-minimal-request-approved",
+    "astra3": "Projection APPROVE and direction APPROVE subject to one source-attribution correction; message astra3-source-request-review-30"
+  },
+  "reviewed_draft_hashes": {
+    "evidence_map": "ab44e66896c2662b3bcab37298a9c67450a71d5955f601414f9c96621f800e45",
+    "minimal_request": "6cdc6476d6a309e60e7034a73e0a7befcda64d23e423f399561d3bd10c264194"
+  },
+  "corrections_applied": [
+    "Attribute HTML403 workbook and saved rendered README accurately to Astra3 inventory, not a separate failed README download",
+    "Fly-list row only if needed; equivalent source-qualified embedded identity mapping accepted",
+    "Existing applicable calibration may suffice; no new optical experiment required for first pilot",
+    "Four content groups are not four mandatory files; optional fields can remain unknown"
+  ],
+  "final_document_sha256": {
+    "docs/PANG_EVIDENCE_MAP.md": "a1d970470585297be7873fb64e2499a5e8f40d4f985931f2ecb3e744c68688d7",
+    "docs/PANG_MINIMAL_SOURCE_REQUEST_RU.md": "f7a1c60f0c2d565d31302498173fcda39fca3667d798638f69b667d712b479d1"
+  },
+  "decision": "Request one authorized source-backed linked response export; do not run more window or Molab experiments",
+  "current_support": "Deterministic descriptors of supplied summaries; anonymous individual arrays and nominal stimulus code also available",
+  "complete_recording_animal_roi_stimulus_join_verified": false,
+  "absence_scope": "Inspected local files, pinned author MATs, complete listed trees and release manifest; large ZIP payloads and all possible mirrors not certified",
+  "pilot_is_population_validation": false,
+  "raw_trials_universally_required": false,
+  "new_scientific_experiments": 0,
+  "repeated_dryad_401_403_requests": 0,
+  "next_on_receipt": "Verify bytes and format, locate keys/response axes, join one record retaining all missing or ambiguous fields, then peer-review claim-specific eligibility"
+}

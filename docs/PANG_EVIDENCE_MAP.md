@@ -1,6 +1,6 @@
 # Pang evidence map and next admissible step
 
-Owner: Astra1 synthesis. Updated evidence draft for peer review; not a quantitative admission.
+Owner: Astra1 synthesis. Peer-reviewed source/claim map; not a quantitative admission.
 Baseline: reviewed integration4ac47149 and contractfd8cc72. No new computation,
 source-acquisition duplicate, or biological claim follows from this document.
 
@@ -20,7 +20,7 @@ claims or reconstruction that animal summaries do not preserve.
 | --- | --- | --- | --- |
 | Eight processed Pang mean curves | Authenticated four MAT files and eight rows; numerical window analysis independently reviewed | Contributor identities, construction weights and animal-resolved values not established by these means | Deterministic mean descriptors only; measurement001 and window-factor002 receipts |
 | Area/sign/window definitions | Fixed source-helper arithmetic and independent O/E/C analysis on supplied clock | Physical flash/acquisition synchronization is not established by t | Do not reinterpret trace-relative timing as physical latency; final interpretationfd8cc72 |
-| Recording metadata workbook | Local purported workbook and README download are HTML403, not source data | Actual workbook bytes/rows not acquired in inspected sources | Excluded; Astra3 inventory SHA256 0fa687d738939f5836bb2a60ad0b5461658f1e566bccf8391f24055495ced726 |
+| Recording metadata workbook | Local purported L1L2_Metadata.xlsx is an HTML403 body, not workbook data; saved rendered README is documentation, not acquired record rows | Actual workbook bytes/rows not acquired in inspected sources | Excluded; Astra3 inventory SHA256 0fa687d738939f5836bb2a60ad0b5461658f1e566bccf8391f24055495ced726 |
 | Independent unit / aggregation | Contract review identifies source-qualified keys, assignment unit and response-level requirements | IDs, response pointers, pooling/QC/weights must be observed in actual sources | Eight means,63 timepoints and64 policy rows are not independent n; reviewb46b14c |
 | CDM responses beyond controls | Four authenticated author MATs contain two anonymous response arrays each:56×63,33×63,102×63,91×63 | Animal/recording/ROI/trial identities, contributor weights and selection lineage absent from inspected MATs | More than eight means exist, but anonymous rows are not established independent animals or trials |
 | Natural-stimulus responses | Authenticated author MAT has52×708 individual-response array plus mean/time, absent from inspected release manifest | Identity and recording-specific waveform join; different stimulus | Not a substitute control cohort or independent n |
@@ -40,16 +40,19 @@ A pilot cannot establish animal replication or population coverage.
 
 A consolidated draft request in PANG_MINIMAL_SOURCE_REQUEST_RU.md specifies
 filenames/tables/array axes, source-qualified identifiers and pointers,
-construction rules and stimulus/observation fields. Peer review is pending. Do not
+construction rules and stimulus/observation fields. Peer review and corrections
+are recorded in reports/pang_crosswalk_synthesis_review.json. Do not
 ask for secrets, raw trials universally, author contact, or repeated blocked
 Dryad downloads. No fit/Molab run is justified by the current evidence map.
 
-## Ownership and outstanding reviews
+## Ownership and review record
 
 Astra3: source/field inventory and provenance; Astra2: estimand, independent
 units and leakage; Astra4: stimulus/observation primary sources; Astra1: synthesis
-and single user request. Final decision requires each peer to review their
-evidence lane and cross-check claim limits. MD coordination does not wake chats.
+and single user request. Astra2 approved independent-unit/minimality limits;
+Astra4 approved stimulus/observation scope; Astra3 approved the projection and
+required a source-attribution correction, now applied. Its two minimality
+clarifications were also applied. MD coordination does not wake chats.
 
 Portable source receipts/field shapes are in reports/pang_crosswalk_source_evidence.json,
 a digest-bound projection of Astra3 inventory, excluding local candidate paths.
