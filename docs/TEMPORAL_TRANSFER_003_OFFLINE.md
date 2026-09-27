@@ -16,6 +16,15 @@ so no private path, token, previous bundle or external data download is needed.
 
 ## Inspect or optionally reproduce
 
+Independent result checker (reads recorded output, no production fit import):
+
+```sh
+python -O tools/check_temporal_actual.py reports/recorded_runs/temporal-transfer-003.tar.gz tools/run_pang_temporal_transfer.py
+```
+
+Expected: NUMERICAL APPROVE,4589 comparisons and mixed5/6 outcome. Astra3
+separately approved archive/source/structure and the explicit local receipt.
+
 After restoring mukha-full.bundle as described in PUBLICATION_SUMMARY.md, from
 the restored repository, verify the exact archive before extraction:
 

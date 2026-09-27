@@ -91,6 +91,12 @@
       "outcome": "improved"
     }
   ],
-  "independent_actual_review": "pending",
+  "independent_actual_review": {
+    "astra2": "NUMERICAL APPROVE; d1e25b617df9c85576953849d68663d0971b0756",
+    "astra3": "APPROVE_ACTUAL_PROVENANCE_STRUCTURE_LOCAL_CPU; 285 integrity/structure checks",
+    "floating_comparisons": 4589,
+    "maximum_absolute_error": 2.914335439641036e-15,
+    "primary_all_six_advantage": "NOT MET: five improved, one worse"
+  },
   "interpretation": "Mixed six-transfer outcome; no universal H1 superiority, no memory necessity or feedback identity. Static nonlinearity/optical/indicator/cohort alternatives remain."
 }

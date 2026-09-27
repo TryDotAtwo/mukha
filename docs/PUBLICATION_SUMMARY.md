@@ -30,11 +30,12 @@ It is a transfer for review/publication, not a claim that changes were pushed.
   discovery failed before any experiment submission; no retry. H1 improves five
   transfers but worsens L2/highLum/light. The predeclared all-six advantage is
   therefore not met, even though summed normalized improvement is positive.
-  Actual numerical/provenance review is tracked in its summary/peer reports.
+  Actual result approved by independent numerical/provenance reviews:4589
+  floating comparisons (maximum discrepancy2.92e-15) and285 structure checks.
   The full archive and explicit LOCAL operator receipt are included.
 
-The discriminator's review status belongs in its own receipt; do not confuse
-successful execution with independent result approval. No KSP, paid resources
+The result is reproducible, but the all-six predictive-superiority hypothesis
+failed; numerical approval is not biological approval. No KSP, paid resources
 or new chats were used for these increments.
 
 ## Restore and inspect
