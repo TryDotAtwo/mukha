@@ -26,7 +26,9 @@ claims or reconstruction that animal summaries do not preserve.
 | Natural-stimulus responses | Authenticated author MAT has52×708 individual-response array plus mean/time, absent from inspected release manifest | Identity and recording-specific waveform join; different stimulus | Not a substitute control cohort or independent n |
 | Public coverage boundary | Complete listed GitHub trees and12,506-entry release manifest checked; eight flash MATs match listed hashes | Large release ZIP payloads not independently audited; other stimulus-development MAT contents not all inspected | Absence is bounded to inspected files/listings, not all possible sources |
 | Stimulus code | Authenticated A/B/C configurations and generator:20ms flash,500ms gray; relative levels0/1,.25/.75,.375/.625 | No verified assignment of A/B/C to recording/mean rows; generator is not an acquired log | Nominal protocol exists; highLum/lowLum alone is not numeric calibration |
-| Documented acquisition schema | Rendered Dryad README names recording/animal/ROI, response and photodiode structures | Documented names are not observed per-recording values; calibration synthesis pending | Request actual linked bytes rather than more protocol/window tests |
+| Documented acquisition schema | Rendered Dryad README names recording/animal/ROI, response and photodiode structures | Documented names are not observed per-recording values | Request actual linked bytes rather than more protocol/window tests; source contractd7faee6 |
+| Export/aggregation code | shortFlashProcessed_saveMean selects ROI responses and averages ROI rows; computeDFF returns F/F0−1 after caller-dependent baseline fit | Exact generating invocation, ROI-to-animal map, selected contributors and processing settings missing for current exports | Script semantics are not proof of lineage; equal ROI weighting need not equal animal weighting; source contractd7faee6 |
+| Optical calibration | README documents PWM-current relation and original-blank-cell default, protocol filters and timing schema | Actual recording rows/filter values and physical transfer unavailable; article XML not re-read in current source audit | Do not replace unacquired PWM with200 or electrical current with radiance; prior article audit is explicitly secondary here |
 
 ## Candidate next action and acquisition boundary
 
@@ -52,3 +54,6 @@ evidence lane and cross-check claim limits. MD coordination does not wake chats.
 Portable source receipts/field shapes are in reports/pang_crosswalk_source_evidence.json,
 a digest-bound projection of Astra3 inventory, excluding local candidate paths.
 This is synthesis of independently inspected sources, not a duplicate acquisition.
+Source semantics and granular calibration limits are preserved in
+docs/PANG_SOURCE_CALIBRATION_CONTRACT.md and
+reports/pang_calibration_source_excerpts.json (three hash-bound code transcripts).

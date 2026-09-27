@@ -11,8 +11,10 @@
    листа `All Metadata` и связанной строки `List of flies`. Нужны исходные
    `Time Series ID`/`seriesID`, `Fly ID`/`flyID`, genotype, известные age/sex,
    `Stimulus`/`stimcode`, Color filter, ND filter, PWM, Imaging Frame Rate,
-   QC/исключения. Укажите файл/версию и лист/строку источника; неизвестное
+   Frames, Z-depth/FOV, ditherHold, QC/исключения. Укажите файл/версию и лист/строку источника; неизвестное
    оставьте неизвестным с причиной, не восстанавливайте по имени файла.
+   Отличайте исходную пустую ячейку от недоступного значения: правило PWM200
+   относится к документированным исходным пустым ячейкам, а не к отсутствующей таблице.
 2. Один соответствующий analyzed MAT с `roiDataMat`, `roiMetaMat`, `iResp`
    либо эквивалентный экспорт одного отдельно идентифицируемого ответа.
    Сохраните связь `seriesID`/`flyID`, ROI mask/index или aggregation mapping,
@@ -24,10 +26,14 @@
    протокола именно этой записи, имевшиеся waveform/epoch данные,
    `imFrameStartTimes`/`imIFI`, photodiode/flash timestamps и схема их
    синхронизации. Добавьте фактические optical/PWM/filter настройки и ссылку
-   на применимую калибровку; отсутствие измерений обозначьте явно.
+   на применимую калибровку, если она уже имеется; отсутствие измерений обозначьте явно.
+   Отдельный stim.mat/CSV нужен только если соответствующих временных данных
+   нет внутри MAT. Новое измерение optical transfer для пилота не запрашивается;
+   оно потребуется перед физическим количественным scoring.
 4. Краткий словарь/таблица связей: локальная область уникальности animal,
    recording и ROI IDs; response pointer (MAT variable/row/column), genotype,
-   indicator, единицы/полярность, F0/baseline, filtering/resampling и pooling/
+   indicator, единицы/полярность, F0/baseline и интервал baseline-fit,
+   filtering/resampling (interpFrameRate/binWidthMult) и pooling/
    веса/QC. Если ответ использован в опубликованном meanResp, укажите
    published_curve_id и известный contributor mapping; иначе обозначьте
    связь как неизвестную/неприменимую. Сохраните batch/assignment unit, если
