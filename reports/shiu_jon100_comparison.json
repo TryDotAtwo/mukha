@@ -1,0 +1,30 @@
+{
+  "candidate_backend": "rust-native-cuda-cusparse-fp64",
+  "instrumentation": "none",
+  "nodes": 127400,
+  "edges": 14687178,
+  "steps": 10000,
+  "protocol_sha256": "1b8288747002bfdf337d6158af9bc1546b9d9fd7ccf79c75ed157cda5330782a",
+  "all_spike_events_exact": true,
+  "gpu_spikes": 18012,
+  "brian_spikes": 18012,
+  "gpu_only_events": 0,
+  "brian_only_events": 0,
+  "target_spikes_exact": true,
+  "target_spike_count": 0,
+  "max_target_voltage_error_mv": 5.329070518200751e-13,
+  "voltage_tolerance_mv": 0.002,
+  "numerical_comparison_passed": true,
+  "predicted_target_responded": false,
+  "gpu_wall_seconds": 38.2418664,
+  "brian_wall_seconds": 66.17200000002049,
+  "source_reports": {
+    "shiu_jon100_native64.json": "2cc034a4d7b83c374dc44cc4285a7d6989c81f31f799317ed1520978afc82870",
+    "shiu_jon100_brian.json": "ca1683af4ee0d054df91c1dd8f49067992d56a35232f3b0fd3c361e942035a1e"
+  },
+  "spike_files": {
+    "shiu_jon100_native64.spikes.bin": "db6ff5814c49ae8a0e82d3f4b4948104f9bba6758f68001f24017b2fdf7f5c9e",
+    "shiu_jon100_brian.spikes.bin": "db6ff5814c49ae8a0e82d3f4b4948104f9bba6758f68001f24017b2fdf7f5c9e"
+  },
+  "scope": "original full author graph, one preregistered pilot, shared inputs; biological replication gate remains open"
+}

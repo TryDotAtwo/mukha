@@ -1,0 +1,90 @@
+{
+  "scope": "voltage-clamped two-cell numerical diagnostic at equal physical time",
+  "dll_sha256": "abd1945e2497b31f1489d04231e3d306cfb8b4ac5bd1cfd4b4b53d09c48c02a1",
+  "weight_semantics_for_graded_source": "steady synaptic-state contribution at unit release",
+  "step_contribution": "weight * release * (1-exp(-dt/tau_synapse))",
+  "graded_release_raw": 0.5,
+  "refractory_physical_ms": 2.0,
+  "delay_physical_ms": 1.0,
+  "traces": [
+    {
+      "dt_ms": 0.2,
+      "delay_ticks": 5,
+      "refractory_ticks": 10,
+      "values": {
+        "20": {
+          "observed_g": 0.48835812981255144,
+          "analytical_g": 0.4883581298125515,
+          "observed_receiver_voltage_mv": -59.649338155648934,
+          "source_pre_integration_voltage_mv": -50.0,
+          "active_physical_ms": 18.8
+        },
+        "100": {
+          "observed_g": 0.4999999986898802,
+          "analytical_g": 0.4999999986898801,
+          "observed_receiver_voltage_mv": -59.50995134351644,
+          "source_pre_integration_voltage_mv": -50.0,
+          "active_physical_ms": 98.80000000000001
+        }
+      }
+    },
+    {
+      "dt_ms": 0.1,
+      "delay_ticks": 10,
+      "refractory_ticks": 20,
+      "values": {
+        "20": {
+          "observed_g": 0.4885886542874536,
+          "analytical_g": 0.4885886542874535,
+          "observed_receiver_voltage_mv": -59.643883951442355,
+          "source_pre_integration_voltage_mv": -50.0,
+          "active_physical_ms": 18.900000000000002
+        },
+        "100": {
+          "observed_g": 0.49999999871582224,
+          "analytical_g": 0.49999999871582224,
+          "observed_receiver_voltage_mv": -59.505025508655244,
+          "source_pre_integration_voltage_mv": -50.0,
+          "active_physical_ms": 98.9
+        }
+      }
+    },
+    {
+      "dt_ms": 0.05,
+      "delay_ticks": 20,
+      "refractory_ticks": 40,
+      "values": {
+        "20": {
+          "observed_g": 0.48870219907443885,
+          "analytical_g": 0.48870219907443907,
+          "observed_receiver_voltage_mv": -59.64113943661266,
+          "source_pre_integration_voltage_mv": -50.0,
+          "active_physical_ms": 18.95
+        },
+        "100": {
+          "observed_g": 0.4999999987285999,
+          "analytical_g": 0.4999999987286,
+          "observed_receiver_voltage_mv": -59.50254405956514,
+          "source_pre_integration_voltage_mv": -50.0,
+          "active_physical_ms": 98.95
+        }
+      }
+    }
+  ],
+  "g_spread_at_20ms": 0.00034406926188740306,
+  "g_spread_at_100ms": 3.871969411761711e-11,
+  "continuum_g_at_20ms": 0.4888146140719172,
+  "errors_toward_continuum_at_20ms": [
+    0.00045648425936573034,
+    0.00022595978446354748,
+    0.00011241499747832728
+  ],
+  "idealized_continuum_receiver_voltage_at_20ms_mv": -59.638383233294554,
+  "voltage_errors_toward_idealized_continuum_at_20ms_mv": [
+    0.010954922354379448,
+    0.005500718147800399,
+    0.002756203318106998
+  ],
+  "voltage_continuum_scope": "Constant source release=0.5 beginning at a physical 1-ms delay, tau_m=10ms, tau_s=5ms: V-rest=0.5*(1-exp(-(t-delay)/10ms))^2. The CUDA source initial step and split scheduling approach this limit; this is not an exact solution for arbitrary network inputs.",
+  "biological_calibration": false
+}

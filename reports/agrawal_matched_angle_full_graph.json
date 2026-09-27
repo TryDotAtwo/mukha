@@ -1,0 +1,151 @@
+{
+  "scope": "full native graph, two opposite angle histories with matched final angle; uncalibrated positive-half-wave single-cell encoder",
+  "graph_sha256": "4a7c892fe278bc6f1e96548c34c376bf49bce1d589af12911cf047a4cf1bf8f8",
+  "dll_sha256": "b01f471f7e586f202320226f85de2c50658d0300cda1f21cd8c5af4ba50e0f0f",
+  "encoder_spec_sha256": "15e4d570dd0a5b79d8a009409e850179dab22b05f7a9559ddd2314628e144706",
+  "history_ms": 100.0,
+  "hold_ms": 300.0,
+  "history_angles_deg": {
+    "extension_history": 10.0,
+    "flexion_history": -10.0
+  },
+  "common_hold_angle_deg": 0.0,
+  "candidate_body_ids": [
+    800115,
+    800306,
+    800514,
+    801154,
+    801254,
+    801374,
+    803431,
+    804781,
+    806911,
+    813697,
+    814394,
+    907687,
+    914246
+  ],
+  "event_counts": {
+    "extension_history": {
+      "all_events": 51,
+      "source_events": 44,
+      "candidate_events": 0
+    },
+    "flexion_history": {
+      "all_events": 0,
+      "source_events": 0,
+      "candidate_events": 0
+    }
+  },
+  "comparisons": [
+    {
+      "hold_ms": 0,
+      "different_voltage_cells": 784,
+      "maximum_voltage_difference_mv": 19.068802676020525,
+      "different_synaptic_cells": 784,
+      "maximum_synaptic_difference_mv": 41.11485313765245,
+      "candidate_13b_voltage_differences_mv": [
+        -0.47990801782571424,
+        -0.5071964767976382,
+        -0.39807164444668786,
+        0.0,
+        -0.5289965056351207,
+        2.7323696757708476,
+        0.0,
+        0.0,
+        -0.08453274613298589,
+        0.0,
+        0.0,
+        0.0,
+        1.0171226668941031
+      ],
+      "source_voltage_difference_mv": 0.0,
+      "event_count_extension": 0,
+      "event_count_flexion": 0
+    },
+    {
+      "hold_ms": 20,
+      "different_voltage_cells": 784,
+      "maximum_voltage_difference_mv": 11.805775269960549,
+      "different_synaptic_cells": 784,
+      "maximum_synaptic_difference_mv": 0.7530448030325747,
+      "candidate_13b_voltage_differences_mv": [
+        -0.26984087978362226,
+        -0.3207202843141843,
+        -0.4134243874017187,
+        0.0,
+        -0.3092874212757266,
+        1.4473959723822105,
+        0.0,
+        0.0,
+        -0.05345338071906269,
+        0.0,
+        0.0,
+        0.0,
+        0.524485841807973
+      ],
+      "source_voltage_difference_mv": 0.0,
+      "event_count_extension": 0,
+      "event_count_flexion": 0
+    },
+    {
+      "hold_ms": 100,
+      "different_voltage_cells": 784,
+      "maximum_voltage_difference_mv": 0.22082778729124897,
+      "different_synaptic_cells": 784,
+      "maximum_synaptic_difference_mv": 8.474402848069729e-08,
+      "candidate_13b_voltage_differences_mv": [
+        -0.0050318367861095226,
+        -0.006002918406380786,
+        -0.007811164718638963,
+        0.0,
+        -0.005774850391702557,
+        0.02696012054161656,
+        0.0,
+        0.0,
+        -0.0010004864010682013,
+        0.0,
+        0.0,
+        0.0,
+        0.009759125233621546
+      ],
+      "source_voltage_difference_mv": 0.0,
+      "event_count_extension": 0,
+      "event_count_flexion": 0
+    },
+    {
+      "hold_ms": 300,
+      "different_voltage_cells": 784,
+      "maximum_voltage_difference_mv": 1.0025567291904736e-05,
+      "different_synaptic_cells": 784,
+      "maximum_synaptic_difference_mv": 3.6002265400648498e-25,
+      "candidate_13b_voltage_differences_mv": [
+        -2.2844509572905736e-07,
+        -2.7253211243305486e-07,
+        -3.546263798170912e-07,
+        0.0,
+        -2.621778421030285e-07,
+        1.223987702303475e-06,
+        0.0,
+        0.0,
+        -4.542201992308037e-08,
+        0.0,
+        0.0,
+        0.0,
+        4.430636479924033e-07
+      ],
+      "source_voltage_difference_mv": 0.0,
+      "event_count_extension": 0,
+      "event_count_flexion": 0
+    }
+  ],
+  "biological_13b_identity_approved": false,
+  "agrawal_protocol_reproduced": false,
+  "biological_reaction_reproduced": false,
+  "limitations": [
+    "The current single-cell rectified angle-to-voltage encoder has unmeasured gain, polarity and cell identity.",
+    "The 100-ms history and 300-ms hold do not reproduce the paper's 3-s ramp-and-hold protocol.",
+    "These IN13B graph candidates have no approved individual 13Balpha crosswalk.",
+    "Voltages and synaptic state are uniform LIF diagnostics, not recorded graded membrane potentials."
+  ]
+}

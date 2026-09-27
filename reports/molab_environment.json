@@ -1,0 +1,19 @@
+{
+  "notebook": "faithful-fly-malecns-native",
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition, 97887 MiB, 595.71.05",
+  "compilers": {
+    "nvcc": null,
+    "g++": "/usr/bin/g++",
+    "cmake": null,
+    "rustc": null,
+    "cargo": null
+  },
+  "cpu_affinity_count": 20,
+  "cgroup_cpu_max": null,
+  "cgroup_memory_max": null,
+  "scope": "Environment probe only; no full-brain simulation or training executed",
+  "notebook_url": "https://molab.marimo.io/notebooks/nb_swoxyEkQ49XKqaajMAuPtR",
+  "ui_requested_cpu": 4,
+  "ui_requested_ram_gib": 32,
+  "cpu_note": "Affinity is not allocation/quota; cgroup v2 limits were unavailable."
+}

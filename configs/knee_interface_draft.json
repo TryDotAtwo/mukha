@@ -1,0 +1,394 @@
+{
+  "scope": "Disabled engineering interface draft, not a validated biological motor map",
+  "curated_table_sha256": "b4eecfe670321166ee9ea851f9156f4700d1eca6249488301d6dcf5373942519",
+  "axis_calibration_sha256": "50b4bbaebd29cc432c74d4e7309079116746f80742a126740047705e9983a285",
+  "entries": [
+    {
+      "body_id": 800158,
+      "graph_index": 144900,
+      "curated_manc_group": 10347,
+      "muscle_annotation": "Ti extensor",
+      "proposed_joint": "rh_trochanterfemur-rh_tibia-pitch",
+      "proposed_torque_sign": -1,
+      "gain": null,
+      "activation_time_constant_ms": null,
+      "enabled": false,
+      "assumptions": [
+        "Effector side equals annotated soma side; needs anatomical validation.",
+        "Muscle action is approximated by a pure knee-pitch torque.",
+        "Accessory and principal flexors aggregate onto one joint axis."
+      ]
+    },
+    {
+      "body_id": 800621,
+      "graph_index": 145241,
+      "curated_manc_group": 13006,
+      "muscle_annotation": "Ti extensor",
+      "proposed_joint": "lh_trochanterfemur-lh_tibia-pitch",
+      "proposed_torque_sign": -1,
+      "gain": null,
+      "activation_time_constant_ms": null,
+      "enabled": false,
+      "assumptions": [
+        "Effector side equals annotated soma side; needs anatomical validation.",
+        "Muscle action is approximated by a pure knee-pitch torque.",
+        "Accessory and principal flexors aggregate onto one joint axis."
+      ]
+    },
+    {
+      "body_id": 800636,
+      "graph_index": 145248,
+      "curated_manc_group": 11706,
+      "muscle_annotation": "Ti extensor",
+      "proposed_joint": "lf_trochanterfemur-lf_tibia-pitch",
+      "proposed_torque_sign": -1,
+      "gain": null,
+      "activation_time_constant_ms": null,
+      "enabled": false,
+      "assumptions": [
+        "Effector side equals annotated soma side; needs anatomical validation.",
+        "Muscle action is approximated by a pure knee-pitch torque.",
+        "Accessory and principal flexors aggregate onto one joint axis."
+      ]
+    },
+    {
+      "body_id": 800911,
+      "graph_index": 145453,
+      "curated_manc_group": 10737,
+      "muscle_annotation": "Ti extensor",
+      "proposed_joint": "lm_trochanterfemur-lm_tibia-pitch",
+      "proposed_torque_sign": -1,
+      "gain": null,
+      "activation_time_constant_ms": null,
+      "enabled": false,
+      "assumptions": [
+        "Effector side equals annotated soma side; needs anatomical validation.",
+        "Muscle action is approximated by a pure knee-pitch torque.",
+        "Accessory and principal flexors aggregate onto one joint axis."
+      ]
+    },
+    {
+      "body_id": 801234,
+      "graph_index": 145689,
+      "curated_manc_group": 10461,
+      "muscle_annotation": "Ti extensor",
+      "proposed_joint": "lm_trochanterfemur-lm_tibia-pitch",
+      "proposed_torque_sign": -1,
+      "gain": null,
+      "activation_time_constant_ms": null,
+      "enabled": false,
+      "assumptions": [
+        "Effector side equals annotated soma side; needs anatomical validation.",
+        "Muscle action is approximated by a pure knee-pitch torque.",
+        "Accessory and principal flexors aggregate onto one joint axis."
+      ]
+    },
+    {
+      "body_id": 802295,
+      "graph_index": 146483,
+      "curated_manc_group": 15623,
+      "muscle_annotation": "Ti flexor",
+      "proposed_joint": "lm_trochanterfemur-lm_tibia-pitch",
+      "proposed_torque_sign": 1,
+      "gain": null,
+      "activation_time_constant_ms": null,
+      "enabled": false,
+      "assumptions": [
+        "Effector side equals annotated soma side; needs anatomical validation.",
+        "Muscle action is approximated by a pure knee-pitch torque.",
+        "Accessory and principal flexors aggregate onto one joint axis."
+      ]
+    },
+    {
+      "body_id": 803072,
+      "graph_index": 147072,
+      "curated_manc_group": 12585,
+      "muscle_annotation": "Ti flexor",
+      "proposed_joint": "rh_trochanterfemur-rh_tibia-pitch",
+      "proposed_torque_sign": 1,
+      "gain": null,
+      "activation_time_constant_ms": null,
+      "enabled": false,
+      "assumptions": [
+        "Effector side equals annotated soma side; needs anatomical validation.",
+        "Muscle action is approximated by a pure knee-pitch torque.",
+        "Accessory and principal flexors aggregate onto one joint axis."
+      ]
+    },
+    {
+      "body_id": 804257,
+      "graph_index": 148012,
+      "curated_manc_group": 11657,
+      "muscle_annotation": "Ti extensor",
+      "proposed_joint": "rf_trochanterfemur-rf_tibia-pitch",
+      "proposed_torque_sign": -1,
+      "gain": null,
+      "activation_time_constant_ms": null,
+      "enabled": false,
+      "assumptions": [
+        "Effector side equals annotated soma side; needs anatomical validation.",
+        "Muscle action is approximated by a pure knee-pitch torque.",
+        "Accessory and principal flexors aggregate onto one joint axis."
+      ]
+    },
+    {
+      "body_id": 804405,
+      "graph_index": 148126,
+      "curated_manc_group": 15623,
+      "muscle_annotation": "Ti flexor",
+      "proposed_joint": "rm_trochanterfemur-rm_tibia-pitch",
+      "proposed_torque_sign": 1,
+      "gain": null,
+      "activation_time_constant_ms": null,
+      "enabled": false,
+      "assumptions": [
+        "Effector side equals annotated soma side; needs anatomical validation.",
+        "Muscle action is approximated by a pure knee-pitch torque.",
+        "Accessory and principal flexors aggregate onto one joint axis."
+      ]
+    },
+    {
+      "body_id": 804919,
+      "graph_index": 148545,
+      "curated_manc_group": 12585,
+      "muscle_annotation": "Ti flexor",
+      "proposed_joint": "lh_trochanterfemur-lh_tibia-pitch",
+      "proposed_torque_sign": 1,
+      "gain": null,
+      "activation_time_constant_ms": null,
+      "enabled": false,
+      "assumptions": [
+        "Effector side equals annotated soma side; needs anatomical validation.",
+        "Muscle action is approximated by a pure knee-pitch torque.",
+        "Accessory and principal flexors aggregate onto one joint axis."
+      ]
+    },
+    {
+      "body_id": 809670,
+      "graph_index": 152506,
+      "curated_manc_group": 13784,
+      "muscle_annotation": "Acc. ti flexor",
+      "proposed_joint": "lm_trochanterfemur-lm_tibia-pitch",
+      "proposed_torque_sign": 1,
+      "gain": null,
+      "activation_time_constant_ms": null,
+      "enabled": false,
+      "assumptions": [
+        "Effector side equals annotated soma side; needs anatomical validation.",
+        "Muscle action is approximated by a pure knee-pitch torque.",
+        "Accessory and principal flexors aggregate onto one joint axis."
+      ]
+    },
+    {
+      "body_id": 809935,
+      "graph_index": 152728,
+      "curated_manc_group": 13006,
+      "muscle_annotation": "Ti extensor",
+      "proposed_joint": "rh_trochanterfemur-rh_tibia-pitch",
+      "proposed_torque_sign": -1,
+      "gain": null,
+      "activation_time_constant_ms": null,
+      "enabled": false,
+      "assumptions": [
+        "Effector side equals annotated soma side; needs anatomical validation.",
+        "Muscle action is approximated by a pure knee-pitch torque.",
+        "Accessory and principal flexors aggregate onto one joint axis."
+      ]
+    },
+    {
+      "body_id": 812953,
+      "graph_index": 155145,
+      "curated_manc_group": 10347,
+      "muscle_annotation": "Ti extensor",
+      "proposed_joint": "lh_trochanterfemur-lh_tibia-pitch",
+      "proposed_torque_sign": -1,
+      "gain": null,
+      "activation_time_constant_ms": null,
+      "enabled": false,
+      "assumptions": [
+        "Effector side equals annotated soma side; needs anatomical validation.",
+        "Muscle action is approximated by a pure knee-pitch torque.",
+        "Accessory and principal flexors aggregate onto one joint axis."
+      ]
+    },
+    {
+      "body_id": 815344,
+      "graph_index": 156979,
+      "curated_manc_group": 11657,
+      "muscle_annotation": "Ti extensor",
+      "proposed_joint": "lf_trochanterfemur-lf_tibia-pitch",
+      "proposed_torque_sign": -1,
+      "gain": null,
+      "activation_time_constant_ms": null,
+      "enabled": false,
+      "assumptions": [
+        "Effector side equals annotated soma side; needs anatomical validation.",
+        "Muscle action is approximated by a pure knee-pitch torque.",
+        "Accessory and principal flexors aggregate onto one joint axis."
+      ]
+    },
+    {
+      "body_id": 815678,
+      "graph_index": 157213,
+      "curated_manc_group": 11706,
+      "muscle_annotation": "Ti extensor",
+      "proposed_joint": "rf_trochanterfemur-rf_tibia-pitch",
+      "proposed_torque_sign": -1,
+      "gain": null,
+      "activation_time_constant_ms": null,
+      "enabled": false,
+      "assumptions": [
+        "Effector side equals annotated soma side; needs anatomical validation.",
+        "Muscle action is approximated by a pure knee-pitch torque.",
+        "Accessory and principal flexors aggregate onto one joint axis."
+      ]
+    },
+    {
+      "body_id": 817509,
+      "graph_index": 158408,
+      "curated_manc_group": 12761,
+      "muscle_annotation": "Acc. ti flexor",
+      "proposed_joint": "rf_trochanterfemur-rf_tibia-pitch",
+      "proposed_torque_sign": 1,
+      "gain": null,
+      "activation_time_constant_ms": null,
+      "enabled": false,
+      "assumptions": [
+        "Effector side equals annotated soma side; needs anatomical validation.",
+        "Muscle action is approximated by a pure knee-pitch torque.",
+        "Accessory and principal flexors aggregate onto one joint axis."
+      ]
+    },
+    {
+      "body_id": 819869,
+      "graph_index": 159501,
+      "curated_manc_group": 12761,
+      "muscle_annotation": "Acc. ti flexor",
+      "proposed_joint": "lf_trochanterfemur-lf_tibia-pitch",
+      "proposed_torque_sign": 1,
+      "gain": null,
+      "activation_time_constant_ms": null,
+      "enabled": false,
+      "assumptions": [
+        "Effector side equals annotated soma side; needs anatomical validation.",
+        "Muscle action is approximated by a pure knee-pitch torque.",
+        "Accessory and principal flexors aggregate onto one joint axis."
+      ]
+    },
+    {
+      "body_id": 830514,
+      "graph_index": 160570,
+      "curated_manc_group": 10737,
+      "muscle_annotation": "Ti extensor",
+      "proposed_joint": "rm_trochanterfemur-rm_tibia-pitch",
+      "proposed_torque_sign": -1,
+      "gain": null,
+      "activation_time_constant_ms": null,
+      "enabled": false,
+      "assumptions": [
+        "Effector side equals annotated soma side; needs anatomical validation.",
+        "Muscle action is approximated by a pure knee-pitch torque.",
+        "Accessory and principal flexors aggregate onto one joint axis."
+      ]
+    },
+    {
+      "body_id": 905235,
+      "graph_index": 162056,
+      "curated_manc_group": 16495,
+      "muscle_annotation": "Acc. ti flexor",
+      "proposed_joint": "rm_trochanterfemur-rm_tibia-pitch",
+      "proposed_torque_sign": 1,
+      "gain": null,
+      "activation_time_constant_ms": null,
+      "enabled": false,
+      "assumptions": [
+        "Effector side equals annotated soma side; needs anatomical validation.",
+        "Muscle action is approximated by a pure knee-pitch torque.",
+        "Accessory and principal flexors aggregate onto one joint axis."
+      ]
+    },
+    {
+      "body_id": 908094,
+      "graph_index": 162869,
+      "curated_manc_group": 16495,
+      "muscle_annotation": "Acc. ti flexor",
+      "proposed_joint": "lm_trochanterfemur-lm_tibia-pitch",
+      "proposed_torque_sign": 1,
+      "gain": null,
+      "activation_time_constant_ms": null,
+      "enabled": false,
+      "assumptions": [
+        "Effector side equals annotated soma side; needs anatomical validation.",
+        "Muscle action is approximated by a pure knee-pitch torque.",
+        "Accessory and principal flexors aggregate onto one joint axis."
+      ]
+    },
+    {
+      "body_id": 909255,
+      "graph_index": 163317,
+      "curated_manc_group": 13784,
+      "muscle_annotation": "Acc. ti flexor",
+      "proposed_joint": "rm_trochanterfemur-rm_tibia-pitch",
+      "proposed_torque_sign": 1,
+      "gain": null,
+      "activation_time_constant_ms": null,
+      "enabled": false,
+      "assumptions": [
+        "Effector side equals annotated soma side; needs anatomical validation.",
+        "Muscle action is approximated by a pure knee-pitch torque.",
+        "Accessory and principal flexors aggregate onto one joint axis."
+      ]
+    },
+    {
+      "body_id": 910178,
+      "graph_index": 163599,
+      "curated_manc_group": 12585,
+      "muscle_annotation": "Ti flexor",
+      "proposed_joint": "rh_trochanterfemur-rh_tibia-pitch",
+      "proposed_torque_sign": 1,
+      "gain": null,
+      "activation_time_constant_ms": null,
+      "enabled": false,
+      "assumptions": [
+        "Effector side equals annotated soma side; needs anatomical validation.",
+        "Muscle action is approximated by a pure knee-pitch torque.",
+        "Accessory and principal flexors aggregate onto one joint axis."
+      ]
+    },
+    {
+      "body_id": 927808,
+      "graph_index": 164711,
+      "curated_manc_group": 15623,
+      "muscle_annotation": "Ti flexor",
+      "proposed_joint": "lm_trochanterfemur-lm_tibia-pitch",
+      "proposed_torque_sign": 1,
+      "gain": null,
+      "activation_time_constant_ms": null,
+      "enabled": false,
+      "assumptions": [
+        "Effector side equals annotated soma side; needs anatomical validation.",
+        "Muscle action is approximated by a pure knee-pitch torque.",
+        "Accessory and principal flexors aggregate onto one joint axis."
+      ]
+    },
+    {
+      "body_id": 928579,
+      "graph_index": 164731,
+      "curated_manc_group": 10461,
+      "muscle_annotation": "Ti extensor",
+      "proposed_joint": "rm_trochanterfemur-rm_tibia-pitch",
+      "proposed_torque_sign": -1,
+      "gain": null,
+      "activation_time_constant_ms": null,
+      "enabled": false,
+      "assumptions": [
+        "Effector side equals annotated soma side; needs anatomical validation.",
+        "Muscle action is approximated by a pure knee-pitch torque.",
+        "Accessory and principal flexors aggregate onto one joint axis."
+      ]
+    }
+  ],
+  "unrepresented_leg_motor_rows": 357,
+  "unrepresented_cells_remain_in_full_neural_graph": true,
+  "ready_for_neural_control": false
+}

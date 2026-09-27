@@ -1,0 +1,27 @@
+{
+  "scope": "Published projector source physics, dimensional conversion only; no individual receptor absorption estimate",
+  "source_url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC11769683/unicode",
+  "source_sha256": "6c9414dc8e011687d4c515ac17f2035445252578e6172e1d851cb67e21ce0103",
+  "article_doi": "10.1016/j.cub.2024.11.064",
+  "reported_projector": {
+    "light_source": "DLP LightCrafter 4500 blue LED",
+    "bandpass_center_nm": 482,
+    "bandpass_width_nm": 18,
+    "refresh_hz": 300,
+    "pixel_levels": 64,
+    "radiance_approx_mw_per_sr_per_m2_at_482nm": 78
+  },
+  "conversion": {
+    "assumed_monochromatic_wavelength_nm": 482.0,
+    "photon_energy_j": 4.121256965039271e-19,
+    "radiance_photons_per_s_per_sr_per_m2": 1.892626464733357e+17,
+    "radiance_photons_per_20ms_per_sr_per_m2": 3785252929466714.5,
+    "projector_frames_per_20ms": 6.0
+  },
+  "limits": [
+    "The article states an approximate projector radiance, without assigning it to each recording, flash level, PWM or neutral-density setting.",
+    "This is radiance per solid angle and area, not photon arrivals or absorptions per ommatidium.",
+    "Converting to receptor photon rate requires angular acceptance, effective collecting area, transmission and quantum efficiency, plus the recording-specific optical settings."
+  ],
+  "biological_validation": false
+}

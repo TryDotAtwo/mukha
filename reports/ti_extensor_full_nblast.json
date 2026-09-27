@@ -1,0 +1,409 @@
+{
+  "scope": "All 12 Ti extensor MN morphology screen; no muscle assignment",
+  "registration_report_sha256": "0f8970916f01d322eb7f7fc2721d233397689808ad1874135b56f7235ff501bf",
+  "vfb_manifest_sha256": "92e504cd01333527f0bd3910c66627cc6fb777c310e53e0c0fce09d67cd1d015",
+  "male_annotation_sha256": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2",
+  "manc_v1_annotation_sha256": "0c4476528906bb0a20e05e1f01e83fc2e5a582761536171ede5463669ca0b891",
+  "male_count": 12,
+  "manc_count": 12,
+  "groups": {
+    "T3_R": {
+      "male": [
+        800158,
+        809935
+      ],
+      "manc": [
+        10462,
+        13006
+      ]
+    },
+    "T3_L": {
+      "male": [
+        800621,
+        812953
+      ],
+      "manc": [
+        10347,
+        13075
+      ]
+    },
+    "T1_L": {
+      "male": [
+        800636,
+        815344
+      ],
+      "manc": [
+        11657,
+        12704
+      ]
+    },
+    "T2_L": {
+      "male": [
+        800911,
+        801234
+      ],
+      "manc": [
+        10737,
+        11115
+      ]
+    },
+    "T1_R": {
+      "male": [
+        804257,
+        815678
+      ],
+      "manc": [
+        11706,
+        13115
+      ]
+    },
+    "T2_R": {
+      "male": [
+        830514,
+        928579
+      ],
+      "manc": [
+        10461,
+        11489
+      ]
+    }
+  },
+  "method": {
+    "navis_version": "1.12.0",
+    "dotprops_k": [
+      10,
+      20,
+      40
+    ],
+    "scores": "mean",
+    "normalized": true,
+    "smat": "auto",
+    "caveat": "Auto score matrix is FCWB-trained, not VNC-specific; VFB MANC SWC release is not individually confirmed as v1.0."
+  },
+  "within_group_matrices": {
+    "10": {
+      "T1_L": {
+        "800636": {
+          "11657": 0.5667516507648493,
+          "12704": 0.6498319009893063
+        },
+        "815344": {
+          "11657": 0.6132313530739406,
+          "12704": 0.5784846458950959
+        }
+      },
+      "T1_R": {
+        "804257": {
+          "11706": 0.5542644109274566,
+          "13115": 0.6117422412745512
+        },
+        "815678": {
+          "11706": 0.6024147824014003,
+          "13115": 0.5875140687991582
+        }
+      },
+      "T2_L": {
+        "800911": {
+          "10737": 0.5675091046523042,
+          "11115": 0.5599991566754335
+        },
+        "801234": {
+          "10737": 0.4975718300301374,
+          "11115": 0.5954945725631322
+        }
+      },
+      "T2_R": {
+        "830514": {
+          "10461": 0.6622831895900836,
+          "11489": 0.6843526477331634
+        },
+        "928579": {
+          "10461": 0.6446886756821206,
+          "11489": 0.5941460131460881
+        }
+      },
+      "T3_L": {
+        "800621": {
+          "10347": 0.48321671500916963,
+          "13075": 0.6046940695252212
+        },
+        "812953": {
+          "10347": 0.5695997290611234,
+          "13075": 0.3718831897982202
+        }
+      },
+      "T3_R": {
+        "800158": {
+          "10462": 0.6737172340002259,
+          "13006": 0.6071320155016944
+        },
+        "809935": {
+          "10462": 0.38838260599574864,
+          "13006": 0.5456139088021867
+        }
+      }
+    },
+    "20": {
+      "T1_L": {
+        "800636": {
+          "11657": 0.5688882574771548,
+          "12704": 0.6516486928581977
+        },
+        "815344": {
+          "11657": 0.613784176343648,
+          "12704": 0.5793848477721564
+        }
+      },
+      "T1_R": {
+        "804257": {
+          "11706": 0.5558169193674637,
+          "13115": 0.6122858903737622
+        },
+        "815678": {
+          "11706": 0.6033030188798023,
+          "13115": 0.5881633078755524
+        }
+      },
+      "T2_L": {
+        "800911": {
+          "10737": 0.5682126910308762,
+          "11115": 0.5635591976962884
+        },
+        "801234": {
+          "10737": 0.4988647701514607,
+          "11115": 0.5964608922299752
+        }
+      },
+      "T2_R": {
+        "830514": {
+          "10461": 0.6654307400790087,
+          "11489": 0.6873630895808489
+        },
+        "928579": {
+          "10461": 0.6458936852027504,
+          "11489": 0.5944876480001813
+        }
+      },
+      "T3_L": {
+        "800621": {
+          "10347": 0.48444226145098257,
+          "13075": 0.6083558857319603
+        },
+        "812953": {
+          "10347": 0.5743735324272563,
+          "13075": 0.3748237667990483
+        }
+      },
+      "T3_R": {
+        "800158": {
+          "10462": 0.6760633855707041,
+          "13006": 0.6068939224038881
+        },
+        "809935": {
+          "10462": 0.3884846139323852,
+          "13006": 0.5480587111143445
+        }
+      }
+    },
+    "40": {
+      "T1_L": {
+        "800636": {
+          "11657": 0.5712028551886066,
+          "12704": 0.6555829943450788
+        },
+        "815344": {
+          "11657": 0.618304415658977,
+          "12704": 0.579816205906527
+        }
+      },
+      "T1_R": {
+        "804257": {
+          "11706": 0.5587187328207363,
+          "13115": 0.6152349526027807
+        },
+        "815678": {
+          "11706": 0.6064178183287822,
+          "13115": 0.5934190012784499
+        }
+      },
+      "T2_L": {
+        "800911": {
+          "10737": 0.5712083505764587,
+          "11115": 0.5684468080589017
+        },
+        "801234": {
+          "10737": 0.5013420174899399,
+          "11115": 0.6030961051190475
+        }
+      },
+      "T2_R": {
+        "830514": {
+          "10461": 0.6669837990867636,
+          "11489": 0.6898757205131862
+        },
+        "928579": {
+          "10461": 0.6495757816189753,
+          "11489": 0.598492020520199
+        }
+      },
+      "T3_L": {
+        "800621": {
+          "10347": 0.487240873726038,
+          "13075": 0.6129698087682268
+        },
+        "812953": {
+          "10347": 0.575998253198178,
+          "13075": 0.3769744885729982
+        }
+      },
+      "T3_R": {
+        "800158": {
+          "10462": 0.6762640223279931,
+          "13006": 0.6078155904705667
+        },
+        "809935": {
+          "10462": 0.3891311422534256,
+          "13006": 0.5480317870515438
+        }
+      }
+    }
+  },
+  "within_group_best_at_k20": [
+    {
+      "male_id": 800636,
+      "segment_side": "T1_L",
+      "best_manc_id": 12704,
+      "best_score": 0.6516486928581977,
+      "margin_to_second": 0.08276043538104294,
+      "best_is_k_stable": true,
+      "male_v1_mancBodyid": 12704,
+      "mancBodyid_matches_best": true,
+      "mancBodyid_type_in_official_manc_v1": "Ti extensor MN"
+    },
+    {
+      "male_id": 815344,
+      "segment_side": "T1_L",
+      "best_manc_id": 11657,
+      "best_score": 0.613784176343648,
+      "margin_to_second": 0.03439932857149164,
+      "best_is_k_stable": true,
+      "male_v1_mancBodyid": 10256,
+      "mancBodyid_matches_best": false,
+      "mancBodyid_type_in_official_manc_v1": "IN19A001"
+    },
+    {
+      "male_id": 804257,
+      "segment_side": "T1_R",
+      "best_manc_id": 13115,
+      "best_score": 0.6122858903737622,
+      "margin_to_second": 0.05646897100629855,
+      "best_is_k_stable": true,
+      "male_v1_mancBodyid": 13115,
+      "mancBodyid_matches_best": true,
+      "mancBodyid_type_in_official_manc_v1": "Ti extensor MN"
+    },
+    {
+      "male_id": 815678,
+      "segment_side": "T1_R",
+      "best_manc_id": 11706,
+      "best_score": 0.6033030188798023,
+      "margin_to_second": 0.015139711004249934,
+      "best_is_k_stable": true,
+      "male_v1_mancBodyid": 22126,
+      "mancBodyid_matches_best": false,
+      "mancBodyid_type_in_official_manc_v1": "Tergotr. MN"
+    },
+    {
+      "male_id": 800911,
+      "segment_side": "T2_L",
+      "best_manc_id": 10737,
+      "best_score": 0.5682126910308762,
+      "margin_to_second": 0.004653493334587866,
+      "best_is_k_stable": true,
+      "male_v1_mancBodyid": null,
+      "mancBodyid_matches_best": false,
+      "mancBodyid_type_in_official_manc_v1": null
+    },
+    {
+      "male_id": 801234,
+      "segment_side": "T2_L",
+      "best_manc_id": 11115,
+      "best_score": 0.5964608922299752,
+      "margin_to_second": 0.09759612207851454,
+      "best_is_k_stable": true,
+      "male_v1_mancBodyid": 11115,
+      "mancBodyid_matches_best": true,
+      "mancBodyid_type_in_official_manc_v1": "Ti extensor MN"
+    },
+    {
+      "male_id": 830514,
+      "segment_side": "T2_R",
+      "best_manc_id": 11489,
+      "best_score": 0.6873630895808489,
+      "margin_to_second": 0.021932349501840198,
+      "best_is_k_stable": true,
+      "male_v1_mancBodyid": 11489,
+      "mancBodyid_matches_best": true,
+      "mancBodyid_type_in_official_manc_v1": "Ti extensor MN"
+    },
+    {
+      "male_id": 928579,
+      "segment_side": "T2_R",
+      "best_manc_id": 10461,
+      "best_score": 0.6458936852027504,
+      "margin_to_second": 0.05140603720256909,
+      "best_is_k_stable": true,
+      "male_v1_mancBodyid": null,
+      "mancBodyid_matches_best": false,
+      "mancBodyid_type_in_official_manc_v1": null
+    },
+    {
+      "male_id": 800621,
+      "segment_side": "T3_L",
+      "best_manc_id": 13075,
+      "best_score": 0.6083558857319603,
+      "margin_to_second": 0.12391362428097774,
+      "best_is_k_stable": true,
+      "male_v1_mancBodyid": 13075,
+      "mancBodyid_matches_best": true,
+      "mancBodyid_type_in_official_manc_v1": "Ti extensor MN"
+    },
+    {
+      "male_id": 812953,
+      "segment_side": "T3_L",
+      "best_manc_id": 10347,
+      "best_score": 0.5743735324272563,
+      "margin_to_second": 0.19954976562820803,
+      "best_is_k_stable": true,
+      "male_v1_mancBodyid": 10347,
+      "mancBodyid_matches_best": true,
+      "mancBodyid_type_in_official_manc_v1": "Ti extensor MN"
+    },
+    {
+      "male_id": 800158,
+      "segment_side": "T3_R",
+      "best_manc_id": 10462,
+      "best_score": 0.6760633855707041,
+      "margin_to_second": 0.06916946316681605,
+      "best_is_k_stable": true,
+      "male_v1_mancBodyid": 10462,
+      "mancBodyid_matches_best": true,
+      "mancBodyid_type_in_official_manc_v1": "Ti extensor MN"
+    },
+    {
+      "male_id": 809935,
+      "segment_side": "T3_R",
+      "best_manc_id": 13006,
+      "best_score": 0.5480587111143445,
+      "margin_to_second": 0.15957409718195925,
+      "best_is_k_stable": true,
+      "male_v1_mancBodyid": 13006,
+      "mancBodyid_matches_best": true,
+      "mancBodyid_type_in_official_manc_v1": "Ti extensor MN"
+    }
+  ],
+  "k_stable_best_count": 12,
+  "published_mancBodyid_matches_best_count": 8,
+  "candidate_only_count": 4,
+  "biological_gate_passed": false
+}

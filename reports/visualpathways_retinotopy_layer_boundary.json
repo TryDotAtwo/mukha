@@ -1,0 +1,29 @@
+{
+  "scope": "Published right medulla column labels and retinotopic T-bar annotation schema; no receptor ray calibration",
+  "source_manifest_sha256": "4a08a788c5c00eb57e7a9fb077b0b4d59631317855dc0726323549cb9b2e9ab1",
+  "accepted_columns_sha256": "a759e230dc1dde74977d0e763b51facec464c469aeaca96cc07b44116a49ad31",
+  "right_column_count": 892,
+  "right_column_labels_exact_match": true,
+  "layer_type": "segmentation",
+  "layer_has_numeric_r_theta_per_column": false,
+  "segment_color_count": 892,
+  "tbar_layer_type": "annotation",
+  "tbar_annotation_properties": {
+    "hex1": "float32",
+    "hex2": "float32",
+    "area_to_count": "float32",
+    "r": "float32",
+    "theta": "float32",
+    "v": "float32",
+    "h": "float32",
+    "ht": "float32",
+    "vic": "float32",
+    "area_fit": "float32",
+    "body": "uint32",
+    "roi": "uint8"
+  },
+  "tbar_r_theta_properties_present": true,
+  "interpretation": "The column layer supplies exact hex labels and display colors. Numeric r/theta belong to a separate predicted retinotopic T-bar annotation, not to measured photoreceptor optical axes or a per-column ray table.",
+  "male_cns_neuron_to_ray_assigned": false,
+  "visual_input_enabled": false
+}

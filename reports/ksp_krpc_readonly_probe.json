@@ -1,0 +1,12 @@
+{
+  "scope": "Read-only connection and reported state; no pause, warp or control writes",
+  "client_version": "0.6.0",
+  "address": "127.0.0.1",
+  "rpc_port": 50000,
+  "stream_port": 50001,
+  "connected": false,
+  "flight_scene": false,
+  "physics_tick_control_verified": false,
+  "applied_control_provenance_verified": false,
+  "connection_observation": "RPC port unavailable: TimeoutError"
+}

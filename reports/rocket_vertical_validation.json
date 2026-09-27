@@ -1,0 +1,133 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "scenario": 0,
+      "max_abs_error": 5.9117155615240335e-12,
+      "native": [
+        9.999999999999831,
+        2852.1890141224735,
+        91.12381504104755,
+        59.999999999994465,
+        12000.0,
+        0.0
+      ],
+      "reference": [
+        10.0,
+        2852.1890141224794,
+        91.12381504104727,
+        60.000000000000355,
+        12000.0,
+        0.0
+      ]
+    },
+    {
+      "scenario": 1,
+      "max_abs_error": 1.5331806935137138e-08,
+      "native": [
+        9.999999999999831,
+        2740.5975151544512,
+        71.88475080026652,
+        61.2000000000001,
+        11999.999999999958,
+        0.0
+      ],
+      "reference": [
+        10.0,
+        2740.597515169783,
+        71.88475080167527,
+        61.1999999999999,
+        11999.999999999958,
+        0.0
+      ]
+    },
+    {
+      "scenario": 2,
+      "max_abs_error": 2.067281457129866e-09,
+      "native": [
+        9.999999999999831,
+        2220.98048873236,
+        -35.84103898260134,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "reference": [
+        10.0,
+        2220.980488734427,
+        -35.84103898241534,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "scenario": 3,
+      "max_abs_error": 3.552713678800501e-15,
+      "native": [
+        0.09959702296970892,
+        0.0,
+        -20.161843541716365,
+        100.0,
+        0.0,
+        1.0
+      ],
+      "reference": [
+        0.09959702296970895,
+        5.551115123125783e-17,
+        -20.16184354171637,
+        100.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "scenario": 4,
+      "max_abs_error": 1.4210854715202004e-14,
+      "native": [
+        0.0010614558122329875,
+        0.0,
+        -0.08842045970077057,
+        99.99575417675106,
+        12000.0,
+        1.0
+      ],
+      "reference": [
+        0.0010614558122330115,
+        -2.0972535774016476e-18,
+        -0.0884204597007703,
+        99.99575417675108,
+        12000.0,
+        1.0
+      ]
+    }
+  ],
+  "dt_by_scenario": [
+    0.01,
+    0.01,
+    0.01,
+    0.01,
+    0.1
+  ],
+  "duration_limit": 10,
+  "scope": "Radial diagnostic plant only; test constants are not a KSP calibration",
+  "tests": [
+    "vacuum rocket equation",
+    "inverse-square gravity with engine lag",
+    "fuel-depletion event",
+    "descending surface contact",
+    "substep ground crossing before velocity reversal"
+  ],
+  "limitations": [
+    "No rotation or lateral dynamics",
+    "Contact terminates; no settled-landing physics",
+    "No cockpit contact interface",
+    "No fly control or KSP equivalence"
+  ],
+  "hashes": {
+    "build\\rocket_vertical_probe.exe": "e360334a235df6a6ba7b9252225dd48ef640fe35f9153cdf9ce80f2f13f1dc98",
+    "native\\rocket_vertical.h": "703d9653f82c3683222778fce5e56b40638a6da458f299a7cf20428498e349ce",
+    "native\\rocket_vertical_probe.cpp": "c9931ecfdc00e7467b8bc6d6826ffde979b6cf7b94d0a49ea18f05c754a71976",
+    "tools\\check_rocket_vertical.py": "db08f0deda875a0fb34d75a36f2503cfc77bbea3a210e0cd241d349605591339"
+  }
+}

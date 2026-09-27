@@ -1,0 +1,74 @@
+{
+  "scope": "Full published MaleCNS KC->MBON synapse partner positions and ROI labels; anatomical only",
+  "source": {
+    "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/syn-partners-male-cns-v1.0-minconf-0.5.feather",
+    "pinned_url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/syn-partners-male-cns-v1.0-minconf-0.5.feather?generation=1780494942562468",
+    "generation": "1780494942562468",
+    "content_length": 6777179098,
+    "etag": "\"58efcf712f8c4d4de5f2ad51e97def76\"",
+    "x_goog_hash": "crc32c=jTlNIA==, md5=WO/PcS+MTU3l8q1R6X3vdg=="
+  },
+  "graph_manifest_sha256": "b30e21078c0479ac288e7f9d3b7cb2c9eb76aa3b9707f3a2b9fa6a92bb822ef3",
+  "files": [
+    {
+      "data": "data/derived/mb_synapse_locations_v1/molab_full/contacts-00000-00100.parquet",
+      "data_sha256": "888ea69ade19b0376b57c60ee75c5f93102285e2d98f9943619145e449b0f801",
+      "report": "data/derived/mb_synapse_locations_v1/molab_full/report-00000-00100.json",
+      "report_sha256": "c50030e4626d2422cff75db6108aa4a3fd4b67f4ef37cfe221785f56d48ba401",
+      "contacts": 170682
+    },
+    {
+      "data": "data/derived/mb_synapse_locations_v1/molab_full/contacts-00100-04759.parquet",
+      "data_sha256": "f1f3f40216b0e58865ae4b9b725c7a2c4d8a28b7f1e270a044ecb925702bb596",
+      "report": "data/derived/mb_synapse_locations_v1/molab_full/report-00100-04759.json",
+      "report_sha256": "8d27b51920472b6839da7b2a45a4bcbc5f2322cee3deee5661e97196816d8126",
+      "contacts": 292958
+    }
+  ],
+  "source_rows": 61210,
+  "expected_pairs": 61210,
+  "observed_pairs": 61210,
+  "expected_contacts": 463640,
+  "observed_contacts": 463640,
+  "pair_mismatch_count": 0,
+  "pair_mismatch_examples": [],
+  "pinned_full_file": {
+    "data": "data/derived/mb_synapse_locations_v1/molab_full/contacts-00000-04759.parquet",
+    "data_sha256": "b5855ebd789e7d8d8b9407136de1f8eb85dc2fd36af8afb70545d6e87a8f06d9",
+    "report": "data/derived/mb_synapse_locations_v1/molab_full/report-00000-04759.json",
+    "report_sha256": "e0324fac4e9ef0c88736bf99c98e2b85b967c9474801e92adb2f68eff3cad3d9",
+    "same_rows_in_source_order_as_prior_parts": true
+  },
+  "primary_post_counts": {
+    "AVLP(R)": 59,
+    "CA(L)": 2836,
+    "CA(R)": 3805,
+    "CRE(L)": 1980,
+    "CRE(R)": 12296,
+    "CentralBrain-unspecified": 13618,
+    "EB": 1,
+    "ICL(L)": 13,
+    "LAL(L)": 1,
+    "PED(L)": 6531,
+    "PED(R)": 8205,
+    "PLP(L)": 126,
+    "PLP(R)": 253,
+    "SCL(L)": 23,
+    "SCL(R)": 347,
+    "SIP(L)": 170,
+    "SIP(R)": 77,
+    "SMP(R)": 59,
+    "a'L(L)": 18314,
+    "a'L(R)": 19494,
+    "aL(L)": 28312,
+    "aL(R)": 32810,
+    "b'L(L)": 41381,
+    "b'L(R)": 23648,
+    "bL(L)": 24834,
+    "bL(R)": 18594,
+    "gL(L)": 106566,
+    "gL(R)": 99287
+  },
+  "plasticity_enabled": false,
+  "biological_gate_passed": false
+}

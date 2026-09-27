@@ -1,0 +1,82 @@
+{
+  "scope": "Four separate-process full MaleCNS numerical conductance variants, no physiological validation",
+  "graph_manifest_sha256": "b30e21078c0479ac288e7f9d3b7cb2c9eb76aa3b9707f3a2b9fa6a92bb822ef3",
+  "dll_sha256": "cfb9e152a405b6cf3e990016ba91026f876e4b1e15a3dfc1a7757d160b686772",
+  "input_crosswalk_sha256": "92c26306b9a8069402898ab024c8ae281790951664b40bb413206832fe612070",
+  "variants": [
+    {
+      "reversal_inh_mv": -70,
+      "unclear_sign": 1,
+      "all_spikes": 402953,
+      "input_spikes": 846,
+      "additional_input_spikes_beyond_direct_drive": 236,
+      "voltage_range_non_input_mv": [
+        -68.23107040853428,
+        -45.0000000717321
+      ],
+      "group_spike_counts": {
+        "Roundup": 59,
+        "G2N-1": 8,
+        "Scapula": 125,
+        "MN9": 36
+      },
+      "report_sha256": "d8cc2ea9cc77283d2520ae7a36d04bb04e07275b60ec21d94fab4c9a742b2037"
+    },
+    {
+      "reversal_inh_mv": -70,
+      "unclear_sign": -1,
+      "all_spikes": 110649,
+      "input_spikes": 610,
+      "additional_input_spikes_beyond_direct_drive": 0,
+      "voltage_range_non_input_mv": [
+        -68.51330754491225,
+        -45.00000066607687
+      ],
+      "group_spike_counts": {
+        "Roundup": 13,
+        "G2N-1": 10,
+        "Scapula": 83,
+        "MN9": 3
+      },
+      "report_sha256": "aa1ae2f7d1aad06e7ac287cd456a1c6b7551635159160bcb4b8f56e634b83418"
+    },
+    {
+      "reversal_inh_mv": -48,
+      "unclear_sign": 1,
+      "all_spikes": 1256774,
+      "input_spikes": 904,
+      "additional_input_spikes_beyond_direct_drive": 294,
+      "voltage_range_non_input_mv": [
+        -52.0,
+        -45.00000005876994
+      ],
+      "group_spike_counts": {
+        "Roundup": 76,
+        "G2N-1": 52,
+        "Scapula": 129,
+        "MN9": 61
+      },
+      "report_sha256": "29a86a8ed19542ec3420497f711718d9428c2790a268b461b2968370d3e16763"
+    },
+    {
+      "reversal_inh_mv": -48,
+      "unclear_sign": -1,
+      "all_spikes": 1076059,
+      "input_spikes": 610,
+      "additional_input_spikes_beyond_direct_drive": 0,
+      "voltage_range_non_input_mv": [
+        -52.0,
+        -45.0000001387829
+      ],
+      "group_spike_counts": {
+        "Roundup": 74,
+        "G2N-1": 45,
+        "Scapula": 123,
+        "MN9": 59
+      },
+      "report_sha256": "e12d3f8f4827f4ea359b9f289cacfa5b74f53a6c12114419e623bed7989231d5"
+    }
+  ],
+  "numerical_bounds_passed": true,
+  "biological_validation_passed": false
+}

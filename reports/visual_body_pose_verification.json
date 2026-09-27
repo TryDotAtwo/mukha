@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "source_pose_hash": "439a49ca727a788e0ebadc09b7bda6a56ee96e154fa7c39887641982e76f18f3",
+  "fixture_hash": "332943ca91b81e870d7461d9b522a738eb828a08581fe7f45bfd7838a1dce570",
+  "run_hash": "7c67acea6ffc74e9e3c2c19b5d195baae008d1744e363e75791977d9fa4cc201",
+  "resumed_hash": "f12177134fa6da379cd1dfc75ecedbbf10d00daaf210724c8fb16c22e23bce5e",
+  "same_image_photon_rates": [
+    [
+      100000.0,
+      0.0
+    ],
+    [
+      0.0,
+      100000.0
+    ]
+  ],
+  "fresh_process_final_state_identical": true,
+  "scope": "Published FlyMimic source head orientation under prescribed root yaw drives synthetic two-ray panorama-to-receptor fixture; not registered MaleCNS vision or body dynamics."
+}

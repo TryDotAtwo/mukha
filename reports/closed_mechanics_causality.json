@@ -1,0 +1,59 @@
+{
+  "causal_and_clock_checks_passed": true,
+  "refinement": [
+    {
+      "dt_seconds": 0.0001,
+      "steps": 80000,
+      "feedback_velocity_effect_mps": 0.010123590945813277,
+      "feedback_slider_effect_mm": 0.0018675628968236394,
+      "final_velocity_mps": -21.036263246363422
+    },
+    {
+      "dt_seconds": 5e-05,
+      "steps": 160000,
+      "feedback_velocity_effect_mps": 0.014874037873980228,
+      "feedback_slider_effect_mm": 0.0021768587893658195,
+      "final_velocity_mps": -21.011103815222995
+    },
+    {
+      "dt_seconds": 2.5e-05,
+      "steps": 80000,
+      "feedback_velocity_effect_mps": 0.017469573177859132,
+      "feedback_slider_effect_mm": 0.0023530225404631983,
+      "final_velocity_mps": -20.998460258756033
+    },
+    {
+      "dt_seconds": 1.25e-05,
+      "steps": 160000,
+      "feedback_velocity_effect_mps": 0.018493172218029486,
+      "feedback_slider_effect_mm": 0.0024255084269699037,
+      "final_velocity_mps": -20.99243861957791
+    }
+  ],
+  "last_relative_effect_change": 0.05535010587163728,
+  "last_refinement_within_one_percent": false,
+  "scope": "Closed radial mechanics diagnostic, fixed joint pulse, no neural controller",
+  "assumptions": [
+    "Nonrotating cabin with +z radial outward",
+    "Uniform gravity at rocket center",
+    "Fixed supported thorax; model units mm",
+    "Start-of-step coupling held for one step"
+  ],
+  "limitations": [
+    "No rotation, tidal terms or physical landing supports",
+    "Convergence of diagnostic effect magnitude not yet established",
+    "Not a biological or learned flight result"
+  ],
+  "hashes": {
+    "build\\closed_mechanics_trace.csv": "15ed37db9d31d51e351f4bf34fd3385a444eac8f0fd56d5074f38782b362a118",
+    "build\\closed_mechanics_halfstep_trace.csv": "12aef4d23808e485d80f2efe67ace5071719f75062941198ea2623572bc3916f",
+    "build\\closed_mechanics_quarterstep_trace.csv": "8d69b4c12200ff64f7d63a89c69c22267657865b02c2d0a132de6ec062304591",
+    "build\\closed_mechanics_eighthstep_trace.csv": "34b3c430f84cf7bc2a5f0cd5eac1985b7b85bc855348eaeb4d314e82e4795bd7",
+    "native\\closed_mechanics_probe.cpp": "7887b15f909e926ae0c6eab9494f9c533788b8cb51eef826aa3e2565078cf478",
+    "native\\rocket_vertical.h": "703d9653f82c3683222778fce5e56b40638a6da458f299a7cf20428498e349ce",
+    "build\\closed_mechanics_probe.exe": "3162d0b045256c136f249ff623e0475c7b933eb8bb4ebaf088468fbe86dfc206",
+    "data\\derived\\contact_diagnostic\\body.xml": "f76a572b0699f6ea38e220f1a08b48803b519175a44457b55839e241d2362438",
+    "data\\reference\\mujoco_3.9.0\\bin\\mujoco.dll": "d2119d435ef68ceb114d01bc3658eff42ac23ebcc08adca94d9b1ff0b9eb0d0e",
+    "tools\\check_closed_mechanics.py": "de298200757b35f94cfe22df0212e9e2ed7a9edc04933c241960313250773648"
+  }
+}

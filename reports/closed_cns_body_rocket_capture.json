@@ -1,0 +1,13 @@
+{
+  "scope": "Replayed full-CNS/body/rocket state capture for synchronized diagnostic rendering",
+  "closed_report_sha256": "9c40d6eff9d2b42f503199dd28c61c0afe4837f73ba6ff279e0549375ea46f00",
+  "closed_trace_sha256": "34012cd3087440feec5e3998b93f2f8bae51b89a87aa65918e5e8ce778388dad",
+  "frame_count": 100,
+  "frame_step_ticks": 10,
+  "first_frame_tick": 10,
+  "last_frame_tick": 1000,
+  "frame_phase": "after MuJoCo and rocket integration at tick boundary; neural events for preceding interval",
+  "whole_1000_tick_trace_and_events_exact": true,
+  "frame_states_sha256": "b87057c364dba30a7573d46fce230043bc6dd319cde8d2bcfd098122e1728b55",
+  "biological_validation": false
+}

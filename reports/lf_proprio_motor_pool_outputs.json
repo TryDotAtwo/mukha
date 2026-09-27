@@ -1,0 +1,513 @@
+{
+  "scope": "Retained direct contacts from 45 source-annotated left-front proprioceptors to 33 front tibia motor candidates, both soma-side labels; no functional subtype assignment",
+  "source_hashes": {
+    "data/derived/malecns_v1_candidates/nodes.feather": "48c7e4acadf9619d83f08b31bb2062b7a9f0a5fa86429ff968aea066ced57f3f",
+    "data/derived/malecns_v1_candidates/indptr.npy": "e8a40f6043b5fac9d7dc8f9746c2b770672eca3f3bea37b4d8a33935752820fe",
+    "data/derived/malecns_v1_candidates/indices.npy": "d24a26b19f088719ade13220f4b6d5d269633a49f20456c2a4a37942d0a72e0b",
+    "data/derived/malecns_v1_candidates/synapse_counts.npy": "578f95e75aa4c86600429a05a59d43d9fa9ece67b592f97c938e1d8523f46ba1",
+    "data/raw/malecns_v1/body-annotations-male-cns-v1.0-minconf-0.5.feather": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2"
+  },
+  "motor_group_cells": {
+    "Acc. ti flexor MN": 19,
+    "Ti flexor MN": 10,
+    "Ti extensor MN": 4
+  },
+  "records": [
+    {
+      "body_id": 135305,
+      "graph_index": 99474,
+      "type": "SApp23",
+      "subclass": "chordotonal organ",
+      "contacts_by_motor_type": {
+        "Ti extensor MN": 0,
+        "Ti flexor MN": 0,
+        "Acc. ti flexor MN": 0
+      }
+    },
+    {
+      "body_id": 142571,
+      "graph_index": 103230,
+      "type": "SApp23",
+      "subclass": "chordotonal organ",
+      "contacts_by_motor_type": {
+        "Ti extensor MN": 0,
+        "Ti flexor MN": 0,
+        "Acc. ti flexor MN": 0
+      }
+    },
+    {
+      "body_id": 248280,
+      "graph_index": 123592,
+      "type": "SApp23",
+      "subclass": "chordotonal organ",
+      "contacts_by_motor_type": {
+        "Ti extensor MN": 0,
+        "Ti flexor MN": 0,
+        "Acc. ti flexor MN": 0
+      }
+    },
+    {
+      "body_id": 342042,
+      "graph_index": 125136,
+      "type": "SApp23",
+      "subclass": null,
+      "contacts_by_motor_type": {
+        "Ti extensor MN": 0,
+        "Ti flexor MN": 0,
+        "Acc. ti flexor MN": 0
+      }
+    },
+    {
+      "body_id": 811689,
+      "graph_index": 154121,
+      "type": null,
+      "subclass": "leg",
+      "contacts_by_motor_type": {
+        "Ti extensor MN": 0,
+        "Ti flexor MN": 0,
+        "Acc. ti flexor MN": 9
+      }
+    },
+    {
+      "body_id": 812120,
+      "graph_index": 154465,
+      "type": "SNppxx",
+      "subclass": "leg",
+      "contacts_by_motor_type": {
+        "Ti extensor MN": 0,
+        "Ti flexor MN": 3,
+        "Acc. ti flexor MN": 0
+      }
+    },
+    {
+      "body_id": 813177,
+      "graph_index": 155319,
+      "type": null,
+      "subclass": "leg",
+      "contacts_by_motor_type": {
+        "Ti extensor MN": 0,
+        "Ti flexor MN": 0,
+        "Acc. ti flexor MN": 0
+      }
+    },
+    {
+      "body_id": 813907,
+      "graph_index": 155898,
+      "type": "SNpp40",
+      "subclass": "leg",
+      "contacts_by_motor_type": {
+        "Ti extensor MN": 0,
+        "Ti flexor MN": 0,
+        "Acc. ti flexor MN": 0
+      }
+    },
+    {
+      "body_id": 814326,
+      "graph_index": 156235,
+      "type": "SNppxx",
+      "subclass": "leg",
+      "contacts_by_motor_type": {
+        "Ti extensor MN": 0,
+        "Ti flexor MN": 0,
+        "Acc. ti flexor MN": 0
+      }
+    },
+    {
+      "body_id": 814780,
+      "graph_index": 156574,
+      "type": null,
+      "subclass": "leg",
+      "contacts_by_motor_type": {
+        "Ti extensor MN": 0,
+        "Ti flexor MN": 0,
+        "Acc. ti flexor MN": 0
+      }
+    },
+    {
+      "body_id": 815329,
+      "graph_index": 156969,
+      "type": "SNppxx",
+      "subclass": "leg",
+      "contacts_by_motor_type": {
+        "Ti extensor MN": 0,
+        "Ti flexor MN": 0,
+        "Acc. ti flexor MN": 0
+      }
+    },
+    {
+      "body_id": 815483,
+      "graph_index": 157072,
+      "type": null,
+      "subclass": "leg",
+      "contacts_by_motor_type": {
+        "Ti extensor MN": 0,
+        "Ti flexor MN": 0,
+        "Acc. ti flexor MN": 0
+      }
+    },
+    {
+      "body_id": 815569,
+      "graph_index": 157135,
+      "type": "SNpp39",
+      "subclass": "chordotonal organ",
+      "contacts_by_motor_type": {
+        "Ti extensor MN": 0,
+        "Ti flexor MN": 0,
+        "Acc. ti flexor MN": 20
+      }
+    },
+    {
+      "body_id": 815843,
+      "graph_index": 157342,
+      "type": "SNpp51",
+      "subclass": "chordotonal organ",
+      "contacts_by_motor_type": {
+        "Ti extensor MN": 0,
+        "Ti flexor MN": 25,
+        "Acc. ti flexor MN": 0
+      }
+    },
+    {
+      "body_id": 817298,
+      "graph_index": 158271,
+      "type": "SNpp41",
+      "subclass": "chordotonal organ",
+      "contacts_by_motor_type": {
+        "Ti extensor MN": 0,
+        "Ti flexor MN": 0,
+        "Acc. ti flexor MN": 0
+      }
+    },
+    {
+      "body_id": 817680,
+      "graph_index": 158517,
+      "type": "SNpp51",
+      "subclass": "chordotonal organ",
+      "contacts_by_motor_type": {
+        "Ti extensor MN": 0,
+        "Ti flexor MN": 14,
+        "Acc. ti flexor MN": 7
+      }
+    },
+    {
+      "body_id": 817697,
+      "graph_index": 158527,
+      "type": "SNppxx",
+      "subclass": "leg",
+      "contacts_by_motor_type": {
+        "Ti extensor MN": 33,
+        "Ti flexor MN": 0,
+        "Acc. ti flexor MN": 2
+      }
+    },
+    {
+      "body_id": 817839,
+      "graph_index": 158613,
+      "type": "SNpp57",
+      "subclass": "chordotonal organ",
+      "contacts_by_motor_type": {
+        "Ti extensor MN": 0,
+        "Ti flexor MN": 0,
+        "Acc. ti flexor MN": 0
+      }
+    },
+    {
+      "body_id": 817969,
+      "graph_index": 158684,
+      "type": "SNppxx",
+      "subclass": "leg",
+      "contacts_by_motor_type": {
+        "Ti extensor MN": 0,
+        "Ti flexor MN": 6,
+        "Acc. ti flexor MN": 0
+      }
+    },
+    {
+      "body_id": 818035,
+      "graph_index": 158719,
+      "type": "SNppxx",
+      "subclass": "leg",
+      "contacts_by_motor_type": {
+        "Ti extensor MN": 0,
+        "Ti flexor MN": 0,
+        "Acc. ti flexor MN": 1
+      }
+    },
+    {
+      "body_id": 818352,
+      "graph_index": 158871,
+      "type": null,
+      "subclass": "leg",
+      "contacts_by_motor_type": {
+        "Ti extensor MN": 0,
+        "Ti flexor MN": 1,
+        "Acc. ti flexor MN": 2
+      }
+    },
+    {
+      "body_id": 820483,
+      "graph_index": 159665,
+      "type": null,
+      "subclass": "leg",
+      "contacts_by_motor_type": {
+        "Ti extensor MN": 0,
+        "Ti flexor MN": 0,
+        "Acc. ti flexor MN": 0
+      }
+    },
+    {
+      "body_id": 821165,
+      "graph_index": 159827,
+      "type": "SNpp45",
+      "subclass": "hair plate",
+      "contacts_by_motor_type": {
+        "Ti extensor MN": 0,
+        "Ti flexor MN": 0,
+        "Acc. ti flexor MN": 0
+      }
+    },
+    {
+      "body_id": 821306,
+      "graph_index": 159862,
+      "type": "SNppxx",
+      "subclass": "leg",
+      "contacts_by_motor_type": {
+        "Ti extensor MN": 25,
+        "Ti flexor MN": 0,
+        "Acc. ti flexor MN": 3
+      }
+    },
+    {
+      "body_id": 821547,
+      "graph_index": 159903,
+      "type": null,
+      "subclass": "leg",
+      "contacts_by_motor_type": {
+        "Ti extensor MN": 0,
+        "Ti flexor MN": 0,
+        "Acc. ti flexor MN": 0
+      }
+    },
+    {
+      "body_id": 824971,
+      "graph_index": 160277,
+      "type": null,
+      "subclass": "leg",
+      "contacts_by_motor_type": {
+        "Ti extensor MN": 0,
+        "Ti flexor MN": 0,
+        "Acc. ti flexor MN": 3
+      }
+    },
+    {
+      "body_id": 899926,
+      "graph_index": 160969,
+      "type": "SNpp53",
+      "subclass": "campaniform sensilla",
+      "contacts_by_motor_type": {
+        "Ti extensor MN": 0,
+        "Ti flexor MN": 0,
+        "Acc. ti flexor MN": 0
+      }
+    },
+    {
+      "body_id": 902324,
+      "graph_index": 161071,
+      "type": "SNpp43",
+      "subclass": "chordotonal organ",
+      "contacts_by_motor_type": {
+        "Ti extensor MN": 0,
+        "Ti flexor MN": 0,
+        "Acc. ti flexor MN": 0
+      }
+    },
+    {
+      "body_id": 902359,
+      "graph_index": 161086,
+      "type": "SNpp60",
+      "subclass": "chordotonal organ",
+      "contacts_by_motor_type": {
+        "Ti extensor MN": 0,
+        "Ti flexor MN": 0,
+        "Acc. ti flexor MN": 0
+      }
+    },
+    {
+      "body_id": 903843,
+      "graph_index": 161582,
+      "type": "SNpp39",
+      "subclass": "chordotonal organ",
+      "contacts_by_motor_type": {
+        "Ti extensor MN": 0,
+        "Ti flexor MN": 0,
+        "Acc. ti flexor MN": 0
+      }
+    },
+    {
+      "body_id": 905037,
+      "graph_index": 161963,
+      "type": "SNpp40",
+      "subclass": "chordotonal organ",
+      "contacts_by_motor_type": {
+        "Ti extensor MN": 0,
+        "Ti flexor MN": 0,
+        "Acc. ti flexor MN": 0
+      }
+    },
+    {
+      "body_id": 905335,
+      "graph_index": 162098,
+      "type": "SNpp40",
+      "subclass": "chordotonal organ",
+      "contacts_by_motor_type": {
+        "Ti extensor MN": 0,
+        "Ti flexor MN": 0,
+        "Acc. ti flexor MN": 0
+      }
+    },
+    {
+      "body_id": 905339,
+      "graph_index": 162100,
+      "type": "SNpp59",
+      "subclass": "chordotonal organ",
+      "contacts_by_motor_type": {
+        "Ti extensor MN": 0,
+        "Ti flexor MN": 0,
+        "Acc. ti flexor MN": 0
+      }
+    },
+    {
+      "body_id": 905340,
+      "graph_index": 162101,
+      "type": "SNpp59",
+      "subclass": "chordotonal organ",
+      "contacts_by_motor_type": {
+        "Ti extensor MN": 0,
+        "Ti flexor MN": 0,
+        "Acc. ti flexor MN": 0
+      }
+    },
+    {
+      "body_id": 906290,
+      "graph_index": 162392,
+      "type": "SNpp47",
+      "subclass": "chordotonal organ",
+      "contacts_by_motor_type": {
+        "Ti extensor MN": 0,
+        "Ti flexor MN": 0,
+        "Acc. ti flexor MN": 0
+      }
+    },
+    {
+      "body_id": 906558,
+      "graph_index": 162493,
+      "type": "SNpp47",
+      "subclass": "chordotonal organ",
+      "contacts_by_motor_type": {
+        "Ti extensor MN": 0,
+        "Ti flexor MN": 0,
+        "Acc. ti flexor MN": 0
+      }
+    },
+    {
+      "body_id": 906823,
+      "graph_index": 162548,
+      "type": "SNpp43",
+      "subclass": "chordotonal organ",
+      "contacts_by_motor_type": {
+        "Ti extensor MN": 0,
+        "Ti flexor MN": 0,
+        "Acc. ti flexor MN": 0
+      }
+    },
+    {
+      "body_id": 908487,
+      "graph_index": 162999,
+      "type": null,
+      "subclass": "leg",
+      "contacts_by_motor_type": {
+        "Ti extensor MN": 20,
+        "Ti flexor MN": 0,
+        "Acc. ti flexor MN": 0
+      }
+    },
+    {
+      "body_id": 911316,
+      "graph_index": 163876,
+      "type": "SNpp60",
+      "subclass": "chordotonal organ",
+      "contacts_by_motor_type": {
+        "Ti extensor MN": 0,
+        "Ti flexor MN": 0,
+        "Acc. ti flexor MN": 0
+      }
+    },
+    {
+      "body_id": 912317,
+      "graph_index": 164105,
+      "type": "SNpp50",
+      "subclass": "chordotonal organ",
+      "contacts_by_motor_type": {
+        "Ti extensor MN": 9,
+        "Ti flexor MN": 0,
+        "Acc. ti flexor MN": 0
+      }
+    },
+    {
+      "body_id": 914116,
+      "graph_index": 164318,
+      "type": "SNpp60",
+      "subclass": "chordotonal organ",
+      "contacts_by_motor_type": {
+        "Ti extensor MN": 0,
+        "Ti flexor MN": 0,
+        "Acc. ti flexor MN": 0
+      }
+    },
+    {
+      "body_id": 926838,
+      "graph_index": 164699,
+      "type": null,
+      "subclass": "leg",
+      "contacts_by_motor_type": {
+        "Ti extensor MN": 0,
+        "Ti flexor MN": 0,
+        "Acc. ti flexor MN": 8
+      }
+    },
+    {
+      "body_id": 935383,
+      "graph_index": 164982,
+      "type": "SNpp51",
+      "subclass": "chordotonal organ",
+      "contacts_by_motor_type": {
+        "Ti extensor MN": 0,
+        "Ti flexor MN": 26,
+        "Acc. ti flexor MN": 8
+      }
+    },
+    {
+      "body_id": 935541,
+      "graph_index": 164996,
+      "type": "SNpp39",
+      "subclass": "chordotonal organ",
+      "contacts_by_motor_type": {
+        "Ti extensor MN": 0,
+        "Ti flexor MN": 0,
+        "Acc. ti flexor MN": 3
+      }
+    },
+    {
+      "body_id": 1061030026,
+      "graph_index": 167067,
+      "type": "SNpp53",
+      "subclass": "campaniform sensilla",
+      "contacts_by_motor_type": {
+        "Ti extensor MN": 0,
+        "Ti flexor MN": 0,
+        "Acc. ti flexor MN": 0
+      }
+    }
+  ],
+  "biological_validation": false
+}

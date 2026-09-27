@@ -1,0 +1,38 @@
+{
+  "scope": "Synchronized diagnostic FlyMimic/CNS/radial-rocket clip; not KSP landing video",
+  "capture_sha256": "b87057c364dba30a7573d46fce230043bc6dd319cde8d2bcfd098122e1728b55",
+  "source_trace_sha256": "34012cd3087440feec5e3998b93f2f8bae51b89a87aa65918e5e8ce778388dad",
+  "source_report_sha256": "9c40d6eff9d2b42f503199dd28c61c0afe4837f73ba6ff279e0549375ea46f00",
+  "config": {
+    "width": 768,
+    "height": 384,
+    "fps": 25,
+    "frame_step_ticks": 10,
+    "playback_slowdown": 40,
+    "camera": {
+      "lookat": [
+        1.00862372443205,
+        -0.20423793301258963,
+        3.2510634378419017
+      ],
+      "distance": 5.5,
+      "azimuth": 145.0,
+      "elevation": -15.0
+    },
+    "mujoco_version": "3.14.0",
+    "imageio_version": "imageio.v2"
+  },
+  "frame_count": 100,
+  "first_simulation_time_ms": 1.0,
+  "last_simulation_time_ms": 100.0,
+  "video_duration_s": 4.0,
+  "uncompressed_frames_sha256": "3e30e6a2d88ca98f050e543efbed4f28c06402d44329374ad1d72195f5f3c13e",
+  "mp4_sha256": "e8be65db018845aa653c4f8d885bb59ad409f5141467ab3cea9bc6146f793f9a",
+  "preview_sha256": "a1285aef836ed339eaf0398f9fbfe045e5dab67dca5cbeacf369452939be683e",
+  "biological_validation": false,
+  "limits": [
+    "Artificial four-cell sensory encoder and hypothetical motor-muscle map",
+    "Radial diagnostic rocket, not KSP or a trained landing",
+    "Sampled contact refers to physics step start, while body pose is after integration"
+  ]
+}

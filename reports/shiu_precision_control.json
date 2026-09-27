@@ -1,0 +1,26 @@
+{
+  "native_fp32_matches_torch_fp32_all_events": true,
+  "native_fp32_matches_torch_fp32_target_state": true,
+  "torch_fp64_matches_brian64_all_events": true,
+  "precision_changes_events": true,
+  "spike_counts": {
+    "shiu_sugar_pilot": 9574,
+    "shiu_torch32_pilot": 9574,
+    "shiu_torch64_pilot": 9440,
+    "shiu_brian_pilot": 9440
+  },
+  "artifact_hashes": {
+    "shiu_sugar_pilot.json": "a20d9889061b35ee33dc6cd58bb4f47d749539cf85729279f4873083fa90e073",
+    "shiu_torch32_pilot.json": "a594588e1d2e3c5cda6d6c9135fd683d80a86d1100b1e0311fd45e582fa02aff",
+    "shiu_torch64_pilot.json": "fe5a8e7ec3a059a2928d9eff8e217f13606628992aab494252390e2c15c6fcc3",
+    "shiu_brian_pilot.json": "c0f8990d3425e04b188b20f4e5f553bbb9ae497b126c0be27c72e53898ce19ad"
+  },
+  "spike_hashes": {
+    "shiu_sugar_pilot.spikes.bin": "f29e6ec2c55cb6f2d35ea70cf2356227ab978863efda0ceb39ed6f9a65bf4f73",
+    "shiu_torch32_pilot.spikes.bin": "f29e6ec2c55cb6f2d35ea70cf2356227ab978863efda0ceb39ed6f9a65bf4f73",
+    "shiu_torch64_pilot.spikes.bin": "4136a78dd07b81a70e79825440dbd59d60e14fe61b093a7805cfdc45fbc7e780",
+    "shiu_brian_pilot.spikes.bin": "4136a78dd07b81a70e79825440dbd59d60e14fe61b093a7805cfdc45fbc7e780"
+  },
+  "interpretation": "For this full-network pilot, the native FP32 trajectory is reproduced by an independent FP32 implementation; FP64 reproduces Brian2. Precision is sufficient to explain the observed discrepancy.",
+  "scope": "single-seed sugar pilot; no full biological validation; native FP64 remains unimplemented"
+}

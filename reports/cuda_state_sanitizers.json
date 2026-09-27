@@ -1,0 +1,36 @@
+{
+  "test_script": "tools/check_cuda_state.py",
+  "library_sha256": "732ff0c3ead8f6963bdd039fce7d5faef6c6081786e0bc68a8afb358b625f12a",
+  "scope": "Five-neuron native CUDA checks only; no full-graph validation",
+  "checks": [
+    {
+      "log_sha256": "3ef41833580c07952672569330729d3a908130c68e7a514d721c5b0a3ddbd7d6",
+      "log": "reports/cuda_state_memcheck.log",
+      "exit_code": 0,
+      "tool": "memcheck",
+      "passed": true
+    },
+    {
+      "log_sha256": "adba10db853bd67fe9009b776eefe7b61210d2cbe3eee029ba6fa188978b5832",
+      "log": "reports/cuda_state_initcheck.log",
+      "exit_code": 0,
+      "tool": "initcheck",
+      "passed": true
+    },
+    {
+      "log_sha256": "c69d09b31a66173faf98f267db57c7eb988035ce364fa0f0f184ffc933c541a7",
+      "log": "reports/cuda_state_racecheck.log",
+      "exit_code": 0,
+      "tool": "racecheck",
+      "passed": true
+    },
+    {
+      "log_sha256": "adba10db853bd67fe9009b776eefe7b61210d2cbe3eee029ba6fa188978b5832",
+      "log": "reports/cuda_state_synccheck.log",
+      "exit_code": 0,
+      "tool": "synccheck",
+      "passed": true
+    }
+  ],
+  "passed": true
+}

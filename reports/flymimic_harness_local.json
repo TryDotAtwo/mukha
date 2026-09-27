@@ -1,0 +1,51 @@
+{
+  "source_free_root_xml_sha256": "7b80c0438e4bf31954a50b8165345fff49ee1a8036ad46df2223520ccfaee0b1",
+  "harness_xml_sha256": "eb89b6438bfdd6fb21a4c512b915d96c185e298654cf3221870a174ec3d3a3a0",
+  "trace_sha256": "9f1903cd0c8dc294cf4f295b884d52d9f8d27b892ebcdbe57b2d92a9bbd681e5",
+  "harness_equality_index": 7,
+  "relative_pose_body2_in_body1": [
+    0.0,
+    -0.003185199495071275,
+    -3.999998731812821,
+    0.9999999207382982,
+    -0.0003981499684419534,
+    -0.0,
+    -0.0
+  ],
+  "solref": [
+    0.001,
+    1.0
+  ],
+  "solimp": [
+    0.9999,
+    0.9999,
+    0.001,
+    0.5,
+    2.0
+  ],
+  "initial_root_qpos": [
+    0.0,
+    0.0,
+    4.0,
+    0.9999999207382982,
+    0.0003981499684419534,
+    0.0,
+    0.0
+  ],
+  "final_root_qpos": [
+    -1.892162876804047e-05,
+    8.121589626832594e-08,
+    3.9999989530331224,
+    0.9999999207395428,
+    0.0003981398165412676,
+    -2.365203464182238e-06,
+    9.41705403403928e-10
+  ],
+  "maximum_root_translation_from_anchor_mm": 1.8956668039306876e-05,
+  "final_root_translation_from_anchor_mm": 1.8950745919361973e-05,
+  "thorax_up_dot_world_up_final": 0.9999996829581842,
+  "floor_contact_samples": 0,
+  "mujoco_warnings": 0,
+  "duration_ms": 2000.0,
+  "scope": "Explicit strong compliant world-anchored thorax harness. Engineering cabin support diagnostic; not measured seat biomechanics, active posture control, free flight, or KSP."
+}

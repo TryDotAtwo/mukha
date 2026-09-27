@@ -1,0 +1,37 @@
+{
+  "scope": "Angle-indexed observation from Mamiya 2023 Fig. 3G on a prescribed FlyMimic cycle",
+  "source_report_sha256": "0b7cf4dfe87b34b88ba2bf627b68ebc54b4b8952e4d352618ed6ce3a166b0908",
+  "body_trace_sha256": "76236a6349b1781a5d9e23c85e814d4dadaa782509a380a79fbe77a278a1a6ed",
+  "body_report_sha256": "b2c85073e8a5f082722c9163f3c970fbdc94cb87acfef813ee0f57b63702254e",
+  "output_sha256": "2c4544eb6d2fe6fb0b3af34a6f4f12a0e58af666c4c0eabb06615e7bb5f82828",
+  "source_angle_range_deg": [
+    24.36198072221464,
+    151.3257066929275
+  ],
+  "body_angle_range_deg": [
+    123.83194126574624,
+    143.83195028147196
+  ],
+  "arculum_plot_x_range_um": [
+    26.445981187643294,
+    31.201259238513796
+  ],
+  "arculum_plot_y_range_um": [
+    -1.135786056332617,
+    1.2390896694351372
+  ],
+  "arculum_plot_path_coordinate_range_um": [
+    28.01822800121635,
+    33.41645431293953
+  ],
+  "interpolation": "Linear in estimated source angle; no extrapolation",
+  "limitations": [
+    "Source is a figure mean from female flies, not a male specimen measurement.",
+    "Source figure angles are colorbar estimates, not raw per-frame angles.",
+    "2D plot coordinates have no registered FlyMimic anatomical axes or attachment point.",
+    "The lookup has no direction dependence and therefore cannot model FeCO hysteresis.",
+    "No arculum mass, force, cap-cell strain, sensor current or neural response is inferred."
+  ],
+  "mechanical_sensor_implemented": false,
+  "biological_response_validated": false
+}

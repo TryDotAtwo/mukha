@@ -1,0 +1,102 @@
+{
+  "initial_altitude_m": 2500.0,
+  "initial_velocity_mps": -20.0,
+  "executed_source_sha256": "8647e65125b5a2fef8dc0bc5a16b8f5be282fe9c33d3cbf7161ae39622b138d8",
+  "ballistic_final_altitude_m": 2497.9920743266134,
+  "pad_shift_mm": 0.1,
+  "cases": [
+    {
+      "feedback": false,
+      "contact": false,
+      "pulse": false,
+      "contacts": 0,
+      "peak_slide_mm": 0.0,
+      "peak_throttle": 0.0,
+      "final_altitude_m": 2497.9920743266134,
+      "max_relative_root_mm": 0.2965725977321531
+    },
+    {
+      "feedback": false,
+      "contact": false,
+      "pulse": true,
+      "contacts": 0,
+      "peak_slide_mm": 0.0,
+      "peak_throttle": 0.0,
+      "final_altitude_m": 2497.9920743266134,
+      "max_relative_root_mm": 0.29657259776245715
+    },
+    {
+      "feedback": true,
+      "contact": false,
+      "pulse": false,
+      "contacts": 0,
+      "peak_slide_mm": 0.0,
+      "peak_throttle": 0.0,
+      "final_altitude_m": 2497.9920743266134,
+      "max_relative_root_mm": 0.2965725977321531
+    },
+    {
+      "feedback": true,
+      "contact": false,
+      "pulse": true,
+      "contacts": 0,
+      "peak_slide_mm": 0.0,
+      "peak_throttle": 0.0,
+      "final_altitude_m": 2497.9920743266134,
+      "max_relative_root_mm": 0.29657259776245715
+    },
+    {
+      "feedback": false,
+      "contact": true,
+      "pulse": false,
+      "contacts": 0,
+      "peak_slide_mm": 0.0,
+      "peak_throttle": 0.0,
+      "final_altitude_m": 2497.9920743266134,
+      "max_relative_root_mm": 0.2965725977321531
+    },
+    {
+      "feedback": false,
+      "contact": true,
+      "pulse": true,
+      "contacts": 18,
+      "peak_slide_mm": 0.04145196288582206,
+      "peak_throttle": 0.13802275801944297,
+      "final_altitude_m": 2497.992140688962,
+      "max_relative_root_mm": 0.2965725981047998
+    },
+    {
+      "feedback": true,
+      "contact": true,
+      "pulse": false,
+      "contacts": 0,
+      "peak_slide_mm": 0.0,
+      "peak_throttle": 0.0,
+      "final_altitude_m": 2497.9920743266134,
+      "max_relative_root_mm": 0.2965725977321531
+    },
+    {
+      "feedback": true,
+      "contact": true,
+      "pulse": true,
+      "contacts": 18,
+      "peak_slide_mm": 0.041451961243593766,
+      "peak_throttle": 0.13802275255140029,
+      "final_altitude_m": 2497.9921406889603,
+      "max_relative_root_mm": 0.2883638651048227
+    }
+  ],
+  "motor_drive": "prescribed full-strength pulse ticks [200,600)",
+  "motor_event_source_sha256": null,
+  "motor_event_ticks": null,
+  "source_harness_xml_sha256": "eb89b6438bfdd6fb21a4c512b915d96c185e298654cf3221870a174ec3d3a3a0",
+  "rocket_abi_sha256": "d431b64065168d6b85f9ea2165408790bb72fa0b11cd13e1273e3b151fc6c8ce",
+  "moving_cabin_report_sha256": "33b18912f781bc8d0d5c2fceab48cf23b525d794029e9a28e2bbda888e5e5a26",
+  "contact_xml_sha256": {
+    "contact_0": "2cdc7d67b49f7ebd16dee048ec2c5978239571ae8898a48d0f8db0a266addd35",
+    "contact_1": "82da1d826ef281abf5e65d5e438598ad54baecdc716c37eea4d7ecc779a3ed7f"
+  },
+  "traces_sha256": "bc5056370c1238c17bdfef7579af395539965e90d399e1d9b3c25909310a6ffe",
+  "frame": "inertial frame moving at initial rocket velocity; cabin local z=(alt-z0-v0*t)*1000 mm",
+  "scope": "Exploratory rocket/cabin/foot coupling with artificial muscle pulse; no neural controller, KSP or landing."
+}

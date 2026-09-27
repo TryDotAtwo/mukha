@@ -1,0 +1,10 @@
+{
+  "artificial_central_drive_required_for_activity_in_this_100ms_fixture": true,
+  "periodic_negative_sensor_spikes": 35,
+  "none_negative_sensor_spikes": 0,
+  "none_negative_peak_sensor_drive_mv": 0.0059943463034173305,
+  "periodic_report_sha256": "064e2aba18761a93319a18061360dd7ff01ccea26d909172ea46d526271d6927",
+  "none_report_sha256": "d995b3405dc729997e67094a9b899175c90a67ce4e47089a4108b252ce3b5f9b",
+  "executed_source_sha256": "bc12f19c5616da075139fd18bb1ccfc522d7681620c9f383e9ad2318e1722141",
+  "scope": "Declared 100-ms fixture only; no inference that the animal requires this stimulus."
+}

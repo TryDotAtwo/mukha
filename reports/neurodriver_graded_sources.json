@@ -1,0 +1,78 @@
+{
+  "repository": "neurokernel/neurodriver",
+  "commit": "ddafe14295b6fea83e236b3c2ae0334741ed47c9",
+  "files": [
+    {
+      "path": "AUTHORS.rst",
+      "url": "https://raw.githubusercontent.com/neurokernel/neurodriver/ddafe14295b6fea83e236b3c2ae0334741ed47c9/AUTHORS.rst",
+      "git_blob": "cc3ea9afd8ae82818033c963e60c17746eba390e",
+      "bytes": 1343,
+      "sha256": "f1069bb1a318bdedd270b822c547b88f6692578d8ec822a42262e24842a86ca6"
+    },
+    {
+      "path": "LICENSE.rst",
+      "url": "https://raw.githubusercontent.com/neurokernel/neurodriver/ddafe14295b6fea83e236b3c2ae0334741ed47c9/LICENSE.rst",
+      "git_blob": "815f4b76fa4cff63780842c27fdf64fd2ff486fa",
+      "bytes": 3105,
+      "sha256": "75914e43caba9efec7060a2383df0c5bc5c2ca63ea514841b1165c81c85825ed"
+    },
+    {
+      "path": "README.rst",
+      "url": "https://raw.githubusercontent.com/neurokernel/neurodriver/ddafe14295b6fea83e236b3c2ae0334741ed47c9/README.rst",
+      "git_blob": "6766df6eee634f8fd29a7e77e4786a491d8e9727",
+      "bytes": 1099,
+      "sha256": "7c9bf0bc6e1a9e0999710a9af4df5861693ae341b24c5d8f102ec12246af886b"
+    },
+    {
+      "path": "neurokernel/LPU/LPU.py",
+      "url": "https://raw.githubusercontent.com/neurokernel/neurodriver/ddafe14295b6fea83e236b3c2ae0334741ed47c9/neurokernel/LPU/LPU.py",
+      "git_blob": "13633f0669df0e3be74e29061247b4498f2581b9",
+      "bytes": 76050,
+      "sha256": "9b08afbed179dd418ef699416826e218aa2341b17974171bd6f9408040552403"
+    },
+    {
+      "path": "neurokernel/LPU/NDComponents/DendriteModels/Aggregator.py",
+      "url": "https://raw.githubusercontent.com/neurokernel/neurodriver/ddafe14295b6fea83e236b3c2ae0334741ed47c9/neurokernel/LPU/NDComponents/DendriteModels/Aggregator.py",
+      "git_blob": "bce1ee437300e171d9c2bbaae7daa7f3d2a77efe",
+      "bytes": 5753,
+      "sha256": "0572c4068a21f69a21c9757e5f8e5f4c2ff454bddf4ab8bde818062247c6ee19"
+    },
+    {
+      "path": "neurokernel/LPU/NDComponents/MembraneModels/BaseMembraneModel.py",
+      "url": "https://raw.githubusercontent.com/neurokernel/neurodriver/ddafe14295b6fea83e236b3c2ae0334741ed47c9/neurokernel/LPU/NDComponents/MembraneModels/BaseMembraneModel.py",
+      "git_blob": "056ce285848801cd171d099c6684bdb3d4a3f9e5",
+      "bytes": 3362,
+      "sha256": "37fad7fe28b24dba3c8c2c50c21e1a1e68342eccf5500bf41fdee75c15273f9f"
+    },
+    {
+      "path": "neurokernel/LPU/NDComponents/MembraneModels/MorrisLecar.py",
+      "url": "https://raw.githubusercontent.com/neurokernel/neurodriver/ddafe14295b6fea83e236b3c2ae0334741ed47c9/neurokernel/LPU/NDComponents/MembraneModels/MorrisLecar.py",
+      "git_blob": "7af2b46e24367f2737a05df5808cceb0b1a15d70",
+      "bytes": 5775,
+      "sha256": "3bd44c0ac9c22ff02f81f055b85fe668d716b430a1777f1e6319234ad8201274"
+    },
+    {
+      "path": "neurokernel/LPU/NDComponents/NDComponent.py",
+      "url": "https://raw.githubusercontent.com/neurokernel/neurodriver/ddafe14295b6fea83e236b3c2ae0334741ed47c9/neurokernel/LPU/NDComponents/NDComponent.py",
+      "git_blob": "d49e9a9bbccd2279065457f0244fb8124cb18bb6",
+      "bytes": 6050,
+      "sha256": "19fa9a39cbb463d685ea08f13f91bce1bbe2460568c5e64b7e83ce7e4dd453a3"
+    },
+    {
+      "path": "neurokernel/LPU/NDComponents/SynapseModels/BaseSynapseModel.py",
+      "url": "https://raw.githubusercontent.com/neurokernel/neurodriver/ddafe14295b6fea83e236b3c2ae0334741ed47c9/neurokernel/LPU/NDComponents/SynapseModels/BaseSynapseModel.py",
+      "git_blob": "44ec9f6c1c7424864b8a67cb6cb0a07ba7d84407",
+      "bytes": 5554,
+      "sha256": "1eed75eaddee9dac2014caa66b1443c86af4e368d1218d504597d9a386407ea2"
+    },
+    {
+      "path": "neurokernel/LPU/NDComponents/SynapseModels/PowerGpotGpot.py",
+      "url": "https://raw.githubusercontent.com/neurokernel/neurodriver/ddafe14295b6fea83e236b3c2ae0334741ed47c9/neurokernel/LPU/NDComponents/SynapseModels/PowerGpotGpot.py",
+      "git_blob": "898e2f8588a84428567f4eaf6981666a6cf6034b",
+      "bytes": 3760,
+      "sha256": "f4fc9f3482cbb21930665771c71194494f3c8e4c5bb27508b95af486d4e8bcf5"
+    }
+  ],
+  "executed": false,
+  "scope": "Current author graded-model implementation; historical compatibility with pinned lamina release not established"
+}

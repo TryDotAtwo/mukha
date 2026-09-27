@@ -1,0 +1,15 @@
+{
+  "scope": "Native mechanical diagnostic video, no brain or rocket; actual MuJoCo poses",
+  "passed": true,
+  "frames": "90",
+  "fps": "30/1",
+  "duration": "3.000000",
+  "video_sha256": "cc5fde9e4493f68c9496b838e2241426ea68603c7a7d53db1312fed568fc5ea1",
+  "executable_sha256": "db02154868b5ce797c72f1d308972823b1fb8214e0fa40e073f1526d869ddeb9",
+  "model_export_sha256": "cde0a313ee207ad0f9a30507424933f76269b38fe22e79d495b336d485f36541",
+  "frame_state_journal_sha256": "9fe8de5d59d0ed817ed8bcbfe4a8c039362d9cf3683b94bbeeeaae7d878bf28b",
+  "frame_state_snapshots": 360,
+  "native_log": "OpenGL renderer: Intel(R) UHD Graphics\npanel 0 max_slider_mm 0 contact_samples 0\npanel 1 max_slider_mm 0 contact_samples 0\npanel 2 max_slider_mm 0 contact_samples 0\npanel 3 max_slider_mm 0.042507060983613724 contact_samples 10642\n",
+  "rendering": "Native MuJoCo OpenGL offscreen; blocking RGB pipe into ffmpeg",
+  "trajectory": "30000 physics ticks, frame sampling at floor((frame+1)*1000/3); no interpolation or pose controller"
+}

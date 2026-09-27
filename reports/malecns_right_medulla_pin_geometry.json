@@ -1,0 +1,24 @@
+{
+  "scope": "Verified right medulla anatomical centerlines, not ommatidial optical rays",
+  "source_manifest_sha256": "3c5a9b8b372cedaabdef13aab827ee787d48d6579c5705426ef9647629284108",
+  "source_pindata_sha256": "c8bd6243ef3331b19e74ce91047b8cb8e9dc9364ebb7d5631cb2eeaafe924773",
+  "accepted_columns_sha256": "a759e230dc1dde74977d0e763b51facec464c469aeaca96cc07b44116a49ad31",
+  "source_rows": 107932,
+  "columns": 892,
+  "depth_bins_per_column": 121,
+  "exact_right_column_coverage": true,
+  "step_norm_source_units": {
+    "min": 39.36988872480073,
+    "median": 68.3625624264925,
+    "max": 84.12282428055582
+  },
+  "chord_over_arc": {
+    "min": 0.9208494664136466,
+    "median": 0.9938167271889786,
+    "max": 1.0
+  },
+  "axes_csv_sha256": "2a3518fdb821e63592073820222ffbea98ab0f31381430ae40e73c8b068936a1",
+  "interpretation": "Source center pins include smoothing/filling. Endpoint direction follows internal medulla depth; it is not a measured optical axis, lacks eye-to-body registration, and cannot be used to stimulate photoreceptors.",
+  "neuron_to_ray_assigned": false,
+  "visual_input_enabled": false
+}

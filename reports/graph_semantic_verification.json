@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "nodes": 167216,
+  "checked_edges": 25587572,
+  "checked_source_rows": 151856684,
+  "retained_synapse_count_sum": 124193283,
+  "elapsed_seconds": 62.235,
+  "scope": "all source rows and CSR endpoints; no physiological validation"
+}

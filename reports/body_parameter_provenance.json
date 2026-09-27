@@ -1,0 +1,75 @@
+{
+  "flygym_commit": "ca65a510c2afe6ac61c51df4f274c8d190c2f95f",
+  "author_source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/compose/fly/base_fly.py",
+  "author_default_function_line": 347,
+  "uniform_joint_defaults": {
+    "stiffness": 10.0,
+    "damping": 0.5,
+    "armature": 1e-06
+  },
+  "matching_joint_count": 126,
+  "provenance": [
+    {
+      "parameters": [
+        "joint stiffness",
+        "joint damping",
+        "joint armature"
+      ],
+      "origin": "Pinned FlyGym BaseFly.add_joints defaults, inherited by NeuroMechFly",
+      "physiological_calibration_demonstrated": false
+    },
+    {
+      "parameters": [
+        "motor force range +/-1",
+        "motor control range +/-1"
+      ],
+      "origin": "Project tools/export_body.py explicit engineering choices",
+      "physiological_calibration_demonstrated": false
+    },
+    {
+      "parameters": [
+        "spike gain 0.1",
+        "decay 20 ms"
+      ],
+      "origin": "Project native/brain_body_probe.cpp diagnostic filter",
+      "physiological_calibration_demonstrated": false
+    },
+    {
+      "parameters": [
+        "slider geometry",
+        "slider mass",
+        "slider stiffness",
+        "slider damping"
+      ],
+      "origin": "Project tools/export_contact.py engineering cockpit bench",
+      "physiological_calibration_demonstrated": false
+    }
+  ],
+  "decision": "Retain existing diagnostic baseline. Do not infer biological inability from its failure to contact. No parameter change is made by this audit.",
+  "calibration_source": {
+    "doi": "10.7554/eLife.56754",
+    "local_pdf": "data/reference/azevedo2020/article.pdf",
+    "relevant_pages": [
+      9,
+      10,
+      11,
+      32
+    ],
+    "dataset_doi": "10.5061/dryad.76hdr7stb",
+    "applicability": "Measured tibia FLEXOR motor units; not direct calibration for current active EXTENSOR units or identified MaleCNS IDs",
+    "unresolved": [
+      "motor-unit identity crosswalk",
+      "force-to-joint-torque geometry",
+      "passive joint measurements",
+      "extensor force dynamics"
+    ]
+  },
+  "hashes": {
+    "data\\reference\\flygym_2.1.0\\src\\flygym\\compose\\fly\\base_fly.py": "9f7ec2c3786972467085cf6a92363cc72a95551226151ff1941fd96800ec677f",
+    "data\\derived\\contact_diagnostic\\body.xml": "f76a572b0699f6ea38e220f1a08b48803b519175a44457b55839e241d2362438",
+    "tools\\export_body.py": "7ecefe6fc360825fac387a77f74e826ca1f04c904e89253d8d8aeee353a5b33a",
+    "tools\\export_contact.py": "4b797cfed43f691c65c64f5c0d30f69f27a2a2f93ba0a974aea5ee621b0c1444",
+    "native\\brain_body_probe.cpp": "73f31ab7066d31744e037e8e6cad24ac72174d220ff4a1551b8a89e61c7b9f13",
+    "data\\reference\\azevedo2020\\article.pdf": "865b626ea0ea5a9ec63783c4a453b88568a85556d71d6ceda21a1f9e1e98c692"
+  }
+}

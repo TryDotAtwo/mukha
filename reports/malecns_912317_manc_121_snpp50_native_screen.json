@@ -1,0 +1,62 @@
+{
+  "scope": "Exploratory MaleCNS v1.0-to-MANC 1.2.1 morphology, not an identity proof",
+  "male_cns_body_id": 912317,
+  "male_cns_nodes": 258,
+  "source_manifest_sha256": "cd70d0b4c158dea7d87a84b1bae29e5813df514d88d5e1b934885f3ce15ddbba",
+  "target_manifest_sha256": "091246910d581b477695701ca4dd269a053125ac4cae9bf0526c5f36ccc5c299",
+  "transform_manifest_sha256": "b9c44b34d79c5ee217e0c4a5e082ac62d5364ec349e82226029e9c3e065e0a18",
+  "route": [
+    "JRCFIB2022Mraw",
+    "JRCFIB2022M",
+    "BANC",
+    "BANCum",
+    "JRCVNC2018F",
+    "JRCVNC2018F_reflected",
+    "FANCum_fixed",
+    "FANC",
+    "MANC"
+  ],
+  "coordinate_units": "MaleCNS native 8-nm voxels; MANC transform nm; MANC SWC um",
+  "results": [
+    {
+      "manc_121_id": 96728,
+      "target_nodes": 121,
+      "malecns_to_manc": {
+        "median_um": 13.597073574670095,
+        "p90_um": 51.72294203215206
+      },
+      "manc_to_malecns": {
+        "median_um": 6.109251732769361,
+        "p90_um": 17.213907180674166
+      },
+      "bidirectional_median_mean_um": 9.853162653719728
+    },
+    {
+      "manc_121_id": 100531,
+      "target_nodes": 400,
+      "malecns_to_manc": {
+        "median_um": 4.667276256219386,
+        "p90_um": 6.531321554134286
+      },
+      "manc_to_malecns": {
+        "median_um": 4.998115903993282,
+        "p90_um": 8.762631655559263
+      },
+      "bidirectional_median_mean_um": 4.832696080106334
+    },
+    {
+      "manc_121_id": 163745,
+      "target_nodes": 386,
+      "malecns_to_manc": {
+        "median_um": 4.960643901813068,
+        "p90_um": 10.303739059438113
+      },
+      "manc_to_malecns": {
+        "median_um": 5.4555064963059134,
+        "p90_um": 17.839726022349065
+      },
+      "bidirectional_median_mean_um": 5.208075199059491
+    }
+  ],
+  "validates_manc_v1_identity": false
+}

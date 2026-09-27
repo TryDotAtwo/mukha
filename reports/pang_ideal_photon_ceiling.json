@@ -1,0 +1,44 @@
+{
+  "scope": "conditional optical upper ceiling for one central facet; not receptor absorption rate",
+  "sources": {
+    "radiance": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11769683/",
+    "facet_diameter": "https://elifesciences.org/articles/26117",
+    "acceptance_angle": "https://pubmed.ncbi.nlm.nih.gov/21368135/"
+  },
+  "radiance_W_sr_inverse_m2_inverse_at_482nm": 0.078,
+  "facet_diameter_um_range": [
+    16,
+    17
+  ],
+  "female_nearly_dark_adapted_R1R6_fwhm_deg": 8.23,
+  "gaussian_effective_solid_angle_sr": 0.023378617524094054,
+  "photon_energy_J": 4.121256965039271e-19,
+  "cases": [
+    {
+      "facet_diameter_um": 16.0,
+      "facet_area_m2": 2.0106192982974676e-10,
+      "ideal_weighted_incident_photons_per_s": 889638.5245802926,
+      "existing_model_100k_fraction_of_ideal_incident": 0.11240520417792979
+    },
+    {
+      "facet_diameter_um": 17.0,
+      "facet_area_m2": 2.2698006922186254e-10,
+      "ideal_weighted_incident_photons_per_s": 1004318.490639471,
+      "existing_model_100k_fraction_of_ideal_incident": 0.09957000785311428
+    }
+  ],
+  "assumptions": [
+    "Pang radiance is treated as total narrowband radiance at 482 nm; spectral convention unverified",
+    "Uniform screen fills the central angular receptive field",
+    "Entire geometric facet acts as a receptor's effective entrance pupil",
+    "Gaussian angular response with reported FWHM; small-angle approximation",
+    "100 percent optical transmission, rhabdomere capture and quantum yield for the ceiling"
+  ],
+  "missing_for_absorbed_flux": [
+    "per-recording filter and PWM settings",
+    "screen spectral radiance and geometry",
+    "sex/adaptation matched acceptance",
+    "effective pupil fraction, lens transmission and rhabdomere absorption"
+  ],
+  "calibration_status": "not calibrated; this ideal optical ceiling cannot select a model photon rate"
+}

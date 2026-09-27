@@ -1,0 +1,150 @@
+{
+  "scope": "Full-graph numerical capability test; parameters are provisional, not assigned MaleCNS receptor physiology",
+  "graph_manifest_sha256": "b30e21078c0479ac288e7f9d3b7cb2c9eb76aa3b9707f3a2b9fa6a92bb822ef3",
+  "crosswalk_sha256": "92c26306b9a8069402898ab024c8ae281790951664b40bb413206832fe612070",
+  "dll_sha256": "cfb9e152a405b6cf3e990016ba91026f876e4b1e15a3dfc1a7757d160b686772",
+  "fixed_parameters": {
+    "dt_ms": 0.1,
+    "rest_mv": -52,
+    "reversal_exc_mv": 0,
+    "conductance_per_contact": 0.005,
+    "direct_input_mv": 68.75,
+    "input_period_ms": 10,
+    "time_ms": 100
+  },
+  "limitations": [
+    "No source-measured receptor or reversal map for all MaleCNS edges",
+    "Source -48 mV GABA reversal was measured in other adult Drosophila neurons, not Roundup",
+    "-70 mV is only a hypothetical sensitivity point",
+    "Uniform LIF dynamics and direct GRN drive remain unvalidated"
+  ],
+  "results": [
+    {
+      "reversal_inh_mv": -70.0,
+      "unclear_sign": -1,
+      "input_condition": "sweet",
+      "all_spikes": 113970,
+      "input_spikes": 230,
+      "sweet_population_spikes": 230,
+      "bitter_population_spikes": 0,
+      "non_input_voltage_min_mv": -68.54684224859358,
+      "non_input_voltage_max_mv": -45.000001124058095,
+      "full_graph_reset_replay_exact": false,
+      "target_spike_ticks": {
+        "26764": [
+          147,
+          190,
+          223,
+          252,
+          280,
+          306,
+          332,
+          358,
+          384,
+          412,
+          440,
+          468,
+          498,
+          528,
+          557,
+          591,
+          626,
+          666,
+          701,
+          765
+        ],
+        "523040": [
+          162,
+          210,
+          246,
+          274,
+          303,
+          330,
+          357,
+          384,
+          411,
+          441,
+          470,
+          501,
+          532,
+          566,
+          598,
+          628,
+          660,
+          693,
+          728,
+          759
+        ],
+        "31018": [
+          49,
+          135,
+          245,
+          645,
+          939
+        ],
+        "89638": [
+          64,
+          160
+        ],
+        "11896": [
+          344,
+          387,
+          431,
+          493
+        ],
+        "12811": [
+          342,
+          387,
+          436,
+          508
+        ],
+        "12900": [
+          344,
+          388,
+          433,
+          494
+        ],
+        "10331": [
+          214,
+          253,
+          282,
+          308,
+          333,
+          358,
+          383,
+          408,
+          433,
+          458,
+          484,
+          509,
+          534,
+          560,
+          585,
+          612,
+          639,
+          666,
+          692,
+          719,
+          746,
+          775,
+          803,
+          835
+        ],
+        "16949": [
+          342,
+          418,
+          503,
+          599,
+          698
+        ]
+      },
+      "group_spike_counts": {
+        "Roundup": 40,
+        "G2N-1": 7,
+        "Scapula": 12,
+        "MN9": 29
+      }
+    }
+  ],
+  "biological_validation_passed": false
+}

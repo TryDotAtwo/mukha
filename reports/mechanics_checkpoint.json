@@ -1,0 +1,23 @@
+{
+  "exact": true,
+  "body_state_values": 971,
+  "checkpoint_tick": 3000,
+  "compared_ticks": 7000,
+  "max_body_error": 0,
+  "scope": "Same-process, same-model in-memory closed-mechanics continuation only",
+  "state": "MuJoCo mjSTATE_INTEGRATION plus rocket State; scheduler tick retained by fixture",
+  "limitations": [
+    "Not a portable checkpoint file",
+    "No different-build or process restart test",
+    "No brain, sensors, RNG or recorder state in this checkpoint",
+    "0.1-ms fixture tests replay, not mechanical integration convergence"
+  ],
+  "hashes": {
+    "build\\mechanics_checkpoint_probe.exe": "6e2acf106e263918311ec96051ec5cb942f8d56b388d16a31b98dcc6157ffeef",
+    "data\\derived\\contact_diagnostic\\body.xml": "f76a572b0699f6ea38e220f1a08b48803b519175a44457b55839e241d2362438",
+    "data\\reference\\mujoco_3.9.0\\bin\\mujoco.dll": "d2119d435ef68ceb114d01bc3658eff42ac23ebcc08adca94d9b1ff0b9eb0d0e",
+    "native\\mechanics_checkpoint_probe.cpp": "c05fe4abb00d364c8b21cb2cf37fc48ea022424ff9997700fc8a60916725af12",
+    "native\\rocket_vertical.h": "703d9653f82c3683222778fce5e56b40638a6da458f299a7cf20428498e349ce",
+    "tools\\check_mechanics_checkpoint.py": "2d79aaf2abcabe178b2978e1d09143e8fe47abb4d8af0e5ac976cf8388f334e3"
+  }
+}

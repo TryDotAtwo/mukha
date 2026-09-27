@@ -1,0 +1,71 @@
+{
+  "scope": "Exploratory cross-release native-space proximity; no cell identity proof",
+  "fanc_release": "2021 manual",
+  "manc_release": "MANC 1.2.1, not MANC 1.0",
+  "route": [
+    "FANC",
+    "MANC"
+  ],
+  "source_manifest_sha256": "adb7682e951df2825c72b0b5bf9fb91b0ce5203d0c2f013c64c0f569ed8dc8d8",
+  "target_manifest_sha256": "6491e748cef3d969d60727b4d4db747b370ac26715aec38cc792570bdb72f00b",
+  "source_and_target_native_swc_units": "nm FANC; um MANC",
+  "results": [
+    {
+      "fanc_neuron_id": 581,
+      "nodes": 1689,
+      "candidates": [
+        {
+          "manc_body_id": 11657,
+          "fanc_to_manc": {
+            "median_um": 3.3270465839234125,
+            "p90_um": 15.95317551098029
+          },
+          "manc_to_fanc": {
+            "median_um": 7.029340857125249,
+            "p90_um": 14.79334460788797
+          }
+        },
+        {
+          "manc_body_id": 12704,
+          "fanc_to_manc": {
+            "median_um": 2.4403903673954757,
+            "p90_um": 11.976459439946193
+          },
+          "manc_to_fanc": {
+            "median_um": 5.8070342969508415,
+            "p90_um": 26.822139615604762
+          }
+        }
+      ]
+    },
+    {
+      "fanc_neuron_id": 9001,
+      "nodes": 1655,
+      "candidates": [
+        {
+          "manc_body_id": 11657,
+          "fanc_to_manc": {
+            "median_um": 4.070877083021404,
+            "p90_um": 33.25248937966658
+          },
+          "manc_to_fanc": {
+            "median_um": 7.146620222293561,
+            "p90_um": 16.59454323572378
+          }
+        },
+        {
+          "manc_body_id": 12704,
+          "fanc_to_manc": {
+            "median_um": 2.810065695665582,
+            "p90_um": 13.75167808295741
+          },
+          "manc_to_fanc": {
+            "median_um": 5.270082102084402,
+            "p90_um": 14.865793800947596
+          }
+        }
+      ]
+    }
+  ],
+  "validates_manc_v1_identity": false
+}

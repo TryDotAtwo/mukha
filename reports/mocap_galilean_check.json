@@ -1,0 +1,18 @@
+{
+  "source_xml_sha256": "4a3fc5ab9b294ebea8518f5a2ded1f999e62c121bb955c5bd26f83fac78cd647",
+  "modified_xml_sha256": "59897615b3ea9b47145463efd8c7e650fcd0f50770ded8e3c44d8d0fb2d229cf",
+  "trace_sha256": "9900394be80aac4dbec7d180beec7c9ec0e3b197f4cfde0ddecf89f5513209a6",
+  "duration_ms": 10.0,
+  "world_gravity_mm_s2": 0.0,
+  "frame_velocity_mps": -20.0,
+  "initial_root_velocity_matched_to_frame": true,
+  "final_relative_root_error_mm": [
+    0.00039605309933691245,
+    -2.2541279209478995e-06,
+    37.961472520918235
+  ],
+  "peak_relative_root_error_mm": 37.961472522984316,
+  "peak_joint_coordinate_error_rad": 0.24735475759207837,
+  "pass_under_1e-3_mm": false,
+  "scope": "Numerical Galilean control for this mocap+weld interface; no rocket or biological motor input."
+}

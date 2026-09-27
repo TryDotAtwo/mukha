@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "identical_image_frames": [
+    2,
+    3
+  ],
+  "recorded_photon_rates_by_frame": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      100000.0,
+      0.0
+    ],
+    [
+      0.0,
+      100000.0
+    ],
+    [
+      0.0,
+      0.0
+    ]
+  ],
+  "same_process_replay_exact": true,
+  "fresh_process_replay_exact": true,
+  "config_sha256": "573f9cce8164475f03749278d0255d77f941aa58430f0214915f8ff8442131ae",
+  "run_sha256": "f4fd5690d2259a74cc42fcddf19d3726d879af4a4d3f5b706c6ba86b9c2f2a31",
+  "resumed_sha256": "e9bc9aa496a54721d8431a213bcf11f5c1f004da9741d1a4186cd1ae8acea9d0",
+  "checkpoint_sha256": "7868e251d84ec484b2300b79a97e68857ba98587044e96d1e96d140b3e68eaea",
+  "scope": "Synthetic two-ray, engineering RGB-photon fixture tests body-pose-dependent optical input and receptor continuity; no biological registration or full-CNS coupling."
+}

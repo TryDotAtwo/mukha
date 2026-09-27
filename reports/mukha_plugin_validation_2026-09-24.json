@@ -1,0 +1,94 @@
+{
+  "time_utc": "2026-09-24T08:44:39.300798+00:00",
+  "mukha_version": "0.1.0",
+  "molab_version": "0.1.0+codex.20260924084302",
+  "mukha_source_cache_files_equal": 14,
+  "manifest_verification": {
+    "byte_verification_passed": true,
+    "scope": "listed bytes only; not provenance, scientific validity or unlisted completeness",
+    "files": [
+      {
+        "path": ".codex-plugin/plugin.json",
+        "verified": true,
+        "bytes": 1276
+      },
+      {
+        "path": "README.md",
+        "verified": true,
+        "bytes": 3851
+      },
+      {
+        "path": "scripts/inspect_skill_usage.py",
+        "verified": true,
+        "bytes": 3382
+      },
+      {
+        "path": "scripts/project_snapshot.py",
+        "verified": true,
+        "bytes": 4068
+      },
+      {
+        "path": "scripts/verify_manifest.py",
+        "verified": true,
+        "bytes": 4116
+      },
+      {
+        "path": "skills/work-with-mukha/agents/openai.yaml",
+        "verified": true,
+        "bytes": 442
+      },
+      {
+        "path": "skills/work-with-mukha/references/artifacts.md",
+        "verified": true,
+        "bytes": 3187
+      },
+      {
+        "path": "skills/work-with-mukha/references/biology.md",
+        "verified": true,
+        "bytes": 4170
+      },
+      {
+        "path": "skills/work-with-mukha/references/embodiment.md",
+        "verified": true,
+        "bytes": 3828
+      },
+      {
+        "path": "skills/work-with-mukha/references/experiment-selection.md",
+        "verified": true,
+        "bytes": 2956
+      },
+      {
+        "path": "skills/work-with-mukha/references/project-map.md",
+        "verified": true,
+        "bytes": 3295
+      },
+      {
+        "path": "skills/work-with-mukha/references/runtime.md",
+        "verified": true,
+        "bytes": 3887
+      },
+      {
+        "path": "skills/work-with-mukha/SKILL.md",
+        "verified": true,
+        "bytes": 5898
+      },
+      {
+        "path": "tests/test_helpers.py",
+        "verified": true,
+        "bytes": 4273
+      }
+    ]
+  },
+  "molab_source_cache_equal": [
+    "skills/work-with-molab/SKILL.md",
+    "skills/work-with-molab/references/compact-notebook-bootstrap.md",
+    ".codex-plugin/plugin.json"
+  ],
+  "helper_tests": {
+    "passed": 5,
+    "skipped": 1,
+    "skip_reason": "host disallows symlink creation"
+  },
+  "plugin_and_skill_validators": "passed for both plugins",
+  "biological_or_ksp_evaluation": "not_performed_in_this_side_task"
+}

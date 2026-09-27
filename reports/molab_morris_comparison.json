@@ -1,0 +1,27 @@
+{
+  "scope": "Morris-Lecar equation probe on Molab, not a full brain",
+  "command": [
+    "/tmp/fly-cuda-13.1.1/bin/nvcc",
+    "-L/tmp/fly-cuda-13.1.1/lib",
+    "-std=c++17",
+    "-O2",
+    "-arch=sm_120",
+    "--fmad=false",
+    "/tmp/fly-morris-blackwell/native/morris_probe.cu",
+    "-o",
+    "/tmp/fly-morris-blackwell/morris_probe"
+  ],
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition, 12.0, 595.71.05",
+  "binary_sha256": "d0349b9d1bff81c0c2c5137203c3158ebbd28643d7729a992356c2d83e202730",
+  "trace_sha256": "5ed4a77b37093ae9c626f5acf83e7b905380a02cba757245087ca1f3c5319414",
+  "source_hashes": {
+    "native/morris_probe.cu": "b7025a30a608e59851c5e6251057316f2dbf1dbb352a156c1837ac612b66e3f4",
+    "build/morris_author.cu": "0d2f42655fa614de4fef6af0068e640e288cc8867d8b9a18589d3eafc9aeeaba"
+  },
+  "max_abs_difference_from_cpu_validated_local_gpu_V_n": [
+    0.0,
+    0.0
+  ],
+  "local_reference_report_sha256": "968f77ea55f01e3358555222d70cc58f795e06b70a404ed1ee82ad400aadfdfe",
+  "passed": true
+}

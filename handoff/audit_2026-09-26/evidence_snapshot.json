@@ -1,0 +1,272 @@
+{
+  "captured_at_utc": "2026-09-26T19:15:04.242897+00:00",
+  "workspace": "D:\\Муха",
+  "scope": "Key reviewed source/report identities; this is not a byte-for-byte archived source closure and not a claim that all repository files were audited. Main agent may continue changing them.",
+  "reviewed_files": [
+    {
+      "path": "D:\\Муха\\WORK_PLAN.md",
+      "bytes": 89553,
+      "sha256": "ba92179ab5ae8fe1a713a36dabc0c8eb02c009e0cc7790d4442ac3bad4398d80",
+      "mtime_ns": 1790449943339665200
+    },
+    {
+      "path": "D:\\Муха\\README.md",
+      "bytes": 3605,
+      "sha256": "95d5edd54129ed1e30596821f2a4636dcebf507bcaae2ccb086ee0db23bd0d10",
+      "mtime_ns": 1790198094032066100
+    },
+    {
+      "path": "D:\\Муха\\NATIVE_ARCHITECTURE.md",
+      "bytes": 15395,
+      "sha256": "c80ff301db6701e466b3f83867287a0e42ed52419a5b882b0e3cfa28dd94389f",
+      "mtime_ns": 1789469942726944900
+    },
+    {
+      "path": "D:\\Муха\\src\\main.rs",
+      "bytes": 7830,
+      "sha256": "91eb189942ac5c913b0d6f4418c45e2b001b06e3c1ba46ab1f2e67f7117cad1b",
+      "mtime_ns": 1790237256929013800
+    },
+    {
+      "path": "D:\\Муха\\src\\landing.rs",
+      "bytes": 13929,
+      "sha256": "ec1766761f8ac67dbcab048f4191a6d9695dd40abc88ebe92990ebdbcf064d6f",
+      "mtime_ns": 1790237299062750200
+    },
+    {
+      "path": "D:\\Муха\\src\\visual_input.rs",
+      "bytes": 12088,
+      "sha256": "d402f4d5c764bbab47476408cd8e3ad4ac4437d8683242b4ef0265ec3789ff2e",
+      "mtime_ns": 1790246756359664600
+    },
+    {
+      "path": "D:\\Муха\\native\\cuda_probe.cu",
+      "bytes": 4330,
+      "sha256": "2047b162c82dbdab95cc9643ed22e347b5a60d892da62a122981078e80319367",
+      "mtime_ns": 1790446533745214200
+    },
+    {
+      "path": "D:\\Муха\\native\\cuda_state.inc",
+      "bytes": 12743,
+      "sha256": "f657e1e5bf00ce71f7cd4e0b04bbe09f7e416b368447904a631e749a775ed485",
+      "mtime_ns": 1790448784330595900
+    },
+    {
+      "path": "D:\\Муха\\native\\lif.cpp",
+      "bytes": 6964,
+      "sha256": "5124eadc9005c03f736e82bc5dc684013400cae9061a5b03c630a2eadebbe2a9",
+      "mtime_ns": 1789481503194060000
+    },
+    {
+      "path": "D:\\Муха\\native\\brain_body_probe.cpp",
+      "bytes": 6187,
+      "sha256": "73f31ab7066d31744e037e8e6cad24ac72174d220ff4a1551b8a89e61c7b9f13",
+      "mtime_ns": 1789556052492943000
+    },
+    {
+      "path": "D:\\Муха\\native\\body.cpp",
+      "bytes": 3994,
+      "sha256": "b40417e1e3e1bb6727dd4bd1a79c93159b2ddae8bbb315266c2eaaf49b62b4fe",
+      "mtime_ns": 1789495567847199800
+    },
+    {
+      "path": "D:\\Муха\\native\\rocket_vertical.h",
+      "bytes": 3943,
+      "sha256": "490575f2439d9a979f86aad1b93fabae1fc23ba3b20699ee9d92dda7a539c2a6",
+      "mtime_ns": 1790247899672779000
+    },
+    {
+      "path": "D:\\Муха\\native\\rocket_vertical_abi.cpp",
+      "bytes": 2715,
+      "sha256": "8da16679a72501dc53dd81e1935aa8286c0c3d1e70acdeabfe594e1be470635f",
+      "mtime_ns": 1790277311224133800
+    },
+    {
+      "path": "D:\\Муха\\tools\\build_connectome.py",
+      "bytes": 10219,
+      "sha256": "bd2a231396fbc71333e47a03960fc81fccb2a5296d3a6aea7db6641fa101434b",
+      "mtime_ns": 1789480889179492500
+    },
+    {
+      "path": "D:\\Муха\\tools\\prepare_brain_body_diagnostic.py",
+      "bytes": 1249,
+      "sha256": "935f6bbf5639f2f0851dca6cd1c8c79356a7f176017c7ee3a79d8642a44d3b6f",
+      "mtime_ns": 1789555409935419400
+    },
+    {
+      "path": "D:\\Муха\\tools\\run_malecns_sign_diagnostic.py",
+      "bytes": 8768,
+      "sha256": "0ebfd11e675b921b19029f541c547c5cf33980068a3b9639905ee2b134bab0e1",
+      "mtime_ns": 1789554989323729600
+    },
+    {
+      "path": "D:\\Муха\\tools\\check_closed_cns_body_rocket_checkpoint.py",
+      "bytes": 23460,
+      "sha256": "224eab92a151003bfce0675a77315e0f50ef8e7839fc991ca21618531ff9d48e",
+      "mtime_ns": 1790277833880624900
+    },
+    {
+      "path": "D:\\Муха\\tools\\probe_lf_four_proprio_body_loop.py",
+      "bytes": 12778,
+      "sha256": "c5ac205b7b3a4c16145d1cd20d39dabfe3e4bf22cb80aed90af91358d40174de",
+      "mtime_ns": 1790263924705985000
+    },
+    {
+      "path": "D:\\Муха\\tools\\screen_handler_tonic_two_pathway.py",
+      "bytes": 7012,
+      "sha256": "cecd486be6bd803b3c15aeb28f865112f66aab04ed1fa7f5a959ac57ebfcf0e5",
+      "mtime_ns": 1790449019202431000
+    },
+    {
+      "path": "D:\\Муха\\tools\\audit_agrawal_13b_hysteresis_gate.py",
+      "bytes": 5385,
+      "sha256": "47e22702f3bff422c5b9afe6dd26f912fd34dd7777f0bb5e86902c12318acc04",
+      "mtime_ns": 1790446835010781700
+    },
+    {
+      "path": "D:\\Муха\\configs\\knee_interface_draft.json",
+      "bytes": 14791,
+      "sha256": "435dd9a5a1ae32ba7e0c9738f93e119bb69ef6974fb1fabc725a733bbe982832",
+      "mtime_ns": 1789495517442679900
+    },
+    {
+      "path": "D:\\Муха\\data\\derived\\malecns_v1_candidates\\manifest.json",
+      "bytes": 5395,
+      "sha256": "b30e21078c0479ac288e7f9d3b7cb2c9eb76aa3b9707f3a2b9fa6a92bb822ef3",
+      "mtime_ns": 1789481139481842300
+    },
+    {
+      "path": "D:\\Муха\\reports\\full_graph_chemistry_coverage.json",
+      "bytes": 49103,
+      "sha256": "8baa5ac063e637002c39a08da077d27f19e2ecfdf6cf42547581720f0d215ac7",
+      "mtime_ns": 1789554327309667400
+    },
+    {
+      "path": "D:\\Муха\\reports\\malecns_geometry_coverage.json",
+      "bytes": 1214,
+      "sha256": "16e03aabbdf9b3c72f6c4506c23e982a8faae6867e7feacf80bd8867f0c31796",
+      "mtime_ns": 1790449401822225400
+    },
+    {
+      "path": "D:\\Муха\\reports\\cuda_mixed_output.json",
+      "bytes": 533,
+      "sha256": "d0b324f23e4d825d800c1623e449096e3d542f7ee717a04aeb520ba02d80c443",
+      "mtime_ns": 1790448836731202800
+    },
+    {
+      "path": "D:\\Муха\\reports\\cuda_mixed_dt_convergence.json",
+      "bytes": 3332,
+      "sha256": "1cd60337505d9a5d6bf021a231d1cafb0385b79e60548eb19c814757f7d2c901",
+      "mtime_ns": 1790448961178558400
+    },
+    {
+      "path": "D:\\Муха\\reports\\handler2019_tonic_two_pathway_screen.json",
+      "bytes": 5300,
+      "sha256": "94b58275d438be03bef2e52ce796bf1c95d62901f2f96a09cd5646b5eba6139c",
+      "mtime_ns": 1790449067643142200
+    },
+    {
+      "path": "D:\\Муха\\docs\\LANDING_ASSESSMENT.md",
+      "bytes": 3160,
+      "sha256": "949227e9ccf3533f0f38e79963d1f40336df5de84fb2829caa032daf187d575f",
+      "mtime_ns": 1790237280694129300
+    },
+    {
+      "path": "D:\\Муха\\docs\\ROCKET_ENVIRONMENT.md",
+      "bytes": 13340,
+      "sha256": "11935c01adcbe3434063fbb7acb54ec1f836256d56e782c78da5396a49b391cc",
+      "mtime_ns": 1790278020228194200
+    },
+    {
+      "path": "D:\\Муха\\docs\\MOTOR_MAPPING_EVIDENCE.md",
+      "bytes": 23007,
+      "sha256": "1e63c6e1bf5dc37ec7d3e45d6533847d327a42a4e2afba0d4640920f7223f500",
+      "mtime_ns": 1790274009337270700
+    },
+    {
+      "path": "D:\\Муха\\docs\\FREE_ROOT_BODY.md",
+      "bytes": 15154,
+      "sha256": "93d55718a88dcc6cf5e9e18e56913c5556d6bd29b1867fe0d7cd5aa689d7b577",
+      "mtime_ns": 1790251831863277600
+    },
+    {
+      "path": "D:\\Муха\\docs\\VISUAL_INPUT_PIPELINE.md",
+      "bytes": 6120,
+      "sha256": "a38406fb01417a9e7a95d792d099ffb3e8a069325891ee63e1b1d453dec614fe",
+      "mtime_ns": 1790247020278501200
+    },
+    {
+      "path": "D:\\Муха\\docs\\VISION_MAPPING.md",
+      "bytes": 16952,
+      "sha256": "db7f2437ce4388489c8062861424832859c8aa243308b801e5047514bb1462bb",
+      "mtime_ns": 1790253447155549400
+    },
+    {
+      "path": "D:\\Муха\\docs\\R16_COLUMN_INFERENCE.md",
+      "bytes": 1884,
+      "sha256": "b0b6461b70712551dec057663c36ec627dc36477b45e4ef71279824d7df29295",
+      "mtime_ns": 1789496546808432100
+    },
+    {
+      "path": "D:\\Муха\\docs\\VISUAL_CAUSALITY.md",
+      "bytes": 27011,
+      "sha256": "b03b4caff5d9746c98f936614c93b42e9bbfe9951fa64b751cb3b94d573fbe83",
+      "mtime_ns": 1790266394152287100
+    },
+    {
+      "path": "D:\\Муха\\docs\\PLASTICITY_REFERENCE.md",
+      "bytes": 20173,
+      "sha256": "2c8480a648d751ec954dce4cdd41da64c7ba24433947b5e2e88776338c3fe0c5",
+      "mtime_ns": 1790266908474915400
+    },
+    {
+      "path": "D:\\Муха\\docs\\PHOTON_PERFORMANCE_2026-09-24.md",
+      "bytes": 9586,
+      "sha256": "270d35a659621e454036389f40d43542a81c9ee8da3d3935d17a975fc5a5dc1b",
+      "mtime_ns": 1790199731112111400
+    },
+    {
+      "path": "D:\\Муха\\docs\\HF_ARCHIVE.md",
+      "bytes": 7833,
+      "sha256": "bdcf6c21c1057c63425417ba48df542d7132fcd4013db4531166feadc157b6e7",
+      "mtime_ns": 1790208562765814900
+    }
+  ],
+  "audit_artifacts": [
+    {
+      "file": "AUDIT.md",
+      "bytes": 50143,
+      "sha256": "edbecb5c52c50e70b91d210239228a473ce44ebbcf427bcf5d82b6fdbea0b689"
+    },
+    {
+      "file": "audit_probes.json",
+      "bytes": 966,
+      "sha256": "575256faafc432eaf5ac287214601c7ab2cb13f8680140241510678fbde19f05"
+    },
+    {
+      "file": "IMPLEMENTATION_PLAN.md",
+      "bytes": 42099,
+      "sha256": "a85890237c377aad73772d761fb6b82ccda114b83a7cffcd28520d301d9ba4d0"
+    },
+    {
+      "file": "landing_threshold_probe.exe",
+      "bytes": 154112,
+      "sha256": "d9749745859c12b570e426e98f255016ba2c2beaff06f38fa0c67bb2c62aa93d"
+    },
+    {
+      "file": "landing_threshold_probe.pdb",
+      "bytes": 1290240,
+      "sha256": "e1962b479abe2b8e8de895818704088bff634c2583e4aa550cbd111096a14927"
+    },
+    {
+      "file": "landing_threshold_probe.rs",
+      "bytes": 6209,
+      "sha256": "b4e0bfd52d8ff9a18c199fd639b984bb9ab1d0ea0d71bebe90442df5b338965f"
+    }
+  ],
+  "public_sources_checked": [
+    "https://male-cns.janelia.org/download/",
+    "https://krpc.github.io/krpc/0.6.0/tutorials/autopilot.html",
+    "https://krpc.github.io/krpc/0.5.4/python/api/space-center/control.html"
+  ]
+}

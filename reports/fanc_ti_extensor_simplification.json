@@ -1,0 +1,82 @@
+{
+  "scope": "Exploratory decimation; topology and fine neurites not yet validated",
+  "source_report_sha256": "c637999e1cb63800c02968570589f72946e4f2a4ec0b2905f1359904d29656c2",
+  "fast_simplification_version": "0.2.0",
+  "trimesh_version": "5.1.0",
+  "requested_target_faces": 200000,
+  "results": [
+    {
+      "segment_id": "648518346493238080",
+      "original_vertices": 2623059,
+      "original_faces": 5287133,
+      "simplified_vertices": 369873,
+      "simplified_faces": 755998,
+      "sample_to_simplified_vertex_median_nm": 85.7748000569743,
+      "sample_to_simplified_vertex_p90_nm": 147.35687622030144,
+      "sample_to_simplified_vertex_p99_nm": 203.8660806987096,
+      "original_bbox_nm": [
+        [
+          18630.0,
+          358128.0,
+          56088.0
+        ],
+        [
+          150894.0,
+          501372.0,
+          171108.0
+        ]
+      ],
+      "simplified_bbox_nm": [
+        [
+          18642.650172734822,
+          358188.9045598247,
+          56100.907149401006
+        ],
+        [
+          150877.07045214358,
+          501349.5471587353,
+          171106.29593894293
+        ]
+      ],
+      "output": "data/derived/fanc_ti_extensor_simplified/648518346493238080_f200000.npz",
+      "sha256": "1937a9fb142d401c5539505e44beeb3b8314c89147483f7201a844db126b6155"
+    },
+    {
+      "segment_id": "648518346495797355",
+      "original_vertices": 1642995,
+      "original_faces": 3305832,
+      "simplified_vertices": 230004,
+      "simplified_faces": 462727,
+      "sample_to_simplified_vertex_median_nm": 83.7007347349592,
+      "sample_to_simplified_vertex_p90_nm": 145.41415688795746,
+      "sample_to_simplified_vertex_p99_nm": 203.55194355674203,
+      "original_bbox_nm": [
+        [
+          20592.0,
+          385182.0,
+          59130.0
+        ],
+        [
+          141624.0,
+          485226.0,
+          169128.0
+        ]
+      ],
+      "simplified_bbox_nm": [
+        [
+          20610.437012170354,
+          385195.9664428153,
+          59162.9295438841
+        ],
+        [
+          141578.20129119727,
+          485143.45009250153,
+          169127.86929793502
+        ]
+      ],
+      "output": "data/derived/fanc_ti_extensor_simplified/648518346495797355_f200000.npz",
+      "sha256": "8b7c0a7022144eae65df8d962a9e27206beb5c18f263902a44076a3195f77fb5"
+    }
+  ],
+  "biological_identity_verified": false
+}

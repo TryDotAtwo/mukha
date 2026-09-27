@@ -1,0 +1,40 @@
+﻿{
+    "scope":  "Headless diagnostic game launch and kRPC log observation only; no flight scene, server or physics stepping",
+    "launch_arguments":  [
+                             "-batchmode",
+                             "-nographics"
+                         ],
+    "owned_process_id":  51492,
+    "started_utc":  "2026-09-26T20:00:46.3548953Z",
+    "process_exited":  true,
+    "forced_stop":  true,
+    "krpc_log_lines":  [
+                           "[LOG 23:01:08.125] Load(Assembly): kRPC/Google.Protobuf",
+                           "[LOG 23:01:08.125] AssemblyLoader: Loading assembly at D:\\SteamLibrary\\steamapps\\common\\Kerbal Space Program\\GameData\\kRPC\\Google.Protobuf.dll",
+                           "[LOG 23:01:08.128] Load(Assembly): kRPC/KRPC.Core",
+                           "[LOG 23:01:08.128] AssemblyLoader: Loading assembly at D:\\SteamLibrary\\steamapps\\common\\Kerbal Space Program\\GameData\\kRPC\\KRPC.Core.dll",
+                           "[LOG 23:01:08.130] Load(Assembly): kRPC/KRPC",
+                           "[LOG 23:01:08.130] AssemblyLoader: Loading assembly at D:\\SteamLibrary\\steamapps\\common\\Kerbal Space Program\\GameData\\kRPC\\KRPC.dll",
+                           "[LOG 23:01:08.135] Load(Assembly): kRPC/KRPC.DockingCamera",
+                           "[LOG 23:01:08.135] AssemblyLoader: Loading assembly at D:\\SteamLibrary\\steamapps\\common\\Kerbal Space Program\\GameData\\kRPC\\KRPC.DockingCamera.dll",
+                           "[LOG 23:01:08.136] Load(Assembly): kRPC/KRPC.Drawing",
+                           "[LOG 23:01:08.136] AssemblyLoader: Loading assembly at D:\\SteamLibrary\\steamapps\\common\\Kerbal Space Program\\GameData\\kRPC\\KRPC.Drawing.dll",
+                           "[LOG 23:01:08.137] Load(Assembly): kRPC/KRPC.InfernalRobotics",
+                           "[LOG 23:01:08.137] AssemblyLoader: Loading assembly at D:\\SteamLibrary\\steamapps\\common\\Kerbal Space Program\\GameData\\kRPC\\KRPC.InfernalRobotics.dll",
+                           "[LOG 23:01:08.137] Load(Assembly): kRPC/KRPC.IO.Ports",
+                           "[LOG 23:01:08.137] AssemblyLoader: Loading assembly at D:\\SteamLibrary\\steamapps\\common\\Kerbal Space Program\\GameData\\kRPC\\KRPC.IO.Ports.dll",
+                           "[LOG 23:01:08.138] Load(Assembly): kRPC/KRPC.KerbalAlarmClock",
+                           "[LOG 23:01:08.138] AssemblyLoader: Loading assembly at D:\\SteamLibrary\\steamapps\\common\\Kerbal Space Program\\GameData\\kRPC\\KRPC.KerbalAlarmClock.dll",
+                           "[LOG 23:01:08.139] Load(Assembly): kRPC/KRPC.LiDAR",
+                           "[LOG 23:01:08.139] AssemblyLoader: Loading assembly at D:\\SteamLibrary\\steamapps\\common\\Kerbal Space Program\\GameData\\kRPC\\KRPC.LiDAR.dll",
+                           "[LOG 23:01:08.139] Load(Assembly): kRPC/KRPC.RemoteTech",
+                           "[LOG 23:01:08.139] AssemblyLoader: Loading assembly at D:\\SteamLibrary\\steamapps\\common\\Kerbal Space Program\\GameData\\kRPC\\KRPC.RemoteTech.dll",
+                           "[LOG 23:01:08.140] Load(Assembly): kRPC/KRPC.SpaceCenter",
+                           "[LOG 23:01:08.140] AssemblyLoader: Loading assembly at D:\\SteamLibrary\\steamapps\\common\\Kerbal Space Program\\GameData\\kRPC\\KRPC.SpaceCenter.dll",
+                           "[LOG 23:01:08.141] Load(Assembly): kRPC/KRPC.UI",
+                           "[LOG 23:01:08.141] AssemblyLoader: Loading assembly at D:\\SteamLibrary\\steamapps\\common\\Kerbal Space Program\\GameData\\kRPC\\KRPC.UI.dll",
+                           "KRPC.Core v0.6.0.0"
+                       ],
+    "krpc_log_lines_found":  true,
+    "previous_log_backed_up":  true
+}

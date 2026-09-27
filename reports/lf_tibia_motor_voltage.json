@@ -1,0 +1,17 @@
+{
+  "source_report_sha256": "bd55516d116359f0c3bf281e120d2c20411ec7494807df7bb65a6fac590476a7",
+  "spec_sha256": "15e4d570dd0a5b79d8a009409e850179dab22b05f7a9559ddd2314628e144706",
+  "archived_events_sha256": "2bc31c82a141ccbcda1517f4ea2e8c08bc7615be20757b188797fb6c5cf7a4ac",
+  "exact_neural_replay": true,
+  "motor_body_id": 815344,
+  "motor_graph_index": 156979,
+  "motor_voltage_min_mv": -52.0,
+  "motor_voltage_max_mv": -49.00432589234102,
+  "motor_voltage_max_tick": 2356,
+  "model_spike_threshold_mv": -45.0,
+  "motor_synaptic_input_min": 0.0,
+  "motor_synaptic_input_max": 3.7291538149708643,
+  "motor_voltage_sha256": "7019aae27b180e4cf21730e084de3e94ef3bdc9813f41d0b070e2e2ce7631c4f",
+  "motor_synaptic_input_sha256": "734a0345b854540145fe95a9e8c1df6cd8ba6a564671dbb6134116408670f7c5",
+  "biological_validation": false
+}

@@ -1,0 +1,63 @@
+{
+  "source": {
+    "url": "https://faculty.washington.edu/tuthill/docs/mamiya_2018_supp.pdf",
+    "sha256": "ff4dd261d37a67d4a044f8c2306453de6afb9c8e4dd17426fdd4f90703ad1938",
+    "bytes": 13573932,
+    "pages": 9
+  },
+  "figure": "S5B",
+  "pdf_page_one_based": 6,
+  "observation": "maximum calcium delta-F/F slope versus mean tibia velocity within the frame of maximum slope",
+  "command_speeds_degrees_per_second": [
+    180,
+    360,
+    720,
+    1440
+  ],
+  "populations": [
+    {
+      "driver": "R64C04",
+      "region": "Tip",
+      "population": "club",
+      "directions": [
+        "flexion",
+        "extension"
+      ],
+      "flies_per_speed": 14
+    },
+    {
+      "driver": "R21D12",
+      "region": "YBranch",
+      "population": "hook",
+      "directions": [
+        "flexion"
+      ],
+      "flies_per_speed": 9
+    }
+  ],
+  "visual_interpretation": "A proportional increase of maximum calcium slope with speed is not supported by the displayed clouds; this is qualitative, not a digitized statistical test",
+  "numerical_points_extracted": false,
+  "instantaneous_spike_rates_measured": false,
+  "implications": [
+    "Velocity-proportional drive should remain a rejected pilot, not a biological default",
+    "Calcium observation and frame sampling must remain separate from sensory transduction",
+    "This figure alone does not distinguish saturation, adaptation, and indicator effects"
+  ],
+  "runtime_enabled": false,
+  "available_archive_members": [
+    "DataFileDescription.txt",
+    "desktop.ini",
+    "InactiveGal4_GCaMP6f_Club.mat",
+    "InactiveGal4_GCaMP6f_XBranch.mat",
+    "InactiveGal4_GCaMP6f_YBranch.mat",
+    "InactiveGal4_GCaMP6f_ZBranch.mat",
+    "R21D12_GCaMP6f_Tip.mat",
+    "R21D12_GCaMP6f_YBranch.mat",
+    "R21D12_GCaMP6f_ZBranch.mat",
+    "R64C04_GCaMP6f_Middle.mat",
+    "R64C04_GCaMP6f_Tip.mat",
+    "R73D10_GCaMP6f_XBranch.mat",
+    "R73D10_GCaMP6f_YBranch.mat",
+    "R73D10_GCaMP6f_ZBranch.mat"
+  ]
+}

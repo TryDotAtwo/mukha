@@ -1,0 +1,145 @@
+{
+  "model_export_sha256": "29c83979ae7ae672f817ae4e2b45a03defa4617090347fa4762e9e53605d39d3",
+  "angle_definition": "angle between knee-to-proximal trochanterfemur origin and knee-to-tarsus1 origin",
+  "offsets_rad": [
+    -0.2,
+    -0.1,
+    0,
+    0.1,
+    0.2
+  ],
+  "epsilon_rad": [
+    0.0001,
+    1e-05
+  ],
+  "results": [
+    {
+      "leg": "lf",
+      "joint": "lf_trochanterfemur-lf_tibia-pitch",
+      "neutral_opening_angle_rad": 1.78655342708312,
+      "opening_angle_derivatives": [
+        -0.9999971879159908,
+        -0.9999971879115498,
+        -0.9999969941998366,
+        -0.9999969941665298,
+        -0.9999967609819471,
+        -0.9999967609863879,
+        -0.9999964795448513,
+        -0.9999964795448512,
+        -0.9999961381368383,
+        -0.9999961381401689
+      ],
+      "positive_q_opens_knee": false,
+      "local_flexion_q_sign": 1,
+      "local_extension_q_sign": -1,
+      "scope": "Geometric angle convention near neutral; not muscle moment-arm or torque validation"
+    },
+    {
+      "leg": "lm",
+      "joint": "lm_trochanterfemur-lm_tibia-pitch",
+      "neutral_opening_angle_rad": 1.3452398198403428,
+      "opening_angle_derivatives": [
+        -0.9999998445575642,
+        -0.9999998445864299,
+        -0.9999998461385218,
+        -0.9999998461185376,
+        -0.999999844626398,
+        -0.9999998446197366,
+        -0.9999998397636212,
+        -0.9999998397569597,
+        -0.999999830981757,
+        -0.9999998309861978
+      ],
+      "positive_q_opens_knee": false,
+      "local_flexion_q_sign": 1,
+      "local_extension_q_sign": -1,
+      "scope": "Geometric angle convention near neutral; not muscle moment-arm or torque validation"
+    },
+    {
+      "leg": "lh",
+      "joint": "lh_trochanterfemur-lh_tibia-pitch",
+      "neutral_opening_angle_rad": 1.3786820241156104,
+      "opening_angle_derivatives": [
+        -0.9999998246501551,
+        -0.9999998246468244,
+        -0.9999998399423671,
+        -0.9999998399345954,
+        -0.9999998524001796,
+        -0.9999998524024,
+        -0.9999998625487283,
+        -0.9999998625387362,
+        -0.9999998707588276,
+        -0.9999998707654888
+      ],
+      "positive_q_opens_knee": false,
+      "local_flexion_q_sign": 1,
+      "local_extension_q_sign": -1,
+      "scope": "Geometric angle convention near neutral; not muscle moment-arm or torque validation"
+    },
+    {
+      "leg": "rf",
+      "joint": "rf_trochanterfemur-rf_tibia-pitch",
+      "neutral_opening_angle_rad": 1.78655342708312,
+      "opening_angle_derivatives": [
+        -0.9999971879159908,
+        -0.9999971879115498,
+        -0.9999969941998366,
+        -0.9999969941665298,
+        -0.9999967609819471,
+        -0.9999967609863879,
+        -0.9999964795448513,
+        -0.9999964795448512,
+        -0.9999961381368383,
+        -0.9999961381401689
+      ],
+      "positive_q_opens_knee": false,
+      "local_flexion_q_sign": 1,
+      "local_extension_q_sign": -1,
+      "scope": "Geometric angle convention near neutral; not muscle moment-arm or torque validation"
+    },
+    {
+      "leg": "rm",
+      "joint": "rm_trochanterfemur-rm_tibia-pitch",
+      "neutral_opening_angle_rad": 1.3452398198403428,
+      "opening_angle_derivatives": [
+        -0.9999998445575642,
+        -0.9999998445864299,
+        -0.9999998461385218,
+        -0.9999998461185376,
+        -0.999999844626398,
+        -0.9999998446197366,
+        -0.9999998397636212,
+        -0.9999998397569597,
+        -0.999999830981757,
+        -0.9999998309861978
+      ],
+      "positive_q_opens_knee": false,
+      "local_flexion_q_sign": 1,
+      "local_extension_q_sign": -1,
+      "scope": "Geometric angle convention near neutral; not muscle moment-arm or torque validation"
+    },
+    {
+      "leg": "rh",
+      "joint": "rh_trochanterfemur-rh_tibia-pitch",
+      "neutral_opening_angle_rad": 1.3786820241156104,
+      "opening_angle_derivatives": [
+        -0.9999998246501551,
+        -0.9999998246468244,
+        -0.9999998399423671,
+        -0.9999998399345954,
+        -0.9999998524001796,
+        -0.9999998524024,
+        -0.9999998625487283,
+        -0.9999998625387362,
+        -0.9999998707588276,
+        -0.9999998707654888
+      ],
+      "positive_q_opens_knee": false,
+      "local_flexion_q_sign": 1,
+      "local_extension_q_sign": -1,
+      "scope": "Geometric angle convention near neutral; not muscle moment-arm or torque validation"
+    }
+  ],
+  "all_six_local_signs_stable": true,
+  "motor_mapping_enabled": false
+}

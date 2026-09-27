@@ -1,0 +1,28 @@
+{
+  "scope": "Morris-Lecar equation validation at historical lamina parameter values; not biological calibration",
+  "passed": true,
+  "ticks": 10000,
+  "dt_seconds": 0.0001,
+  "membrane_substeps": 10,
+  "max_abs_errors_V_n": [
+    7.105427357601002e-15,
+    5.551115123125783e-17
+  ],
+  "final_V": [
+    -49.77377406907737,
+    -50.75266884613289,
+    -48.79297266121139,
+    -49.773747441812965
+  ],
+  "parameter_aliases": {
+    "historical_V_k": "current_V_K",
+    "historical_G_Ca": "current_g_Ca",
+    "historical_G_k": "current_g_K"
+  },
+  "hashes": {
+    "build\\morris_trace.bin": "5ed4a77b37093ae9c626f5acf83e7b905380a02cba757245087ca1f3c5319414",
+    "build\\morris_probe.exe": "94f5c5b8b6e2a977ad7921e5a9041a8484647428700e79c1b2a0ead03ecdcc1c",
+    "build\\morris_author.cu": "3deaf3d0e83564e884794e79d29f458aa6a797f9a5da033274e9b05e0c54f0f8",
+    "tools\\check_morris_membrane.py": "da19ee1b7a08b6daaae7d12a65ca5aeb2b9905afa4f0079c24c7b29a06811744"
+  }
+}

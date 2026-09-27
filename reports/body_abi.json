@@ -1,0 +1,56 @@
+{
+  "scope": "Persistent native body ABI, same-model in-memory snapshots only",
+  "checks": {
+    "chunk_equivalence": true,
+    "fresh_restore_exact": true,
+    "out_of_bounds_rejected": true,
+    "nan_rejected": true,
+    "wrong_count_rejected": true,
+    "invalid_input_unchanged": true,
+    "bad_snapshot_rejected": true,
+    "bad_snapshot_unchanged": true,
+    "reset_exact": true,
+    "contact_observation_pulse": true,
+    "contact_evaluation_time": true,
+    "quiet_contact_points_empty": true,
+    "spatial_contact_matches_force": true,
+    "paired_contact_forces_opposite": true,
+    "normal_force_projection": true,
+    "contact_capacity_rejected": true,
+    "unknown_contact_geom_rejected": true,
+    "restored_contact_cache_invalid": true,
+    "restored_contact_points_invalid": true,
+    "post_restore_contact_available": true
+  },
+  "contact_quiet": [
+    0.1998999999999943,
+    0.0,
+    0
+  ],
+  "contact_driven": [
+    0.3198999999999811,
+    0.011438618016995142,
+    1
+  ],
+  "foot_contact_points": [
+    0.3198999999999811,
+    [
+      [
+        1.3352149327258047,
+        1.109578403972282,
+        0.2708467190966334,
+        1.941786905934564e-14,
+        -1.0,
+        4.85446726483641e-15,
+        -0.0028011658147398576,
+        -0.01143861801699521,
+        -0.002859654504248731,
+        0.011438618016995142
+      ]
+    ]
+  ],
+  "passed": true,
+  "library_sha256": "75d00e5f83b0a25a2c337f8d0cb6065a70a711b0b21a01198f0961d95437efab",
+  "model_sha256": "f76a572b0699f6ea38e220f1a08b48803b519175a44457b55839e241d2362438",
+  "runtime_sha256": "d2119d435ef68ceb114d01bc3658eff42ac23ebcc08adca94d9b1ff0b9eb0d0e"
+}

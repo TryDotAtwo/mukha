@@ -1,0 +1,219 @@
+{
+  "format": "flyrocket.kc-mbon-contact-site-view.v1",
+  "scope": "Complete KC->MBON contact view; no other partners of these presynaptic sites included",
+  "graph_manifest_sha256": "b30e21078c0479ac288e7f9d3b7cb2c9eb76aa3b9707f3a2b9fa6a92bb822ef3",
+  "source_parquet_sha256": "b5855ebd789e7d8d8b9407136de1f8eb85dc2fd36af8afb70545d6e87a8f06d9",
+  "source_gcs_generation": "1780494942562468",
+  "coordinate_unit": "published 8-nm voxel indices",
+  "contacts": 463640,
+  "eligible_graph_edges": 61210,
+  "presynaptic_sites": 391849,
+  "sites_with_multiple_mbon_partners": 65275,
+  "contacts_on_multiple_mbon_partner_sites": 137062,
+  "max_distinct_mbon_partners_per_site": 5,
+  "distinct_mbon_partners_per_site": {
+    "1": 326574,
+    "2": 59147,
+    "3": 5763,
+    "4": 354,
+    "5": 11
+  },
+  "primary_post_roi_names": [
+    "AVLP(R)",
+    "CA(L)",
+    "CA(R)",
+    "CRE(L)",
+    "CRE(R)",
+    "CentralBrain-unspecified",
+    "EB",
+    "ICL(L)",
+    "LAL(L)",
+    "PED(L)",
+    "PED(R)",
+    "PLP(L)",
+    "PLP(R)",
+    "SCL(L)",
+    "SCL(R)",
+    "SIP(L)",
+    "SIP(R)",
+    "SMP(R)",
+    "a'L(L)",
+    "a'L(R)",
+    "aL(L)",
+    "aL(R)",
+    "b'L(L)",
+    "b'L(R)",
+    "bL(L)",
+    "bL(R)",
+    "gL(L)",
+    "gL(R)"
+  ],
+  "files": {
+    "eligible_global_edge": {
+      "path": "data/derived/mb_synapse_state_layout_v1/eligible_global_edge.npy",
+      "dtype": "uint32",
+      "shape": [
+        61210
+      ],
+      "bytes": 244968,
+      "sha256": "d5296434c07cd61c5fb7089e1a8e0c4ac8c0592a5f5950008712b35a73a2bda8"
+    },
+    "eligible_edge_source_contacts": {
+      "path": "data/derived/mb_synapse_state_layout_v1/eligible_edge_source_contacts.npy",
+      "dtype": "uint32",
+      "shape": [
+        61210
+      ],
+      "bytes": 244968,
+      "sha256": "9e8cce35f77142f9f1e74d902b190f1f49429c04eeb7087ea6051562d2903ae2"
+    },
+    "contact_edge_local": {
+      "path": "data/derived/mb_synapse_state_layout_v1/contact_edge_local.npy",
+      "dtype": "uint32",
+      "shape": [
+        463640
+      ],
+      "bytes": 1854688,
+      "sha256": "b9f9b184dd9d03f1a5e9421c393db75385d4ff0eb0b66850f4db55e45f44b334"
+    },
+    "contact_site": {
+      "path": "data/derived/mb_synapse_state_layout_v1/contact_site.npy",
+      "dtype": "uint32",
+      "shape": [
+        463640
+      ],
+      "bytes": 1854688,
+      "sha256": "affd46d2f68db8f8dbfb3c5dd4b68097767dc5c5d5e0f0519cd36d358cb08a0e"
+    },
+    "contact_x_post": {
+      "path": "data/derived/mb_synapse_state_layout_v1/contact_x_post.npy",
+      "dtype": "int32",
+      "shape": [
+        463640
+      ],
+      "bytes": 1854688,
+      "sha256": "29170a126c29378ccf52228395a3943b803c6bfe8e3135803b0a83ab8dbf6ecb"
+    },
+    "contact_y_post": {
+      "path": "data/derived/mb_synapse_state_layout_v1/contact_y_post.npy",
+      "dtype": "int32",
+      "shape": [
+        463640
+      ],
+      "bytes": 1854688,
+      "sha256": "6da9d4d4f4c5a38bbac769fa138efd4cc55a2b76d23b4d46ba3d4385be927838"
+    },
+    "contact_z_post": {
+      "path": "data/derived/mb_synapse_state_layout_v1/contact_z_post.npy",
+      "dtype": "int32",
+      "shape": [
+        463640
+      ],
+      "bytes": 1854688,
+      "sha256": "1bcb31b6a0401f08899ec11c061b2de14f001b4d25f4e81cd43119f807a4144a"
+    },
+    "contact_conf_pre": {
+      "path": "data/derived/mb_synapse_state_layout_v1/contact_conf_pre.npy",
+      "dtype": "float32",
+      "shape": [
+        463640
+      ],
+      "bytes": 1854688,
+      "sha256": "d51112be5a65433f953f7f96502b5b825d0b0d4b032182e08f91aa7fe71e7cc9"
+    },
+    "contact_conf_post": {
+      "path": "data/derived/mb_synapse_state_layout_v1/contact_conf_post.npy",
+      "dtype": "float32",
+      "shape": [
+        463640
+      ],
+      "bytes": 1854688,
+      "sha256": "6f756f8216ec26f644448eb8a3f172d96fcdac19806566602f9bd5e360a19603"
+    },
+    "contact_primary_post_roi": {
+      "path": "data/derived/mb_synapse_state_layout_v1/contact_primary_post_roi.npy",
+      "dtype": "uint8",
+      "shape": [
+        463640
+      ],
+      "bytes": 463768,
+      "sha256": "025b71facc2bed158d50cea3f34ae792061d8fc5bdfad40575e17ae44e9c8cca"
+    },
+    "site_pre_index": {
+      "path": "data/derived/mb_synapse_state_layout_v1/site_pre_index.npy",
+      "dtype": "uint32",
+      "shape": [
+        391849
+      ],
+      "bytes": 1567524,
+      "sha256": "87adb4e0cef84515a427223e15d4b64ccb4ffecbc702109a64a595863cafa450"
+    },
+    "site_x_pre": {
+      "path": "data/derived/mb_synapse_state_layout_v1/site_x_pre.npy",
+      "dtype": "int32",
+      "shape": [
+        391849
+      ],
+      "bytes": 1567524,
+      "sha256": "25fb0bdc93a15512d0119cf163a6c9dad9025fd3cbb01f8aa54ce236fb1615a5"
+    },
+    "site_y_pre": {
+      "path": "data/derived/mb_synapse_state_layout_v1/site_y_pre.npy",
+      "dtype": "int32",
+      "shape": [
+        391849
+      ],
+      "bytes": 1567524,
+      "sha256": "90735d0f7b5bb623facdb8412a2106d14ef2176d1ad2297d81ecfb5d2d60dfde"
+    },
+    "site_z_pre": {
+      "path": "data/derived/mb_synapse_state_layout_v1/site_z_pre.npy",
+      "dtype": "int32",
+      "shape": [
+        391849
+      ],
+      "bytes": 1567524,
+      "sha256": "9d26ab71ab8d085c68913eb619752158837d32fd2913aba188e192965b71c732"
+    },
+    "site_contact_offsets": {
+      "path": "data/derived/mb_synapse_state_layout_v1/site_contact_offsets.npy",
+      "dtype": "uint64",
+      "shape": [
+        391850
+      ],
+      "bytes": 3134928,
+      "sha256": "91dd90aac1b5cb4526a17b5f1ecca89d552db302942707faa76bf108fc5edcc5"
+    },
+    "site_contact_order": {
+      "path": "data/derived/mb_synapse_state_layout_v1/site_contact_order.npy",
+      "dtype": "uint32",
+      "shape": [
+        463640
+      ],
+      "bytes": 1854688,
+      "sha256": "bf022d6b776131f6b3d6496f74eda28fb10f77452f61bb480cc6be32b8bad932"
+    },
+    "edge_contact_offsets": {
+      "path": "data/derived/mb_synapse_state_layout_v1/edge_contact_offsets.npy",
+      "dtype": "uint64",
+      "shape": [
+        61211
+      ],
+      "bytes": 489816,
+      "sha256": "423bc09c029afe8976c4c1e888e9069f66bc0a624929e97d842b341a7fb7f5cb"
+    },
+    "edge_contact_order": {
+      "path": "data/derived/mb_synapse_state_layout_v1/edge_contact_order.npy",
+      "dtype": "uint32",
+      "shape": [
+        463640
+      ],
+      "bytes": 1854688,
+      "sha256": "c75a07dcb9e0a0f09285681f31c0cc088b17f2fd6a37f42f73395ae0b0dc50a3"
+    }
+  },
+  "synaptic_efficacy_assigned": false,
+  "dopamine_compartment_assigned": false,
+  "plasticity_enabled": false,
+  "biological_gate_passed": false
+}

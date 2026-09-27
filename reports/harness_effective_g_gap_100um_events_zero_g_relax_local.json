@@ -1,0 +1,134 @@
+{
+  "cases": [
+    {
+      "feedback": false,
+      "contact": false,
+      "pulse": false,
+      "exact_contact_samples": 0,
+      "first_contact_tick": null,
+      "first_slide_tick": null,
+      "first_throttle_tick": null,
+      "max_slide_mm": 0.0,
+      "max_throttle": 0.0,
+      "max_abs_effective_g_mm_s2": 0.0
+    },
+    {
+      "feedback": false,
+      "contact": false,
+      "pulse": true,
+      "exact_contact_samples": 0,
+      "first_contact_tick": null,
+      "first_slide_tick": null,
+      "first_throttle_tick": null,
+      "max_slide_mm": 0.0,
+      "max_throttle": 0.0,
+      "max_abs_effective_g_mm_s2": 0.0
+    },
+    {
+      "feedback": false,
+      "contact": true,
+      "pulse": false,
+      "exact_contact_samples": 0,
+      "first_contact_tick": null,
+      "first_slide_tick": null,
+      "first_throttle_tick": null,
+      "max_slide_mm": 0.0,
+      "max_throttle": 0.0,
+      "max_abs_effective_g_mm_s2": 0.0
+    },
+    {
+      "feedback": false,
+      "contact": true,
+      "pulse": true,
+      "exact_contact_samples": 0,
+      "first_contact_tick": null,
+      "first_slide_tick": null,
+      "first_throttle_tick": null,
+      "max_slide_mm": 0.0,
+      "max_throttle": 0.0,
+      "max_abs_effective_g_mm_s2": 0.0
+    },
+    {
+      "feedback": true,
+      "contact": false,
+      "pulse": false,
+      "exact_contact_samples": 0,
+      "first_contact_tick": null,
+      "first_slide_tick": null,
+      "first_throttle_tick": null,
+      "max_slide_mm": 0.0,
+      "max_throttle": 0.0,
+      "max_abs_effective_g_mm_s2": 0.0
+    },
+    {
+      "feedback": true,
+      "contact": false,
+      "pulse": true,
+      "exact_contact_samples": 0,
+      "first_contact_tick": null,
+      "first_slide_tick": null,
+      "first_throttle_tick": null,
+      "max_slide_mm": 0.0,
+      "max_throttle": 0.0,
+      "max_abs_effective_g_mm_s2": 0.0
+    },
+    {
+      "feedback": true,
+      "contact": true,
+      "pulse": false,
+      "exact_contact_samples": 0,
+      "first_contact_tick": null,
+      "first_slide_tick": null,
+      "first_throttle_tick": null,
+      "max_slide_mm": 0.0,
+      "max_throttle": 0.0,
+      "max_abs_effective_g_mm_s2": 0.0
+    },
+    {
+      "feedback": true,
+      "contact": true,
+      "pulse": true,
+      "exact_contact_samples": 0,
+      "first_contact_tick": null,
+      "first_slide_tick": null,
+      "first_throttle_tick": null,
+      "max_slide_mm": 0.0,
+      "max_throttle": 0.0,
+      "max_abs_effective_g_mm_s2": 0.0
+    }
+  ],
+  "source_harness_xml_sha256": "eb89b6438bfdd6fb21a4c512b915d96c185e298654cf3221870a174ec3d3a3a0",
+  "executed_source_sha256": "ff382e7605f50cd45a9eee627fad49d2bf19c5c42483c13e7c19a453c4fc6792",
+  "pad_center_mm": [
+    0.9561606938163695,
+    -0.2903256688320693,
+    2.364143709154617
+  ],
+  "mujoco_version": "3.14.0",
+  "relaxed_foot_center_mm": [
+    1.0014047616642312,
+    0.05409912638777834,
+    2.6293697584120257
+  ],
+  "relaxed_knee_q_rad": 1.1263256023232708,
+  "pad_shift_mm": 0.1,
+  "pad_reference": "earth",
+  "motor_drive": "recorded full-graph candidate 156979 events with 0.1 per spike and 20-ms decay",
+  "motor_event_source_sha256": "38bb490b2a800fda91d0839f1031781e200ae6258dffa378525f10a26b21be51",
+  "unclear_transmitter_sign_assumption": "excitatory",
+  "motor_event_ticks": [
+    190,
+    641
+  ],
+  "cabin_frame": "nonrotating co-falling local frame; effective gravity is -thrust/m",
+  "relaxation": "zero gravity for 20000 steps before co-falling frame",
+  "rocket_plant": "native/rocket_vertical.h via native/rocket_vertical_abi.cpp",
+  "first_nonzero_throttle_tick": null,
+  "identical_trajectories_through_first_nonzero_throttle": null,
+  "max_feedback_slide_difference_mm": 0.0,
+  "max_feedback_velocity_difference_mps": 0.0,
+  "no_pulse_contact_caused_throttle": false,
+  "trace_sha256": "f667e335e1ab97510e602a121758b48770de563d4f91124b2c7b5bd8a9cc0fde",
+  "abi_sha256": "d431b64065168d6b85f9ea2165408790bb72fa0b11cd13e1273e3b151fc6c8ce",
+  "scope": "Exploratory replay through hypothetical motor-to-muscle gain; no validated MaleCNS motor mapping, realistic seated cabin or KSP landing."
+}

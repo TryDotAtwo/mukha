@@ -1,0 +1,289 @@
+{
+  "source_commit": "9ea1131626cd76f7203b74076ef8f0e9cab30bef",
+  "source_xml_sha256": "d67ff06d0c684599f00d5f33f8f8ac8ced01ab994c41341b551f8148b6d8aa0b",
+  "mujoco_version": "3.14.0",
+  "source_keyframe": "default-pose",
+  "passive_settle_steps": 20000,
+  "pad_surface_gap_mm": 0.01,
+  "pad_half_size_mm": [
+    0.01,
+    0.15,
+    0.15
+  ],
+  "slide_axis_by_side": {
+    "negative_x": [
+      -1,
+      0,
+      0
+    ],
+    "positive_x": [
+      1,
+      0,
+      0
+    ]
+  },
+  "pulse_ticks": [
+    200,
+    600
+  ],
+  "pulse_activation": 1.0,
+  "geometry": {
+    "author_keyframe": {
+      "foot_bbox_low_mm": [
+        0.42592802536755375,
+        0.37694751512677105,
+        2.4784533354725724
+      ],
+      "foot_bbox_high_mm": [
+        0.4871427741470162,
+        0.44531604148419746,
+        2.586070661474968
+      ],
+      "negative_x_pad_center_mm": [
+        0.40592802536755374,
+        0.41113177830548425,
+        2.5322619984737704
+      ],
+      "positive_x_pad_center_mm": [
+        0.5071427741470161,
+        0.41113177830548425,
+        2.5322619984737704
+      ]
+    },
+    "keyframe_passive_2s": {
+      "foot_bbox_low_mm": [
+        0.9037876666549199,
+        -0.24504757341872244,
+        2.415828167886107
+      ],
+      "foot_bbox_high_mm": [
+        0.98862372443205,
+        -0.1634282926064568,
+        2.4862987077976957
+      ],
+      "negative_x_pad_center_mm": [
+        0.8837876666549199,
+        -0.20423793301258963,
+        2.4510634378419014
+      ],
+      "positive_x_pad_center_mm": [
+        1.00862372443205,
+        -0.20423793301258963,
+        2.4510634378419014
+      ]
+    }
+  },
+  "cases": [
+    {
+      "state": "author_keyframe",
+      "side": "negative_x",
+      "slide_axis": "-1 0 0",
+      "contact_enabled": false,
+      "muscle_pulse": false,
+      "exact_foot_pad_contact_samples": 0,
+      "first_contact_tick": null,
+      "peak_abs_slide_mm": 0.0,
+      "final_slide_mm": 0.0,
+      "xml_path": "data/derived/flymimic_keyframe_contact_v1/author_keyframe_negative_x_contact_0.xml",
+      "xml_sha256": "6866b1a2809e2dd1b87a32036d07f54a76e836e39fde4d3e5caca5993503b896"
+    },
+    {
+      "state": "author_keyframe",
+      "side": "negative_x",
+      "slide_axis": "-1 0 0",
+      "contact_enabled": false,
+      "muscle_pulse": true,
+      "exact_foot_pad_contact_samples": 0,
+      "first_contact_tick": null,
+      "peak_abs_slide_mm": 0.0,
+      "final_slide_mm": 0.0,
+      "xml_path": "data/derived/flymimic_keyframe_contact_v1/author_keyframe_negative_x_contact_0.xml",
+      "xml_sha256": "6866b1a2809e2dd1b87a32036d07f54a76e836e39fde4d3e5caca5993503b896"
+    },
+    {
+      "state": "author_keyframe",
+      "side": "negative_x",
+      "slide_axis": "-1 0 0",
+      "contact_enabled": true,
+      "muscle_pulse": false,
+      "exact_foot_pad_contact_samples": 0,
+      "first_contact_tick": null,
+      "peak_abs_slide_mm": 0.0,
+      "final_slide_mm": 0.0,
+      "xml_path": "data/derived/flymimic_keyframe_contact_v1/author_keyframe_negative_x_contact_1.xml",
+      "xml_sha256": "8fa8d60bfed4595852eb178bd9ff3758c4dfa49ae47985f3c0b2e7f75c60d2c5"
+    },
+    {
+      "state": "author_keyframe",
+      "side": "negative_x",
+      "slide_axis": "-1 0 0",
+      "contact_enabled": true,
+      "muscle_pulse": true,
+      "exact_foot_pad_contact_samples": 0,
+      "first_contact_tick": null,
+      "peak_abs_slide_mm": 0.0,
+      "final_slide_mm": 0.0,
+      "xml_path": "data/derived/flymimic_keyframe_contact_v1/author_keyframe_negative_x_contact_1.xml",
+      "xml_sha256": "8fa8d60bfed4595852eb178bd9ff3758c4dfa49ae47985f3c0b2e7f75c60d2c5"
+    },
+    {
+      "state": "author_keyframe",
+      "side": "positive_x",
+      "slide_axis": "+1 0 0",
+      "contact_enabled": false,
+      "muscle_pulse": false,
+      "exact_foot_pad_contact_samples": 0,
+      "first_contact_tick": null,
+      "peak_abs_slide_mm": 0.0,
+      "final_slide_mm": 0.0,
+      "xml_path": "data/derived/flymimic_keyframe_contact_v1/author_keyframe_positive_x_contact_0.xml",
+      "xml_sha256": "759498af0519b65f47fa7a9073a5d2ffdae70624159c5b7352bcac8221eeba97"
+    },
+    {
+      "state": "author_keyframe",
+      "side": "positive_x",
+      "slide_axis": "+1 0 0",
+      "contact_enabled": false,
+      "muscle_pulse": true,
+      "exact_foot_pad_contact_samples": 0,
+      "first_contact_tick": null,
+      "peak_abs_slide_mm": 0.0,
+      "final_slide_mm": 0.0,
+      "xml_path": "data/derived/flymimic_keyframe_contact_v1/author_keyframe_positive_x_contact_0.xml",
+      "xml_sha256": "759498af0519b65f47fa7a9073a5d2ffdae70624159c5b7352bcac8221eeba97"
+    },
+    {
+      "state": "author_keyframe",
+      "side": "positive_x",
+      "slide_axis": "+1 0 0",
+      "contact_enabled": true,
+      "muscle_pulse": false,
+      "exact_foot_pad_contact_samples": 469,
+      "first_contact_tick": 95,
+      "peak_abs_slide_mm": 0.07293068962330429,
+      "final_slide_mm": 0.07293068962330429,
+      "xml_path": "data/derived/flymimic_keyframe_contact_v1/author_keyframe_positive_x_contact_1.xml",
+      "xml_sha256": "04712b5c2543f049b9800c4968fefdd42fbb3643fbbe78492a5861a64eea7800"
+    },
+    {
+      "state": "author_keyframe",
+      "side": "positive_x",
+      "slide_axis": "+1 0 0",
+      "contact_enabled": true,
+      "muscle_pulse": true,
+      "exact_foot_pad_contact_samples": 239,
+      "first_contact_tick": 95,
+      "peak_abs_slide_mm": 0.11069108732859437,
+      "final_slide_mm": 0.11069108732859437,
+      "xml_path": "data/derived/flymimic_keyframe_contact_v1/author_keyframe_positive_x_contact_1.xml",
+      "xml_sha256": "04712b5c2543f049b9800c4968fefdd42fbb3643fbbe78492a5861a64eea7800"
+    },
+    {
+      "state": "keyframe_passive_2s",
+      "side": "negative_x",
+      "slide_axis": "-1 0 0",
+      "contact_enabled": false,
+      "muscle_pulse": false,
+      "exact_foot_pad_contact_samples": 0,
+      "first_contact_tick": null,
+      "peak_abs_slide_mm": 0.0,
+      "final_slide_mm": 0.0,
+      "xml_path": "data/derived/flymimic_keyframe_contact_v1/keyframe_passive_2s_negative_x_contact_0.xml",
+      "xml_sha256": "b8b950a8ba4e420c5bc69f61aeed7a54124553150665b40948ed433350c4199a"
+    },
+    {
+      "state": "keyframe_passive_2s",
+      "side": "negative_x",
+      "slide_axis": "-1 0 0",
+      "contact_enabled": false,
+      "muscle_pulse": true,
+      "exact_foot_pad_contact_samples": 0,
+      "first_contact_tick": null,
+      "peak_abs_slide_mm": 0.0,
+      "final_slide_mm": 0.0,
+      "xml_path": "data/derived/flymimic_keyframe_contact_v1/keyframe_passive_2s_negative_x_contact_0.xml",
+      "xml_sha256": "b8b950a8ba4e420c5bc69f61aeed7a54124553150665b40948ed433350c4199a"
+    },
+    {
+      "state": "keyframe_passive_2s",
+      "side": "negative_x",
+      "slide_axis": "-1 0 0",
+      "contact_enabled": true,
+      "muscle_pulse": false,
+      "exact_foot_pad_contact_samples": 0,
+      "first_contact_tick": null,
+      "peak_abs_slide_mm": 0.0,
+      "final_slide_mm": 0.0,
+      "xml_path": "data/derived/flymimic_keyframe_contact_v1/keyframe_passive_2s_negative_x_contact_1.xml",
+      "xml_sha256": "b6d91629598d895d163a8fed49ad1d32ceff67ad59339a04d884841639e2fbdd"
+    },
+    {
+      "state": "keyframe_passive_2s",
+      "side": "negative_x",
+      "slide_axis": "-1 0 0",
+      "contact_enabled": true,
+      "muscle_pulse": true,
+      "exact_foot_pad_contact_samples": 0,
+      "first_contact_tick": null,
+      "peak_abs_slide_mm": 0.0,
+      "final_slide_mm": 0.0,
+      "xml_path": "data/derived/flymimic_keyframe_contact_v1/keyframe_passive_2s_negative_x_contact_1.xml",
+      "xml_sha256": "b6d91629598d895d163a8fed49ad1d32ceff67ad59339a04d884841639e2fbdd"
+    },
+    {
+      "state": "keyframe_passive_2s",
+      "side": "positive_x",
+      "slide_axis": "+1 0 0",
+      "contact_enabled": false,
+      "muscle_pulse": false,
+      "exact_foot_pad_contact_samples": 0,
+      "first_contact_tick": null,
+      "peak_abs_slide_mm": 0.0,
+      "final_slide_mm": 0.0,
+      "xml_path": "data/derived/flymimic_keyframe_contact_v1/keyframe_passive_2s_positive_x_contact_0.xml",
+      "xml_sha256": "5a63d719dfb57480283356cf1f07d357016e2b3f0df1c136551511f92bc434f6"
+    },
+    {
+      "state": "keyframe_passive_2s",
+      "side": "positive_x",
+      "slide_axis": "+1 0 0",
+      "contact_enabled": false,
+      "muscle_pulse": true,
+      "exact_foot_pad_contact_samples": 0,
+      "first_contact_tick": null,
+      "peak_abs_slide_mm": 0.0,
+      "final_slide_mm": 0.0,
+      "xml_path": "data/derived/flymimic_keyframe_contact_v1/keyframe_passive_2s_positive_x_contact_0.xml",
+      "xml_sha256": "5a63d719dfb57480283356cf1f07d357016e2b3f0df1c136551511f92bc434f6"
+    },
+    {
+      "state": "keyframe_passive_2s",
+      "side": "positive_x",
+      "slide_axis": "+1 0 0",
+      "contact_enabled": true,
+      "muscle_pulse": false,
+      "exact_foot_pad_contact_samples": 0,
+      "first_contact_tick": null,
+      "peak_abs_slide_mm": 0.0,
+      "final_slide_mm": 0.0,
+      "xml_path": "data/derived/flymimic_keyframe_contact_v1/keyframe_passive_2s_positive_x_contact_1.xml",
+      "xml_sha256": "adde05fbd2f283ddf26e5de8605f7e75b39538a9f42c8e50481487e16e1aa1c2"
+    },
+    {
+      "state": "keyframe_passive_2s",
+      "side": "positive_x",
+      "slide_axis": "+1 0 0",
+      "contact_enabled": true,
+      "muscle_pulse": true,
+      "exact_foot_pad_contact_samples": 92,
+      "first_contact_tick": 220,
+      "peak_abs_slide_mm": 0.22718848366829525,
+      "final_slide_mm": 0.22718848366829525,
+      "xml_path": "data/derived/flymimic_keyframe_contact_v1/keyframe_passive_2s_positive_x_contact_1.xml",
+      "xml_sha256": "adde05fbd2f283ddf26e5de8605f7e75b39538a9f42c8e50481487e16e1aa1c2"
+    }
+  ],
+  "trace_path": "data/derived/flymimic_keyframe_contact_v1/traces.npz",
+  "trace_sha256": "8a143b658774e1edb67957094581995c53344f97ac7336bab6988061a3737960",
+  "scope": "Exploratory source-keyframe geometry and one-axis passive pad; no biological muscle command or validated cockpit."
+}

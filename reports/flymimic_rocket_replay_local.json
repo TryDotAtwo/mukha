@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "case_count": 4,
+  "steps_per_case": 1000,
+  "dt_seconds": 0.0001,
+  "sampling": "post-step MuJoCo slide q at previous tick is native rocket input at next tick",
+  "first_contact_tick": 239,
+  "first_nonzero_throttle_tick": 240,
+  "maximum_throttle": 0.5417946638865612,
+  "maximum_velocity_effect_mps": 0.035768897832465285,
+  "maximum_engine_recurrence_error_n": 0.0,
+  "maximum_fuel_recurrence_error_kg": 0.0,
+  "three_control_rocket_traces_identical": true,
+  "no_hidden_rocket_input": true,
+  "scope": "One-way measured FlyMimic contact-to-rocket diagnostic; prescribed muscle pulse, no neural command, rocket-to-body feedback, cockpit or KSP landing.",
+  "hashes": {
+    "data/derived/flymimic_passive_throttle_v1/traces.npz": "dec9a7a9b7038a78db5caa1bf55d1c35bb590b3ef96e8acaa39a307812014a64",
+    "native/flymimic_rocket_replay.cpp": "03e67733df9f49ac239bdc4fc6bd2e08e36c4f89467978031e1a2e356c0e1e46",
+    "build/flymimic_rocket_replay.exe": "5eeb09e740baf19fbfe42698f597c363ce72c3b819bcaafef563cd0395997e5e",
+    "data/derived/flymimic_passive_throttle_v1/rocket_slide_input.csv": "dd9f685bbf84a99df83ce14b359f6801c235afe2344e88209c574520e8496b59",
+    "data/derived/flymimic_passive_throttle_v1/rocket_replay.csv": "47eb14ece8462ca79d3fe6ded937a010c13c28c0135a997d246a24573c9446ba"
+  }
+}

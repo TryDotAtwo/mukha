@@ -1,0 +1,46 @@
+{
+  "question": "Can the FANC CxHP8 sensory tuning be assigned to the four direct MaleCNS left-front extensor partners by nerve identity?",
+  "source": "https://www.nature.com/articles/s41467-026-69333-z",
+  "source_statement": "CxHP8 axons uniquely enter the VNC through VProN in the FANC leg X-ray analysis; the MANC hair-plate axons could not be identified specifically.",
+  "source_sha256": {
+    "data/derived/malecns_v1_candidates/nodes.feather": "48c7e4acadf9619d83f08b31bb2062b7a9f0a5fa86429ff968aea066ced57f3f",
+    "data/raw/malecns_v1/body-annotations-male-cns-v1.0-minconf-0.5.feather": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2"
+  },
+  "records": [
+    {
+      "body_id": 817697,
+      "graph_index": 158527,
+      "subclass": "leg",
+      "type": "SNppxx",
+      "entry_nerve": "ProLN"
+    },
+    {
+      "body_id": 821306,
+      "graph_index": 159862,
+      "subclass": "leg",
+      "type": "SNppxx",
+      "entry_nerve": "ProLN"
+    },
+    {
+      "body_id": 908487,
+      "graph_index": 162999,
+      "subclass": "leg",
+      "type": null,
+      "entry_nerve": "ProLN"
+    },
+    {
+      "body_id": 912317,
+      "graph_index": 164105,
+      "subclass": "chordotonal organ",
+      "type": "SNpp50",
+      "entry_nerve": "ProLN"
+    }
+  ],
+  "cxhp8_reported_entry_nerve": "VProN",
+  "all_candidate_entry_nerves": [
+    "ProLN"
+  ],
+  "cxhp8_transfer_supported_by_nerve": false,
+  "interpretation": "The ProLN annotation conflicts with a CxHP8/VProN identity. This excludes direct CxHP8 tuning transfer, not every hair-plate possibility and not other sensory modalities.",
+  "biological_validation": false
+}

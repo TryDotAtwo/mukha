@@ -1,0 +1,127 @@
+{
+  "scope": "Published MaleCNS v1.0 annotation ID crosswalk; no morphological or muscle-target validation",
+  "source_sha256": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2",
+  "selected_nodes_sha256": "48c7e4acadf9619d83f08b31bb2062b7a9f0a5fa86429ff968aea066ced57f3f",
+  "source_generation": "1780494878811468",
+  "manc_v1_export_generation": "1685939278333965",
+  "manc_v1_export_sha256": "0c4476528906bb0a20e05e1f01e83fc2e5a582761536171ede5463669ca0b891",
+  "manc_v1_rows": [
+    {
+      "bodyId": 10256,
+      "instance": "IN19A001_T1_L",
+      "type": "IN19A001",
+      "class": "intrinsic neuron",
+      "target": "LegNpT1_L",
+      "origin": "LegNpT1_L",
+      "exitNerve": null,
+      "somaNeuromere": "T1",
+      "somaSide": "LHS",
+      "group": 10256.0,
+      "serial": 10146.0
+    },
+    {
+      "bodyId": 22126,
+      "instance": "TBD",
+      "type": "Tergotr. MN",
+      "class": "motor neuron",
+      "target": "Tergotr.",
+      "origin": "LegNpT1",
+      "exitNerve": "VProN_R",
+      "somaNeuromere": "T1",
+      "somaSide": "RHS",
+      "group": 19652.0,
+      "serial": 13214.0
+    }
+  ],
+  "ti_extensor_set_reconciliation": {
+    "malecns_rows": 12,
+    "manc_v1_rows": 12,
+    "manc_v1_ids_not_present_in_malecns_extensor_bodyid_field": [
+      10461,
+      10737,
+      11657,
+      11706
+    ],
+    "malecns_extensor_bodyid_values_with_other_manc_v1_types": [
+      10256,
+      22126
+    ],
+    "possible_replacement_candidates": [
+      {
+        "malecns_body_id": 815344,
+        "candidate_manc_v1_body_id": 11657,
+        "shared_type": "Ti extensor MN",
+        "same_neuromere": true,
+        "same_side": true,
+        "malecns_manc_group_equals_candidate_id": true,
+        "individual_morphology_match_verified": false
+      },
+      {
+        "malecns_body_id": 815678,
+        "candidate_manc_v1_body_id": 11706,
+        "shared_type": "Ti extensor MN",
+        "same_neuromere": true,
+        "same_side": true,
+        "malecns_manc_group_equals_candidate_id": true,
+        "individual_morphology_match_verified": false
+      }
+    ],
+    "replacement_accepted": false
+  },
+  "raw_multiplicity": {
+    "rows_with_manc_id": 18715,
+    "unique_manc_ids": 18277,
+    "ids_assigned_to_multiple_malecns_rows": 438,
+    "rows_on_nonunique_manc_ids": 876,
+    "maximum_multiplicity": 2
+  },
+  "selected_multiplicity": {
+    "rows_with_manc_id": 18574,
+    "unique_manc_ids": 18162,
+    "ids_assigned_to_multiple_malecns_rows": 412,
+    "rows_on_nonunique_manc_ids": 824,
+    "maximum_multiplicity": 2
+  },
+  "relevant_rows": [
+    {
+      "bodyId": 800163,
+      "instance": "IN19A002_L",
+      "superclass": "vnc_intrinsic",
+      "type": "IN19A002",
+      "mancBodyid": 10256.0,
+      "mancType": "IN19A002",
+      "mancGroup": 10256.0,
+      "mancSerial": 10146.0,
+      "matchingNotes": null,
+      "exitNerve": null
+    },
+    {
+      "bodyId": 815344,
+      "instance": "Ti extensor MN_L",
+      "superclass": "vnc_motor",
+      "type": "Ti extensor MN",
+      "mancBodyid": 10256.0,
+      "mancType": "Ti extensor MN",
+      "mancGroup": 11657.0,
+      "mancSerial": 10347.0,
+      "matchingNotes": null,
+      "exitNerve": "ProLN"
+    },
+    {
+      "bodyId": 815678,
+      "instance": "Ti extensor MN_R",
+      "superclass": "vnc_motor",
+      "type": "Ti extensor MN",
+      "mancBodyid": 22126.0,
+      "mancType": "Ti extensor MN",
+      "mancGroup": 11706.0,
+      "mancSerial": 10737.0,
+      "matchingNotes": null,
+      "exitNerve": "ProLN"
+    }
+  ],
+  "left_ti_extensor_manc_id_unique_in_source": false,
+  "manc_v1_ids_match_malecns_motor_types": false,
+  "individual_motor_to_muscle_identity_verified": false,
+  "biological_gate_passed": false
+}

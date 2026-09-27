@@ -1,0 +1,1011 @@
+{
+  "source_archive_sha256": "31565245097ca8a9f572555aa32e7f20052ac2a1cd9dcc45ce1803c7858973d2",
+  "records": [
+    {
+      "source_file": "InactiveGal4_GCaMP6f_Club.mat",
+      "source_member_sha256": "a9d0e558baf9c41b38c9513ac45300950decd30225c19532ac68f54d45d9852f",
+      "protocols": [
+        {
+          "protocol": "RampAndHold_FlexFirst",
+          "rows": 27,
+          "frames": 451,
+          "fly_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "cluster_ids": [
+            1,
+            2,
+            3
+          ],
+          "missing_response_samples": 0,
+          "missing_angle_samples": 18,
+          "paired_finite_samples": 12159
+        },
+        {
+          "protocol": "RampAndHold_ExtFirst",
+          "rows": 26,
+          "frames": 451,
+          "fly_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "cluster_ids": [
+            1,
+            2,
+            3
+          ],
+          "missing_response_samples": 0,
+          "missing_angle_samples": 18,
+          "paired_finite_samples": 11708
+        },
+        {
+          "protocol": "Swing_FlexFirst",
+          "rows": 31,
+          "frames": 74,
+          "fly_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "cluster_ids": [
+            1,
+            2,
+            3
+          ],
+          "missing_response_samples": 0,
+          "missing_angle_samples": 0,
+          "paired_finite_samples": 2294
+        }
+      ]
+    },
+    {
+      "source_file": "InactiveGal4_GCaMP6f_XBranch.mat",
+      "source_member_sha256": "1a8a587ee335fb8f78062c1b1d7f46a64a75d13465e6d8ef56591c069357a1a5",
+      "protocols": [
+        {
+          "protocol": "RampAndHold_FlexFirst",
+          "rows": 42,
+          "frames": 451,
+          "fly_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "cluster_ids": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "missing_response_samples": 0,
+          "missing_angle_samples": 35,
+          "paired_finite_samples": 18907
+        },
+        {
+          "protocol": "RampAndHold_ExtFirst",
+          "rows": 41,
+          "frames": 451,
+          "fly_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "cluster_ids": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "missing_response_samples": 0,
+          "missing_angle_samples": 23,
+          "paired_finite_samples": 18468
+        },
+        {
+          "protocol": "Swing_FlexFirst",
+          "rows": 42,
+          "frames": 74,
+          "fly_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "cluster_ids": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "missing_response_samples": 0,
+          "missing_angle_samples": 0,
+          "paired_finite_samples": 3108
+        }
+      ]
+    },
+    {
+      "source_file": "InactiveGal4_GCaMP6f_YBranch.mat",
+      "source_member_sha256": "e1994aa6a9bd7061bb92442b1a60c05dc65a36f2dff674af2e965c06a558dac3",
+      "protocols": [
+        {
+          "protocol": "RampAndHold_FlexFirst",
+          "rows": 24,
+          "frames": 451,
+          "fly_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "cluster_ids": [
+            1,
+            2,
+            3
+          ],
+          "missing_response_samples": 0,
+          "missing_angle_samples": 10,
+          "paired_finite_samples": 10814
+        },
+        {
+          "protocol": "RampAndHold_ExtFirst",
+          "rows": 27,
+          "frames": 451,
+          "fly_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "cluster_ids": [
+            1,
+            2,
+            3
+          ],
+          "missing_response_samples": 0,
+          "missing_angle_samples": 8,
+          "paired_finite_samples": 12169
+        },
+        {
+          "protocol": "Swing_FlexFirst",
+          "rows": 29,
+          "frames": 74,
+          "fly_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "cluster_ids": [
+            1,
+            2,
+            3
+          ],
+          "missing_response_samples": 0,
+          "missing_angle_samples": 0,
+          "paired_finite_samples": 2146
+        }
+      ]
+    },
+    {
+      "source_file": "InactiveGal4_GCaMP6f_ZBranch.mat",
+      "source_member_sha256": "b1d3a65e31a090d875d98ed63caaa320f374c1b95943015d69b76823faf81db6",
+      "protocols": [
+        {
+          "protocol": "RampAndHold_FlexFirst",
+          "rows": 39,
+          "frames": 451,
+          "fly_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "cluster_ids": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "missing_response_samples": 0,
+          "missing_angle_samples": 28,
+          "paired_finite_samples": 17561
+        },
+        {
+          "protocol": "RampAndHold_ExtFirst",
+          "rows": 40,
+          "frames": 451,
+          "fly_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "cluster_ids": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "missing_response_samples": 0,
+          "missing_angle_samples": 24,
+          "paired_finite_samples": 18016
+        },
+        {
+          "protocol": "Swing_FlexFirst",
+          "rows": 37,
+          "frames": 74,
+          "fly_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "cluster_ids": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "missing_response_samples": 0,
+          "missing_angle_samples": 0,
+          "paired_finite_samples": 2738
+        }
+      ]
+    },
+    {
+      "source_file": "R21D12_GCaMP6f_Tip.mat",
+      "source_member_sha256": "aefc9a5f022e77382c4907db5dd0c5e4e63da4efcabba66eb59abea1207962e1",
+      "protocols": [
+        {
+          "protocol": "RampAndHold_FlexFirst",
+          "rows": 14,
+          "frames": 451,
+          "fly_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "cluster_ids": [
+            1
+          ],
+          "missing_response_samples": 0,
+          "missing_angle_samples": 3,
+          "paired_finite_samples": 6311
+        },
+        {
+          "protocol": "RampAndHold_ExtFirst",
+          "rows": 14,
+          "frames": 451,
+          "fly_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "cluster_ids": [
+            1
+          ],
+          "missing_response_samples": 0,
+          "missing_angle_samples": 7,
+          "paired_finite_samples": 6307
+        },
+        {
+          "protocol": "Swing_FlexFirst",
+          "rows": 14,
+          "frames": 74,
+          "fly_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "cluster_ids": [
+            1
+          ],
+          "missing_response_samples": 0,
+          "missing_angle_samples": 0,
+          "paired_finite_samples": 1036
+        }
+      ]
+    },
+    {
+      "source_file": "R21D12_GCaMP6f_YBranch.mat",
+      "source_member_sha256": "c36fc919f4a22fb67afe1d4a535a5fbc70dc6b6a6431e62effeece4cf2fa4adf",
+      "protocols": [
+        {
+          "protocol": "RampAndHold_FlexFirst",
+          "rows": 9,
+          "frames": 451,
+          "fly_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "cluster_ids": [
+            1
+          ],
+          "missing_response_samples": 0,
+          "missing_angle_samples": 0,
+          "paired_finite_samples": 4059
+        },
+        {
+          "protocol": "RampAndHold_ExtFirst",
+          "rows": 9,
+          "frames": 451,
+          "fly_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "cluster_ids": [
+            1
+          ],
+          "missing_response_samples": 0,
+          "missing_angle_samples": 1,
+          "paired_finite_samples": 4058
+        },
+        {
+          "protocol": "Swing_FlexFirst",
+          "rows": 9,
+          "frames": 74,
+          "fly_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "cluster_ids": [
+            1
+          ],
+          "missing_response_samples": 0,
+          "missing_angle_samples": 0,
+          "paired_finite_samples": 666
+        }
+      ]
+    },
+    {
+      "source_file": "R21D12_GCaMP6f_ZBranch.mat",
+      "source_member_sha256": "2f3c0bff5425866a427ea874e149537c05a52d755085ebfe1281d271ba689385",
+      "protocols": [
+        {
+          "protocol": "RampAndHold_FlexFirst",
+          "rows": 14,
+          "frames": 451,
+          "fly_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "cluster_ids": [
+            1
+          ],
+          "missing_response_samples": 0,
+          "missing_angle_samples": 12,
+          "paired_finite_samples": 6302
+        },
+        {
+          "protocol": "RampAndHold_ExtFirst",
+          "rows": 14,
+          "frames": 451,
+          "fly_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "cluster_ids": [
+            1
+          ],
+          "missing_response_samples": 0,
+          "missing_angle_samples": 6,
+          "paired_finite_samples": 6308
+        },
+        {
+          "protocol": "Swing_FlexFirst",
+          "rows": 14,
+          "frames": 74,
+          "fly_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "cluster_ids": [
+            1
+          ],
+          "missing_response_samples": 0,
+          "missing_angle_samples": 0,
+          "paired_finite_samples": 1036
+        }
+      ]
+    },
+    {
+      "source_file": "R64C04_GCaMP6f_Middle.mat",
+      "source_member_sha256": "7baaa701f95cd0a8a98b737ad3fdb69aa5dd379bddc2ecb6fa200b596b22fd08",
+      "protocols": [
+        {
+          "protocol": "RampAndHold_FlexFirst",
+          "rows": 11,
+          "frames": 451,
+          "fly_ids": [
+            1,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "cluster_ids": [
+            1
+          ],
+          "missing_response_samples": 0,
+          "missing_angle_samples": 1,
+          "paired_finite_samples": 4960
+        },
+        {
+          "protocol": "RampAndHold_ExtFirst",
+          "rows": 11,
+          "frames": 451,
+          "fly_ids": [
+            1,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "cluster_ids": [
+            1
+          ],
+          "missing_response_samples": 0,
+          "missing_angle_samples": 3,
+          "paired_finite_samples": 4958
+        },
+        {
+          "protocol": "Swing_FlexFirst",
+          "rows": 11,
+          "frames": 74,
+          "fly_ids": [
+            1,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "cluster_ids": [
+            1
+          ],
+          "missing_response_samples": 0,
+          "missing_angle_samples": 0,
+          "paired_finite_samples": 814
+        }
+      ]
+    },
+    {
+      "source_file": "R64C04_GCaMP6f_Tip.mat",
+      "source_member_sha256": "86810e37981c975aacdad6b61b1063a99b7da2b23624b3ae4e61dfee5c2210d2",
+      "protocols": [
+        {
+          "protocol": "RampAndHold_FlexFirst",
+          "rows": 14,
+          "frames": 451,
+          "fly_ids": [
+            1,
+            2,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "cluster_ids": [
+            1
+          ],
+          "missing_response_samples": 0,
+          "missing_angle_samples": 21,
+          "paired_finite_samples": 6293
+        },
+        {
+          "protocol": "RampAndHold_ExtFirst",
+          "rows": 14,
+          "frames": 451,
+          "fly_ids": [
+            1,
+            2,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "cluster_ids": [
+            1
+          ],
+          "missing_response_samples": 0,
+          "missing_angle_samples": 21,
+          "paired_finite_samples": 6293
+        },
+        {
+          "protocol": "Swing_FlexFirst",
+          "rows": 14,
+          "frames": 74,
+          "fly_ids": [
+            1,
+            2,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "cluster_ids": [
+            1
+          ],
+          "missing_response_samples": 0,
+          "missing_angle_samples": 0,
+          "paired_finite_samples": 1036
+        }
+      ]
+    },
+    {
+      "source_file": "R73D10_GCaMP6f_XBranch.mat",
+      "source_member_sha256": "7a93c5901efe5fa729172494e3f8a937e58b551df1df9119093a2ffbf61f924f",
+      "protocols": [
+        {
+          "protocol": "RampAndHold_FlexFirst",
+          "rows": 20,
+          "frames": 451,
+          "fly_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "cluster_ids": [
+            1,
+            2
+          ],
+          "missing_response_samples": 0,
+          "missing_angle_samples": 0,
+          "paired_finite_samples": 9020
+        },
+        {
+          "protocol": "RampAndHold_ExtFirst",
+          "rows": 20,
+          "frames": 451,
+          "fly_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "cluster_ids": [
+            1,
+            2
+          ],
+          "missing_response_samples": 0,
+          "missing_angle_samples": 4,
+          "paired_finite_samples": 9016
+        },
+        {
+          "protocol": "Swing_FlexFirst",
+          "rows": 20,
+          "frames": 74,
+          "fly_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "cluster_ids": [
+            1,
+            2
+          ],
+          "missing_response_samples": 0,
+          "missing_angle_samples": 0,
+          "paired_finite_samples": 1480
+        }
+      ]
+    },
+    {
+      "source_file": "R73D10_GCaMP6f_YBranch.mat",
+      "source_member_sha256": "c5ce808fd224b306a3eba027401d25fdd2b33ed576883acc2b7084dd50e65ab9",
+      "protocols": [
+        {
+          "protocol": "RampAndHold_FlexFirst",
+          "rows": 20,
+          "frames": 451,
+          "fly_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "cluster_ids": [
+            1,
+            2
+          ],
+          "missing_response_samples": 0,
+          "missing_angle_samples": 0,
+          "paired_finite_samples": 9020
+        },
+        {
+          "protocol": "RampAndHold_ExtFirst",
+          "rows": 20,
+          "frames": 451,
+          "fly_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "cluster_ids": [
+            1,
+            2
+          ],
+          "missing_response_samples": 0,
+          "missing_angle_samples": 4,
+          "paired_finite_samples": 9016
+        },
+        {
+          "protocol": "Swing_FlexFirst",
+          "rows": 20,
+          "frames": 74,
+          "fly_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "cluster_ids": [
+            1,
+            2
+          ],
+          "missing_response_samples": 0,
+          "missing_angle_samples": 0,
+          "paired_finite_samples": 1480
+        }
+      ]
+    },
+    {
+      "source_file": "R73D10_GCaMP6f_ZBranch.mat",
+      "source_member_sha256": "66f421d5248a6e7fd38fb2b3e5e067302002483edc6993250a527c8eaffc29d9",
+      "protocols": [
+        {
+          "protocol": "RampAndHold_FlexFirst",
+          "rows": 20,
+          "frames": 451,
+          "fly_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "cluster_ids": [
+            1,
+            2
+          ],
+          "missing_response_samples": 0,
+          "missing_angle_samples": 4,
+          "paired_finite_samples": 9016
+        },
+        {
+          "protocol": "RampAndHold_ExtFirst",
+          "rows": 20,
+          "frames": 451,
+          "fly_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "cluster_ids": [
+            1,
+            2
+          ],
+          "missing_response_samples": 0,
+          "missing_angle_samples": 4,
+          "paired_finite_samples": 9016
+        },
+        {
+          "protocol": "Swing_FlexFirst",
+          "rows": 20,
+          "frames": 74,
+          "fly_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "cluster_ids": [
+            1,
+            2
+          ],
+          "missing_response_samples": 0,
+          "missing_angle_samples": 0,
+          "paired_finite_samples": 1480
+        }
+      ]
+    }
+  ],
+  "files": {
+    "InactiveGal4_GCaMP6f_Club.npz": "d13946ab434289d8b7882767559e70ee7c0bb46dca7a4a77637b370b673e75b3",
+    "InactiveGal4_GCaMP6f_XBranch.npz": "a4a8408ca1f071b97d7201a6038b69f9fb4e54a8a19723e2335827e773fa7f6f",
+    "InactiveGal4_GCaMP6f_YBranch.npz": "1e710a02b7cdcbaea60cc0b6b3cc871167a062eb1e88fb18d162028cecc14d8b",
+    "InactiveGal4_GCaMP6f_ZBranch.npz": "af5b7e05ef897e6839793fc7a87b9194a2759a20fa8db6b7b0b2142bea74234a",
+    "R21D12_GCaMP6f_Tip.npz": "0cc5e280bfd1fb95f80c40fc675798eb4f1059733ad264dfc213a099a1335034",
+    "R21D12_GCaMP6f_YBranch.npz": "fbd0e323ded2cf628ef8e6c0ab1b2c1e0831630e921f8b8d81ab707b84f5c92b",
+    "R21D12_GCaMP6f_ZBranch.npz": "e39adfe3f20a737577c47950833691e8a8e94404de86675f520d652610c262ce",
+    "R64C04_GCaMP6f_Middle.npz": "fc0cb69cca2e651c89e7d8531947f92f35822ea11cf88717b233196ad2f4fa83",
+    "R64C04_GCaMP6f_Tip.npz": "fbc75834bec90d258d3c1dc79a23eefdc6930436b0171532c5aa2bc201c768a7",
+    "R73D10_GCaMP6f_XBranch.npz": "bda2a49799e9e641a825316d234431394fa847be15cec829e256ecd5f6c3ca76",
+    "R73D10_GCaMP6f_YBranch.npz": "708641451e992986b6385120be1b5f461c2e40e650547a7cab5b4200777320a8",
+    "R73D10_GCaMP6f_ZBranch.npz": "88120a8701679b4420868e58c956c7d600fb8155c9e605e21bf1195c4f567504"
+  },
+  "frames_per_second_from_author_readme": 8.01,
+  "scope": "Cluster-level calcium response and measured angle; not spike trains or MaleCNS-cell measurements",
+  "missing_samples_preserved": true,
+  "source_arrays_exact": true,
+  "limitations": [
+    "Pixel-cluster identities derive from response similarity",
+    "Cross-file animal identity has not been verified",
+    "Source angle convention needs body-joint registration",
+    "Calcium observation dynamics and sensory transduction remain unfitted"
+  ],
+  "runtime_enabled": false
+}

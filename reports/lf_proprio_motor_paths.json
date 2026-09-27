@@ -1,0 +1,398 @@
+{
+  "motor_body_id": 815344,
+  "motor_graph_index": 156979,
+  "selection": "MaleCNS chordotonal organ, ProLN entry nerve, left root side",
+  "selected_cells": 23,
+  "selected_type_counts": {
+    "SApp23": 3,
+    "SNpp39": 3,
+    "SNpp40": 2,
+    "SNpp41": 1,
+    "SNpp43": 2,
+    "SNpp47": 2,
+    "SNpp50": 1,
+    "SNpp51": 3,
+    "SNpp57": 1,
+    "SNpp59": 2,
+    "SNpp60": 3
+  },
+  "raw_chordotonal_by_leg_nerve_and_root_side": [
+    {
+      "entry_nerve": "MesoLN",
+      "root_side": "L",
+      "cells": 80
+    },
+    {
+      "entry_nerve": "MesoLN",
+      "root_side": "R",
+      "cells": 83
+    },
+    {
+      "entry_nerve": "MetaLN",
+      "root_side": "L",
+      "cells": 93
+    },
+    {
+      "entry_nerve": "MetaLN",
+      "root_side": "R",
+      "cells": 100
+    },
+    {
+      "entry_nerve": "ProLN",
+      "root_side": "L",
+      "cells": 23
+    },
+    {
+      "entry_nerve": "ProLN",
+      "root_side": "R",
+      "cells": 13
+    }
+  ],
+  "raw_left_front_cells_retained_in_graph": true,
+  "raw_left_front_proprioceptive_class_cells": 45,
+  "raw_left_front_proprioceptive_class_untyped_snppxx": 7,
+  "raw_left_front_proprioceptive_class_no_type": 10,
+  "raw_left_front_proprioceptive_class_cells_retained_in_graph": true,
+  "global_snpp50_cells": 62,
+  "global_snpp50_by_entry_nerve_and_root_side": [
+    {
+      "entry_nerve": "MesoLN",
+      "root_side": "L",
+      "cells": 14
+    },
+    {
+      "entry_nerve": "MesoLN",
+      "root_side": "R",
+      "cells": 12
+    },
+    {
+      "entry_nerve": "MetaLN",
+      "root_side": "L",
+      "cells": 18
+    },
+    {
+      "entry_nerve": "MetaLN",
+      "root_side": "R",
+      "cells": 17
+    },
+    {
+      "entry_nerve": "ProLN",
+      "root_side": "L",
+      "cells": 1
+    }
+  ],
+  "cells_with_direct_edge": 1,
+  "all_left_front_proprioceptive_class_direct_to_motor": [
+    {
+      "body_id": 817697,
+      "graph_index": 158527,
+      "type": "SNppxx",
+      "subclass": "leg",
+      "edge_rows": 1,
+      "contacts": 28,
+      "consensus_nt": "acetylcholine",
+      "predicted_nt_confidence": 0.8572749717449663,
+      "ground_truth_nt": null
+    },
+    {
+      "body_id": 821306,
+      "graph_index": 159862,
+      "type": "SNppxx",
+      "subclass": "leg",
+      "edge_rows": 1,
+      "contacts": 12,
+      "consensus_nt": "acetylcholine",
+      "predicted_nt_confidence": 0.8226509371877055,
+      "ground_truth_nt": null
+    },
+    {
+      "body_id": 908487,
+      "graph_index": 162999,
+      "type": null,
+      "subclass": "leg",
+      "edge_rows": 1,
+      "contacts": 18,
+      "consensus_nt": "acetylcholine",
+      "predicted_nt_confidence": 0.9406387309097078,
+      "ground_truth_nt": null
+    },
+    {
+      "body_id": 912317,
+      "graph_index": 164105,
+      "type": "SNpp50",
+      "subclass": "chordotonal organ",
+      "edge_rows": 1,
+      "contacts": 5,
+      "consensus_nt": "acetylcholine",
+      "predicted_nt_confidence": 0.9512495508465314,
+      "ground_truth_nt": null
+    }
+  ],
+  "cells_with_two_hop_path": 15,
+  "motor_unique_immediate_presynaptic_cells": 571,
+  "candidates": [
+    {
+      "body_id": 135305,
+      "graph_index": 99474,
+      "type": "SApp23",
+      "root_side": "L",
+      "entry_nerve": "ProLN",
+      "direct_edge_rows_to_motor": 0,
+      "direct_synapse_contacts_to_motor": 0,
+      "two_hop_path_rows_to_motor": 0
+    },
+    {
+      "body_id": 142571,
+      "graph_index": 103230,
+      "type": "SApp23",
+      "root_side": "L",
+      "entry_nerve": "ProLN",
+      "direct_edge_rows_to_motor": 0,
+      "direct_synapse_contacts_to_motor": 0,
+      "two_hop_path_rows_to_motor": 0
+    },
+    {
+      "body_id": 248280,
+      "graph_index": 123592,
+      "type": "SApp23",
+      "root_side": "L",
+      "entry_nerve": "ProLN",
+      "direct_edge_rows_to_motor": 0,
+      "direct_synapse_contacts_to_motor": 0,
+      "two_hop_path_rows_to_motor": 0
+    },
+    {
+      "body_id": 815569,
+      "graph_index": 157135,
+      "type": "SNpp39",
+      "root_side": "L",
+      "entry_nerve": "ProLN",
+      "direct_edge_rows_to_motor": 0,
+      "direct_synapse_contacts_to_motor": 0,
+      "two_hop_path_rows_to_motor": 8
+    },
+    {
+      "body_id": 815843,
+      "graph_index": 157342,
+      "type": "SNpp51",
+      "root_side": "L",
+      "entry_nerve": "ProLN",
+      "direct_edge_rows_to_motor": 0,
+      "direct_synapse_contacts_to_motor": 0,
+      "two_hop_path_rows_to_motor": 96
+    },
+    {
+      "body_id": 817298,
+      "graph_index": 158271,
+      "type": "SNpp41",
+      "root_side": "L",
+      "entry_nerve": "ProLN",
+      "direct_edge_rows_to_motor": 0,
+      "direct_synapse_contacts_to_motor": 0,
+      "two_hop_path_rows_to_motor": 6
+    },
+    {
+      "body_id": 817680,
+      "graph_index": 158517,
+      "type": "SNpp51",
+      "root_side": "L",
+      "entry_nerve": "ProLN",
+      "direct_edge_rows_to_motor": 0,
+      "direct_synapse_contacts_to_motor": 0,
+      "two_hop_path_rows_to_motor": 52
+    },
+    {
+      "body_id": 817839,
+      "graph_index": 158613,
+      "type": "SNpp57",
+      "root_side": "L",
+      "entry_nerve": "ProLN",
+      "direct_edge_rows_to_motor": 0,
+      "direct_synapse_contacts_to_motor": 0,
+      "two_hop_path_rows_to_motor": 0
+    },
+    {
+      "body_id": 902324,
+      "graph_index": 161071,
+      "type": "SNpp43",
+      "root_side": "L",
+      "entry_nerve": "ProLN",
+      "direct_edge_rows_to_motor": 0,
+      "direct_synapse_contacts_to_motor": 0,
+      "two_hop_path_rows_to_motor": 2
+    },
+    {
+      "body_id": 902359,
+      "graph_index": 161086,
+      "type": "SNpp60",
+      "root_side": "L",
+      "entry_nerve": "ProLN",
+      "direct_edge_rows_to_motor": 0,
+      "direct_synapse_contacts_to_motor": 0,
+      "two_hop_path_rows_to_motor": 7
+    },
+    {
+      "body_id": 903843,
+      "graph_index": 161582,
+      "type": "SNpp39",
+      "root_side": "L",
+      "entry_nerve": "ProLN",
+      "direct_edge_rows_to_motor": 0,
+      "direct_synapse_contacts_to_motor": 0,
+      "two_hop_path_rows_to_motor": 9
+    },
+    {
+      "body_id": 905037,
+      "graph_index": 161963,
+      "type": "SNpp40",
+      "root_side": "L",
+      "entry_nerve": "ProLN",
+      "direct_edge_rows_to_motor": 0,
+      "direct_synapse_contacts_to_motor": 0,
+      "two_hop_path_rows_to_motor": 0
+    },
+    {
+      "body_id": 905335,
+      "graph_index": 162098,
+      "type": "SNpp40",
+      "root_side": "L",
+      "entry_nerve": "ProLN",
+      "direct_edge_rows_to_motor": 0,
+      "direct_synapse_contacts_to_motor": 0,
+      "two_hop_path_rows_to_motor": 0
+    },
+    {
+      "body_id": 905339,
+      "graph_index": 162100,
+      "type": "SNpp59",
+      "root_side": "L",
+      "entry_nerve": "ProLN",
+      "direct_edge_rows_to_motor": 0,
+      "direct_synapse_contacts_to_motor": 0,
+      "two_hop_path_rows_to_motor": 2
+    },
+    {
+      "body_id": 905340,
+      "graph_index": 162101,
+      "type": "SNpp59",
+      "root_side": "L",
+      "entry_nerve": "ProLN",
+      "direct_edge_rows_to_motor": 0,
+      "direct_synapse_contacts_to_motor": 0,
+      "two_hop_path_rows_to_motor": 5
+    },
+    {
+      "body_id": 906290,
+      "graph_index": 162392,
+      "type": "SNpp47",
+      "root_side": "L",
+      "entry_nerve": "ProLN",
+      "direct_edge_rows_to_motor": 0,
+      "direct_synapse_contacts_to_motor": 0,
+      "two_hop_path_rows_to_motor": 2
+    },
+    {
+      "body_id": 906558,
+      "graph_index": 162493,
+      "type": "SNpp47",
+      "root_side": "L",
+      "entry_nerve": "ProLN",
+      "direct_edge_rows_to_motor": 0,
+      "direct_synapse_contacts_to_motor": 0,
+      "two_hop_path_rows_to_motor": 2
+    },
+    {
+      "body_id": 906823,
+      "graph_index": 162548,
+      "type": "SNpp43",
+      "root_side": "L",
+      "entry_nerve": "ProLN",
+      "direct_edge_rows_to_motor": 0,
+      "direct_synapse_contacts_to_motor": 0,
+      "two_hop_path_rows_to_motor": 4
+    },
+    {
+      "body_id": 911316,
+      "graph_index": 163876,
+      "type": "SNpp60",
+      "root_side": "L",
+      "entry_nerve": "ProLN",
+      "direct_edge_rows_to_motor": 0,
+      "direct_synapse_contacts_to_motor": 0,
+      "two_hop_path_rows_to_motor": 0
+    },
+    {
+      "body_id": 912317,
+      "graph_index": 164105,
+      "type": "SNpp50",
+      "root_side": "L",
+      "entry_nerve": "ProLN",
+      "direct_edge_rows_to_motor": 1,
+      "direct_synapse_contacts_to_motor": 5,
+      "two_hop_path_rows_to_motor": 27
+    },
+    {
+      "body_id": 914116,
+      "graph_index": 164318,
+      "type": "SNpp60",
+      "root_side": "L",
+      "entry_nerve": "ProLN",
+      "direct_edge_rows_to_motor": 0,
+      "direct_synapse_contacts_to_motor": 0,
+      "two_hop_path_rows_to_motor": 0
+    },
+    {
+      "body_id": 935383,
+      "graph_index": 164982,
+      "type": "SNpp51",
+      "root_side": "L",
+      "entry_nerve": "ProLN",
+      "direct_edge_rows_to_motor": 0,
+      "direct_synapse_contacts_to_motor": 0,
+      "two_hop_path_rows_to_motor": 69
+    },
+    {
+      "body_id": 935541,
+      "graph_index": 164996,
+      "type": "SNpp39",
+      "root_side": "L",
+      "entry_nerve": "ProLN",
+      "direct_edge_rows_to_motor": 0,
+      "direct_synapse_contacts_to_motor": 0,
+      "two_hop_path_rows_to_motor": 11
+    }
+  ],
+  "direct_edge_presynaptic_nt": [
+    {
+      "body_id": 912317,
+      "predicted_nt": "acetylcholine",
+      "predicted_nt_confidence": 0.9512495508465314,
+      "ground_truth": null,
+      "postsynaptic_receptor_sign_verified": false
+    }
+  ],
+  "diagnostic_direct_edge_weight": {
+    "presynaptic_body_id": 912317,
+    "postsynaptic_body_id": 815344,
+    "consensus_nt": "acetylcholine",
+    "assumed_sign": 1,
+    "contacts": 5,
+    "weight_mv_per_contact": 0.275,
+    "diagnostic_weight_mv": 1.375,
+    "runtime_binary_edge_weight_mv": 1.375,
+    "runtime_graph_path": "build/brain_body_graph.bin",
+    "source_report_sha256": "a2787b87dd4d88ac3e11b6656bd86dbce07ecaf3fd13fb85790d5d9527e7c8ec",
+    "biological_sign_verified": false
+  },
+  "source_sha256": {
+    "data/derived/malecns_v1_candidates/body_ids.npy": "6bad3ab247ccb08f958962dd2a3da97289822bb4fe1e345a936db1c8741e05f8",
+    "data/derived/malecns_v1_candidates/indptr.npy": "e8a40f6043b5fac9d7dc8f9746c2b770672eca3f3bea37b4d8a33935752820fe",
+    "data/derived/malecns_v1_candidates/indices.npy": "d24a26b19f088719ade13220f4b6d5d269633a49f20456c2a4a37942d0a72e0b",
+    "data/derived/malecns_v1_candidates/synapse_counts.npy": "578f95e75aa4c86600429a05a59d43d9fa9ece67b592f97c938e1d8523f46ba1",
+    "data/derived/proprioceptive_candidates_v1/nodes.feather": "e889f3c927d841dd7623caf22beaf2ff0ccd87393e0a577bc9084a9b80d1ab53",
+    "data/derived/malecns_v1_candidates/neurotransmitters.feather": "a53fd05fbc6279d90ae4ab8f6e420afe570956c65cc5278ebb7c4d3ff10f5cc4",
+    "data/raw/malecns_v1/body-annotations-male-cns-v1.0-minconf-0.5.feather": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2"
+  },
+  "physiology_verified": false,
+  "scope": "Exact one- and two-edge graph reachability, not a FeCO identity crosswalk, transduction, response sign, active feedback or biological validation."
+}

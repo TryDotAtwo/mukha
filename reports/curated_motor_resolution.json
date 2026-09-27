@@ -1,0 +1,17 @@
+{
+  "scope": "Curated group-to-muscle annotation evidence, no mechanical mapping",
+  "semantics_source": "https://natverse.org/malecns/reference/mcns_predict_group.html",
+  "source_sha256": "c46e3cec1a5114b8d981d5f0383012c8e7fcdebd6c4e3eaffe4ac3ba1def2e94",
+  "candidate_sha256": "8108d056414b6898f25067bb555cae45dbf660ddf492ac6c67fe22f3890d7bb0",
+  "output_sha256": "b4eecfe670321166ee9ea851f9156f4700d1eca6249488301d6dcf5373942519",
+  "status_counts": {
+    "no_curated_group": 192,
+    "curated_group_and_muscle_label_agree": 150,
+    "limb_only_target": 39
+  },
+  "serial_source_url": "https://cdn.elifesciences.org/articles/96084/elife-96084-supp6-v1.csv",
+  "serial_source_sha256": "b56b0563f6a6000b2a43fbc7ebec46297668e8e3b6c6d596843d5ad5aab83a65",
+  "serial_target_shared_ids": 264,
+  "serial_target_disagreements": 0,
+  "enabled_motor_mappings": 0
+}

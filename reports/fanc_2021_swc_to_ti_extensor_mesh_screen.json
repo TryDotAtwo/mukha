@@ -1,0 +1,1956 @@
+{
+  "scope": "2021 SWC to 2024 mesh proximity screen in native FANC coordinates; cross-release identity unverified",
+  "swc_manifest_sha256": "adb7682e951df2825c72b0b5bf9fb91b0ce5203d0c2f013c64c0f569ed8dc8d8",
+  "mesh_report_sha256": "c637999e1cb63800c02968570589f72946e4f2a4ec0b2905f1359904d29656c2",
+  "results": [
+    {
+      "fanc_segment_id": "648518346493238080",
+      "mesh_sample_size": 16384,
+      "sample_index_sha256": "f083d37ef691311d0f14ee5e5fc934354e5828aa3d71fddba23d46acf3ff4e2a",
+      "comparisons": [
+        {
+          "swc": "left T1 leg motor neuron L3#03 (neuron 9001).swc",
+          "swc_nodes": 1655,
+          "swc_to_mesh_sample": {
+            "median_nm": 528.7816184399757,
+            "p90_nm": 941.9289774656386,
+            "within_1000nm_fraction": 0.9178247734138972
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 5053.780099567808,
+            "p90_nm": 13716.105131876882,
+            "within_1000nm_fraction": 0.12548828125
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L3#02 (neuron 581).swc",
+          "swc_nodes": 1689,
+          "swc_to_mesh_sample": {
+            "median_nm": 1247.9210712220545,
+            "p90_nm": 3205.572028729263,
+            "within_1000nm_fraction": 0.37300177619893427
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 12346.66776162176,
+            "p90_nm": 34068.6469276552,
+            "within_1000nm_fraction": 0.02557373046875
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron D2#01 (neuron 13025).swc",
+          "swc_nodes": 2840,
+          "swc_to_mesh_sample": {
+            "median_nm": 1876.463448533121,
+            "p90_nm": 6045.334130495265,
+            "within_1000nm_fraction": 0.20598591549295775
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 8580.074635186505,
+            "p90_nm": 23210.990305767344,
+            "within_1000nm_fraction": 0.0250244140625
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron D2#02 (neuron 16857).swc",
+          "swc_nodes": 3499,
+          "swc_to_mesh_sample": {
+            "median_nm": 1999.4982815946614,
+            "p90_nm": 7088.933562836843,
+            "within_1000nm_fraction": 0.16519005430122893
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 8610.277037065947,
+            "p90_nm": 16939.256299272634,
+            "within_1000nm_fraction": 0.02001953125
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1#07 (neuron 472).swc",
+          "swc_nodes": 2006,
+          "swc_to_mesh_sample": {
+            "median_nm": 2218.9403964473568,
+            "p90_nm": 8790.60107298658,
+            "within_1000nm_fraction": 0.08275174476570289
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 14736.283963684185,
+            "p90_nm": 36879.74249860117,
+            "within_1000nm_fraction": 0.00592041015625
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron A3#02 (neuron 9878).swc",
+          "swc_nodes": 2206,
+          "swc_to_mesh_sample": {
+            "median_nm": 2539.5137175044806,
+            "p90_nm": 5715.567681781811,
+            "within_1000nm_fraction": 0.11378059836808703
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 12213.88784963228,
+            "p90_nm": 28306.552477068788,
+            "within_1000nm_fraction": 0.00750732421875
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron V2#01 (neuron 11787).swc",
+          "swc_nodes": 1802,
+          "swc_to_mesh_sample": {
+            "median_nm": 2670.6635926603412,
+            "p90_nm": 6252.824384153822,
+            "within_1000nm_fraction": 0.097669256381798
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 13061.191196595886,
+            "p90_nm": 24101.414557816574,
+            "within_1000nm_fraction": 0.00689697265625
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron A3#01 (neuron 9755).swc",
+          "swc_nodes": 2269,
+          "swc_to_mesh_sample": {
+            "median_nm": 2690.056876722126,
+            "p90_nm": 7417.645411022788,
+            "within_1000nm_fraction": 0.0744821507271926
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 13068.267276936298,
+            "p90_nm": 31125.549381468692,
+            "within_1000nm_fraction": 0.00408935546875
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1 bundle (neuron 9191).swc",
+          "swc_nodes": 1338,
+          "swc_to_mesh_sample": {
+            "median_nm": 2788.615675530385,
+            "p90_nm": 8836.20949921764,
+            "within_1000nm_fraction": 0.035127055306427506
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 17300.603295359775,
+            "p90_nm": 38059.66686832345,
+            "within_1000nm_fraction": 0.00177001953125
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron A3#03 (neuron 9888).swc",
+          "swc_nodes": 3158,
+          "swc_to_mesh_sample": {
+            "median_nm": 2854.7002977932434,
+            "p90_nm": 6501.277670579537,
+            "within_1000nm_fraction": 0.0766307789740342
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 11336.439514309779,
+            "p90_nm": 29969.304117260457,
+            "within_1000nm_fraction": 0.0064697265625
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron V6#01 (neuron 10372).swc",
+          "swc_nodes": 3417,
+          "swc_to_mesh_sample": {
+            "median_nm": 2866.4218112483027,
+            "p90_nm": 8066.999950947627,
+            "within_1000nm_fraction": 0.06935908691834942
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 9393.041109143676,
+            "p90_nm": 23639.60511109545,
+            "within_1000nm_fraction": 0.0084228515625
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron V1#01 (neuron 10377).swc",
+          "swc_nodes": 2828,
+          "swc_to_mesh_sample": {
+            "median_nm": 2893.168746120725,
+            "p90_nm": 6915.132729009132,
+            "within_1000nm_fraction": 0.056577086280056574
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 11397.044834006389,
+            "p90_nm": 32352.629479066876,
+            "within_1000nm_fraction": 0.00555419921875
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1 bundle (neuron 9195).swc",
+          "swc_nodes": 1470,
+          "swc_to_mesh_sample": {
+            "median_nm": 2930.726560964057,
+            "p90_nm": 9971.186188384234,
+            "within_1000nm_fraction": 0.07346938775510205
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 19856.87957727703,
+            "p90_nm": 33601.149265789245,
+            "within_1000nm_fraction": 0.00408935546875
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron D1#01 (neuron 13031).swc",
+          "swc_nodes": 3037,
+          "swc_to_mesh_sample": {
+            "median_nm": 2980.169797595443,
+            "p90_nm": 8076.63730946542,
+            "within_1000nm_fraction": 0.06717155087257162
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 12494.184555791164,
+            "p90_nm": 29552.44916540433,
+            "within_1000nm_fraction": 0.0068359375
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron V1#02 (neuron 11802).swc",
+          "swc_nodes": 2321,
+          "swc_to_mesh_sample": {
+            "median_nm": 2991.4991062174813,
+            "p90_nm": 6867.72614844244,
+            "within_1000nm_fraction": 0.05170185264971995
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 13003.279055274399,
+            "p90_nm": 34361.19668006728,
+            "within_1000nm_fraction": 0.00457763671875
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron V1#03 (neuron 11817).swc",
+          "swc_nodes": 2735,
+          "swc_to_mesh_sample": {
+            "median_nm": 3017.5240347013128,
+            "p90_nm": 6532.457320937956,
+            "within_1000nm_fraction": 0.05338208409506399
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 9959.21804354402,
+            "p90_nm": 21607.08916280571,
+            "within_1000nm_fraction": 0.00518798828125
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1#15 (neuron 9687).swc",
+          "swc_nodes": 1485,
+          "swc_to_mesh_sample": {
+            "median_nm": 3020.6153346627902,
+            "p90_nm": 9770.633009049841,
+            "within_1000nm_fraction": 0.02962962962962963
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 15753.149945707315,
+            "p90_nm": 42786.50147719056,
+            "within_1000nm_fraction": 0.00128173828125
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1 bundle (neuron 9211).swc",
+          "swc_nodes": 1947,
+          "swc_to_mesh_sample": {
+            "median_nm": 3124.1571663410277,
+            "p90_nm": 9192.761456503302,
+            "within_1000nm_fraction": 0.05752439650744735
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 19274.04915284014,
+            "p90_nm": 45711.11959376847,
+            "within_1000nm_fraction": 0.002197265625
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1#20 (neuron 492).swc",
+          "swc_nodes": 9339,
+          "swc_to_mesh_sample": {
+            "median_nm": 3163.693716970727,
+            "p90_nm": 6085.747797548069,
+            "within_1000nm_fraction": 0.04261698254631117
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 14275.273857785074,
+            "p90_nm": 35897.19639020414,
+            "within_1000nm_fraction": 0.005859375
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L5#01 (neuron 9029).swc",
+          "swc_nodes": 5324,
+          "swc_to_mesh_sample": {
+            "median_nm": 3169.4415058293457,
+            "p90_nm": 8676.602803308173,
+            "within_1000nm_fraction": 0.049774605559729526
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 10217.59827390929,
+            "p90_nm": 34945.70016022573,
+            "within_1000nm_fraction": 0.00537109375
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L3#04 (neuron 9025).swc",
+          "swc_nodes": 1945,
+          "swc_to_mesh_sample": {
+            "median_nm": 3185.0152275931114,
+            "p90_nm": 7476.605482859758,
+            "within_1000nm_fraction": 0.04730077120822622
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 8438.882925210186,
+            "p90_nm": 21300.920125515455,
+            "within_1000nm_fraction": 0.0050048828125
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1#08 (neuron 476).swc",
+          "swc_nodes": 1430,
+          "swc_to_mesh_sample": {
+            "median_nm": 3195.268235027428,
+            "p90_nm": 9534.724195665409,
+            "within_1000nm_fraction": 0.04755244755244755
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 17641.085646517575,
+            "p90_nm": 39379.87459779779,
+            "within_1000nm_fraction": 0.00201416015625
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1 bundle (neuron 9187).swc",
+          "swc_nodes": 1900,
+          "swc_to_mesh_sample": {
+            "median_nm": 3248.9549079419103,
+            "p90_nm": 9725.217426289086,
+            "within_1000nm_fraction": 0.05105263157894737
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 14961.09731363552,
+            "p90_nm": 35388.82941425526,
+            "within_1000nm_fraction": 0.00201416015625
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1 bundle (neuron 10407).swc",
+          "swc_nodes": 1197,
+          "swc_to_mesh_sample": {
+            "median_nm": 3255.3684891268454,
+            "p90_nm": 12472.343494017983,
+            "within_1000nm_fraction": 0.03007518796992481
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 19670.627360790895,
+            "p90_nm": 38472.92713760262,
+            "within_1000nm_fraction": 0.000732421875
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron V5#01 (neuron 11797).swc",
+          "swc_nodes": 1586,
+          "swc_to_mesh_sample": {
+            "median_nm": 3257.166436224891,
+            "p90_nm": 7590.6776633665295,
+            "within_1000nm_fraction": 0.03026481715006305
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 13996.064636408113,
+            "p90_nm": 34829.84219160927,
+            "within_1000nm_fraction": 0.0020751953125
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1#02 (neuron 464).swc",
+          "swc_nodes": 5749,
+          "swc_to_mesh_sample": {
+            "median_nm": 3291.9088311950545,
+            "p90_nm": 6590.81457973362,
+            "within_1000nm_fraction": 0.023656288050095668
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 9201.710980391988,
+            "p90_nm": 32851.76746180524,
+            "within_1000nm_fraction": 0.00469970703125
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron V3 bundle (neuron 10367).swc",
+          "swc_nodes": 2972,
+          "swc_to_mesh_sample": {
+            "median_nm": 3371.9544310621054,
+            "p90_nm": 8555.22768732067,
+            "within_1000nm_fraction": 0.06224764468371467
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 10221.585774780444,
+            "p90_nm": 18710.582886576427,
+            "within_1000nm_fraction": 0.00579833984375
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron V3 bundle (neuron 10385).swc",
+          "swc_nodes": 1429,
+          "swc_to_mesh_sample": {
+            "median_nm": 3409.559388322765,
+            "p90_nm": 9270.877893772376,
+            "within_1000nm_fraction": 0.06787963610916725
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 15075.86708563177,
+            "p90_nm": 31316.371357982774,
+            "within_1000nm_fraction": 0.0042724609375
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron V2#02 (neuron 11792).swc",
+          "swc_nodes": 1752,
+          "swc_to_mesh_sample": {
+            "median_nm": 3422.2331001697335,
+            "p90_nm": 8773.912621102187,
+            "within_1000nm_fraction": 0.05365296803652968
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 13357.082200987135,
+            "p90_nm": 24448.5547579855,
+            "within_1000nm_fraction": 0.00421142578125
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1#06 (neuron 468).swc",
+          "swc_nodes": 3282,
+          "swc_to_mesh_sample": {
+            "median_nm": 3610.632842594635,
+            "p90_nm": 6114.981178651992,
+            "within_1000nm_fraction": 0.025594149908592323
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 11858.132514030536,
+            "p90_nm": 33326.28216331412,
+            "within_1000nm_fraction": 0.0028076171875
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L4#01 (neuron 12243).swc",
+          "swc_nodes": 1273,
+          "swc_to_mesh_sample": {
+            "median_nm": 3624.6805376474213,
+            "p90_nm": 6938.798549675126,
+            "within_1000nm_fraction": 0.007069913589945012
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 18919.691988323008,
+            "p90_nm": 33599.650609145014,
+            "within_1000nm_fraction": 0.00048828125
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1#01 (neuron 2714).swc",
+          "swc_nodes": 6176,
+          "swc_to_mesh_sample": {
+            "median_nm": 3630.182738212159,
+            "p90_nm": 7726.291376943869,
+            "within_1000nm_fraction": 0.05132772020725389
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 9400.293723025483,
+            "p90_nm": 31836.726613486855,
+            "within_1000nm_fraction": 0.0076904296875
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L3#01 (neuron 12257).swc",
+          "swc_nodes": 6555,
+          "swc_to_mesh_sample": {
+            "median_nm": 3643.870569356846,
+            "p90_nm": 7044.166971602386,
+            "within_1000nm_fraction": 0.03096872616323417
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 13694.592915611884,
+            "p90_nm": 33640.12456731158,
+            "within_1000nm_fraction": 0.00335693359375
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L3#05 (neuron 9171).swc",
+          "swc_nodes": 6692,
+          "swc_to_mesh_sample": {
+            "median_nm": 3730.400741336289,
+            "p90_nm": 8183.146465432801,
+            "within_1000nm_fraction": 0.044680215182307234
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 9471.288472335675,
+            "p90_nm": 17659.26910814392,
+            "within_1000nm_fraction": 0.00482177734375
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron D1#02 (neuron 13036).swc",
+          "swc_nodes": 2785,
+          "swc_to_mesh_sample": {
+            "median_nm": 3822.549541863388,
+            "p90_nm": 9363.273544508,
+            "within_1000nm_fraction": 0.04272890484739677
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 13287.347546028406,
+            "p90_nm": 25907.630663536645,
+            "within_1000nm_fraction": 0.004638671875
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron V4#02 (neuron 10223).swc",
+          "swc_nodes": 3209,
+          "swc_to_mesh_sample": {
+            "median_nm": 3831.319648632831,
+            "p90_nm": 9516.87309467184,
+            "within_1000nm_fraction": 0.05640386413212839
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 9488.180887314476,
+            "p90_nm": 19899.5928205506,
+            "within_1000nm_fraction": 0.010009765625
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron A2#01 (neuron 10299).swc",
+          "swc_nodes": 1634,
+          "swc_to_mesh_sample": {
+            "median_nm": 3862.442189839242,
+            "p90_nm": 6951.7005857383565,
+            "within_1000nm_fraction": 0.014687882496940025
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 32553.52778110349,
+            "p90_nm": 68372.56648006661,
+            "within_1000nm_fraction": 0.00079345703125
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L2#03 (neuron 488).swc",
+          "swc_nodes": 3171,
+          "swc_to_mesh_sample": {
+            "median_nm": 4019.064692188953,
+            "p90_nm": 13189.167147322076,
+            "within_1000nm_fraction": 0.04194260485651214
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 17195.80875085391,
+            "p90_nm": 36024.18313468071,
+            "within_1000nm_fraction": 0.00408935546875
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron A1#04 (neuron 9935).swc",
+          "swc_nodes": 2762,
+          "swc_to_mesh_sample": {
+            "median_nm": 4113.831118255416,
+            "p90_nm": 11289.32768891127,
+            "within_1000nm_fraction": 0.03186097031136857
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 15553.814807305054,
+            "p90_nm": 34232.77023166695,
+            "within_1000nm_fraction": 0.00274658203125
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1#03 (neuron 10393).swc",
+          "swc_nodes": 1338,
+          "swc_to_mesh_sample": {
+            "median_nm": 4187.265436827464,
+            "p90_nm": 11970.796355847528,
+            "within_1000nm_fraction": 0.020179372197309416
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 19625.970296938343,
+            "p90_nm": 40499.326459866774,
+            "within_1000nm_fraction": 0.000732421875
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L2#02 (neuron 484).swc",
+          "swc_nodes": 2825,
+          "swc_to_mesh_sample": {
+            "median_nm": 4188.028768478082,
+            "p90_nm": 12380.078293326185,
+            "within_1000nm_fraction": 0.061946902654867256
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 16881.590526363947,
+            "p90_nm": 37432.62084585787,
+            "within_1000nm_fraction": 0.005859375
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1 bundle (neuron 8996).swc",
+          "swc_nodes": 9711,
+          "swc_to_mesh_sample": {
+            "median_nm": 4234.608732811108,
+            "p90_nm": 9247.900000135185,
+            "within_1000nm_fraction": 0.013695808876531768
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 9091.683872564561,
+            "p90_nm": 32455.29341391525,
+            "within_1000nm_fraction": 0.00262451171875
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1#05 (neuron 12262).swc",
+          "swc_nodes": 1642,
+          "swc_to_mesh_sample": {
+            "median_nm": 4353.555304428818,
+            "p90_nm": 7804.032588053276,
+            "within_1000nm_fraction": 0.0341047503045067
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 16649.424262535762,
+            "p90_nm": 42431.109448940275,
+            "within_1000nm_fraction": 0.00177001953125
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron V4#01 (neuron 10208).swc",
+          "swc_nodes": 2337,
+          "swc_to_mesh_sample": {
+            "median_nm": 4362.851934228343,
+            "p90_nm": 11583.80883449789,
+            "within_1000nm_fraction": 0.014548566538296961
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 12620.460547622886,
+            "p90_nm": 28681.32129968629,
+            "within_1000nm_fraction": 0.00140380859375
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1#14 (neuron 9630).swc",
+          "swc_nodes": 2449,
+          "swc_to_mesh_sample": {
+            "median_nm": 4378.899747653513,
+            "p90_nm": 8979.978471995255,
+            "within_1000nm_fraction": 0.015108207431604737
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 15528.587602424237,
+            "p90_nm": 42173.797699864794,
+            "within_1000nm_fraction": 0.00091552734375
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1#17 (neuron 9746).swc",
+          "swc_nodes": 2646,
+          "swc_to_mesh_sample": {
+            "median_nm": 4474.534162603521,
+            "p90_nm": 10102.43758071651,
+            "within_1000nm_fraction": 0.017006802721088437
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 18108.18937268157,
+            "p90_nm": 46920.7748801352,
+            "within_1000nm_fraction": 0.00091552734375
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1 bundle (neuron 9013).swc",
+          "swc_nodes": 2084,
+          "swc_to_mesh_sample": {
+            "median_nm": 4479.644528290422,
+            "p90_nm": 8528.358103998728,
+            "within_1000nm_fraction": 0.004318618042226488
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 18595.184992095186,
+            "p90_nm": 36931.31114866592,
+            "within_1000nm_fraction": 0.000244140625
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron A1#03 (neuron 9929).swc",
+          "swc_nodes": 2401,
+          "swc_to_mesh_sample": {
+            "median_nm": 4871.771723264546,
+            "p90_nm": 12211.92867650315,
+            "within_1000nm_fraction": 0.03165347771761766
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 15960.154437429886,
+            "p90_nm": 37814.03553983584,
+            "within_1000nm_fraction": 0.0029296875
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1#12 (neuron 9207).swc",
+          "swc_nodes": 5323,
+          "swc_to_mesh_sample": {
+            "median_nm": 4926.274179945728,
+            "p90_nm": 13744.954369482022,
+            "within_1000nm_fraction": 0.007702423445425512
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 14852.418132197494,
+            "p90_nm": 37342.34790883556,
+            "within_1000nm_fraction": 0.00091552734375
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1#11 (neuron 9005).swc",
+          "swc_nodes": 4362,
+          "swc_to_mesh_sample": {
+            "median_nm": 4949.763085501245,
+            "p90_nm": 9287.87091818978,
+            "within_1000nm_fraction": 0.010087116001834021
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 15272.656507602624,
+            "p90_nm": 39530.12322355742,
+            "within_1000nm_fraction": 0.001220703125
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1#09 (neuron 83815).swc",
+          "swc_nodes": 1255,
+          "swc_to_mesh_sample": {
+            "median_nm": 4966.819203474191,
+            "p90_nm": 10702.215291685132,
+            "within_1000nm_fraction": 0.020717131474103586
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 19373.360078391117,
+            "p90_nm": 31808.64594414939,
+            "within_1000nm_fraction": 0.00091552734375
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1#18 (neuron 10424).swc",
+          "swc_nodes": 1007,
+          "swc_to_mesh_sample": {
+            "median_nm": 4993.09783601323,
+            "p90_nm": 13011.849776779225,
+            "within_1000nm_fraction": 0.028798411122144985
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 27057.386122485936,
+            "p90_nm": 47570.64832735759,
+            "within_1000nm_fraction": 0.000732421875
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1#13 (neuron 9557).swc",
+          "swc_nodes": 1050,
+          "swc_to_mesh_sample": {
+            "median_nm": 4996.622660400602,
+            "p90_nm": 11408.21473169455,
+            "within_1000nm_fraction": 0.03619047619047619
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 21511.656792458794,
+            "p90_nm": 43822.557644240376,
+            "within_1000nm_fraction": 0.0010986328125
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1#10 (neuron 8992).swc",
+          "swc_nodes": 3134,
+          "swc_to_mesh_sample": {
+            "median_nm": 5227.458021612325,
+            "p90_nm": 9516.595568274748,
+            "within_1000nm_fraction": 0.008296107211231652
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 16762.583361040626,
+            "p90_nm": 37631.389623002164,
+            "within_1000nm_fraction": 0.000732421875
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1#19 (neuron 16811).swc",
+          "swc_nodes": 1000,
+          "swc_to_mesh_sample": {
+            "median_nm": 5262.719798640116,
+            "p90_nm": 13941.791222596372,
+            "within_1000nm_fraction": 0.004
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 28921.22596727819,
+            "p90_nm": 51687.12548724765,
+            "within_1000nm_fraction": 6.103515625e-05
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1#04 (neuron 10414).swc",
+          "swc_nodes": 1849,
+          "swc_to_mesh_sample": {
+            "median_nm": 5672.481203142061,
+            "p90_nm": 9925.634103882643,
+            "within_1000nm_fraction": 0.008112493239588967
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 18231.613611188914,
+            "p90_nm": 42158.2757870874,
+            "within_1000nm_fraction": 0.0008544921875
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron A4#01 (neuron 9797).swc",
+          "swc_nodes": 1326,
+          "swc_to_mesh_sample": {
+            "median_nm": 6045.119760929514,
+            "p90_nm": 14317.693408996935,
+            "within_1000nm_fraction": 0.027149321266968326
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 15997.012971004893,
+            "p90_nm": 28372.839199776918,
+            "within_1000nm_fraction": 0.00115966796875
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1#16 (neuron 9709).swc",
+          "swc_nodes": 1035,
+          "swc_to_mesh_sample": {
+            "median_nm": 6219.004180735047,
+            "p90_nm": 8693.868144845348,
+            "within_1000nm_fraction": 0.0
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 24248.03055893613,
+            "p90_nm": 47530.04252477785,
+            "within_1000nm_fraction": 0.0
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron A5#01 (neuron 9857).swc",
+          "swc_nodes": 1604,
+          "swc_to_mesh_sample": {
+            "median_nm": 6336.619357539306,
+            "p90_nm": 12907.120095938297,
+            "within_1000nm_fraction": 0.005610972568578554
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 22384.335545760725,
+            "p90_nm": 36480.29486948404,
+            "within_1000nm_fraction": 0.00018310546875
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1 bundle (neuron 9552).swc",
+          "swc_nodes": 1250,
+          "swc_to_mesh_sample": {
+            "median_nm": 6466.0126178882365,
+            "p90_nm": 14123.96158634578,
+            "within_1000nm_fraction": 0.0088
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 21477.9406494893,
+            "p90_nm": 45709.32722050945,
+            "within_1000nm_fraction": 0.00030517578125
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron A4#02 (neuron 9867).swc",
+          "swc_nodes": 1385,
+          "swc_to_mesh_sample": {
+            "median_nm": 6662.588761134819,
+            "p90_nm": 14586.337553003345,
+            "within_1000nm_fraction": 0.005054151624548736
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 19702.849489549,
+            "p90_nm": 34856.15296177762,
+            "within_1000nm_fraction": 0.00042724609375
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron A1#02 (neuron 9883).swc",
+          "swc_nodes": 1882,
+          "swc_to_mesh_sample": {
+            "median_nm": 6677.005618730718,
+            "p90_nm": 14607.077531277217,
+            "within_1000nm_fraction": 0.0005313496280552603
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 21768.142166992166,
+            "p90_nm": 39980.947292195386,
+            "within_1000nm_fraction": 6.103515625e-05
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1 bundle (neuron 9009).swc",
+          "swc_nodes": 2002,
+          "swc_to_mesh_sample": {
+            "median_nm": 6776.504663338788,
+            "p90_nm": 36726.83626302748,
+            "within_1000nm_fraction": 0.0024975024975024975
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 18362.391622549934,
+            "p90_nm": 42065.3774622653,
+            "within_1000nm_fraction": 0.000244140625
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L2#01 (neuron 480).swc",
+          "swc_nodes": 1856,
+          "swc_to_mesh_sample": {
+            "median_nm": 6987.085876838622,
+            "p90_nm": 13882.530165226206,
+            "within_1000nm_fraction": 0.03394396551724138
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 24676.14077925605,
+            "p90_nm": 44995.365473176,
+            "within_1000nm_fraction": 0.002197265625
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron A2#02 (neuron 9899).swc",
+          "swc_nodes": 718,
+          "swc_to_mesh_sample": {
+            "median_nm": 7078.903218028758,
+            "p90_nm": 15741.475626328736,
+            "within_1000nm_fraction": 0.004178272980501393
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 48196.098105863886,
+            "p90_nm": 96297.56070772627,
+            "within_1000nm_fraction": 0.0001220703125
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron A1#01 (neuron 9862).swc",
+          "swc_nodes": 1729,
+          "swc_to_mesh_sample": {
+            "median_nm": 7542.986344943228,
+            "p90_nm": 13825.066178548113,
+            "within_1000nm_fraction": 0.008675534991324466
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 25347.99617214927,
+            "p90_nm": 46637.69572484994,
+            "within_1000nm_fraction": 0.00030517578125
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L2 bundle (neuron 21244).swc",
+          "swc_nodes": 1205,
+          "swc_to_mesh_sample": {
+            "median_nm": 8779.066465177262,
+            "p90_nm": 13745.08646647375,
+            "within_1000nm_fraction": 0.01991701244813278
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 27622.220456438,
+            "p90_nm": 42616.223668909995,
+            "within_1000nm_fraction": 0.0010986328125
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L2 bundle (neuron 21338).swc",
+          "swc_nodes": 1469,
+          "swc_to_mesh_sample": {
+            "median_nm": 9184.79143472926,
+            "p90_nm": 13950.503729912134,
+            "within_1000nm_fraction": 0.041524846834581346
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 26023.917282013474,
+            "p90_nm": 42444.602068877495,
+            "within_1000nm_fraction": 0.001708984375
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L2#04 (neuron 9175).swc",
+          "swc_nodes": 1264,
+          "swc_to_mesh_sample": {
+            "median_nm": 9378.06307707679,
+            "p90_nm": 14188.057922286836,
+            "within_1000nm_fraction": 0.011075949367088608
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 19205.65796798044,
+            "p90_nm": 32712.994485952953,
+            "within_1000nm_fraction": 0.0006103515625
+          }
+        }
+      ]
+    },
+    {
+      "fanc_segment_id": "648518346495797355",
+      "mesh_sample_size": 16384,
+      "sample_index_sha256": "75b9b2b513b3bc1c3a7aacae424ad71513becc85a745836c726840404a8b4456",
+      "comparisons": [
+        {
+          "swc": "left T1 leg motor neuron L3#02 (neuron 581).swc",
+          "swc_nodes": 1689,
+          "swc_to_mesh_sample": {
+            "median_nm": 405.5822974440576,
+            "p90_nm": 692.4132494157702,
+            "within_1000nm_fraction": 0.9846062759029012
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 5206.608304709611,
+            "p90_nm": 16471.734003979705,
+            "within_1000nm_fraction": 0.15985107421875
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L3#03 (neuron 9001).swc",
+          "swc_nodes": 1655,
+          "swc_to_mesh_sample": {
+            "median_nm": 1628.8891920569674,
+            "p90_nm": 6985.326623948816,
+            "within_1000nm_fraction": 0.2610271903323263
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 9260.343695752632,
+            "p90_nm": 20060.109752920805,
+            "within_1000nm_fraction": 0.0284423828125
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1#07 (neuron 472).swc",
+          "swc_nodes": 2006,
+          "swc_to_mesh_sample": {
+            "median_nm": 2370.2414091508826,
+            "p90_nm": 8675.341593198946,
+            "within_1000nm_fraction": 0.14257228315054835
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 10358.335846060323,
+            "p90_nm": 21141.90862653119,
+            "within_1000nm_fraction": 0.0118408203125
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron D2#01 (neuron 13025).swc",
+          "swc_nodes": 2840,
+          "swc_to_mesh_sample": {
+            "median_nm": 2451.019723429704,
+            "p90_nm": 7355.680648976524,
+            "within_1000nm_fraction": 0.11514084507042253
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 8082.27514888528,
+            "p90_nm": 15126.665067724163,
+            "within_1000nm_fraction": 0.01708984375
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1 bundle (neuron 9191).swc",
+          "swc_nodes": 1338,
+          "swc_to_mesh_sample": {
+            "median_nm": 2970.996538370606,
+            "p90_nm": 7409.896197344867,
+            "within_1000nm_fraction": 0.03288490284005979
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 15679.25198841434,
+            "p90_nm": 31730.022621073556,
+            "within_1000nm_fraction": 0.0020751953125
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron D2#02 (neuron 16857).swc",
+          "swc_nodes": 3499,
+          "swc_to_mesh_sample": {
+            "median_nm": 2998.428982584047,
+            "p90_nm": 10373.479066676353,
+            "within_1000nm_fraction": 0.13632466418976852
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 7131.432499034563,
+            "p90_nm": 14679.038229101376,
+            "within_1000nm_fraction": 0.02899169921875
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1 bundle (neuron 9211).swc",
+          "swc_nodes": 1947,
+          "swc_to_mesh_sample": {
+            "median_nm": 3072.757781358637,
+            "p90_nm": 8144.2947199881555,
+            "within_1000nm_fraction": 0.0657421674370827
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 14511.152656426013,
+            "p90_nm": 24045.693170892126,
+            "within_1000nm_fraction": 0.00531005859375
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron D1#01 (neuron 13031).swc",
+          "swc_nodes": 3037,
+          "swc_to_mesh_sample": {
+            "median_nm": 3133.019948867227,
+            "p90_nm": 7565.304907384937,
+            "within_1000nm_fraction": 0.11063549555482384
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 9114.534211837468,
+            "p90_nm": 17363.398466550498,
+            "within_1000nm_fraction": 0.0140380859375
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L4#01 (neuron 12243).swc",
+          "swc_nodes": 1273,
+          "swc_to_mesh_sample": {
+            "median_nm": 3133.5744765363406,
+            "p90_nm": 8083.762910765171,
+            "within_1000nm_fraction": 0.05498821681068342
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 19347.152031378067,
+            "p90_nm": 30522.954640399257,
+            "within_1000nm_fraction": 0.002197265625
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron A3#02 (neuron 9878).swc",
+          "swc_nodes": 2206,
+          "swc_to_mesh_sample": {
+            "median_nm": 3226.6343656188556,
+            "p90_nm": 6852.271989671022,
+            "within_1000nm_fraction": 0.06346328195829556
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 11028.415092311065,
+            "p90_nm": 21887.95516148619,
+            "within_1000nm_fraction": 0.0052490234375
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1#15 (neuron 9687).swc",
+          "swc_nodes": 1485,
+          "swc_to_mesh_sample": {
+            "median_nm": 3279.6283326011194,
+            "p90_nm": 8503.767368022713,
+            "within_1000nm_fraction": 0.0430976430976431
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 13317.927814609578,
+            "p90_nm": 26104.515241700206,
+            "within_1000nm_fraction": 0.00213623046875
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1 bundle (neuron 9195).swc",
+          "swc_nodes": 1470,
+          "swc_to_mesh_sample": {
+            "median_nm": 3279.6549357802805,
+            "p90_nm": 9017.521168991474,
+            "within_1000nm_fraction": 0.10680272108843537
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 15099.92433118228,
+            "p90_nm": 28877.88995730795,
+            "within_1000nm_fraction": 0.00714111328125
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L3#04 (neuron 9025).swc",
+          "swc_nodes": 1945,
+          "swc_to_mesh_sample": {
+            "median_nm": 3307.0303899420096,
+            "p90_nm": 8243.113573602415,
+            "within_1000nm_fraction": 0.027763496143958868
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 11991.349628611832,
+            "p90_nm": 23207.594259285765,
+            "within_1000nm_fraction": 0.00164794921875
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron V1#02 (neuron 11802).swc",
+          "swc_nodes": 2321,
+          "swc_to_mesh_sample": {
+            "median_nm": 3460.8099485525063,
+            "p90_nm": 7925.176603868206,
+            "within_1000nm_fraction": 0.037483843171046964
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 10833.696091349615,
+            "p90_nm": 19563.683360035804,
+            "within_1000nm_fraction": 0.00323486328125
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron A3#01 (neuron 9755).swc",
+          "swc_nodes": 2269,
+          "swc_to_mesh_sample": {
+            "median_nm": 3504.99614835737,
+            "p90_nm": 9543.314432268307,
+            "within_1000nm_fraction": 0.06170118995152049
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 11207.035848048869,
+            "p90_nm": 20768.618612129238,
+            "within_1000nm_fraction": 0.00335693359375
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron V1#01 (neuron 10377).swc",
+          "swc_nodes": 2828,
+          "swc_to_mesh_sample": {
+            "median_nm": 3506.0652679145587,
+            "p90_nm": 7574.618534974561,
+            "within_1000nm_fraction": 0.039603960396039604
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 9740.346047781957,
+            "p90_nm": 18590.242857126457,
+            "within_1000nm_fraction": 0.00689697265625
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1 bundle (neuron 10407).swc",
+          "swc_nodes": 1197,
+          "swc_to_mesh_sample": {
+            "median_nm": 3563.178075819394,
+            "p90_nm": 12251.840668784665,
+            "within_1000nm_fraction": 0.03007518796992481
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 17318.642146230042,
+            "p90_nm": 32136.474429326463,
+            "within_1000nm_fraction": 0.00213623046875
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L2#03 (neuron 488).swc",
+          "swc_nodes": 3171,
+          "swc_to_mesh_sample": {
+            "median_nm": 3582.167221110706,
+            "p90_nm": 12573.835134914088,
+            "within_1000nm_fraction": 0.07537054556922107
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 9648.067842205295,
+            "p90_nm": 18671.22720135604,
+            "within_1000nm_fraction": 0.0108642578125
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron A3#03 (neuron 9888).swc",
+          "swc_nodes": 3158,
+          "swc_to_mesh_sample": {
+            "median_nm": 3611.076347999675,
+            "p90_nm": 8696.26271947604,
+            "within_1000nm_fraction": 0.036415452818239394
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 9002.90736295962,
+            "p90_nm": 16346.640595173436,
+            "within_1000nm_fraction": 0.0035400390625
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron V5#01 (neuron 11797).swc",
+          "swc_nodes": 1586,
+          "swc_to_mesh_sample": {
+            "median_nm": 3612.682036919657,
+            "p90_nm": 9332.63676702593,
+            "within_1000nm_fraction": 0.05422446406052964
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 11677.582397769296,
+            "p90_nm": 19994.82078036485,
+            "within_1000nm_fraction": 0.003662109375
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1#20 (neuron 492).swc",
+          "swc_nodes": 9339,
+          "swc_to_mesh_sample": {
+            "median_nm": 3685.3053608146197,
+            "p90_nm": 7123.129965795666,
+            "within_1000nm_fraction": 0.06264053967234179
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 8634.774461382234,
+            "p90_nm": 16961.327081215684,
+            "within_1000nm_fraction": 0.010498046875
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1#08 (neuron 476).swc",
+          "swc_nodes": 1430,
+          "swc_to_mesh_sample": {
+            "median_nm": 3717.291166883114,
+            "p90_nm": 10111.94727134033,
+            "within_1000nm_fraction": 0.07062937062937064
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 14859.027086121469,
+            "p90_nm": 26266.317072008045,
+            "within_1000nm_fraction": 0.00506591796875
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron V4#01 (neuron 10208).swc",
+          "swc_nodes": 2337,
+          "swc_to_mesh_sample": {
+            "median_nm": 3803.5124556125747,
+            "p90_nm": 8981.81687627137,
+            "within_1000nm_fraction": 0.037655113393239195
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 8407.650918249472,
+            "p90_nm": 15835.01614251707,
+            "within_1000nm_fraction": 0.00433349609375
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L3#01 (neuron 12257).swc",
+          "swc_nodes": 6555,
+          "swc_to_mesh_sample": {
+            "median_nm": 3832.5277037485303,
+            "p90_nm": 8355.414651637118,
+            "within_1000nm_fraction": 0.03554538520213577
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 10825.846301120086,
+            "p90_nm": 20857.83131788062,
+            "within_1000nm_fraction": 0.00714111328125
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1 bundle (neuron 9187).swc",
+          "swc_nodes": 1900,
+          "swc_to_mesh_sample": {
+            "median_nm": 3881.818811397377,
+            "p90_nm": 10542.987612786646,
+            "within_1000nm_fraction": 0.03315789473684211
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 13271.411051399951,
+            "p90_nm": 27964.79514774062,
+            "within_1000nm_fraction": 0.0018310546875
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron D1#02 (neuron 13036).swc",
+          "swc_nodes": 2785,
+          "swc_to_mesh_sample": {
+            "median_nm": 3901.683421050457,
+            "p90_nm": 10499.822326258713,
+            "within_1000nm_fraction": 0.05385996409335727
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 10621.339592199667,
+            "p90_nm": 20185.687432624545,
+            "within_1000nm_fraction": 0.00640869140625
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1#06 (neuron 468).swc",
+          "swc_nodes": 3282,
+          "swc_to_mesh_sample": {
+            "median_nm": 4031.8771950241617,
+            "p90_nm": 10410.46671358732,
+            "within_1000nm_fraction": 0.015234613040828763
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 9362.48555554451,
+            "p90_nm": 17640.8663068991,
+            "within_1000nm_fraction": 0.0030517578125
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L5#01 (neuron 9029).swc",
+          "swc_nodes": 5324,
+          "swc_to_mesh_sample": {
+            "median_nm": 4108.671682083026,
+            "p90_nm": 13800.160976061652,
+            "within_1000nm_fraction": 0.04226145755071375
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 8962.272260809857,
+            "p90_nm": 18325.19973597682,
+            "within_1000nm_fraction": 0.00653076171875
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron V1#03 (neuron 11817).swc",
+          "swc_nodes": 2735,
+          "swc_to_mesh_sample": {
+            "median_nm": 4115.357997793149,
+            "p90_nm": 10313.777261440313,
+            "within_1000nm_fraction": 0.04789762340036563
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 10730.370188723688,
+            "p90_nm": 17466.798714050223,
+            "within_1000nm_fraction": 0.00653076171875
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1#18 (neuron 10424).swc",
+          "swc_nodes": 1007,
+          "swc_to_mesh_sample": {
+            "median_nm": 4225.4254686835975,
+            "p90_nm": 10133.76735094638,
+            "within_1000nm_fraction": 0.07845084409136048
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 13958.709054395189,
+            "p90_nm": 37069.14249612374,
+            "within_1000nm_fraction": 0.0018310546875
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L2#02 (neuron 484).swc",
+          "swc_nodes": 2825,
+          "swc_to_mesh_sample": {
+            "median_nm": 4267.652943949425,
+            "p90_nm": 11697.604613691288,
+            "within_1000nm_fraction": 0.07929203539823008
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 10448.715984513292,
+            "p90_nm": 18969.985670465438,
+            "within_1000nm_fraction": 0.00982666015625
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L3#05 (neuron 9171).swc",
+          "swc_nodes": 6692,
+          "swc_to_mesh_sample": {
+            "median_nm": 4318.1521137060045,
+            "p90_nm": 9433.170680095951,
+            "within_1000nm_fraction": 0.04602510460251046
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 9790.653026576598,
+            "p90_nm": 18081.161008427865,
+            "within_1000nm_fraction": 0.00787353515625
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron V2#02 (neuron 11792).swc",
+          "swc_nodes": 1752,
+          "swc_to_mesh_sample": {
+            "median_nm": 4324.691388810335,
+            "p90_nm": 11316.51287027947,
+            "within_1000nm_fraction": 0.01598173515981735
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 11150.643297029932,
+            "p90_nm": 18985.748861672317,
+            "within_1000nm_fraction": 0.00238037109375
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1#05 (neuron 12262).swc",
+          "swc_nodes": 1642,
+          "swc_to_mesh_sample": {
+            "median_nm": 4339.553366248084,
+            "p90_nm": 10467.429008442034,
+            "within_1000nm_fraction": 0.030450669914738125
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 14500.593111649181,
+            "p90_nm": 27263.130891362267,
+            "within_1000nm_fraction": 0.0018310546875
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron A1#04 (neuron 9935).swc",
+          "swc_nodes": 2762,
+          "swc_to_mesh_sample": {
+            "median_nm": 4412.029645666373,
+            "p90_nm": 8855.838863195218,
+            "within_1000nm_fraction": 0.029326574945691526
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 12639.428030712046,
+            "p90_nm": 23491.2516464971,
+            "within_1000nm_fraction": 0.0035400390625
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron V6#01 (neuron 10372).swc",
+          "swc_nodes": 3417,
+          "swc_to_mesh_sample": {
+            "median_nm": 4440.843726140338,
+            "p90_nm": 10636.302028881868,
+            "within_1000nm_fraction": 0.03541117939713199
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 8736.299248271283,
+            "p90_nm": 15073.752256150066,
+            "within_1000nm_fraction": 0.0050048828125
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron V2#01 (neuron 11787).swc",
+          "swc_nodes": 1802,
+          "swc_to_mesh_sample": {
+            "median_nm": 4554.037880397519,
+            "p90_nm": 12119.80609348953,
+            "within_1000nm_fraction": 0.04328523862375139
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 11913.511395687332,
+            "p90_nm": 19359.22706605637,
+            "within_1000nm_fraction": 0.00360107421875
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1#01 (neuron 2714).swc",
+          "swc_nodes": 6176,
+          "swc_to_mesh_sample": {
+            "median_nm": 4555.391170100649,
+            "p90_nm": 12897.85622133944,
+            "within_1000nm_fraction": 0.03205958549222798
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 8582.473244986071,
+            "p90_nm": 19160.660048710328,
+            "within_1000nm_fraction": 0.00616455078125
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1#14 (neuron 9630).swc",
+          "swc_nodes": 2449,
+          "swc_to_mesh_sample": {
+            "median_nm": 4618.12440282849,
+            "p90_nm": 13336.948550605966,
+            "within_1000nm_fraction": 0.011433238056349531
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 15968.843451421128,
+            "p90_nm": 28912.156582654276,
+            "within_1000nm_fraction": 0.00067138671875
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1#02 (neuron 464).swc",
+          "swc_nodes": 5749,
+          "swc_to_mesh_sample": {
+            "median_nm": 4647.933304168639,
+            "p90_nm": 12249.401944355137,
+            "within_1000nm_fraction": 0.012176030614019829
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 9124.162810860054,
+            "p90_nm": 21186.75983583459,
+            "within_1000nm_fraction": 0.0040283203125
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron A2#01 (neuron 10299).swc",
+          "swc_nodes": 1634,
+          "swc_to_mesh_sample": {
+            "median_nm": 4669.048410626886,
+            "p90_nm": 8093.92398404431,
+            "within_1000nm_fraction": 0.014075887392900856
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 17127.10978604962,
+            "p90_nm": 39937.1426870231,
+            "within_1000nm_fraction": 0.000732421875
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron V4#02 (neuron 10223).swc",
+          "swc_nodes": 3209,
+          "swc_to_mesh_sample": {
+            "median_nm": 4756.380468907001,
+            "p90_nm": 10589.142073851262,
+            "within_1000nm_fraction": 0.02679962605172951
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 8176.308693926817,
+            "p90_nm": 14235.9318042318,
+            "within_1000nm_fraction": 0.00506591796875
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron A1#03 (neuron 9929).swc",
+          "swc_nodes": 2401,
+          "swc_to_mesh_sample": {
+            "median_nm": 4768.037277916353,
+            "p90_nm": 12571.19234599487,
+            "within_1000nm_fraction": 0.01665972511453561
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 13408.513678676074,
+            "p90_nm": 23286.36558766416,
+            "within_1000nm_fraction": 0.00213623046875
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1#03 (neuron 10393).swc",
+          "swc_nodes": 1338,
+          "swc_to_mesh_sample": {
+            "median_nm": 4870.352427951459,
+            "p90_nm": 14961.680184416264,
+            "within_1000nm_fraction": 0.04110612855007474
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 16442.386071514797,
+            "p90_nm": 27002.996143033528,
+            "within_1000nm_fraction": 0.00213623046875
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1#17 (neuron 9746).swc",
+          "swc_nodes": 2646,
+          "swc_to_mesh_sample": {
+            "median_nm": 4925.095766323344,
+            "p90_nm": 12787.514026420688,
+            "within_1000nm_fraction": 0.009826152683295541
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 11978.087801317402,
+            "p90_nm": 23027.69086512116,
+            "within_1000nm_fraction": 0.001220703125
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1 bundle (neuron 8996).swc",
+          "swc_nodes": 9711,
+          "swc_to_mesh_sample": {
+            "median_nm": 5030.083301497079,
+            "p90_nm": 14443.995638326682,
+            "within_1000nm_fraction": 0.014004736896303162
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 8570.340937093655,
+            "p90_nm": 20560.403777235068,
+            "within_1000nm_fraction": 0.00244140625
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1 bundle (neuron 9013).swc",
+          "swc_nodes": 2084,
+          "swc_to_mesh_sample": {
+            "median_nm": 5065.79150804036,
+            "p90_nm": 10943.426306010659,
+            "within_1000nm_fraction": 0.008637236084452975
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 14004.747681713816,
+            "p90_nm": 25972.26777065319,
+            "within_1000nm_fraction": 0.0003662109375
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1#12 (neuron 9207).swc",
+          "swc_nodes": 5323,
+          "swc_to_mesh_sample": {
+            "median_nm": 5359.219575516568,
+            "p90_nm": 17122.747550727996,
+            "within_1000nm_fraction": 0.01916212662032688
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 14006.749461732752,
+            "p90_nm": 24269.290126133124,
+            "within_1000nm_fraction": 0.00201416015625
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L2#01 (neuron 480).swc",
+          "swc_nodes": 1856,
+          "swc_to_mesh_sample": {
+            "median_nm": 5406.096105954048,
+            "p90_nm": 12867.080894100953,
+            "within_1000nm_fraction": 0.0490301724137931
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 15309.473627781437,
+            "p90_nm": 27213.063522079483,
+            "within_1000nm_fraction": 0.00482177734375
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1#19 (neuron 16811).swc",
+          "swc_nodes": 1000,
+          "swc_to_mesh_sample": {
+            "median_nm": 5471.207638210446,
+            "p90_nm": 17413.276604046656,
+            "within_1000nm_fraction": 0.031
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 13778.023542850111,
+            "p90_nm": 34194.876239495665,
+            "within_1000nm_fraction": 0.00238037109375
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron A4#01 (neuron 9797).swc",
+          "swc_nodes": 1326,
+          "swc_to_mesh_sample": {
+            "median_nm": 5492.963565655773,
+            "p90_nm": 12401.759480741981,
+            "within_1000nm_fraction": 0.01809954751131222
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 13834.097557970208,
+            "p90_nm": 22580.9253505211,
+            "within_1000nm_fraction": 0.00152587890625
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron V3 bundle (neuron 10367).swc",
+          "swc_nodes": 2972,
+          "swc_to_mesh_sample": {
+            "median_nm": 5622.959847180038,
+            "p90_nm": 13430.097378582606,
+            "within_1000nm_fraction": 0.01278600269179004
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 10847.11618230931,
+            "p90_nm": 19842.53282506221,
+            "within_1000nm_fraction": 0.00152587890625
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1#10 (neuron 8992).swc",
+          "swc_nodes": 3134,
+          "swc_to_mesh_sample": {
+            "median_nm": 5636.44960789825,
+            "p90_nm": 15087.892662616048,
+            "within_1000nm_fraction": 0.009253350350989151
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 17389.314088437826,
+            "p90_nm": 32767.471846802924,
+            "within_1000nm_fraction": 0.00067138671875
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron V3 bundle (neuron 10385).swc",
+          "swc_nodes": 1429,
+          "swc_to_mesh_sample": {
+            "median_nm": 5718.652376215921,
+            "p90_nm": 17279.375150921132,
+            "within_1000nm_fraction": 0.018894331700489854
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 12422.988440146957,
+            "p90_nm": 21498.623334694654,
+            "within_1000nm_fraction": 0.001220703125
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1#13 (neuron 9557).swc",
+          "swc_nodes": 1050,
+          "swc_to_mesh_sample": {
+            "median_nm": 5869.6463667547,
+            "p90_nm": 17515.87196010595,
+            "within_1000nm_fraction": 0.029523809523809525
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 17692.190869559287,
+            "p90_nm": 31594.00635182311,
+            "within_1000nm_fraction": 0.00177001953125
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron A5#01 (neuron 9857).swc",
+          "swc_nodes": 1604,
+          "swc_to_mesh_sample": {
+            "median_nm": 5925.692537434059,
+            "p90_nm": 11096.812438742892,
+            "within_1000nm_fraction": 0.004987531172069825
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 15471.761001245944,
+            "p90_nm": 25816.73392625191,
+            "within_1000nm_fraction": 0.00054931640625
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L2 bundle (neuron 21244).swc",
+          "swc_nodes": 1205,
+          "swc_to_mesh_sample": {
+            "median_nm": 6095.530165621363,
+            "p90_nm": 12942.857951420136,
+            "within_1000nm_fraction": 0.012448132780082987
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 22248.346084586963,
+            "p90_nm": 37500.98872582473,
+            "within_1000nm_fraction": 0.00067138671875
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1#11 (neuron 9005).swc",
+          "swc_nodes": 4362,
+          "swc_to_mesh_sample": {
+            "median_nm": 6190.342718808073,
+            "p90_nm": 14174.352386239618,
+            "within_1000nm_fraction": 0.008023842274186153
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 15106.651724842635,
+            "p90_nm": 30477.24519941079,
+            "within_1000nm_fraction": 0.001708984375
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron A4#02 (neuron 9867).swc",
+          "swc_nodes": 1385,
+          "swc_to_mesh_sample": {
+            "median_nm": 6321.477754449508,
+            "p90_nm": 15033.956447055885,
+            "within_1000nm_fraction": 0.018772563176895306
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 14004.59247356646,
+            "p90_nm": 27192.403777593303,
+            "within_1000nm_fraction": 0.0009765625
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron A1#02 (neuron 9883).swc",
+          "swc_nodes": 1882,
+          "swc_to_mesh_sample": {
+            "median_nm": 6406.5755744992675,
+            "p90_nm": 13612.256644867688,
+            "within_1000nm_fraction": 0.007438894792773645
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 17180.331311407797,
+            "p90_nm": 27511.729749164435,
+            "within_1000nm_fraction": 0.00042724609375
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L2 bundle (neuron 21338).swc",
+          "swc_nodes": 1469,
+          "swc_to_mesh_sample": {
+            "median_nm": 7011.8260816994025,
+            "p90_nm": 13033.96654305991,
+            "within_1000nm_fraction": 0.014976174268209666
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 25394.19728989718,
+            "p90_nm": 37629.01394728896,
+            "within_1000nm_fraction": 0.0010986328125
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1#09 (neuron 83815).swc",
+          "swc_nodes": 1255,
+          "swc_to_mesh_sample": {
+            "median_nm": 7398.783751401307,
+            "p90_nm": 19576.92129525749,
+            "within_1000nm_fraction": 0.0031872509960159364
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 20997.28916838637,
+            "p90_nm": 37634.99557109787,
+            "within_1000nm_fraction": 6.103515625e-05
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron A1#01 (neuron 9862).swc",
+          "swc_nodes": 1729,
+          "swc_to_mesh_sample": {
+            "median_nm": 7588.0205587491655,
+            "p90_nm": 14666.717184290515,
+            "within_1000nm_fraction": 0.0
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 25579.947976127056,
+            "p90_nm": 37779.40840746905,
+            "within_1000nm_fraction": 0.0
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1#04 (neuron 10414).swc",
+          "swc_nodes": 1849,
+          "swc_to_mesh_sample": {
+            "median_nm": 7592.570381629663,
+            "p90_nm": 14415.679640251106,
+            "within_1000nm_fraction": 0.010275824770146024
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 15530.802616740788,
+            "p90_nm": 25978.49716564532,
+            "within_1000nm_fraction": 0.00091552734375
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1#16 (neuron 9709).swc",
+          "swc_nodes": 1035,
+          "swc_to_mesh_sample": {
+            "median_nm": 7860.475494523216,
+            "p90_nm": 14035.58142738028,
+            "within_1000nm_fraction": 0.0
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 16052.19094056681,
+            "p90_nm": 31366.39887379194,
+            "within_1000nm_fraction": 0.0
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L2#04 (neuron 9175).swc",
+          "swc_nodes": 1264,
+          "swc_to_mesh_sample": {
+            "median_nm": 7984.781962849462,
+            "p90_nm": 14857.817450878076,
+            "within_1000nm_fraction": 0.007911392405063292
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 14449.474691278967,
+            "p90_nm": 26683.324844204162,
+            "within_1000nm_fraction": 0.0006103515625
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron A2#02 (neuron 9899).swc",
+          "swc_nodes": 718,
+          "swc_to_mesh_sample": {
+            "median_nm": 8050.286936214378,
+            "p90_nm": 13392.048820375301,
+            "within_1000nm_fraction": 0.0
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 33768.64384533567,
+            "p90_nm": 58456.02778842109,
+            "within_1000nm_fraction": 0.0
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1 bundle (neuron 9552).swc",
+          "swc_nodes": 1250,
+          "swc_to_mesh_sample": {
+            "median_nm": 8218.364185220755,
+            "p90_nm": 35170.71203945147,
+            "within_1000nm_fraction": 0.0248
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 16174.928624196991,
+            "p90_nm": 27967.106089467026,
+            "within_1000nm_fraction": 0.00115966796875
+          }
+        },
+        {
+          "swc": "left T1 leg motor neuron L1 bundle (neuron 9009).swc",
+          "swc_nodes": 2002,
+          "swc_to_mesh_sample": {
+            "median_nm": 8482.200092956151,
+            "p90_nm": 53959.8622264846,
+            "within_1000nm_fraction": 0.007992007992007992
+          },
+          "mesh_sample_to_swc": {
+            "median_nm": 17899.15089767806,
+            "p90_nm": 29432.220334542893,
+            "within_1000nm_fraction": 0.00115966796875
+          }
+        }
+      ]
+    }
+  ],
+  "exact_segment_to_swc_match_verified": false,
+  "fanc_to_manc_identity_verified": false,
+  "motor_mapping_enabled": false
+}

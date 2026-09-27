@@ -1,0 +1,158 @@
+{
+  "scope": "Anatomical candidate inventory only; no functional FeCO assignment or neural injection",
+  "node_source_sha256": "48c7e4acadf9619d83f08b31bb2062b7a9f0a5fa86429ff968aea066ced57f3f",
+  "graph_manifest_sha256": "b30e21078c0479ac288e7f9d3b7cb2c9eb76aa3b9707f3a2b9fa6a92bb822ef3",
+  "annotated_proprioceptors": 1454,
+  "chordotonal_objects": 425,
+  "leg_nerve_chordotonal_objects": 392,
+  "other_chordotonal_objects": 33,
+  "chordotonal_nerve_side_counts": [
+    {
+      "entryNerve": "MesoLN",
+      "rootSide": "L",
+      "objects": 80
+    },
+    {
+      "entryNerve": "MesoLN",
+      "rootSide": "R",
+      "objects": 83
+    },
+    {
+      "entryNerve": "MetaLN",
+      "rootSide": "L",
+      "objects": 93
+    },
+    {
+      "entryNerve": "MetaLN",
+      "rootSide": "R",
+      "objects": 100
+    },
+    {
+      "entryNerve": "ProCN",
+      "rootSide": "L",
+      "objects": 25
+    },
+    {
+      "entryNerve": "ProCN",
+      "rootSide": "R",
+      "objects": 8
+    },
+    {
+      "entryNerve": "ProLN",
+      "rootSide": "L",
+      "objects": 23
+    },
+    {
+      "entryNerve": "ProLN",
+      "rootSide": "R",
+      "objects": 13
+    }
+  ],
+  "proprioceptive_subclasses": {
+    "campaniform sensilla": 426,
+    "chordotonal organ": 425,
+    "haltere": 201,
+    "leg": 190,
+    "hair plate": 113,
+    "abdomen": 66,
+    "wing": 19,
+    "notum": 12,
+    "unassigned": 1,
+    "neck": 1
+  },
+  "all_leg_nerve_class_counts": [
+    {
+      "entryNerve": "MesoLN",
+      "class": "chemosensory",
+      "objects": 1
+    },
+    {
+      "entryNerve": "MesoLN",
+      "class": "gustatory",
+      "objects": 226
+    },
+    {
+      "entryNerve": "MesoLN",
+      "class": "mechanosensory_proprioceptive",
+      "objects": 283
+    },
+    {
+      "entryNerve": "MesoLN",
+      "class": "mechanosensory_tactile",
+      "objects": 806
+    },
+    {
+      "entryNerve": "MesoLN",
+      "class": "unknown_sensory",
+      "objects": 81
+    },
+    {
+      "entryNerve": "MesoLN",
+      "class": "unassigned",
+      "objects": 6
+    },
+    {
+      "entryNerve": "MetaLN",
+      "class": "gustatory",
+      "objects": 242
+    },
+    {
+      "entryNerve": "MetaLN",
+      "class": "mechanosensory_proprioceptive",
+      "objects": 297
+    },
+    {
+      "entryNerve": "MetaLN",
+      "class": "mechanosensory_tactile",
+      "objects": 805
+    },
+    {
+      "entryNerve": "MetaLN",
+      "class": "unknown_sensory",
+      "objects": 109
+    },
+    {
+      "entryNerve": "MetaLN",
+      "class": "unassigned",
+      "objects": 69
+    },
+    {
+      "entryNerve": "ProLN",
+      "class": "chemosensory",
+      "objects": 19
+    },
+    {
+      "entryNerve": "ProLN",
+      "class": "gustatory",
+      "objects": 300
+    },
+    {
+      "entryNerve": "ProLN",
+      "class": "mechanosensory_proprioceptive",
+      "objects": 65
+    },
+    {
+      "entryNerve": "ProLN",
+      "class": "mechanosensory_tactile",
+      "objects": 266
+    },
+    {
+      "entryNerve": "ProLN",
+      "class": "unknown_sensory",
+      "objects": 326
+    },
+    {
+      "entryNerve": "ProLN",
+      "class": "unassigned",
+      "objects": 16
+    }
+  ],
+  "runtime_enabled": false,
+  "limitations": [
+    "Annotations are not a completeness estimate of biological sensory populations",
+    "Leg nerve does not uniquely identify a joint or receptor subtype",
+    "Root side is preserved separately; no soma-side substitution",
+    "No position/velocity/contact-to-spike transduction is fitted"
+  ],
+  "output_sha256": "e889f3c927d841dd7623caf22beaf2ff0ccd87393e0a577bc9084a9b80d1ab53"
+}

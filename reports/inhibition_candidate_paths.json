@@ -1,0 +1,291 @@
+{
+  "graph_manifest_sha256": "b30e21078c0479ac288e7f9d3b7cb2c9eb76aa3b9707f3a2b9fa6a92bb822ef3",
+  "source_crosswalk_sha256": "5133fcf0d16414a11282cf3d2daad8e62c4e77f51bcb75ed4e24072a6b9ecdd3",
+  "selected_candidates": 10,
+  "retained_outgoing_rows": 5213,
+  "summaries": [
+    {
+      "body_id": 805450,
+      "author_candidate_label": "chief_9A_L1",
+      "type": "IN09A012",
+      "outgoing_rows": 53,
+      "outgoing_contacts": 488,
+      "proprioceptor_contacts_by_type": {
+        "SNpp39": 57,
+        "SNpp41": 100,
+        "SNpp43": 16,
+        "SNpp52": 1,
+        "SNpp59": 5,
+        "nan": 27
+      },
+      "candidate_to_candidate": []
+    },
+    {
+      "body_id": 804940,
+      "author_candidate_label": "chief_9A_L2",
+      "type": "IN09A012",
+      "outgoing_rows": 75,
+      "outgoing_contacts": 1894,
+      "proprioceptor_contacts_by_type": {
+        "SNpp39": 486,
+        "SNpp41": 515,
+        "SNpp43": 64,
+        "SNpp44": 12,
+        "SNpp58": 7,
+        "SNppxx": 267
+      },
+      "candidate_to_candidate": [
+        {
+          "csr_edge_index": 24149867,
+          "source_row": 16037,
+          "pre_body_id": 804940,
+          "post_body_id": 809102,
+          "synapse_count": 166,
+          "post_type": "SNpp41",
+          "post_subclass": "chordotonal organ"
+        }
+      ]
+    },
+    {
+      "body_id": 809102,
+      "author_candidate_label": "chief_9A_L2",
+      "type": "SNpp41",
+      "outgoing_rows": 96,
+      "outgoing_contacts": 573,
+      "proprioceptor_contacts_by_type": {
+        "SNpp41": 11,
+        "SNpp44": 2,
+        "SNppxx": 1
+      },
+      "candidate_to_candidate": [
+        {
+          "csr_edge_index": 23536113,
+          "source_row": 44970503,
+          "pre_body_id": 809102,
+          "post_body_id": 804940,
+          "synapse_count": 2,
+          "post_type": "IN09A012",
+          "post_subclass": "IR"
+        }
+      ]
+    },
+    {
+      "body_id": 802115,
+      "author_candidate_label": "chief_9A_L3",
+      "type": "IN09A012",
+      "outgoing_rows": 86,
+      "outgoing_contacts": 1507,
+      "proprioceptor_contacts_by_type": {
+        "SNpp39": 393,
+        "SNpp41": 473,
+        "SNpp44": 13,
+        "SNpp58": 2,
+        "SNppxx": 160
+      },
+      "candidate_to_candidate": []
+    },
+    {
+      "body_id": 805777,
+      "author_candidate_label": "chief_9A_R1",
+      "type": "IN09A012",
+      "outgoing_rows": 32,
+      "outgoing_contacts": 218,
+      "proprioceptor_contacts_by_type": {
+        "SNpp39": 21,
+        "SNpp41": 66,
+        "SNpp43": 4,
+        "nan": 27
+      },
+      "candidate_to_candidate": []
+    },
+    {
+      "body_id": 803114,
+      "author_candidate_label": "chief_9A_R2",
+      "type": "IN09A012",
+      "outgoing_rows": 92,
+      "outgoing_contacts": 1780,
+      "proprioceptor_contacts_by_type": {
+        "SNpp39": 474,
+        "SNpp41": 640,
+        "SNpp43": 89,
+        "SNpp44": 3,
+        "SNpp56": 1,
+        "SNpp58": 3,
+        "SNppxx": 165
+      },
+      "candidate_to_candidate": []
+    },
+    {
+      "body_id": 805004,
+      "author_candidate_label": "chief_9A_R3",
+      "type": "IN09A012",
+      "outgoing_rows": 75,
+      "outgoing_contacts": 1789,
+      "proprioceptor_contacts_by_type": {
+        "SNpp39": 376,
+        "SNpp40": 1,
+        "SNpp41": 583,
+        "SNpp43": 96,
+        "SNpp44": 36,
+        "SNpp50": 1,
+        "SNpp58": 3,
+        "SNpp59": 4,
+        "SNppxx": 212
+      },
+      "candidate_to_candidate": []
+    },
+    {
+      "body_id": 10056,
+      "author_candidate_label": "BDN2",
+      "type": "DNg100",
+      "outgoing_rows": 1772,
+      "outgoing_contacts": 18243,
+      "proprioceptor_contacts_by_type": {},
+      "candidate_to_candidate": [
+        {
+          "csr_edge_index": 202651,
+          "source_row": 56684206,
+          "pre_body_id": 10056,
+          "post_body_id": 10131,
+          "synapse_count": 2,
+          "post_type": "DNg74_a",
+          "post_subclass": "xl"
+        },
+        {
+          "csr_edge_index": 22936665,
+          "source_row": 85611,
+          "pre_body_id": 10056,
+          "post_body_id": 802115,
+          "synapse_count": 81,
+          "post_type": "IN09A012",
+          "post_subclass": "IR"
+        },
+        {
+          "csr_edge_index": 23535933,
+          "source_row": 202316,
+          "pre_body_id": 10056,
+          "post_body_id": 804940,
+          "synapse_count": 53,
+          "post_type": "IN09A012",
+          "post_subclass": "IR"
+        },
+        {
+          "csr_edge_index": 23629716,
+          "source_row": 166984,
+          "pre_body_id": 10056,
+          "post_body_id": 805450,
+          "synapse_count": 58,
+          "post_type": "IN09A012",
+          "post_subclass": "IR"
+        }
+      ]
+    },
+    {
+      "body_id": 10131,
+      "author_candidate_label": "web",
+      "type": "DNg74_a",
+      "outgoing_rows": 1849,
+      "outgoing_contacts": 16631,
+      "proprioceptor_contacts_by_type": {},
+      "candidate_to_candidate": [
+        {
+          "csr_edge_index": 79017,
+          "source_row": 289722,
+          "pre_body_id": 10131,
+          "post_body_id": 10056,
+          "synapse_count": 43,
+          "post_type": "DNg100",
+          "post_subclass": "xl"
+        },
+        {
+          "csr_edge_index": 22936666,
+          "source_row": 334624,
+          "pre_body_id": 10131,
+          "post_body_id": 802115,
+          "synapse_count": 40,
+          "post_type": "IN09A012",
+          "post_subclass": "IR"
+        },
+        {
+          "csr_edge_index": 23535934,
+          "source_row": 355909,
+          "pre_body_id": 10131,
+          "post_body_id": 804940,
+          "synapse_count": 39,
+          "post_type": "IN09A012",
+          "post_subclass": "IR"
+        },
+        {
+          "csr_edge_index": 23629717,
+          "source_row": 520147,
+          "pre_body_id": 10131,
+          "post_body_id": 805450,
+          "synapse_count": 31,
+          "post_type": "IN09A012",
+          "post_subclass": "IR"
+        },
+        {
+          "csr_edge_index": 23685319,
+          "source_row": 143753942,
+          "pre_body_id": 10131,
+          "post_body_id": 805777,
+          "synapse_count": 1,
+          "post_type": "IN09A012",
+          "post_subclass": "IR"
+        }
+      ]
+    },
+    {
+      "body_id": 13964,
+      "author_candidate_label": "web",
+      "type": null,
+      "outgoing_rows": 1083,
+      "outgoing_contacts": 6299,
+      "proprioceptor_contacts_by_type": {},
+      "candidate_to_candidate": [
+        {
+          "csr_edge_index": 79378,
+          "source_row": 1787832,
+          "pre_body_id": 13964,
+          "post_body_id": 10056,
+          "synapse_count": 13,
+          "post_type": "DNg100",
+          "post_subclass": "xl"
+        },
+        {
+          "csr_edge_index": 22936695,
+          "source_row": 108569174,
+          "pre_body_id": 13964,
+          "post_body_id": 802115,
+          "synapse_count": 1,
+          "post_type": "IN09A012",
+          "post_subclass": "IR"
+        },
+        {
+          "csr_edge_index": 23535972,
+          "source_row": 108569113,
+          "pre_body_id": 13964,
+          "post_body_id": 804940,
+          "synapse_count": 1,
+          "post_type": "IN09A012",
+          "post_subclass": "IR"
+        },
+        {
+          "csr_edge_index": 23629747,
+          "source_row": 108569089,
+          "pre_body_id": 13964,
+          "post_body_id": 805450,
+          "synapse_count": 1,
+          "post_type": "IN09A012",
+          "post_subclass": "IR"
+        }
+      ]
+    }
+  ],
+  "edges_sha256": "c74de08b91ecbd5eb3ebaf0675f31c528b764af6a1ff1831ddafd486dfde0cb7",
+  "all_weights_retained": true,
+  "minimum_weight_threshold": null,
+  "functional_signs_inferred": false,
+  "identity_resolved": false,
+  "runtime_enabled": false
+}

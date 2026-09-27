@@ -1,0 +1,111 @@
+{
+  "source_commit": "9ea1131626cd76f7203b74076ef8f0e9cab30bef",
+  "source_xml_sha256": "d67ff06d0c684599f00d5f33f8f8ac8ced01ab994c41341b551f8148b6d8aa0b",
+  "mujoco_version": "3.14.0",
+  "author_keyframe": "default-pose",
+  "passive_settle_steps": 20000,
+  "baseline_activation": 0.0001,
+  "pulse_ticks": [
+    200,
+    600
+  ],
+  "pulse_activation": 1.0,
+  "joint_coordinate_range_rad": [
+    0.4789,
+    2.502
+  ],
+  "conditions": {
+    "author_keyframe": {
+      "initial_knee_q_rad": 1.862,
+      "geometry_samples": [
+        {
+          "q_offset_rad": -0.02,
+          "opening_angle_deg": 78.53899051135672,
+          "actuator_lengths_mm": {
+            "LFTibia_extensor_93932": 0.567140913635939,
+            "LFTibia_flex_93434": 0.4774996518643681
+          }
+        },
+        {
+          "q_offset_rad": 0.0,
+          "opening_angle_deg": 77.41070154959789,
+          "actuator_lengths_mm": {
+            "LFTibia_extensor_93932": 0.5678074468451064,
+            "LFTibia_flex_93434": 0.4771949108281898
+          }
+        },
+        {
+          "q_offset_rad": 0.02,
+          "opening_angle_deg": 76.28246537624119,
+          "actuator_lengths_mm": {
+            "LFTibia_extensor_93932": 0.5684705105738219,
+            "LFTibia_flex_93434": 0.47689009173616886
+          }
+        }
+      ],
+      "pulse_comparisons": [
+        {
+          "actuator": "LFTibia_extensor_93932",
+          "joint_difference_at_pulse_end_rad": -0.47325765448057255,
+          "joint_difference_at_run_end_rad": -0.7746395081273723,
+          "min_difference_rad": -0.7746395081273723,
+          "max_difference_rad": 0.0
+        },
+        {
+          "actuator": "LFTibia_flex_93434",
+          "joint_difference_at_pulse_end_rad": 0.7902461724565724,
+          "joint_difference_at_run_end_rad": 0.6496259077753708,
+          "min_difference_rad": 0.0,
+          "max_difference_rad": 0.9366460728666062
+        }
+      ]
+    },
+    "keyframe_passive_2s": {
+      "initial_knee_q_rad": 0.8600261049283284,
+      "geometry_samples": [
+        {
+          "q_offset_rad": -0.02,
+          "opening_angle_deg": 134.747527157044,
+          "actuator_lengths_mm": {
+            "LFTibia_extensor_93932": 0.5353042793536709,
+            "LFTibia_flex_93434": 0.49114447195111677
+          }
+        },
+        {
+          "q_offset_rad": 0.0,
+          "opening_angle_deg": 133.64385819632716,
+          "actuator_lengths_mm": {
+            "LFTibia_extensor_93932": 0.5356936951459292,
+            "LFTibia_flex_93434": 0.4909216483510242
+          }
+        },
+        {
+          "q_offset_rad": 0.02,
+          "opening_angle_deg": 132.53849826458574,
+          "actuator_lengths_mm": {
+            "LFTibia_extensor_93932": 0.5361082647305504,
+            "LFTibia_flex_93434": 0.4906962752954573
+          }
+        }
+      ],
+      "pulse_comparisons": [
+        {
+          "actuator": "LFTibia_extensor_93932",
+          "joint_difference_at_pulse_end_rad": -0.26501363203280415,
+          "joint_difference_at_run_end_rad": -0.4109370441537453,
+          "min_difference_rad": -0.4134387576141188,
+          "max_difference_rad": 0.0
+        },
+        {
+          "actuator": "LFTibia_flex_93434",
+          "joint_difference_at_pulse_end_rad": 0.721852922877145,
+          "joint_difference_at_run_end_rad": 0.9684022144727729,
+          "min_difference_rad": 0.0,
+          "max_difference_rad": 1.0371069446073578
+        }
+      ]
+    }
+  },
+  "trace_sha256": "d13c4c18a311062868e627d0b93e96c623d188a00f8f485528379f0565b86ef8",
+  "scope": "Local source-model mechanics from the XML keyframe. Passive 2s settle and isolated full-strength MTU pulses are diagnostic, not an author gait or biological validation."
+}

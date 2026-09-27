@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "near_equal_old_identity_rejected_without_state_mutation": true,
+  "dll_sha256": "915288319a5bc9442c0d809430fc27f585ce7ed1e9021c43c53c0228b36c12f0",
+  "scope": "Two-cell CUDA64 spike-to-synapse recurrence, not full-graph biology",
+  "cases": [
+    {
+      "case": "below",
+      "observed_c": 0.004975062395963903,
+      "reference_c": 0.004975062395963412,
+      "absolute_error": 4.909267437014364e-16
+    },
+    {
+      "case": "equal",
+      "observed_c": 0.004975062395963903,
+      "reference_c": 0.004975062395963412,
+      "absolute_error": 4.909267437014364e-16
+    },
+    {
+      "case": "above",
+      "observed_c": 0.004975062395963903,
+      "reference_c": 0.004975062395963412,
+      "absolute_error": 4.909267437014364e-16
+    },
+    {
+      "case": "ordinary",
+      "observed_c": 0.0049379352953096145,
+      "reference_c": 0.004937935295309004,
+      "absolute_error": 6.106226635438361e-16
+    }
+  ]
+}

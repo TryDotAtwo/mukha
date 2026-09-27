@@ -1,0 +1,13 @@
+{
+  "status": "platform_loss",
+  "completed": false,
+  "last_stage": "Foreground 6091-cell 1000-tick process reported RUNNING seconds 10.0",
+  "transport": "SSE ended without done; same endpoint /api/sessions returned HTTP 410",
+  "not_proven": [
+    "completed 100ms trajectory",
+    "steady-state throughput",
+    "cause of sandbox loss"
+  ],
+  "last_completed_report": "reports/molab_photon_resources.json",
+  "log_sha256": "c6251d698d14eb257575ff0ece0f64cd157ce2d3efbd98a82845c059633f7a67"
+}

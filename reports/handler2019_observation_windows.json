@@ -1,0 +1,236 @@
+{
+  "workbook_sha256": "4db9b76cd0c41dc014c8d00a9e359bbd4165a7984095cc35d1932f9ee7f501dc",
+  "primary_methods": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9012144/",
+  "question": "Do the labeled 4 s post-DAN and 1 s post-KC windows reproduce the source summary values from the sampled traces?",
+  "sampling": "0.1 s sample interval; source summary includes both endpoints (41 cAMP samples and 11 ER samples). The traces are already baseline-normalized reporter values.",
+  "time_axis_caution": "The two workbook sheets use different plotted time origins. The labeled modality-specific windows are verified here; a shared event clock is not inferred from their row timestamps.",
+  "modalities": [
+    {
+      "modality": "cAMP_FRET",
+      "conditions": [
+        {
+          "isi_s": -6.0,
+          "window_s": [
+            4,
+            8
+          ],
+          "n_preparations": 6,
+          "comparisons": {
+            "half_open": {
+              "frames": 40,
+              "maximum_absolute_error": 0.0013529707820367914
+            },
+            "closed": {
+              "frames": 41,
+              "maximum_absolute_error": 0.0
+            }
+          }
+        },
+        {
+          "isi_s": -1.2,
+          "window_s": [
+            8.8,
+            12.8
+          ],
+          "n_preparations": 6,
+          "comparisons": {
+            "half_open": {
+              "frames": 40,
+              "maximum_absolute_error": 0.00145888001936198
+            },
+            "closed": {
+              "frames": 41,
+              "maximum_absolute_error": 0.0
+            }
+          }
+        },
+        {
+          "isi_s": -0.6,
+          "window_s": [
+            9.4,
+            13.4
+          ],
+          "n_preparations": 6,
+          "comparisons": {
+            "half_open": {
+              "frames": 40,
+              "maximum_absolute_error": 0.0011669533267485571
+            },
+            "closed": {
+              "frames": 41,
+              "maximum_absolute_error": 0.0
+            }
+          }
+        },
+        {
+          "isi_s": 0.0,
+          "window_s": [
+            10,
+            14
+          ],
+          "n_preparations": 6,
+          "comparisons": {
+            "half_open": {
+              "frames": 40,
+              "maximum_absolute_error": 0.0011367152653842943
+            },
+            "closed": {
+              "frames": 41,
+              "maximum_absolute_error": 0.0
+            }
+          }
+        },
+        {
+          "isi_s": 0.5,
+          "window_s": [
+            10.5,
+            14.5
+          ],
+          "n_preparations": 6,
+          "comparisons": {
+            "half_open": {
+              "frames": 40,
+              "maximum_absolute_error": 0.0007778123318573638
+            },
+            "closed": {
+              "frames": 41,
+              "maximum_absolute_error": 0.0
+            }
+          }
+        },
+        {
+          "isi_s": 6.0,
+          "window_s": [
+            16,
+            20
+          ],
+          "n_preparations": 6,
+          "comparisons": {
+            "half_open": {
+              "frames": 40,
+              "maximum_absolute_error": 0.0012529342483981395
+            },
+            "closed": {
+              "frames": 41,
+              "maximum_absolute_error": 0.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "modality": "ER_lumen_GCaMP",
+      "conditions": [
+        {
+          "isi_s": -6.0,
+          "window_s": [
+            6,
+            7
+          ],
+          "n_preparations": 7,
+          "comparisons": {
+            "half_open": {
+              "frames": 10,
+              "maximum_absolute_error": 0.0028349111984944464
+            },
+            "closed": {
+              "frames": 11,
+              "maximum_absolute_error": 0.0
+            }
+          }
+        },
+        {
+          "isi_s": -1.2,
+          "window_s": [
+            6,
+            7
+          ],
+          "n_preparations": 7,
+          "comparisons": {
+            "half_open": {
+              "frames": 10,
+              "maximum_absolute_error": 0.003230542884033072
+            },
+            "closed": {
+              "frames": 11,
+              "maximum_absolute_error": 0.0
+            }
+          }
+        },
+        {
+          "isi_s": -0.6,
+          "window_s": [
+            6,
+            7
+          ],
+          "n_preparations": 7,
+          "comparisons": {
+            "half_open": {
+              "frames": 10,
+              "maximum_absolute_error": 0.0026273293053894614
+            },
+            "closed": {
+              "frames": 11,
+              "maximum_absolute_error": 0.0
+            }
+          }
+        },
+        {
+          "isi_s": 0.0,
+          "window_s": [
+            6,
+            7
+          ],
+          "n_preparations": 7,
+          "comparisons": {
+            "half_open": {
+              "frames": 10,
+              "maximum_absolute_error": 0.003852661226136382
+            },
+            "closed": {
+              "frames": 11,
+              "maximum_absolute_error": 0.0
+            }
+          }
+        },
+        {
+          "isi_s": 0.5,
+          "window_s": [
+            6,
+            7
+          ],
+          "n_preparations": 7,
+          "comparisons": {
+            "half_open": {
+              "frames": 10,
+              "maximum_absolute_error": 0.0028885494302730626
+            },
+            "closed": {
+              "frames": 11,
+              "maximum_absolute_error": 0.0
+            }
+          }
+        },
+        {
+          "isi_s": 6.0,
+          "window_s": [
+            6,
+            7
+          ],
+          "n_preparations": 7,
+          "comparisons": {
+            "half_open": {
+              "frames": 10,
+              "maximum_absolute_error": 0.003837363489668486
+            },
+            "closed": {
+              "frames": 11,
+              "maximum_absolute_error": 0.0
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "scope_limit": "Checks published reporter traces, not underlying molecular concentrations, source stimuli delivered to MaleCNS, or a local plasticity rule."
+}

@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "checks": {
+    "chunking_bit_exact": true,
+    "fresh_model_restore_bit_exact": true,
+    "corrupt_rejected": true,
+    "truncated_rejected": true,
+    "failed_load_preserves_state": true,
+    "wrong_graph_rejected": true,
+    "nonfinite_rejected": true,
+    "over_capacity_rejected": true,
+    "failed_advance_preserves_state": true,
+    "explicit_reset_bit_exact": true,
+    "brian_spikes_exact": true,
+    "brian_states_within_tolerance": true
+  },
+  "max_voltage_error_mv": 3.339550858072471e-13,
+  "max_synapse_error_mv": 2.842170943040401e-14,
+  "checkpoint_bytes": 944,
+  "chunk_capacity": 37,
+  "library_sha256": "e41f83a2005e44b04d6be989683c5596dc5e64e72f06762b9e2d64186f0e5b13",
+  "instrumentation": "none",
+  "scope": "physical GPU fixture; persistence and checkpoint checks only, no full-brain biology"
+}

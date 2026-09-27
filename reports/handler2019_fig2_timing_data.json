@@ -1,0 +1,211 @@
+{
+  "primary_paper": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9012144/",
+  "paper_doi": "10.1016/j.cell.2019.05.040",
+  "workbook_source": "https://raw.githubusercontent.com/InsectRobotics/IncentiveCircuit/1610c80072fe8bb59bd397e7a61f716393a509b9/src/incentive/data/handler2019/Handler2019_Fig2Fig5_Data.xlsx",
+  "workbook_sha256": "4db9b76cd0c41dc014c8d00a9e359bbd4165a7984095cc35d1932f9ee7f501dc",
+  "source_repository_commit": "1610c80072fe8bb59bd397e7a61f716393a509b9",
+  "observable": "per-preparation change in peak KC-evoked gamma4 MBON GCaMP response, post minus pre",
+  "time_convention": "ISI = DAN stimulus time minus KC stimulus time, seconds",
+  "interval_note": "Two-sided Student-t interval on paired deltas; descriptive, no multiple-comparison correction.",
+  "source_internal_check": "All paired deltas and displayed means reconstructed from workbook pre/post values within 1e-12.",
+  "conditions": [
+    {
+      "isi_s": -6.0,
+      "pre": [
+        1.2370948142231502,
+        1.2227590674738607,
+        1.0216216637093924,
+        1.116586602081656,
+        1.1370307634433015
+      ],
+      "post": [
+        1.4114179383463414,
+        1.5492144466926905,
+        1.3900259358398093,
+        1.4151570407772498,
+        0.9282550717428601
+      ],
+      "paired_delta": [
+        0.1743231241231913,
+        0.32645537921882983,
+        0.3684042721304168,
+        0.29857043869559385,
+        -0.2087756917004413
+      ],
+      "n_preparations": 5,
+      "mean_delta": 0.1917955044935181,
+      "sem_delta": 0.10523483086345112,
+      "mean_delta_95pct_t_interval": [
+        -0.100383226553629,
+        0.4839742355406652
+      ]
+    },
+    {
+      "isi_s": -1.2,
+      "pre": [
+        1.3994827161291667,
+        1.25892979718695,
+        1.291083078973767,
+        1.237211731712699,
+        0.974115596620271
+      ],
+      "post": [
+        3.3028107866975387,
+        2.8963153925050067,
+        2.6113837166810163,
+        2.5925553263152232,
+        2.6338517892300324
+      ],
+      "paired_delta": [
+        1.903328070568372,
+        1.6373855953180567,
+        1.3203006377072493,
+        1.3553435946025243,
+        1.6597361926097614
+      ],
+      "n_preparations": 5,
+      "mean_delta": 1.5752188181611928,
+      "sem_delta": 0.1077014319639884,
+      "mean_delta_95pct_t_interval": [
+        1.2761917045619835,
+        1.874245931760402
+      ]
+    },
+    {
+      "isi_s": -0.6,
+      "pre": [
+        1.025066361665008,
+        1.1858380278029081,
+        1.1833866339033154,
+        1.114204493139428,
+        0.9762437684357209,
+        0.9331880319851092
+      ],
+      "post": [
+        1.8493085957052375,
+        1.6891997214709518,
+        1.1999383485308175,
+        0.8246315922226146,
+        0.8549426582298049,
+        1.4657285646582237
+      ],
+      "paired_delta": [
+        0.8242422340402296,
+        0.5033616936680436,
+        0.016551714627502045,
+        -0.2895729009168133,
+        -0.12130111020591605,
+        0.5325405326731144
+      ],
+      "n_preparations": 6,
+      "mean_delta": 0.24430369398102672,
+      "sem_delta": 0.17861338958308626,
+      "mean_delta_95pct_t_interval": [
+        -0.21483664088268725,
+        0.7034440288447407
+      ]
+    },
+    {
+      "isi_s": 0.0,
+      "pre": [
+        1.4515460447402981,
+        1.333912808792744,
+        1.482077323001549,
+        1.7505381420205894,
+        1.2447267967838123
+      ],
+      "post": [
+        0.18900364014710622,
+        0.30398600930019026,
+        0.14968678206863467,
+        0.4579660559895829,
+        0.7161753082809236
+      ],
+      "paired_delta": [
+        -1.262542404593192,
+        -1.0299267994925538,
+        -1.3323905409329142,
+        -1.2925720860310066,
+        -0.5285514885028887
+      ],
+      "n_preparations": 5,
+      "mean_delta": -1.0891966639105113,
+      "sem_delta": 0.14973134265955665,
+      "mean_delta_95pct_t_interval": [
+        -1.5049175173323317,
+        -0.6734758104886909
+      ]
+    },
+    {
+      "isi_s": 0.5,
+      "pre": [
+        1.346972300384684,
+        1.2493875809266515,
+        1.227066482950507,
+        1.1016724776958013,
+        1.21249321900074
+      ],
+      "post": [
+        0.6975460402882563,
+        0.6970863549392226,
+        0.33378739868260554,
+        0.1447472245423673,
+        0.30116227414287194
+      ],
+      "paired_delta": [
+        -0.6494262600964278,
+        -0.5523012259874289,
+        -0.8932790842679014,
+        -0.956925253153434,
+        -0.9113309448578681
+      ],
+      "n_preparations": 5,
+      "mean_delta": -0.7926525536726119,
+      "sem_delta": 0.08046064593336404,
+      "mean_delta_95pct_t_interval": [
+        -1.0160471202353536,
+        -0.5692579871098702
+      ]
+    },
+    {
+      "isi_s": 6.0,
+      "pre": [
+        1.0842276666132489,
+        1.2319581873774674,
+        1.1078557989787272,
+        1.3387383118597946,
+        1.002418978783116
+      ],
+      "post": [
+        1.146511195427837,
+        1.1240510413903166,
+        0.7676795937259333,
+        1.1306283721984376,
+        1.1500984394484803
+      ],
+      "paired_delta": [
+        0.06228352881458821,
+        -0.10790714598715079,
+        -0.3401762052527939,
+        -0.20810993966135705,
+        0.14767946066536441
+      ],
+      "n_preparations": 5,
+      "mean_delta": -0.08924606028426982,
+      "sem_delta": 0.08846968815470918,
+      "mean_delta_95pct_t_interval": [
+        -0.3348772929197878,
+        0.15638517235124816
+      ]
+    }
+  ],
+  "exploratory_backward_monotonicity_check": {
+    "simple_rule_prediction": "For a positive one-sided DAN-before-KC exponential trace, the mean effect at -0.6 s must be at least the effect at -1.2 s.",
+    "observed_mean_minus1p2_minus_minus0p6": 1.330915124180166,
+    "all_minus1p2_preparations_greater_than_all_minus0p6": true,
+    "exact_one_sided_permutation_p_unadjusted": 0.0021645021645021645,
+    "permutations": 462,
+    "interpretation": "The simple monotonic backward trace contradicts these wild-type measurements; exploratory comparison, not a fitted mechanistic model."
+  },
+  "scope_limit": "Figure 2D/2E wild type only. Figure 6 receptor-null preparation-level data are absent from this workbook. No MaleCNS transfer is established."
+}

@@ -1,0 +1,120 @@
+{
+  "cases": [
+    {
+      "feedback": false,
+      "contact": false,
+      "pulse": false,
+      "exact_contact_samples": 0,
+      "first_contact_tick": null,
+      "first_slide_tick": null,
+      "first_throttle_tick": null,
+      "max_slide_mm": 0.0,
+      "max_throttle": 0.0,
+      "max_abs_effective_g_mm_s2": 0.0
+    },
+    {
+      "feedback": false,
+      "contact": false,
+      "pulse": true,
+      "exact_contact_samples": 0,
+      "first_contact_tick": null,
+      "first_slide_tick": null,
+      "first_throttle_tick": null,
+      "max_slide_mm": 0.0,
+      "max_throttle": 0.0,
+      "max_abs_effective_g_mm_s2": 0.0
+    },
+    {
+      "feedback": false,
+      "contact": true,
+      "pulse": false,
+      "exact_contact_samples": 401,
+      "first_contact_tick": 599,
+      "first_slide_tick": 599,
+      "first_throttle_tick": 600,
+      "max_slide_mm": 0.004865881064217748,
+      "max_throttle": 0.016159014557084336,
+      "max_abs_effective_g_mm_s2": 0.0
+    },
+    {
+      "feedback": false,
+      "contact": true,
+      "pulse": true,
+      "exact_contact_samples": 97,
+      "first_contact_tick": 255,
+      "first_slide_tick": 255,
+      "first_throttle_tick": 256,
+      "max_slide_mm": 0.04570275059639687,
+      "max_throttle": 0.15228032445495196,
+      "max_abs_effective_g_mm_s2": 0.0
+    },
+    {
+      "feedback": true,
+      "contact": false,
+      "pulse": false,
+      "exact_contact_samples": 0,
+      "first_contact_tick": null,
+      "first_slide_tick": null,
+      "first_throttle_tick": null,
+      "max_slide_mm": 0.0,
+      "max_throttle": 0.0,
+      "max_abs_effective_g_mm_s2": 0.0
+    },
+    {
+      "feedback": true,
+      "contact": false,
+      "pulse": true,
+      "exact_contact_samples": 0,
+      "first_contact_tick": null,
+      "first_slide_tick": null,
+      "first_throttle_tick": null,
+      "max_slide_mm": 0.0,
+      "max_throttle": 0.0,
+      "max_abs_effective_g_mm_s2": 0.0
+    },
+    {
+      "feedback": true,
+      "contact": true,
+      "pulse": false,
+      "exact_contact_samples": 401,
+      "first_contact_tick": 599,
+      "first_slide_tick": 599,
+      "first_throttle_tick": 600,
+      "max_slide_mm": 0.0048650154704118365,
+      "max_throttle": 0.01615616228347014,
+      "max_abs_effective_g_mm_s2": 14.415075732301037
+    },
+    {
+      "feedback": true,
+      "contact": true,
+      "pulse": true,
+      "exact_contact_samples": 97,
+      "first_contact_tick": 255,
+      "first_slide_tick": 255,
+      "first_throttle_tick": 256,
+      "max_slide_mm": 0.045702541610553184,
+      "max_throttle": 0.152279628471181,
+      "max_abs_effective_g_mm_s2": 365.9744343151699
+    }
+  ],
+  "source_harness_xml_sha256": "eb89b6438bfdd6fb21a4c512b915d96c185e298654cf3221870a174ec3d3a3a0",
+  "executed_source_sha256": "4ba356f4ac69a2608afb7e766a746c9f95fcf20c843b49f4b2d9ad026de6b374",
+  "pad_center_mm": [
+    0.9061606938163695,
+    -0.2903256688320693,
+    2.364143709154617
+  ],
+  "mujoco_version": "3.14.0",
+  "pad_shift_mm": 0.05,
+  "cabin_frame": "nonrotating co-falling local frame; effective gravity is -thrust/m",
+  "relaxation": "source gravity -9801 mm/s2 for 20000 steps, then co-falling frame at t=0",
+  "rocket_plant": "native/rocket_vertical.h via native/rocket_vertical_abi.cpp",
+  "first_nonzero_throttle_tick": 256,
+  "identical_trajectories_through_first_nonzero_throttle": true,
+  "max_feedback_slide_difference_mm": 2.089858436860048e-07,
+  "max_feedback_velocity_difference_mps": 2.7628566101611796e-08,
+  "no_pulse_contact_caused_throttle": true,
+  "trace_sha256": "ccb8e3960297e7a6a687ae7d2c68b9072b1631e03fd9c11bd3a35a288a34ae2d",
+  "abi_sha256": "d431b64065168d6b85f9ea2165408790bb72fa0b11cd13e1273e3b151fc6c8ce",
+  "scope": "Exploratory prescribed-muscle mechanical loop; no MaleCNS motor mapping, realistic seated cabin or KSP landing."
+}

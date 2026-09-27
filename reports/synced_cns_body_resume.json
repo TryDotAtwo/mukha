@@ -1,0 +1,20 @@
+{
+  "scope": "Cross-process synchronized MaleCNS and FlyMimic checkpoint restore",
+  "checkpoint_report_sha256": "9dad7da83639525357aabaf80edfa3fc21ba754aa2be092e47a0db213622c3e2",
+  "source_files_sha256": {
+    "body_checkpoint.npy": "51d18517a1303fdd23b53bacbd5fd66374b3642c4cee269714d5d0c1bbaa732d",
+    "brain_checkpoint.npy": "23030196da1d6e429a94b23ca88148d3f940e47d90158be0a8877fe2e2c332e7",
+    "continuation.npz": "28df31c88634513e31e5589c4b9cf0fb6ae471d91a31c42f424f016a0621a010"
+  },
+  "fresh_process": true,
+  "fresh_brain_handle": true,
+  "fresh_body_data": true,
+  "tail_events_exact": true,
+  "tail_all_eight_traces_exact": true,
+  "biological_validation": false,
+  "limits": [
+    "Same machine, DLL, model and graph; not a portable experiment checkpoint",
+    "Unvalidated four-cell sensory encoder and motor-muscle map",
+    "No optical scene, rocket, KSP, training state, or video recorder included"
+  ]
+}

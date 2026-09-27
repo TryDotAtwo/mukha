@@ -1,0 +1,11 @@
+{
+  "scope": "Rust/C ABI body integration compared to native contact diagnostic; no brain input",
+  "samples": 100,
+  "exact": true,
+  "sha256": {
+    "reports\\body_rust_trace.json": "19d9f2e4dabe7375685e1eab7c5b16424f105f7454cf8de2b7a6b0d9cf98cc59",
+    "build\\contact_trace.csv": "4d519298adb1e0b2029056ce71c4f2d44586ebd7432006a593422a48178e47f9",
+    "build\\fly_body.dll": "c8873c3ba1269352e5453bf1b98ac8ea4b2da3fdaafd6798412368e0fd3f966a",
+    "build\\rust-body\\debug\\faithful-fly.exe": "0ab866fb3bec7809c2543829d66f54a369edff64479eb20b4c2d227196548b3c"
+  }
+}

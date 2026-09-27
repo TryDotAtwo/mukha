@@ -1,0 +1,15 @@
+{
+  "scope": "Molab sandbox recovery, not a repeated performance or biological test",
+  "notebook": "https://molab.marimo.io/notebooks/nb_swoxyEkQ49XKqaajMAuPtR",
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+  "compute_capability": "12.0",
+  "memory_total_mib": 97887,
+  "memory_used_mib_at_preflight": 0,
+  "cuda_compiler": "13.1.115",
+  "curand_headers": "10.4.1.81",
+  "package_hashes_verified": true,
+  "heavy_validation_cells_disabled": true,
+  "interrupted_1000_tick_run_repeated": false,
+  "recovery_setup_execution_success": true,
+  "recovery_curand_execution_success": true
+}

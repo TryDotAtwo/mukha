@@ -1,0 +1,262 @@
+{
+  "scope": "Exact L1 body-ID/hex-coordinate reconciliation of two published same-connectome workbooks; no optical ray assignment",
+  "new_source_commit": "23f6ac131529b5f56894c6eeb9b88b17894fc00d",
+  "source_manifest_sha256": "187e4edd80aa92b2924e10bcd11b2f606ae58e6f96450fae8fc5fdc2ec51ee47",
+  "old_assignments_sha256": "aceb35ea500d993cd3ef22b7efbb4724a2f7913d41ace2c3add2a7e396832967",
+  "nodes_sha256": "48c7e4acadf9619d83f08b31bb2062b7a9f0a5fa86429ff968aea066ced57f3f",
+  "sides": {
+    "R": {
+      "shared_l1_body_ids": 892,
+      "new_vs_primary_annotation": {
+        "with_both_annotation_coordinates": 892,
+        "matching_annotation": 892,
+        "conflicting_annotation": 0,
+        "without_both_annotation_coordinates": 0
+      },
+      "old_vs_primary_annotation": {
+        "with_both_annotation_coordinates": 892,
+        "matching_annotation": 892,
+        "conflicting_annotation": 0,
+        "without_both_annotation_coordinates": 0
+      },
+      "new_only_l1_body_ids": 0,
+      "old_only_l1_body_ids": 0,
+      "shared_id_coordinate_shift_counts": [
+        {
+          "delta_hex1": 0,
+          "delta_hex2": 0,
+          "count": 892
+        }
+      ],
+      "source_rows": 920,
+      "source_unique_coordinates": 892,
+      "source_duplicate_coordinate_rows": 56,
+      "source_missing_l1": 0,
+      "source_l1_ids_absent_from_graph": [],
+      "source_duplicate_l1_id_rows": 28,
+      "old_l1_rows": 892,
+      "comparable_unique_coordinates": 864,
+      "exact_body_ids_at_same_coordinate": 864,
+      "different_body_ids_at_same_coordinate": 0,
+      "new_only_unique_coordinates": 0,
+      "old_only_coordinates": 28,
+      "exact_body_id_coordinate_triples_all_rows": 892,
+      "mismatch_examples": [],
+      "duplicate_examples": [
+        {
+          "hex1": 5,
+          "hex2": 15,
+          "new_body_id": 28673
+        },
+        {
+          "hex1": 5,
+          "hex2": 15,
+          "new_body_id": 28673
+        },
+        {
+          "hex1": 5,
+          "hex2": 20,
+          "new_body_id": 33890
+        },
+        {
+          "hex1": 5,
+          "hex2": 20,
+          "new_body_id": 33890
+        },
+        {
+          "hex1": 6,
+          "hex2": 9,
+          "new_body_id": 40108
+        },
+        {
+          "hex1": 6,
+          "hex2": 9,
+          "new_body_id": 40108
+        },
+        {
+          "hex1": 7,
+          "hex2": 4,
+          "new_body_id": 60001
+        },
+        {
+          "hex1": 7,
+          "hex2": 4,
+          "new_body_id": 60001
+        },
+        {
+          "hex1": 14,
+          "hex2": 31,
+          "new_body_id": 26784
+        },
+        {
+          "hex1": 14,
+          "hex2": 31,
+          "new_body_id": 26784
+        },
+        {
+          "hex1": 15,
+          "hex2": 10,
+          "new_body_id": 37322
+        },
+        {
+          "hex1": 15,
+          "hex2": 10,
+          "new_body_id": 37322
+        }
+      ]
+    },
+    "L": {
+      "shared_l1_body_ids": 869,
+      "new_vs_primary_annotation": {
+        "with_both_annotation_coordinates": 874,
+        "matching_annotation": 520,
+        "conflicting_annotation": 354,
+        "without_both_annotation_coordinates": 4
+      },
+      "old_vs_primary_annotation": {
+        "with_both_annotation_coordinates": 869,
+        "matching_annotation": 868,
+        "conflicting_annotation": 1,
+        "without_both_annotation_coordinates": 3
+      },
+      "new_only_l1_body_ids": 9,
+      "old_only_l1_body_ids": 3,
+      "shared_id_coordinate_shift_counts": [
+        {
+          "delta_hex1": 0,
+          "delta_hex2": 0,
+          "count": 517
+        },
+        {
+          "delta_hex1": 0,
+          "delta_hex2": 1,
+          "count": 146
+        },
+        {
+          "delta_hex1": 1,
+          "delta_hex2": 0,
+          "count": 108
+        },
+        {
+          "delta_hex1": 1,
+          "delta_hex2": 1,
+          "count": 79
+        },
+        {
+          "delta_hex1": 0,
+          "delta_hex2": -1,
+          "count": 13
+        },
+        {
+          "delta_hex1": 0,
+          "delta_hex2": 2,
+          "count": 3
+        },
+        {
+          "delta_hex1": -5,
+          "delta_hex2": 6,
+          "count": 1
+        },
+        {
+          "delta_hex1": -1,
+          "delta_hex2": 0,
+          "count": 1
+        },
+        {
+          "delta_hex1": 1,
+          "delta_hex2": -1,
+          "count": 1
+        }
+      ],
+      "source_rows": 887,
+      "source_unique_coordinates": 887,
+      "source_duplicate_coordinate_rows": 0,
+      "source_missing_l1": 9,
+      "source_l1_ids_absent_from_graph": [],
+      "source_duplicate_l1_id_rows": 0,
+      "old_l1_rows": 872,
+      "comparable_unique_coordinates": 862,
+      "exact_body_ids_at_same_coordinate": 517,
+      "different_body_ids_at_same_coordinate": 345,
+      "new_only_unique_coordinates": 20,
+      "old_only_coordinates": 5,
+      "exact_body_id_coordinate_triples_all_rows": 517,
+      "mismatch_examples": [
+        {
+          "hex1": 2,
+          "hex2": 6,
+          "new_body_id": 72741.0,
+          "body_id": 545855.0
+        },
+        {
+          "hex1": 2,
+          "hex2": 7,
+          "new_body_id": 74079.0,
+          "body_id": 72741.0
+        },
+        {
+          "hex1": 2,
+          "hex2": 8,
+          "new_body_id": 66842.0,
+          "body_id": 74079.0
+        },
+        {
+          "hex1": 2,
+          "hex2": 10,
+          "new_body_id": 537007.0,
+          "body_id": 97509.0
+        },
+        {
+          "hex1": 3,
+          "hex2": 5,
+          "new_body_id": 33343.0,
+          "body_id": 77848.0
+        },
+        {
+          "hex1": 3,
+          "hex2": 6,
+          "new_body_id": 49131.0,
+          "body_id": 33343.0
+        },
+        {
+          "hex1": 3,
+          "hex2": 7,
+          "new_body_id": 48056.0,
+          "body_id": 49131.0
+        },
+        {
+          "hex1": 3,
+          "hex2": 8,
+          "new_body_id": 539260.0,
+          "body_id": 48056.0
+        },
+        {
+          "hex1": 3,
+          "hex2": 9,
+          "new_body_id": 31363.0,
+          "body_id": 539260.0
+        },
+        {
+          "hex1": 3,
+          "hex2": 10,
+          "new_body_id": 97509.0,
+          "body_id": 31363.0
+        },
+        {
+          "hex1": 4,
+          "hex2": 3,
+          "new_body_id": 550340.0,
+          "body_id": 107932.0
+        },
+        {
+          "hex1": 4,
+          "hex2": 4,
+          "new_body_id": 92118.0,
+          "body_id": 550340.0
+        }
+      ],
+      "duplicate_examples": []
+    }
+  },
+  "visual_input_enabled": false
+}

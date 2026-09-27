@@ -1,0 +1,17 @@
+{
+  "landing_source_sha256": "9514064478d43344c9c20de1c03c2fb653d3b818f3d28e93eaff45e4926bb946",
+  "source_extraction": "Unmodified Sample/Stability/Outcome and evaluate body from current src/landing.rs; removed serde derives and file/JSON functions for standalone rustc. Synthetic arithmetic test only.",
+  "rust_probe_stdout": "strict=Incomplete; loose=Success { time_ns: 10100000000 }",
+  "compile_returncode": 0,
+  "run_returncode": 0,
+  "near_equal_tau": {
+    "tau_m": 20.0,
+    "tau_s": 20.000000000000004,
+    "dt_ms": 0.1,
+    "current_coefficient": -0.0,
+    "limit_coefficient": 0.004975062395963412,
+    "relative_error_to_limit": 1.0
+  },
+  "landing_source_hash_note": "landing_source_sha256 hashes UTF-8 text after Python newline normalization, as used for source extraction; landing_source_file_sha256 hashes exact original bytes.",
+  "landing_source_file_sha256": "ec1766761f8ac67dbcab048f4191a6d9695dd40abc88ebe92990ebdbcf064d6f"
+}

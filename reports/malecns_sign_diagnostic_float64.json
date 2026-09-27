@@ -1,0 +1,142 @@
+{
+  "spec": {
+    "graph_manifest_sha256": "b30e21078c0479ac288e7f9d3b7cb2c9eb76aa3b9707f3a2b9fa6a92bb822ef3",
+    "steps": 1000,
+    "dt_ms": 0.1,
+    "input_body": 10056,
+    "stimulus_ticks": [
+      0,
+      100,
+      200,
+      300,
+      400,
+      500,
+      600,
+      700,
+      800,
+      900
+    ],
+    "voltage_jump_mv": 68.75,
+    "hypothesis": "Measure dependence of a full-graph LIF diagnostic on unclear transmitter signs",
+    "shared_assumptions": {
+      "acetylcholine": 1,
+      "gaba": -1,
+      "glutamate": -1,
+      "histamine": -1,
+      "dopamine": 0,
+      "octopamine": 0,
+      "serotonin": 0,
+      "missing_annotation": 0
+    },
+    "variants": {
+      "unclear_excitatory": 1,
+      "unclear_inhibitory": -1
+    },
+    "weight_mv_per_contact": 0.275,
+    "limitations": [
+      "Uniform LIF physiology is unvalidated on MaleCNS",
+      "Blanket glutamate inhibition conflicts with some known visual physiology",
+      "Zero aminergic electrical weights do not model neuromodulation; all CSR rows retained",
+      "Only unclear sign is varied, not a bound on all physiological uncertainty",
+      "Short deterministic direct drive, not physiological sensory stimulation"
+    ],
+    "biological_validation": false,
+    "brain_body_connected": false,
+    "max_wall_seconds_per_variant": 180,
+    "dtype": "float64",
+    "event_recording": "Every spike tick and graph index; per-chunk extraction before next advance"
+  },
+  "results": [
+    {
+      "variant": "unclear_excitatory",
+      "elapsed_seconds": 6.547000000020489,
+      "total_spikes": 5001,
+      "active_neurons": 2756,
+      "input_spikes": 7,
+      "target_spikes": [
+        [
+          226,
+          802115
+        ],
+        [
+          439,
+          805450
+        ],
+        [
+          443,
+          804940
+        ],
+        [
+          527,
+          802115
+        ],
+        [
+          673,
+          802115
+        ],
+        [
+          675,
+          804940
+        ],
+        [
+          694,
+          805004
+        ],
+        [
+          705,
+          805450
+        ]
+      ],
+      "weights_sha256": "d3b8ad0de3f7d21f269dbdf618cf13ab82d71e2b037bc82e37954be1a15c81af"
+    },
+    {
+      "variant": "unclear_inhibitory",
+      "elapsed_seconds": 6.422000000020489,
+      "total_spikes": 3059,
+      "active_neurons": 1780,
+      "input_spikes": 9,
+      "target_spikes": [
+        [
+          226,
+          802115
+        ],
+        [
+          440,
+          805450
+        ],
+        [
+          443,
+          804940
+        ],
+        [
+          526,
+          802115
+        ],
+        [
+          653,
+          802115
+        ],
+        [
+          657,
+          804940
+        ],
+        [
+          658,
+          805450
+        ]
+      ],
+      "weights_sha256": "a6ede2cbcae9b954a840d630aac9bc0bc1427a82bc02936154ec5aab7eb04082"
+    }
+  ],
+  "library_sha256": "e41f83a2005e44b04d6be989683c5596dc5e64e72f06762b9e2d64186f0e5b13",
+  "complete": true,
+  "full_event_recording": true,
+  "files": {
+    "unclear_excitatory_counts.npy": "9059ec1f5b3baecb5e375724cceb1c630e7797b15a2d0bd3702a1a7f7c8f4fa1",
+    "unclear_excitatory_events.npy": "38bb490b2a800fda91d0839f1031781e200ae6258dffa378525f10a26b21be51",
+    "unclear_excitatory_final_state.npz": "4624f54f082440ee509f99d53a92a753a6367940a7f72533740642e265d30d86",
+    "unclear_inhibitory_counts.npy": "1e20db626a396c205f5bea35f4521c0f0bd2507def14766cd6b2dde73616a2da",
+    "unclear_inhibitory_events.npy": "48eb2e7fc327ef3fb8639abffb187163dd1590e100353987af6bc9b1f58fd040",
+    "unclear_inhibitory_final_state.npz": "e18d0e89ce39730e6057fd6611650d3ee41fb96b2cad1199e58adcc1c7674f0e"
+  }
+}

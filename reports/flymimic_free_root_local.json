@@ -1,0 +1,130 @@
+{
+  "source_commit": "9ea1131626cd76f7203b74076ef8f0e9cab30bef",
+  "source_xml_sha256": "d67ff06d0c684599f00d5f33f8f8ac8ced01ab994c41341b551f8148b6d8aa0b",
+  "free_root_xml_sha256": "7b80c0438e4bf31954a50b8165345fff49ee1a8036ad46df2223520ccfaee0b1",
+  "trace_sha256": "d29e484fa6c3fae034b726ed3976fce2c6decf9dc350b906a1b8ea505928ea41",
+  "source_nq": 14,
+  "free_nq": 21,
+  "source_nv": 14,
+  "free_nv": 20,
+  "muscle_actuators": 15,
+  "tendons": 15,
+  "author_joint_keyframe_preserved_exactly": true,
+  "activation": 0.0001,
+  "trials": {
+    "zero_gravity": {
+      "root_initial_mm": [
+        0.0,
+        0.0,
+        4.0
+      ],
+      "root_final_mm": [
+        -0.000923441805748122,
+        0.0033271283830124602,
+        4.0007708416928764
+      ],
+      "com_initial_mm": [
+        -0.7375153330608617,
+        0.006679392244382584,
+        3.798215929146479
+      ],
+      "com_final_mm": [
+        -0.7375153200450827,
+        0.006677806015041506,
+        3.7982168728222265
+      ],
+      "maximum_com_displacement_mm": 1.8457564435981542e-06,
+      "first_contact_tick": null,
+      "first_floor_contact_tick": null,
+      "contact_samples": 0,
+      "floor_contact_samples": 0,
+      "max_contact_count": 0,
+      "duration_ms": 100.0,
+      "thorax_up_dot_world_up_final": 0.9999902085475624,
+      "floor_contact_geoms_at_end": []
+    },
+    "source_gravity": {
+      "root_initial_mm": [
+        0.0,
+        0.0,
+        4.0
+      ],
+      "root_final_mm": [
+        0.9027955711131551,
+        -0.7232356761616073,
+        2.227117215406657
+      ],
+      "com_initial_mm": [
+        -0.7375153330608617,
+        0.006679392244382584,
+        3.798215929146479
+      ],
+      "com_final_mm": [
+        0.1374147201781464,
+        -0.7009449273706247,
+        2.303013603997366
+      ],
+      "maximum_com_displacement_mm": 2.020727884626651,
+      "first_contact_tick": 142,
+      "first_floor_contact_tick": 142,
+      "contact_samples": 859,
+      "floor_contact_samples": 859,
+      "max_contact_count": 87,
+      "duration_ms": 100.0,
+      "thorax_up_dot_world_up_final": 0.8943884355731105,
+      "floor_contact_geoms_at_end": [
+        "LHTarsus3_geom",
+        "LHTarsus4_geom",
+        "LHTarsus5_geom",
+        "LMTarsus4_geom",
+        "LMTarsus5_geom",
+        "RFTarsus5_geom",
+        "RHTarsus2_geom",
+        "RHTarsus3_geom",
+        "RHTarsus4_geom",
+        "RHTarsus5_geom",
+        "RMTarsus3_geom",
+        "RMTarsus4_geom",
+        "RMTarsus5_geom"
+      ]
+    },
+    "source_gravity_2s": {
+      "root_initial_mm": [
+        0.0,
+        0.0,
+        4.0
+      ],
+      "root_final_mm": [
+        2.7084260608254325,
+        -1.9006916906083116,
+        0.3710868171642845
+      ],
+      "com_initial_mm": [
+        -0.7375153330608617,
+        0.006679392244382584,
+        3.798215929146479
+      ],
+      "com_final_mm": [
+        3.078532169940153,
+        -2.508435702558263,
+        0.6448465019855083
+      ],
+      "maximum_com_displacement_mm": 6.256174273911904,
+      "first_contact_tick": 142,
+      "first_floor_contact_tick": 142,
+      "contact_samples": 19859,
+      "floor_contact_samples": 19859,
+      "max_contact_count": 87,
+      "duration_ms": 2000.0,
+      "thorax_up_dot_world_up_final": -0.9947103322875396,
+      "floor_contact_geoms_at_end": [
+        "Head_geom",
+        "LFTarsus5_geom",
+        "LWing_geom",
+        "RWing_geom",
+        "Thorax_geom"
+      ]
+    }
+  },
+  "scope": "Free six-DOF root diagnostic from published FlyMimic geometry and joint pose; no wings/aerodynamics, seated cabin, validated walking or KSP flight."
+}

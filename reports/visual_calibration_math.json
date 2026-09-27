@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "doi": "10.1038/s41593-024-01640-4",
+  "max_capture_error": 0.0,
+  "weighted_alignment_error": 0.0,
+  "extreme_scale_error": 0.0,
+  "invalid_cases_rejected": 4,
+  "semantics": "Equation 9 weighted uncentered normalized dot product; not centered Pearson correlation",
+  "scope": "Arithmetic verification only; no observation transformation identified or physiology fit",
+  "hashes": {
+    "build\\visual_calibration_probe.exe": "1ae0e5678703c42e5cdca4aa2daf5b1e25f64841cfb019162cf1d136717bcb55",
+    "native\\visual_calibration_math.h": "9ab431c11631e00175012a96bc8b686960ba9f7a5bec6a24feddc79820ad6af5",
+    "native\\visual_calibration_probe.cpp": "5c4782d2b0f12d614b532e1f34e16a74ca97d030067d1a5fb5b4e0d81b964c3c",
+    "tools\\check_visual_calibration_math.py": "4546202195fad05cab475ab869baaa99ba71157a481586a9ad3240f989f55750"
+  }
+}

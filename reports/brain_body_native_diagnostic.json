@@ -1,0 +1,19 @@
+{
+  "full_graph_neurons": 167216,
+  "full_graph_edges": 25587572,
+  "steps_per_condition": 1000,
+  "conditions": 2,
+  "spikes_per_condition": 5001,
+  "all_neural_events_match_recorded_baseline": true,
+  "body_trace_byte_identical_to_replay": true,
+  "brain_and_body_native": true,
+  "sensory_feedback": false,
+  "biological_validation": false,
+  "files": {
+    "build\\brain_body_trace.csv": "92fc927b0cbb1de3d5a89160ec94d4f371c006b21b57a87a753d28a79ce2e224",
+    "build\\brain_body_events.csv": "85143a9e27af2c9d0771a5f9c3b5ed832090ff822c63a61306f2c25e5bc5b5ab",
+    "build\\brain_body_graph.bin": "4a7c892fe278bc6f1e96548c34c376bf49bce1d589af12911cf047a4cf1bf8f8",
+    "build\\brain_body_mapping.txt": "ed16e82d81581c7b73365f6a0772f6a1bca0ec03a2aa8928c6d6b58ed6d7bdc4",
+    "build\\brain_body_probe.exe": "94b14c9d0c7a2242792077e68b686a1a45916922968317faacf3fb33bbd218de"
+  }
+}

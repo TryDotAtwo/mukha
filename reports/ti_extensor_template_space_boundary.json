@@ -1,0 +1,261 @@
+{
+  "scope": "Source and coordinate-space check; no morphology match or muscle assignment",
+  "manifest_sha256": "92e504cd01333527f0bd3910c66627cc6fb777c310e53e0c0fce09d67cd1d015",
+  "templates": [
+    "JRC2018U",
+    "JRC2018UnisexVNC"
+  ],
+  "same_coordinate_frame_confirmed": false,
+  "direct_cross_dataset_distance_allowed": false,
+  "published_indirect_route_found": {
+    "status": "executed_on_four_malecns_v1_skeletons",
+    "registration_report": "reports/ti_extensor_v1_vnc_registration.json",
+    "overlap_report": "reports/ti_extensor_v1_vnc_overlap.json",
+    "flybrains_commit": "273333c8d8bf5adeebebd274e554621462e388bd",
+    "vnc_alias_evidence": "VFB labels JRC2018UnisexVNC imagery as aligned to JRCVNC2018U",
+    "steps": [
+      "JRC2018U -> JRC2018F (Janelia H5)",
+      "JRC2018F -> BANCum (reverse Elastix registration)",
+      "BANCum -> JRCVNC2018F (forward Elastix registration)",
+      "JRCVNC2018F -> JRCVNC2018U (Janelia H5)"
+    ],
+    "source_transform_file_ids": {
+      "JRC2018U_JRC2018F.h5": 14371574,
+      "JRCVNC2018U_JRCVNC2018F.h5": 28909212
+    },
+    "source_urls": [
+      "https://github.com/navis-org/navis-flybrains/blob/main/flybrains/core.py",
+      "https://github.com/navis-org/navis-flybrains/blob/main/flybrains/download.py",
+      "https://www.virtualflybrain.org/term/mvact1l-on-jrc2018unisexvnc-vfb_00108vfs/"
+    ],
+    "validation_required": "Pin transform files, execute route, check units/orientation and independent anatomical landmarks and same-type controls before comparing motor candidates"
+  },
+  "required_before_distance": "Raw files remain in different frames; use the verified registered v1 point arrays for descriptive distances, and independently validate anatomy before identity claims",
+  "skeletons": {
+    "manc_11657": {
+      "template": "JRC2018UnisexVNC",
+      "nodes": 3631,
+      "bbox_min_um": [
+        147.72574412808777,
+        52.34518140059641,
+        54.774678691299826
+      ],
+      "bbox_max_um": [
+        211.7102942356491,
+        135.7748483261893,
+        119.78977715029475
+      ]
+    },
+    "manc_12704": {
+      "template": "JRC2018UnisexVNC",
+      "nodes": 20405,
+      "bbox_min_um": [
+        143.4116475892941,
+        31.50316862140901,
+        65.38668562523779
+      ],
+      "bbox_max_um": [
+        212.16655840872906,
+        140.0129601285231,
+        119.12580833824002
+      ]
+    },
+    "manc_11706": {
+      "template": "JRC2018UnisexVNC",
+      "nodes": 8767,
+      "bbox_min_um": [
+        44.02379773915692,
+        31.886133302560644,
+        30.597979473079658
+      ],
+      "bbox_max_um": [
+        123.52756062228104,
+        142.72479567622506,
+        128.19840445645667
+      ]
+    },
+    "manc_13115": {
+      "template": "JRC2018UnisexVNC",
+      "nodes": 5783,
+      "bbox_min_um": [
+        42.30434737942841,
+        51.55305704291917,
+        35.505510749672894
+      ],
+      "bbox_max_um": [
+        121.50980110783242,
+        131.87997270835277,
+        124.82146365290882
+      ]
+    },
+    "malecns_815344": {
+      "template": "JRC2018U",
+      "nodes": 8975,
+      "bbox_min_um": [
+        334.68739709021526,
+        315.5012523256173,
+        235.7622452107666
+      ],
+      "bbox_max_um": [
+        439.7474214619139,
+        395.2695900715012,
+        332.13275450196693
+      ]
+    },
+    "malecns_815678": {
+      "template": "JRC2018U",
+      "nodes": 4282,
+      "bbox_min_um": [
+        192.99604496361155,
+        315.12244245692057,
+        246.7441829581402
+      ],
+      "bbox_max_um": [
+        297.17065267646433,
+        410.20649057195743,
+        337.7441678666301
+      ]
+    },
+    "malecns_800636": {
+      "template": "JRC2018U",
+      "nodes": 4124,
+      "bbox_min_um": [
+        334.406764944455,
+        318.4066681944929,
+        234.19950406324566
+      ],
+      "bbox_max_um": [
+        432.96730868530847,
+        376.09887273945225,
+        328.76346554482836
+      ]
+    },
+    "malecns_804257": {
+      "template": "JRC2018U",
+      "nodes": 3477,
+      "bbox_min_um": [
+        203.77488037987342,
+        315.5866388265054,
+        250.84742217956472
+      ],
+      "bbox_max_um": [
+        282.49686521452776,
+        376.8785114895699,
+        320.64112935286107
+      ]
+    },
+    "manc_10347": {
+      "template": "JRC2018UnisexVNC",
+      "nodes": 34472,
+      "bbox_min_um": [
+        155.13397858551215,
+        306.32390067267943,
+        35.680048042529265
+      ],
+      "bbox_max_um": [
+        206.4082414801581,
+        456.72897278931856,
+        113.28528758076303
+      ]
+    },
+    "manc_10461": {
+      "template": "JRC2018UnisexVNC",
+      "nodes": 10480,
+      "bbox_min_um": [
+        50.26074353805865,
+        178.24872014907072,
+        14.057133109682747
+      ],
+      "bbox_max_um": [
+        122.25965620680151,
+        315.20859634141783,
+        103.4440035037532
+      ]
+    },
+    "manc_10462": {
+      "template": "JRC2018UnisexVNC",
+      "nodes": 14855,
+      "bbox_min_um": [
+        55.810121576979576,
+        309.05467896954866,
+        31.796995994642444
+      ],
+      "bbox_max_um": [
+        117.18727730509453,
+        453.07792080299294,
+        121.71846346949467
+      ]
+    },
+    "manc_10737": {
+      "template": "JRC2018UnisexVNC",
+      "nodes": 2873,
+      "bbox_min_um": [
+        140.92734360115026,
+        157.75682649907665,
+        27.423740554535218
+      ],
+      "bbox_max_um": [
+        212.16948579388458,
+        267.7995323123683,
+        97.65652428136126
+      ]
+    },
+    "manc_11115": {
+      "template": "JRC2018UnisexVNC",
+      "nodes": 2677,
+      "bbox_min_um": [
+        159.11437948244375,
+        177.14885258159262,
+        30.057940081162386
+      ],
+      "bbox_max_um": [
+        213.29637679201406,
+        270.40233411907144,
+        97.92354096264091
+      ]
+    },
+    "manc_11489": {
+      "template": "JRC2018UnisexVNC",
+      "nodes": 7402,
+      "bbox_min_um": [
+        53.485462637580255,
+        175.64292900033374,
+        16.425471355969574
+      ],
+      "bbox_max_um": [
+        124.59063369541472,
+        309.2585224972316,
+        103.26377845688832
+      ]
+    },
+    "manc_13006": {
+      "template": "JRC2018UnisexVNC",
+      "nodes": 11917,
+      "bbox_min_um": [
+        55.86427913422148,
+        277.4528822303356,
+        36.982605002281225
+      ],
+      "bbox_max_um": [
+        129.8623758449994,
+        450.67463952054464,
+        124.73400272840432
+      ]
+    },
+    "manc_13075": {
+      "template": "JRC2018UnisexVNC",
+      "nodes": 2851,
+      "bbox_min_um": [
+        139.41076914380866,
+        287.99383678735927,
+        38.6695472335082
+      ],
+      "bbox_max_um": [
+        208.5553596310147,
+        412.13691475669356,
+        126.21070000062068
+      ]
+    }
+  },
+  "biological_gate_passed": false
+}

@@ -1,0 +1,206 @@
+{
+  "format": "faithful-fly.visual-boundary.v1",
+  "scope": "Complete anatomical incident-edge view; no enabled physiology, CNS truncation or optical registration",
+  "graph_manifest_sha256": "b30e21078c0479ac288e7f9d3b7cb2c9eb76aa3b9707f3a2b9fa6a92bb822ef3",
+  "candidate_population": 167216,
+  "sensory_cells": 6098,
+  "type_counts": {
+    "R1-R6": 3377,
+    "R7y": 482,
+    "R8y": 481,
+    "R8_unclear": 442,
+    "R7_unclear": 404,
+    "R7p": 332,
+    "R8p": 330,
+    "R7R8_unclear": 85,
+    "R7d": 82,
+    "R8d": 76,
+    "HBeyelet": 7
+  },
+  "incident_rows": 99411,
+  "incident_synapse_count": 834793,
+  "categories": {
+    "photoreceptor_to_other": {
+      "rows": 71711,
+      "synapse_count": 602256
+    },
+    "other_to_photoreceptor": {
+      "rows": 24435,
+      "synapse_count": 182991
+    },
+    "photoreceptor_to_photoreceptor": {
+      "rows": 3265,
+      "synapse_count": 49546
+    }
+  },
+  "sensory_cells_with_incoming_edges": 6020,
+  "sensory_cells_without_incoming_edges": 78,
+  "sensory_cells_without_incident_edges": 8,
+  "largest_non_sensory_input_types": [
+    {
+      "pre_type": "Dm9",
+      "rows": 5285,
+      "synapse_count": 141372
+    },
+    {
+      "pre_type": "L4",
+      "rows": 6863,
+      "synapse_count": 14868
+    },
+    {
+      "pre_type": "L2",
+      "rows": 2597,
+      "synapse_count": 6599
+    },
+    {
+      "pre_type": "C2",
+      "rows": 1713,
+      "synapse_count": 4641
+    },
+    {
+      "pre_type": "Lai",
+      "rows": 481,
+      "synapse_count": 2431
+    },
+    {
+      "pre_type": "L3",
+      "rows": 1137,
+      "synapse_count": 2173
+    },
+    {
+      "pre_type": "L1",
+      "rows": 1258,
+      "synapse_count": 1917
+    },
+    {
+      "pre_type": "Lawf1",
+      "rows": 1115,
+      "synapse_count": 1835
+    },
+    {
+      "pre_type": "C3",
+      "rows": 678,
+      "synapse_count": 902
+    },
+    {
+      "pre_type": "T1",
+      "rows": 250,
+      "synapse_count": 649
+    },
+    {
+      "pre_type": "Dm8b",
+      "rows": 406,
+      "synapse_count": 619
+    },
+    {
+      "pre_type": "<untyped>",
+      "rows": 163,
+      "synapse_count": 518
+    },
+    {
+      "pre_type": "Mi15",
+      "rows": 339,
+      "synapse_count": 455
+    },
+    {
+      "pre_type": "Dm8a",
+      "rows": 253,
+      "synapse_count": 354
+    },
+    {
+      "pre_type": "Dm11",
+      "rows": 297,
+      "synapse_count": 340
+    },
+    {
+      "pre_type": "Mi1",
+      "rows": 163,
+      "synapse_count": 320
+    },
+    {
+      "pre_type": "Mi4",
+      "rows": 82,
+      "synapse_count": 269
+    },
+    {
+      "pre_type": "MeLo1",
+      "rows": 42,
+      "synapse_count": 258
+    },
+    {
+      "pre_type": "L5",
+      "rows": 71,
+      "synapse_count": 167
+    },
+    {
+      "pre_type": "Tm5c",
+      "rows": 87,
+      "synapse_count": 166
+    },
+    {
+      "pre_type": "MeTu3c",
+      "rows": 120,
+      "synapse_count": 154
+    },
+    {
+      "pre_type": "Dm4",
+      "rows": 71,
+      "synapse_count": 140
+    },
+    {
+      "pre_type": "Dm2",
+      "rows": 77,
+      "synapse_count": 120
+    },
+    {
+      "pre_type": "Mi9",
+      "rows": 38,
+      "synapse_count": 114
+    },
+    {
+      "pre_type": "Lawf2",
+      "rows": 47,
+      "synapse_count": 110
+    },
+    {
+      "pre_type": "TmY18",
+      "rows": 22,
+      "synapse_count": 93
+    },
+    {
+      "pre_type": "Tm20",
+      "rows": 38,
+      "synapse_count": 92
+    },
+    {
+      "pre_type": "OA-AL2i3",
+      "rows": 34,
+      "synapse_count": 91
+    },
+    {
+      "pre_type": "MeLo2",
+      "rows": 8,
+      "synapse_count": 79
+    },
+    {
+      "pre_type": "Dm-DRA1",
+      "rows": 58,
+      "synapse_count": 75
+    }
+  ],
+  "independent_incident_union_exact": true,
+  "files": {
+    "cells.feather": {
+      "sha256": "e42f4fc2af3d3367ce12efe690add5f3fd5b6312c1bdd4f4276897b3e66d71c4",
+      "bytes": 289666
+    },
+    "edges.feather": {
+      "sha256": "f76af6c97831eb87f4cb8fd194bd57f6d6aff2178c88a2f34d9123f20f1971d6",
+      "bytes": 2467594
+    },
+    "type_pairs.csv": {
+      "sha256": "b9b0b97c3daf27e522ca2ff21f8d6362b7ca766a9867c172bb97b24f73b205e1",
+      "bytes": 27824
+    }
+  }
+}

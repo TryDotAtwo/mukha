@@ -1,0 +1,119 @@
+{
+  "commit": "4328b1d5549749f1014c4d73cccc0c5241d98ae4",
+  "annotated_neurons": 99,
+  "nerve_class_counts": [
+    {
+      "classification_system": "T1L",
+      "cell_type": "claw_ext",
+      "neurons": 8
+    },
+    {
+      "classification_system": "T1L",
+      "cell_type": "claw_flx",
+      "neurons": 13
+    },
+    {
+      "classification_system": "T1L",
+      "cell_type": "club",
+      "neurons": 30
+    },
+    {
+      "classification_system": "T1L",
+      "cell_type": "club_asc",
+      "neurons": 5
+    },
+    {
+      "classification_system": "T1L",
+      "cell_type": "hook_ext",
+      "neurons": 9
+    },
+    {
+      "classification_system": "T1L",
+      "cell_type": "hook_flx",
+      "neurons": 13
+    },
+    {
+      "classification_system": "T1L",
+      "cell_type": "maybeclub",
+      "neurons": 2
+    },
+    {
+      "classification_system": "T1R",
+      "cell_type": "club_asc",
+      "neurons": 1
+    },
+    {
+      "classification_system": "T2L",
+      "cell_type": "club_asc",
+      "neurons": 1
+    },
+    {
+      "classification_system": "T2R",
+      "cell_type": "club",
+      "neurons": 11
+    },
+    {
+      "classification_system": "T2R",
+      "cell_type": "club_asc",
+      "neurons": 3
+    },
+    {
+      "classification_system": "T3L",
+      "cell_type": "club_asc",
+      "neurons": 2
+    },
+    {
+      "classification_system": "T3R",
+      "cell_type": "club_asc",
+      "neurons": 1
+    }
+  ],
+  "connectivity": {
+    "downstream": {
+      "rows": 18502,
+      "pairs": 2117,
+      "zero_degree_annotated_neurons": 0,
+      "score_range": [
+        12,
+        134
+      ],
+      "class_totals": {
+        "claw_ext": 1920,
+        "claw_flx": 1877,
+        "club": 8411,
+        "club_asc": 1425,
+        "hook_ext": 1406,
+        "hook_flx": 3146,
+        "maybeclub": 317
+      }
+    },
+    "upstream": {
+      "rows": 2315,
+      "pairs": 304,
+      "zero_degree_annotated_neurons": 16,
+      "score_range": [
+        12,
+        138
+      ],
+      "class_totals": {
+        "claw_ext": 80,
+        "claw_flx": 157,
+        "club": 936,
+        "club_asc": 50,
+        "hook_ext": 368,
+        "hook_flx": 705,
+        "maybeclub": 19
+      }
+    }
+  },
+  "files": {
+    "downstream_pairs.feather": "b487abfb3703d23ad0ded682a8551048ddb1ff90d9746da37ade183399b00bee",
+    "upstream_pairs.feather": "a278364a1e40a336a84c6c5ff5c8265686797efb8e31af3ad3f6050f1aa87bc5"
+  },
+  "score_used_as_weight": false,
+  "additional_threshold_applied": false,
+  "scope": "FANC reference subset only; all published records retained, not full biological connectivity",
+  "malecns_crosswalk_verified": false,
+  "functional_rate_model_fitted": false,
+  "runtime_enabled": false
+}

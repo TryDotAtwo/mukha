@@ -1,0 +1,231 @@
+{
+  "source_nodes_sha256": "48c7e4acadf9619d83f08b31bb2062b7a9f0a5fa86429ff968aea066ced57f3f",
+  "author_commit": "e1233f4a987c532c9f1ab42273af21a0a6a50393",
+  "source_notebooks": [
+    "simulation_run_model.ipynb",
+    "manc_9A_web_connectivity.ipynb"
+  ],
+  "matches": [
+    {
+      "manc_id": 100513,
+      "author_label": "chief_9A_L1",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "bodyId": 805450,
+          "type": "IN09A012",
+          "mancBodyid": 100513.0,
+          "mancType": "IN09A012",
+          "subclass": "IR",
+          "entryNerve": null,
+          "matchingNotes": null
+        }
+      ],
+      "runtime_enabled": false,
+      "ambiguity": "cross-specimen annotation only"
+    },
+    {
+      "manc_id": 13157,
+      "author_label": "chief_9A_L2",
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "bodyId": 804940,
+          "type": "IN09A012",
+          "mancBodyid": 13157.0,
+          "mancType": "IN09A012",
+          "subclass": "IR",
+          "entryNerve": null,
+          "matchingNotes": null
+        },
+        {
+          "bodyId": 809102,
+          "type": "SNpp41",
+          "mancBodyid": 13157.0,
+          "mancType": "SNpp41",
+          "subclass": "chordotonal organ",
+          "entryNerve": "MesoLN",
+          "matchingNotes": null
+        }
+      ],
+      "runtime_enabled": false,
+      "ambiguity": "multiple source annotation matches"
+    },
+    {
+      "manc_id": 14517,
+      "author_label": "chief_9A_L3",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "bodyId": 802115,
+          "type": "IN09A012",
+          "mancBodyid": 14517.0,
+          "mancType": "IN09A012",
+          "subclass": "IR",
+          "entryNerve": null,
+          "matchingNotes": null
+        }
+      ],
+      "runtime_enabled": false,
+      "ambiguity": "cross-specimen annotation only"
+    },
+    {
+      "manc_id": 165560,
+      "author_label": "chief_9A_R1",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "bodyId": 805777,
+          "type": "IN09A012",
+          "mancBodyid": 165560.0,
+          "mancType": "IN09A012",
+          "subclass": "IR",
+          "entryNerve": null,
+          "matchingNotes": null
+        }
+      ],
+      "runtime_enabled": false,
+      "ambiguity": "cross-specimen annotation only"
+    },
+    {
+      "manc_id": 12443,
+      "author_label": "chief_9A_R2",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "bodyId": 803114,
+          "type": "IN09A012",
+          "mancBodyid": 12443.0,
+          "mancType": "IN09A012",
+          "subclass": "IR",
+          "entryNerve": null,
+          "matchingNotes": null
+        }
+      ],
+      "runtime_enabled": false,
+      "ambiguity": "cross-specimen annotation only"
+    },
+    {
+      "manc_id": 12804,
+      "author_label": "chief_9A_R3",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "bodyId": 805004,
+          "type": "IN09A012",
+          "mancBodyid": 12804.0,
+          "mancType": "IN09A012",
+          "subclass": "IR",
+          "entryNerve": null,
+          "matchingNotes": null
+        }
+      ],
+      "runtime_enabled": false,
+      "ambiguity": "cross-specimen annotation only"
+    },
+    {
+      "manc_id": 10093,
+      "author_label": "BDN2",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "bodyId": 10056,
+          "type": "DNg100",
+          "mancBodyid": 10093.0,
+          "mancType": "DNg100",
+          "subclass": "xl",
+          "entryNerve": null,
+          "matchingNotes": null
+        }
+      ],
+      "runtime_enabled": false,
+      "ambiguity": "cross-specimen annotation only"
+    },
+    {
+      "manc_id": 10107,
+      "author_label": "web",
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "bodyId": 10131,
+          "type": "DNg74_a",
+          "mancBodyid": 10107.0,
+          "mancType": "DNg74",
+          "subclass": "xl",
+          "entryNerve": null,
+          "matchingNotes": "matched to one systematic type of a manc_type that has 2."
+        },
+        {
+          "bodyId": 13964,
+          "type": null,
+          "mancBodyid": 10107.0,
+          "mancType": null,
+          "subclass": "xl",
+          "entryNerve": null,
+          "matchingNotes": "biological variability mcns; DNg, lone. In the brain most similar to DNge002 though still quite different. Best match in VNC are DNxl108 but not strong enough for a match. and DNxl119,"
+        }
+      ],
+      "runtime_enabled": false,
+      "ambiguity": "multiple source annotation matches"
+    }
+  ],
+  "author_hook_selector": "SNpp38",
+  "malecns_same_name": [
+    {
+      "bodyId": 809437,
+      "type": "SNpp38",
+      "mancBodyid": 11868.0,
+      "mancType": "SNpp38",
+      "subclass": "campaniform sensilla",
+      "entryNerve": "ADMN",
+      "matchingNotes": null
+    },
+    {
+      "bodyId": 809543,
+      "type": "SNpp38",
+      "mancBodyid": 23043.0,
+      "mancType": "SNpp38",
+      "subclass": "campaniform sensilla",
+      "entryNerve": "ADMN",
+      "matchingNotes": null
+    },
+    {
+      "bodyId": 809853,
+      "type": "SNpp38",
+      "mancBodyid": 12487.0,
+      "mancType": "SNpp38",
+      "subclass": "campaniform sensilla",
+      "entryNerve": "ADMN",
+      "matchingNotes": null
+    },
+    {
+      "bodyId": 809898,
+      "type": "SNpp38",
+      "mancBodyid": 14178.0,
+      "mancType": "SNpp38",
+      "subclass": "campaniform sensilla",
+      "entryNerve": "ADMN",
+      "matchingNotes": null
+    },
+    {
+      "bodyId": 810043,
+      "type": "SNpp38",
+      "mancBodyid": 11712.0,
+      "mancType": "SNpp38",
+      "subclass": "campaniform sensilla",
+      "entryNerve": "ADMN",
+      "matchingNotes": null
+    },
+    {
+      "bodyId": 908037,
+      "type": "SNpp38",
+      "mancBodyid": 12668.0,
+      "mancType": "SNpp38",
+      "subclass": "campaniform sensilla",
+      "entryNerve": "ADMN",
+      "matchingNotes": null
+    }
+  ],
+  "interpretation": "Author MANC v1 selector cannot be copied by name to this MaleCNS release; resolve versioned identity and morphology first",
+  "approved_mappings": 0
+}

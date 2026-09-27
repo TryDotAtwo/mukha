@@ -1,0 +1,41 @@
+{
+  "scope": "One-seed, one-intensity model onset protocol; not biological or complete Figure 15 validation",
+  "complete": true,
+  "ticks": 20000,
+  "dt_seconds": 0.0001,
+  "onset_seconds": 0.5,
+  "light_photons_per_second": 100000,
+  "seed": 19303,
+  "pre_onset_max_light_dark_difference_mv": 0.0,
+  "peak_light_mv": -11.728220288882797,
+  "peak_time_seconds": 0.5346000000000001,
+  "late_window_seconds": [
+    1.8,
+    2.0
+  ],
+  "late_light_mean_mv": -32.82896532956547,
+  "late_light_std_mv": 0.7501655732447432,
+  "late_dark_mean_mv": -81.9925067208337,
+  "peak_minus_late_mv": 21.100745040682675,
+  "final_adaptation": [
+    1.0,
+    142.77778904925427
+  ],
+  "qualitative_checks": {
+    "pre_onset_equal": true,
+    "light_depolarizes": true,
+    "peak_exceeds_late_mean": true
+  },
+  "limitations": [
+    "no raw recording comparison",
+    "no published numeric curve error",
+    "single seed",
+    "single intensity",
+    "no steady-state proof"
+  ],
+  "hashes": {
+    "build\\phototransduction_onset.csv": "7be854eb78c2b628d7a92dec7b9d90d6eafcb2e9a33fbe72346771a7e14a1e13",
+    "build\\phototransduction_safe_probe.exe": "00122376685b8a838ee0680f64ec83786edb5e40ddf320501c38bd328b70ab42",
+    "reports\\photoreceptor_protocol_source.json": "1831a546e0471dab704cba91da800a39dd717ec712e8a878e6b545db2adbd74d"
+  }
+}

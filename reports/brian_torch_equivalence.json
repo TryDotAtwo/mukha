@@ -1,0 +1,28 @@
+{
+  "brian2_version": "2.9.0",
+  "author_model_commit": "91bdd1e7dcf193f3e7ca5a8933497fcef63b7960",
+  "author_equations_modified": false,
+  "deterministic_stimulus_in_place_of_poisson": true,
+  "neurons": 5,
+  "steps": 1200,
+  "brian_spike_count": 66,
+  "comparisons": [
+    {
+      "dtype": "torch.float64",
+      "max_voltage_error_mv": 3.339550858072471e-13,
+      "max_synapse_error_mv": 2.842170943040401e-14,
+      "spike_mismatches": 0,
+      "tolerance_mv": 1e-08,
+      "passed": true
+    },
+    {
+      "dtype": "torch.float32",
+      "max_voltage_error_mv": 2.94525589978889e-05,
+      "max_synapse_error_mv": 2.6609878602812387e-05,
+      "spike_mismatches": 0,
+      "tolerance_mv": 0.002,
+      "passed": true
+    }
+  ],
+  "scope": "numerical scheduling fixture only; not biological replication"
+}

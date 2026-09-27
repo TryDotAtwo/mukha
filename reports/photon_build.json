@@ -1,0 +1,59 @@
+{
+  "sources": {
+    "native/photon.cu": "81afe83b5fe2311823c28996ff64b71aa905c9b60589ccdd5fcc1b4e56a748a9",
+    "native/photon.h": "65b82b6ca414c9721c8747587ea455a8138457180697f78981eeeb8bbae38241",
+    "native/phototransduction_safe.cuh": "4a6d0a73dc52eb9e86c4a17deb1a321e9db61215a5c8c104be1fd4723c22288b",
+    "native/photocurrent_safe.cuh": "6d45b17e1509a6f2aba3f7b13477d1fcf10d5ba3918f9b4974f3175459c8c89f",
+    "build/photoreceptor_author_hh.cu": "22b4e9346419c47d3e40872f4cf326b5d56400a099a4b133da47580b5b383c4e",
+    "build/photoreceptor_author_adaptation.cu": "4a1c51e40255fd47466c883408b395217efd9ac812bfc909218467549e061c40",
+    "tools/build_photon.py": "208aaa9b23d1dc48e9ef5cb51cf5919a8e689cce12ad4544d083eb920fe2bc99",
+    "tools/archive_photon_build.py": "c5e1ae4a03790ecf64b83ec1b1a5b9ff658d13576a14d0e5e6824ea0b6c017c1"
+  },
+  "flags": [
+    "-std=c++17",
+    "-O2",
+    "-lineinfo",
+    "-arch=sm_86",
+    "--fmad=false",
+    "-shared"
+  ],
+  "nvcc_version": "nvcc: NVIDIA (R) Cuda compiler driver\nCopyright (c) 2005-2024 NVIDIA Corporation\nBuilt on Thu_Jun__6_03:03:05_Pacific_Daylight_Time_2024\nCuda compilation tools, release 12.5, V12.5.82\nBuild cuda_12.5.r12.5/compiler.34385749_0\n",
+  "nvcc_sha256": "ef2f48cc67da0d5377ed051ba71308d11821a2c2ca419d7f27482d52f573f50a",
+  "cuda_headers": {
+    "cuda_runtime.h": "f4fc07d244c4264b02a0d3e4aba23f5e24a24cd85957a1d6564d7b43361a2896",
+    "cuda_runtime_api.h": "8c0e6ef7b611a20c47286c51479b57ba9af27b360aea99d58a4aa6e9375ca792",
+    "curand.h": "409f07b809da5fb92d62effb82f26c9e0d717a1ad377aa341447fdd2905ff28e",
+    "curand_discrete.h": "b5ff00452127fead9867f5e9355510616b98cabed82b088ecf055e2946b839d2",
+    "curand_discrete2.h": "96212a4e22ea9bb81805e13c8c5b70f8a66326f03589784b3fed96602c5e6033",
+    "curand_globals.h": "36d0388b7336e05928e87590b75ff8954b8c98b1292ae82e89b00d72c2f4a2cd",
+    "curand_kernel.h": "f34e0cca3dfc2a4183d970854b5a4ed4464827033cee227a93198aa9e424c728",
+    "curand_lognormal.h": "0f466c1c313091e692ec4d248f4bc694d4c1de1492ba2c26cb63b33945afe35e",
+    "curand_mrg32k3a.h": "3abf04755a64953fd88d0f92839d09238c63da66fe56a5ec597017f6d7854d86",
+    "curand_mtgp32.h": "6e25999ffb0f236d28c16c578a529380bf3425e48bcb7cd1b126adbf69396767",
+    "curand_mtgp32_host.h": "2775e273d89f3d50bfc398b8636a8c91e5372e7977ba6a16911d9d8398ac1a0f",
+    "curand_mtgp32_kernel.h": "81174be52adf2cfc91679279ef9e974a9d3858aa162ab52723b5887bb101383c",
+    "curand_mtgp32dc_p_11213.h": "0e0046f20aa47cb5be78ab6e0106f4da082b7c6430e093a1624fe8fcf9160513",
+    "curand_normal.h": "96fd3efb1dc6ee653ce0779edf1dd3ba6d000c86d4d7d6609736e6f8be3858ca",
+    "curand_normal_static.h": "f7f5ea154e68064442acc9885b161e4b19fe34b5b53e65dd4d32197484ac8d7f",
+    "curand_philox4x32_x.h": "84a5dd9ff4fbdb5b782b6b1aecb052dcb258ee4efe23cb250e08aa939eee106d",
+    "curand_poisson.h": "8087c293816811a293ab6830214184513e4693d2c38de75d588404d745c43e39",
+    "curand_precalc.h": "ccc3ba083d873a034c544275b1eb769ebd91e7583e8652f7f0252f3892c30cfb",
+    "curand_uniform.h": "34ce6f6c3e4e83d6a7b12926331ec78c9f19ec7cda22d6b638a772123b63a1d5"
+  },
+  "platform": "nt",
+  "host_compiler_sha256": "7a154e5136cc538b42e6944997fc5e3bb49112894e41dd88a70940aaff9aa831",
+  "build_identity": "7c5a224de3c81e197cfa8e3ba7775453a06c4e8a5c1a5573b2ba5f24a9e076c2",
+  "command": [
+    "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.5\\bin\\nvcc.exe",
+    "-std=c++17",
+    "-O2",
+    "-lineinfo",
+    "-arch=sm_86",
+    "--fmad=false",
+    "-shared",
+    "native/photon.cu",
+    "-o",
+    "build\\fly_photon.dll"
+  ],
+  "binary_sha256": "7e1314780207f851ec1fbcfdec09ccfe40e767ca0728ec72545519afb58aa16d"
+}

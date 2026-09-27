@@ -1,0 +1,19 @@
+{
+  "format": "faithful-fly.qualitative-visual-evidence.v1",
+  "source_doi": "10.3389/fnmol.2024.1347540",
+  "experimental_sex": "female",
+  "age_days": [2, 6],
+  "readout": "terminal calcium, not membrane voltage",
+  "malecns_transfer_validated": false,
+  "main_inner_types": ["R7p", "R7y", "R8p", "R8y"],
+  "rules": [
+    {"id": "inner_to_dm9", "functional_effect": "inhibition", "receptor": "Ort", "status": "functional evidence"},
+    {"id": "dm9_to_inner", "functional_effect": "excitatory support", "receptor": null, "candidate_receptor": "EKAR", "status": "glutamate mechanism proposed; receptor unconfirmed"},
+    {"id": "same_column_r7_r8", "functional_effect": "inhibition", "receptor": "HisCl1", "status": "functional evidence"}
+  ],
+  "circuit_constraint": "R7 excitation of Dm9 without Ort; mechanism unresolved",
+  "conductance_scale": null,
+  "reversal_potential": null,
+  "delay": null,
+  "runtime_enabled": false
+}

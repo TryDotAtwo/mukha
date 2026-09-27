@@ -1,0 +1,111 @@
+{
+  "abi_sha256": "d431b64065168d6b85f9ea2165408790bb72fa0b11cd13e1273e3b151fc6c8ce",
+  "harness_xml_sha256": "eb89b6438bfdd6fb21a4c512b915d96c185e298654cf3221870a174ec3d3a3a0",
+  "moving_cabin_report_sha256": "33b18912f781bc8d0d5c2fceab48cf23b525d794029e9a28e2bbda888e5e5a26",
+  "initial_altitude_m": 2500.0,
+  "initial_velocity_mps": -20.0,
+  "ballistic_altitude_final_m": 2497.9920743266134,
+  "cabin_motion": "actual native rocket altitude with feedback; ballistic native altitude for ablation",
+  "physics_schedule": "pre-step passive slide q -> native rocket advance -> end-step cabin mocap position and radial gravity -> MuJoCo body step",
+  "model_world_floor_z_mm": -2500000.0,
+  "cases": [
+    {
+      "feedback": false,
+      "contact": false,
+      "pulse": false,
+      "exact_contact_samples": 0,
+      "first_contact_tick": null,
+      "peak_slide_mm": 0.0,
+      "peak_throttle": 0.0,
+      "final_rocket_altitude_m": 2497.9920743266134,
+      "peak_root_relative_displacement_mm": 38.29657259556043,
+      "xml_sha256": "59897615b3ea9b47145463efd8c7e650fcd0f50770ded8e3c44d8d0fb2d229cf"
+    },
+    {
+      "feedback": false,
+      "contact": false,
+      "pulse": true,
+      "exact_contact_samples": 0,
+      "first_contact_tick": null,
+      "peak_slide_mm": 0.0,
+      "peak_throttle": 0.0,
+      "final_rocket_altitude_m": 2497.9920743266134,
+      "peak_root_relative_displacement_mm": 38.296572595667975,
+      "xml_sha256": "59897615b3ea9b47145463efd8c7e650fcd0f50770ded8e3c44d8d0fb2d229cf"
+    },
+    {
+      "feedback": true,
+      "contact": false,
+      "pulse": false,
+      "exact_contact_samples": 0,
+      "first_contact_tick": null,
+      "peak_slide_mm": 0.0,
+      "peak_throttle": 0.0,
+      "final_rocket_altitude_m": 2497.9920743266134,
+      "peak_root_relative_displacement_mm": 38.29657259556043,
+      "xml_sha256": "59897615b3ea9b47145463efd8c7e650fcd0f50770ded8e3c44d8d0fb2d229cf"
+    },
+    {
+      "feedback": true,
+      "contact": false,
+      "pulse": true,
+      "exact_contact_samples": 0,
+      "first_contact_tick": null,
+      "peak_slide_mm": 0.0,
+      "peak_throttle": 0.0,
+      "final_rocket_altitude_m": 2497.9920743266134,
+      "peak_root_relative_displacement_mm": 38.296572595667975,
+      "xml_sha256": "59897615b3ea9b47145463efd8c7e650fcd0f50770ded8e3c44d8d0fb2d229cf"
+    },
+    {
+      "feedback": false,
+      "contact": true,
+      "pulse": false,
+      "exact_contact_samples": 0,
+      "first_contact_tick": null,
+      "peak_slide_mm": 0.0,
+      "peak_throttle": 0.0,
+      "final_rocket_altitude_m": 2497.9920743266134,
+      "peak_root_relative_displacement_mm": 38.29657259556043,
+      "xml_sha256": "c4ec6c60cd4fca82121f65dcba167814b07cfec22da503b50c91f08c88d7ec73"
+    },
+    {
+      "feedback": false,
+      "contact": true,
+      "pulse": true,
+      "exact_contact_samples": 0,
+      "first_contact_tick": null,
+      "peak_slide_mm": 0.0,
+      "peak_throttle": 0.0,
+      "final_rocket_altitude_m": 2497.9920743266134,
+      "peak_root_relative_displacement_mm": 38.296572595667975,
+      "xml_sha256": "c4ec6c60cd4fca82121f65dcba167814b07cfec22da503b50c91f08c88d7ec73"
+    },
+    {
+      "feedback": true,
+      "contact": true,
+      "pulse": false,
+      "exact_contact_samples": 0,
+      "first_contact_tick": null,
+      "peak_slide_mm": 0.0,
+      "peak_throttle": 0.0,
+      "final_rocket_altitude_m": 2497.9920743266134,
+      "peak_root_relative_displacement_mm": 38.29657259556043,
+      "xml_sha256": "c4ec6c60cd4fca82121f65dcba167814b07cfec22da503b50c91f08c88d7ec73"
+    },
+    {
+      "feedback": true,
+      "contact": true,
+      "pulse": true,
+      "exact_contact_samples": 0,
+      "first_contact_tick": null,
+      "peak_slide_mm": 0.0,
+      "peak_throttle": 0.0,
+      "final_rocket_altitude_m": 2497.9920743266134,
+      "peak_root_relative_displacement_mm": 38.296572595667975,
+      "xml_sha256": "c4ec6c60cd4fca82121f65dcba167814b07cfec22da503b50c91f08c88d7ec73"
+    }
+  ],
+  "trace_sha256": "d287b3a92ed7cd81dd954901c73cd565a7b6a34317bb3178568e674c8cea9452",
+  "scope": "Exploratory two-way physical rocket/cabin/foot-pad coupling with artificial muscle pulse; no full CNS, biological controller, KSP or trained landing."
+}

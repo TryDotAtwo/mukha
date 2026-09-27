@@ -1,0 +1,28 @@
+{
+  "results": [
+    {
+      "variant": "unclear_excitatory",
+      "events": 5001,
+      "all_events_exact": true,
+      "final_v_error_mv": 2.842170943040401e-14,
+      "final_g_error_mv": 2.842170943040401e-14,
+      "wall_seconds": 55.43800000002375,
+      "passed": true
+    },
+    {
+      "variant": "unclear_inhibitory",
+      "events": 3059,
+      "all_events_exact": true,
+      "final_v_error_mv": 0.0,
+      "final_g_error_mv": 1.4210854715202004e-14,
+      "wall_seconds": 94.10899999999674,
+      "passed": true
+    }
+  ],
+  "neurons": 167216,
+  "edges": 25587572,
+  "steps": 1000,
+  "source_gpu_report_sha256": "a2787b87dd4d88ac3e11b6656bd86dbce07ecaf3fd13fb85790d5d9527e7c8ec",
+  "scope": "Independent CPU SpMV/state implementation of declared LIF hypotheses; not biological validation",
+  "passed": true
+}

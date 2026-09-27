@@ -1,0 +1,94 @@
+{
+  "source_manifest_sha256": "5b6abc974348898d9425ee9e2aa423472e76ecebeb4c167aca87b39c40913bd6",
+  "source_archive_sha256": "31565245097ca8a9f572555aa32e7f20052ac2a1cd9dcc45ce1803c7858973d2",
+  "source_npz_sha256": {
+    "R73D10_GCaMP6f_XBranch.npz": "bda2a49799e9e641a825316d234431394fa847be15cec829e256ecd5f6c3ca76",
+    "R73D10_GCaMP6f_YBranch.npz": "708641451e992986b6385120be1b5f461c2e40e650547a7cab5b4200777320a8",
+    "R73D10_GCaMP6f_ZBranch.npz": "88120a8701679b4420868e58c956c7d600fb8155c9e605e21bf1195c4f567504"
+  },
+  "method": "For each calcium-cluster row, median first three measured-angle frames, normalized between its finite trial minimum and maximum; FlexFirst starts extended and ExtFirst starts flexed in author README.",
+  "initial_frames": 3,
+  "frame_rate_hz": 8.01,
+  "records": [
+    {
+      "file": "R73D10_GCaMP6f_XBranch.npz",
+      "protocol": "RampAndHold_FlexFirst",
+      "author_start_position": "extended",
+      "rows": 20,
+      "initial_position_fraction_min": 0.999952161759941,
+      "initial_position_fraction_median": 0.9999740202622918,
+      "initial_position_fraction_max": 0.9999879916421833,
+      "initial_angle_deg_median": 176.26539566993256,
+      "angle_min_deg_median": 18.04426836107366,
+      "angle_max_deg_median": 176.26948901643314
+    },
+    {
+      "file": "R73D10_GCaMP6f_XBranch.npz",
+      "protocol": "RampAndHold_ExtFirst",
+      "author_start_position": "flexed",
+      "rows": 20,
+      "initial_position_fraction_min": 4.934258497878765e-06,
+      "initial_position_fraction_median": 2.482728018780312e-05,
+      "initial_position_fraction_max": 0.0018722746443302792,
+      "initial_angle_deg_median": 18.095181874506345,
+      "angle_min_deg_median": 17.94404810947787,
+      "angle_max_deg_median": 175.9912055358707
+    },
+    {
+      "file": "R73D10_GCaMP6f_YBranch.npz",
+      "protocol": "RampAndHold_FlexFirst",
+      "author_start_position": "extended",
+      "rows": 20,
+      "initial_position_fraction_min": 0.9991169415284272,
+      "initial_position_fraction_median": 0.9999817176642356,
+      "initial_position_fraction_max": 0.9999943407234048,
+      "initial_angle_deg_median": 172.9395139980652,
+      "angle_min_deg_median": 12.990527115892723,
+      "angle_max_deg_median": 173.01290815976338
+    },
+    {
+      "file": "R73D10_GCaMP6f_YBranch.npz",
+      "protocol": "RampAndHold_ExtFirst",
+      "author_start_position": "flexed",
+      "rows": 20,
+      "initial_position_fraction_min": 1.6974363428356606e-05,
+      "initial_position_fraction_median": 9.265406594881573e-05,
+      "initial_position_fraction_max": 0.0008708192925091717,
+      "initial_angle_deg_median": 12.984018073106226,
+      "angle_min_deg_median": 12.980947772755599,
+      "angle_max_deg_median": 172.5796101914894
+    },
+    {
+      "file": "R73D10_GCaMP6f_ZBranch.npz",
+      "protocol": "RampAndHold_FlexFirst",
+      "author_start_position": "extended",
+      "rows": 20,
+      "initial_position_fraction_min": 0.9999285928362064,
+      "initial_position_fraction_median": 0.9999803841395271,
+      "initial_position_fraction_max": 0.9999962347892442,
+      "initial_angle_deg_median": 175.75718040968184,
+      "angle_min_deg_median": 18.913038585042337,
+      "angle_max_deg_median": 175.75850377690904
+    },
+    {
+      "file": "R73D10_GCaMP6f_ZBranch.npz",
+      "protocol": "RampAndHold_ExtFirst",
+      "author_start_position": "flexed",
+      "rows": 20,
+      "initial_position_fraction_min": 1.126697868326868e-05,
+      "initial_position_fraction_median": 5.2987465942423045e-05,
+      "initial_position_fraction_max": 0.0017739617750293093,
+      "initial_angle_deg_median": 18.862144892309047,
+      "angle_min_deg_median": 18.661985348105194,
+      "angle_max_deg_median": 175.55702132160906
+    }
+  ],
+  "recorded_angle_direction": "High recorded degrees correspond to the extended tibia; low recorded degrees to the flexed tibia in all six R73D10 ramp-and-hold tables.",
+  "malecns_snpp50_polarity_identified": false,
+  "flymimic_joint_q_registration_identified": false,
+  "limitations": [
+    "Rows are response-derived pixel clusters, not individually traced axons",
+    "Anatomical matching of R73D10 clusters to MaleCNS SNpp50/SNpp51 is absent",
+    "No calcium-to-spike or calcium-to-voltage observation model has been fitted"
+  ]
+}

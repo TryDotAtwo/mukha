@@ -1,0 +1,37 @@
+"""Acquire pinned author eye geometry data; no MaleCNS registration implied."""
+import concurrent.futures
+import hashlib
+import json
+from pathlib import Path
+import urllib.request
+
+ROOT=Path(__file__).resolve().parents[1]
+REPO='reiserlab/eyemap_T4'
+COMMIT='99d2a43123db636cedb55af9ff31a59657e7d17e'
+
+def main():
+    url=f'https://api.github.com/repos/{REPO}/git/trees/{COMMIT}?recursive=1'
+    tree=json.load(urllib.request.urlopen(url,timeout=30))
+    if tree.get('truncated'):raise ValueError('Truncated source tree')
+    selected=[e for e in tree['tree'] if e['type']=='blob' and
+              (e['path'] in ('README.md','LICENSE','renv.lock') or
+               e['path'].endswith('.R') or
+               e['path'] in ('data/eyemap.RData','data/lens_ixy.RData','data/med_ixy.RData') or
+               e['path'].startswith('data/microCT/'))]
+    destination=ROOT/'data/reference/eyemap_2025'
+    def fetch(entry):
+        path=entry['path'];target=destination/path
+        if '..' in Path(path).parts or Path(path).is_absolute():raise ValueError('Invalid tree path')
+        source=f'https://raw.githubusercontent.com/{REPO}/{COMMIT}/{path}'
+        raw=target.read_bytes() if target.exists() else urllib.request.urlopen(source,timeout=30).read()
+        if len(raw)!=entry['size'] or hashlib.sha1(b'blob '+str(len(raw)).encode()+b'\0'+raw).hexdigest()!=entry['sha']:
+            raise ValueError(f'Git blob mismatch: {path}')
+        target.parent.mkdir(parents=True,exist_ok=True);target.write_bytes(raw)
+        return {'path':path,'url':source,'git_blob':entry['sha'],'bytes':len(raw),'sha256':hashlib.sha256(raw).hexdigest()}
+    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:files=list(pool.map(fetch,selected))
+    report={'repository':REPO,'commit':COMMIT,'files':files,'executed':False,
+            'scope':'Author optical geometry and analysis; other specimens, not a validated MaleCNS sensory map'}
+    (ROOT/'reports/eyemap_reference_sources.json').write_text(json.dumps(report,indent=2))
+    print(json.dumps({'files':len(files),'bytes':sum(f['bytes'] for f in files),'commit':COMMIT}))
+
+if __name__=='__main__':main()

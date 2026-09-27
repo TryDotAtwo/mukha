@@ -1,0 +1,20 @@
+{
+  "scope": "Diagnostic motor-to-paw-to-passive-slider only; no neural control",
+  "returncode": 0,
+  "stdout": "{\"contact\":0,\"pulse\":0,\"max_slider_mm\":0,\"max_normal_force\":0,\"contact_samples\":0,\"warnings\":0}\n{\"contact\":0,\"pulse\":1,\"max_slider_mm\":0,\"max_normal_force\":0,\"contact_samples\":0,\"warnings\":0}\n{\"contact\":1,\"pulse\":0,\"max_slider_mm\":0,\"max_normal_force\":0,\"contact_samples\":0,\"warnings\":0}\n{\"contact\":1,\"pulse\":1,\"max_slider_mm\":0.042211934829454983,\"max_normal_force\":0.021067634134089977,\"contact_samples\":2642,\"warnings\":0}\n",
+  "stderr": "",
+  "checks": {
+    "finite": true,
+    "clock": true,
+    "no_contact_no_motion": true,
+    "no_pulse_no_motion": true,
+    "pre_pulse_no_motion": true,
+    "all_conditions": true,
+    "contact_moves_slider": true
+  },
+  "passed": true,
+  "trace_sha256": "4d519298adb1e0b2029056ce71c4f2d44586ebd7432006a593422a48178e47f9",
+  "export_sha256": "cde0a313ee207ad0f9a30507424933f76269b38fe22e79d495b336d485f36541",
+  "executable_sha256": "6757d4d0475b0ec4c9edb814a92545253d3a1424fc00d190f4138d46f3b6619c",
+  "runtime_sha256": "d2119d435ef68ceb114d01bc3658eff42ac23ebcc08adca94d9b1ff0b9eb0d0e"
+}

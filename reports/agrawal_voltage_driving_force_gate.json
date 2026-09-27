@@ -1,0 +1,35 @@
+{
+  "source": "Agrawal et al. 2020 eLife 60299, Figure 2 supplement 1E/F and accompanying text",
+  "source_pdf_sha256": "8c69fc15a85e13740c38ad7488211423d9718febb0472144b4be3b16d303cf04",
+  "published_qualitative_observation": "Depolarizing a 13Balpha cell reduced its membrane-potential changes during tibia extension and flexion; authors infer changing excitatory driving force.",
+  "native_dll_sha256": "abd1945e2497b31f1489d04231e3d306cfb8b4ac5bd1cfd4b4b53d09c48c02a1",
+  "model": "two-cell uncalibrated FP64 mixed graded-source/current-based receiving synapse",
+  "receiving_baselines_target_mv": [
+    -65.0,
+    -55.0
+  ],
+  "presynaptic_voltage_target_mv": -50.0,
+  "unit_graded_weight": 1.0,
+  "no_spikes": true,
+  "responses": {
+    "20": {
+      "hyperpolarized_baseline_evoked_mv": 0.35611604855771617,
+      "depolarized_baseline_evoked_mv": 0.3561160485576096,
+      "depolarized_over_hyperpolarized": 0.9999999999997007,
+      "difference_mv": -1.0658141036401503e-13
+    },
+    "100": {
+      "hyperpolarized_baseline_evoked_mv": 0.4949744913447063,
+      "depolarized_baseline_evoked_mv": 0.49497449134478444,
+      "depolarized_over_hyperpolarized": 1.0000000000001579,
+      "difference_mv": 7.815970093361102e-14
+    }
+  },
+  "result": "The current-based native synapse has equal evoked voltage amplitude at both receiving baselines; this model class cannot express the observed driving-force dependence in this subthreshold setting.",
+  "biological_fit": false,
+  "limitations": [
+    "The published injection current, absolute voltage, and sensory waveform are not reproduced.",
+    "This does not identify the underlying biological connection as chemical or electrical.",
+    "A conductance-based candidate needs independent parameters and source-supported validation before enabling it in MaleCNS."
+  ]
+}

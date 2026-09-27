@@ -1,0 +1,29 @@
+{
+  "cases": [
+    {
+      "q_mm": 0.0,
+      "final_time_s": 0.009999999999999995,
+      "final_altitude_m": 2499.799920743737,
+      "final_thrust_N": 0.0,
+      "final_effective_g_mm_s2": -0.0
+    },
+    {
+      "q_mm": 0.09,
+      "final_time_s": 0.009999999999999995,
+      "final_altitude_m": 2499.799923748956,
+      "final_thrust_N": 196.7033971079618,
+      "final_effective_g_mm_s2": -178.82132368931917
+    },
+    {
+      "q_mm": 0.3,
+      "final_time_s": 0.009999999999999995,
+      "final_altitude_m": 2499.7999307611303,
+      "final_thrust_N": 655.6779903598508,
+      "final_effective_g_mm_s2": -596.0714957850209
+    }
+  ],
+  "checks": "100 ticks each; SI/mm conversion, radial gravity, time sync, thrust ordering",
+  "abi_sha256": "d431b64065168d6b85f9ea2165408790bb72fa0b11cd13e1273e3b151fc6c8ce",
+  "executed_source_sha256": "326a33fbe637e017455e58ff524ba4e5833afc64f599ac1093d7a6043564fc36",
+  "scope": "ABI arithmetic and timing only; does not validate MuJoCo body contacts or KSP."
+}

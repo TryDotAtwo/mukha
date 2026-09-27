@@ -1,0 +1,111 @@
+{
+  "source_spec_sha256": "12f8efd69e7ffc1f2b64d2bd6fe765ed318be4bafb547f2bb3d0b2871dd66d57",
+  "event_sources": {
+    "unclear_excitatory": {
+      "path": "data/derived/malecns_sign_diagnostic_float64_v2/unclear_excitatory_events.npy",
+      "sha256": "38bb490b2a800fda91d0839f1031781e200ae6258dffa378525f10a26b21be51",
+      "motor_ticks": [
+        190,
+        641
+      ],
+      "other_candidate_ticks": []
+    },
+    "unclear_inhibitory": {
+      "path": "data/derived/malecns_sign_diagnostic_float64_v2/unclear_inhibitory_events.npy",
+      "sha256": "48eb2e7fc327ef3fb8639abffb187163dd1590e100353987af6bc9b1f58fd040",
+      "motor_ticks": [
+        190,
+        761
+      ],
+      "other_candidate_ticks": []
+    }
+  },
+  "motor_graph_index": 156979,
+  "other_candidate_graph_index": 157213,
+  "filter": {
+    "gain_per_spike": 0.1,
+    "tau_ms": 20.0,
+    "dt_ms": 0.1,
+    "clamp": [
+      0.0001,
+      1.0
+    ]
+  },
+  "cases": [
+    {
+      "variant": "unclear_excitatory",
+      "contact": false,
+      "motor_connected": false,
+      "exact_contact_samples": 0,
+      "first_contact_tick": null,
+      "max_slide_mm": 0.0,
+      "max_control": 0.0001
+    },
+    {
+      "variant": "unclear_excitatory",
+      "contact": false,
+      "motor_connected": true,
+      "exact_contact_samples": 0,
+      "first_contact_tick": null,
+      "max_slide_mm": 0.0,
+      "max_control": 0.11048735437362872
+    },
+    {
+      "variant": "unclear_excitatory",
+      "contact": true,
+      "motor_connected": false,
+      "exact_contact_samples": 0,
+      "first_contact_tick": null,
+      "max_slide_mm": 0.0,
+      "max_control": 0.0001
+    },
+    {
+      "variant": "unclear_excitatory",
+      "contact": true,
+      "motor_connected": true,
+      "exact_contact_samples": 64,
+      "first_contact_tick": 446,
+      "max_slide_mm": 0.0014458736048198959,
+      "max_control": 0.11048735437362872
+    },
+    {
+      "variant": "unclear_inhibitory",
+      "contact": false,
+      "motor_connected": false,
+      "exact_contact_samples": 0,
+      "first_contact_tick": null,
+      "max_slide_mm": 0.0,
+      "max_control": 0.0001
+    },
+    {
+      "variant": "unclear_inhibitory",
+      "contact": false,
+      "motor_connected": true,
+      "exact_contact_samples": 0,
+      "first_contact_tick": null,
+      "max_slide_mm": 0.0,
+      "max_control": 0.10575558211208903
+    },
+    {
+      "variant": "unclear_inhibitory",
+      "contact": true,
+      "motor_connected": false,
+      "exact_contact_samples": 0,
+      "first_contact_tick": null,
+      "max_slide_mm": 0.0,
+      "max_control": 0.0001
+    },
+    {
+      "variant": "unclear_inhibitory",
+      "contact": true,
+      "motor_connected": true,
+      "exact_contact_samples": 64,
+      "first_contact_tick": 446,
+      "max_slide_mm": 0.0014458736048198959,
+      "max_control": 0.10575558211208903
+    }
+  ],
+  "pre_first_event_knee_identical": true,
+  "trace_sha256": "f1191e91e6861027220b7d401775fd69fb90d27baa61ed6b58905496cbd8cf09",
+  "scope": "Recorded full-graph artificial-drive CNS events through hypothetical motor-to-muscle assignment; no biological validation, sensory loop, rocket feedback or KSP landing."
+}

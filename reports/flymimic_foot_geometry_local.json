@@ -1,0 +1,37 @@
+{
+  "source_commit": "9ea1131626cd76f7203b74076ef8f0e9cab30bef",
+  "source_xml_sha256": "d67ff06d0c684599f00d5f33f8f8ac8ced01ab994c41341b551f8148b6d8aa0b",
+  "mujoco_version": "3.14.0",
+  "geom": "LFTarsus5_geom",
+  "vertex_count": 173,
+  "neutral_world_bounds": {
+    "minimum_mm": [
+      -0.19186788981063105,
+      0.2862972491129786,
+      1.5359622559736033
+    ],
+    "maximum_mm": [
+      -0.13405056326095194,
+      0.3393463859070258,
+      1.6390813291275914
+    ]
+  },
+  "relaxed_world_bounds": {
+    "minimum_mm": [
+      -1.5170473863482448,
+      -0.4007192050339178,
+      2.4355781720853242
+    ],
+    "maximum_mm": [
+      -1.410584369036012,
+      -0.3389522123095802,
+      2.4948659238613025
+    ]
+  },
+  "relax_steps": 20000,
+  "relax_time_s": 1.9999999999997962,
+  "background_muscle_command": 0.0001,
+  "maximum_absolute_joint_speed_after_relax_model_units_per_s": 0.0015957350256066629,
+  "matches_prior_neutral_y_bounds_within_1e_5_mm": true,
+  "scope": "World-space source mesh surface for a future passive pad; no contact or neural control."
+}

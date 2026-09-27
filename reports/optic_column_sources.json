@@ -1,0 +1,18 @@
+{
+  "repository": "flyconnectome/2025malecns",
+  "commit": "67767d2233657983993ff6c2be48e836a935863c",
+  "files": [
+    {
+      "path": "data\\reference\\malecns_optic\\README.md",
+      "url": "https://raw.githubusercontent.com/flyconnectome/2025malecns/67767d2233657983993ff6c2be48e836a935863c/README.md",
+      "git_blob": "d5503844a452f28c505839cc5663a290d30c020b",
+      "sha256": "ed09377ee64b8cbd55e77b5fac53d10c110500a4fe7fc08fca409e4994700923"
+    },
+    {
+      "path": "data\\reference\\malecns_optic\\optic-column-type-assignments-v1.0.xlsx",
+      "url": "https://raw.githubusercontent.com/flyconnectome/2025malecns/67767d2233657983993ff6c2be48e836a935863c/supplemental_data/optic-column-type-assignments-v1.0.xlsx",
+      "git_blob": "520534c18f90284035d573c799dbae1cd270bd18",
+      "sha256": "d4af1cacb751036f7e84bfecc9bec79ca010066ac066559c29b566003ec080d3"
+    }
+  ]
+}

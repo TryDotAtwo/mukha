@@ -1,0 +1,97 @@
+{
+  "scope": "Static VFB OBJ geometry only, in the native micrometer coordinate frame",
+  "source_dataset": "https://www.virtualflybrain.org/term/biomechanical-origins-of-proprioceptive-maps-in-the-drosophila-leg-mamiya2022/",
+  "meshes": {
+    "arculum_outline": {
+      "url": "https://www.virtualflybrain.org/data/VFB/i/0010/2efd/VFB_00120000/volume_man.obj",
+      "sha256": "b432684ccea69453bcd7a7445f970ec401ac98cc1ee2cbd64baab6eefc563e99",
+      "bytes": 25557016,
+      "vertices": 304550,
+      "triangles": 596672,
+      "watertight": true,
+      "bounds_um": [
+        [
+          102.97938263,
+          172.0637561,
+          154.495
+        ],
+        [
+          135.49300659,
+          216.96226013,
+          193.3550061
+        ]
+      ],
+      "swc_nodes_inside_mesh_axis_aligned_bounds": true
+    },
+    "feco_medial_tendon": {
+      "url": "https://www.virtualflybrain.org/data/VFB/i/0010/2efe/VFB_00120000/volume_man.obj",
+      "sha256": "00fa8f391e677223570dfa85938752bc608df206f9ae0bc9b3cc1ce1b275aa24",
+      "bytes": 340588,
+      "vertices": 4670,
+      "triangles": 9152,
+      "watertight": true,
+      "bounds_um": [
+        [
+          117.84242717,
+          211.79131789,
+          191.72117426
+        ],
+        [
+          141.91861619,
+          557.73479203,
+          498.92501831
+        ]
+      ],
+      "swc_nodes_inside_mesh_axis_aligned_bounds": true,
+      "nearest_vertex_to_arculum": {
+        "distance_um": 0.44443182431522027,
+        "tendon_xyz_um": [
+          118.59512536,
+          211.80671028,
+          192.24410056
+        ],
+        "arculum_xyz_um": [
+          118.72369026,
+          211.39151981,
+          192.15132348
+        ]
+      }
+    },
+    "feco_lateral_tendon": {
+      "url": "https://www.virtualflybrain.org/data/VFB/i/0010/2eff/VFB_00120000/volume_man.obj",
+      "sha256": "cd53e5ffcfb4cef835c3d7fcb572d4cbc218ef8ffa2f3702da40f197fd1a25c6",
+      "bytes": 398844,
+      "vertices": 5454,
+      "triangles": 10688,
+      "watertight": true,
+      "bounds_um": [
+        [
+          133.4911265,
+          215.56976312,
+          179.85000604
+        ],
+        [
+          142.98655701,
+          547.6217927,
+          474.76085092
+        ]
+      ],
+      "swc_nodes_inside_mesh_axis_aligned_bounds": true,
+      "nearest_vertex_to_arculum": {
+        "distance_um": 0.28833439133680155,
+        "tendon_xyz_um": [
+          134.29455857,
+          216.88803242,
+          179.93819804
+        ],
+        "arculum_xyz_um": [
+          134.14050049,
+          216.95571505,
+          179.70405729
+        ]
+      }
+    }
+  },
+  "distance_limit": "Nearest mesh VERTEX pairs; they provide only an upper bound on surface separation when meshes do not intersect, not a surface distance or proof of physical attachment",
+  "biological_validation": false
+}

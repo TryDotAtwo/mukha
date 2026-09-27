@@ -1,0 +1,81 @@
+{
+  "scope": "Source-defined relative projector stimulus family; not a recording-specific assignment or photon calibration",
+  "repository_commit": "7fa5829e37d566e02beaaa87efd6a0f1de4e48c0",
+  "sources": {
+    "fullfield_6contrastA_LDflash20ms_Gray500ms.txt": {
+      "url": "https://raw.githubusercontent.com/ClandininLab/L1L2-recurrent-feedback/7fa5829e37d566e02beaaa87efd6a0f1de4e48c0/stimulus/fullfield_6contrastA_LDflash20ms_Gray500ms.txt",
+      "sha256": "9334d0f72dd5288da02f63a44b8761940526bd394682c6bbe9c9d24ccb55d334",
+      "bytes": 147
+    },
+    "fullfield_6contrastB_LDflash20ms_Gray500ms.txt": {
+      "url": "https://raw.githubusercontent.com/ClandininLab/L1L2-recurrent-feedback/7fa5829e37d566e02beaaa87efd6a0f1de4e48c0/stimulus/fullfield_6contrastB_LDflash20ms_Gray500ms.txt",
+      "sha256": "0cc9f23720f8e8119ea2d66f2a800764ef85b8e3b6d9df1717d6fe3719bd9f12",
+      "bytes": 153
+    },
+    "fullfield_6contrastC_LDflash20ms_Gray500ms.txt": {
+      "url": "https://raw.githubusercontent.com/ClandininLab/L1L2-recurrent-feedback/7fa5829e37d566e02beaaa87efd6a0f1de4e48c0/stimulus/fullfield_6contrastC_LDflash20ms_Gray500ms.txt",
+      "sha256": "dd33545236d9d4a23bbfe2fa1668c116300e1ca71c96ef0758e6653f33e4dd65",
+      "bytes": 157
+    },
+    "FullFieldFlashOntoGray.m": {
+      "url": "https://raw.githubusercontent.com/ClandininLab/L1L2-recurrent-feedback/7fa5829e37d566e02beaaa87efd6a0f1de4e48c0/stimulus/FullFieldFlashOntoGray.m",
+      "sha256": "a69879b3b105061002135ff0d306f04a2e70f053b0e8a8dc4d2b05d45a379a21",
+      "bytes": 13049
+    }
+  },
+  "configurations": {
+    "fullfield_6contrastA_LDflash20ms_Gray500ms.txt": {
+      "flash_duration_seconds_each": [
+        0.02,
+        0.02
+      ],
+      "flash_relative_projector_levels_dark_light": [
+        0.0,
+        1.0
+      ],
+      "gray_duration_seconds": 0.5,
+      "gray_relative_projector_level": 0.5,
+      "contrast_offsets_from_gray": [
+        -0.5,
+        0.5
+      ]
+    },
+    "fullfield_6contrastB_LDflash20ms_Gray500ms.txt": {
+      "flash_duration_seconds_each": [
+        0.02,
+        0.02
+      ],
+      "flash_relative_projector_levels_dark_light": [
+        0.25,
+        0.75
+      ],
+      "gray_duration_seconds": 0.5,
+      "gray_relative_projector_level": 0.5,
+      "contrast_offsets_from_gray": [
+        -0.25,
+        0.25
+      ]
+    },
+    "fullfield_6contrastC_LDflash20ms_Gray500ms.txt": {
+      "flash_duration_seconds_each": [
+        0.02,
+        0.02
+      ],
+      "flash_relative_projector_levels_dark_light": [
+        0.375,
+        0.625
+      ],
+      "gray_duration_seconds": 0.5,
+      "gray_relative_projector_level": 0.5,
+      "contrast_offsets_from_gray": [
+        -0.125,
+        0.125
+      ]
+    }
+  },
+  "limits": [
+    "The Dryad recording metadata mapping series IDs to stimulus codes and optical settings was not acquired.",
+    "Projector contrast 0..1 is not an absorbed-photon rate at the fly receptor."
+  ],
+  "biological_validation": false
+}

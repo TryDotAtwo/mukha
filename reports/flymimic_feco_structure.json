@@ -1,0 +1,30 @@
+{
+  "scope": "Explicit FeCO sensory-structure inventory in the original FlyMimic XML; no modified body variants",
+  "xml_sha256": "d67ff06d0c684599f00d5f33f8f8ac8ced01ab994c41341b551f8148b6d8aa0b",
+  "left_front_knee_joint_present": true,
+  "tendon_count": 15,
+  "tendon_names": [
+    "LFC_tergopleural_promotor_a_tendon",
+    "LFC_tergopleural_promotor_b_tendon",
+    "LFC_pleural_remotor_and_abductor_tendon",
+    "LFC_pleural_promotor_tendon",
+    "LFC_sternal_anterior_rotator_tendon",
+    "LFC_sternal_posterior_rotator_tendon",
+    "LFC_sternal_adductor_tendon",
+    "LFF_trochanter_flexor_b_tendon",
+    "LFF_sterno-tergo-trochanter_extensor_a_tendon",
+    "LFF_sterno-tergo-trochanter_extensor_b_tendon",
+    "LFF_accesory_trochanter_flexor_tendon",
+    "LFF_trochanter_extensor_tendon",
+    "LFF_trochanter_flexor_a_tendon",
+    "LFTibia_flex_93434_tendon",
+    "LFTibia_extensor_93932_tendon"
+  ],
+  "sensor_count": 0,
+  "named_feco_arculum_or_chordotonal_elements": [],
+  "biological_source": "https://doi.org/10.1016/j.neuron.2023.07.009",
+  "source_constraint": "Mamiya et al. measured flexion-dependent arculum and claw-cap-cell motion and persistent claw tension even at full tibia extension; their FeCO model includes medial/lateral tendons, fibrils, dendrites, and surrounding tissue.",
+  "interpretation": "The source XML has joint mechanics and named muscle tendons, but no explicit FeCO/arculum sensory structure or sensor. Joint q alone is not a measured claw dendritic strain.",
+  "malecns_snpp50_per_cell_tuning_identified": false,
+  "biological_validation": false
+}

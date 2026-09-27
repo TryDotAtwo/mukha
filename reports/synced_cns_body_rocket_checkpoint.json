@@ -1,0 +1,43 @@
+{
+  "scope": "One-way full-CNS/body contact-slider to native radial-rocket synchronized checkpoint",
+  "base_report_sha256": "9dad7da83639525357aabaf80edfa3fc21ba754aa2be092e47a0db213622c3e2",
+  "base_resume_report_sha256": "f70ef91dbced4ab94596894b3f6db791c04dd227bd2b6200109147873afddcc1",
+  "rocket_dll_sha256": "9e173e6a724df60deb086d26df199025b36bc2df0e03f6f580ab4ffa0d85442a",
+  "rocket_source_sha256": "8da16679a72501dc53dd81e1935aa8286c0c3d1e70acdeabfe594e1be470635f",
+  "checkpoint_tick": 250,
+  "end_tick": 500,
+  "dt_s": 0.0001,
+  "checkpoint_rocket_state": [
+    0.024999999999999904,
+    2499.4995046478666,
+    -20.03962820338376,
+    100.0,
+    0.0,
+    0.0
+  ],
+  "rocket_state_fields": [
+    "time_s",
+    "altitude_m",
+    "velocity_mps",
+    "fuel_kg",
+    "thrust_n",
+    "contact_flag"
+  ],
+  "command_phase": "body slide qpos at start of tick; first command zero, then previous after-step slide",
+  "first_nonzero_throttle_tick": 317,
+  "first_velocity_difference_vs_ballistic_tick": 317,
+  "final_velocity_difference_vs_ballistic_mps": 0.00016658677251513154,
+  "rocket_tail_state_exact_new_handle": true,
+  "rocket_feedback_to_body": false,
+  "files": {
+    "rocket_snapshot.npy": "e2d47786cf1b5177d8890f45e03127af0494a718453b88f974666923977c17e6",
+    "rocket_state_trace.npy": "cefbeeedcde07420c9910ce548e1d53ef0a211a035d4634837bd9ccfd3eb7a6d"
+  },
+  "biological_validation": false,
+  "limits": [
+    "One-way rocket replay does not alter the neural/body continuation",
+    "Radial diagnostic rocket is not KSP and has no touchdown in this window",
+    "Unvalidated sensory encoder and motor-muscle transfer persist",
+    "No vision, training, full recorder, or landing outcome included"
+  ]
+}

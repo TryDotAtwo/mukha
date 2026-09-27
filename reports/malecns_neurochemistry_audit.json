@@ -1,0 +1,76 @@
+{
+  "scope": "Source chemistry alignment only; no transmitter-to-effect assignments or removed edges",
+  "source_sha256": "95c9289220663abeb3409f3ad9e5a7f8a53f8093f5139d15502cd08da8879621",
+  "graph_ids_sha256": "6bad3ab247ccb08f958962dd2a3da97289822bb4fe1e345a936db1c8741e05f8",
+  "output_sha256": "aacb39a39672d3c09150ebc1f18dbe6e82373fa138f5d9260d8d84cd8352c9a5",
+  "nodes": 167216,
+  "graph_rows": 25587572,
+  "graph_manifest_sha256": "b30e21078c0479ac288e7f9d3b7cb2c9eb76aa3b9707f3a2b9fa6a92bb822ef3",
+  "source_missing_neurons": 514,
+  "source_ground_truth_label_rows": 85484,
+  "consensus_vs_individual_prediction_disagreements": 20128,
+  "individual_confidence_missing": 1371,
+  "by_consensus": [
+    {
+      "source_consensus": "acetylcholine",
+      "neurons": 103746,
+      "outgoing_graph_rows": 14747427,
+      "outgoing_synapse_count_sum": 73498676
+    },
+    {
+      "source_consensus": "dopamine",
+      "neurons": 392,
+      "outgoing_graph_rows": 241703,
+      "outgoing_synapse_count_sum": 583128
+    },
+    {
+      "source_consensus": "gaba",
+      "neurons": 22073,
+      "outgoing_graph_rows": 4926280,
+      "outgoing_synapse_count_sum": 25720110
+    },
+    {
+      "source_consensus": "glutamate",
+      "neurons": 29303,
+      "outgoing_graph_rows": 4798930,
+      "outgoing_synapse_count_sum": 21052975
+    },
+    {
+      "source_consensus": "histamine",
+      "neurons": 7897,
+      "outgoing_graph_rows": 89846,
+      "outgoing_synapse_count_sum": 685924
+    },
+    {
+      "source_consensus": "missing",
+      "neurons": 514,
+      "outgoing_graph_rows": 0,
+      "outgoing_synapse_count_sum": 0
+    },
+    {
+      "source_consensus": "octopamine",
+      "neurons": 101,
+      "outgoing_graph_rows": 148531,
+      "outgoing_synapse_count_sum": 467893
+    },
+    {
+      "source_consensus": "serotonin",
+      "neurons": 48,
+      "outgoing_graph_rows": 45331,
+      "outgoing_synapse_count_sum": 132806
+    },
+    {
+      "source_consensus": "unclear",
+      "neurons": 3142,
+      "outgoing_graph_rows": 589524,
+      "outgoing_synapse_count_sum": 2051771
+    }
+  ],
+  "receptor_effects_assigned": false,
+  "required_hypotheses": [
+    "Postsynaptic receptor-dependent signs and time constants.",
+    "Explicit treatment of unknown or unclear labels without deleting anatomical edges.",
+    "Separate slow modulatory transmission from fast synaptic-current assumptions.",
+    "Sensitivity variants for source prediction uncertainty."
+  ]
+}

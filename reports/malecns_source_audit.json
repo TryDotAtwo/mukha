@@ -1,0 +1,212 @@
+{
+  "dataset": "male-cns:v1.0",
+  "source_lock": "reports/malecns_source_lock.json",
+  "scope": "Descriptive audit of the full published source graph; no runtime graph, biological model, or training run created.",
+  "annotations": {
+    "rows": 211577,
+    "with_nonempty_superclass": 166700,
+    "without_superclass": 44877,
+    "superclass_counts": [
+      {
+        "values": "descending_neuron",
+        "counts": 1314
+      },
+      {
+        "values": "visual_projection",
+        "counts": 9201
+      },
+      {
+        "values": "visual_centrifugal",
+        "counts": 563
+      },
+      {
+        "values": "cb_intrinsic",
+        "counts": 32164
+      },
+      {
+        "values": "ol_intrinsic",
+        "counts": 89403
+      },
+      {
+        "values": null,
+        "counts": 44877
+      },
+      {
+        "values": "cb_motor",
+        "counts": 107
+      },
+      {
+        "values": "ascending_neuron",
+        "counts": 1846
+      },
+      {
+        "values": "cb_endocrine",
+        "counts": 72
+      },
+      {
+        "values": "cb_sensory",
+        "counts": 4868
+      },
+      {
+        "values": "vnc_intrinsic",
+        "counts": 13161
+      },
+      {
+        "values": "sensory_descending",
+        "counts": 12
+      },
+      {
+        "values": "ol_sensory",
+        "counts": 6098
+      },
+      {
+        "values": "efferent_descending",
+        "counts": 4
+      },
+      {
+        "values": "sensory_ascending",
+        "counts": 537
+      },
+      {
+        "values": "vnc_efferent",
+        "counts": 94
+      },
+      {
+        "values": "cb_efferent",
+        "counts": 4
+      },
+      {
+        "values": "ENS",
+        "counts": 50
+      },
+      {
+        "values": "efferent_ascending",
+        "counts": 8
+      },
+      {
+        "values": "cb_sensory_tbc",
+        "counts": 14
+      },
+      {
+        "values": "visual_projection_tbc",
+        "counts": 2
+      },
+      {
+        "values": "vnc_motor",
+        "counts": 708
+      },
+      {
+        "values": "sensory_ascending_tbc",
+        "counts": 2
+      },
+      {
+        "values": "vnc_sensory",
+        "counts": 6370
+      },
+      {
+        "values": "vnc_endocrine",
+        "counts": 22
+      },
+      {
+        "values": "vnc_tbc",
+        "counts": 38
+      },
+      {
+        "values": "vnc_sensory_tbc",
+        "counts": 36
+      },
+      {
+        "values": "descending_neuron_tbc",
+        "counts": 2
+      }
+    ],
+    "status_counts": [
+      {
+        "values": "Traced",
+        "counts": 165122
+      },
+      {
+        "values": "Unimportant",
+        "counts": 10751
+      },
+      {
+        "values": "Glia",
+        "counts": 11864
+      },
+      {
+        "values": null,
+        "counts": 5472
+      },
+      {
+        "values": "Orphan",
+        "counts": 15925
+      },
+      {
+        "values": "Anchor",
+        "counts": 611
+      },
+      {
+        "values": "Assign",
+        "counts": 1832
+      }
+    ]
+  },
+  "neurotransmitter_rows": 1835518,
+  "neurotransmitter_sign_rule": "none; original predictions retained without assigning universal excitatory/inhibitory signs",
+  "graph": {
+    "all_graph_rows": 151856684,
+    "sum_of_source_weights": 311833243,
+    "self_connection_rows": 123,
+    "self_connection_sum_of_weights": 542,
+    "endpoint_id_range": [
+      10001,
+      1571863634
+    ],
+    "category_order": [
+      "absent_from_annotation_table",
+      "annotation_row_without_superclass",
+      "annotation_row_with_nonempty_superclass"
+    ],
+    "edge_rows_by_pre_post_category": [
+      [
+        7977814,
+        78570,
+        4552783
+      ],
+      [
+        766887,
+        14135,
+        249969
+      ],
+      [
+        112452244,
+        181344,
+        25582938
+      ]
+    ],
+    "sum_of_weights_by_pre_post_category": [
+      [
+        9199680,
+        107066,
+        5614376
+      ],
+      [
+        1131611,
+        49566,
+        661930
+      ],
+      [
+        170414577,
+        476820,
+        124177617
+      ]
+    ],
+    "rows_accounted_for": 151856684,
+    "rows_removed": 0,
+    "weights_modified": 0,
+    "unique_segment_count": null,
+    "unique_segment_count_note": "Not computed by this bounded-memory audit; segment IDs must not be counted as identified biological neurons.",
+    "elapsed_seconds": 62.125
+  },
+  "runtime_node_selection": "not yet applied; unannotated segments and fragments require explicit accounting"
+}

@@ -1,0 +1,10 @@
+{
+  "returncode": 0,
+  "stdout": "{\"scope\":\"passive native body diagnostic, no neural control\",\"mujoco\":\"3.9.0\",\"ticks\":10000,\"time\":0.99999999999990619,\"nq\":126,\"nv\":126,\"max_speed\":4.8393574310884064,\"warnings\":0}\n",
+  "stderr": "",
+  "executable_sha256": "9d2d8d54dd54d3ebc260354e507ef7e3743b78c62c2049d084f116177bf469f1",
+  "runtime_sha256": "d2119d435ef68ceb114d01bc3658eff42ac23ebcc08adca94d9b1ff0b9eb0d0e",
+  "export_report_sha256": "3e71be481508a96e6dd9aa89facc562a1312208cbf7be41156dde2950b2f3dc1",
+  "scope": "Passive tethered body only; no contacts with controls or neural input",
+  "passed": true
+}

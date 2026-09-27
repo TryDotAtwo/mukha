@@ -1,0 +1,489 @@
+{
+  "scope": "Static X-ray reconstruction in source VFB coordinate frame; no joint-angle series, strain, or MaleCNS registration",
+  "dataset_url": "https://www.virtualflybrain.org/term/biomechanical-origins-of-proprioceptive-maps-in-the-drosophila-leg-mamiya2022/",
+  "units": "micrometer, per original SWC metadata",
+  "structures": {
+    "arculum_midline": {
+      "source_url": "https://www.virtualflybrain.org/data/VFB/i/0010/2efc/VFB_00120000/volume.swc",
+      "vfb_id": "VFB_00102efc",
+      "t1leg_id": "1688860",
+      "source_metadata": {
+        "id": "1688860",
+        "name": "arculum midline",
+        "units": "1.0 micrometer"
+      },
+      "local_path": "data/reference/mamiya2023/xray/arculum_midline.swc",
+      "sha256": "957a19c55db36b39bca829e5c23966383a79deba44453cd2128964486788bc37",
+      "bytes": 2450,
+      "node_count": 48,
+      "root_count": 1,
+      "endpoint_count": 3,
+      "topological_tip_count": 3,
+      "branch_node_ids": [
+        1,
+        19
+      ],
+      "root_to_branch_paths": [
+        {
+          "branch_node_id": 1,
+          "path_length_um": 0,
+          "branch_xyz_um": [
+            110.775,
+            166.8,
+            145.65001
+          ]
+        },
+        {
+          "branch_node_id": 19,
+          "path_length_um": 46.29871877539641,
+          "branch_xyz_um": [
+            109.33176,
+            199.18176,
+            178.20001
+          ]
+        }
+      ],
+      "root_to_tip_paths": [
+        {
+          "tip_node_id": 23,
+          "root_node_id": 1,
+          "path_length_um": 54.74462541447694,
+          "straight_line_um": 48.68203474342998,
+          "tip_xyz_um": [
+            110.325005,
+            199.31902,
+            181.87502
+          ],
+          "root_xyz_um": [
+            110.775,
+            166.8,
+            145.65001
+          ]
+        },
+        {
+          "tip_node_id": 47,
+          "root_node_id": 1,
+          "path_length_um": 104.34931353805408,
+          "straight_line_um": 61.85760675050509,
+          "tip_xyz_um": [
+            113.475006,
+            208.01251,
+            191.70001
+          ],
+          "root_xyz_um": [
+            110.775,
+            166.8,
+            145.65001
+          ]
+        },
+        {
+          "tip_node_id": 48,
+          "root_node_id": 1,
+          "path_length_um": 14.56492707305291,
+          "straight_line_um": 13.51270427227744,
+          "tip_xyz_um": [
+            115.950005,
+            156.3,
+            138.90001
+          ],
+          "root_xyz_um": [
+            110.775,
+            166.8,
+            145.65001
+          ]
+        }
+      ],
+      "sum_swc_edge_lengths_um": 127.36014725018748,
+      "largest_swc_edge_um": 6.7537483703496894,
+      "bbox_min_um": [
+        105.600006,
+        156.3,
+        138.90001
+      ],
+      "bbox_max_um": [
+        123.75001,
+        210.1125,
+        191.70001
+      ]
+    },
+    "arculum_outline": {
+      "source_url": "https://www.virtualflybrain.org/data/VFB/i/0010/2efd/VFB_00120000/volume.swc",
+      "vfb_id": "VFB_00102efd",
+      "t1leg_id": "1688874",
+      "source_metadata": {
+        "id": "1688874",
+        "name": "arculum outline",
+        "units": "1.0 micrometer"
+      },
+      "local_path": "data/reference/mamiya2023/xray/arculum_outline.swc",
+      "sha256": "3cc20d7f24077ff6718cc1cd05cbb195f62359efde64db272e06525cfdc76df4",
+      "bytes": 68606,
+      "node_count": 1554,
+      "root_count": 1,
+      "endpoint_count": 6,
+      "topological_tip_count": 6,
+      "branch_node_ids": [
+        1,
+        605,
+        813,
+        974
+      ],
+      "root_to_branch_paths": [
+        {
+          "branch_node_id": 1,
+          "path_length_um": 0,
+          "branch_xyz_um": [
+            133.425,
+            213.93752,
+            179.70001
+          ]
+        },
+        {
+          "branch_node_id": 605,
+          "path_length_um": 493.2895168702092,
+          "branch_xyz_um": [
+            112.360504,
+            207.53426,
+            193.20001
+          ]
+        },
+        {
+          "branch_node_id": 813,
+          "path_length_um": 670.889093324439,
+          "branch_xyz_um": [
+            107.55013,
+            195.93713,
+            169.425
+          ]
+        },
+        {
+          "branch_node_id": 974,
+          "path_length_um": 694.6510240078893,
+          "branch_xyz_um": [
+            109.28438,
+            197.39014,
+            169.425
+          ]
+        }
+      ],
+      "root_to_tip_paths": [
+        {
+          "tip_node_id": 567,
+          "root_node_id": 1,
+          "path_length_um": 26.240209973964333,
+          "straight_line_um": 3.5353134115237768,
+          "tip_xyz_um": [
+            135.3755,
+            216.88226,
+            179.85
+          ],
+          "root_xyz_um": [
+            133.425,
+            213.93752,
+            179.70001
+          ]
+        },
+        {
+          "tip_node_id": 964,
+          "root_node_id": 1,
+          "path_length_um": 526.2858292760936,
+          "straight_line_um": 26.396977404005952,
+          "tip_xyz_um": [
+            110.3915,
+            205.49976,
+            189.45001
+          ],
+          "root_xyz_um": [
+            133.425,
+            213.93752,
+            179.70001
+          ]
+        },
+        {
+          "tip_node_id": 1117,
+          "root_node_id": 1,
+          "path_length_um": 929.38880624186,
+          "straight_line_um": 33.22074825480457,
+          "tip_xyz_um": [
+            109.07813,
+            191.99013,
+            174.3
+          ],
+          "root_xyz_um": [
+            133.425,
+            213.93752,
+            179.70001
+          ]
+        },
+        {
+          "tip_node_id": 1218,
+          "root_node_id": 1,
+          "path_length_um": 1086.8963584500718,
+          "straight_line_um": 30.01273388967452,
+          "tip_xyz_um": [
+            107.221504,
+            202.171,
+            188.40001
+          ],
+          "root_xyz_um": [
+            133.425,
+            213.93752,
+            179.70001
+          ]
+        },
+        {
+          "tip_node_id": 1230,
+          "root_node_id": 1,
+          "path_length_um": 685.58878256928,
+          "straight_line_um": 34.50295792859939,
+          "tip_xyz_um": [
+            105.99375,
+            196.38701,
+            168.3
+          ],
+          "root_xyz_um": [
+            133.425,
+            213.93752,
+            179.70001
+          ]
+        },
+        {
+          "tip_node_id": 1554,
+          "root_node_id": 1,
+          "path_length_um": 1293.4965963763425,
+          "straight_line_um": 45.547925573779985,
+          "tip_xyz_um": [
+            111.22463,
+            183.16876,
+            154.5
+          ],
+          "root_xyz_um": [
+            133.425,
+            213.93752,
+            179.70001
+          ]
+        }
+      ],
+      "sum_swc_edge_lengths_um": 2018.177855360639,
+      "largest_swc_edge_um": 6.500185386787069,
+      "bbox_min_um": [
+        102.98438,
+        172.06876,
+        154.5
+      ],
+      "bbox_max_um": [
+        135.488,
+        216.95726,
+        193.35
+      ]
+    },
+    "feco_medial_tendon": {
+      "source_url": "https://www.virtualflybrain.org/data/VFB/i/0010/2efe/VFB_00120000/volume.swc",
+      "vfb_id": "VFB_00102efe",
+      "t1leg_id": "1688887",
+      "source_metadata": {
+        "id": "1688887",
+        "name": "FeCO medial tendon",
+        "units": "1.0 micrometer"
+      },
+      "local_path": "data/reference/mamiya2023/xray/feco_medial_tendon.swc",
+      "sha256": "05b71c7c768589924b0af940473f0eca8991c12ebf27a78f99df240dfaad19fd",
+      "bytes": 1594,
+      "node_count": 24,
+      "root_count": 1,
+      "endpoint_count": 2,
+      "topological_tip_count": 2,
+      "branch_node_ids": [
+        5
+      ],
+      "root_to_branch_paths": [
+        {
+          "branch_node_id": 5,
+          "path_length_um": 223.49437884607323,
+          "branch_xyz_um": [
+            138.32951,
+            380.299,
+            337.50003
+          ]
+        }
+      ],
+      "root_to_tip_paths": [
+        {
+          "tip_node_id": 6,
+          "root_node_id": 1,
+          "path_length_um": 329.92284374668446,
+          "straight_line_um": 329.4815147572058,
+          "tip_xyz_um": [
+            139.41422,
+            461.40442,
+            406.33102
+          ],
+          "root_xyz_um": [
+            118.4335,
+            212.04504,
+            192.00002
+          ]
+        },
+        {
+          "tip_node_id": 15,
+          "root_node_id": 1,
+          "path_length_um": 462.95278199577086,
+          "straight_line_um": 461.05819865452185,
+          "tip_xyz_um": [
+            132.28372,
+            556.70825,
+            497.92502
+          ],
+          "root_xyz_um": [
+            118.4335,
+            212.04504,
+            192.00002
+          ]
+        }
+      ],
+      "sum_swc_edge_lengths_um": 569.381246896382,
+      "largest_swc_edge_um": 114.30675668865332,
+      "bbox_min_um": [
+        118.4335,
+        212.04504,
+        192.00002
+      ],
+      "bbox_max_um": [
+        140.04756,
+        556.70825,
+        497.92502
+      ]
+    },
+    "feco_lateral_tendon": {
+      "source_url": "https://www.virtualflybrain.org/data/VFB/i/0010/2eff/VFB_00120000/volume.swc",
+      "vfb_id": "VFB_00102eff",
+      "t1leg_id": "1688899",
+      "source_metadata": {
+        "id": "1688899",
+        "name": "FeCO lateral tendon",
+        "units": "1.0 micrometer"
+      },
+      "local_path": "data/reference/mamiya2023/xray/feco_lateral_tendon.swc",
+      "sha256": "27b1e68d9e107dffbaa22145038ec4d92ab33dfd506782873c53e9969aad1c8b",
+      "bytes": 1730,
+      "node_count": 28,
+      "root_count": 1,
+      "endpoint_count": 1,
+      "topological_tip_count": 1,
+      "branch_node_ids": [],
+      "root_to_branch_paths": [],
+      "root_to_tip_paths": [
+        {
+          "tip_node_id": 25,
+          "root_node_id": 1,
+          "path_length_um": 443.3634744384116,
+          "straight_line_um": 442.8297928246442,
+          "tip_xyz_um": [
+            139.76709,
+            547.4285,
+            474.60004
+          ],
+          "root_xyz_um": [
+            134.363,
+            216.31976,
+            180.6
+          ]
+        }
+      ],
+      "sum_swc_edge_lengths_um": 443.36347443841146,
+      "largest_swc_edge_um": 78.55359649761937,
+      "bbox_min_um": [
+        134.363,
+        216.31976,
+        180.6
+      ],
+      "bbox_max_um": [
+        140.55,
+        547.4285,
+        474.60004
+      ]
+    }
+  },
+  "sampled_node_proximity": {
+    "feco_medial_tendon": {
+      "arculum_midline": {
+        "nearest_sampled_node_distance_um": 6.235226909770395,
+        "tendon_node_xyz_um": [
+          118.4335,
+          212.04504,
+          192.00002
+        ],
+        "arculum_node_xyz_um": [
+          113.700005,
+          208.08751,
+          191.1
+        ]
+      },
+      "arculum_outline": {
+        "nearest_sampled_node_distance_um": 0.7351942318190444,
+        "tendon_node_xyz_um": [
+          118.4335,
+          212.04504,
+          192.00002
+        ],
+        "arculum_node_xyz_um": [
+          118.7245,
+          211.38676,
+          192.15001
+        ]
+      }
+    },
+    "feco_lateral_tendon": {
+      "arculum_midline": {
+        "nearest_sampled_node_distance_um": 12.536540489612756,
+        "tendon_node_xyz_um": [
+          134.363,
+          216.31976,
+          180.6
+        ],
+        "arculum_node_xyz_um": [
+          123.75001,
+          210.0375,
+          178.35
+        ]
+      },
+      "arculum_outline": {
+        "nearest_sampled_node_distance_um": 0.4389330815739274,
+        "tendon_node_xyz_um": [
+          134.363,
+          216.31976,
+          180.6
+        ],
+        "arculum_node_xyz_um": [
+          134.2505,
+          216.61977,
+          180.3
+        ]
+      }
+    }
+  },
+  "proximity_interpretation": "Nearest sampled SWC nodes only; neither a surface distance nor a validated anatomical attachment point",
+  "published_arculum_fem_tendon_model": {
+    "source": "Mamiya et al. 2023 author PDF, STAR Methods, 'A finite element model of the arculum', pages e6-e7",
+    "pdf_sha256": "fdde57f0eb41120dd6ed69d6f7e9810ccbf9ebfeedcba2e0f5eafba38c777cac",
+    "resilin_young_modulus_mpa": 1.8,
+    "arculum_young_modulus_mpa": 3.6,
+    "arculum_density_kg_m3": 1200,
+    "poisson_ratio": 0.3,
+    "assumed_equilibrium_tendon_lengths_um": {
+      "joint": 72,
+      "femoral": 225,
+      "medial": 268,
+      "lateral": 283
+    },
+    "assumed_tendon_areas_um2": {
+      "joint": 295.3,
+      "femoral": 295.3,
+      "medial": 50.9,
+      "lateral": 57.2
+    },
+    "medial_spring_stiffness_adjustment": "Author model halves effective stiffness to represent soft proximal coupling",
+    "interpretation": "Author FE model assumptions and geometry measurements; not directly fitted or identified by these SWC paths"
+  },
+  "biological_validation": false
+}

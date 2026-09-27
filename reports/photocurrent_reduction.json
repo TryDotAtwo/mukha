@@ -1,0 +1,15 @@
+{
+  "scope": "Summed TRP current only, 3 receptors x 30000 microvilli, synthetic channel states",
+  "passed": true,
+  "author_racecheck_warnings": 5,
+  "adapted_racecheck_warnings": 0,
+  "numerical_output": "case 0 channels 374990 expected 15286.216560509556 actual 15286.216560509556\ncase 1 channels 375004 expected 7646.3936305732486 actual 7646.3936305732486\ncase 2 channels 374992 expected -2 actual -2\n",
+  "change": "warp shared-memory reduction replaced with shfl_down_sync; current equation unchanged",
+  "hashes": {
+    "native/photocurrent_safe.cuh": "6d45b17e1509a6f2aba3f7b13477d1fcf10d5ba3918f9b4974f3175459c8c89f",
+    "native/photocurrent_probe.cu": "12afae5c382f1566f4bd0bf2626169e2fc3a4506e383518e9b3bb098e76e696f",
+    "build/photocurrent_safe_probe.exe": "c006bc731270d613144f3e7659cf92ab664421aae0c9ad5f7153f55a8fe640b3",
+    "reports/photocurrent_author_racecheck.log": "84142ac7a7940b28f5f4bcd79b0df6b0167659333143ddbf3572362c5562f567",
+    "reports/photocurrent_safe_racecheck.log": "c69d09b31a66173faf98f267db57c7eb988035ce364fa0f0f184ffc933c541a7"
+  }
+}

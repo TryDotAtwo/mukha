@@ -1,0 +1,33 @@
+{
+  "exact_fresh_process_continuation": true,
+  "checkpoint_tick": 3000,
+  "end_tick": 10000,
+  "checkpoint_bytes": 7864,
+  "rejected_cases": [
+    "truncated",
+    "trailing",
+    "bad_magic",
+    "payload_flip",
+    "metadata_flip",
+    "different_compiled_model"
+  ],
+  "scope": "Same executable/dependencies, airborne radial mechanical diagnostic only",
+  "limitations": [
+    "FNV checksum detects accidental changes; not authentication",
+    "Format uses host float64/uint64 layout; no cross-platform portability",
+    "Loader does not enforce executable/library identity; external hashes must be checked",
+    "No brain, sensor, RNG, or recorder state"
+  ],
+  "hashes": {
+    "build\\mechanics_file_probe.exe": "2bbbb97c25083e3e5f4d047eb862cbcd8a2818a86dae9e9a7fad9495d2934244",
+    "data\\derived\\contact_diagnostic\\body.xml": "f76a572b0699f6ea38e220f1a08b48803b519175a44457b55839e241d2362438",
+    "data\\reference\\mujoco_3.9.0\\bin\\mujoco.dll": "d2119d435ef68ceb114d01bc3658eff42ac23ebcc08adca94d9b1ff0b9eb0d0e",
+    "build\\mc_full.bin": "d76657538099a98cc9aee8e3839f2b3cb46bd138d5732eb269ce80d9087a61e5",
+    "build\\mc_mid.bin": "add9820121ed5e8c4232a77cc3f4ec800898ca17c175502c1b493bbfb8b0dc49",
+    "build\\mc_resumed.bin": "d76657538099a98cc9aee8e3839f2b3cb46bd138d5732eb269ce80d9087a61e5",
+    "native\\mechanics_file_probe.cpp": "9688efb4aca395d487b00e74a8e6d5eff54e7db0045a887cceef5e2d26ca6319",
+    "native\\rocket_vertical.h": "703d9653f82c3683222778fce5e56b40638a6da458f299a7cf20428498e349ce",
+    "native\\atomic_checkpoint.hpp": "0545f9c7c4a6565564373e52e0303c2afd7539c2d61ce513001fe2ead4a3df6b",
+    "tools\\check_mechanics_file.py": "d72855c60ae1bc3e2ceefff71f193d6c09da997b6582b358486d7b467b50c66c"
+  }
+}

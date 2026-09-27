@@ -1,0 +1,20 @@
+{
+  "scope": "Windows two-cell regression after reuse of a single host checkpoint buffer",
+  "passed": true,
+  "cases": [
+    {
+      "onset": 250,
+      "full_final_bytes_equal": true,
+      "trace_continuation_equal": true,
+      "snapshot_bytes": 3720320
+    },
+    {
+      "onset": 750,
+      "full_final_bytes_equal": true,
+      "trace_continuation_equal": true,
+      "snapshot_bytes": 3720320
+    }
+  ],
+  "binary_sha256": "bb570968c89279e55fffe6455984c9427a5c024d1b9f2bba56517b659cccde1c",
+  "source_sha256": "f52310e777acdcabba35b887b8742e0140ce1bc7136445d8ed9fdbc7abe5ba69"
+}

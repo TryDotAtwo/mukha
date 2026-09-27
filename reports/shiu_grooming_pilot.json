@@ -1,0 +1,57 @@
+{
+  "runs": [
+    {
+      "input_rate_hz": 0,
+      "network_spikes": 0,
+      "readouts": {
+        "id_DN1_1": {
+          "body_id": 720575940616185531,
+          "spikes": 0
+        },
+        "id_DN2_l": {
+          "body_id": 720575940629806974,
+          "spikes": 0
+        }
+      },
+      "all_native_spikes_match_brian": true,
+      "comparison_sha256": "74fc26ab76e21ec71706a967304f70535d134f3d23042ecb5c00f3b27aa0dc0c"
+    },
+    {
+      "input_rate_hz": 100,
+      "network_spikes": 18012,
+      "readouts": {
+        "id_DN1_1": {
+          "body_id": 720575940616185531,
+          "spikes": 0
+        },
+        "id_DN2_l": {
+          "body_id": 720575940629806974,
+          "spikes": 0
+        }
+      },
+      "all_native_spikes_match_brian": true,
+      "comparison_sha256": "e15e5bc0dad72067d075208549ef3778a7a5d9b6bc888396d294692810881ba2"
+    },
+    {
+      "input_rate_hz": 220,
+      "network_spikes": 42982,
+      "readouts": {
+        "id_DN1_1": {
+          "body_id": 720575940616185531,
+          "spikes": 39
+        },
+        "id_DN2_l": {
+          "body_id": 720575940629806974,
+          "spikes": 39
+        }
+      },
+      "all_native_spikes_match_brian": true,
+      "comparison_sha256": "18f767eac3eb9763fd2cef8372a1dbefdf49c6baab1d92ac9ba462b296284d3f"
+    }
+  ],
+  "seeds_per_condition": 1,
+  "zero_input_quiescent": true,
+  "highest_dose_both_readouts_active": true,
+  "scope": "Neural responses on original author graph; 220 Hz was added after negative 100 Hz readouts and belongs to author sweep. No physical grooming, complete dose-response replication, or MaleCNS transfer claimed.",
+  "biological_gate_complete": false
+}

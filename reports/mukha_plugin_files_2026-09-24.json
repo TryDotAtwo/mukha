@@ -1,0 +1,61 @@
+{
+  "schema": "mukha.explicit-files.v1",
+  "files": {
+    ".codex-plugin/plugin.json": {
+      "bytes": 1276,
+      "sha256": "2eaf47c51c6f60755e7d1bc9c5aa5355c1b5a927dbed4b764a40ccae4d18b56b"
+    },
+    "README.md": {
+      "bytes": 3851,
+      "sha256": "a5493b9f8bf4cdb46b9e388be18b11ceef30d5ca4d8c816d3937d65048dacba7"
+    },
+    "scripts/inspect_skill_usage.py": {
+      "bytes": 3382,
+      "sha256": "3753be8a261b5d93030e0f4a29d1cbbed9b7ae134791c779d250007e0e6b1267"
+    },
+    "scripts/project_snapshot.py": {
+      "bytes": 4068,
+      "sha256": "c3d5044d1e84bdd4004801972d9e6d031f5c340e7f42bf563df1d1d7a87de0d2"
+    },
+    "scripts/verify_manifest.py": {
+      "bytes": 4116,
+      "sha256": "a9999b0bfdb6551cc250f26669ed655020f8c22041331fa3fa6e73d1a598bd27"
+    },
+    "skills/work-with-mukha/agents/openai.yaml": {
+      "bytes": 442,
+      "sha256": "a56031e5cf439087ffacb2b6afb219a6ab293387ecf588e32dc39aa7590ef608"
+    },
+    "skills/work-with-mukha/references/artifacts.md": {
+      "bytes": 3187,
+      "sha256": "0a4fb8afe050e5c3bbd7ef2e2b2a9bbe8eaeba5c419a2db23aeb6832704cad66"
+    },
+    "skills/work-with-mukha/references/biology.md": {
+      "bytes": 4170,
+      "sha256": "5d1379faf7b1d54d752617ffe0ad947deae5cbac3a2203513052a7403ab259d2"
+    },
+    "skills/work-with-mukha/references/embodiment.md": {
+      "bytes": 3828,
+      "sha256": "afc760f59a4570fcd4c398b8cd4e4af749c4602467103f2bafb4c93d1f9a56e4"
+    },
+    "skills/work-with-mukha/references/experiment-selection.md": {
+      "bytes": 2956,
+      "sha256": "2071c4f27eca3775d0d1f832b08fee090a95300a2a8153f81a41ac14e6084e37"
+    },
+    "skills/work-with-mukha/references/project-map.md": {
+      "bytes": 3295,
+      "sha256": "1efd1f9d561703bab74af174aa36115f7e07c1af016ac220be9e2d0f06b4a4c9"
+    },
+    "skills/work-with-mukha/references/runtime.md": {
+      "bytes": 3887,
+      "sha256": "a48deba935d9234a363a347ac3048a01452fd82653e5bc1f26d012e51428622d"
+    },
+    "skills/work-with-mukha/SKILL.md": {
+      "bytes": 5898,
+      "sha256": "2af743280fb312229ebcd257fedf75aad56a3780e56c0d33b5fab9b2428ef008"
+    },
+    "tests/test_helpers.py": {
+      "bytes": 4273,
+      "sha256": "e0b6556a0f909088ef97001c38a52b3436728f8d2855bc8ac07dd798159fea35"
+    }
+  }
+}

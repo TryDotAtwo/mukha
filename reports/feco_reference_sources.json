@@ -1,0 +1,38 @@
+{
+  "repository": "https://github.com/sagrawal/Lee_2024",
+  "commit": "4328b1d5549749f1014c4d73cccc0c5241d98ae4",
+  "doi": "10.1038/s41467-025-59302-3",
+  "files": {
+    "README.md": {
+      "bytes": 775,
+      "sha256": "712061021c6dafaf1e1fb455f3264a64bbf8cb0af6898428ef69a96ef5013a87"
+    },
+    "synapse_tables/feco_annotation_table.csv": {
+      "bytes": 11313,
+      "sha256": "478eece92cc641b03ab69f85904ca84da094c05fd7dfcc69070d9e9d268e1b4c"
+    },
+    "synapse_tables/downstream_feco_annotation_table.csv": {
+      "bytes": 76579,
+      "sha256": "6ac62817f16916810b42651caa398a8f435cbfaaed77f5e52bf1a90d1d6eebc1"
+    },
+    "synapse_tables/upstream_feco_annotation_table.csv": {
+      "bytes": 11040,
+      "sha256": "55d3116a67236469aacea8a5e2eeaba4976aee9f08b0feb0f30c5314c53efae3"
+    },
+    "synapse_tables/feco_downstream_connections.csv": {
+      "bytes": 3204916,
+      "sha256": "c48bce9f989084b41c5ed19fdb89a58c4e8f1cb14fbb91a88784d5f0d5fab7f3"
+    },
+    "synapse_tables/feco_upstream_connections.csv": {
+      "bytes": 398965,
+      "sha256": "a96962b443765b8f33d4277416a97b5507c3d6f98a97ebe4d9176a4ba411f1a7"
+    },
+    "synapse_tables/third_order_club_annotation_table.csv": {
+      "bytes": 88297,
+      "sha256": "ae49834d4e4e877a8b9dce269c41f05c81964de87427fe7d0fa0804959cc809c"
+    }
+  },
+  "scope": "Published FANC connectivity tables, not a MaleCNS mapping or physiological rate model",
+  "code_executed": false,
+  "credentials_used": false
+}

@@ -1,0 +1,79 @@
+{
+  "rows": [
+    {
+      "pad_shift_um": 50,
+      "no_event_first_contact_tick": 599,
+      "no_event_max_slide_mm": 0.0048650154704118365,
+      "event_first_contact_tick": 340,
+      "event_max_slide_mm": 0.03325673524917098,
+      "event_max_throttle": 0.11069219606100691,
+      "no_contact_control_max_slide_mm": 0.0,
+      "source_report_sha256": "b12cb83217a18b7879c4f57c1b9e69e090a26ee6fe612dc2959cdfbaaff67bde"
+    },
+    {
+      "pad_shift_um": 75,
+      "no_event_first_contact_tick": 813,
+      "no_event_max_slide_mm": 0.0012103914875817344,
+      "event_first_contact_tick": 404,
+      "event_max_slide_mm": 0.019488610117417753,
+      "event_max_throttle": 0.0648843048285687,
+      "no_contact_control_max_slide_mm": 0.0,
+      "source_report_sha256": "6b5535e246fe2afd6a2f58fb2e06164f9f7ea947d8e70086d3fbedd97e199d09"
+    },
+    {
+      "pad_shift_um": 100,
+      "no_event_first_contact_tick": null,
+      "no_event_max_slide_mm": 0.0,
+      "event_first_contact_tick": 476,
+      "event_max_slide_mm": 0.005834086060567451,
+      "event_max_throttle": 0.01942088354480585,
+      "no_contact_control_max_slide_mm": 0.0,
+      "source_report_sha256": "14f8d3de4cc594048b337c0e2e8cd408ecbaad72d3ec7f97d9ac895a511ad653"
+    },
+    {
+      "pad_shift_um": 125,
+      "no_event_first_contact_tick": null,
+      "no_event_max_slide_mm": 0.0,
+      "event_first_contact_tick": null,
+      "event_max_slide_mm": 0.0,
+      "event_max_throttle": 0.0,
+      "no_contact_control_max_slide_mm": 0.0,
+      "source_report_sha256": "9d4ad7263048b84ea4ce3b6a22481586f1dd0e6ca3fa1d9b505e4bf1b517f22f"
+    },
+    {
+      "pad_shift_um": 150,
+      "no_event_first_contact_tick": null,
+      "no_event_max_slide_mm": 0.0,
+      "event_first_contact_tick": null,
+      "event_max_slide_mm": 0.0,
+      "event_max_throttle": 0.0,
+      "no_contact_control_max_slide_mm": 0.0,
+      "source_report_sha256": "3cc42d2e32c3b813ecfcf6dcae6e97557c8e2c1ae25c60941ba9960b27f3142f"
+    },
+    {
+      "pad_shift_um": 175,
+      "no_event_first_contact_tick": null,
+      "no_event_max_slide_mm": 0.0,
+      "event_first_contact_tick": null,
+      "event_max_slide_mm": 0.0,
+      "event_max_throttle": 0.0,
+      "no_contact_control_max_slide_mm": 0.0,
+      "source_report_sha256": "be92b6798f494ab62ce1874dc72295fe8fa2c708048a5cea61ad4b478e0d2dd6"
+    },
+    {
+      "pad_shift_um": 200,
+      "no_event_first_contact_tick": null,
+      "no_event_max_slide_mm": 0.0,
+      "event_first_contact_tick": null,
+      "event_max_slide_mm": 0.0,
+      "event_max_throttle": 0.0,
+      "no_contact_control_max_slide_mm": 0.0,
+      "source_report_sha256": "e5fa4d380b33781630e10e30e9e736ba174a5e22fdc27e3f440060f0506749c6"
+    }
+  ],
+  "sampled_gaps_with_event_contact_and_no_control_leak_um": [
+    100
+  ],
+  "executed_source_sha256": "ca06ac5b922441eb9317b44d4f806bfa0d879563d912f9a4c85517e19629433e",
+  "scope": "Exploratory grid selected after viewing mechanics; no physiological pad geometry, motor mapping, or robust controller claim."
+}

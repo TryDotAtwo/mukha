@@ -1,0 +1,28 @@
+{
+  "files_scanned": 1011,
+  "bytes_scanned": 31264913,
+  "credential_findings": [],
+  "patterns": [
+    "private_key",
+    "hf_token",
+    "github_token",
+    "api_token",
+    "jwt",
+    "url_password",
+    "aws_access",
+    "hardcoded_bearer"
+  ],
+  "excluded_classes": [
+    "all historical build orchestration",
+    "all recovered raw chat/transcript handoff",
+    "private pairing JSON/PEM",
+    "environment files",
+    "raw and derived data bytes",
+    "binary and package caches"
+  ],
+  "limitations": [
+    "Static scan is not a mathematical guarantee.",
+    "Data inventory is metadata, not uploaded data.",
+    "Historical private HF archives remain private."
+  ]
+}

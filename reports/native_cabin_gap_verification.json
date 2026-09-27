@@ -1,0 +1,60 @@
+{
+  "passed": true,
+  "source_report_hashes": {
+    "native_cabin_loop_local.json": "26a2b4f39809ef3c5e93bf6a06fc69c9af25407a4fb4011fdba5b2da38fcef77",
+    "native_cabin_gap_50um_local.json": "e1597abb9fd2c4ac8e1daab3c562c2fdc96dd88051b387caf77c3c8031edd17b",
+    "native_cabin_gap_100um_local.json": "b1e2a13f3bcac2350854ddec148549ec57d309d6252dac88aca2fbd441b0ea75",
+    "native_cabin_gap_200um_local.json": "b0b75c2bc9af74e49fd357f5943512e5b3ec536534d1a050037f1ee62f05072b"
+  },
+  "gap_sweep": [
+    {
+      "pad_shift_mm": 0.0,
+      "active_first_contact_tick": 186,
+      "active_first_slide_tick": 186,
+      "active_first_throttle_tick": 187,
+      "no_pulse_first_contact_tick": 186,
+      "active_peak_slide_mm": 0.15053042984522838,
+      "no_pulse_peak_slide_mm": 0.012237545164089803,
+      "active_final_altitude_m": 2497.9928118265816,
+      "ballistic_final_altitude_m": 2497.9920743266134
+    },
+    {
+      "pad_shift_mm": 0.05,
+      "active_first_contact_tick": 255,
+      "active_first_slide_tick": 255,
+      "active_first_throttle_tick": 256,
+      "no_pulse_first_contact_tick": null,
+      "active_peak_slide_mm": 0.16916955700876055,
+      "no_pulse_peak_slide_mm": 0.0,
+      "active_final_altitude_m": 2497.9927513547646,
+      "ballistic_final_altitude_m": 2497.9920743266134,
+      "first_feedback_slide_difference_tick": 261,
+      "first_feedback_altitude_difference_tick": 330,
+      "max_feedback_slide_difference_mm": 5.86175953790069e-06,
+      "max_feedback_altitude_difference_m": 2.1227606339380145e-08
+    },
+    {
+      "pad_shift_mm": 0.1,
+      "active_first_contact_tick": 440,
+      "active_first_slide_tick": 440,
+      "active_first_throttle_tick": 441,
+      "no_pulse_first_contact_tick": null,
+      "active_peak_slide_mm": 0.041451961243593766,
+      "no_pulse_peak_slide_mm": 0.0,
+      "active_final_altitude_m": 2497.9921406889603,
+      "ballistic_final_altitude_m": 2497.9920743266134
+    },
+    {
+      "pad_shift_mm": 0.2,
+      "active_first_contact_tick": null,
+      "active_first_slide_tick": null,
+      "active_first_throttle_tick": null,
+      "no_pulse_first_contact_tick": null,
+      "active_peak_slide_mm": 0.0,
+      "no_pulse_peak_slide_mm": 0.0,
+      "active_final_altitude_m": 2497.9920743266134,
+      "ballistic_final_altitude_m": 2497.9920743266134
+    }
+  ],
+  "scope": "Native rocket and explicit MuJoCo cabin mechanics under prescribed muscle pulse; gap is an engineering design parameter, not biological or KSP validation."
+}

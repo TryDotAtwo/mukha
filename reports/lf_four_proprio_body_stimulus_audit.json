@@ -1,0 +1,53 @@
+{
+  "scope": "Actual joint trajectory in the existing 500-ms closed body-loop diagnostic",
+  "source_report_sha256": "bd26788b5b8586ebd658552fb2cb4a17db72ff0262ed57e9b6d6a7eca1daad98",
+  "source_traces_sha256": "6f23d7730b8453f1eda471b4219939dd809e922899623948afe19a8b516c4ce0",
+  "published_protocol_reference": "Akitake et al. 2015, 2-Hz sinusoidal tibia movement, approximately 20 degrees",
+  "published_protocol_url": "https://www.nature.com/articles/ncomms8288",
+  "trajectory_is_the_published_protocol": false,
+  "reason": "The body-loop input is a one-time +10-degree initial displacement followed by free dynamics, not prescribed 2-Hz cyclic motion",
+  "cases": {
+    "sensory_blocked": {
+      "first_saved_knee_rad": 1.034548148739319,
+      "last_saved_knee_rad": 0.9259350009269007,
+      "saved_peak_to_peak_deg": 6.223074969282143,
+      "saved_net_change_deg": -6.223074969282143,
+      "min_relative_to_relaxed_deg": 3.7763015730848726,
+      "max_relative_to_relaxed_deg": 9.999376542367015,
+      "strictly_decreasing_saved_steps": 4999,
+      "strictly_increasing_saved_steps": 0,
+      "step_intervals": 4999,
+      "max_abs_step_velocity_deg_per_s": 16.46319753942471,
+      "fraction_above_relaxed_angle": 1.0
+    },
+    "four_sensory_motor_connected": {
+      "first_saved_knee_rad": 1.034548148739319,
+      "last_saved_knee_rad": 0.5687673116077494,
+      "saved_peak_to_peak_deg": 30.655026709747688,
+      "saved_net_change_deg": -26.687276145709326,
+      "min_relative_to_relaxed_deg": -20.655650167380674,
+      "max_relative_to_relaxed_deg": 9.999376542367015,
+      "strictly_decreasing_saved_steps": 1775,
+      "strictly_increasing_saved_steps": 3224,
+      "step_intervals": 4999,
+      "max_abs_step_velocity_deg_per_s": 739.3107761472467,
+      "fraction_above_relaxed_angle": 0.0594
+    },
+    "four_sensory_motor_disconnected": {
+      "first_saved_knee_rad": 1.034548148739319,
+      "last_saved_knee_rad": 0.9259350009269007,
+      "saved_peak_to_peak_deg": 6.223074969282143,
+      "saved_net_change_deg": -6.223074969282143,
+      "min_relative_to_relaxed_deg": 3.7763015730848726,
+      "max_relative_to_relaxed_deg": 9.999376542367015,
+      "strictly_decreasing_saved_steps": 4999,
+      "strictly_increasing_saved_steps": 0,
+      "step_intervals": 4999,
+      "max_abs_step_velocity_deg_per_s": 16.46319753942471,
+      "fraction_above_relaxed_angle": 1.0
+    }
+  },
+  "sensory_blocked_and_motor_disconnected_knee_traces_exactly_equal": true,
+  "passive_half_wave_encoder_would_remain_active_fraction": 1.0,
+  "biological_reflex_validated": false
+}

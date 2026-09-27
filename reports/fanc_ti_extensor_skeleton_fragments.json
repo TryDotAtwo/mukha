@@ -1,0 +1,92 @@
+{
+  "scope": "Diagnostic wavefront skeletonization of decimated source meshes; fragmented representation",
+  "source_report_sha256": "0f5bbdf3b56d663da25aeac05eb0f32dbd2f8926393f14059158cc32a17680c5",
+  "skeletor_version": "1.7.1",
+  "method": "by_wavefront(waves=1, step_size=1)",
+  "results": [
+    {
+      "segment_id": "648518346493238080",
+      "input_mesh_components": {
+        "count": 1380,
+        "largest_vertices": [
+          304408,
+          23191,
+          10305,
+          7521,
+          2123,
+          1477,
+          1421,
+          1062,
+          537,
+          386
+        ],
+        "largest_fraction": 0.823006815853009,
+        "top_two_fraction": 0.8857067155483098
+      },
+      "skeleton_vertices": 60174,
+      "skeleton_edges": 58794,
+      "skeleton_components": {
+        "count": 1380,
+        "largest_vertices": [
+          46301,
+          4141,
+          2032,
+          1518,
+          346,
+          294,
+          263,
+          220,
+          114,
+          35
+        ],
+        "largest_fraction": 0.7694519227573371,
+        "top_two_fraction": 0.8382690198424568
+      },
+      "output": "data/derived/fanc_ti_extensor_skeletons/648518346493238080_wavefront.npz",
+      "sha256": "db97fae47d4a1c20f8a3c02031f3de8d77d5f85201fae220be16e1af8e800108"
+    },
+    {
+      "segment_id": "648518346495797355",
+      "input_mesh_components": {
+        "count": 1510,
+        "largest_vertices": [
+          112812,
+          76944,
+          7223,
+          3153,
+          2507,
+          2452,
+          1598,
+          1302,
+          1269,
+          1075
+        ],
+        "largest_fraction": 0.4904784264621485,
+        "top_two_fraction": 0.8250117389262795
+      },
+      "skeleton_vertices": 41889,
+      "skeleton_edges": 40379,
+      "skeleton_components": {
+        "count": 1510,
+        "largest_vertices": [
+          20866,
+          10855,
+          1632,
+          549,
+          540,
+          472,
+          282,
+          258,
+          239,
+          211
+        ],
+        "largest_fraction": 0.49812599966578336,
+        "top_two_fraction": 0.7572632433335721
+      },
+      "output": "data/derived/fanc_ti_extensor_skeletons/648518346495797355_wavefront.npz",
+      "sha256": "aa561bfdf8a82f1be89733abd04b9cc5e0ff92eb76f4ac464db99c0f31e07c75"
+    }
+  ],
+  "suitable_for_nblast_identity": false,
+  "motor_mapping_enabled": false
+}

@@ -1,0 +1,93 @@
+{
+  "scope": "Gross surface-to-centerline anatomical screen; incomplete/unequal geometries, not cell identity",
+  "transform_route": [
+    "FANC",
+    "FANCum_fixed",
+    "JRCVNC2018F_reflected",
+    "JRCVNC2018F",
+    "JRCVNC2018U"
+  ],
+  "mesh_report_sha256": "c637999e1cb63800c02968570589f72946e4f2a4ec0b2905f1359904d29656c2",
+  "transform_manifest_sha256": "b9c44b34d79c5ee217e0c4a5e082ac62d5364ec349e82226029e9c3e065e0a18",
+  "manc_manifest_sha256": "92e504cd01333527f0bd3910c66627cc6fb777c310e53e0c0fce09d67cd1d015",
+  "source_release_limit": "FANC published mesh and v3 template transform; VFB MANC SWC dataset page states v1.2.1, not confirmed per-cell",
+  "comparisons": [
+    {
+      "fanc_segment_id": "648518346493238080",
+      "sample_size": 4096,
+      "sample_index_sha256": "9bd556d4cbe5b5b4770287b46b3b3db8342816daf209853f41daf69283b1087b",
+      "registered_bbox_min_um": [
+        140.3300124837154,
+        38.619572121401035,
+        39.45075738874511
+      ],
+      "registered_bbox_max_um": [
+        215.9638425348456,
+        144.86377853922727,
+        126.96839537697782
+      ],
+      "comparisons": {
+        "11657": {
+          "fanc_surface_to_manc_swc": {
+            "median_um": 5.974129611450019,
+            "p90_um": 15.131731212972163
+          },
+          "manc_swc_to_fanc_surface_sample": {
+            "median_um": 2.3822592316075513,
+            "p90_um": 5.265164537499754
+          }
+        },
+        "12704": {
+          "fanc_surface_to_manc_swc": {
+            "median_um": 4.394353326120412,
+            "p90_um": 10.637737035602743
+          },
+          "manc_swc_to_fanc_surface_sample": {
+            "median_um": 2.128345775678095,
+            "p90_um": 5.174073364615374
+          }
+        }
+      }
+    },
+    {
+      "fanc_segment_id": "648518346495797355",
+      "sample_size": 4096,
+      "sample_index_sha256": "96098fa639e3a3437aa740dd21155e6646e4b8330b65495ace61a47da046ab11",
+      "registered_bbox_min_um": [
+        143.61763234923734,
+        51.843204716960834,
+        41.32898427294477
+      ],
+      "registered_bbox_max_um": [
+        217.28082594721928,
+        136.36865448834465,
+        124.91450954837408
+      ],
+      "comparisons": {
+        "11657": {
+          "fanc_surface_to_manc_swc": {
+            "median_um": 4.526763642666446,
+            "p90_um": 13.62152295930325
+          },
+          "manc_swc_to_fanc_surface_sample": {
+            "median_um": 2.398230439881784,
+            "p90_um": 5.1901421015183535
+          }
+        },
+        "12704": {
+          "fanc_surface_to_manc_swc": {
+            "median_um": 4.374197822863138,
+            "p90_um": 12.408892782782868
+          },
+          "manc_swc_to_fanc_surface_sample": {
+            "median_um": 2.2571721791693307,
+            "p90_um": 14.834644174422957
+          }
+        }
+      }
+    }
+  ],
+  "fanc_mn39_vs_mn40_assignment_verified": false,
+  "fanc_to_manc_identity_verified": false,
+  "motor_mapping_enabled": false
+}

@@ -1,0 +1,55 @@
+{
+  "scope": "Native engineering image sampler; not phototransduction or neural input",
+  "passed": true,
+  "rays": 1716,
+  "comparisons": [
+    {
+      "height": 2,
+      "width": 2,
+      "image": "constant",
+      "max_error": 4.440892098500626e-16
+    },
+    {
+      "height": 2,
+      "width": 2,
+      "image": "random",
+      "max_error": 1.1920928955078125e-07
+    },
+    {
+      "height": 17,
+      "width": 32,
+      "image": "constant",
+      "max_error": 2.220446049250313e-16
+    },
+    {
+      "height": 17,
+      "width": 32,
+      "image": "random",
+      "max_error": 1.1920928955078125e-07
+    },
+    {
+      "height": 128,
+      "width": 256,
+      "image": "constant",
+      "max_error": 2.220446049250313e-16
+    },
+    {
+      "height": 128,
+      "width": 256,
+      "image": "random",
+      "max_error": 1.1920928955078125e-07
+    }
+  ],
+  "device": "CPU",
+  "ray_source_sha256": "14250fc7385f3a6940e28d373a0a353e2c3e60b1d0ece68c4141cd6f7f49eaf4",
+  "dll_sha256": "0ce15b8cf923d3ebfe4878e3afd1d7069ed1dcc724e6031ffc307c705c4a8abe",
+  "checks": [
+    "analytic axis and seam orientation",
+    "constant radiance",
+    "Torch random-image oracle",
+    "seam and poles",
+    "invalid image leaves output unchanged",
+    "overlap rejection",
+    "nonunit and NaN ray rejection"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "cases": [
+    {
+      "contact": true,
+      "motor_enabled": false,
+      "max_throttle": 0.0,
+      "max_abs_control": 0.0
+    },
+    {
+      "contact": true,
+      "motor_enabled": true,
+      "max_throttle": 0.0,
+      "max_abs_control": 0.3047688352664864
+    },
+    {
+      "contact": false,
+      "motor_enabled": false,
+      "max_throttle": 0.0,
+      "max_abs_control": 0.0
+    },
+    {
+      "contact": false,
+      "motor_enabled": true,
+      "max_throttle": 0.0,
+      "max_abs_control": 0.3047688352664864
+    }
+  ],
+  "all_neural_events_match": true,
+  "clock_and_control_sampling_passed": true,
+  "all_rocket_traces_equal_ballistic_baseline": true,
+  "lever_actuation_achieved": false,
+  "sensory_feedback_to_brain": false,
+  "biological_validation": false,
+  "scope": "100-ms full native brain-body-radial-rocket diagnostic; negative contact-control outcome",
+  "hashes": {
+    "brain_rocket_body.csv": "a3e24986b5ed94403a07642efcc9e0adc9277d490a7cdcacb4a5e459350f71da",
+    "brain_rocket_environment.csv": "f313c6349120588fc7da3810bc092a5033017e52605e6464bccadcb722e93206",
+    "brain_rocket_nocontact_body.csv": "a3e24986b5ed94403a07642efcc9e0adc9277d490a7cdcacb4a5e459350f71da",
+    "brain_rocket_nocontact_environment.csv": "2bafa5d046c78c1f99599c6168eed998a9af1c807511d1bcd81e1ad3595e28e1",
+    "brain_rocket_nocontact_spikes.csv": "85143a9e27af2c9d0771a5f9c3b5ed832090ff822c63a61306f2c25e5bc5b5ab",
+    "brain_rocket_spikes.csv": "85143a9e27af2c9d0771a5f9c3b5ed832090ff822c63a61306f2c25e5bc5b5ab"
+  }
+}

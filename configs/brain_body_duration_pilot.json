@@ -1,0 +1,14 @@
+{
+  "scope": "Predeclared diagnostic extension, not training or biological validation",
+  "hypothesis": "The lack of lever contact at 100 ms might reflect an insufficient observation horizon",
+  "ticks": 10000,
+  "step_seconds": 0.0001,
+  "conditions": ["motor_disabled", "motor_enabled"],
+  "contact": true,
+  "stimulus": "Same DNg100 68.75 mV diagnostic pulse every 100 ticks, continued through 1 second",
+  "changed_parameters": ["episode duration only"],
+  "measurements": ["spikes", "joint angles", "pad contacts and force", "passive slider", "rocket thrust"],
+  "interpretation": "Any contact is an open-loop diagnostic result, not sensory or learned control",
+  "failure_criteria": ["nonfinite state", "MuJoCo warning", "clock mismatch", "100 ms prefix differs from original run"],
+  "wall_clock_limit_seconds": 900
+}

@@ -1,0 +1,448 @@
+{
+  "repository": "https://github.com/gizemozd/FlyMimic",
+  "commit": "9ea1131626cd76f7203b74076ef8f0e9cab30bef",
+  "archive_sha256": "889c6e244c95501c957bf0e2d8ab94dcdc0fd36293fcab9d7840e908341d4207",
+  "files": [
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/best_combined_cvt3.xml",
+      "bytes": 49596,
+      "git_blob_sha1": "9cd9120415f5f006bbe168834c998f67e0354c89",
+      "sha256": "d67ff06d0c684599f00d5f33f8f8ac8ced01ab994c41341b551f8148b6d8aa0b"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl.zip",
+      "bytes": 7295073,
+      "git_blob_sha1": "9eb06f9596c3ee8d77bfd6125c71c2c118dc16eb",
+      "sha256": "0cf33c71337a3418edb03ee7d431f66960893fac08e0c1819ee3eab24eb19cfa"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/A1A2.stl",
+      "bytes": 144334,
+      "git_blob_sha1": "e64e3a2e5277a0cf66fac2e6ecfd126b09d4fdc6",
+      "sha256": "a8645b7b026f2736b08772bc2bca08ca79adc417bd613ed4d487c02ffcaa2903"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/A3.stl",
+      "bytes": 140084,
+      "git_blob_sha1": "7c7728fbcafc4bc475c046dccdc69a1421089158",
+      "sha256": "5717f47f1c426bdfa5d6f44e1d41bd4e8d997cda43075f0258d6162c8fe4c124"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/A4.stl",
+      "bytes": 143384,
+      "git_blob_sha1": "dcbaca141161e6d93d07623f55f223beb9eb72c8",
+      "sha256": "ffc7a77b712b9f8f54982da0b65435680f4602184231f27b6c34d485cfcec0f5"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/A5.stl",
+      "bytes": 158834,
+      "git_blob_sha1": "cce4b60d3ce23b8213e17df11f8e27ea17110e66",
+      "sha256": "3e80fdb1fa9db4da41df9015162cdcc22e724a0e5ddb47400d025a3f5b88debb"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/A6.stl",
+      "bytes": 203134,
+      "git_blob_sha1": "e52d2aea94c69c2f8553965d09bc71b1ca1cf03c",
+      "sha256": "153bb1b802fd14c90bcbd9c56425bac7d49a1ef205afd5e18ac8c71b54ea336f"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/Haustellum.stl",
+      "bytes": 215634,
+      "git_blob_sha1": "120bd7a3fded38362f1ed1755a00a78813ca510c",
+      "sha256": "09fda52eeef008ff4b6513d8fcc2906d3cbe8911393ff4e77ef687a66240b47d"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/Head.stl",
+      "bytes": 864784,
+      "git_blob_sha1": "d287740354c65e53b3c17362757defcd596de222",
+      "sha256": "27b97b890db42105b0a692b03d6b7ee014498da7f52b1523d8d5701264b31992"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/LArista.stl",
+      "bytes": 568884,
+      "git_blob_sha1": "dca1e61598d2eed0966a3afe590b5c0885159fb2",
+      "sha256": "89279377fa06a9d0a611b5fa46f3353bc528121a19c7e52b419bb754cf3696f4"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/LEye.stl",
+      "bytes": 238084,
+      "git_blob_sha1": "b14a16aa2859db7602c30f310bd4bb5b50ad5bfa",
+      "sha256": "b4371603242f501020032c8f86d2bec9feef5501b8f3a347408ac49d16030fee"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/LFCoxa.stl",
+      "bytes": 103984,
+      "git_blob_sha1": "fa8b7ffba77e33406b339e8e9e8a23788c8672c7",
+      "sha256": "9195e39b45975b58a631a281e53c3b8a6b3f0d8ee8dee09be7aad3342e7aa3bb"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/LFFemur.stl",
+      "bytes": 842284,
+      "git_blob_sha1": "5c89144e215ae7fc33d5c72a1a5ad63d74b5d3df",
+      "sha256": "d4012dff9598fcf021d451b04d0b2bfce666fa8bc5369c7a6844699ff806f3cc"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/LFTarsus1.stl",
+      "bytes": 24484,
+      "git_blob_sha1": "bae3462578996ed113520796e5bdd49120db487f",
+      "sha256": "ad61cfec64816d669f1f4f89bddb818471344dd69f6443c184a3aa674ea2b62a"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/LFTarsus2.stl",
+      "bytes": 19784,
+      "git_blob_sha1": "500dd5b3e967b52d4d3b1fa432059dac045942b1",
+      "sha256": "a5c00b6a936c0d61a70a9726082e569f9b7f72bce17bfce67cd406bb7ed840e5"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/LFTarsus3.stl",
+      "bytes": 17484,
+      "git_blob_sha1": "357194402e093e40c3050bef5244d7ca1050d522",
+      "sha256": "c154a96be4927b0db54cbc713681e00ae62021a05d55ca3649c3e40069c65acb"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/LFTarsus4.stl",
+      "bytes": 14884,
+      "git_blob_sha1": "2f293647af25c66a782b8e693f8d2efa61b3ad51",
+      "sha256": "622606f09a1a6598125bd534af675cfe50a8aae465b38fdf9148dda8b06a58f9"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/LFTarsus5.stl",
+      "bytes": 18084,
+      "git_blob_sha1": "d99c63823f565d4e1bcaed36a4be3b3ef8df63a8",
+      "sha256": "7f7e9f98c416f01c1114f38d22ba3fc0c7ed4ee2c5f799a2c59a447fbff308b3"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/LFTibia.stl",
+      "bytes": 53684,
+      "git_blob_sha1": "8f6b174b502a4eb3c91704ddb33ff421e7db5333",
+      "sha256": "e48e96e254ac932ecb707364c31f4d1867ab2dd947a3fc257a3291bae5d10d5f"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/LFTrochanter.stl",
+      "bytes": 34784,
+      "git_blob_sha1": "007217a9b9cd556cb1f6ba2ee2021ff716036eab",
+      "sha256": "9eece5e88d044b53517bfe231edddbe8acc3f5cb50bbd2230168f799cfaee9f2"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/LFuniculus.stl",
+      "bytes": 869484,
+      "git_blob_sha1": "946d5c32c962515c1acf5ab047b2f95a4c882de9",
+      "sha256": "3bf5a160aee8a87bb9776cf3b4e2cce26fa9c7586737054e0d7e06a91c2cddbf"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/LHCoxa.stl",
+      "bytes": 199084,
+      "git_blob_sha1": "6e9e0ddcd829623cd1b39009f69182638a283bb8",
+      "sha256": "cf8352af3217f5febd0574215b799faa38113ec8055079e751983071da53d4bc"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/LHFemur.stl",
+      "bytes": 165884,
+      "git_blob_sha1": "ba1560bb9967a1769c4a009f1714b7db17637a8b",
+      "sha256": "9a8f7703c5939807d8894dc1e750997bdfb00b2a7c1698ab3e193544d07ba11b"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/LHTarsus1.stl",
+      "bytes": 38934,
+      "git_blob_sha1": "47cf6fcca52e8abf6f7bfffca04c500275031e1b",
+      "sha256": "bef10a44d00419f04f5373a6d80f8aa5a248e84f9b2a07408d35671ef8bc46d8"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/LHTarsus2.stl",
+      "bytes": 98684,
+      "git_blob_sha1": "07dbda6964e892189f00d768eb02fde2f652635e",
+      "sha256": "41cab7b9105f99d4db311c90fcbdda95b2cb53595b4a37b6ab494469eb0740b8"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/LHTarsus3.stl",
+      "bytes": 129584,
+      "git_blob_sha1": "671f4c063cc0fe8f79bb39bbd4077047691f6462",
+      "sha256": "cfde4d0b603b0848dbc4ce85ab2e2954942da05da3429f2fb694819d3e77a0d1"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/LHTarsus4.stl",
+      "bytes": 130984,
+      "git_blob_sha1": "159432c84d835ec5025d4c891fa7421191cbbfac",
+      "sha256": "c2eed9e0aa475353694d4cc209435bb5716d5a5862161bc1fd76a57bd72717c2"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/LHTarsus5.stl",
+      "bytes": 147084,
+      "git_blob_sha1": "d9040504ae016e0514bb8999ebe739157daad2ab",
+      "sha256": "33556f4a7f538fc2d3e14913f50e756f6f88a33439dab455b3f5f300da5287ed"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/LHTibia.stl",
+      "bytes": 37484,
+      "git_blob_sha1": "5611e3381a0e6e86faaf9f74846c5ec03197c5b0",
+      "sha256": "15b3fcb4b0c14d12883daffc14f99415329f99614f14f1fd8cfd5e7b1fda4b37"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/LHaltere.stl",
+      "bytes": 41284,
+      "git_blob_sha1": "6735551e5a7cc604a9ca121b32f2f0a3e2951110",
+      "sha256": "f10ce437255a1aede388e6375e32a6ea2d917c1cebb0347e95c93938a82afe46"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/LMCoxa.stl",
+      "bytes": 130384,
+      "git_blob_sha1": "a59ee83facb1404f878219b9f13fa5b7c8c1b83a",
+      "sha256": "1f531dd264b421f50218f948ca0520daedcec95b326848344472b87f99df38c4"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/LMFemur.stl",
+      "bytes": 41384,
+      "git_blob_sha1": "da1db378d811a840f1747a0e10eaf83917caf14f",
+      "sha256": "cc7de1d5c273692c1092af22c64ac523ab9065e54c9867ae0e840028fe1f4489"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/LMTarsus1.stl",
+      "bytes": 46284,
+      "git_blob_sha1": "4468a37378e7edfa043d6a8131f363a05944194b",
+      "sha256": "46c584345e52741d3e93c6053b63de72d84262a1db82651e9fe146ed4cfabd6a"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/LMTarsus2.stl",
+      "bytes": 77884,
+      "git_blob_sha1": "cd929755da0465ae8eab297d9159ac8312fd0c0b",
+      "sha256": "6f0482bbc912995884caab40380645ac4846ae1b6d38b78f7d1190514cdaa399"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/LMTarsus3.stl",
+      "bytes": 92884,
+      "git_blob_sha1": "dafb77abf647492b7a15118928f29b358cb50bb4",
+      "sha256": "bbb9f6caa201c9d177b4007011dabf0c87ad2d722f55f6aeef4c8cf98b772883"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/LMTarsus4.stl",
+      "bytes": 159584,
+      "git_blob_sha1": "cf171fde319d87f1c4f22615818ef09f96ffbd33",
+      "sha256": "cef9504a68c0b054795dc1feaaad683df05cd47601db4c8a141bc6dc427fff61"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/LMTarsus5.stl",
+      "bytes": 49384,
+      "git_blob_sha1": "a620e2b81eb95de5165a01162f9032172e257826",
+      "sha256": "83eaa926ff3a7b8452e2432033e4573752097ee08c9b3513b70482c084e29f7f"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/LMTibia.stl",
+      "bytes": 33884,
+      "git_blob_sha1": "f06f063c8d738315730ee2d95838ce48ed64ae71",
+      "sha256": "121eb0503627adcb96f71701d1d12be0e6dafb8a842dd672cb23918094dae186"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/LPedicel.stl",
+      "bytes": 860484,
+      "git_blob_sha1": "0004cfbaaca387dacbabbe035e1fc0bdd11669c5",
+      "sha256": "6dfd2255f674a937a85f12916ddc4af193b79757f4f29e48070a776d825a5616"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/LWing.stl",
+      "bytes": 996734,
+      "git_blob_sha1": "4fdc78fa44fee507ffff9691224bd2ed43705f7d",
+      "sha256": "9247992a96ba2f6ea69a13b2949c0be0ea51738bb0044cdaed34b262a926f256"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/RArista.stl",
+      "bytes": 580484,
+      "git_blob_sha1": "e419640951dc790fecdbe583dc744de9398009c1",
+      "sha256": "025fe9065e92ab6be2dc311aeb6d38258c284b02724393b46d60b64c46d35cef"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/REye.stl",
+      "bytes": 164784,
+      "git_blob_sha1": "1afdb52246fd6b5406283e587527a623ba5fc5d3",
+      "sha256": "b9bb1a0137254acbf0c204d2ee9b55ab63f6dc4415dce55bfec95b225de97a3d"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/RFCoxa.stl",
+      "bytes": 42884,
+      "git_blob_sha1": "f1cdd6d69f5e2cf4871fae62819e7944ea2ee538",
+      "sha256": "e1849a7dbe5273cfd86ace2c14af0130775d00381e926e1736ed592cac63550a"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/RFFemur.stl",
+      "bytes": 60834,
+      "git_blob_sha1": "e6d2a4217d34e51fd86d939992b64b3250e44e17",
+      "sha256": "77ee2146a08d8ef175bdc5bcb3a5a155a3e5317103e17e28903e415316ed5837"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/RFTarsus1.stl",
+      "bytes": 24484,
+      "git_blob_sha1": "e2e5fef1bad8d16e83d31bde483facc767024ad6",
+      "sha256": "055adb1a90f1430b9edfd54f050da921ad816e3c212a66cc99a83118485cf805"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/RFTarsus2.stl",
+      "bytes": 19784,
+      "git_blob_sha1": "a8ee99a5f6871124dd18beebab1916656b5ca5ec",
+      "sha256": "4dfacd1cfd62d6984b93a7809d2e64527e97a5e9ccb95bc4729415fdcedb6cdd"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/RFTarsus3.stl",
+      "bytes": 17484,
+      "git_blob_sha1": "bfde8c2b0d270d0185b094f768f9e58069ef65c0",
+      "sha256": "402b2d148d2f079aa100ae2cc799919d4cf64fcfdb2e112ae05221a3247b86c0"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/RFTarsus4.stl",
+      "bytes": 14884,
+      "git_blob_sha1": "c916a0d31b6ec25f2e0efd163db8198eeed87777",
+      "sha256": "1d9790cfd7949942e973e6de356989f90468acb0c9808458661d85afd6953c73"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/RFTarsus5.stl",
+      "bytes": 18084,
+      "git_blob_sha1": "7cc75e63add977de30185283cc3024d49cf4bab3",
+      "sha256": "716f7a121e190f7c46df2b63968ea29cacc7d9951b864d657ed5b96f50f8bf3f"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/RFTibia.stl",
+      "bytes": 61834,
+      "git_blob_sha1": "aa0ca1e5d2745f70c72e8e9ec19d6ef6154aa7a9",
+      "sha256": "bd073bc9a7f598dbe1487d838da35273be58d84822222bd971ba5fabd88845ed"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/RFTrochanter.stl",
+      "bytes": 19584,
+      "git_blob_sha1": "0ef82e03d133256e74dbb041f4596ebc3161ad8a",
+      "sha256": "a47df0bfd23d89aa8f1aa9a3652d86cc2fdfe39e9410485baa6bbe2140491c1b"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/RFuniculus.stl",
+      "bytes": 856284,
+      "git_blob_sha1": "aa9524db4959df06646696f2cd38ccddfdc1704b",
+      "sha256": "b0e4d9699f1f70d276186c9c7a90c51720c21ad56e99ceb70fd4219642d36275"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/RHCoxa.stl",
+      "bytes": 199084,
+      "git_blob_sha1": "a7ac31d6d8e4d6561abf6087c9232af50128eea1",
+      "sha256": "de2abbee97410931b6aecd8e904d622a225f1cfd1b475eb8c49da1b161eac736"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/RHFemur.stl",
+      "bytes": 165884,
+      "git_blob_sha1": "7a40193a10ea7d269800d2cf2203fbd0ff9e1092",
+      "sha256": "219ef48acfab0bb2920e8a3d57537c23b0a4fcc133feff18fc72477baf550880"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/RHTarsus1.stl",
+      "bytes": 38934,
+      "git_blob_sha1": "149a2f173aaa6f12401c17a6e21e7b2cfc31b824",
+      "sha256": "55a3db5944bb43a4bf970fcddba0b77a9cff1b37319b9d5b35d7c7ac933f06ec"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/RHTarsus2.stl",
+      "bytes": 98684,
+      "git_blob_sha1": "6167cef0c3258a1aafdea5c94a975db0d6c4cd44",
+      "sha256": "ab7262e6d880ef8aee6208d03275ffaa8517b311dee5972a35d749af2dbdfbc2"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/RHTarsus3.stl",
+      "bytes": 129584,
+      "git_blob_sha1": "cf63186978c3c3668297928836749290f49a99d8",
+      "sha256": "9d4d07ebfdc32a8301c9e0a47c7c066fc144d5e75a947a0f69b6ef4fc4fdaf1e"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/RHTarsus4.stl",
+      "bytes": 130984,
+      "git_blob_sha1": "af0fc75e00edd67de31a9e29ae9f1f0ed414cd53",
+      "sha256": "dbb7b4b0dff7ce16ad67d799c5d8ac1c3067c2ca8a7a09c35bd1be552abf46c6"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/RHTarsus5.stl",
+      "bytes": 147084,
+      "git_blob_sha1": "1b1f949df2257c62bafebb5185695c4265ead910",
+      "sha256": "e4fbc4cf0ab91e6ca120f3b2a0e4f3b376c553f963759be9b067f1307b285f92"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/RHTibia.stl",
+      "bytes": 37484,
+      "git_blob_sha1": "7c96b27c5e0a139fa10716b9208c76108bfaffff",
+      "sha256": "94830552615cb5cacaeb4eddaabde518bc1ab79fbc76e42a8cc654a54f8c6815"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/RHaltere.stl",
+      "bytes": 41284,
+      "git_blob_sha1": "9b058e3a924c304e26b99530f26d4838af05eb5c",
+      "sha256": "79f6fd1b7e390c68a518c5785c5a264d4fce6b6190f0c459e67b8a86e5b1d39d"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/RMCoxa.stl",
+      "bytes": 130384,
+      "git_blob_sha1": "bc037db00fe6c65364fc099a8f4673a801c18c09",
+      "sha256": "3b1dadc1ac39b49ca1e7a67e5ce73b20765398d6ee36c58bd7a2da31b6495727"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/RMFemur.stl",
+      "bytes": 41384,
+      "git_blob_sha1": "903e2b2082aa9a3c536d0d4adb12d5f5c7738715",
+      "sha256": "a09baaa03751f7e75b29dff72cbb41b8e6d4281e726aa25714d9568c8a24b484"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/RMTarsus1.stl",
+      "bytes": 46284,
+      "git_blob_sha1": "e75f1e19d1c2945fd1a1094fd365313e8842721b",
+      "sha256": "a52ffb792c22345983f1d2d068836765682975e3f209ad056cd08c62060ae5e1"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/RMTarsus2.stl",
+      "bytes": 77884,
+      "git_blob_sha1": "be36721f9b956880ba0bdb5ebc9e0b9f521119ab",
+      "sha256": "3f52c7f9a5ce869098b8e29a7bc9a0d308b4833d4d17064c92a1ba4a58898502"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/RMTarsus3.stl",
+      "bytes": 92884,
+      "git_blob_sha1": "162d7a1d35a11b5c456ed7e0b4047123f4053509",
+      "sha256": "e70d291cdd958d0a5a2ed6e3554b369b7170a6b9a110f912017c331afafa1d72"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/RMTarsus4.stl",
+      "bytes": 159584,
+      "git_blob_sha1": "b1eedbc4a06389e3b1e2ab81afe84b00e9d000ef",
+      "sha256": "6e2d9ec053490b0649c756b9d1ca47394806d162f463659ed6117c16788ab40a"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/RMTarsus5.stl",
+      "bytes": 49384,
+      "git_blob_sha1": "c00cd374e915de9977a16bb539eef554fe464435",
+      "sha256": "f6ac243379d2694e6161e28c2c9dc406cf6ac91363ac6bf7eb7e42da225b2f15"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/RMTibia.stl",
+      "bytes": 33884,
+      "git_blob_sha1": "2a64649cbae92e459dbf5e4908b3b16e91316071",
+      "sha256": "5ae92d36789ae2666c52ebe56614de609c7a78b56610b3886662008fdf4b02dd"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/RPedicel.stl",
+      "bytes": 837884,
+      "git_blob_sha1": "7b3e05fa01441700337bfd2da30f62988ec0dfb6",
+      "sha256": "e555a9108c30c70b9c5e5117577153ecec2eecb66c857b78540a4c02b191f538"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/RWing.stl",
+      "bytes": 996734,
+      "git_blob_sha1": "933f90382ea22fd55ef6ccc3bf17f3eacfd2f7ca",
+      "sha256": "a00cd68f368e9a51832a05ba869cade1ac65fa7b502c7c3e9f62da417b53ea43"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/Rostrum.stl",
+      "bytes": 189384,
+      "git_blob_sha1": "a715a0c7a62a81d60da721b4198b7d94a8d08150",
+      "sha256": "672c49f10fc9294c047eaa017afd30c68037036446cb4a2b34f52455fa72854e"
+    },
+    {
+      "path": "data/reference/flymimic/flymimic/assets/models/meshes/stl/Thorax.stl",
+      "bytes": 281534,
+      "git_blob_sha1": "6c6c68c0bacee84aef0c73bfe120e20f62ac6cab",
+      "sha256": "61a091c49c87895f735fb63e42898128888a6f53ee60900bbf61f92edf5e42e6"
+    }
+  ],
+  "file_count": 73,
+  "total_uncompressed_bytes": 21306283,
+  "scope": "Pinned public FlyMimic XML and meshes; no private cockpit fixture, neural mapping or biological validation."
+}

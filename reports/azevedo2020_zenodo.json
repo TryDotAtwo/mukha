@@ -1,0 +1,851 @@
+{
+  "created": "2021-02-19T17:13:58.270394+00:00",
+  "modified": "2022-06-03T05:35:07.420387+00:00",
+  "id": 4527659,
+  "conceptrecid": "4527658",
+  "doi": "10.5281/zenodo.4527659",
+  "conceptdoi": "10.5281/zenodo.4527658",
+  "doi_url": "https://doi.org/10.5281/zenodo.4527659",
+  "metadata": {
+    "title": "Data for: A size principle for recruitment of Drosophila leg motor neurons",
+    "doi": "10.5281/zenodo.4527659",
+    "publication_date": "2021-02-18",
+    "description": "<p>To move the body, the brain must precisely coordinate patterns of activity among diverse populations of motor neurons. In many species, including vertebrates, the motor neurons innervating a given muscle fire in a specific order that is determined by a gradient of cellular size and electrical excitability. This hierarchy allows premotor circuits to recruit motor neurons of increasing force capacity in a task-dependent manner. However, it remains unclear whether such a size principle also applies to species with more compact motor systems, such as the fruit fly,\u00a0<em>Drosophila melanogaster</em>, which has just 53 motor neurons per leg. Using\u00a0<em>in vivo</em>\u00a0calcium imaging and electrophysiology, we found that genetically-identified motor neurons controlling flexion of the fly tibia exhibit a gradient of anatomical, physiological, and functional properties consistent with the size principle. Large, fast motor neurons control high force, ballistic movements while small, slow motor neurons control low force, postural movements. Intermediate neurons fall between these two extremes. In behaving flies, motor neurons are recruited in order from slow to fast. This hierarchical organization suggests that slow and fast motor neurons control distinct motor regimes. Indeed, we find that optogenetic manipulation of each motor neuron type has distinct effects on the behavior of walking flies.</p>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Azevedo, Anthony",
+        "affiliation": "University of Washington",
+        "orcid": "0000-0001-8318-9678"
+      },
+      {
+        "name": "Dickinson, Evyn",
+        "affiliation": "University of Washington"
+      },
+      {
+        "name": "Gurung, Pralaksha",
+        "affiliation": "University of Washington"
+      },
+      {
+        "name": "Venkatasubramanian, Lalanti",
+        "affiliation": "Columbia University"
+      },
+      {
+        "name": "Mann, Richard",
+        "affiliation": "Columbia University"
+      },
+      {
+        "name": "Tuthill, John",
+        "affiliation": "University of Washington",
+        "orcid": "0000-0002-5689-5806"
+      }
+    ],
+    "keywords": [
+      "Motor neuron",
+      "size principle"
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "https://elifesciences.org/articles/56754",
+        "relation": "isCitedBy",
+        "scheme": "url"
+      },
+      {
+        "identifier": "10.7554/eLife.56754",
+        "relation": "isCitedBy",
+        "scheme": "doi"
+      },
+      {
+        "identifier": "10.5061/dryad.76hdr7stb",
+        "relation": "isSourceOf",
+        "scheme": "doi"
+      }
+    ],
+    "resource_type": {
+      "title": "Software",
+      "type": "software"
+    },
+    "license": {
+      "id": "mit-license"
+    },
+    "communities": [
+      {
+        "id": "dryad"
+      }
+    ],
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "4527658"
+          }
+        }
+      ]
+    },
+    "notes": "<p>Please see README file for instructions.\u00a0</p>\n<p>Funding provided by: National Institutes of Health<br>Crossref Funder Registry ID: http://dx.doi.org/10.13039/100000002<br>Award Number: U19NS104655</p><p>Funding provided by: Searle Foundation*<br>Crossref Funder Registry ID: <br>Award Number: </p><p>Funding provided by: McKnight Foundation<br>Crossref Funder Registry ID: http://dx.doi.org/10.13039/100005270<br>Award Number: </p><p>Funding provided by: Pew Biomedical Trust*<br>Crossref Funder Registry ID: <br>Award Number: </p><p>Funding provided by: Alfred P. Sloan Foundation<br>Crossref Funder Registry ID: http://dx.doi.org/10.13039/100000879<br>Award Number: </p><p>Funding provided by: Searle Foundation<br>Crossref Funder Registry ID: </p><p>Funding provided by: Pew Biomedical Trust<br>Crossref Funder Registry ID: </p>"
+  },
+  "title": "Data for: A size principle for recruitment of Drosophila leg motor neurons",
+  "links": {
+    "self": "https://zenodo.org/api/records/4527659",
+    "self_html": "https://zenodo.org/records/4527659",
+    "preview_html": "https://zenodo.org/records/4527659?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.4527659",
+    "self_doi": "https://doi.org/10.5281/zenodo.4527659",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.4527659",
+    "reserve_doi": "https://zenodo.org/api/records/4527659/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/4527658",
+    "parent_html": "https://zenodo.org/records/4527658",
+    "parent_doi": "https://doi.org/10.5281/zenodo.4527658",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.4527658",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:4527659/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:4527659/sequence/default",
+    "files": "https://zenodo.org/api/records/4527659/files",
+    "media_files": "https://zenodo.org/api/records/4527659/media-files",
+    "archive": "https://zenodo.org/api/records/4527659/files-archive",
+    "archive_media": "https://zenodo.org/api/records/4527659/media-files-archive",
+    "latest": "https://zenodo.org/api/records/4527659/versions/latest",
+    "latest_html": "https://zenodo.org/records/4527659/latest",
+    "versions": "https://zenodo.org/api/records/4527659/versions",
+    "draft": "https://zenodo.org/api/records/4527659/draft",
+    "access_links": "https://zenodo.org/api/records/4527659/access/links",
+    "access_grants": "https://zenodo.org/api/records/4527659/access/grants",
+    "access_users": "https://zenodo.org/api/records/4527659/access/users",
+    "access_request": "https://zenodo.org/api/records/4527659/access/request",
+    "access": "https://zenodo.org/api/records/4527659/access",
+    "communities": "https://zenodo.org/api/records/4527659/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/4527659/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/4527659/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/4527659/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/4527659/quota-increase",
+    "requests": "https://zenodo.org/api/records/4527659/requests"
+  },
+  "updated": "2022-06-03T05:35:07.420387+00:00",
+  "recid": "4527659",
+  "revision": 3,
+  "files": [
+    {
+      "id": "89e4c8e0-b9dc-4efb-a4a0-319b5df5611b",
+      "key": "Script_colorBar_NoBar_ClustersSimilarly.m",
+      "size": 2293,
+      "checksum": "md5:24bb71450ffa16b04dec8048dbdef1f3",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_colorBar_NoBar_ClustersSimilarly.m/content"
+      }
+    },
+    {
+      "id": "e8a599b5-144b-4a23-ad65-a86277d56355",
+      "key": "Script_showVmForEachType.m",
+      "size": 2412,
+      "checksum": "md5:824a9db145f97c6b1ce44804883281d2",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_showVmForEachType.m/content"
+      }
+    },
+    {
+      "id": "6831d295-ce6f-4777-a8b0-5977554777a2",
+      "key": "Script_alignSingleSpikes.m",
+      "size": 15973,
+      "checksum": "md5:b3aee13b2b6d022cd00e0359d4eb9c0f",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_alignSingleSpikes.m/content"
+      }
+    },
+    {
+      "id": "be183921-e67e-4a44-a951-6f812f3ff39a",
+      "key": "Script_calculateFrameForFreeMovements-2.m",
+      "size": 9705,
+      "checksum": "md5:a2a916395f86b23499fa967b57b739b9",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_calculateFrameForFreeMovements-2.m/content"
+      }
+    },
+    {
+      "id": "1d6b0e0b-9a13-40fc-a15a-993e2c3fd031",
+      "key": "Script_calculateFrameForFreeMovements.m",
+      "size": 9705,
+      "checksum": "md5:a2a916395f86b23499fa967b57b739b9",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_calculateFrameForFreeMovements.m/content"
+      }
+    },
+    {
+      "id": "c08325db-e51d-4f5d-b2f4-ccef895a68d7",
+      "key": "Script_colorBar_NoBar_ClustersSimilarly-2.m",
+      "size": 2293,
+      "checksum": "md5:24bb71450ffa16b04dec8048dbdef1f3",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_colorBar_NoBar_ClustersSimilarly-2.m/content"
+      }
+    },
+    {
+      "id": "1995c163-1990-46c9-9b0d-029390db5bf5",
+      "key": "Script_colorNoBarClustersSimilarly-2.m",
+      "size": 2381,
+      "checksum": "md5:94da5224fbec92e389a98a6cf48d4a06",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_colorNoBarClustersSimilarly-2.m/content"
+      }
+    },
+    {
+      "id": "3b82d4fc-6c21-4aa8-b920-0c86f8d204f9",
+      "key": "Script_colorNoBarClustersSimilarly.m",
+      "size": 2381,
+      "checksum": "md5:94da5224fbec92e389a98a6cf48d4a06",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_colorNoBarClustersSimilarly.m/content"
+      }
+    },
+    {
+      "id": "6175d571-c174-4a96-9392-fd9f73bc4a73",
+      "key": "Script_conditionPhasePlotOnClusters-2.m",
+      "size": 39328,
+      "checksum": "md5:8747145ba93682e32e59aed0aa6e993f",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_conditionPhasePlotOnClusters-2.m/content"
+      }
+    },
+    {
+      "id": "57bf9006-9d74-4d46-8566-123893784dc7",
+      "key": "Script_conditionPhasePlotOnClusters.m",
+      "size": 39328,
+      "checksum": "md5:8747145ba93682e32e59aed0aa6e993f",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_conditionPhasePlotOnClusters.m/content"
+      }
+    },
+    {
+      "id": "b4347bff-0982-4af8-8215-2adb32ce5177",
+      "key": "Script_coupleExamplesOfSlowMN_Spikes_EMG_Probe-2.m",
+      "size": 1982,
+      "checksum": "md5:07ecde24ad405d9f51e7cc56506eedb3",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_coupleExamplesOfSlowMN_Spikes_EMG_Probe-2.m/content"
+      }
+    },
+    {
+      "id": "76cea562-8739-4e12-973c-08868400fc34",
+      "key": "Script_coupleExamplesOfSlowMN_Spikes_EMG_Probe.m",
+      "size": 1982,
+      "checksum": "md5:07ecde24ad405d9f51e7cc56506eedb3",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_coupleExamplesOfSlowMN_Spikes_EMG_Probe.m/content"
+      }
+    },
+    {
+      "id": "a9f672b7-d818-49c8-951d-eae3f6e34217",
+      "key": "Script_coupleExamples_Spike_EMG_Probe-2.m",
+      "size": 2317,
+      "checksum": "md5:46a8c1ad5913ef4f18421928f4ba4e0f",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_coupleExamples_Spike_EMG_Probe-2.m/content"
+      }
+    },
+    {
+      "id": "43cd5c5f-f360-4319-b25a-5593171ae8bf",
+      "key": "Script_coupleExamples_Spike_EMG_Probe.m",
+      "size": 2317,
+      "checksum": "md5:46a8c1ad5913ef4f18421928f4ba4e0f",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_coupleExamples_Spike_EMG_Probe.m/content"
+      }
+    },
+    {
+      "id": "f35c27fc-7c40-4a0a-9b49-70c19a6832d6",
+      "key": "Script_EffectOfChRActivationOfIavNeurons-2.m",
+      "size": 3173,
+      "checksum": "md5:2e6de54bfc072de77f21f86962e3fa32",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_EffectOfChRActivationOfIavNeurons-2.m/content"
+      }
+    },
+    {
+      "id": "15bd89ff-e5ab-45f5-930c-ece6ef96cc21",
+      "key": "Script_EffectOfChRActivationOfIavNeurons.m",
+      "size": 3173,
+      "checksum": "md5:2e6de54bfc072de77f21f86962e3fa32",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_EffectOfChRActivationOfIavNeurons.m/content"
+      }
+    },
+    {
+      "id": "5b3665b4-49dc-483b-b3fb-4ffb5fab41bd",
+      "key": "Script_spikeTriggeredPairedLikelihood-2.m",
+      "size": 10782,
+      "checksum": "md5:3255ee5485a6bb0ee7529962fc0e191a",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_spikeTriggeredPairedLikelihood-2.m/content"
+      }
+    },
+    {
+      "id": "4f83c902-5b28-40ff-95d7-1cd47e9da77a",
+      "key": "Script_spikeTriggeredPairedLikelihood.m",
+      "size": 10782,
+      "checksum": "md5:3255ee5485a6bb0ee7529962fc0e191a",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_spikeTriggeredPairedLikelihood.m/content"
+      }
+    },
+    {
+      "id": "af19bf65-2acc-4cdf-a4de-27e1693dff53",
+      "key": "Dataset2_SlowInterFast_SpontaneousMovements-2.m",
+      "size": 8390,
+      "checksum": "md5:f01ad1c0bc34c4a97628b325c2bf79ee",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Dataset2_SlowInterFast_SpontaneousMovements-2.m/content"
+      }
+    },
+    {
+      "id": "cadb1878-c09a-4626-883e-939c3b12a569",
+      "key": "Dataset2_SlowInterFast_SpontaneousActivity.m",
+      "size": 6727,
+      "checksum": "md5:20a5223d9fc13182401fb4a9004f6a2b",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Dataset2_SlowInterFast_SpontaneousActivity.m/content"
+      }
+    },
+    {
+      "id": "72756140-72cb-4e85-8226-2617acb35e00",
+      "key": "Dataset2_SlowInterFast_SpontaneousActivity-2.m",
+      "size": 6727,
+      "checksum": "md5:20a5223d9fc13182401fb4a9004f6a2b",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Dataset2_SlowInterFast_SpontaneousActivity-2.m/content"
+      }
+    },
+    {
+      "id": "da78fc56-58ad-4b15-bc84-059a739afb60",
+      "key": "Dataset2_SlowInterFast_SensoryFeedback.m",
+      "size": 9478,
+      "checksum": "md5:49730ae8a2a98567be145600560e50eb",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Dataset2_SlowInterFast_SensoryFeedback.m/content"
+      }
+    },
+    {
+      "id": "05407045-bed4-4ee1-8749-f1b588701c00",
+      "key": "Dataset2_SlowInterFast_SensoryFeedback-2.m",
+      "size": 9478,
+      "checksum": "md5:49730ae8a2a98567be145600560e50eb",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Dataset2_SlowInterFast_SensoryFeedback-2.m/content"
+      }
+    },
+    {
+      "id": "a854a319-4bdb-4761-9073-f99f7fd554c1",
+      "key": "Dataset1_LegCaImaging_MHCDriver.m",
+      "size": 2486,
+      "checksum": "md5:7c110c81b62bf03a72983c8d6caf56b0",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Dataset1_LegCaImaging_MHCDriver.m/content"
+      }
+    },
+    {
+      "id": "374751ee-fc66-4380-96b6-8efe5f9f3ef1",
+      "key": "Script_spikeTriggeredPhasePlot-2.m",
+      "size": 11326,
+      "checksum": "md5:2ee1a2c766d9060045c6ce7d957acc9c",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_spikeTriggeredPhasePlot-2.m/content"
+      }
+    },
+    {
+      "id": "bbb75bd4-f63b-4035-a800-77e9c75c4ffb",
+      "key": "Script_spikeTriggeredPhasePlot.m",
+      "size": 11326,
+      "checksum": "md5:2ee1a2c766d9060045c6ce7d957acc9c",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_spikeTriggeredPhasePlot.m/content"
+      }
+    },
+    {
+      "id": "bf3c8b80-d64d-4b4f-9a92-d4dda03500c5",
+      "key": "Script_tableOfMHCImaging-2.m",
+      "size": 5581,
+      "checksum": "md5:e7db598ee726a57445d6a48812d77af4",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_tableOfMHCImaging-2.m/content"
+      }
+    },
+    {
+      "id": "47f12b7b-6bdb-4fc8-95c1-98668b632c0d",
+      "key": "Script_tableOfMHCImaging.m",
+      "size": 5581,
+      "checksum": "md5:e7db598ee726a57445d6a48812d77af4",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_tableOfMHCImaging.m/content"
+      }
+    },
+    {
+      "id": "0d897764-80d5-4b35-8ef6-e9fbc417a21c",
+      "key": "Workflow_MHCGal4_pJFRC7_171107_F2_C1_CaImControl-2.m",
+      "size": 4106,
+      "checksum": "md5:ce02cc2ee5f79d0f261fca1659004d6f",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Workflow_MHCGal4_pJFRC7_171107_F2_C1_CaImControl-2.m/content"
+      }
+    },
+    {
+      "id": "c2fe84cb-b678-4a55-a8a2-7c91d3c4c7b3",
+      "key": "Script_estimateInputResistanceFromCurrentPulses-2.m",
+      "size": 2189,
+      "checksum": "md5:e64d314d326f5de35a562e96522d5909",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_estimateInputResistanceFromCurrentPulses-2.m/content"
+      }
+    },
+    {
+      "id": "b421b72c-ff98-4fa3-9a04-a37d5bc83d66",
+      "key": "Workflow_MHCGal4_pJFRC7_171107_F2_C1_CaImControl.m",
+      "size": 4106,
+      "checksum": "md5:ce02cc2ee5f79d0f261fca1659004d6f",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Workflow_MHCGal4_pJFRC7_171107_F2_C1_CaImControl.m/content"
+      }
+    },
+    {
+      "id": "f28866f1-96d2-4c1e-9ea8-04afe1c2ad21",
+      "key": "Copy_of_Figure_creation_scripts-2.xlsx",
+      "size": 7868,
+      "checksum": "md5:e622074f4861df90277a37b80146c509",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Copy_of_Figure_creation_scripts-2.xlsx/content"
+      }
+    },
+    {
+      "id": "cd919ce8-b41f-45ae-b6b6-a682c1377d95",
+      "key": "Copy_of_Figure_creation_scripts.xlsx",
+      "size": 7868,
+      "checksum": "md5:e622074f4861df90277a37b80146c509",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Copy_of_Figure_creation_scripts.xlsx/content"
+      }
+    },
+    {
+      "id": "413d160d-2fad-435e-bb55-a1ab6f5b038a",
+      "key": "Script_estimateInputResistanceFromCurrentPulses.m",
+      "size": 2189,
+      "checksum": "md5:e64d314d326f5de35a562e96522d5909",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_estimateInputResistanceFromCurrentPulses.m/content"
+      }
+    },
+    {
+      "id": "606ff5db-09a5-4985-adab-9019adbf0d10",
+      "key": "Script_forcePerSpike-2.m",
+      "size": 6902,
+      "checksum": "md5:592b556600ecb81bd1ba0f1deeb1e6e7",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_forcePerSpike-2.m/content"
+      }
+    },
+    {
+      "id": "c5d9954c-4c8b-4aa3-ac4c-cb354474aa4b",
+      "key": "Script_forcePerSpikeAndFiringRate-2.m",
+      "size": 4444,
+      "checksum": "md5:8f7f07809be4f96cc64f889c28eec321",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_forcePerSpikeAndFiringRate-2.m/content"
+      }
+    },
+    {
+      "id": "40d6982b-c659-4310-b616-d052d7387b4d",
+      "key": "Script_forcePerSpikeAndFiringRate.m",
+      "size": 4444,
+      "checksum": "md5:8f7f07809be4f96cc64f889c28eec321",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_forcePerSpikeAndFiringRate.m/content"
+      }
+    },
+    {
+      "id": "3ec7afa1-0cd8-41c9-8ed7-e5951aaaf621",
+      "key": "Script_forcePerSpike.m",
+      "size": 6902,
+      "checksum": "md5:592b556600ecb81bd1ba0f1deeb1e6e7",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_forcePerSpike.m/content"
+      }
+    },
+    {
+      "id": "a780585b-a23b-4a45-b322-ed70091bc54c",
+      "key": "Script_forceVsFiringRate-2.m",
+      "size": 2325,
+      "checksum": "md5:d3d61b4ac5adc0e5a4ae796cf2abd794",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_forceVsFiringRate-2.m/content"
+      }
+    },
+    {
+      "id": "d8d6d60c-7c97-4721-beec-95dd0edf3623",
+      "key": "Script_forceVsFiringRate_controlVsMLA-2.m",
+      "size": 4993,
+      "checksum": "md5:a0dbe7cb27a9bf6447cac8c8ad770436",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_forceVsFiringRate_controlVsMLA-2.m/content"
+      }
+    },
+    {
+      "id": "1e4066ed-e4db-4a1d-8a70-b09cc79da655",
+      "key": "Script_forceVsFiringRate_controlVsMLA.m",
+      "size": 4993,
+      "checksum": "md5:a0dbe7cb27a9bf6447cac8c8ad770436",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_forceVsFiringRate_controlVsMLA.m/content"
+      }
+    },
+    {
+      "id": "bbf13980-b8f8-4fed-998a-75ae6ec369e4",
+      "key": "Script_forceVsFiringRate.m",
+      "size": 2325,
+      "checksum": "md5:d3d61b4ac5adc0e5a4ae796cf2abd794",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_forceVsFiringRate.m/content"
+      }
+    },
+    {
+      "id": "3ebac9db-c507-4fdb-8695-28dff2df25c2",
+      "key": "Script_plotExampleTrials-2.m",
+      "size": 5210,
+      "checksum": "md5:ad5c401f23d7da7d1d90d89c441e2075",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_plotExampleTrials-2.m/content"
+      }
+    },
+    {
+      "id": "d619d76c-8637-429e-8097-dd0c27c62a9d",
+      "key": "Script_plotExampleTrials.m",
+      "size": 5210,
+      "checksum": "md5:ad5c401f23d7da7d1d90d89c441e2075",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_plotExampleTrials.m/content"
+      }
+    },
+    {
+      "id": "702f185e-2394-4411-8e71-376e9eb3c76f",
+      "key": "Script_plotSummariesOfBartrials-2.m",
+      "size": 4538,
+      "checksum": "md5:ee81a62827f6f9ea33af26a567d288af",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_plotSummariesOfBartrials-2.m/content"
+      }
+    },
+    {
+      "id": "2d0db228-faf0-4efc-9aab-a9c435a1bdac",
+      "key": "Script_plotSummariesOfBartrials.m",
+      "size": 4538,
+      "checksum": "md5:ee81a62827f6f9ea33af26a567d288af",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_plotSummariesOfBartrials.m/content"
+      }
+    },
+    {
+      "id": "ec2264a6-6549-4a3e-8fd9-6abedca7afb9",
+      "key": "Script_plotTrajectoriesInPhaseSpace-2.m",
+      "size": 4887,
+      "checksum": "md5:01d8ef7bd09e2eae206dc4c2f498dd89",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_plotTrajectoriesInPhaseSpace-2.m/content"
+      }
+    },
+    {
+      "id": "de90f39b-b46f-4d82-9737-41335bdb2b1e",
+      "key": "Script_plotTrajectoriesInPhaseSpace.m",
+      "size": 4887,
+      "checksum": "md5:01d8ef7bd09e2eae206dc4c2f498dd89",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_plotTrajectoriesInPhaseSpace.m/content"
+      }
+    },
+    {
+      "id": "af080ebc-eb80-4b3e-8797-49a1b6727a15",
+      "key": "Script_showAverageFRAcrossCellsForSmallDisplacements-2.m",
+      "size": 6475,
+      "checksum": "md5:d11a2b0eafd818dc556a8d670ea90938",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_showAverageFRAcrossCellsForSmallDisplacements-2.m/content"
+      }
+    },
+    {
+      "id": "990bbaf6-21ef-44c3-9852-46a19d317ae0",
+      "key": "Script_showAverageFRAcrossCellsForSmallDisplacements.m",
+      "size": 6475,
+      "checksum": "md5:d11a2b0eafd818dc556a8d670ea90938",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_showAverageFRAcrossCellsForSmallDisplacements.m/content"
+      }
+    },
+    {
+      "id": "71782d0d-1709-4fe0-8aab-587a6eec7d30",
+      "key": "Script_alignSingleSpikes-2.m",
+      "size": 15973,
+      "checksum": "md5:b3aee13b2b6d022cd00e0359d4eb9c0f",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_alignSingleSpikes-2.m/content"
+      }
+    },
+    {
+      "id": "e29bf43e-b06d-4963-95f2-4af5dc45d411",
+      "key": "Script_alignDoubleSpikes.m",
+      "size": 9492,
+      "checksum": "md5:099fc1589b8867e7b756cb4c1d94c5df",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_alignDoubleSpikes.m/content"
+      }
+    },
+    {
+      "id": "8f6e0d66-4efc-4e4a-9e32-8a963e152c69",
+      "key": "Script_alignDoubleSpikes-2.m",
+      "size": 9492,
+      "checksum": "md5:099fc1589b8867e7b756cb4c1d94c5df",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_alignDoubleSpikes-2.m/content"
+      }
+    },
+    {
+      "id": "d3e6ffb5-7d3c-4055-ae41-5900cf160cf6",
+      "key": "Script_showAverageVmAcrossCellsForOnePositionAndSpeed-2.m",
+      "size": 7637,
+      "checksum": "md5:83cc769ce4abb4f81fe4098a2936ce0d",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_showAverageVmAcrossCellsForOnePositionAndSpeed-2.m/content"
+      }
+    },
+    {
+      "id": "87b2254e-325c-4ec9-9644-75a7fc99549c",
+      "key": "Dataset1_LegCaImaging_MHCDriver-2.m",
+      "size": 2486,
+      "checksum": "md5:7c110c81b62bf03a72983c8d6caf56b0",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Dataset1_LegCaImaging_MHCDriver-2.m/content"
+      }
+    },
+    {
+      "id": "476aa58d-d8ab-462c-839b-3aa513a7c32b",
+      "key": "Script_showAverageVmAcrossCellsForOnePositionAndSpeed.m",
+      "size": 7637,
+      "checksum": "md5:83cc769ce4abb4f81fe4098a2936ce0d",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_showAverageVmAcrossCellsForOnePositionAndSpeed.m/content"
+      }
+    },
+    {
+      "id": "47cfe618-fa25-4ead-aef0-5623f4fd020f",
+      "key": "Script_showSensoryFeedbackPeaksVsAmplitudeAndPosition-2.m",
+      "size": 5555,
+      "checksum": "md5:25b03637fa36fa8d26e2803de8712a52",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_showSensoryFeedbackPeaksVsAmplitudeAndPosition-2.m/content"
+      }
+    },
+    {
+      "id": "daf84504-ad2b-4c1c-ab43-56f4ba9a6817",
+      "key": "README.txt",
+      "size": 2484,
+      "checksum": "md5:8bdb59e4e038d5dbb64fdf9fae4775c1",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/README.txt/content"
+      }
+    },
+    {
+      "id": "249ce052-d46f-4472-b815-c97e261d2cf4",
+      "key": "Plot_ExampleRampsForFigures.m",
+      "size": 6520,
+      "checksum": "md5:c8d9ea2edb9a065414f779119c15f265",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Plot_ExampleRampsForFigures.m/content"
+      }
+    },
+    {
+      "id": "73485e3a-5233-47b2-8c8e-7f84ac32d5bb",
+      "key": "Script_showSensoryFeedbackPeaksVsAmplitudeAndPosition.m",
+      "size": 5555,
+      "checksum": "md5:25b03637fa36fa8d26e2803de8712a52",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_showSensoryFeedbackPeaksVsAmplitudeAndPosition.m/content"
+      }
+    },
+    {
+      "id": "22bded60-b8f0-4682-8f9d-99c047494a5d",
+      "key": "Plot_ExampleRampsForFigures-2.m",
+      "size": 6520,
+      "checksum": "md5:c8d9ea2edb9a065414f779119c15f265",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Plot_ExampleRampsForFigures-2.m/content"
+      }
+    },
+    {
+      "id": "3e1b41ad-2af3-40a1-9255-ce2a60e7d3eb",
+      "key": "Methods_ForceProbeCalibration.m",
+      "size": 2823,
+      "checksum": "md5:9b4dd296960cace3868869f5acbea578",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Methods_ForceProbeCalibration.m/content"
+      }
+    },
+    {
+      "id": "8ef4bcfe-30ed-4d80-aa56-c9ee16ffaacf",
+      "key": "Script_showSensoryFeedbackPeaksVsSpeedAndPosition-2.m",
+      "size": 8929,
+      "checksum": "md5:afc88a48486c88af6330802950a5a40a",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_showSensoryFeedbackPeaksVsSpeedAndPosition-2.m/content"
+      }
+    },
+    {
+      "id": "643616e3-2f8c-4ccf-a5a8-fe83607233ba",
+      "key": "Methods_ForceProbeCalibration-2.m",
+      "size": 2823,
+      "checksum": "md5:9b4dd296960cace3868869f5acbea578",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Methods_ForceProbeCalibration-2.m/content"
+      }
+    },
+    {
+      "id": "4eb4297a-4b7a-4f8b-991e-c4cedb1f0846",
+      "key": "Script_showSensoryFeedbackPeaksVsSpeedAndPosition.m",
+      "size": 8929,
+      "checksum": "md5:afc88a48486c88af6330802950a5a40a",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_showSensoryFeedbackPeaksVsSpeedAndPosition.m/content"
+      }
+    },
+    {
+      "id": "48ce4cf8-548c-49cf-a5bb-57d3a37d2bb3",
+      "key": "Methods_BarRelaxation.m",
+      "size": 14841,
+      "checksum": "md5:0e797fd5efc93c1fdb09ad8bb4bf697a",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Methods_BarRelaxation.m/content"
+      }
+    },
+    {
+      "id": "a969038a-515f-4a49-85e4-84ab222d0c1f",
+      "key": "Methods_BarRelaxation-2.m",
+      "size": 14841,
+      "checksum": "md5:0e797fd5efc93c1fdb09ad8bb4bf697a",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Methods_BarRelaxation-2.m/content"
+      }
+    },
+    {
+      "id": "abe45370-0856-454f-8179-2cdb436bc227",
+      "key": "Figure_creation_scripts.xlsx",
+      "size": 7868,
+      "checksum": "md5:e622074f4861df90277a37b80146c509",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Figure_creation_scripts.xlsx/content"
+      }
+    },
+    {
+      "id": "a0d884c6-2c20-4314-82ca-809ebccdc6a2",
+      "key": "Dataset5_SlowInterFast_iavChR.m",
+      "size": 4262,
+      "checksum": "md5:a723d139a584c209403585056ca0abef",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Dataset5_SlowInterFast_iavChR.m/content"
+      }
+    },
+    {
+      "id": "71325faf-915f-4325-a6f7-e561850e5599",
+      "key": "Dataset5_SlowInterFast_iavChR-2.m",
+      "size": 4262,
+      "checksum": "md5:a723d139a584c209403585056ca0abef",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Dataset5_SlowInterFast_iavChR-2.m/content"
+      }
+    },
+    {
+      "id": "0b788a13-3c55-4eb7-be88-964cfe4a091d",
+      "key": "Dataset3_SlowInterFast_ForcePerSpike.m",
+      "size": 8942,
+      "checksum": "md5:a809aec32a089d17cd2798d6a61e605c",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Dataset3_SlowInterFast_ForcePerSpike.m/content"
+      }
+    },
+    {
+      "id": "3fda2237-34ba-45f3-9071-da2d08d8b6b9",
+      "key": "Dataset3_SlowInterFast_ForcePerSpike-2.m",
+      "size": 8942,
+      "checksum": "md5:a809aec32a089d17cd2798d6a61e605c",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Dataset3_SlowInterFast_ForcePerSpike-2.m/content"
+      }
+    },
+    {
+      "id": "ceba07e2-4dee-4583-bc19-4fbe64a5638d",
+      "key": "Dataset2_SlowInterFast_SpontaneousMovements_paired.m",
+      "size": 4669,
+      "checksum": "md5:bda9f1fcdbd47bab60a2dfe3a0955ddf",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Dataset2_SlowInterFast_SpontaneousMovements_paired.m/content"
+      }
+    },
+    {
+      "id": "068998ee-4979-4667-88c3-16baa6c4309e",
+      "key": "Script_showSpontaneousFRForEachType-2.m",
+      "size": 3606,
+      "checksum": "md5:62b20c444a23671ea4a488fc665f2289",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_showSpontaneousFRForEachType-2.m/content"
+      }
+    },
+    {
+      "id": "93818598-afc0-458c-a5b1-14d392c536ec",
+      "key": "Script_showSpontaneousFRForEachType.m",
+      "size": 3606,
+      "checksum": "md5:62b20c444a23671ea4a488fc665f2289",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_showSpontaneousFRForEachType.m/content"
+      }
+    },
+    {
+      "id": "98216c31-9c36-44c7-abdd-e1a8c832fba8",
+      "key": "Dataset2_SlowInterFast_SpontaneousMovements_paired-2.m",
+      "size": 4669,
+      "checksum": "md5:bda9f1fcdbd47bab60a2dfe3a0955ddf",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Dataset2_SlowInterFast_SpontaneousMovements_paired-2.m/content"
+      }
+    },
+    {
+      "id": "479b428b-cd80-47f2-97e5-89be72a30648",
+      "key": "Dataset2_SlowInterFast_SpontaneousMovements.m",
+      "size": 8390,
+      "checksum": "md5:f01ad1c0bc34c4a97628b325c2bf79ee",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Dataset2_SlowInterFast_SpontaneousMovements.m/content"
+      }
+    },
+    {
+      "id": "38698a28-0952-43a3-91eb-ff0fcddd07ae",
+      "key": "Script_showVmForEachType-2.m",
+      "size": 2412,
+      "checksum": "md5:824a9db145f97c6b1ce44804883281d2",
+      "links": {
+        "self": "https://zenodo.org/api/records/4527659/files/Script_showVmForEachType-2.m/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "90070"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 1868,
+    "unique_downloads": 1757,
+    "views": 67,
+    "unique_views": 67,
+    "version_downloads": 1868,
+    "version_unique_downloads": 1757,
+    "version_unique_views": 67,
+    "version_views": 67
+  },
+  "state": "done",
+  "submitted": true
+}

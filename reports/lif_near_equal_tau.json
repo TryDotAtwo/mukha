@@ -1,0 +1,66 @@
+{
+  "passed": true,
+  "reference": "80-digit ODE integral",
+  "cases": [
+    {
+      "case": "equal",
+      "dt_ms": 0.1,
+      "membrane_ms": 20.0,
+      "synapse_ms": 20.0,
+      "coefficient": 0.004975062395963412,
+      "reference": 0.004975062395963412,
+      "absolute_error": 0.0,
+      "checkpoint_semantic_tag_required": false
+    },
+    {
+      "case": "next_float_up",
+      "dt_ms": 0.1,
+      "membrane_ms": 20.0,
+      "synapse_ms": 20.000000000000004,
+      "coefficient": 0.004975062395963412,
+      "reference": 0.004975062395963412,
+      "absolute_error": 0.0,
+      "checkpoint_semantic_tag_required": true
+    },
+    {
+      "case": "next_float_down",
+      "dt_ms": 0.1,
+      "membrane_ms": 20.0,
+      "synapse_ms": 19.999999999999996,
+      "coefficient": 0.004975062395963412,
+      "reference": 0.004975062395963412,
+      "absolute_error": 0.0,
+      "checkpoint_semantic_tag_required": true
+    },
+    {
+      "case": "near_up",
+      "dt_ms": 0.1,
+      "membrane_ms": 20.0,
+      "synapse_ms": 20.000001,
+      "coefficient": 0.004975062396585295,
+      "reference": 0.004975062396585295,
+      "absolute_error": 0.0,
+      "checkpoint_semantic_tag_required": true
+    },
+    {
+      "case": "near_down",
+      "dt_ms": 0.1,
+      "membrane_ms": 20.0,
+      "synapse_ms": 19.999999,
+      "coefficient": 0.004975062395341529,
+      "reference": 0.004975062395341529,
+      "absolute_error": 0.0,
+      "checkpoint_semantic_tag_required": true
+    },
+    {
+      "case": "ordinary",
+      "dt_ms": 0.1,
+      "membrane_ms": 20.0,
+      "synapse_ms": 5.0,
+      "coefficient": 0.004937935295309022,
+      "reference": 0.004937935295309004,
+      "absolute_error": 1.8214596497756474e-17,
+      "checkpoint_semantic_tag_required": false
+    }
+  ]
+}

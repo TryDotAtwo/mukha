@@ -1,0 +1,35 @@
+{
+  "scope": "Five-neuron native CUDA replay only; no full-graph validation",
+  "library_sha256": "7ec96c45ff1bfe50d9a428e3d0d6f0a9fa2f6633ba46bd576f3a477799e8ff2c",
+  "checks": [
+    {
+      "tool": "memcheck",
+      "exit_code": 0,
+      "log": "reports/cuda_memcheck.log",
+      "log_sha256": "3ef41833580c07952672569330729d3a908130c68e7a514d721c5b0a3ddbd7d6",
+      "passed": true
+    },
+    {
+      "tool": "initcheck",
+      "exit_code": 0,
+      "log": "reports/cuda_initcheck.log",
+      "log_sha256": "adba10db853bd67fe9009b776eefe7b61210d2cbe3eee029ba6fa188978b5832",
+      "passed": true
+    },
+    {
+      "tool": "racecheck",
+      "exit_code": 0,
+      "log": "reports/cuda_racecheck.log",
+      "log_sha256": "c69d09b31a66173faf98f267db57c7eb988035ce364fa0f0f184ffc933c541a7",
+      "passed": true
+    },
+    {
+      "tool": "synccheck",
+      "exit_code": 0,
+      "log": "reports/cuda_synccheck.log",
+      "log_sha256": "adba10db853bd67fe9009b776eefe7b61210d2cbe3eee029ba6fa188978b5832",
+      "passed": true
+    }
+  ],
+  "passed": true
+}

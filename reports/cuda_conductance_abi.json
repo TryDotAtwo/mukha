@@ -1,0 +1,40 @@
+{
+  "scope": "Two-cell numerical ABI verification, not full MaleCNS or receptor validation",
+  "dll_sha256": "6262a8ce147b065f5dbe17e22e29cf6d3cfd692ac4488dd68425726c945ac32b",
+  "source_sha256": "7c67c8e964e730d172498693009e421bbf70d527b55a8679da0eab78c2e6a055",
+  "cases": [
+    {
+      "name": "zero",
+      "receiver_voltage_tick_5_mv": -52.0,
+      "receiver_exc_state_tick_2": 0.0,
+      "receiver_inh_state_tick_2": 0.0,
+      "cpu_max_abs_error": 0.0,
+      "chunk_equivalence": true
+    },
+    {
+      "name": "excitatory",
+      "receiver_voltage_tick_5_mv": -51.8484424243956,
+      "receiver_exc_state_tick_2": 0.2,
+      "receiver_inh_state_tick_2": 0.0,
+      "cpu_max_abs_error": 0.0,
+      "chunk_equivalence": true
+    },
+    {
+      "name": "inhibitory",
+      "receiver_voltage_tick_5_mv": -52.052462237709214,
+      "receiver_exc_state_tick_2": 0.0,
+      "receiver_inh_state_tick_2": 0.2,
+      "cpu_max_abs_error": 0.0,
+      "chunk_equivalence": true
+    },
+    {
+      "name": "mixed",
+      "receiver_voltage_tick_5_mv": -51.95045233105241,
+      "receiver_exc_state_tick_2": 0.1,
+      "receiver_inh_state_tick_2": 0.1,
+      "cpu_max_abs_error": 0.0,
+      "chunk_equivalence": true
+    }
+  ],
+  "passed": true
+}

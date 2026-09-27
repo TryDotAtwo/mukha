@@ -1,0 +1,88 @@
+# Quantitative visual reference acquisition
+
+## Native calibration arithmetic
+
+`native/visual_calibration_math.h` implements the methods' dimensionless capture
+transform `log((q + 0.001) / 1.001)` and equation 9's per-cell weighted normalized
+dot product. This score is uncentered; replacing it with centered Pearson
+correlation changes the fitting objective. The total paper loss negates and sums
+these per-cell scores; the header does not yet implement fitting or that grouping.
+
+`tools/build_visual_calibration_probe.cmd` builds the C++ FP64 diagnostic;
+`tools/check_visual_calibration_math.py` compares it independently against PyTorch.
+Seven capture points, a nonuniform weighted case, the same case scaled to 1e300,
+and four invalid cases pass. The observed errors for these cases are zero.
+This limited arithmetic result does not establish full biological replication.
+Zero weighted norms are undefined and rejected; missing observations are never
+silently replaced by zeros. See `reports/visual_calibration_math.json`.
+
+The explicit transform in the paper supports an interpretation of negative
+stored inputs as transformed captures, but the Parquet export path has not been
+recovered. Inverting those values does not prove their identity or yield absolute
+photons/s. Rh1 handling and background calibration remain unresolved.
+
+## Exploratory calibration partition
+
+`tools/prepare_visual_calibration_split.py` fixes a response-independent split:
+3,772 calibration rows, 913 held-out rows, and all 1,520 TeNT rows reserved for
+perturbation evaluation. The five input float64 values jointly identify a
+stimulus; identical tuples never cross calibration/holdout even across cell
+types. Original values and source row numbers are preserved in
+`data/derived/chreyesees_calibration_v1/observations.feather` with a hashed manifest.
+An independent tuple join verifies disjointness, beyond checking hash labels.
+
+This is a new exploratory partition, not a reconstruction of manuscript gamut
+selection. Nearby stimuli can cross partitions; animal identities are absent.
+Input columns include negative values and must not be interpreted as photon
+rates. No fitting has been performed. These restrictions remain explicit in
+`reports/visual_calibration_split.json`.
+
+The publisher supplementary PDF is pinned in
+`reports/chreyesees_supplement_source.json`; its Table 23 lists genotypes,
+not the fitted numerical parameters sought here.
+
+[Christenson et al., 2024](https://www.nature.com/articles/s41593-024-01640-4)
+links processed responses and analysis code at
+https://gitlab.com/rbehnialab/chreyesees. This is a separate reference experiment,
+not a replacement for the full MaleCNS graph.
+
+`tools/fetch_chreyesees_reference.py` pins commit
+`91cf92581d2abaea72b96a994d69ed6d83ae05f9`, retains the MIT license, excludes
+bytecode/cache files, and bounds downloads to 32 MiB per file and 100 MiB total.
+The completed acquisition contains 73 files, 1,157,284 bytes. No author code was
+installed or executed. Per-file hashes are in `reports/chreyesees_sources.json`.
+
+`tools/audit_chreyesees_data.py` verified every acquired file and inspected the
+processed Parquet: 6,205 rows, 14 cell-condition labels, no missing/nonfinite
+values and no duplicated full rows. There are **no Dm9 observations** in this
+table. Absence does not imply zero activity. Rh1/Rh3/Rh4/Rh5/Rh6 input columns
+and the response `r` need unit and normalization reconciliation before fitting.
+
+`chreyesees/paccman.py` includes recurrent update functions and a Circuit class.
+Their presence does not establish that trained parameters, experimental splits,
+or the exact manuscript fitting pipeline are complete. Next: reconstruct that
+protocol, identify unavailable artifacts, and compare published control and
+perturbation responses before considering any MaleCNS transfer.
+
+## Equation reconciliation
+
+`tools/check_chreyesees_equations.py` executes only inspected `tanh_like` and
+`step_forward` AST definitions, after checking the pinned source hash. No package
+initialization or database access occurs. Independent NumPy FP64 calculations
+agree within 2.23e-16 for the nonlinearity and 1.23e-15 for the recurrent step.
+These are synthetic arithmetic tests, not fits to biological observations.
+
+The source uses `r0 = -gamma` relative to manuscript equation 5, and adds 1e-6
+to its denominator. The tested deviation from the literal paper equation is
+up to 4.48e-7. `step_forward` applies an offset outside gain and adds the
+nonlinearity of that offset to preserve zero baseline. It must not be silently
+identified with a different manuscript parameterization.
+
+The author `Circuit` uses Anderson fixed-point solving. Its default tolerance
+is 1e-3 in relative mode; the paper states a threshold below 1e-4. The exact
+experiment's overrides must be recovered. This solver does not establish
+biological time constants or a valid stateful integration scheme. The acquired
+processed table also lacks the gamut-selection flags generated by `together.py`;
+using all rows as the manuscript training set is not yet justified.
+
+The publisher Extended Data 7 ZIP (42,785,059 bytes, hash pinned in reports/chreyesees_extended7_source.json) contains one Parquet with 441,331 rows. Its schema contains LED inputs, SNR, cell condition, and 100 time samples from -500 to 1975 ms; it does not supply the sought named fitted weight matrix. Audit found 43,506 rows with all 100 samples and 397,825 rows with no finite time samples. Four TeNT conditions are present. Missing rows remain missing; they are not zero activity. See tools/audit_chreyesees_extended7.py and reports/chreyesees_extended7_audit.json. Recording identities, units, and stimulus normalization require reconciliation before these traces can serve as a biological target.

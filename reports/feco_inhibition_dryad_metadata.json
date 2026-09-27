@@ -1,0 +1,270 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.gqnk98t16"
+    },
+    "stash:versions": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.gqnk98t16/versions"
+    },
+    "stash:version": {
+      "href": "/api/v2/versions/393607"
+    },
+    "stash:download": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.gqnk98t16/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "identifier": "doi:10.5061/dryad.gqnk98t16",
+  "id": 165865,
+  "storageSize": 2681237845,
+  "relatedPublicationISSN": "0028-0836",
+  "title": "Data from: Selective presynaptic inhibition of leg proprioception in behaving <em>Drosophila</em>",
+  "authors": [
+    {
+      "firstName": "Chris",
+      "lastName": "Dallmann",
+      "email": "chris.dallmann@uni-wuerzburg.de",
+      "affiliation": "University of W\u00fcrzburg",
+      "affiliationROR": "https://ror.org/00fbnyb24",
+      "affiliations": [
+        {
+          "name": "University of Washington",
+          "ror_id": "https://ror.org/00cvxb145"
+        },
+        {
+          "name": "University of W\u00fcrzburg",
+          "ror_id": "https://ror.org/00fbnyb24"
+        }
+      ],
+      "orcid": "0000-0002-4944-920X"
+    },
+    {
+      "firstName": "Yichen",
+      "lastName": "Luo",
+      "email": "",
+      "affiliation": "University of Washington",
+      "affiliationROR": "https://ror.org/00cvxb145",
+      "affiliations": [
+        {
+          "name": "University of Washington",
+          "ror_id": "https://ror.org/00cvxb145"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "firstName": "Sweta",
+      "lastName": "Agrawal",
+      "email": "",
+      "affiliation": "University of Washington",
+      "affiliationROR": "https://ror.org/00cvxb145",
+      "affiliations": [
+        {
+          "name": "University of Washington",
+          "ror_id": "https://ror.org/00cvxb145"
+        },
+        {
+          "name": "Virginia Tech",
+          "ror_id": "https://ror.org/02smfhw86"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "firstName": "Akira",
+      "lastName": "Mamiya",
+      "email": "",
+      "affiliation": "University of Washington",
+      "affiliationROR": "https://ror.org/00cvxb145",
+      "affiliations": [
+        {
+          "name": "University of Washington",
+          "ror_id": "https://ror.org/00cvxb145"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "firstName": "Grant",
+      "lastName": "Chou",
+      "email": "",
+      "affiliation": "University of Washington",
+      "affiliationROR": "https://ror.org/00cvxb145",
+      "affiliations": [
+        {
+          "name": "University of Washington",
+          "ror_id": "https://ror.org/00cvxb145"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "firstName": "Andrew",
+      "lastName": "Cook",
+      "email": "",
+      "affiliation": "University of Washington",
+      "affiliationROR": "https://ror.org/00cvxb145",
+      "affiliations": [
+        {
+          "name": "University of Washington",
+          "ror_id": "https://ror.org/00cvxb145"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "firstName": "Anne",
+      "lastName": "Sustar",
+      "email": "",
+      "affiliation": "University of Washington",
+      "affiliationROR": "https://ror.org/00cvxb145",
+      "affiliations": [
+        {
+          "name": "University of Washington",
+          "ror_id": "https://ror.org/00cvxb145"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "firstName": "Bingni",
+      "lastName": "Brunton",
+      "email": "",
+      "affiliation": "University of Washington",
+      "affiliationROR": "https://ror.org/00cvxb145",
+      "affiliations": [
+        {
+          "name": "University of Washington",
+          "ror_id": "https://ror.org/00cvxb145"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "firstName": "John",
+      "lastName": "Tuthill",
+      "email": "tuthill@uw.edu",
+      "affiliation": "University of Washington",
+      "affiliationROR": "https://ror.org/00cvxb145",
+      "affiliations": [
+        {
+          "name": "University of Washington",
+          "ror_id": "https://ror.org/00cvxb145"
+        }
+      ],
+      "orcid": "0000-0002-5689-5806",
+      "order": 8
+    }
+  ],
+  "abstract": "<p>Controlling arms and legs requires feedback from proprioceptive sensory neurons that detect joint position and movement. Proprioceptive feedback must be tuned for different behavioral contexts, but the underlying circuit mechanisms remain poorly understood. Using calcium imaging in behaving <em>Drosophila</em>, we find that the axons of position-encoding leg proprioceptors are active across a range of behaviors, whereas the axons of movement-encoding leg proprioceptors are suppressed during walking and grooming. Using connectomics, we identify a specific class of interneurons that provide GABAergic presynaptic inhibition to the axons of movement-encoding proprioceptors. These interneurons receive input from parallel excitatory and inhibitory descending pathways that are positioned to drive the interneurons in a context- and leg-specific manner. Calcium imaging from both the interneurons and their descending inputs confirms that their activity is correlated with self-generated but not passive leg movements. Taken together, our findings\u00a0provide evidence for a neural circuit that suppresses specific proprioceptive feedback\u00a0signals during self-generated movements.</p>\n<p>This dataset contains the calcium imaging and behavioral data generated in the study, as well as supporting RNA-seq and connectome data.</p>\n",
+  "funders": [
+    {
+      "organization": "Deutsche Forschungsgemeinschaft",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/018mejw64",
+      "awardNumber": "432196121",
+      "awardDescription": "",
+      "awardTitle": "",
+      "order": 0
+    },
+    {
+      "organization": "National Institutes of Health",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01cwqze88",
+      "awardNumber": "K99NS117657",
+      "awardDescription": "",
+      "awardTitle": "",
+      "order": 1
+    },
+    {
+      "organization": "National Institutes of Health",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01cwqze88",
+      "awardNumber": "R01NS102333",
+      "awardDescription": "",
+      "awardTitle": "",
+      "order": 2
+    },
+    {
+      "organization": "National Institute of Neurological Disorders and Stroke",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01s5ya894",
+      "awardNumber": "5U19NS104655-05",
+      "awardURI": "https://reporter.nih.gov/project-details/10202757",
+      "awardDescription": "",
+      "awardTitle": "A Brain Circuit Program for Understanding the Sensorimotor Basis of Behavior",
+      "order": 3
+    }
+  ],
+  "keywords": [
+    "Motor system",
+    "Proprioception",
+    "Drosophila",
+    "Calcium imaging",
+    "Connectomics"
+  ],
+  "fieldOfScience": "Biological sciences",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.1038/s41586-025-09554-2"
+    }
+  ],
+  "versionNumber": 5,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2025-09-03",
+  "lastModificationDate": "2025-09-03",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.gqnk98t16",
+  "changedFields": [
+    "manuscript",
+    "title",
+    "authors",
+    [
+      {
+        "index": 0,
+        "affiliation": "University of Washington",
+        "affiliationROR": "https://ror.org/00cvxb145"
+      }
+    ],
+    "abstract",
+    "funders",
+    [
+      {
+        "index": 1,
+        "name": "National Institutes of Health",
+        "award": "K99NS117657",
+        "title": ""
+      },
+      {
+        "index": 2,
+        "name": "National Institutes of Health"
+      }
+    ],
+    "related_identifiers",
+    [
+      {
+        "index": 0,
+        "id": "https://doi.org/10.1038/s41586-025-09554-2",
+        "type": "primary_article",
+        "relation": "iscitedby"
+      }
+    ],
+    "data_files"
+  ],
+  "license": "https://spdx.org/licenses/CC0-1.0.html",
+  "metrics": {
+    "views": 55,
+    "downloads": 5,
+    "citations": 1
+  }
+}

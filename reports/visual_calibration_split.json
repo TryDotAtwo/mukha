@@ -1,0 +1,152 @@
+{
+  "source_sha256": "f6524b03d81ef0b20d01e5a8b58b1a3861f893f1f9fce6bad9a4718007d6731c",
+  "output_sha256": "b052dc4115371da27bdb6715ade6360e7a241dfe67c9f2eb76587948ad0c9c42",
+  "split_counts": {
+    "calibration": 3772,
+    "holdout": 913,
+    "perturbation": 1520
+  },
+  "salt": "faithful-fly-visual-calibration-v1\\0",
+  "rule": "SHA256(salt + five little-endian float64 inputs); first 64 bits modulo 5 == 0 is holdout",
+  "exact_stimulus_overlap_train_holdout": 0,
+  "all_perturbations_excluded_from_calibration": true,
+  "original_values_preserved": true,
+  "split_independent_of_responses": true,
+  "cell_split_counts": [
+    {
+      "cell_type": "Tm20",
+      "split": "calibration",
+      "rows": 461
+    },
+    {
+      "cell_type": "Tm20",
+      "split": "holdout",
+      "rows": 114
+    },
+    {
+      "cell_type": "Tm20-Tnt",
+      "split": "perturbation",
+      "rows": 295
+    },
+    {
+      "cell_type": "Tm5a",
+      "split": "calibration",
+      "rows": 517
+    },
+    {
+      "cell_type": "Tm5a",
+      "split": "holdout",
+      "rows": 129
+    },
+    {
+      "cell_type": "Tm5a-TnT",
+      "split": "perturbation",
+      "rows": 505
+    },
+    {
+      "cell_type": "Tm5b",
+      "split": "calibration",
+      "rows": 601
+    },
+    {
+      "cell_type": "Tm5b",
+      "split": "holdout",
+      "rows": 132
+    },
+    {
+      "cell_type": "Tm5b-GCaMP-TNT",
+      "split": "perturbation",
+      "rows": 449
+    },
+    {
+      "cell_type": "Tm5c",
+      "split": "calibration",
+      "rows": 394
+    },
+    {
+      "cell_type": "Tm5c",
+      "split": "holdout",
+      "rows": 96
+    },
+    {
+      "cell_type": "Tm5c-Tnt",
+      "split": "perturbation",
+      "rows": 271
+    },
+    {
+      "cell_type": "pDm8",
+      "split": "calibration",
+      "rows": 381
+    },
+    {
+      "cell_type": "pDm8",
+      "split": "holdout",
+      "rows": 98
+    },
+    {
+      "cell_type": "pR7",
+      "split": "calibration",
+      "rows": 307
+    },
+    {
+      "cell_type": "pR7",
+      "split": "holdout",
+      "rows": 66
+    },
+    {
+      "cell_type": "pR8",
+      "split": "calibration",
+      "rows": 295
+    },
+    {
+      "cell_type": "pR8",
+      "split": "holdout",
+      "rows": 72
+    },
+    {
+      "cell_type": "yDm8",
+      "split": "calibration",
+      "rows": 200
+    },
+    {
+      "cell_type": "yDm8",
+      "split": "holdout",
+      "rows": 45
+    },
+    {
+      "cell_type": "yR7",
+      "split": "calibration",
+      "rows": 192
+    },
+    {
+      "cell_type": "yR7",
+      "split": "holdout",
+      "rows": 49
+    },
+    {
+      "cell_type": "yR8",
+      "split": "calibration",
+      "rows": 424
+    },
+    {
+      "cell_type": "yR8",
+      "split": "holdout",
+      "rows": 112
+    }
+  ],
+  "negative_input_values": {
+    "rh1": 0,
+    "rh3": 1065,
+    "rh4": 129,
+    "rh5": 552,
+    "rh6": 673
+  },
+  "limitations": [
+    "Not manuscript gamut selection",
+    "Not an animal-independent split: identities unavailable",
+    "Only exact stimulus equality grouped; nearby stimuli may cross partitions",
+    "Input transformation unresolved; columns are not validated photon rates"
+  ],
+  "fitting_performed": false,
+  "biological_validation_passed": false
+}

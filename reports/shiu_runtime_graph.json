@@ -1,0 +1,39 @@
+{
+  "format": "flyrocket.shiu-author-csr.v1",
+  "repository": "philshiu/Drosophila_brain_model",
+  "commit": "91bdd1e7dcf193f3e7ca5a8933497fcef63b7960",
+  "nodes": 127400,
+  "edges": 14687178,
+  "orientation": "row=post; columns=pre",
+  "signed_weight_rule": "original signed synapse count * 0.275 mV",
+  "duplicate_pair_rows": 0,
+  "source_rows_preserved": true,
+  "source_lock_sha256": "fc79b18eab3d2937a58345bfcdf546107cd6f171196dc707027fd1dd8b9dd136",
+  "files": {
+    "body_ids.npy": {
+      "bytes": 1019328,
+      "sha256": "f3147dcea7e17a2c2acc05d716ee2e9fe278b0f60335afbf6094e48ef56b6571"
+    },
+    "indices.npy": {
+      "bytes": 58748840,
+      "sha256": "e1ce5f4cd9bfacd744f961ebb9d8227817640cc8b937a75eee2494305084e24d"
+    },
+    "indptr.npy": {
+      "bytes": 1019336,
+      "sha256": "3e8050ebdcc51f4e4a84b1eb5fc94d100ce09105d864c43dbaa406318598de20"
+    },
+    "signed_synapse_counts.npy": {
+      "bytes": 117497552,
+      "sha256": "f5d8d28a537ad64c781ae37644cc4c82445d319e39a451e24d61ae6a44426f2c"
+    },
+    "source_rows.npy": {
+      "bytes": 117497552,
+      "sha256": "1b294a6319a5383baf470209c197c1ea954f522ef66efdf9b673658d29b21dfe"
+    },
+    "weights_mv.npy": {
+      "bytes": 58748840,
+      "sha256": "50b0fb0022e8f59a133a0495a15db02a25306ba05b9766a795ee380e595b1f31"
+    }
+  },
+  "scope": "original author graph only; biological experiments not yet run; no MaleCNS sign assignment"
+}

@@ -1,0 +1,15 @@
+{
+  "scope": "Author FAFB Mi1 row indices matched to another specimen microCT; not MaleCNS IDs",
+  "source_lock_sha256": "b1bc72bae13056e81da94a1aa7bfe2a9cbdc305516aa3df40c8f4d06239a0c84",
+  "matched_rows": 778,
+  "right_lenses": 852,
+  "unmatched_right_lenses": 74,
+  "author_Mi1_rows": 779,
+  "unmatched_author_Mi1_rows": 1,
+  "synthetic_boundary_rows_excluded": 39,
+  "ray_order_max_abs_error": 0.0,
+  "output_sha256": "c0c075b092d7e05b2a0bb77c740a9e5879ca31d790f0e13d8aab9d64430a9dcb",
+  "enabled": false,
+  "passed": true,
+  "limitation": "No cross-dataset landmarks or body registration established; row indices are not neuron identities"
+}

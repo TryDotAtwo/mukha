@@ -1,0 +1,362 @@
+{
+  "scope": "Nearest known PAM chemical-output site to KC->MBON contact in same broad gL ROI; no release-range model or accepted compartment assignment",
+  "source_generation": "1780494942562468",
+  "pam_parquet_sha256": "c1c8ac39328bf9b35d90ffcebaca973c91b310d185b843a4e7e9702ac3af5a5b",
+  "kc_mbon_parquet_sha256": "b5855ebd789e7d8d8b9407136de1f8eb85dc2fd36af8afb70545d6e87a8f06d9",
+  "coordinate_unit": "published 8-nm voxel indices; distances reported in voxels",
+  "targets": [
+    {
+      "target_body_id": 10495,
+      "target_instance": "MBON05(y4>y1y2)_R",
+      "roi": "gL(L)",
+      "kc_contacts": 18753,
+      "pam_output_rows": {
+        "PAM08_y4": 23817,
+        "PAM07_y4_y1y2": 8063,
+        "PAM01_y5_control": 15264
+      },
+      "pam_unique_output_sites": {
+        "PAM08_y4": 5089,
+        "PAM07_y4_y1y2": 1624,
+        "PAM01_y5_control": 3403
+      },
+      "nearest_distance_voxels": {
+        "PAM08_y4": {
+          "p10": 46.501612079890954,
+          "median": 98.81801455200362,
+          "p90": 191.61731344114776
+        },
+        "PAM07_y4_y1y2": {
+          "p10": 76.94933393633083,
+          "median": 154.23034720832342,
+          "p90": 294.0088406644672
+        },
+        "PAM01_y5_control": {
+          "p10": 291.70908677962143,
+          "median": 1179.4549588687141,
+          "p90": 2407.568856675082
+        }
+      },
+      "fraction_pam08_y4_nearer_than_pam01_y5": 0.9659787767290566,
+      "kc_cells_with_contacts": 801,
+      "fraction_kc_cells_median_y4_nearer": 1.0,
+      "equal_site_count_per_group": 3403,
+      "balanced_site_fraction_y4_nearer_seeds_0_to_9": [
+        0.9596864501679732,
+        0.960539646989815,
+        0.9620860662294033,
+        0.9585666293393057,
+        0.9600063989761638,
+        0.9608595957980056,
+        0.959153202154322,
+        0.9615528182157521,
+        0.9607529461952754,
+        0.9588332533461312
+      ],
+      "fraction_equal_distance": 0.0
+    },
+    {
+      "target_body_id": 519128,
+      "target_instance": "MBON27(y5d)_L",
+      "roi": "gL(L)",
+      "kc_contacts": 2301,
+      "pam_output_rows": {
+        "PAM08_y4": 23817,
+        "PAM07_y4_y1y2": 8063,
+        "PAM01_y5_control": 15264
+      },
+      "pam_unique_output_sites": {
+        "PAM08_y4": 5089,
+        "PAM07_y4_y1y2": 1624,
+        "PAM01_y5_control": 3403
+      },
+      "nearest_distance_voxels": {
+        "PAM08_y4": {
+          "p10": 53.749418601506754,
+          "median": 123.00406497347964,
+          "p90": 452.00442475710344
+        },
+        "PAM07_y4_y1y2": {
+          "p10": 89.74408058473828,
+          "median": 223.13000694662293,
+          "p90": 932.0606203461232
+        },
+        "PAM01_y5_control": {
+          "p10": 61.22907805936653,
+          "median": 325.65626049563366,
+          "p90": 3044.306324928554
+        }
+      },
+      "fraction_pam08_y4_nearer_than_pam01_y5": 0.6653628857018687,
+      "kc_cells_with_contacts": 283,
+      "fraction_kc_cells_median_y4_nearer": 0.6501766784452296,
+      "equal_site_count_per_group": 3403,
+      "balanced_site_fraction_y4_nearer_seeds_0_to_9": [
+        0.6475445458496306,
+        0.6445023902651021,
+        0.6484137331594959,
+        0.6488483268144285,
+        0.6484137331594959,
+        0.6414602346805737,
+        0.6353759235115167,
+        0.6484137331594959,
+        0.6484137331594959,
+        0.6375488917861799
+      ],
+      "fraction_equal_distance": 0.0
+    },
+    {
+      "target_body_id": 519371,
+      "target_instance": "MBON05(y4>y1y2)_L",
+      "roi": "gL(L)",
+      "kc_contacts": 488,
+      "pam_output_rows": {
+        "PAM08_y4": 23817,
+        "PAM07_y4_y1y2": 8063,
+        "PAM01_y5_control": 15264
+      },
+      "pam_unique_output_sites": {
+        "PAM08_y4": 5089,
+        "PAM07_y4_y1y2": 1624,
+        "PAM01_y5_control": 3403
+      },
+      "nearest_distance_voxels": {
+        "PAM08_y4": {
+          "p10": 44.26500448369525,
+          "median": 89.87400800504663,
+          "p90": 141.42241688422337
+        },
+        "PAM07_y4_y1y2": {
+          "p10": 63.670019048470756,
+          "median": 124.27785178698768,
+          "p90": 196.5912319402809
+        },
+        "PAM01_y5_control": {
+          "p10": 322.84468929909144,
+          "median": 662.8148446329794,
+          "p90": 2311.5493776112125
+        }
+      },
+      "fraction_pam08_y4_nearer_than_pam01_y5": 1.0,
+      "kc_cells_with_contacts": 278,
+      "fraction_kc_cells_median_y4_nearer": 1.0,
+      "equal_site_count_per_group": 3403,
+      "balanced_site_fraction_y4_nearer_seeds_0_to_9": [
+        1.0,
+        0.9938524590163934,
+        0.9938524590163934,
+        1.0,
+        0.9938524590163934,
+        0.9938524590163934,
+        1.0,
+        1.0,
+        1.0,
+        0.9897540983606558
+      ],
+      "fraction_equal_distance": 0.0
+    },
+    {
+      "target_body_id": 520151,
+      "target_instance": "MBON01(y5B'2a)_L",
+      "roi": "gL(L)",
+      "kc_contacts": 17068,
+      "pam_output_rows": {
+        "PAM08_y4": 23817,
+        "PAM07_y4_y1y2": 8063,
+        "PAM01_y5_control": 15264
+      },
+      "pam_unique_output_sites": {
+        "PAM08_y4": 5089,
+        "PAM07_y4_y1y2": 1624,
+        "PAM01_y5_control": 3403
+      },
+      "nearest_distance_voxels": {
+        "PAM08_y4": {
+          "p10": 211.009715390993,
+          "median": 787.525553563825,
+          "p90": 1631.89288860515
+        },
+        "PAM07_y4_y1y2": {
+          "p10": 345.4049617138206,
+          "median": 1025.267769760007,
+          "p90": 1852.8618118137265
+        },
+        "PAM01_y5_control": {
+          "p10": 54.73298806454578,
+          "median": 101.54555601034077,
+          "p90": 156.8247429457482
+        }
+      },
+      "fraction_pam08_y4_nearer_than_pam01_y5": 0.04259432856808062,
+      "kc_cells_with_contacts": 833,
+      "fraction_kc_cells_median_y4_nearer": 0.0,
+      "equal_site_count_per_group": 3403,
+      "balanced_site_fraction_y4_nearer_seeds_0_to_9": [
+        0.03755565971408484,
+        0.03568080618701664,
+        0.03708694633231779,
+        0.039313334895711274,
+        0.036032341223341924,
+        0.03609093039606281,
+        0.03614951956878369,
+        0.03773142723224748,
+        0.03655964377782986,
+        0.03509491445980783
+      ],
+      "fraction_equal_distance": 0.0
+    },
+    {
+      "target_body_id": 10013,
+      "target_instance": "MBON01(y5B'2a)_R",
+      "roi": "gL(R)",
+      "kc_contacts": 11399,
+      "pam_output_rows": {
+        "PAM08_y4": 17934,
+        "PAM07_y4_y1y2": 6103,
+        "PAM01_y5_control": 10186
+      },
+      "pam_unique_output_sites": {
+        "PAM08_y4": 3872,
+        "PAM07_y4_y1y2": 1245,
+        "PAM01_y5_control": 2328
+      },
+      "nearest_distance_voxels": {
+        "PAM08_y4": {
+          "p10": 170.97251183429663,
+          "median": 631.4000316756407,
+          "p90": 1581.2881457333501
+        },
+        "PAM07_y4_y1y2": {
+          "p10": 271.3072032406714,
+          "median": 861.1858103800829,
+          "p90": 1910.8252104461349
+        },
+        "PAM01_y5_control": {
+          "p10": 53.929582570072604,
+          "median": 104.54185764563398,
+          "p90": 171.64731276160015
+        }
+      },
+      "fraction_pam08_y4_nearer_than_pam01_y5": 0.08141065005702254,
+      "kc_cells_with_contacts": 816,
+      "fraction_kc_cells_median_y4_nearer": 0.06985294117647059,
+      "equal_site_count_per_group": 2328,
+      "balanced_site_fraction_y4_nearer_seeds_0_to_9": [
+        0.0702693218703395,
+        0.06912887095359242,
+        0.07079568383191508,
+        0.07018159487674358,
+        0.06711115010088604,
+        0.06886568997280464,
+        0.06763751206246162,
+        0.069655232915168,
+        0.06912887095359242,
+        0.06869023598561277
+      ],
+      "fraction_equal_distance": 0.0
+    },
+    {
+      "target_body_id": 515034,
+      "target_instance": "MBON27(y5d)_R",
+      "roi": "gL(R)",
+      "kc_contacts": 1645,
+      "pam_output_rows": {
+        "PAM08_y4": 17934,
+        "PAM07_y4_y1y2": 6103,
+        "PAM01_y5_control": 10186
+      },
+      "pam_unique_output_sites": {
+        "PAM08_y4": 3872,
+        "PAM07_y4_y1y2": 1245,
+        "PAM01_y5_control": 2328
+      },
+      "nearest_distance_voxels": {
+        "PAM08_y4": {
+          "p10": 57.906811819491345,
+          "median": 130.6789960169575,
+          "p90": 442.4552677898576
+        },
+        "PAM07_y4_y1y2": {
+          "p10": 92.89994165172904,
+          "median": 264.1325424857755,
+          "p90": 898.9110929978818
+        },
+        "PAM01_y5_control": {
+          "p10": 57.88609443017888,
+          "median": 159.76858264377262,
+          "p90": 3074.16001192703
+        }
+      },
+      "fraction_pam08_y4_nearer_than_pam01_y5": 0.6109422492401215,
+      "kc_cells_with_contacts": 213,
+      "fraction_kc_cells_median_y4_nearer": 0.5915492957746479,
+      "equal_site_count_per_group": 2328,
+      "balanced_site_fraction_y4_nearer_seeds_0_to_9": [
+        0.5750759878419452,
+        0.5732522796352584,
+        0.574468085106383,
+        0.5811550151975684,
+        0.5775075987841946,
+        0.5872340425531914,
+        0.5781155015197569,
+        0.5671732522796352,
+        0.5805471124620061,
+        0.562917933130699
+      ],
+      "fraction_equal_distance": 0.0
+    },
+    {
+      "target_body_id": 519371,
+      "target_instance": "MBON05(y4>y1y2)_L",
+      "roi": "gL(R)",
+      "kc_contacts": 13473,
+      "pam_output_rows": {
+        "PAM08_y4": 17934,
+        "PAM07_y4_y1y2": 6103,
+        "PAM01_y5_control": 10186
+      },
+      "pam_unique_output_sites": {
+        "PAM08_y4": 3872,
+        "PAM07_y4_y1y2": 1245,
+        "PAM01_y5_control": 2328
+      },
+      "nearest_distance_voxels": {
+        "PAM08_y4": {
+          "p10": 47.65081155147728,
+          "median": 104.02403568406679,
+          "p90": 313.87798663054986
+        },
+        "PAM07_y4_y1y2": {
+          "p10": 78.8986691902975,
+          "median": 161.04036761011196,
+          "p90": 343.49583496964
+        },
+        "PAM01_y5_control": {
+          "p10": 216.2082297953762,
+          "median": 948.8002951095663,
+          "p90": 2923.059172688944
+        }
+      },
+      "fraction_pam08_y4_nearer_than_pam01_y5": 0.9573962740295405,
+      "kc_cells_with_contacts": 798,
+      "fraction_kc_cells_median_y4_nearer": 0.9974937343358395,
+      "equal_site_count_per_group": 2328,
+      "balanced_site_fraction_y4_nearer_seeds_0_to_9": [
+        0.9490833518889631,
+        0.9447042232613375,
+        0.9445557782231129,
+        0.9461886736435835,
+        0.9475246789876048,
+        0.9506420247903213,
+        0.9467824537964818,
+        0.9479700141022787,
+        0.9465597862391449,
+        0.945817561048022
+      ],
+      "fraction_equal_distance": 0.0
+    }
+  ],
+  "per_synapse_teaching_signal_assigned": false,
+  "plasticity_enabled": false,
+  "biological_gate_passed": false
+}

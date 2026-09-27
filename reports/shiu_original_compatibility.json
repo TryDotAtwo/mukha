@@ -1,0 +1,13 @@
+{
+  "brian2_version": "2.9.0",
+  "backend": "numpy",
+  "biological_replication": false,
+  "original": {
+    "runs": true,
+    "spike_count": 0
+  },
+  "remove_undefined_w_reset": {
+    "runs": true,
+    "spike_count": 0
+  }
+}

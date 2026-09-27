@@ -1,0 +1,79 @@
+{
+  "cases": [
+    {
+      "case": "blocked",
+      "event_count": 5001,
+      "sensor_spikes": 0,
+      "motor_spike_ticks": [
+        190,
+        641
+      ],
+      "first_contact_tick": 419,
+      "first_slide_tick": 419,
+      "first_throttle_tick": 420,
+      "max_slide_mm": 0.020760667224999863,
+      "max_sensor_drive_mv": 0.0,
+      "event_sha256": "38bb490b2a800fda91d0839f1031781e200ae6258dffa378525f10a26b21be51"
+    },
+    {
+      "case": "negative",
+      "event_count": 4754,
+      "sensor_spikes": 35,
+      "motor_spike_ticks": [
+        190,
+        612
+      ],
+      "first_contact_tick": 419,
+      "first_slide_tick": 419,
+      "first_throttle_tick": 420,
+      "max_slide_mm": 0.020760667224999863,
+      "max_sensor_drive_mv": 114.41825429151089,
+      "event_sha256": "d0292db38cf2022fd5875cd9b4220902a84b4a7af814c4342aa6f7bc535aab69"
+    },
+    {
+      "case": "motor_off",
+      "event_count": 5001,
+      "sensor_spikes": 0,
+      "motor_spike_ticks": [
+        190,
+        641
+      ],
+      "first_contact_tick": null,
+      "first_slide_tick": null,
+      "first_throttle_tick": null,
+      "max_slide_mm": 0.0,
+      "max_sensor_drive_mv": 0.0059943463034173305,
+      "event_sha256": "38bb490b2a800fda91d0839f1031781e200ae6258dffa378525f10a26b21be51"
+    },
+    {
+      "case": "contact_off",
+      "event_count": 4754,
+      "sensor_spikes": 35,
+      "motor_spike_ticks": [
+        190,
+        612
+      ],
+      "first_contact_tick": null,
+      "first_slide_tick": null,
+      "first_throttle_tick": null,
+      "max_slide_mm": 0.0,
+      "max_sensor_drive_mv": 115.55296187393473,
+      "event_sha256": "d0292db38cf2022fd5875cd9b4220902a84b4a7af814c4342aa6f7bc535aab69"
+    }
+  ],
+  "pad_center_mm": [
+    1.1601830134899616,
+    0.04937352748764633,
+    2.623743110988908
+  ],
+  "central_drive": "periodic",
+  "relaxed_knee_q_rad": 1.1263256023232708,
+  "graph_sha256": "4a7c892fe278bc6f1e96548c34c376bf49bce1d589af12911cf047a4cf1bf8f8",
+  "brain_dll_sha256": "e41f83a2005e44b04d6be989683c5596dc5e64e72f06762b9e2d64186f0e5b13",
+  "rocket_dll_sha256": "d431b64065168d6b85f9ea2165408790bb72fa0b11cd13e1273e3b151fc6c8ce",
+  "harness_sha256": "eb89b6438bfdd6fb21a4c512b915d96c185e298654cf3221870a174ec3d3a3a0",
+  "spec_sha256": "5b1616152b2fc13d9825969b240a8777f7e06eb61d2a30674ffbc72180b0c251",
+  "trace_sha256": "3cfcbc53f0da4ffae3ea5508600dcc8e4818eb5affbe30cdc431f125d3661769",
+  "executed_source_sha256": "9c2760316b010331e6a7a304f4972992a8b25f192272ec231923539ae285d39f",
+  "scope": "Live full-graph/body/radial-rocket diagnostic; artificial central jumps and unvalidated sensor/motor mapping, no KSP or landing."
+}

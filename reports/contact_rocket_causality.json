@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "physics_steps": 40000,
+  "dt_seconds": 0.0001,
+  "no_contact_pulse_equals_baseline": true,
+  "no_pulse_contact_equals_baseline": true,
+  "max_velocity_effect_mps": 0.4764939492382787,
+  "max_throttle": 0.1407064494315166,
+  "max_engine_recurrence_error": 0.0,
+  "max_fuel_recurrence_error": 0.0,
+  "sampling": "joint position at beginning of each shared body/rocket step",
+  "scope": "Live one-way mechanical diagnostic, no neural controller or landing",
+  "limitations": [
+    "Fixed supported body uses existing diagnostic gravity",
+    "No rocket acceleration feedback to body",
+    "No calibrated motor mapping",
+    "Single passive slider; no three-axis joystick"
+  ],
+  "hashes": {
+    "build\\contact_rocket_trace.csv": "a96efb4aac592da6f81883581a393cc760f3a0ad5fb715716291e308458b0eeb",
+    "native\\contact_rocket_probe.cpp": "73ddb788578ce52b019722e5c74d3c653beae32b2ddcd9886359af0ea72947ac",
+    "native\\rocket_vertical.h": "703d9653f82c3683222778fce5e56b40638a6da458f299a7cf20428498e349ce",
+    "build\\contact_rocket_probe.exe": "3a9f0685f5805dd0eb84930298b24ea3345938ee27da4217bee1eabfad0b8507",
+    "data\\derived\\contact_diagnostic\\body.xml": "f76a572b0699f6ea38e220f1a08b48803b519175a44457b55839e241d2362438",
+    "data\\reference\\mujoco_3.9.0\\bin\\mujoco.dll": "d2119d435ef68ceb114d01bc3658eff42ac23ebcc08adca94d9b1ff0b9eb0d0e",
+    "tools\\check_contact_rocket.py": "79b2298786aafa3e0d5bbf3d3586bfd0f8893d4f80c0a535b78be0000ff29772"
+  }
+}

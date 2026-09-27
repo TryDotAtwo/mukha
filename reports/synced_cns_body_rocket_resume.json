@@ -1,0 +1,10 @@
+{
+  "scope": "Cross-process one-way rocket continuation from synchronized CNS/body tick",
+  "checkpoint_report_sha256": "a63870755df5fff0639f9c8e85c4346b20717b84df1b70fd2814293517208831",
+  "fresh_process": true,
+  "fresh_rocket_handle": true,
+  "rocket_tail_state_exact": true,
+  "neural_body_tail_exact_from_prior_cross_process_test": true,
+  "rocket_feedback_to_body": false,
+  "biological_validation": false
+}

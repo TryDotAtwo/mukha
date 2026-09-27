@@ -1,0 +1,10 @@
+{
+  "input_sha256": "32aa674ac12e61a244b4c2f426256ba094bba791b6e36c3762d6465eff31a2b3",
+  "outcome": {
+    "Success": {
+      "time_ns": 10100000000
+    }
+  },
+  "scope": "Assessment of supplied physics trace; origin and fly-control provenance not authenticated",
+  "source": "diagnostic"
+}

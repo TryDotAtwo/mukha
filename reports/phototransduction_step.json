@@ -1,0 +1,20 @@
+{
+  "scope": "One 0.1 ms full photoreceptor step, two receptors, 30000 microvilli each; no light response validation",
+  "passed_racecheck": true,
+  "author_warnings": 2,
+  "adapted_warnings": 0,
+  "photons_per_second": [
+    0,
+    100000
+  ],
+  "seed": 19303,
+  "blocks": 1,
+  "threads": 128,
+  "hashes": {
+    "native/phototransduction_probe.cu": "770573e78190044770ddb88c88a117457d12717cd2d51f11c2819e2ad38b6a61",
+    "native/phototransduction_safe.cuh": "dc27a15007c171ad6bf23672edf7488f6ce2a21bb9a3ea4089b66344609196f9",
+    "build/phototransduction_safe_probe.exe": "83986cf81d52ba517d375e743bc8ff8b85b4f1b02d707c9b8a975beb6b72b277",
+    "reports/phototransduction_author_racecheck.log": "29af22ed9d796cf5576b5373317c680b0c32f2005f6a0961191bf95fad5af993",
+    "reports/phototransduction_safe_racecheck.log": "c69d09b31a66173faf98f267db57c7eb988035ce364fa0f0f184ffc933c541a7"
+  }
+}

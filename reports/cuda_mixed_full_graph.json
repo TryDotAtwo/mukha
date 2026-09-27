@@ -1,0 +1,16 @@
+{
+  "scope": "full MaleCNS graph, artificial one-cell diagnostic mask only",
+  "source_nodes_sha256": "48c7e4acadf9619d83f08b31bb2062b7a9f0a5fa86429ff968aea066ced57f3f",
+  "runtime_dll_sha256": "abd1945e2497b31f1489d04231e3d306cfb8b4ac5bd1cfd4b4b53d09c48c02a1",
+  "candidate_body_id": 800115,
+  "candidate_index": 144863,
+  "graded_span_mv": 20.0,
+  "voltage_jump_mv": 5.0,
+  "graded_step_factor": 0.0198013266932447,
+  "direct_outgoing_edge_rows": 583,
+  "direct_targets_with_nonzero_g_at_tick2": 583,
+  "analytical_full_vector_match": true,
+  "legacy_zero_spikes_and_synaptic_input": true,
+  "mixed_checkpoint_suffix_exact": true,
+  "biological_phenotype_assignment": false
+}

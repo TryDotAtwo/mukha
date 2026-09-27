@@ -1,0 +1,168 @@
+{
+  "spec": {
+    "hypothesis": "Nonnegative filtered flexion/extension velocity predicts calcium response",
+    "tau_seconds": [
+      0.125,
+      0.25,
+      0.5,
+      1.0,
+      2.0
+    ],
+    "dt_seconds": 0.12484394506866417,
+    "parameters": "One shared pair of velocity gains and intercept per recording region",
+    "initialization": "Zero filtered velocity at first recorded frame; initial velocity zero",
+    "missing": "Exclude entire response row if any angle or response sample is nonfinite; no interpolation",
+    "fit": "Unweighted sample least squares; nonnegative gains, unrestricted intercept; tau chosen on calibration SSE",
+    "test": "Frozen swing protocol; compare MSE against calibration response mean",
+    "acceptance": "Exploratory only; improvement must be positive in every tested region to support general transfer",
+    "limitations": [
+      "Not independent animals",
+      "Calcium kinetics and sensory dynamics are confounded",
+      "No spike-rate interpretation",
+      "Assumed zero initial filter state",
+      "Missing-row exclusion can bias sampling",
+      "No MaleCNS mapping"
+    ],
+    "partition_sha256": "9530bcb3567e19c298c8635480682441446fa0622717eaa87787fef1e048ff1a",
+    "runtime_enabled": false
+  },
+  "results": [
+    {
+      "file": "R21D12_GCaMP6f_Tip.npz",
+      "population": "hook",
+      "excluded_rows": {
+        "RampAndHold_FlexFirst": [
+          8,
+          12
+        ],
+        "RampAndHold_ExtFirst": [
+          10,
+          11,
+          12,
+          13
+        ],
+        "Swing_FlexFirst": []
+      },
+      "calibration_samples": 9922,
+      "holdout_samples": 1036,
+      "tau_seconds": 0.5,
+      "flexion_gain": 0.051877380835310814,
+      "extension_gain": 0.005415748601062337,
+      "intercept": 0.06715223763196228,
+      "calibration_mse": 0.10529626264148999,
+      "holdout_mse": 2.6505816863575506,
+      "constant_baseline_mse": 0.6515171755150342,
+      "relative_mse_improvement": -3.0683220427185605
+    },
+    {
+      "file": "R21D12_GCaMP6f_YBranch.npz",
+      "population": "hook",
+      "excluded_rows": {
+        "RampAndHold_FlexFirst": [],
+        "RampAndHold_ExtFirst": [
+          5
+        ],
+        "Swing_FlexFirst": []
+      },
+      "calibration_samples": 7667,
+      "holdout_samples": 666,
+      "tau_seconds": 0.5,
+      "flexion_gain": 0.06865222835804917,
+      "extension_gain": 0.0016763788197148716,
+      "intercept": 0.07272172900618092,
+      "calibration_mse": 0.17425453204445815,
+      "holdout_mse": 6.113352393525546,
+      "constant_baseline_mse": 0.4841554960366731,
+      "relative_mse_improvement": -11.626836715827514
+    },
+    {
+      "file": "R21D12_GCaMP6f_ZBranch.npz",
+      "population": "hook",
+      "excluded_rows": {
+        "RampAndHold_FlexFirst": [
+          5,
+          6,
+          9,
+          10,
+          12,
+          13
+        ],
+        "RampAndHold_ExtFirst": [
+          6,
+          10,
+          11
+        ],
+        "Swing_FlexFirst": []
+      },
+      "calibration_samples": 8569,
+      "holdout_samples": 1036,
+      "tau_seconds": 0.5,
+      "flexion_gain": 0.07394880410774154,
+      "extension_gain": 0.005126841574141464,
+      "intercept": 0.09379411385876568,
+      "calibration_mse": 0.20233457205097577,
+      "holdout_mse": 5.414807170932725,
+      "constant_baseline_mse": 1.2968793970366415,
+      "relative_mse_improvement": -3.175258843116417
+    },
+    {
+      "file": "R64C04_GCaMP6f_Middle.npz",
+      "population": "club",
+      "excluded_rows": {
+        "RampAndHold_FlexFirst": [
+          1
+        ],
+        "RampAndHold_ExtFirst": [
+          0,
+          1,
+          4
+        ],
+        "Swing_FlexFirst": []
+      },
+      "calibration_samples": 8118,
+      "holdout_samples": 814,
+      "tau_seconds": 0.5,
+      "flexion_gain": 0.009017088925016034,
+      "extension_gain": 0.00762413737569298,
+      "intercept": 0.14611571083853234,
+      "calibration_mse": 0.031046799683267793,
+      "holdout_mse": 0.12160238032796447,
+      "constant_baseline_mse": 0.08394861252703949,
+      "relative_mse_improvement": -0.44853353340172086
+    },
+    {
+      "file": "R64C04_GCaMP6f_Tip.npz",
+      "population": "club",
+      "excluded_rows": {
+        "RampAndHold_FlexFirst": [
+          0,
+          3,
+          4,
+          6,
+          12
+        ],
+        "RampAndHold_ExtFirst": [
+          0,
+          3,
+          4,
+          6,
+          9
+        ],
+        "Swing_FlexFirst": []
+      },
+      "calibration_samples": 8118,
+      "holdout_samples": 1036,
+      "tau_seconds": 0.5,
+      "flexion_gain": 0.022372008664859718,
+      "extension_gain": 0.018637876001515896,
+      "intercept": 0.2553634407962496,
+      "calibration_mse": 0.1567799093397864,
+      "holdout_mse": 0.9547440757138416,
+      "constant_baseline_mse": 0.21769028784530242,
+      "relative_mse_improvement": -3.385790864461132
+    }
+  ],
+  "all_regions_improve": false,
+  "biological_validation_passed": false,
+  "runtime_enabled": false
+}

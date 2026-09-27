@@ -1,0 +1,273 @@
+{
+  "pilot_sha256": "3d0e9d8e39b47ca29ec1f74afc6f89b6b8c380da1e647b0fa6b8b750ecca2612",
+  "refit_performed": false,
+  "records": [
+    {
+      "file": "R21D12_GCaMP6f_Tip.npz",
+      "protocols": {
+        "RampAndHold_FlexFirst": {
+          "rows": 12,
+          "frames": 451,
+          "angle_min": 18.01167799050662,
+          "angle_max": 189.91455759172618,
+          "frame_averaged_speed_quantiles": [
+            0.0374128080162157,
+            54.813787765828174,
+            110.80119680976598,
+            129.18305765661185
+          ],
+          "row_peak_speed_median": 120.69781242211894,
+          "response_row_peak_median": 2.485667948019665
+        },
+        "RampAndHold_ExtFirst": {
+          "rows": 10,
+          "frames": 451,
+          "angle_min": 19.346086382941586,
+          "angle_max": 189.5692873481777,
+          "frame_averaged_speed_quantiles": [
+            0.03664995743636879,
+            52.1508658461473,
+            110.06158623328295,
+            124.81815214599536
+          ],
+          "row_peak_speed_median": 120.59336843727277,
+          "response_row_peak_median": 2.128915945147456
+        },
+        "Swing_FlexFirst": {
+          "rows": 14,
+          "frames": 74,
+          "angle_min": 17.966633065719112,
+          "angle_max": 189.92153381378571,
+          "frame_averaged_speed_quantiles": [
+            0.029537654116891188,
+            338.82115650735494,
+            365.5927050036208,
+            373.28894111936415
+          ],
+          "row_peak_speed_median": 362.81589150761636,
+          "response_row_peak_median": 4.027801246615765
+        }
+      },
+      "swing_prediction_to_observed_median_peak_ratio": 2.5627824452637,
+      "swing_mean_error": 0.7259196961227187,
+      "swing_mse": 2.6505816863575506,
+      "swing_constant_baseline_mse": 0.6515171755150342
+    },
+    {
+      "file": "R21D12_GCaMP6f_YBranch.npz",
+      "protocols": {
+        "RampAndHold_FlexFirst": {
+          "rows": 9,
+          "frames": 451,
+          "angle_min": 19.32776096504813,
+          "angle_max": 188.00702889567356,
+          "frame_averaged_speed_quantiles": [
+            0.04565086147513661,
+            50.21038179836955,
+            113.21114448423027,
+            131.9721607707773
+          ],
+          "row_peak_speed_median": 122.5650993959351,
+          "response_row_peak_median": 2.330098154844899
+        },
+        "RampAndHold_ExtFirst": {
+          "rows": 8,
+          "frames": 451,
+          "angle_min": 18.767707561212198,
+          "angle_max": 187.69976286478175,
+          "frame_averaged_speed_quantiles": [
+            0.04596527000413346,
+            51.024896223109224,
+            110.48761714062825,
+            131.45013223660445
+          ],
+          "row_peak_speed_median": 121.30005311270901,
+          "response_row_peak_median": 1.8048390103694538
+        },
+        "Swing_FlexFirst": {
+          "rows": 9,
+          "frames": 74,
+          "angle_min": 19.022840660428486,
+          "angle_max": 188.3588673973883,
+          "frame_averaged_speed_quantiles": [
+            0.03898568408128682,
+            338.988707863572,
+            363.0929990750202,
+            382.56532537461163
+          ],
+          "row_peak_speed_median": 361.9910349412744,
+          "response_row_peak_median": 2.933078821616171
+        }
+      },
+      "swing_prediction_to_observed_median_peak_ratio": 4.6219010125243125,
+      "swing_mean_error": 0.9998647107408046,
+      "swing_mse": 6.113352393525546,
+      "swing_constant_baseline_mse": 0.4841554960366731
+    },
+    {
+      "file": "R21D12_GCaMP6f_ZBranch.npz",
+      "protocols": {
+        "RampAndHold_FlexFirst": {
+          "rows": 8,
+          "frames": 451,
+          "angle_min": 19.192213879558015,
+          "angle_max": 186.27314478319988,
+          "frame_averaged_speed_quantiles": [
+            0.04112957001808759,
+            52.05444586279761,
+            108.04450509667457,
+            123.18788091495308
+          ],
+          "row_peak_speed_median": 118.68675827081321,
+          "response_row_peak_median": 2.3820549016780355
+        },
+        "RampAndHold_ExtFirst": {
+          "rows": 11,
+          "frames": 451,
+          "angle_min": 18.043949907831838,
+          "angle_max": 187.98362313796585,
+          "frame_averaged_speed_quantiles": [
+            0.04642531648068836,
+            54.485638162104124,
+            108.60899094865462,
+            130.39322309689257
+          ],
+          "row_peak_speed_median": 121.1102835504992,
+          "response_row_peak_median": 2.62775756905881
+        },
+        "Swing_FlexFirst": {
+          "rows": 14,
+          "frames": 74,
+          "angle_min": 18.112771892198833,
+          "angle_max": 188.39927554077266,
+          "frame_averaged_speed_quantiles": [
+            0.03220865742975701,
+            330.0251871980968,
+            367.02750371666605,
+            379.1499249092745
+          ],
+          "row_peak_speed_median": 359.8173685322962,
+          "response_row_peak_median": 5.764381548212121
+        }
+      },
+      "swing_prediction_to_observed_median_peak_ratio": 2.5309629203317496,
+      "swing_mean_error": 0.9850129005551023,
+      "swing_mse": 5.414807170932725,
+      "swing_constant_baseline_mse": 1.2968793970366415
+    },
+    {
+      "file": "R64C04_GCaMP6f_Middle.npz",
+      "protocols": {
+        "RampAndHold_FlexFirst": {
+          "rows": 10,
+          "frames": 451,
+          "angle_min": 8.263509963864955,
+          "angle_max": 181.37035938524303,
+          "frame_averaged_speed_quantiles": [
+            0.041878408799661815,
+            51.98609469048228,
+            117.14934954170113,
+            129.9268890759112
+          ],
+          "row_peak_speed_median": 123.38952143823278,
+          "response_row_peak_median": 0.7106108286624366
+        },
+        "RampAndHold_ExtFirst": {
+          "rows": 8,
+          "frames": 451,
+          "angle_min": 8.131083804328373,
+          "angle_max": 181.06535882362112,
+          "frame_averaged_speed_quantiles": [
+            0.03674673838834196,
+            53.98245842505231,
+            117.1263918823441,
+            132.04710942018028
+          ],
+          "row_peak_speed_median": 126.28090903030419,
+          "response_row_peak_median": 0.6105238834251496
+        },
+        "Swing_FlexFirst": {
+          "rows": 11,
+          "frames": 74,
+          "angle_min": 8.138783825513846,
+          "angle_max": 181.4525371469168,
+          "frame_averaged_speed_quantiles": [
+            0.082775215290019,
+            351.6183780071891,
+            367.27962601921104,
+            380.34336543660265
+          ],
+          "row_peak_speed_median": 363.73364592298464,
+          "response_row_peak_median": 0.9936249218019985
+        }
+      },
+      "swing_prediction_to_observed_median_peak_ratio": 1.9495604119738223,
+      "swing_mean_error": 0.16669592328190366,
+      "swing_mse": 0.12160238032796447,
+      "swing_constant_baseline_mse": 0.08394861252703949
+    },
+    {
+      "file": "R64C04_GCaMP6f_Tip.npz",
+      "protocols": {
+        "RampAndHold_FlexFirst": {
+          "rows": 9,
+          "frames": 451,
+          "angle_min": 7.352185204046302,
+          "angle_max": 179.87891656865105,
+          "frame_averaged_speed_quantiles": [
+            0.038657823440089646,
+            52.62966721353877,
+            114.23156639962875,
+            133.24622758099378
+          ],
+          "row_peak_speed_median": 123.41087013255934,
+          "response_row_peak_median": 1.5351385565426883
+        },
+        "RampAndHold_ExtFirst": {
+          "rows": 9,
+          "frames": 451,
+          "angle_min": 7.279274779583879,
+          "angle_max": 179.55208428659563,
+          "frame_averaged_speed_quantiles": [
+            0.03403388553398791,
+            53.74915553501218,
+            115.2176105544822,
+            132.99869591009949
+          ],
+          "row_peak_speed_median": 124.53390011519869,
+          "response_row_peak_median": 1.721768292986158
+        },
+        "Swing_FlexFirst": {
+          "rows": 14,
+          "frames": 74,
+          "angle_min": 7.213011022472379,
+          "angle_max": 181.45698853912634,
+          "frame_averaged_speed_quantiles": [
+            0.03860766072772309,
+            352.7727219892346,
+            373.41147711829376,
+            386.7568433738874
+          ],
+          "row_peak_speed_median": 364.9296897421124,
+          "response_row_peak_median": 2.0208635522353293
+        }
+      },
+      "swing_prediction_to_observed_median_peak_ratio": 2.3389312424831616,
+      "swing_mean_error": 0.6022119641741575,
+      "swing_mse": 0.9547440757138416,
+      "swing_constant_baseline_mse": 0.21769028784530242
+    }
+  ],
+  "sampling": {
+    "imaging_interval_seconds": 0.12484394506866417,
+    "nominal_ramp_displacement_degrees": 18,
+    "nominal_motor_speed_degrees_per_second": 240,
+    "nominal_constant_speed_traverse_seconds": 0.075,
+    "nominal_traverse_imaging_frames": 0.60075,
+    "caveat": "Motor specification excludes acceleration and specimen mechanics; exported angle is frame averaged, not instantaneous velocity",
+    "source": "https://faculty.washington.edu/tuthill/docs/mamiya_2018.pdf",
+    "source_section": "STAR Methods, Moving the tibia/pin and Tracking the femur-tibia joint angle"
+  },
+  "conclusion": "Frame-rate differentiation cannot identify within-frame peak speed. Failure does not uniquely identify saturation or calcium kinetics.",
+  "runtime_enabled": false
+}

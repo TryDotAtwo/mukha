@@ -1,0 +1,64 @@
+{
+  "url": "https://faculty.washington.edu/tuthill/docs/Mamiya2018Data.zip",
+  "doi": "10.1016/j.neuron.2018.09.009",
+  "bytes": 2946062,
+  "sha256": "31565245097ca8a9f572555aa32e7f20052ac2a1cd9dcc45ce1803c7858973d2",
+  "members": [
+    {
+      "name": "DataFileDescription.txt",
+      "bytes": 1129
+    },
+    {
+      "name": "desktop.ini",
+      "bytes": 252
+    },
+    {
+      "name": "InactiveGal4_GCaMP6f_Club.mat",
+      "bytes": 288373
+    },
+    {
+      "name": "InactiveGal4_GCaMP6f_XBranch.mat",
+      "bytes": 441555
+    },
+    {
+      "name": "InactiveGal4_GCaMP6f_YBranch.mat",
+      "bytes": 284806
+    },
+    {
+      "name": "InactiveGal4_GCaMP6f_ZBranch.mat",
+      "bytes": 371736
+    },
+    {
+      "name": "R21D12_GCaMP6f_Tip.mat",
+      "bytes": 199309
+    },
+    {
+      "name": "R21D12_GCaMP6f_YBranch.mat",
+      "bytes": 129023
+    },
+    {
+      "name": "R21D12_GCaMP6f_ZBranch.mat",
+      "bytes": 200399
+    },
+    {
+      "name": "R64C04_GCaMP6f_Middle.mat",
+      "bytes": 157394
+    },
+    {
+      "name": "R64C04_GCaMP6f_Tip.mat",
+      "bytes": 199326
+    },
+    {
+      "name": "R73D10_GCaMP6f_XBranch.mat",
+      "bytes": 225941
+    },
+    {
+      "name": "R73D10_GCaMP6f_YBranch.mat",
+      "bytes": 224978
+    },
+    {
+      "name": "R73D10_GCaMP6f_ZBranch.mat",
+      "bytes": 225424
+    }
+  ]
+}

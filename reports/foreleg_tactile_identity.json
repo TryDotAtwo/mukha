@@ -1,0 +1,44 @@
+{
+  "scope": "MaleCNS v1.0 annotated foreleg mechanosensory-bristle candidates; no peripheral receptor assignment",
+  "graph_manifest_sha256": "b30e21078c0479ac288e7f9d3b7cb2c9eb76aa3b9707f3a2b9fa6a92bb822ef3",
+  "nodes_feather_sha256": "48c7e4acadf9619d83f08b31bb2062b7a9f0a5fa86429ff968aea066ced57f3f",
+  "selection": {
+    "entryNerve": "ProLN",
+    "subclass": "mechanosensory bristle"
+  },
+  "candidate_rows": 288,
+  "type_count": 17,
+  "type_rows": {
+    "SNta19": 7,
+    "SNta20": 19,
+    "SNta21": 32,
+    "SNta28": 2,
+    "SNta29": 84,
+    "SNta30": 27,
+    "SNta31": 4,
+    "SNta32": 5,
+    "SNta37": 3,
+    "SNta38": 1,
+    "SNta39": 4,
+    "SNta40": 44,
+    "SNta41": 41,
+    "SNta42": 5,
+    "SNta43": 1,
+    "SNta44": 7,
+    "SNta45": 2
+  },
+  "with_manc_body_id": 21,
+  "without_manc_body_id": 267,
+  "explicit_tarsomere_rows_in_checked_columns": 0,
+  "checked_columns": [
+    "type",
+    "mancType",
+    "subclass",
+    "class",
+    "synonyms",
+    "matchingNotes",
+    "entryNerve"
+  ],
+  "approved_lf_tarsus5_body_ids": [],
+  "decision": "No individual body ID has a source-supported lf_tarsus5 receptor assignment from these annotations alone."
+}

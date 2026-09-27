@@ -1,0 +1,45 @@
+{
+  "source_figure_url": "https://iiif.elifesciences.org/lax/60299%2Felife-60299-fig2-figsupp1-v2.tif/full/full/0/default.jpg",
+  "source_figure_sha256": "73de398fb86593e1e3775b1bfaf5a460af634d66d193ee6c61cb71884b411845",
+  "source_panel": "Figure 2 supplement 1E/F; paired depolarization decreases 13Balpha joint-motion response amplitude",
+  "native_source_sha256": "c271c595ab26255b02a786cc2f0778d79d755d4a6087bd693c2f42da536f2917",
+  "native_exe_sha256": "4dab34f2c80bae022bf61e9281a777b0839bdb290b14be69ead5ef15dc56b221",
+  "hypothesis": "A nonnegative excitatory conductance with E_rev=0 mV changes receiver voltage by g*(E_rev-V); steady release is 0.5.",
+  "conditional_parameters": {
+    "rest_mv": -60.0,
+    "reversal_mv": 0.0,
+    "gmax_dimensionless": 0.02,
+    "release": 0.5,
+    "membrane_tau_ms": 10.0,
+    "synapse_tau_ms": 5.0
+  },
+  "numerical_oracle": "Independent Python recurrence matched six native outputs to <2e-12",
+  "comparisons": [
+    {
+      "dt_ms": 0.2,
+      "hyperpolarized_evoked_mv": 0.6434899437969364,
+      "depolarized_evoked_mv": 0.5445294321924408,
+      "depolarized_over_hyperpolarized": 0.8462128078947506
+    },
+    {
+      "dt_ms": 0.1,
+      "hyperpolarized_evoked_mv": 0.6434902067052093,
+      "depolarized_evoked_mv": 0.5445296739001506,
+      "depolarized_over_hyperpolarized": 0.8462128377807718
+    },
+    {
+      "dt_ms": 0.05,
+      "hyperpolarized_evoked_mv": 0.6434903371591787,
+      "depolarized_evoked_mv": 0.5445297938596951,
+      "depolarized_over_hyperpolarized": 0.8462128526492482
+    }
+  ],
+  "source_qualitative_direction_matched": true,
+  "biological_fit": false,
+  "male_cns_enabled": false,
+  "limitations": [
+    "The panel provides paired response changes but no conductance or reversal calibration.",
+    "Single isolated cell; no source-backed sensory transduction, cell identity, full graph, or alternative electrical-coupling test.",
+    "A qualitative direction match cannot distinguish this mechanism from other voltage-dependent mechanisms."
+  ]
+}

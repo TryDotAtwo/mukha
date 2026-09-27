@@ -1,0 +1,463 @@
+{
+  "source_url": "https://cdn.elifesciences.org/articles/79887/elife-79887-fig5-data1-v3.xlsx",
+  "source_sha256": "bf84dd582638fb5fa2520566b9949c3c66ba5c90ee126d5ba74c15018dc9758d",
+  "article": "https://doi.org/10.7554/eLife.79887",
+  "metric_note": "Author methods specify NumPy trapz of frames 15-18 for optogenetic AUC; both frame-unit and 0.67-second-spacing medians are reported. Earlier all-light-frame mean remains exploratory, not the article statistic. No Quade test reproduced.",
+  "condition_note": "Workbook titles say fed animals; article Figure 5 caption says food-deprived flies. This discrepancy is unresolved. Methods specify female progeny and three two-second 660-nm pulses at 10-second intervals.",
+  "sheets": [
+    {
+      "sheet": "20211027_SS47082_Opto",
+      "workbook_title": "Responses of G2N-1 (SS47082) to optogenetic activation of GRNs in fed animals",
+      "cell_type": "G2N-1",
+      "light_on_frame_indices": [
+        14,
+        15,
+        16,
+        17,
+        32,
+        33,
+        34,
+        35,
+        50,
+        51,
+        52,
+        53
+      ],
+      "light_on_time_s": [
+        9.38,
+        10.05,
+        10.72,
+        11.39,
+        21.44,
+        22.110000000000003,
+        22.78,
+        23.450000000000003,
+        33.5,
+        34.17,
+        34.84,
+        35.510000000000005
+      ],
+      "frame_period_s": 0.67,
+      "groups": {
+        "sweet": {
+          "fly_count": 7,
+          "per_fly": [
+            {
+              "column": "SS47082_Gr5a_Fly1",
+              "light_on_mean_delta_f_over_f": 1.3942403846739422,
+              "pre_first_pulse_mean_delta_f_over_f": 0.004993928869566401,
+              "difference": 1.3892464558043758,
+              "first_pulse_auc_frame_units": 5.888346467228939,
+              "first_pulse_auc_seconds": 3.9451921330433897
+            },
+            {
+              "column": "SS47082_Gr5a_Fly2",
+              "light_on_mean_delta_f_over_f": 1.6676007139619489,
+              "pre_first_pulse_mean_delta_f_over_f": -0.005552177830888898,
+              "difference": 1.6731528917928378,
+              "first_pulse_auc_frame_units": 7.130462434270919,
+              "first_pulse_auc_seconds": 4.777409830961516
+            },
+            {
+              "column": "SS47082_Gr5a_Fly3",
+              "light_on_mean_delta_f_over_f": 1.3916030387885325,
+              "pre_first_pulse_mean_delta_f_over_f": -0.014007595056813427,
+              "difference": 1.405610633845346,
+              "first_pulse_auc_frame_units": 5.48421868795967,
+              "first_pulse_auc_seconds": 3.67442652093298
+            },
+            {
+              "column": "SS47082_Gr5a_Fly4",
+              "light_on_mean_delta_f_over_f": 1.7237951362187813,
+              "pre_first_pulse_mean_delta_f_over_f": -0.029259975426717273,
+              "difference": 1.7530551116454987,
+              "first_pulse_auc_frame_units": 7.8303102789057055,
+              "first_pulse_auc_seconds": 5.2463078868668225
+            },
+            {
+              "column": "SS47082_Gr5a_Fly5",
+              "light_on_mean_delta_f_over_f": 1.8144042276514856,
+              "pre_first_pulse_mean_delta_f_over_f": 0.0387735644817917,
+              "difference": 1.7756306631696939,
+              "first_pulse_auc_frame_units": 6.889990567049811,
+              "first_pulse_auc_seconds": 4.616293679923373
+            },
+            {
+              "column": "SS47082_Gr5a_Fly6",
+              "light_on_mean_delta_f_over_f": 1.6277158722396956,
+              "pre_first_pulse_mean_delta_f_over_f": -0.00931139848401364,
+              "difference": 1.6370272707237092,
+              "first_pulse_auc_frame_units": 7.4743084789230405,
+              "first_pulse_auc_seconds": 5.0077866808784375
+            },
+            {
+              "column": "SS47082_Gr5a_Fly7",
+              "light_on_mean_delta_f_over_f": 1.5036388766807522,
+              "pre_first_pulse_mean_delta_f_over_f": 0.0040121813028198465,
+              "difference": 1.4996266953779325,
+              "first_pulse_auc_frame_units": 7.37916884350987,
+              "first_pulse_auc_seconds": 4.944043125151613
+            }
+          ],
+          "median_light_on_delta_f_over_f": 1.6277158722396956,
+          "median_light_minus_pre": 1.6370272707237092,
+          "median_first_pulse_auc_frame_units": 7.130462434270919,
+          "median_first_pulse_auc_seconds": 4.777409830961516
+        },
+        "sweet_plus_bitter": {
+          "fly_count": 7,
+          "per_fly": [
+            {
+              "column": "SS47082_Gr5a-Gr66a_Fly1",
+              "light_on_mean_delta_f_over_f": 1.2537920543586496,
+              "pre_first_pulse_mean_delta_f_over_f": -0.00679756333981853,
+              "difference": 1.2605896176984681,
+              "first_pulse_auc_frame_units": 5.873030297724345,
+              "first_pulse_auc_seconds": 3.9349302994753117
+            },
+            {
+              "column": "SS47082_Gr5a-Gr66a_Fly2",
+              "light_on_mean_delta_f_over_f": 1.6398854791301822,
+              "pre_first_pulse_mean_delta_f_over_f": -0.02510119468395866,
+              "difference": 1.6649866738141408,
+              "first_pulse_auc_frame_units": 7.751214381596634,
+              "first_pulse_auc_seconds": 5.193313635669746
+            },
+            {
+              "column": "SS47082_Gr5a-Gr66a_Fly3",
+              "light_on_mean_delta_f_over_f": 1.7000775231217882,
+              "pre_first_pulse_mean_delta_f_over_f": 0.00011189928076981034,
+              "difference": 1.6999656238410183,
+              "first_pulse_auc_frame_units": 7.389778761516251,
+              "first_pulse_auc_seconds": 4.951151770215888
+            },
+            {
+              "column": "SS47082_Gr5a-Gr66a_Fly4",
+              "light_on_mean_delta_f_over_f": 1.3678498957969532,
+              "pre_first_pulse_mean_delta_f_over_f": 0.019198526731515377,
+              "difference": 1.3486513690654378,
+              "first_pulse_auc_frame_units": 6.5371752396412,
+              "first_pulse_auc_seconds": 4.379907410559604
+            },
+            {
+              "column": "SS47082_Gr5a-Gr66a_Fly5",
+              "light_on_mean_delta_f_over_f": 1.3653975798043494,
+              "pre_first_pulse_mean_delta_f_over_f": 0.011861332674901656,
+              "difference": 1.3535362471294476,
+              "first_pulse_auc_frame_units": 6.738610178522065,
+              "first_pulse_auc_seconds": 4.5148688196097835
+            },
+            {
+              "column": "SS47082_Gr5a-Gr66a_Fly6",
+              "light_on_mean_delta_f_over_f": 1.3135482176933806,
+              "pre_first_pulse_mean_delta_f_over_f": -0.03556274358372988,
+              "difference": 1.3491109612771104,
+              "first_pulse_auc_frame_units": 7.501147388295941,
+              "first_pulse_auc_seconds": 5.025768750158281
+            },
+            {
+              "column": "SS47082_Gr5a-Gr66a_Fly7",
+              "light_on_mean_delta_f_over_f": 2.190132155926398,
+              "pre_first_pulse_mean_delta_f_over_f": 0.00494211564464985,
+              "difference": 2.1851900402817486,
+              "first_pulse_auc_frame_units": 8.956590696028545,
+              "first_pulse_auc_seconds": 6.000915766339125
+            }
+          ],
+          "median_light_on_delta_f_over_f": 1.3678498957969532,
+          "median_light_minus_pre": 1.3535362471294476,
+          "median_first_pulse_auc_frame_units": 7.389778761516251,
+          "median_first_pulse_auc_seconds": 4.951151770215888
+        },
+        "bitter": {
+          "fly_count": 6,
+          "per_fly": [
+            {
+              "column": "SS47082_Gr66a_Fly1",
+              "light_on_mean_delta_f_over_f": -0.014736897371454526,
+              "pre_first_pulse_mean_delta_f_over_f": 0.011498381745270276,
+              "difference": -0.026235279116724804,
+              "first_pulse_auc_frame_units": -0.0724936846050602,
+              "first_pulse_auc_seconds": -0.04857076868539033
+            },
+            {
+              "column": "SS47082_Gr66a_Fly2",
+              "light_on_mean_delta_f_over_f": -0.005021746385250935,
+              "pre_first_pulse_mean_delta_f_over_f": 0.01863483873469725,
+              "difference": -0.023656585119948184,
+              "first_pulse_auc_frame_units": -0.020426534950400504,
+              "first_pulse_auc_seconds": -0.013685778416768341
+            },
+            {
+              "column": "SS47082_Gr66a_Fly3",
+              "light_on_mean_delta_f_over_f": -0.005890186424527266,
+              "pre_first_pulse_mean_delta_f_over_f": -0.017409436129888396,
+              "difference": 0.01151924970536113,
+              "first_pulse_auc_frame_units": -0.0827029535570992,
+              "first_pulse_auc_seconds": -0.05541097888325647
+            },
+            {
+              "column": "SS47082_-Gr66a_Fly4",
+              "light_on_mean_delta_f_over_f": -0.006683060545056952,
+              "pre_first_pulse_mean_delta_f_over_f": 0.053725951471408774,
+              "difference": -0.06040901201646573,
+              "first_pulse_auc_frame_units": -0.07801017784335817,
+              "first_pulse_auc_seconds": -0.052266819155049986
+            },
+            {
+              "column": "SS47082_Gr66a_Fly5",
+              "light_on_mean_delta_f_over_f": -0.03586500529707483,
+              "pre_first_pulse_mean_delta_f_over_f": 0.004381925893376021,
+              "difference": -0.04024693119045085,
+              "first_pulse_auc_frame_units": -0.00010819407071049891,
+              "first_pulse_auc_seconds": -7.249002737603257e-05
+            },
+            {
+              "column": "SS47082_Gr66a_Fly6",
+              "light_on_mean_delta_f_over_f": 0.08090614850746265,
+              "pre_first_pulse_mean_delta_f_over_f": 0.07890745934133897,
+              "difference": 0.001998689166123682,
+              "first_pulse_auc_frame_units": 0.3928019803371853,
+              "first_pulse_auc_seconds": 0.2631773268259141
+            }
+          ],
+          "median_light_on_delta_f_over_f": -0.006286623484792109,
+          "median_light_minus_pre": -0.024945932118336494,
+          "median_first_pulse_auc_frame_units": -0.04646010977773035,
+          "median_first_pulse_auc_seconds": -0.031128273551079333
+        }
+      }
+    },
+    {
+      "sheet": "20211028_SS47744_Opto",
+      "workbook_title": "Responses of Roundup (SS47744) to optogenetic activation of GRNs in fed animals",
+      "cell_type": "Roundup",
+      "light_on_frame_indices": [
+        14,
+        15,
+        16,
+        17,
+        32,
+        33,
+        34,
+        35,
+        50,
+        51,
+        52,
+        53
+      ],
+      "light_on_time_s": [
+        9.38,
+        10.05,
+        10.72,
+        11.39,
+        21.44,
+        22.110000000000003,
+        22.78,
+        23.450000000000003,
+        33.5,
+        34.17,
+        34.84,
+        35.510000000000005
+      ],
+      "frame_period_s": 0.67,
+      "groups": {
+        "sweet": {
+          "fly_count": 7,
+          "per_fly": [
+            {
+              "column": "SS47744_Gr5a_Fly1",
+              "light_on_mean_delta_f_over_f": 0.9252687225161248,
+              "pre_first_pulse_mean_delta_f_over_f": 0.035710734997982746,
+              "difference": 0.8895579875181421,
+              "first_pulse_auc_frame_units": 4.4883510791217125,
+              "first_pulse_auc_seconds": 3.0071952230115477
+            },
+            {
+              "column": "SS47744_Gr5a_Fly2",
+              "light_on_mean_delta_f_over_f": 0.264996860849515,
+              "pre_first_pulse_mean_delta_f_over_f": 0.04785898824902039,
+              "difference": 0.2171378726004946,
+              "first_pulse_auc_frame_units": 1.329328777398116,
+              "first_pulse_auc_seconds": 0.8906502808567378
+            },
+            {
+              "column": "SS47744_Gr5a_Fly3",
+              "light_on_mean_delta_f_over_f": 0.25150430170164906,
+              "pre_first_pulse_mean_delta_f_over_f": 0.011410342956057928,
+              "difference": 0.24009395874559114,
+              "first_pulse_auc_frame_units": 1.5114365988184755,
+              "first_pulse_auc_seconds": 1.0126625212083789
+            },
+            {
+              "column": "SS47744_Gr5a_Fly4",
+              "light_on_mean_delta_f_over_f": 0.541359032852894,
+              "pre_first_pulse_mean_delta_f_over_f": -0.0084428322625637,
+              "difference": 0.5498018651154577,
+              "first_pulse_auc_frame_units": 4.491196264700265,
+              "first_pulse_auc_seconds": 3.0091014973491776
+            },
+            {
+              "column": "SS47744_Gr5a_Fly5",
+              "light_on_mean_delta_f_over_f": 0.8433905578816078,
+              "pre_first_pulse_mean_delta_f_over_f": 0.0311749669601848,
+              "difference": 0.8122155909214229,
+              "first_pulse_auc_frame_units": 5.0201758269172565,
+              "first_pulse_auc_seconds": 3.3635178040345615
+            },
+            {
+              "column": "SS47744_Gr5a_Fly6",
+              "light_on_mean_delta_f_over_f": 0.6659518462921213,
+              "pre_first_pulse_mean_delta_f_over_f": 0.006391589341859577,
+              "difference": 0.6595602569502618,
+              "first_pulse_auc_frame_units": 3.018543821679595,
+              "first_pulse_auc_seconds": 2.0224243605253287
+            },
+            {
+              "column": "SS47744_Gr5a_Fly7",
+              "light_on_mean_delta_f_over_f": 0.5429900236672982,
+              "pre_first_pulse_mean_delta_f_over_f": -0.009187319062857566,
+              "difference": 0.5521773427301557,
+              "first_pulse_auc_frame_units": 2.344354844605939,
+              "first_pulse_auc_seconds": 1.5707177458859791
+            }
+          ],
+          "median_light_on_delta_f_over_f": 0.5429900236672982,
+          "median_light_minus_pre": 0.5521773427301557,
+          "median_first_pulse_auc_frame_units": 3.018543821679595,
+          "median_first_pulse_auc_seconds": 2.0224243605253287
+        },
+        "sweet_plus_bitter": {
+          "fly_count": 8,
+          "per_fly": [
+            {
+              "column": "SS47744_Gr5a-Gr66a_Fly1",
+              "light_on_mean_delta_f_over_f": -0.028456504745810234,
+              "pre_first_pulse_mean_delta_f_over_f": 0.018963721734296002,
+              "difference": -0.047420226480106235,
+              "first_pulse_auc_frame_units": -0.1729680968257203,
+              "first_pulse_auc_seconds": -0.1158886248732326
+            },
+            {
+              "column": "SS47744_Gr5a-Gr66a_Fly2",
+              "light_on_mean_delta_f_over_f": 0.004001611774373436,
+              "pre_first_pulse_mean_delta_f_over_f": 0.03374655036472548,
+              "difference": -0.029744938590352044,
+              "first_pulse_auc_frame_units": 0.13359787572655396,
+              "first_pulse_auc_seconds": 0.08951057673679116
+            },
+            {
+              "column": "SS47744_Gr5a-Gr66a_Fly3",
+              "light_on_mean_delta_f_over_f": 0.2467156859567881,
+              "pre_first_pulse_mean_delta_f_over_f": -0.0014634417701972053,
+              "difference": 0.2481791277269853,
+              "first_pulse_auc_frame_units": 1.0788985136010218,
+              "first_pulse_auc_seconds": 0.7228620041126848
+            },
+            {
+              "column": "SS47744_Gr5a-Gr66a_Fly4",
+              "light_on_mean_delta_f_over_f": 0.0004996165538094293,
+              "pre_first_pulse_mean_delta_f_over_f": -0.008944347556179452,
+              "difference": 0.009443964109988882,
+              "first_pulse_auc_frame_units": 0.3438909166158973,
+              "first_pulse_auc_seconds": 0.23040691413265119
+            },
+            {
+              "column": "SS47744_Gr5a-Gr66a_Fly5",
+              "light_on_mean_delta_f_over_f": 0.11732966517982893,
+              "pre_first_pulse_mean_delta_f_over_f": -0.015152461933407732,
+              "difference": 0.13248212711323665,
+              "first_pulse_auc_frame_units": 0.6403667477827507,
+              "first_pulse_auc_seconds": 0.429045721014443
+            },
+            {
+              "column": "SS47744_Gr5a-Gr66a_Fly6",
+              "light_on_mean_delta_f_over_f": 0.23437791325888435,
+              "pre_first_pulse_mean_delta_f_over_f": -0.061775124732791946,
+              "difference": 0.2961530379916763,
+              "first_pulse_auc_frame_units": 1.265421791073421,
+              "first_pulse_auc_seconds": 0.8478326000191923
+            },
+            {
+              "column": "SS47744_Gr5a-Gr66a_Fly7",
+              "light_on_mean_delta_f_over_f": 0.14426542882869592,
+              "pre_first_pulse_mean_delta_f_over_f": 0.04262397871490348,
+              "difference": 0.10164145011379244,
+              "first_pulse_auc_frame_units": 0.878640427999529,
+              "first_pulse_auc_seconds": 0.5886890867596845
+            },
+            {
+              "column": "SS47744_Gr5a-Gr66a_Fly8",
+              "light_on_mean_delta_f_over_f": -0.03455670948508001,
+              "pre_first_pulse_mean_delta_f_over_f": -0.010826662956667682,
+              "difference": -0.023730046528412325,
+              "first_pulse_auc_frame_units": 0.2294420597406171,
+              "first_pulse_auc_seconds": 0.15372618002621347
+            }
+          ],
+          "median_light_on_delta_f_over_f": 0.060665638477101186,
+          "median_light_minus_pre": 0.05554270711189066,
+          "median_first_pulse_auc_frame_units": 0.492128832199324,
+          "median_first_pulse_auc_seconds": 0.3297263175735471
+        },
+        "bitter": {
+          "fly_count": 6,
+          "per_fly": [
+            {
+              "column": "SS47744_Gr66a_Fly1",
+              "light_on_mean_delta_f_over_f": 0.004071526339523936,
+              "pre_first_pulse_mean_delta_f_over_f": 0.015814241351926762,
+              "difference": -0.011742715012402826,
+              "first_pulse_auc_frame_units": -0.2547745464279132,
+              "first_pulse_auc_seconds": -0.17069894610670183
+            },
+            {
+              "column": "SS47744_Gr66a_Fly2",
+              "light_on_mean_delta_f_over_f": 0.01128654448322838,
+              "pre_first_pulse_mean_delta_f_over_f": -0.027032280533635985,
+              "difference": 0.038318825016864365,
+              "first_pulse_auc_frame_units": 0.13325874380214547,
+              "first_pulse_auc_seconds": 0.08928335834743746
+            },
+            {
+              "column": "SS47744_Gr66a_Fly3",
+              "light_on_mean_delta_f_over_f": -0.10963708113626425,
+              "pre_first_pulse_mean_delta_f_over_f": -0.06649793706754395,
+              "difference": -0.0431391440687203,
+              "first_pulse_auc_frame_units": -0.318520265994522,
+              "first_pulse_auc_seconds": -0.21340857821632975
+            },
+            {
+              "column": "SS47744_-Gr66a_Fly4",
+              "light_on_mean_delta_f_over_f": 0.016265917453361707,
+              "pre_first_pulse_mean_delta_f_over_f": 0.01707165346262677,
+              "difference": -0.0008057360092650623,
+              "first_pulse_auc_frame_units": 0.1443514525643967,
+              "first_pulse_auc_seconds": 0.09671547321814579
+            },
+            {
+              "column": "SS47744_Gr66a_Fly5",
+              "light_on_mean_delta_f_over_f": -0.0329910534608136,
+              "pre_first_pulse_mean_delta_f_over_f": 0.04591205666923363,
+              "difference": -0.07890311013004722,
+              "first_pulse_auc_frame_units": -0.1591960928451311,
+              "first_pulse_auc_seconds": -0.10666138220623783
+            },
+            {
+              "column": "SS47744_Gr66a_Fly6",
+              "light_on_mean_delta_f_over_f": -0.02571910478415815,
+              "pre_first_pulse_mean_delta_f_over_f": 0.009287884996804099,
+              "difference": -0.03500698978096225,
+              "first_pulse_auc_frame_units": 0.06671699434945616,
+              "first_pulse_auc_seconds": 0.04470038621413563
+            }
+          ],
+          "median_light_on_delta_f_over_f": -0.010823789222317108,
+          "median_light_minus_pre": -0.023374852396682536,
+          "median_first_pulse_auc_frame_units": -0.046239549247837464,
+          "median_first_pulse_auc_seconds": -0.030980497996051102
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "scope": "Native two-ray image fixture with explicit engineering RGB coefficients; no MaleCNS mapping, biological calibration, brain or body control",
+  "recorded_image_hashes_verified": true,
+  "analytic_photon_rates_exact": true,
+  "front_back_light_reactions_verified": true,
+  "fresh_process_full_state_continuation_exact": true,
+  "configuration_and_source_identity_verified": true,
+  "input_sha256": "94723a77b5cb19fb5f8a2373c57f05ccd38e003d672e95568c9cce328592682a",
+  "checkpoint_sha256": "0815512df40cad52a3e70cdf98a29fd2e754cb74a0460124c155cb012129fe37",
+  "final_snapshot_sha256": "e7570be4466d6c0f741ae16e5b68ff45f9f030cf63289a92beb4971923fe96ad",
+  "executable_sha256": "19f2738326bf81c8d84f6f67c46c111c2ab0b377637041b4b9338e156c8ffd8c",
+  "native_library_sha256": "7e1314780207f851ec1fbcfdec09ccfe40e767ca0728ec72545519afb58aa16d",
+  "source_hashes": {
+    "src/visual_input.rs": "020eda2448939ecd5edfc592e8bbb8b556bd4b7c255764d529a8696e68855279",
+    "src/vision.rs": "9e30ef07a9e88bf189ad1ab28f3de416ea03bf5bc498030b4e5853e97b028498",
+    "src/photon.rs": "d8e042de3e1e5f4f7861ff5baedea78be28eaa84b3906d00163b47c584fc59cb",
+    "native/retina.cpp": "9f8cb813dcba76cf17e5665c5fafb1f06c4593c808b50aad33e91c6eccddde88",
+    "native/retina.h": "cef2fb07bcd7d87107c02d3158c225fcd630f96809b9bcd73e179d784968d605"
+  }
+}

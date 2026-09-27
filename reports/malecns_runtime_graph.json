@@ -1,0 +1,147 @@
+{
+  "format": "flyrocket.incoming-csr.v1",
+  "population_policy": "status == Traced OR nonempty(strip(superclass))",
+  "population_claim": "candidate neural objects, not a count of proven complete biological neurons",
+  "orientation": "row=postsynaptic; indices=presynaptic",
+  "source_provenance": {
+    "dataset": "male-cns:v1.0",
+    "source_lock_sha256": "5a70071623459ee5b997eb59212d439f5e385afd37c37b76720e072b64fd2b7e",
+    "files": [
+      {
+        "name": "body-annotations-male-cns-v1.0-minconf-0.5.feather",
+        "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/body-annotations-male-cns-v1.0-minconf-0.5.feather",
+        "pinned_url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/body-annotations-male-cns-v1.0-minconf-0.5.feather?generation=1780494878811468",
+        "gcs_generation": "1780494878811468",
+        "bytes": 14483314,
+        "source_md5_base64": "UKdxh3DFciDxYLpPQxq4ng==",
+        "source_crc32c_base64": "vjz9cg==",
+        "local_path": "data/raw/malecns_v1/body-annotations-male-cns-v1.0-minconf-0.5.feather",
+        "sha256": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2",
+        "source_md5_verified": true
+      },
+      {
+        "name": "body-neurotransmitters-male-cns-v1.0.feather",
+        "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/body-neurotransmitters-male-cns-v1.0.feather",
+        "pinned_url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/body-neurotransmitters-male-cns-v1.0.feather?generation=1780894899156750",
+        "gcs_generation": "1780894899156750",
+        "bytes": 43282834,
+        "source_md5_base64": "PYQrEv5cSe763lKNfdJKHw==",
+        "source_crc32c_base64": "jcpNFg==",
+        "local_path": "data/raw/malecns_v1/body-neurotransmitters-male-cns-v1.0.feather",
+        "sha256": "95c9289220663abeb3409f3ad9e5a7f8a53f8093f5139d15502cd08da8879621",
+        "source_md5_verified": true
+      },
+      {
+        "name": "connectome-weights-male-cns-v1.0-minconf-0.5.feather",
+        "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/connectome-weights-male-cns-v1.0-minconf-0.5.feather",
+        "pinned_url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/connectome-weights-male-cns-v1.0-minconf-0.5.feather?generation=1780494887545976",
+        "gcs_generation": "1780494887545976",
+        "bytes": 1051241946,
+        "source_md5_base64": "8w6dzKJc/QIb8eez2XVZng==",
+        "source_crc32c_base64": "dKRPVQ==",
+        "local_path": "data/raw/malecns_v1/connectome-weights-male-cns-v1.0-minconf-0.5.feather",
+        "sha256": "e35da783d1c686b2b58b3b87cd6a403ae43bfcfba8bff28e08ef752c1a56afc1",
+        "source_md5_verified": true
+      }
+    ]
+  },
+  "nodes": 167216,
+  "edges": 25587572,
+  "retained_synapse_count_sum": 124193283,
+  "self_edges_preserved": 102,
+  "duplicate_pair_rows_preserved": 0,
+  "isolated_nodes_preserved": 548,
+  "excluded_annotation_rows": 44361,
+  "selection_reasons": [
+    {
+      "values": "traced_and_classified",
+      "counts": 164606
+    },
+    {
+      "values": "classified_not_traced",
+      "counts": 2094
+    },
+    {
+      "values": "traced_without_superclass",
+      "counts": 516
+    }
+  ],
+  "boundary_category_order": [
+    "included",
+    "annotated_outside_population",
+    "unannotated_segment"
+  ],
+  "all_source_rows": 151856684,
+  "all_source_synapse_count_sum": 311833243,
+  "source_rows_by_pre_post_category": [
+    [
+      25587572,
+      180219,
+      112467808
+    ],
+    [
+      247307,
+      13288,
+      751323
+    ],
+    [
+      4554282,
+      77071,
+      7977814
+    ]
+  ],
+  "source_counts_by_pre_post_category": [
+    [
+      124193283,
+      473727,
+      170438094
+    ],
+    [
+      653283,
+      45640,
+      1108094
+    ],
+    [
+      5616982,
+      104460,
+      9199680
+    ]
+  ],
+  "additional_weight_threshold": null,
+  "transmitter_signs_assigned": false,
+  "files": {
+    "body_ids.npy": {
+      "bytes": 1337856,
+      "sha256": "6bad3ab247ccb08f958962dd2a3da97289822bb4fe1e345a936db1c8741e05f8"
+    },
+    "excluded_annotations.feather": {
+      "bytes": 419778,
+      "sha256": "29da8422b3a585b67ddf5ad84f9d84d496c12570601e8809db79bc1a1fe7cb82"
+    },
+    "indices.npy": {
+      "bytes": 102350416,
+      "sha256": "d24a26b19f088719ade13220f4b6d5d269633a49f20456c2a4a37942d0a72e0b"
+    },
+    "indptr.npy": {
+      "bytes": 1337864,
+      "sha256": "e8a40f6043b5fac9d7dc8f9746c2b770672eca3f3bea37b4d8a33935752820fe"
+    },
+    "neurotransmitters.feather": {
+      "bytes": 5129538,
+      "sha256": "a53fd05fbc6279d90ae4ab8f6e420afe570956c65cc5278ebb7c4d3ff10f5cc4"
+    },
+    "nodes.feather": {
+      "bytes": 9320330,
+      "sha256": "48c7e4acadf9619d83f08b31bb2062b7a9f0a5fa86429ff968aea066ced57f3f"
+    },
+    "source_rows.npy": {
+      "bytes": 204700704,
+      "sha256": "93b480979b14aca47854e27e4afa0ba5fedec45b69006bbb448e597ec318f7de"
+    },
+    "synapse_counts.npy": {
+      "bytes": 204700704,
+      "sha256": "578f95e75aa4c86600429a05a59d43d9fa9ece67b592f97c938e1d8523f46ba1"
+    }
+  },
+  "elapsed_seconds": 101.828
+}

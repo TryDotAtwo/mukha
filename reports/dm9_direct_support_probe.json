@@ -1,0 +1,73 @@
+{
+  "scope": "Full native CNS diagnostic sensitivity to a sparse Dm9 direct-effect sign alternative",
+  "patch_report_sha256": "5fc2ad8b92a52e89031f8e7a1391d8b0963dfd0bf03dafa416c511b6540eb0dc",
+  "graph_sha256": "4a7c892fe278bc6f1e96548c34c376bf49bce1d589af12911cf047a4cf1bf8f8",
+  "library_sha256": "e41f83a2005e44b04d6be989683c5596dc5e64e72f06762b9e2d64186f0e5b13",
+  "source_graph_index": 136830,
+  "source_body_id": 534278,
+  "target_graph_index": 115115,
+  "target_body_id": 178007,
+  "selection": "Dm9 with maximum source contacts to named R7/R8; its highest-contact target",
+  "input": "68.75-mV artificial voltage jump to Dm9 every 10 ms, for 100 ms",
+  "dt_ms": 0.1,
+  "ticks": 1000,
+  "variants": [
+    {
+      "variant": "baseline",
+      "weights_sha256": "d3b8ad0de3f7d21f269dbdf618cf13ab82d71e2b037bc82e37954be1a15c81af",
+      "events_sha256": "a5f345abe3949b7941ff2c79b40147d4e5fddc041c8af75050b3d36ee0cd0d49",
+      "voltages_sha256": "f9e37abaf571479553e805043b4ee79c41294f1bf2af66ee7dea54ae92339d85",
+      "all_spikes": 10,
+      "source_spike_ticks": [
+        1,
+        101,
+        201,
+        301,
+        401,
+        501,
+        601,
+        701,
+        801,
+        901
+      ],
+      "target_spike_ticks": [],
+      "target_voltage_min_mv": -63.48738214921453,
+      "target_voltage_max_mv": -52.0
+    },
+    {
+      "variant": "dm9_direct_support",
+      "weights_sha256": "dddaf380c523b357ca9a9b50c02e196fed774b8dd45e623b44c38a10a1d9d7cf",
+      "events_sha256": "1f961fde8d794116655d65519806ad48301f8797b6666245e83736b6fc437274",
+      "voltages_sha256": "469047f50a5a03a959fe2c4fbc98326b64bf89c6bb193a07945145c4bbd88a38",
+      "all_spikes": 41,
+      "source_spike_ticks": [
+        1,
+        101,
+        201,
+        301,
+        401,
+        501,
+        601,
+        701,
+        801,
+        901
+      ],
+      "target_spike_ticks": [
+        230,
+        548,
+        830
+      ],
+      "target_voltage_min_mv": -53.69797152159333,
+      "target_voltage_max_mv": -45.0017412816834
+    }
+  ],
+  "max_abs_target_voltage_difference_mv": 17.68176849096122,
+  "first_target_voltage_difference_tick": 20,
+  "first_event_difference_tick": 230,
+  "biological_validation": false,
+  "limitations": [
+    "Artificial central Dm9 input, not photon-driven visual response",
+    "Source effect evidence comes from female calcium recordings",
+    "Direct receptor and uniform voltage scale remain uncalibrated"
+  ]
+}

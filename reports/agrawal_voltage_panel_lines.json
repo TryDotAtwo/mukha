@@ -1,0 +1,149 @@
+{
+  "source_figure_sha256": "73de398fb86593e1e3775b1bfaf5a460af634d66d193ee6c61cb71884b411845",
+  "source_url": "https://iiif.elifesciences.org/lax/60299%2Felife-60299-fig2-figsupp1-v2.tif/full/full/0/default.jpg",
+  "panel": "Figure 2 supplement 1E, two illustrative long colored cell-pair lines",
+  "pixel_axis_anchors": {
+    "x_minus70_mv": 124,
+    "x_minus10_mv": 455,
+    "y_12_mv_response": 1594,
+    "y_4_mv_response": 1840
+  },
+  "examples": [
+    {
+      "name": "extension_red",
+      "hough_line_pdf_image_pixels": [
+        130,
+        1702,
+        419,
+        1837
+      ],
+      "endpoint_voltage_mv": [
+        -68.91238670694864,
+        -16.525679758308158
+      ],
+      "endpoint_response_mv": [
+        8.487804878048781,
+        4.097560975609756
+      ],
+      "effective_linear_gain": 0.08380454046755001,
+      "single_linear_reversal_intercept_mv": 32.36858006042296,
+      "sampled_range_gain": [
+        0.0769417367895928,
+        0.09063761032763548
+      ],
+      "sampled_range_reversal_intercept_mv": [
+        26.024883241905812,
+        39.498466367637405
+      ]
+    },
+    {
+      "name": "flexion_blue",
+      "hough_line_pdf_image_pixels": [
+        162,
+        1777,
+        300,
+        1901
+      ],
+      "endpoint_voltage_mv": [
+        -63.11178247734139,
+        -38.096676737160124
+      ],
+      "endpoint_response_mv": [
+        6.048780487804878,
+        2.0162601626016254
+      ],
+      "effective_linear_gain": 0.16120340913554065,
+      "single_linear_reversal_intercept_mv": -25.589123867069496,
+      "sampled_range_gain": [
+        0.1445739108508959,
+        0.17813669218375558
+      ],
+      "sampled_range_reversal_intercept_mv": [
+        -28.484330393513964,
+        -22.065184592350903
+      ]
+    }
+  ],
+  "detector_setting_sensitivity": [
+    {
+      "hough_threshold": 15,
+      "min_length_pixels": 20,
+      "max_gap_pixels": 8,
+      "lines": {
+        "extension_red": {
+          "selected_segment_pixels": [
+            130,
+            1702,
+            419,
+            1837
+          ],
+          "linear_zero_response_intercept_mv": 32.36858006042296
+        },
+        "flexion_blue": {
+          "selected_segment_pixels": [
+            158,
+            1782,
+            290,
+            1881
+          ],
+          "linear_zero_response_intercept_mv": -20.09063444108761
+        }
+      }
+    },
+    {
+      "hough_threshold": 20,
+      "min_length_pixels": 25,
+      "max_gap_pixels": 10,
+      "lines": {
+        "extension_red": {
+          "selected_segment_pixels": [
+            130,
+            1702,
+            419,
+            1837
+          ],
+          "linear_zero_response_intercept_mv": 32.36858006042296
+        },
+        "flexion_blue": {
+          "selected_segment_pixels": [
+            162,
+            1777,
+            300,
+            1901
+          ],
+          "linear_zero_response_intercept_mv": -25.589123867069496
+        }
+      }
+    },
+    {
+      "hough_threshold": 25,
+      "min_length_pixels": 30,
+      "max_gap_pixels": 12,
+      "lines": {
+        "extension_red": {
+          "selected_segment_pixels": [
+            130,
+            1702,
+            419,
+            1837
+          ],
+          "linear_zero_response_intercept_mv": 32.36858006042296
+        },
+        "flexion_blue": {
+          "selected_segment_pixels": [
+            134,
+            1791,
+            307,
+            1899
+          ],
+          "linear_zero_response_intercept_mv": -18.24437730782141
+        }
+      }
+    }
+  ],
+  "selected_lines_share_one_linear_zero_response_intercept_under_reading": false,
+  "sensitivity": "20,000 deterministic uniform perturbations per selected line: each line endpoint and axis anchor independently +/-3 pixels. Three Hough settings also inspect potentially different segments. These are reading/detection sensitivities, not biological uncertainty or confidence intervals.",
+  "reversal_intercept_interpretation": "The E where a straight line through each illustrated pair extrapolates to zero response, if response=k*(E-V). It is not a measured channel reversal potential; differing intercepts do not uniquely identify the underlying mechanism.",
+  "full_cell_population_fit": false,
+  "biological_mechanism_identified": false
+}

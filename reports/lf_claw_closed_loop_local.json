@@ -1,0 +1,113 @@
+{
+  "spec_sha256": "0184a80c5a429ea37802704c45f01cac8975d3027a7fd273798154de53dc7b0f",
+  "graph_sha256": "4a7c892fe278bc6f1e96548c34c376bf49bce1d589af12911cf047a4cf1bf8f8",
+  "sensor_refractory_ticks": 0,
+  "blocked_events_match_pinned_source": true,
+  "source_model_xml_sha256": "d67ff06d0c684599f00d5f33f8f8ac8ced01ab994c41341b551f8148b6d8aa0b",
+  "cases": [
+    {
+      "case": "feedback_blocked",
+      "spikes": 5001,
+      "sensor_spikes": 0,
+      "minimum_sensor_interspike_ticks": null,
+      "motor_spike_ticks": [
+        190,
+        641
+      ],
+      "exact_contacts": 64,
+      "max_slide_mm": 0.0014458736048198959,
+      "max_sensor_drive_mv": 0.0,
+      "event_sha256": "38bb490b2a800fda91d0839f1031781e200ae6258dffa378525f10a26b21be51"
+    },
+    {
+      "case": "positive_position",
+      "spikes": 6742,
+      "sensor_spikes": 333,
+      "minimum_sensor_interspike_ticks": 2,
+      "motor_spike_ticks": [
+        190,
+        403,
+        492,
+        587,
+        671,
+        743,
+        906,
+        975
+      ],
+      "exact_contacts": 217,
+      "max_slide_mm": 0.040123904572399095,
+      "max_sensor_drive_mv": 25.356090318850942,
+      "event_sha256": "10c60034ae0a4af8dd2059dfe2fa844d906fe1febc26df7371a787c2135212be"
+    },
+    {
+      "case": "negative_position",
+      "spikes": 5001,
+      "sensor_spikes": 0,
+      "minimum_sensor_interspike_ticks": null,
+      "motor_spike_ticks": [
+        190,
+        641
+      ],
+      "exact_contacts": 64,
+      "max_slide_mm": 0.0014458736048198959,
+      "max_sensor_drive_mv": 0.00011729425244411118,
+      "event_sha256": "38bb490b2a800fda91d0839f1031781e200ae6258dffa378525f10a26b21be51"
+    },
+    {
+      "case": "positive_motor_disconnected",
+      "spikes": 5001,
+      "sensor_spikes": 0,
+      "minimum_sensor_interspike_ticks": null,
+      "motor_spike_ticks": [
+        190,
+        641
+      ],
+      "exact_contacts": 0,
+      "max_slide_mm": 0.0,
+      "max_sensor_drive_mv": 0.0,
+      "event_sha256": "38bb490b2a800fda91d0839f1031781e200ae6258dffa378525f10a26b21be51"
+    }
+  ],
+  "comparisons_to_blocked": [
+    {
+      "case": "positive_position",
+      "all_events_identical_to_blocked": false,
+      "first_exact_event_difference_tick": 228,
+      "first_added_neuron_indices": [
+        164105
+      ],
+      "first_removed_neuron_indices": [],
+      "first_sensor_drive_difference_tick": 192,
+      "first_global_spike_count_difference_tick": 228,
+      "first_motor_spike_difference_tick": 403,
+      "first_muscle_control_difference_tick": 403,
+      "first_slide_difference_tick": 424
+    },
+    {
+      "case": "negative_position",
+      "all_events_identical_to_blocked": true,
+      "first_exact_event_difference_tick": null,
+      "first_added_neuron_indices": [],
+      "first_removed_neuron_indices": [],
+      "first_sensor_drive_difference_tick": 1,
+      "first_global_spike_count_difference_tick": null,
+      "first_motor_spike_difference_tick": null,
+      "first_muscle_control_difference_tick": null,
+      "first_slide_difference_tick": null
+    },
+    {
+      "case": "positive_motor_disconnected",
+      "all_events_identical_to_blocked": true,
+      "first_exact_event_difference_tick": null,
+      "first_added_neuron_indices": [],
+      "first_removed_neuron_indices": [],
+      "first_sensor_drive_difference_tick": null,
+      "first_global_spike_count_difference_tick": null,
+      "first_motor_spike_difference_tick": null,
+      "first_muscle_control_difference_tick": 190,
+      "first_slide_difference_tick": 446
+    }
+  ],
+  "trace_sha256": "2d5186e7a850253c6695bdd33dc1fb9ee88fb0c78681469cee88acc337cee9f6",
+  "scope": "Exploratory closed proprioceptive diagnostic on full native CNS and FlyMimic; one assumed SNpp50 knee-position encoder, unknown polarity/gain, hypothetical motor map, artificial central stimulus, no biological validation or KSP landing."
+}

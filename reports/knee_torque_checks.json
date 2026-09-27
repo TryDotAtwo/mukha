@@ -1,0 +1,75 @@
+{
+  "scope": "Native 10 ms diagnostic torques at neutral; no neural input or muscle calibration",
+  "model_sha256": "f76a572b0699f6ea38e220f1a08b48803b519175a44457b55839e241d2362438",
+  "library_sha256": "c9c721585549e87f7b6d3ec5ff23a942967b0050b5b1c68227b7134f08715525",
+  "axis_calibration_sha256": "50b4bbaebd29cc432c74d4e7309079116746f80742a126740047705e9983a285",
+  "results": [
+    {
+      "joint": "lf_trochanterfemur-lf_tibia-pitch",
+      "positions_rad": {
+        "zero": 1.3619832686494067,
+        "positive": 1.3801052243780207,
+        "negative": 1.3438612397662018
+      },
+      "positive_delta_rad": 0.01812195572861408,
+      "negative_delta_rad": -0.01812202888320491,
+      "passed": true
+    },
+    {
+      "joint": "lm_trochanterfemur-lm_tibia-pitch",
+      "positions_rad": {
+        "zero": 1.798332406755225,
+        "positive": 1.8164456902378516,
+        "negative": 1.7802190479042777
+      },
+      "positive_delta_rad": 0.01811328348262653,
+      "negative_delta_rad": -0.018113358850947447,
+      "passed": true
+    },
+    {
+      "joint": "lh_trochanterfemur-lh_tibia-pitch",
+      "positions_rad": {
+        "zero": 1.7634469926531051,
+        "positive": 1.7815554682955634,
+        "negative": 1.7453384388107687
+      },
+      "positive_delta_rad": 0.01810847564245832,
+      "negative_delta_rad": -0.01810855384233645,
+      "passed": true
+    },
+    {
+      "joint": "rf_trochanterfemur-rf_tibia-pitch",
+      "positions_rad": {
+        "zero": 1.3619832686494067,
+        "positive": 1.3801052243780207,
+        "negative": 1.3438612397662018
+      },
+      "positive_delta_rad": 0.01812195572861408,
+      "negative_delta_rad": -0.01812202888320491,
+      "passed": true
+    },
+    {
+      "joint": "rm_trochanterfemur-rm_tibia-pitch",
+      "positions_rad": {
+        "zero": 1.798332406755225,
+        "positive": 1.8164456902378516,
+        "negative": 1.7802190479042777
+      },
+      "positive_delta_rad": 0.01811328348262653,
+      "negative_delta_rad": -0.018113358850947447,
+      "passed": true
+    },
+    {
+      "joint": "rh_trochanterfemur-rh_tibia-pitch",
+      "positions_rad": {
+        "zero": 1.7634469926531051,
+        "positive": 1.7815554682955634,
+        "negative": 1.7453384388107687
+      },
+      "positive_delta_rad": 0.01810847564245832,
+      "negative_delta_rad": -0.01810855384233645,
+      "passed": true
+    }
+  ],
+  "passed": true
+}

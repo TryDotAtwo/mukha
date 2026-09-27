@@ -1,0 +1,1214 @@
+{
+  "scope": "Exact anatomical class-pair counts on accepted MaleCNS CSR; no plasticity rule, sign, receptor, dopamine compartment, or functional transfer assigned",
+  "graph_manifest_sha256": "b30e21078c0479ac288e7f9d3b7cb2c9eb76aa3b9707f3a2b9fa6a92bb822ef3",
+  "raw_edge_columns": [
+    "body_pre",
+    "body_post",
+    "weight"
+  ],
+  "raw_edge_sha256": "e35da783d1c686b2b58b3b87cd6a403ae43bfcfba8bff28e08ef752c1a56afc1",
+  "checked_file_sha256": {
+    "nodes.feather": "48c7e4acadf9619d83f08b31bb2062b7a9f0a5fa86429ff968aea066ced57f3f",
+    "neurotransmitters.feather": "a53fd05fbc6279d90ae4ab8f6e420afe570956c65cc5278ebb7c4d3ff10f5cc4",
+    "body_ids.npy": "6bad3ab247ccb08f958962dd2a3da97289822bb4fe1e345a936db1c8741e05f8",
+    "indptr.npy": "e8a40f6043b5fac9d7dc8f9746c2b770672eca3f3bea37b4d8a33935752820fe",
+    "indices.npy": "d24a26b19f088719ade13220f4b6d5d269633a49f20456c2a4a37942d0a72e0b",
+    "synapse_counts.npy": "578f95e75aa4c86600429a05a59d43d9fa9ece67b592f97c938e1d8523f46ba1",
+    "source_rows.npy": "93b480979b14aca47854e27e4afa0ba5fedec45b69006bbb448e597ec318f7de"
+  },
+  "population_counts": {
+    "Kenyon_Cell": 4064,
+    "MBON": 97,
+    "DAN": 340
+  },
+  "source_chemistry_counts": {
+    "Kenyon_Cell": {
+      "acetylcholine": 4064
+    },
+    "MBON": {
+      "acetylcholine": 50,
+      "glutamate": 26,
+      "gaba": 21
+    },
+    "DAN": {
+      "dopamine": 338,
+      "unclear": 2
+    }
+  },
+  "instance_compartment_label_coverage": {
+    "Kenyon_Cell": {
+      "with_parenthesized_label": 0,
+      "total": 4064
+    },
+    "MBON": {
+      "with_parenthesized_label": 97,
+      "total": 97
+    },
+    "DAN": {
+      "with_parenthesized_label": 326,
+      "total": 340
+    }
+  },
+  "dan_non_dopamine_consensus": [
+    {
+      "bodyId": 13312,
+      "instance": "PPL203_L",
+      "consensus_nt": "unclear",
+      "predicted_nt": "serotonin",
+      "ground_truth": null
+    },
+    {
+      "bodyId": 15693,
+      "instance": "PPL203_R",
+      "consensus_nt": "unclear",
+      "predicted_nt": "serotonin",
+      "ground_truth": null
+    }
+  ],
+  "pairs": [
+    {
+      "presynaptic_class": "DAN",
+      "postsynaptic_class": "DAN",
+      "edge_rows": 5391,
+      "contacts": 9677,
+      "distinct_presynaptic_cells": 340,
+      "distinct_postsynaptic_cells": 340
+    },
+    {
+      "presynaptic_class": "DAN",
+      "postsynaptic_class": "Kenyon_Cell",
+      "edge_rows": 129113,
+      "contacts": 225127,
+      "distinct_presynaptic_cells": 338,
+      "distinct_postsynaptic_cells": 4063
+    },
+    {
+      "presynaptic_class": "DAN",
+      "postsynaptic_class": "MBON",
+      "edge_rows": 3160,
+      "contacts": 39711,
+      "distinct_presynaptic_cells": 337,
+      "distinct_postsynaptic_cells": 97
+    },
+    {
+      "presynaptic_class": "Kenyon_Cell",
+      "postsynaptic_class": "DAN",
+      "edge_rows": 145663,
+      "contacts": 281862,
+      "distinct_presynaptic_cells": 4061,
+      "distinct_postsynaptic_cells": 339
+    },
+    {
+      "presynaptic_class": "Kenyon_Cell",
+      "postsynaptic_class": "Kenyon_Cell",
+      "edge_rows": 642933,
+      "contacts": 1153845,
+      "distinct_presynaptic_cells": 4064,
+      "distinct_postsynaptic_cells": 4064
+    },
+    {
+      "presynaptic_class": "Kenyon_Cell",
+      "postsynaptic_class": "MBON",
+      "edge_rows": 61210,
+      "contacts": 463640,
+      "distinct_presynaptic_cells": 4063,
+      "distinct_postsynaptic_cells": 97
+    },
+    {
+      "presynaptic_class": "MBON",
+      "postsynaptic_class": "DAN",
+      "edge_rows": 2589,
+      "contacts": 11309,
+      "distinct_presynaptic_cells": 97,
+      "distinct_postsynaptic_cells": 338
+    },
+    {
+      "presynaptic_class": "MBON",
+      "postsynaptic_class": "Kenyon_Cell",
+      "edge_rows": 6813,
+      "contacts": 11181,
+      "distinct_presynaptic_cells": 88,
+      "distinct_postsynaptic_cells": 3364
+    },
+    {
+      "presynaptic_class": "MBON",
+      "postsynaptic_class": "MBON",
+      "edge_rows": 1606,
+      "contacts": 26259,
+      "distinct_presynaptic_cells": 97,
+      "distinct_postsynaptic_cells": 97
+    }
+  ],
+  "mbon_inputs": [
+    {
+      "bodyId": 10013,
+      "type": "MBON01",
+      "instance": "MBON01(y5B'2a)_R",
+      "Kenyon_Cell_edge_rows": 1041,
+      "Kenyon_Cell_contacts": 20439,
+      "MBON_edge_rows": 23,
+      "MBON_contacts": 649,
+      "DAN_edge_rows": 96,
+      "DAN_contacts": 1185
+    },
+    {
+      "bodyId": 10079,
+      "type": "MBON06",
+      "instance": "MBON06(B1>a)_R",
+      "Kenyon_Cell_edge_rows": 943,
+      "Kenyon_Cell_contacts": 11675,
+      "MBON_edge_rows": 19,
+      "MBON_contacts": 437,
+      "DAN_edge_rows": 66,
+      "DAN_contacts": 1937
+    },
+    {
+      "bodyId": 10267,
+      "type": "MBON14",
+      "instance": "MBON14(a3)_R",
+      "Kenyon_Cell_edge_rows": 833,
+      "Kenyon_Cell_contacts": 4929,
+      "MBON_edge_rows": 9,
+      "MBON_contacts": 221,
+      "DAN_edge_rows": 2,
+      "DAN_contacts": 183
+    },
+    {
+      "bodyId": 10495,
+      "type": "MBON05",
+      "instance": "MBON05(y4>y1y2)_R",
+      "Kenyon_Cell_edge_rows": 853,
+      "Kenyon_Cell_contacts": 19140,
+      "MBON_edge_rows": 19,
+      "MBON_contacts": 277,
+      "DAN_edge_rows": 127,
+      "DAN_contacts": 1882
+    },
+    {
+      "bodyId": 10599,
+      "type": "MBON35",
+      "instance": "MBON35(y2)_L",
+      "Kenyon_Cell_edge_rows": 577,
+      "Kenyon_Cell_contacts": 2041,
+      "MBON_edge_rows": 16,
+      "MBON_contacts": 71,
+      "DAN_edge_rows": 12,
+      "DAN_contacts": 523
+    },
+    {
+      "bodyId": 10704,
+      "type": "MBON11",
+      "instance": "MBON11(y1pedc>a/B)_L",
+      "Kenyon_Cell_edge_rows": 2048,
+      "Kenyon_Cell_contacts": 16863,
+      "MBON_edge_rows": 25,
+      "MBON_contacts": 619,
+      "DAN_edge_rows": 61,
+      "DAN_contacts": 1132
+    },
+    {
+      "bodyId": 10804,
+      "type": "MBON20",
+      "instance": "MBON20(y1y2)_R",
+      "Kenyon_Cell_edge_rows": 702,
+      "Kenyon_Cell_contacts": 2502,
+      "MBON_edge_rows": 20,
+      "MBON_contacts": 623,
+      "DAN_edge_rows": 16,
+      "DAN_contacts": 102
+    },
+    {
+      "bodyId": 10816,
+      "type": "MBON31",
+      "instance": "MBON31(a'1a)_L",
+      "Kenyon_Cell_edge_rows": 367,
+      "Kenyon_Cell_contacts": 5367,
+      "MBON_edge_rows": 29,
+      "MBON_contacts": 331,
+      "DAN_edge_rows": 22,
+      "DAN_contacts": 386
+    },
+    {
+      "bodyId": 10826,
+      "type": "MBON21",
+      "instance": "MBON21(y4y5)_L",
+      "Kenyon_Cell_edge_rows": 836,
+      "Kenyon_Cell_contacts": 3980,
+      "MBON_edge_rows": 32,
+      "MBON_contacts": 540,
+      "DAN_edge_rows": 105,
+      "DAN_contacts": 559
+    },
+    {
+      "bodyId": 11145,
+      "type": "MBON20",
+      "instance": "MBON20(y1y2)_L",
+      "Kenyon_Cell_edge_rows": 690,
+      "Kenyon_Cell_contacts": 2102,
+      "MBON_edge_rows": 24,
+      "MBON_contacts": 682,
+      "DAN_edge_rows": 24,
+      "DAN_contacts": 90
+    },
+    {
+      "bodyId": 11176,
+      "type": "MBON26",
+      "instance": "MBON26(b'2d)_R",
+      "Kenyon_Cell_edge_rows": 309,
+      "Kenyon_Cell_contacts": 1982,
+      "MBON_edge_rows": 26,
+      "MBON_contacts": 1432,
+      "DAN_edge_rows": 56,
+      "DAN_contacts": 556
+    },
+    {
+      "bodyId": 11402,
+      "type": "MBON11",
+      "instance": "MBON11(y1pedc>a/B)_R",
+      "Kenyon_Cell_edge_rows": 2136,
+      "Kenyon_Cell_contacts": 24597,
+      "MBON_edge_rows": 26,
+      "MBON_contacts": 651,
+      "DAN_edge_rows": 88,
+      "DAN_contacts": 1639
+    },
+    {
+      "bodyId": 11455,
+      "type": "MBON32",
+      "instance": "MBON32(y2)_L",
+      "Kenyon_Cell_edge_rows": 928,
+      "Kenyon_Cell_contacts": 7093,
+      "MBON_edge_rows": 17,
+      "MBON_contacts": 172,
+      "DAN_edge_rows": 14,
+      "DAN_contacts": 586
+    },
+    {
+      "bodyId": 11777,
+      "type": "MBON15",
+      "instance": "MBON15(a'1)_R",
+      "Kenyon_Cell_edge_rows": 129,
+      "Kenyon_Cell_contacts": 213,
+      "MBON_edge_rows": 14,
+      "MBON_contacts": 80,
+      "DAN_edge_rows": 6,
+      "DAN_contacts": 35
+    },
+    {
+      "bodyId": 11785,
+      "type": "MBON33",
+      "instance": "MBON33(y2y3)_L",
+      "Kenyon_Cell_edge_rows": 300,
+      "Kenyon_Cell_contacts": 862,
+      "MBON_edge_rows": 10,
+      "MBON_contacts": 60,
+      "DAN_edge_rows": 42,
+      "DAN_contacts": 292
+    },
+    {
+      "bodyId": 11805,
+      "type": "MBON31",
+      "instance": "MBON31(a'1a)_R",
+      "Kenyon_Cell_edge_rows": 371,
+      "Kenyon_Cell_contacts": 5126,
+      "MBON_edge_rows": 20,
+      "MBON_contacts": 270,
+      "DAN_edge_rows": 19,
+      "DAN_contacts": 384
+    },
+    {
+      "bodyId": 11873,
+      "type": "MBON14",
+      "instance": "MBON14(a3)_L",
+      "Kenyon_Cell_edge_rows": 868,
+      "Kenyon_Cell_contacts": 5488,
+      "MBON_edge_rows": 7,
+      "MBON_contacts": 250,
+      "DAN_edge_rows": 3,
+      "DAN_contacts": 210
+    },
+    {
+      "bodyId": 11990,
+      "type": "MBON22",
+      "instance": "MBON22(calyx)_R",
+      "Kenyon_Cell_edge_rows": 1629,
+      "Kenyon_Cell_contacts": 9124,
+      "MBON_edge_rows": 11,
+      "MBON_contacts": 345,
+      "DAN_edge_rows": 23,
+      "DAN_contacts": 52
+    },
+    {
+      "bodyId": 12690,
+      "type": "MBON06",
+      "instance": "MBON06(B1>a)_L",
+      "Kenyon_Cell_edge_rows": 1001,
+      "Kenyon_Cell_contacts": 13790,
+      "MBON_edge_rows": 18,
+      "MBON_contacts": 377,
+      "DAN_edge_rows": 58,
+      "DAN_contacts": 2026
+    },
+    {
+      "bodyId": 12726,
+      "type": "MBON13",
+      "instance": "MBON13(a'2)_L",
+      "Kenyon_Cell_edge_rows": 333,
+      "Kenyon_Cell_contacts": 5334,
+      "MBON_edge_rows": 10,
+      "MBON_contacts": 277,
+      "DAN_edge_rows": 10,
+      "DAN_contacts": 345
+    },
+    {
+      "bodyId": 12859,
+      "type": "MBON07",
+      "instance": "MBON07(a1)_R",
+      "Kenyon_Cell_edge_rows": 956,
+      "Kenyon_Cell_contacts": 5636,
+      "MBON_edge_rows": 9,
+      "MBON_contacts": 202,
+      "DAN_edge_rows": 30,
+      "DAN_contacts": 499
+    },
+    {
+      "bodyId": 12918,
+      "type": "MBON22",
+      "instance": "MBON22(calyx)_L",
+      "Kenyon_Cell_edge_rows": 1556,
+      "Kenyon_Cell_contacts": 6960,
+      "MBON_edge_rows": 15,
+      "MBON_contacts": 361,
+      "DAN_edge_rows": 18,
+      "DAN_contacts": 33
+    },
+    {
+      "bodyId": 13728,
+      "type": "MBON12",
+      "instance": "MBON12(y2a'1)_L",
+      "Kenyon_Cell_edge_rows": 1024,
+      "Kenyon_Cell_contacts": 5426,
+      "MBON_edge_rows": 21,
+      "MBON_contacts": 310,
+      "DAN_edge_rows": 10,
+      "DAN_contacts": 201
+    },
+    {
+      "bodyId": 13768,
+      "type": "MBON12",
+      "instance": "MBON12(y2a'1)_L",
+      "Kenyon_Cell_edge_rows": 1058,
+      "Kenyon_Cell_contacts": 5844,
+      "MBON_edge_rows": 18,
+      "MBON_contacts": 262,
+      "DAN_edge_rows": 13,
+      "DAN_contacts": 237
+    },
+    {
+      "bodyId": 14221,
+      "type": "MBON18",
+      "instance": "MBON18(a2sc)_R",
+      "Kenyon_Cell_edge_rows": 872,
+      "Kenyon_Cell_contacts": 6940,
+      "MBON_edge_rows": 16,
+      "MBON_contacts": 204,
+      "DAN_edge_rows": 6,
+      "DAN_contacts": 203
+    },
+    {
+      "bodyId": 15626,
+      "type": "MBON07",
+      "instance": "MBON07(a1)_L",
+      "Kenyon_Cell_edge_rows": 882,
+      "Kenyon_Cell_contacts": 5085,
+      "MBON_edge_rows": 8,
+      "MBON_contacts": 250,
+      "DAN_edge_rows": 25,
+      "DAN_contacts": 476
+    },
+    {
+      "bodyId": 15708,
+      "type": "MBON24",
+      "instance": "MBON24(B2y5)_R",
+      "Kenyon_Cell_edge_rows": 886,
+      "Kenyon_Cell_contacts": 1833,
+      "MBON_edge_rows": 25,
+      "MBON_contacts": 291,
+      "DAN_edge_rows": 57,
+      "DAN_contacts": 292
+    },
+    {
+      "bodyId": 17946,
+      "type": "MBON14",
+      "instance": "MBON14(a3)_R",
+      "Kenyon_Cell_edge_rows": 887,
+      "Kenyon_Cell_contacts": 6719,
+      "MBON_edge_rows": 10,
+      "MBON_contacts": 256,
+      "DAN_edge_rows": 2,
+      "DAN_contacts": 234
+    },
+    {
+      "bodyId": 18406,
+      "type": "MBON24",
+      "instance": "MBON24(B2y5)_L",
+      "Kenyon_Cell_edge_rows": 799,
+      "Kenyon_Cell_contacts": 1801,
+      "MBON_edge_rows": 25,
+      "MBON_contacts": 340,
+      "DAN_edge_rows": 56,
+      "DAN_contacts": 320
+    },
+    {
+      "bodyId": 18603,
+      "type": "MBON07",
+      "instance": "MBON07(a1)_L",
+      "Kenyon_Cell_edge_rows": 878,
+      "Kenyon_Cell_contacts": 5425,
+      "MBON_edge_rows": 8,
+      "MBON_contacts": 234,
+      "DAN_edge_rows": 31,
+      "DAN_contacts": 535
+    },
+    {
+      "bodyId": 18713,
+      "type": "MBON09",
+      "instance": "MBON09(y3B'1)_L",
+      "Kenyon_Cell_edge_rows": 1210,
+      "Kenyon_Cell_contacts": 16349,
+      "MBON_edge_rows": 20,
+      "MBON_contacts": 393,
+      "DAN_edge_rows": 73,
+      "DAN_contacts": 879
+    },
+    {
+      "bodyId": 19267,
+      "type": "MBON09",
+      "instance": "MBON09(y3B'1)_L",
+      "Kenyon_Cell_edge_rows": 1186,
+      "Kenyon_Cell_contacts": 15702,
+      "MBON_edge_rows": 20,
+      "MBON_contacts": 330,
+      "DAN_edge_rows": 69,
+      "DAN_contacts": 909
+    },
+    {
+      "bodyId": 19366,
+      "type": "MBON14",
+      "instance": "MBON14(a3)_L",
+      "Kenyon_Cell_edge_rows": 849,
+      "Kenyon_Cell_contacts": 5081,
+      "MBON_edge_rows": 9,
+      "MBON_contacts": 239,
+      "DAN_edge_rows": 4,
+      "DAN_contacts": 238
+    },
+    {
+      "bodyId": 20835,
+      "type": "MBON23",
+      "instance": "MBON23(a2sp)_R",
+      "Kenyon_Cell_edge_rows": 636,
+      "Kenyon_Cell_contacts": 1632,
+      "MBON_edge_rows": 10,
+      "MBON_contacts": 245,
+      "DAN_edge_rows": 4,
+      "DAN_contacts": 64
+    },
+    {
+      "bodyId": 21242,
+      "type": "MBON09",
+      "instance": "MBON09(y3B'1)_R",
+      "Kenyon_Cell_edge_rows": 1149,
+      "Kenyon_Cell_contacts": 14224,
+      "MBON_edge_rows": 17,
+      "MBON_contacts": 385,
+      "DAN_edge_rows": 72,
+      "DAN_contacts": 807
+    },
+    {
+      "bodyId": 26485,
+      "type": "MBON28",
+      "instance": "MBON28(a'3a)_R",
+      "Kenyon_Cell_edge_rows": 207,
+      "Kenyon_Cell_contacts": 1242,
+      "MBON_edge_rows": 16,
+      "MBON_contacts": 72,
+      "DAN_edge_rows": 8,
+      "DAN_contacts": 106
+    },
+    {
+      "bodyId": 26853,
+      "type": "MBON19",
+      "instance": "MBON19(a2p3p)_R",
+      "Kenyon_Cell_edge_rows": 169,
+      "Kenyon_Cell_contacts": 406,
+      "MBON_edge_rows": 6,
+      "MBON_contacts": 119,
+      "DAN_edge_rows": 2,
+      "DAN_contacts": 19
+    },
+    {
+      "bodyId": 28622,
+      "type": "MBON28",
+      "instance": "MBON28(a'3a)_L",
+      "Kenyon_Cell_edge_rows": 206,
+      "Kenyon_Cell_contacts": 1037,
+      "MBON_edge_rows": 19,
+      "MBON_contacts": 120,
+      "DAN_edge_rows": 4,
+      "DAN_contacts": 73
+    },
+    {
+      "bodyId": 31016,
+      "type": "MBON17",
+      "instance": "MBON17(a'3m)_L",
+      "Kenyon_Cell_edge_rows": 267,
+      "Kenyon_Cell_contacts": 1480,
+      "MBON_edge_rows": 14,
+      "MBON_contacts": 124,
+      "DAN_edge_rows": 4,
+      "DAN_contacts": 68
+    },
+    {
+      "bodyId": 31083,
+      "type": "MBON15-like",
+      "instance": "MBON15-like(a'1a'2)_L",
+      "Kenyon_Cell_edge_rows": 233,
+      "Kenyon_Cell_contacts": 665,
+      "MBON_edge_rows": 19,
+      "MBON_contacts": 128,
+      "DAN_edge_rows": 6,
+      "DAN_contacts": 58
+    },
+    {
+      "bodyId": 33617,
+      "type": "MBON19",
+      "instance": "MBON19(a2p3p)_R",
+      "Kenyon_Cell_edge_rows": 175,
+      "Kenyon_Cell_contacts": 428,
+      "MBON_edge_rows": 6,
+      "MBON_contacts": 108,
+      "DAN_edge_rows": 4,
+      "DAN_contacts": 26
+    },
+    {
+      "bodyId": 36094,
+      "type": "MBON19",
+      "instance": "MBON19(a2p3p)_L",
+      "Kenyon_Cell_edge_rows": 209,
+      "Kenyon_Cell_contacts": 650,
+      "MBON_edge_rows": 9,
+      "MBON_contacts": 129,
+      "DAN_edge_rows": 5,
+      "DAN_contacts": 27
+    },
+    {
+      "bodyId": 38853,
+      "type": "MBON15",
+      "instance": "MBON15(a'1)_L",
+      "Kenyon_Cell_edge_rows": 201,
+      "Kenyon_Cell_contacts": 416,
+      "MBON_edge_rows": 15,
+      "MBON_contacts": 163,
+      "DAN_edge_rows": 11,
+      "DAN_contacts": 56
+    },
+    {
+      "bodyId": 38859,
+      "type": "MBON15-like",
+      "instance": "MBON15-like(a'1a'2)_L",
+      "Kenyon_Cell_edge_rows": 235,
+      "Kenyon_Cell_contacts": 951,
+      "MBON_edge_rows": 17,
+      "MBON_contacts": 102,
+      "DAN_edge_rows": 7,
+      "DAN_contacts": 68
+    },
+    {
+      "bodyId": 39608,
+      "type": "MBON10",
+      "instance": "MBON10(B'1)_L",
+      "Kenyon_Cell_edge_rows": 130,
+      "Kenyon_Cell_contacts": 425,
+      "MBON_edge_rows": 12,
+      "MBON_contacts": 73,
+      "DAN_edge_rows": 29,
+      "DAN_contacts": 83
+    },
+    {
+      "bodyId": 41692,
+      "type": "MBON17",
+      "instance": "MBON17(a'3m)_R",
+      "Kenyon_Cell_edge_rows": 270,
+      "Kenyon_Cell_contacts": 1540,
+      "MBON_edge_rows": 14,
+      "MBON_contacts": 78,
+      "DAN_edge_rows": 6,
+      "DAN_contacts": 59
+    },
+    {
+      "bodyId": 44619,
+      "type": "MBON15-like",
+      "instance": "MBON15-like(a'1a'2)_R",
+      "Kenyon_Cell_edge_rows": 239,
+      "Kenyon_Cell_contacts": 1056,
+      "MBON_edge_rows": 16,
+      "MBON_contacts": 40,
+      "DAN_edge_rows": 5,
+      "DAN_contacts": 56
+    },
+    {
+      "bodyId": 47551,
+      "type": "MBON19",
+      "instance": "MBON19(a2p3p)_L",
+      "Kenyon_Cell_edge_rows": 224,
+      "Kenyon_Cell_contacts": 501,
+      "MBON_edge_rows": 12,
+      "MBON_contacts": 92,
+      "DAN_edge_rows": 4,
+      "DAN_contacts": 36
+    },
+    {
+      "bodyId": 49262,
+      "type": "MBON10",
+      "instance": "MBON10(B'1)_R",
+      "Kenyon_Cell_edge_rows": 94,
+      "Kenyon_Cell_contacts": 169,
+      "MBON_edge_rows": 13,
+      "MBON_contacts": 48,
+      "DAN_edge_rows": 15,
+      "DAN_contacts": 24
+    },
+    {
+      "bodyId": 58401,
+      "type": "MBON15",
+      "instance": "MBON15(a'1)_R",
+      "Kenyon_Cell_edge_rows": 199,
+      "Kenyon_Cell_contacts": 385,
+      "MBON_edge_rows": 15,
+      "MBON_contacts": 87,
+      "DAN_edge_rows": 15,
+      "DAN_contacts": 54
+    },
+    {
+      "bodyId": 70924,
+      "type": "MBON10",
+      "instance": "MBON10(B'1)_L",
+      "Kenyon_Cell_edge_rows": 216,
+      "Kenyon_Cell_contacts": 482,
+      "MBON_edge_rows": 14,
+      "MBON_contacts": 69,
+      "DAN_edge_rows": 31,
+      "DAN_contacts": 80
+    },
+    {
+      "bodyId": 76585,
+      "type": "MBON25-like",
+      "instance": "MBON25-like(y2)_R",
+      "Kenyon_Cell_edge_rows": 114,
+      "Kenyon_Cell_contacts": 154,
+      "MBON_edge_rows": 7,
+      "MBON_contacts": 28,
+      "DAN_edge_rows": 9,
+      "DAN_contacts": 30
+    },
+    {
+      "bodyId": 87077,
+      "type": "MBON25",
+      "instance": "MBON25(y1y2)_L",
+      "Kenyon_Cell_edge_rows": 318,
+      "Kenyon_Cell_contacts": 517,
+      "MBON_edge_rows": 8,
+      "MBON_contacts": 67,
+      "DAN_edge_rows": 7,
+      "DAN_contacts": 70
+    },
+    {
+      "bodyId": 92112,
+      "type": "MBON34",
+      "instance": "MBON34(y2)_R",
+      "Kenyon_Cell_edge_rows": 32,
+      "Kenyon_Cell_contacts": 35,
+      "MBON_edge_rows": 13,
+      "MBON_contacts": 34,
+      "DAN_edge_rows": 7,
+      "DAN_contacts": 12
+    },
+    {
+      "bodyId": 110448,
+      "type": "MBON25-like",
+      "instance": "MBON25-like(y1y2)_L",
+      "Kenyon_Cell_edge_rows": 180,
+      "Kenyon_Cell_contacts": 262,
+      "MBON_edge_rows": 12,
+      "MBON_contacts": 36,
+      "DAN_edge_rows": 4,
+      "DAN_contacts": 22
+    },
+    {
+      "bodyId": 133427,
+      "type": "MBON10",
+      "instance": "MBON10(B'1)_R",
+      "Kenyon_Cell_edge_rows": 123,
+      "Kenyon_Cell_contacts": 206,
+      "MBON_edge_rows": 15,
+      "MBON_contacts": 68,
+      "DAN_edge_rows": 25,
+      "DAN_contacts": 41
+    },
+    {
+      "bodyId": 160320,
+      "type": "MBON25-like",
+      "instance": "MBON25-like(y2)_L",
+      "Kenyon_Cell_edge_rows": 230,
+      "Kenyon_Cell_contacts": 375,
+      "MBON_edge_rows": 9,
+      "MBON_contacts": 33,
+      "DAN_edge_rows": 7,
+      "DAN_contacts": 32
+    },
+    {
+      "bodyId": 187741,
+      "type": "MBON15-like",
+      "instance": "MBON15-like(a'1a'2)_R",
+      "Kenyon_Cell_edge_rows": 233,
+      "Kenyon_Cell_contacts": 563,
+      "MBON_edge_rows": 16,
+      "MBON_contacts": 78,
+      "DAN_edge_rows": 7,
+      "DAN_contacts": 48
+    },
+    {
+      "bodyId": 208566,
+      "type": "MBON34",
+      "instance": "MBON34(y2)_L",
+      "Kenyon_Cell_edge_rows": 38,
+      "Kenyon_Cell_contacts": 45,
+      "MBON_edge_rows": 13,
+      "MBON_contacts": 26,
+      "DAN_edge_rows": 4,
+      "DAN_contacts": 5
+    },
+    {
+      "bodyId": 394860,
+      "type": "MBON25",
+      "instance": "MBON25(y1y2)_R",
+      "Kenyon_Cell_edge_rows": 339,
+      "Kenyon_Cell_contacts": 554,
+      "MBON_edge_rows": 13,
+      "MBON_contacts": 96,
+      "DAN_edge_rows": 10,
+      "DAN_contacts": 59
+    },
+    {
+      "bodyId": 508595,
+      "type": "MBON35",
+      "instance": "MBON35(y2)_R",
+      "Kenyon_Cell_edge_rows": 666,
+      "Kenyon_Cell_contacts": 2614,
+      "MBON_edge_rows": 17,
+      "MBON_contacts": 61,
+      "DAN_edge_rows": 13,
+      "DAN_contacts": 504
+    },
+    {
+      "bodyId": 512788,
+      "type": "MBON18",
+      "instance": "MBON18(a2sc)_L",
+      "Kenyon_Cell_edge_rows": 851,
+      "Kenyon_Cell_contacts": 6985,
+      "MBON_edge_rows": 10,
+      "MBON_contacts": 164,
+      "DAN_edge_rows": 7,
+      "DAN_contacts": 252
+    },
+    {
+      "bodyId": 512789,
+      "type": "MBON23",
+      "instance": "MBON23(a2sp)_L",
+      "Kenyon_Cell_edge_rows": 562,
+      "Kenyon_Cell_contacts": 1302,
+      "MBON_edge_rows": 11,
+      "MBON_contacts": 243,
+      "DAN_edge_rows": 5,
+      "DAN_contacts": 69
+    },
+    {
+      "bodyId": 513174,
+      "type": "MBON30",
+      "instance": "MBON30(y1y2y3)_L",
+      "Kenyon_Cell_edge_rows": 825,
+      "Kenyon_Cell_contacts": 6361,
+      "MBON_edge_rows": 29,
+      "MBON_contacts": 1160,
+      "DAN_edge_rows": 52,
+      "DAN_contacts": 244
+    },
+    {
+      "bodyId": 513387,
+      "type": "MBON17-like",
+      "instance": "MBON17-like(a'2a'3)_L",
+      "Kenyon_Cell_edge_rows": 239,
+      "Kenyon_Cell_contacts": 920,
+      "MBON_edge_rows": 16,
+      "MBON_contacts": 68,
+      "DAN_edge_rows": 6,
+      "DAN_contacts": 31
+    },
+    {
+      "bodyId": 513391,
+      "type": "MBON17-like",
+      "instance": "MBON17-like(a'2a'3)_R",
+      "Kenyon_Cell_edge_rows": 234,
+      "Kenyon_Cell_contacts": 969,
+      "MBON_edge_rows": 11,
+      "MBON_contacts": 46,
+      "DAN_edge_rows": 5,
+      "DAN_contacts": 33
+    },
+    {
+      "bodyId": 514853,
+      "type": "MBON13",
+      "instance": "MBON13(a'2)_R",
+      "Kenyon_Cell_edge_rows": 340,
+      "Kenyon_Cell_contacts": 4860,
+      "MBON_edge_rows": 18,
+      "MBON_contacts": 186,
+      "DAN_edge_rows": 7,
+      "DAN_contacts": 332
+    },
+    {
+      "bodyId": 515015,
+      "type": "MBON30",
+      "instance": "MBON30(y1y2y3)_R",
+      "Kenyon_Cell_edge_rows": 796,
+      "Kenyon_Cell_contacts": 5498,
+      "MBON_edge_rows": 25,
+      "MBON_contacts": 1003,
+      "DAN_edge_rows": 43,
+      "DAN_contacts": 214
+    },
+    {
+      "bodyId": 515034,
+      "type": "MBON27",
+      "instance": "MBON27(y5d)_R",
+      "Kenyon_Cell_edge_rows": 297,
+      "Kenyon_Cell_contacts": 3205,
+      "MBON_edge_rows": 18,
+      "MBON_contacts": 222,
+      "DAN_edge_rows": 65,
+      "DAN_contacts": 351
+    },
+    {
+      "bodyId": 515338,
+      "type": "MBON07",
+      "instance": "MBON07(a1)_R",
+      "Kenyon_Cell_edge_rows": 935,
+      "Kenyon_Cell_contacts": 6694,
+      "MBON_edge_rows": 8,
+      "MBON_contacts": 228,
+      "DAN_edge_rows": 27,
+      "DAN_contacts": 538
+    },
+    {
+      "bodyId": 519128,
+      "type": "MBON27",
+      "instance": "MBON27(y5d)_L",
+      "Kenyon_Cell_edge_rows": 321,
+      "Kenyon_Cell_contacts": 2404,
+      "MBON_edge_rows": 18,
+      "MBON_contacts": 283,
+      "DAN_edge_rows": 71,
+      "DAN_contacts": 277
+    },
+    {
+      "bodyId": 519131,
+      "type": "MBON32",
+      "instance": "MBON32(y2)_R",
+      "Kenyon_Cell_edge_rows": 981,
+      "Kenyon_Cell_contacts": 6071,
+      "MBON_edge_rows": 18,
+      "MBON_contacts": 159,
+      "DAN_edge_rows": 11,
+      "DAN_contacts": 497
+    },
+    {
+      "bodyId": 519368,
+      "type": "MBON12",
+      "instance": "MBON12(y2a'1)_R",
+      "Kenyon_Cell_edge_rows": 1018,
+      "Kenyon_Cell_contacts": 5361,
+      "MBON_edge_rows": 14,
+      "MBON_contacts": 222,
+      "DAN_edge_rows": 10,
+      "DAN_contacts": 211
+    },
+    {
+      "bodyId": 519371,
+      "type": "MBON05",
+      "instance": "MBON05(y4>y1y2)_L",
+      "Kenyon_Cell_edge_rows": 1146,
+      "Kenyon_Cell_contacts": 17180,
+      "MBON_edge_rows": 19,
+      "MBON_contacts": 280,
+      "DAN_edge_rows": 104,
+      "DAN_contacts": 1588
+    },
+    {
+      "bodyId": 519373,
+      "type": "MBON03",
+      "instance": "MBON03(B'2mp)_L",
+      "Kenyon_Cell_edge_rows": 616,
+      "Kenyon_Cell_contacts": 10309,
+      "MBON_edge_rows": 22,
+      "MBON_contacts": 347,
+      "DAN_edge_rows": 86,
+      "DAN_contacts": 2086
+    },
+    {
+      "bodyId": 519619,
+      "type": "MBON29",
+      "instance": "MBON29(y4y5)_L",
+      "Kenyon_Cell_edge_rows": 984,
+      "Kenyon_Cell_contacts": 2452,
+      "MBON_edge_rows": 25,
+      "MBON_contacts": 542,
+      "DAN_edge_rows": 69,
+      "DAN_contacts": 229
+    },
+    {
+      "bodyId": 520151,
+      "type": "MBON01",
+      "instance": "MBON01(y5B'2a)_L",
+      "Kenyon_Cell_edge_rows": 1068,
+      "Kenyon_Cell_contacts": 20449,
+      "MBON_edge_rows": 21,
+      "MBON_contacts": 502,
+      "DAN_edge_rows": 80,
+      "DAN_contacts": 1137
+    },
+    {
+      "bodyId": 520186,
+      "type": "MBON16",
+      "instance": "MBON16(a'3ap)_L",
+      "Kenyon_Cell_edge_rows": 286,
+      "Kenyon_Cell_contacts": 1571,
+      "MBON_edge_rows": 12,
+      "MBON_contacts": 50,
+      "DAN_edge_rows": 2,
+      "DAN_contacts": 124
+    },
+    {
+      "bodyId": 520395,
+      "type": "MBON15",
+      "instance": "MBON15(a'1)_L",
+      "Kenyon_Cell_edge_rows": 158,
+      "Kenyon_Cell_contacts": 292,
+      "MBON_edge_rows": 16,
+      "MBON_contacts": 98,
+      "DAN_edge_rows": 9,
+      "DAN_contacts": 33
+    },
+    {
+      "bodyId": 521086,
+      "type": "MBON12",
+      "instance": "MBON12(y2a'1)_R",
+      "Kenyon_Cell_edge_rows": 1026,
+      "Kenyon_Cell_contacts": 5972,
+      "MBON_edge_rows": 20,
+      "MBON_contacts": 279,
+      "DAN_edge_rows": 13,
+      "DAN_contacts": 225
+    },
+    {
+      "bodyId": 521526,
+      "type": "MBON03",
+      "instance": "MBON03(B'2mp)_R",
+      "Kenyon_Cell_edge_rows": 633,
+      "Kenyon_Cell_contacts": 13695,
+      "MBON_edge_rows": 20,
+      "MBON_contacts": 339,
+      "DAN_edge_rows": 100,
+      "DAN_contacts": 2659
+    },
+    {
+      "bodyId": 522444,
+      "type": "MBON02",
+      "instance": "MBON02(B2B'2a)_R",
+      "Kenyon_Cell_edge_rows": 2209,
+      "Kenyon_Cell_contacts": 9536,
+      "MBON_edge_rows": 26,
+      "MBON_contacts": 252,
+      "DAN_edge_rows": 69,
+      "DAN_contacts": 694
+    },
+    {
+      "bodyId": 522749,
+      "type": "MBON02",
+      "instance": "MBON02(B2B'2a)_L",
+      "Kenyon_Cell_edge_rows": 2137,
+      "Kenyon_Cell_contacts": 9135,
+      "MBON_edge_rows": 25,
+      "MBON_contacts": 217,
+      "DAN_edge_rows": 69,
+      "DAN_contacts": 654
+    },
+    {
+      "bodyId": 523043,
+      "type": "MBON33",
+      "instance": "MBON33(y2y3)_R",
+      "Kenyon_Cell_edge_rows": 263,
+      "Kenyon_Cell_contacts": 734,
+      "MBON_edge_rows": 10,
+      "MBON_contacts": 34,
+      "DAN_edge_rows": 36,
+      "DAN_contacts": 218
+    },
+    {
+      "bodyId": 523060,
+      "type": "MBON09",
+      "instance": "MBON09(y3B'1)_R",
+      "Kenyon_Cell_edge_rows": 1137,
+      "Kenyon_Cell_contacts": 17304,
+      "MBON_edge_rows": 25,
+      "MBON_contacts": 387,
+      "DAN_edge_rows": 71,
+      "DAN_contacts": 1046
+    },
+    {
+      "bodyId": 523628,
+      "type": "MBON21",
+      "instance": "MBON21(y4y5)_R",
+      "Kenyon_Cell_edge_rows": 810,
+      "Kenyon_Cell_contacts": 4403,
+      "MBON_edge_rows": 28,
+      "MBON_contacts": 577,
+      "DAN_edge_rows": 126,
+      "DAN_contacts": 609
+    },
+    {
+      "bodyId": 523987,
+      "type": "MBON29",
+      "instance": "MBON29(y4y5)_R",
+      "Kenyon_Cell_edge_rows": 1033,
+      "Kenyon_Cell_contacts": 2553,
+      "MBON_edge_rows": 25,
+      "MBON_contacts": 649,
+      "DAN_edge_rows": 70,
+      "DAN_contacts": 279
+    },
+    {
+      "bodyId": 524733,
+      "type": "MBON10",
+      "instance": "MBON10(B'1)_L",
+      "Kenyon_Cell_edge_rows": 210,
+      "Kenyon_Cell_contacts": 398,
+      "MBON_edge_rows": 14,
+      "MBON_contacts": 95,
+      "DAN_edge_rows": 31,
+      "DAN_contacts": 69
+    },
+    {
+      "bodyId": 524893,
+      "type": "MBON26",
+      "instance": "MBON26(b'2d)_L",
+      "Kenyon_Cell_edge_rows": 268,
+      "Kenyon_Cell_contacts": 2575,
+      "MBON_edge_rows": 31,
+      "MBON_contacts": 1522,
+      "DAN_edge_rows": 71,
+      "DAN_contacts": 880
+    },
+    {
+      "bodyId": 525780,
+      "type": "MBON04",
+      "instance": "MBON04(B'2mp_bilateral)_R",
+      "Kenyon_Cell_edge_rows": 840,
+      "Kenyon_Cell_contacts": 3746,
+      "MBON_edge_rows": 29,
+      "MBON_contacts": 527,
+      "DAN_edge_rows": 97,
+      "DAN_contacts": 1159
+    },
+    {
+      "bodyId": 530875,
+      "type": "MBON04",
+      "instance": "MBON04(B'2mp_bilateral)_L",
+      "Kenyon_Cell_edge_rows": 799,
+      "Kenyon_Cell_contacts": 3057,
+      "MBON_edge_rows": 24,
+      "MBON_contacts": 534,
+      "DAN_edge_rows": 88,
+      "DAN_contacts": 868
+    },
+    {
+      "bodyId": 531829,
+      "type": "MBON10",
+      "instance": "MBON10(B'1)_L",
+      "Kenyon_Cell_edge_rows": 164,
+      "Kenyon_Cell_contacts": 372,
+      "MBON_edge_rows": 18,
+      "MBON_contacts": 96,
+      "DAN_edge_rows": 32,
+      "DAN_contacts": 65
+    },
+    {
+      "bodyId": 540383,
+      "type": "MBON10",
+      "instance": "MBON10(B'1)_R",
+      "Kenyon_Cell_edge_rows": 68,
+      "Kenyon_Cell_contacts": 98,
+      "MBON_edge_rows": 13,
+      "MBON_contacts": 59,
+      "DAN_edge_rows": 11,
+      "DAN_contacts": 16
+    },
+    {
+      "bodyId": 556300,
+      "type": "MBON25-like",
+      "instance": "MBON25-like(y1y2)_R",
+      "Kenyon_Cell_edge_rows": 95,
+      "Kenyon_Cell_contacts": 133,
+      "MBON_edge_rows": 9,
+      "MBON_contacts": 32,
+      "DAN_edge_rows": 8,
+      "DAN_contacts": 27
+    },
+    {
+      "bodyId": 558665,
+      "type": "MBON10",
+      "instance": "MBON10(B'1)_R",
+      "Kenyon_Cell_edge_rows": 192,
+      "Kenyon_Cell_contacts": 387,
+      "MBON_edge_rows": 9,
+      "MBON_contacts": 30,
+      "DAN_edge_rows": 24,
+      "DAN_contacts": 45
+    },
+    {
+      "bodyId": 562782,
+      "type": "MBON16",
+      "instance": "MBON16(a'3ap)_R",
+      "Kenyon_Cell_edge_rows": 318,
+      "Kenyon_Cell_contacts": 2039,
+      "MBON_edge_rows": 9,
+      "MBON_contacts": 25,
+      "DAN_edge_rows": 4,
+      "DAN_contacts": 181
+    },
+    {
+      "bodyId": 579919,
+      "type": "MBON10",
+      "instance": "MBON10(B'1)_R",
+      "Kenyon_Cell_edge_rows": 82,
+      "Kenyon_Cell_contacts": 158,
+      "MBON_edge_rows": 14,
+      "MBON_contacts": 57,
+      "DAN_edge_rows": 12,
+      "DAN_contacts": 24
+    }
+  ],
+  "source_rows_preserved_in_graph": true,
+  "plasticity_enabled": false,
+  "biological_gate_passed": false
+}

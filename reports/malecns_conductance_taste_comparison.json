@@ -1,0 +1,74 @@
+{
+  "scope": "Predeclared four-variant sweet versus combined conditional-model comparison; no quantitative or qualitative biological replication claim",
+  "graph_manifest_sha256": "b30e21078c0479ac288e7f9d3b7cb2c9eb76aa3b9707f3a2b9fa6a92bb822ef3",
+  "dll_sha256": "cfb9e152a405b6cf3e990016ba91026f876e4b1e15a3dfc1a7757d160b686772",
+  "crosswalk_sha256": "92c26306b9a8069402898ab024c8ae281790951664b40bb413206832fe612070",
+  "comparisons": [
+    {
+      "reversal_inh_mv": -70,
+      "unclear_sign": 1,
+      "roundup_spikes_sweet": 69,
+      "roundup_spikes_combined": 59,
+      "roundup_delta_combined_minus_sweet": -10,
+      "g2n1_spikes_sweet": 11,
+      "g2n1_spikes_combined": 8,
+      "bitter_population_spikes_during_sweet_only": 179,
+      "sweet_population_spikes_during_sweet_only": 230,
+      "sweet_driven_total_input_spikes_combined": 846,
+      "report_sha256": {
+        "sweet": "79c683c7ef5c49b9ef2bc8825c2ff9b33d2040399cce83ca15307e0d001fa028",
+        "combined": "d8cc2ea9cc77283d2520ae7a36d04bb04e07275b60ec21d94fab4c9a742b2037"
+      }
+    },
+    {
+      "reversal_inh_mv": -70,
+      "unclear_sign": -1,
+      "roundup_spikes_sweet": 40,
+      "roundup_spikes_combined": 13,
+      "roundup_delta_combined_minus_sweet": -27,
+      "g2n1_spikes_sweet": 7,
+      "g2n1_spikes_combined": 10,
+      "bitter_population_spikes_during_sweet_only": 0,
+      "sweet_population_spikes_during_sweet_only": 230,
+      "sweet_driven_total_input_spikes_combined": 610,
+      "report_sha256": {
+        "sweet": "2c5e08b7282f4bcdc974f6e713837adcc29ef45b9aea63a428407baa120b9ef3",
+        "combined": "aa1ae2f7d1aad06e7ac287cd456a1c6b7551635159160bcb4b8f56e634b83418"
+      }
+    },
+    {
+      "reversal_inh_mv": -48,
+      "unclear_sign": 1,
+      "roundup_spikes_sweet": 74,
+      "roundup_spikes_combined": 76,
+      "roundup_delta_combined_minus_sweet": 2,
+      "g2n1_spikes_sweet": 50,
+      "g2n1_spikes_combined": 52,
+      "bitter_population_spikes_during_sweet_only": 332,
+      "sweet_population_spikes_during_sweet_only": 230,
+      "sweet_driven_total_input_spikes_combined": 904,
+      "report_sha256": {
+        "sweet": "911aa5cc5f34fe8e0cab1530630a8fd58d314e6e5bd993e24f15a652c08c5b7b",
+        "combined": "29a86a8ed19542ec3420497f711718d9428c2790a268b461b2968370d3e16763"
+      }
+    },
+    {
+      "reversal_inh_mv": -48,
+      "unclear_sign": -1,
+      "roundup_spikes_sweet": 74,
+      "roundup_spikes_combined": 74,
+      "roundup_delta_combined_minus_sweet": 0,
+      "g2n1_spikes_sweet": 44,
+      "g2n1_spikes_combined": 45,
+      "bitter_population_spikes_during_sweet_only": 0,
+      "sweet_population_spikes_during_sweet_only": 230,
+      "sweet_driven_total_input_spikes_combined": 610,
+      "report_sha256": {
+        "sweet": "aecb9171a16dcd3e4cfd073db7e9cd83c97b8e2ff0a019779fb61b66fa99a809",
+        "combined": "e12d3f8f4827f4ea359b9f289cacfa5b74f53a6c12114419e623bed7989231d5"
+      }
+    }
+  ],
+  "roundup_suppression_in_all_variants": false,
+  "biological_validation_passed": false
+}

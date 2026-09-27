@@ -1,0 +1,13 @@
+{
+  "segment_checks": 6,
+  "max_absolute_error": 1.3877787807814457e-17,
+  "pulse_quadrature_error": 7.105427357601002e-15,
+  "subdivision_check_passed": true,
+  "invalid_cases_rejected": 4,
+  "biological_kinetics_validated": false,
+  "hashes": {
+    "build\\calcium_observation_probe.exe": "7d6e6a6065a17a4f314f14070711a247c1dbfbf7076902accc7426cf07b83d23",
+    "native\\calcium_observation.h": "44b0932587c6a5f4d67b5d7e6ef59e3c6e8a3cb12eafc714420349498f9e41fe",
+    "native\\calcium_observation_probe.cpp": "b0f50e4b5f833ce0ff962867033ca1bfbfaf611ba4d5de2e33140f2d71cb0351"
+  }
+}

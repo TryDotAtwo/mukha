@@ -1,0 +1,14 @@
+{
+  "files": 12,
+  "arrays": 144,
+  "protocol_tables": 36,
+  "response_rows": 771,
+  "paired_finite_samples": 249069,
+  "missing_response_samples": 0,
+  "missing_angle_samples": 255,
+  "all_source_arrays_exact": true,
+  "infinite_values": 0,
+  "source_archive_sha256": "31565245097ca8a9f572555aa32e7f20052ac2a1cd9dcc45ce1803c7858973d2",
+  "physiological_fit_performed": false,
+  "malecns_mapping_performed": false
+}

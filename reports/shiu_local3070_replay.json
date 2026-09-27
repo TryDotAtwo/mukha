@@ -1,0 +1,25 @@
+{
+  "scope": "Local cross-hardware numerical replay of original Shiu author graph; no biological replication or MaleCNS transfer",
+  "checks": {
+    "complete_10000_ticks": true,
+    "same_protocol": true,
+    "same_author_graph": true,
+    "exact_archived_events": true,
+    "same_event_count": true,
+    "same_target_count": true,
+    "archived_brian_comparison_passed": true,
+    "checkpoint_hash_matches_trace": true
+  },
+  "passed": true,
+  "gpu": "NVIDIA GeForce RTX 3070 Laptop GPU, 572.70, 8192 MiB",
+  "exe_sha256": "6fe43801f1181673f014544ded1f85c0b260a273fe098c7975536119ac6e2be9",
+  "cuda_dll_sha256": "915288319a5bc9442c0d809430fc27f585ce7ed1e9021c43c53c0228b36c12f0",
+  "protocol_sha256": "d99af36f72e0c2258bb978491e7fecd02d8842f311c6c6a0e277f69fefa22102",
+  "graph_manifest_sha256": "de08d5037d249f914840d9ac219a7004b441b637870e3c044d61ea895de82a97",
+  "trace_sha256": "113d04ba1b6a9088022eca2fa6fa281a3ee891c5572e8a9d8a0d2a3a924c1fb5",
+  "spikes_sha256": "4136a78dd07b81a70e79825440dbd59d60e14fe61b093a7805cfdc45fbc7e780",
+  "checkpoint_sha256": "e0dbb698a72bebf1c2c7ac0fad0329af225debceb7b08fe972c3d1f7967b25b7",
+  "network_spikes": 9440,
+  "target_spikes": 64,
+  "wall_seconds": 32.2314409
+}

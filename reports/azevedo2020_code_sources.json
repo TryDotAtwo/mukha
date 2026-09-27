@@ -1,0 +1,17 @@
+{
+  "zenodo_record": 4527659,
+  "files": [
+    {
+      "path": "data\\reference\\azevedo2020\\code\\Script_alignSingleSpikes.m",
+      "url": "https://zenodo.org/api/records/4527659/files/Script_alignSingleSpikes.m/content",
+      "sha256": "cb1f347aa4cefc54276eb64f04bc9c8de00ebdfe0d500e504ed75ceea3d6d454",
+      "bytes": 15973
+    },
+    {
+      "path": "data\\reference\\azevedo2020\\code\\Dataset3_SlowInterFast_ForcePerSpike.m",
+      "url": "https://zenodo.org/api/records/4527659/files/Dataset3_SlowInterFast_ForcePerSpike.m/content",
+      "sha256": "0601cf950ba8e07734d100f6c4e111e9c555b8f5ae8948d5d5590be11185af42",
+      "bytes": 8942
+    }
+  ]
+}

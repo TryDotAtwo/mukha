@@ -1,0 +1,113 @@
+{
+  "harness_xml_sha256": "eb89b6438bfdd6fb21a4c512b915d96c185e298654cf3221870a174ec3d3a3a0",
+  "pad_report_sha256": "a349e3bee2e33816a6dc1f57b6775380103fdb40034d9cec3711700c38134c2c",
+  "source_initial_root_qpos": [
+    -1.892162876804047e-05,
+    8.121589626832594e-08,
+    3.9999989530331224,
+    0.9999999207395428,
+    0.0003981398165412676,
+    -2.365203464182238e-06,
+    9.41705403403928e-10
+  ],
+  "cabin_frame": "mocap body; prescribed z(t)=0.05*(1-cos(2*pi*t/0.1)) mm over 100 ms",
+  "pad_is_cabin_child": true,
+  "harness_weld_body2": "cabin_frame",
+  "causal_checks": {
+    "moving_three_controls_zero": true,
+    "moving_slide_zero_before_contact": true,
+    "static_replays_prior_harness_slide_exactly": true
+  },
+  "cases": [
+    {
+      "contact": false,
+      "moving": false,
+      "pulse": false,
+      "exact_contact_samples": 0,
+      "first_contact_tick": null,
+      "peak_slide_mm": 0.0,
+      "peak_cabin_z_mm": 0.0,
+      "peak_root_relative_displacement_mm": 8.123002205924823e-11,
+      "xml_sha256": "4a3fc5ab9b294ebea8518f5a2ded1f999e62c121bb955c5bd26f83fac78cd647"
+    },
+    {
+      "contact": false,
+      "moving": false,
+      "pulse": true,
+      "exact_contact_samples": 0,
+      "first_contact_tick": null,
+      "peak_slide_mm": 0.0,
+      "peak_cabin_z_mm": 0.0,
+      "peak_root_relative_displacement_mm": 1.5025867590303987e-08,
+      "xml_sha256": "4a3fc5ab9b294ebea8518f5a2ded1f999e62c121bb955c5bd26f83fac78cd647"
+    },
+    {
+      "contact": false,
+      "moving": true,
+      "pulse": false,
+      "exact_contact_samples": 0,
+      "first_contact_tick": null,
+      "peak_slide_mm": 0.0,
+      "peak_cabin_z_mm": 0.1,
+      "peak_root_relative_displacement_mm": 0.005945791677221796,
+      "xml_sha256": "4a3fc5ab9b294ebea8518f5a2ded1f999e62c121bb955c5bd26f83fac78cd647"
+    },
+    {
+      "contact": false,
+      "moving": true,
+      "pulse": true,
+      "exact_contact_samples": 0,
+      "first_contact_tick": null,
+      "peak_slide_mm": 0.0,
+      "peak_cabin_z_mm": 0.1,
+      "peak_root_relative_displacement_mm": 0.005945791564202352,
+      "xml_sha256": "4a3fc5ab9b294ebea8518f5a2ded1f999e62c121bb955c5bd26f83fac78cd647"
+    },
+    {
+      "contact": true,
+      "moving": false,
+      "pulse": false,
+      "exact_contact_samples": 0,
+      "first_contact_tick": null,
+      "peak_slide_mm": 0.0,
+      "peak_cabin_z_mm": 0.0,
+      "peak_root_relative_displacement_mm": 8.123002205924823e-11,
+      "xml_sha256": "6256e8e5933d1507921a4992665c435ee4df1c899dd665731f441db8f6116e83"
+    },
+    {
+      "contact": true,
+      "moving": false,
+      "pulse": true,
+      "exact_contact_samples": 204,
+      "first_contact_tick": 221,
+      "peak_slide_mm": 0.1242630918917482,
+      "peak_cabin_z_mm": 0.0,
+      "peak_root_relative_displacement_mm": 1.3723987032659843e-06,
+      "xml_sha256": "6256e8e5933d1507921a4992665c435ee4df1c899dd665731f441db8f6116e83"
+    },
+    {
+      "contact": true,
+      "moving": true,
+      "pulse": false,
+      "exact_contact_samples": 0,
+      "first_contact_tick": null,
+      "peak_slide_mm": 0.0,
+      "peak_cabin_z_mm": 0.1,
+      "peak_root_relative_displacement_mm": 0.005945791677221796,
+      "xml_sha256": "6256e8e5933d1507921a4992665c435ee4df1c899dd665731f441db8f6116e83"
+    },
+    {
+      "contact": true,
+      "moving": true,
+      "pulse": true,
+      "exact_contact_samples": 227,
+      "first_contact_tick": 221,
+      "peak_slide_mm": 0.10951943824880832,
+      "peak_cabin_z_mm": 0.1,
+      "peak_root_relative_displacement_mm": 0.005945813231936921,
+      "xml_sha256": "6256e8e5933d1507921a4992665c435ee4df1c899dd665731f441db8f6116e83"
+    }
+  ],
+  "trace_sha256": "4af3e99a7691e42d363963067f917259a536f413cd8d2011144f72d32ae5eb61",
+  "scope": "Moving cabin frame with explicit harness/pad mechanics; prescribed motion, artificial muscle pulse, no neural control, rocket dynamics, or KSP."
+}

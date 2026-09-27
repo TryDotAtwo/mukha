@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "variant": "unclear_excitatory",
+      "fp32_repeat_counts_exact": true,
+      "all_spike_events_exact": false,
+      "events": 5001,
+      "max_final_voltage_difference_mv": 0.014541840990723642,
+      "max_final_synapse_difference_mv": 0.1048181065374294,
+      "fp32_only_events": [
+        {
+          "tick": 786,
+          "body_id": 511828
+        },
+        {
+          "tick": 924,
+          "body_id": 14387
+        }
+      ],
+      "fp64_only_events": [
+        {
+          "tick": 785,
+          "body_id": 511828
+        },
+        {
+          "tick": 925,
+          "body_id": 14387
+        }
+      ]
+    },
+    {
+      "variant": "unclear_inhibitory",
+      "fp32_repeat_counts_exact": true,
+      "all_spike_events_exact": true,
+      "events": 3059,
+      "max_final_voltage_difference_mv": 0.00035924574032719647,
+      "max_final_synapse_difference_mv": 0.00010076977096673545
+    }
+  ],
+  "scope": "100-ms two-hypothesis full-graph precision comparison; no independent physiological validation"
+}

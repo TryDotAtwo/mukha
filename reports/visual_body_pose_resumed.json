@@ -1,0 +1,29 @@
+{
+  "configuration_identity": "5b07fea15f25acbcd3c1f38c00167813f11221c53257ff5b90d3d1fddbb743f7",
+  "final_frame": 4,
+  "final_snapshot_sha256": "a352e0f80cda81e84428183ec73f9c3c5bc270d19e3982019d0ff2288c4f2c76",
+  "input_sha256": "332943ca91b81e870d7461d9b522a738eb828a08581fe7f45bfd7838a1dce570",
+  "restored_frame": 2,
+  "scope": "Fresh process continuation of engineering-calibrated image fixture; not biological validation",
+  "state_soa": [
+    -75.07476868983355,
+    -61.91244048285104,
+    0.26429415136411827,
+    0.3890936752745645,
+    0.3639555509131847,
+    0.05211876806771883,
+    0.01720404436517838,
+    0.04512551416803042,
+    0.9486818063766838,
+    0.9457910844653015,
+    0.0033739675776457267,
+    0.07931949275639577,
+    20.302451983658553,
+    21.250453097776266,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "tick": 1600
+}

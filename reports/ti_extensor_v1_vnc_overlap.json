@@ -1,0 +1,151 @@
+{
+  "scope": "Registered v1 MaleCNS versus VFB template skeletons; no identity or muscle assignment",
+  "registration_report_sha256": "0f8970916f01d322eb7f7fc2721d233397689808ad1874135b56f7235ff501bf",
+  "vfb_manifest_sha256": "92e504cd01333527f0bd3910c66627cc6fb777c310e53e0c0fce09d67cd1d015",
+  "same_cell_cross_release_sanity": [
+    {
+      "male_v1": 815344,
+      "vfb_male_v09": 815344,
+      "v1_to_v09": {
+        "median_um": 0.9501010862513926,
+        "p90_um": 2.109623063143309,
+        "mean_um": 1.1517010877986076
+      },
+      "v09_to_v1": {
+        "median_um": 0.9459023805849818,
+        "p90_um": 2.0404004943723955,
+        "mean_um": 1.1097626464230623
+      }
+    },
+    {
+      "male_v1": 815678,
+      "vfb_male_v09": 815678,
+      "v1_to_v09": {
+        "median_um": 0.8600221868044395,
+        "p90_um": 1.6555094927836695,
+        "mean_um": 1.0001278703899636
+      },
+      "v09_to_v1": {
+        "median_um": 0.8497374892162204,
+        "p90_um": 1.6459227503956098,
+        "mean_um": 0.978894136631803
+      }
+    }
+  ],
+  "two_by_two_same_side_comparisons": [
+    {
+      "male_v1": 815344,
+      "vfb_manc": 11657,
+      "male_to_manc": {
+        "median_um": 3.2808476420470094,
+        "p90_um": 12.544104198159205,
+        "mean_um": 5.132009069466006
+      },
+      "manc_to_male": {
+        "median_um": 1.7240113664141048,
+        "p90_um": 3.661567627721888,
+        "mean_um": 2.0811045476247396
+      }
+    },
+    {
+      "male_v1": 815344,
+      "vfb_manc": 12704,
+      "male_to_manc": {
+        "median_um": 3.3219150331721115,
+        "p90_um": 10.887587285178574,
+        "mean_um": 4.794394637187294
+      },
+      "manc_to_male": {
+        "median_um": 1.755451971193043,
+        "p90_um": 15.743772122369679,
+        "mean_um": 4.0401499747280685
+      }
+    },
+    {
+      "male_v1": 800636,
+      "vfb_manc": 11657,
+      "male_to_manc": {
+        "median_um": 2.8092801628777977,
+        "p90_um": 12.078695055322461,
+        "mean_um": 5.057931690753702
+      },
+      "manc_to_male": {
+        "median_um": 2.5066460883265984,
+        "p90_um": 7.953986787419107,
+        "mean_um": 3.673875985284491
+      }
+    },
+    {
+      "male_v1": 800636,
+      "vfb_manc": 12704,
+      "male_to_manc": {
+        "median_um": 2.1797737675465934,
+        "p90_um": 6.522485078451467,
+        "mean_um": 3.0348493727937575
+      },
+      "manc_to_male": {
+        "median_um": 2.026416273289976,
+        "p90_um": 6.2069816319498345,
+        "mean_um": 2.7863902210568203
+      }
+    },
+    {
+      "male_v1": 815678,
+      "vfb_manc": 11706,
+      "male_to_manc": {
+        "median_um": 2.021952916123725,
+        "p90_um": 4.579356924429398,
+        "mean_um": 2.5688591551498785
+      },
+      "manc_to_male": {
+        "median_um": 3.4987186568425344,
+        "p90_um": 8.668832810073052,
+        "mean_um": 4.333691356353569
+      }
+    },
+    {
+      "male_v1": 815678,
+      "vfb_manc": 13115,
+      "male_to_manc": {
+        "median_um": 2.2915353754055054,
+        "p90_um": 8.431114494623008,
+        "mean_um": 3.7783497519129225
+      },
+      "manc_to_male": {
+        "median_um": 2.9263869541152148,
+        "p90_um": 7.9002003859098,
+        "mean_um": 3.853703672785613
+      }
+    },
+    {
+      "male_v1": 804257,
+      "vfb_manc": 11706,
+      "male_to_manc": {
+        "median_um": 2.0508614936028486,
+        "p90_um": 5.13134589575333,
+        "mean_um": 2.575110269435398
+      },
+      "manc_to_male": {
+        "median_um": 4.279521186662709,
+        "p90_um": 13.789052085759941,
+        "mean_um": 5.95927404905896
+      }
+    },
+    {
+      "male_v1": 804257,
+      "vfb_manc": 13115,
+      "male_to_manc": {
+        "median_um": 2.107172838873877,
+        "p90_um": 4.653391105664538,
+        "mean_um": 2.7741278484714473
+      },
+      "manc_to_male": {
+        "median_um": 3.0096160756402477,
+        "p90_um": 8.559244796632987,
+        "mean_um": 4.2619467025844955
+      }
+    }
+  ],
+  "interpretation": "Same-cell v0.9 references overlap registered v1 within about 1 um median, supporting gross registration orientation. MANC candidate distances have direction/tail ambiguities and VFB MANC release is not validated as v1.0; no unique motor identity established.",
+  "biological_gate_passed": false
+}

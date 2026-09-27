@@ -1,0 +1,16 @@
+{
+  "scope": "Five scalar CPU conductance/current boundary fixtures; no graph, delays or biology run",
+  "passed": true,
+  "output": "case=0 g=0 I=-0\ncase=1 g=0 I=-0\ncase=2 g=0.016 I=-0.47999999999999998\ncase=3 g=0.032000000000000001 I=-0.95999999999999996\ncase=4 g=0.016 I=0.16\n",
+  "delay_conversion_current_loader": {
+    "formula": "max(round(delay_seconds/dt_seconds),1)-1",
+    "dt_seconds": 0.0001,
+    "1ms_buffer_offset": 9,
+    "literal_1_buffer_offset": 9999,
+    "warning": "Buffer offset is not by itself end-to-end latency; scheduler phases must be reproduced"
+  },
+  "hashes": {
+    "native\\graded_probe.cpp": "3194c71829ebca1990c3247357d3a2161c2f465aa09be3b75bd91fce746afb10",
+    "build\\graded_probe.exe": "7c2e839d36dd2e3ddb19b49a4785157c245b965099e8360b27f2b3dc7176d32e"
+  }
+}

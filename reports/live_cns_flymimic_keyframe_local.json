@@ -1,0 +1,69 @@
+{
+  "steps": 1000,
+  "graph_nodes": 167216,
+  "graph_edges": 25587572,
+  "initial_pose": "default-pose then 20000 passive steps",
+  "pad_source": "reports/flymimic_keyframe_contact_local.json",
+  "pad_center_mm": [
+    1.00862372443205,
+    -0.20423793301258963,
+    2.4510634378419014
+  ],
+  "slide_axis": "+1 0 0",
+  "source_index": 46,
+  "full_event_trace_matches_prior": true,
+  "physical_traces_match_offline_event_replay": null,
+  "live_event_count": 5001,
+  "reference_event_count": 5001,
+  "motor_event_ticks": [
+    190,
+    641
+  ],
+  "causal_checks": {
+    "first_contact_tick": 247,
+    "first_slide_tick": 247,
+    "motor_precedes_contact": true,
+    "slide_zero_before_contact": true,
+    "all_three_controls_zero": true
+  },
+  "cases": [
+    {
+      "contact": false,
+      "motor_connected": false,
+      "exact_contact_samples": 0,
+      "max_slide_mm": 0.0,
+      "max_control": 0.0001
+    },
+    {
+      "contact": false,
+      "motor_connected": true,
+      "exact_contact_samples": 0,
+      "max_slide_mm": 0.0,
+      "max_control": 0.11048735437362872
+    },
+    {
+      "contact": true,
+      "motor_connected": false,
+      "exact_contact_samples": 0,
+      "max_slide_mm": 0.0,
+      "max_control": 0.0001
+    },
+    {
+      "contact": true,
+      "motor_connected": true,
+      "exact_contact_samples": 142,
+      "max_slide_mm": 0.04884816569335473,
+      "max_control": 0.11048735437362872
+    }
+  ],
+  "mujoco_version": "3.14.0",
+  "hashes": {
+    "build/brain_body_graph.bin": "4a7c892fe278bc6f1e96548c34c376bf49bce1d589af12911cf047a4cf1bf8f8",
+    "build/fly_cuda64.dll": "e41f83a2005e44b04d6be989683c5596dc5e64e72f06762b9e2d64186f0e5b13",
+    "data/derived/malecns_sign_diagnostic_float64_v2/unclear_excitatory_events.npy": "38bb490b2a800fda91d0839f1031781e200ae6258dffa378525f10a26b21be51",
+    "reports/flymimic_keyframe_contact_local.json": "8b15845c0217156a1358c08fff2544c3ac403ba7118f22ce1d435c7df8427875",
+    "data/derived/live_cns_flymimic_keyframe_v1/events.npy": "38bb490b2a800fda91d0839f1031781e200ae6258dffa378525f10a26b21be51",
+    "data/derived/live_cns_flymimic_keyframe_v1/traces.npz": "0715a2bc67d5323c8abccccf9774dbf39cbc8e2e1272e671d6adced82a40c94c"
+  },
+  "scope": "Live full native FP64 MaleCNS to physical FlyMimic diagnostic; artificial voltage jumps and hypothetical motor-to-muscle filter, no natural sensory loop or validated pilot."
+}

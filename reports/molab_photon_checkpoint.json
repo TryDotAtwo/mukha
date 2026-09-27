@@ -1,0 +1,46 @@
+{
+  "scope": "Two photoreceptors, 30000 microvilli each; same-instance checkpoint; not full visual system",
+  "command": [
+    "/tmp/fly-cuda-13.1.1/bin/nvcc",
+    "-L/tmp/fly-cuda-13.1.1/lib",
+    "-std=c++17",
+    "-O2",
+    "-lineinfo",
+    "-arch=sm_120",
+    "--fmad=false",
+    "-DFF_SAFE_TRANSDUCTION=1",
+    "-DFF_ENTITY_RNG=1",
+    "-DFF_CHECK_REPLAY=1",
+    "-DFF_TRANSDUCTION_BLOCKS=16",
+    "/tmp/fly-photon-blackwell/native/phototransduction_probe.cu",
+    "-o",
+    "/tmp/fly-photon-blackwell/photon_probe"
+  ],
+  "curand": {
+    "relative_path": "libcurand/linux-x86_64/libcurand-linux-x86_64-10.4.1.81-archive.tar.xz",
+    "sha256": "e15c2a59c29a0f3eb2b33c34c06cc1e1abba5b1b9ccf5e34c43d9787e84498dc",
+    "md5": "417353d105f551616de7f204c61f0514",
+    "size": "86661740"
+  },
+  "native_result": "Checkpoint continuation exact: 3720160 bytes; checkpoint tick 500; final tick 1000",
+  "elapsed_wall_seconds": 0.9678602280000632,
+  "trace_sha256": "0f21aa48c41ad6c62ed9bbc0de960d904cd7f17ef9d088bf19ab1425f5023e77",
+  "source_hashes": {
+    "native/phototransduction_probe.cu": "5a28a3739fe49ca0b9d481bb1dbf2823b5a36749f551bcd0d0eb6dcb1b38c51a",
+    "native/phototransduction_safe.cuh": "99078b4fba2eb28e7f53d2017e598e9acb2b38f79391ce49ef7cfbf9dc8c7c04",
+    "native/photocurrent_safe.cuh": "27237e700ad2cd11ba00d9726c0a9caec572c0cd2ea06a5c2168e4344f107b74",
+    "build/photoreceptor_author_hh.cu": "5c07136b2207b7ead3163370e276a3a4925bd75f613f751c0e4a7330e3dab72e",
+    "build/photoreceptor_author_adaptation.cu": "0d45ebf462bd2f03ba55c86443ecf7a8e47278148db61809e671fc2cc131fffd"
+  },
+  "binary_sha256": "a77794080c99a696ee81da6d34c9a91efd6a91765cc786ec31d9d030a2784338",
+  "passed": true,
+  "csv_continuation_exact": true,
+  "maximum_light_dark_difference_mv": 70.61400481462407,
+  "gpu": "RTX PRO 6000 Blackwell Server Edition (sm_120)",
+  "not_covered": [
+    "fresh process checkpoint",
+    "cross device RNG identity",
+    "full retina or MaleCNS",
+    "biological fit"
+  ]
+}

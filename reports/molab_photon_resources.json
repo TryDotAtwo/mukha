@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "scope": "10-step allocation and execution diagnostic; homogeneous assumed microvilli; not calibrated full retina or brain",
+  "n": 6091,
+  "microvilli_each": 30000,
+  "ticks": 10,
+  "dt_seconds": 0.0001,
+  "elapsed_wall_seconds": 2.2940940020000653,
+  "native_log": "RESOURCE n=6091 microvilli=30000 total_microvilli=182730000 allocated_vram_delta=11706302464 total_vram=101975851008\nRESOURCE loop_wall_seconds=0.657573299 ticks=10\n",
+  "command": [
+    "/tmp/fly-cuda-13.1.1/bin/nvcc",
+    "-L/tmp/fly-cuda-13.1.1/lib",
+    "-std=c++17",
+    "-O2",
+    "-arch=sm_120",
+    "--fmad=false",
+    "-DFF_SAFE_TRANSDUCTION=1",
+    "-DFF_ENTITY_RNG=1",
+    "-DFF_DUMP_POPULATION=1",
+    "-DFF_PROFILE=1",
+    "-DFF_TRANSDUCTION_BLOCKS=128",
+    "-DFF_PHOTORECEPTORS=6091",
+    "/tmp/fly-photon-resource/native/phototransduction_probe.cu",
+    "-o",
+    "/tmp/fly-photon-resource/probe"
+  ],
+  "binary_sha256": "fc4be0f8bc1d6c1fc0df0b0238e5650e9e90bcb63f746023e3edbbb3f8bd69e7",
+  "state_sha256": "3f81f701a94f91086b2c2c5cac481dfc895ef6a6689d808a4611ffd1bb88ec4d",
+  "source_hashes": {
+    "native/phototransduction_probe.cu": "dc818b956b87ba6b1d6fd345da9c52bbf65ae0fa4321a111bde5cb49786f13f8",
+    "native/phototransduction_safe.cuh": "99078b4fba2eb28e7f53d2017e598e9acb2b38f79391ce49ef7cfbf9dc8c7c04",
+    "native/photocurrent_safe.cuh": "27237e700ad2cd11ba00d9726c0a9caec572c0cd2ea06a5c2168e4344f107b74",
+    "build/photoreceptor_author_hh.cu": "5c07136b2207b7ead3163370e276a3a4925bd75f613f751c0e4a7330e3dab72e",
+    "build/photoreceptor_author_adaptation.cu": "0d45ebf462bd2f03ba55c86443ecf7a8e47278148db61809e671fc2cc131fffd"
+  }
+}

@@ -1,0 +1,1163 @@
+{
+  "scope": "Complete source KC-to-KC partner contacts grouped by original type and primary_post; coarse anatomy only",
+  "source_generation": "1780494942562468",
+  "graph_manifest_sha256": "b30e21078c0479ac288e7f9d3b7cb2c9eb76aa3b9707f3a2b9fa6a92bb822ef3",
+  "extraction_progress_sha256": "9120f5b101f2fcce33f461cb39e547352d4d2e5e8d90ac21d49917e7dee2e7df",
+  "reconciliation_sha256": "2685aff926a5ae266b9e356f646614e83014f81024ec7cd894078f8c41398caa",
+  "csr_subtype_report_sha256": "8b7046c4cc72b2a0ceaf4c4939db78986e2d746ea3d3375520a30f4d2f68565d",
+  "contacts": [
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "<unspecified>",
+      "contacts": 1
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "CA(L)",
+      "contacts": 3028
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "CA(R)",
+      "contacts": 6775
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "CRE(L)",
+      "contacts": 3068
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "CRE(R)",
+      "contacts": 473
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "CentralBrain-unspecified",
+      "contacts": 12957
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "EB",
+      "contacts": 5
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "ICL(L)",
+      "contacts": 27
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "ICL(R)",
+      "contacts": 1
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "PED(L)",
+      "contacts": 24637
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "PED(R)",
+      "contacts": 28264
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "PLP(R)",
+      "contacts": 1
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "SCL(R)",
+      "contacts": 159
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "SIP(L)",
+      "contacts": 76
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "SIP(R)",
+      "contacts": 5
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "SLP(L)",
+      "contacts": 276
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "SLP(R)",
+      "contacts": 259
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "SMP(R)",
+      "contacts": 7
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "a'L(L)",
+      "contacts": 2350
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "a'L(R)",
+      "contacts": 3637
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "aL(L)",
+      "contacts": 82597
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "aL(R)",
+      "contacts": 100515
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "b'L(L)",
+      "contacts": 109
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "b'L(R)",
+      "contacts": 3375
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "bL(L)",
+      "contacts": 72852
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "bL(R)",
+      "contacts": 58768
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "gL(L)",
+      "contacts": 2945
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "gL(R)",
+      "contacts": 17574
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "CA(L)",
+      "contacts": 804
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "CA(R)",
+      "contacts": 1594
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "CRE(L)",
+      "contacts": 5
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "CentralBrain-unspecified",
+      "contacts": 728
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "PED(L)",
+      "contacts": 39
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "PED(R)",
+      "contacts": 70
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "a'L(L)",
+      "contacts": 18
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "a'L(R)",
+      "contacts": 12
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "aL(L)",
+      "contacts": 105
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "aL(R)",
+      "contacts": 149
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "b'L(L)",
+      "contacts": 14
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "b'L(R)",
+      "contacts": 37
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "bL(L)",
+      "contacts": 80
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "bL(R)",
+      "contacts": 61
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "gL(L)",
+      "contacts": 8
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "gL(R)",
+      "contacts": 48
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "CA(L)",
+      "contacts": 1187
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "CA(R)",
+      "contacts": 1685
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "CRE(L)",
+      "contacts": 1
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "CentralBrain-unspecified",
+      "contacts": 680
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "PED(L)",
+      "contacts": 7
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "PED(R)",
+      "contacts": 16
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "SCL(R)",
+      "contacts": 3
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "SLP(L)",
+      "contacts": 5
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "SLP(R)",
+      "contacts": 11
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "a'L(R)",
+      "contacts": 4
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "aL(R)",
+      "contacts": 40
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "b'L(R)",
+      "contacts": 5
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "bL(L)",
+      "contacts": 5
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "bL(R)",
+      "contacts": 58
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "gL(L)",
+      "contacts": 4
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "gL(R)",
+      "contacts": 20
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "unresolved",
+      "primary_post": "CA(L)",
+      "contacts": 6
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "unresolved",
+      "primary_post": "CA(R)",
+      "contacts": 8
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "unresolved",
+      "primary_post": "CentralBrain-unspecified",
+      "contacts": 2
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "CA(L)",
+      "contacts": 355
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "CA(R)",
+      "contacts": 563
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "CRE(L)",
+      "contacts": 4
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "CentralBrain-unspecified",
+      "contacts": 377
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "PED(L)",
+      "contacts": 23
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "PED(R)",
+      "contacts": 34
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "a'L(L)",
+      "contacts": 10
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "a'L(R)",
+      "contacts": 15
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "aL(L)",
+      "contacts": 42
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "aL(R)",
+      "contacts": 73
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "b'L(L)",
+      "contacts": 32
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "b'L(R)",
+      "contacts": 32
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "bL(L)",
+      "contacts": 21
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "bL(R)",
+      "contacts": 17
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "gL(L)",
+      "contacts": 1
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "gL(R)",
+      "contacts": 26
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "CA(L)",
+      "contacts": 869
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "CA(R)",
+      "contacts": 1019
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "CRE(L)",
+      "contacts": 310
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "CRE(R)",
+      "contacts": 545
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "CentralBrain-unspecified",
+      "contacts": 5572
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "ICL(L)",
+      "contacts": 1
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "PED(L)",
+      "contacts": 2298
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "PED(R)",
+      "contacts": 2750
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "SCL(L)",
+      "contacts": 2
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "SCL(R)",
+      "contacts": 75
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "SIP(L)",
+      "contacts": 295
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "SIP(R)",
+      "contacts": 206
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "SMP(R)",
+      "contacts": 62
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "a'L(L)",
+      "contacts": 24485
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "a'L(R)",
+      "contacts": 26197
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "aL(L)",
+      "contacts": 4848
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "aL(R)",
+      "contacts": 4216
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "b'L(L)",
+      "contacts": 64399
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "b'L(R)",
+      "contacts": 49497
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "bL(L)",
+      "contacts": 186
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "bL(R)",
+      "contacts": 530
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "gL(L)",
+      "contacts": 2144
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "gL(R)",
+      "contacts": 14291
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "CA(L)",
+      "contacts": 594
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "CA(R)",
+      "contacts": 640
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "CRE(L)",
+      "contacts": 5
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "CRE(R)",
+      "contacts": 15
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "CentralBrain-unspecified",
+      "contacts": 351
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "ICL(L)",
+      "contacts": 1
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "PED(L)",
+      "contacts": 41
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "PED(R)",
+      "contacts": 56
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "SCL(L)",
+      "contacts": 7
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "a'L(L)",
+      "contacts": 30
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "a'L(R)",
+      "contacts": 30
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "aL(L)",
+      "contacts": 11
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "aL(R)",
+      "contacts": 22
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "b'L(L)",
+      "contacts": 194
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "b'L(R)",
+      "contacts": 68
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "gL(L)",
+      "contacts": 188
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "gL(R)",
+      "contacts": 442
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "unresolved",
+      "primary_post": "CA(R)",
+      "contacts": 3
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "CA(L)",
+      "contacts": 770
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "CA(R)",
+      "contacts": 1004
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "CentralBrain-unspecified",
+      "contacts": 442
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "PED(L)",
+      "contacts": 9
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "PED(R)",
+      "contacts": 13
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "SLP(L)",
+      "contacts": 15
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "SLP(R)",
+      "contacts": 4
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "SMP(R)",
+      "contacts": 2
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "a'L(R)",
+      "contacts": 6
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "aL(R)",
+      "contacts": 26
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "b'L(R)",
+      "contacts": 14
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "bL(R)",
+      "contacts": 28
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "gL(R)",
+      "contacts": 8
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "CA(L)",
+      "contacts": 635
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "CA(R)",
+      "contacts": 729
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "CRE(L)",
+      "contacts": 1
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "CRE(R)",
+      "contacts": 9
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "CentralBrain-unspecified",
+      "contacts": 350
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "ICL(L)",
+      "contacts": 2
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "ICL(R)",
+      "contacts": 1
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "PED(L)",
+      "contacts": 201
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "PED(R)",
+      "contacts": 173
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "PLP(R)",
+      "contacts": 2
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "SCL(L)",
+      "contacts": 4
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "SCL(R)",
+      "contacts": 20
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "a'L(L)",
+      "contacts": 15
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "a'L(R)",
+      "contacts": 18
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "aL(L)",
+      "contacts": 8
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "aL(R)",
+      "contacts": 10
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "b'L(L)",
+      "contacts": 135
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "b'L(R)",
+      "contacts": 53
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "gL(L)",
+      "contacts": 123
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "gL(R)",
+      "contacts": 271
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "AVLP(L)",
+      "contacts": 1
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "AVLP(R)",
+      "contacts": 231
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "CA(L)",
+      "contacts": 5460
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "CA(R)",
+      "contacts": 6166
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "CRE(L)",
+      "contacts": 1356
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "CRE(R)",
+      "contacts": 22862
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "CentralBrain-unspecified",
+      "contacts": 25236
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "ICL(L)",
+      "contacts": 105
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "ICL(R)",
+      "contacts": 30
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "LAL(L)",
+      "contacts": 1
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "PED(L)",
+      "contacts": 13953
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "PED(R)",
+      "contacts": 10282
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "PLP(L)",
+      "contacts": 594
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "PLP(R)",
+      "contacts": 1280
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "SCL(L)",
+      "contacts": 242
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "SCL(R)",
+      "contacts": 1978
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "SIP(L)",
+      "contacts": 14
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "SMP(R)",
+      "contacts": 1
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "a'L(L)",
+      "contacts": 6
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "a'L(R)",
+      "contacts": 3
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "aL(L)",
+      "contacts": 168
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "aL(R)",
+      "contacts": 610
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "b'L(L)",
+      "contacts": 1811
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "b'L(R)",
+      "contacts": 1062
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "bL(L)",
+      "contacts": 12
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "bL(R)",
+      "contacts": 438
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "gL(L)",
+      "contacts": 226041
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "gL(R)",
+      "contacts": 187400
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "unresolved",
+      "primary_post": "CA(L)",
+      "contacts": 1
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "unresolved",
+      "primary_post": "CA(R)",
+      "contacts": 5
+    },
+    {
+      "presynaptic_subtype": "unresolved",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "CA(L)",
+      "contacts": 2
+    },
+    {
+      "presynaptic_subtype": "unresolved",
+      "postsynaptic_subtype": "alpha_beta",
+      "primary_post": "CA(R)",
+      "contacts": 3
+    },
+    {
+      "presynaptic_subtype": "unresolved",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "CA(L)",
+      "contacts": 1
+    },
+    {
+      "presynaptic_subtype": "unresolved",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "primary_post": "CA(R)",
+      "contacts": 3
+    },
+    {
+      "presynaptic_subtype": "unresolved",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "CA(L)",
+      "contacts": 1
+    },
+    {
+      "presynaptic_subtype": "unresolved",
+      "postsynaptic_subtype": "gamma",
+      "primary_post": "CA(R)",
+      "contacts": 5
+    }
+  ],
+  "total_contacts": 1153845,
+  "unknown_primary_post_contacts": 0,
+  "coordinate_null_counts": {
+    "x_pre": 0,
+    "y_pre": 0,
+    "z_pre": 0,
+    "x_post": 0,
+    "y_post": 0,
+    "z_post": 0
+  },
+  "nonfinite_confidence_counts": {
+    "conf_pre": 0,
+    "conf_post": 0
+  },
+  "exact_duplicate_full_rows_retained": 0,
+  "source_synapse_id_column_present": false,
+  "gamma_to_gamma_total": 507343,
+  "gamma_to_gamma_gL": 413441,
+  "interpretation_limit": "The source ROI gL is broad and does not identify gamma4, an axonal ultrastructure, mAChR-B, dopamine release, or a plasticity rule. The 11-column source has no separate synapse ID, so coordinate-identical records are retained."
+}

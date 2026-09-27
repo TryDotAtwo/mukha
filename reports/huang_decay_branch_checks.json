@@ -1,0 +1,114 @@
+{
+  "scope": "Native versus NumPy equation/decay branch checks; no independent biological outcome data",
+  "cases": [
+    {
+      "valence": -4,
+      "rest_seconds": 10794,
+      "max_absolute_error": 8.881784197001252e-16
+    },
+    {
+      "valence": -4,
+      "rest_seconds": 10799,
+      "max_absolute_error": 8.881784197001252e-16
+    },
+    {
+      "valence": -4,
+      "rest_seconds": 10800,
+      "max_absolute_error": 7.105427357601002e-15
+    },
+    {
+      "valence": -4,
+      "rest_seconds": 10801,
+      "max_absolute_error": 8.881784197001252e-16
+    },
+    {
+      "valence": -4,
+      "rest_seconds": 10920,
+      "max_absolute_error": 8.881784197001252e-16
+    },
+    {
+      "valence": -4,
+      "rest_seconds": 21600,
+      "max_absolute_error": 8.881784197001252e-16
+    },
+    {
+      "valence": -4,
+      "rest_seconds": 86400,
+      "max_absolute_error": 3.552713678800501e-15
+    },
+    {
+      "valence": 0,
+      "rest_seconds": 10794,
+      "max_absolute_error": 7.483776500764976e-16
+    },
+    {
+      "valence": 0,
+      "rest_seconds": 10799,
+      "max_absolute_error": 7.216449660063518e-16
+    },
+    {
+      "valence": 0,
+      "rest_seconds": 10800,
+      "max_absolute_error": 8.673617379884035e-16
+    },
+    {
+      "valence": 0,
+      "rest_seconds": 10801,
+      "max_absolute_error": 5.898059818321144e-16
+    },
+    {
+      "valence": 0,
+      "rest_seconds": 10920,
+      "max_absolute_error": 8.396061623727746e-16
+    },
+    {
+      "valence": 0,
+      "rest_seconds": 21600,
+      "max_absolute_error": 8.020927672047762e-16
+    },
+    {
+      "valence": 0,
+      "rest_seconds": 86400,
+      "max_absolute_error": 8.881489853052081e-16
+    },
+    {
+      "valence": 4,
+      "rest_seconds": 10794,
+      "max_absolute_error": 8.881784197001252e-16
+    },
+    {
+      "valence": 4,
+      "rest_seconds": 10799,
+      "max_absolute_error": 8.881784197001252e-16
+    },
+    {
+      "valence": 4,
+      "rest_seconds": 10800,
+      "max_absolute_error": 8.881784197001252e-16
+    },
+    {
+      "valence": 4,
+      "rest_seconds": 10801,
+      "max_absolute_error": 8.881784197001252e-16
+    },
+    {
+      "valence": 4,
+      "rest_seconds": 10920,
+      "max_absolute_error": 8.881784197001252e-16
+    },
+    {
+      "valence": 4,
+      "rest_seconds": 21600,
+      "max_absolute_error": 8.881784197001252e-16
+    },
+    {
+      "valence": 4,
+      "rest_seconds": 86400,
+      "max_absolute_error": 8.881784197001252e-16
+    }
+  ],
+  "passed": true,
+  "library_sha256": "e2035bcec7c2ae053cf347472522fedafaf119af7672537b2d16715666622ce1",
+  "parameter_sha256": "cb7b555026f97b59678adf8902b9f4a02975413a7eed9d6e03f2e2864821915d",
+  "full_cns_plasticity_validated": false
+}

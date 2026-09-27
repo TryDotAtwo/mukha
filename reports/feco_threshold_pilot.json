@@ -1,0 +1,63 @@
+{
+  "spec": {
+    "threshold_hook": -5,
+    "threshold_club": 5,
+    "sampling_rate": 8.01,
+    "calibration": "Ramp-and-hold; ordinary least-squares scale and intercept per region",
+    "assessment": "Previously observed swing set; retrospective model comparison",
+    "missing": "Identical complete-row exclusions to linear pilot",
+    "original_author_fit_reproduced": false,
+    "independent_validation": false,
+    "runtime_enabled": false
+  },
+  "results": [
+    {
+      "file": "R21D12_GCaMP6f_Tip.npz",
+      "scale": 2.35779717007956,
+      "intercept": 0.11514690683306239,
+      "assessment_mse": 0.20373542067222591,
+      "baseline_mse": 0.6515171755150342,
+      "relative_mse_improvement": 0.6872907908971548,
+      "previous_linear_mse": 2.6505816863575506
+    },
+    {
+      "file": "R21D12_GCaMP6f_YBranch.npz",
+      "scale": 3.103235181037998,
+      "intercept": 0.12541126719936957,
+      "assessment_mse": 0.17828855675524521,
+      "baseline_mse": 0.4841554960366731,
+      "relative_mse_improvement": 0.6317535208941624,
+      "previous_linear_mse": 6.113352393525546
+    },
+    {
+      "file": "R21D12_GCaMP6f_ZBranch.npz",
+      "scale": 3.220138429593126,
+      "intercept": 0.15983791365265268,
+      "assessment_mse": 0.44468252882640963,
+      "baseline_mse": 1.2968793970366415,
+      "relative_mse_improvement": 0.6571134294811796,
+      "previous_linear_mse": 5.414807170932725
+    },
+    {
+      "file": "R64C04_GCaMP6f_Middle.npz",
+      "scale": 0.3490107228557866,
+      "intercept": 0.16260526208105103,
+      "assessment_mse": 0.052132235424310856,
+      "baseline_mse": 0.08394861252703949,
+      "relative_mse_improvement": 0.37899824839249974,
+      "previous_linear_mse": 0.12160238032796447
+    },
+    {
+      "file": "R64C04_GCaMP6f_Tip.npz",
+      "scale": 0.7899849664662053,
+      "intercept": 0.2984963834549122,
+      "assessment_mse": 0.11065412843386699,
+      "baseline_mse": 0.21769028784530242,
+      "relative_mse_improvement": 0.4916901000539753,
+      "previous_linear_mse": 0.9547440757138416
+    }
+  ],
+  "native_numpy_max_error": 4.440892098500626e-16,
+  "executable_sha256": "da5f6306a07dfddd8404cf21d53fcafc510c1ddcb8bc68761dcbd6563df222d6",
+  "biological_validation": false
+}

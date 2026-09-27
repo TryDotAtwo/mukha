@@ -1,0 +1,31 @@
+{
+  "scope": "Coordinate-shared KC sites of name-matched y4 MBON candidates; anatomy only",
+  "layout_manifest_sha256": "b0d54e675ab442cf1a96d4e8439970f9ea6a9b20baf3f22a4fb4dee50d3d791c",
+  "candidate_report_sha256": "9dcc1052891a69b2916bd172dd037624ed4a979035bfb44b06809d75f4d30ed2",
+  "graph_body_ids_sha256": "6bad3ab247ccb08f958962dd2a3da97289822bb4fe1e345a936db1c8741e05f8",
+  "graph_indptr_sha256": "e8a40f6043b5fac9d7dc8f9746c2b770672eca3f3bea37b4d8a33935752820fe",
+  "candidate_body_ids": [
+    10495,
+    10826,
+    519371,
+    519619,
+    523628,
+    523987
+  ],
+  "candidate_contacts": 49708,
+  "candidate_coordinate_sites": 45077,
+  "candidate_coordinate_sites_also_targeting_other_mbon": 7921,
+  "candidate_contacts_on_shared_coordinate_sites": 8198,
+  "other_mbon_contacts_on_shared_coordinate_sites": 8497,
+  "fraction_candidate_contacts_on_shared_coordinate_sites": 0.16492315120302567,
+  "gamma_lobe_candidate_contacts": 44120,
+  "gamma_lobe_candidate_coordinate_sites": 39930,
+  "gamma_lobe_candidate_sites_shared_with_other_mbon_in_gamma_lobe": 6342,
+  "gamma_lobe_candidate_contacts_on_sites_shared_with_other_mbon_in_gamma_lobe": 6559,
+  "gamma_lobe_candidate_contacts_on_sites_shared_with_other_mbon_any_roi": 6598,
+  "fraction_gamma_lobe_candidate_contacts_on_sites_shared_with_other_mbon_in_gamma_lobe": 0.14866273798730734,
+  "coordinate_key_limitation": "(body_pre,x_pre,y_pre,z_pre) in published 8-nm voxels may merge separate ultrastructure and omits non-MBON targets",
+  "gamma4_contact_identity_proven": false,
+  "receptor_or_plasticity_assigned": false,
+  "biological_gate_passed": false
+}

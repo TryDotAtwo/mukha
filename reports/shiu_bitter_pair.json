@@ -1,0 +1,15 @@
+{
+  "condition": "sugar 100 Hz; bitter 0 versus 100 Hz",
+  "baseline_mn9_spikes": 64,
+  "bitter_mn9_spikes": 4,
+  "suppression_observed": true,
+  "native_matches_brian_every_event": true,
+  "runs_per_condition": 1,
+  "simulation_ms": 1000.0,
+  "comparison_hashes": {
+    "shiu_bitter0_comparison.json": "adc0b45c5888a3acdfe36e7c3afa8de8efac3479a4fa3b693475f5f89cd7d0ef",
+    "shiu_bitter100_comparison.json": "11b514d1014e3ad438aff8fdcc960f97e27b97c0960b8fe6de13c650c536dc03"
+  },
+  "scope": "single paired pilot on original author graph; not the full dose-response sweep, population statistics, or MaleCNS transfer",
+  "biological_gate_complete": false
+}

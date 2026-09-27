@@ -1,0 +1,27 @@
+{
+  "scope": "10 full steps, 2 receptors, 30000 microvilli each, entity RNG; no long-run or partial-warp claim",
+  "passed": true,
+  "checks": [
+    {
+      "tool": "memcheck",
+      "passed": true,
+      "log_sha256": "adba10db853bd67fe9009b776eefe7b61210d2cbe3eee029ba6fa188978b5832"
+    },
+    {
+      "tool": "initcheck",
+      "passed": true,
+      "log_sha256": "adba10db853bd67fe9009b776eefe7b61210d2cbe3eee029ba6fa188978b5832"
+    },
+    {
+      "tool": "racecheck",
+      "passed": true,
+      "log_sha256": "c69d09b31a66173faf98f267db57c7eb988035ce364fa0f0f184ffc933c541a7"
+    },
+    {
+      "tool": "synccheck",
+      "passed": true,
+      "log_sha256": "adba10db853bd67fe9009b776eefe7b61210d2cbe3eee029ba6fa188978b5832"
+    }
+  ],
+  "executable_sha256": "c49c72dc64de27fe72f3cc0c18f0d17080d3cc0cdcda4f31d32c7df6186f7973"
+}

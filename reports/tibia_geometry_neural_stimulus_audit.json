@@ -1,0 +1,26 @@
+{
+  "scope": "Geometric registration of existing full-CNS diagnostic stimulus to the FlyMimic source body",
+  "geometry_trace_sha256": "76236a6349b1781a5d9e23c85e814d4dadaa782509a380a79fbe77a278a1a6ed",
+  "old_neural_angle_sha256": "d7df765d4edc30c6e493b92640b99397f14c99eeac938a26b7a3e21196645fcd",
+  "neural_spec_sha256": "15e4d570dd0a5b79d8a009409e850179dab22b05f7a9559ddd2314628e144706",
+  "sample_count": 5000,
+  "sample_alignment": "first 5000 of 5001 body positions; t=0 through 0.4999 s",
+  "angle_reference": "actual 3D interior angle at t=0; larger angle is extension",
+  "max_abs_relative_angle_difference_deg": 5.276037692088858e-06,
+  "max_abs_relative_angle_difference_rad": 9.208422918627335e-08,
+  "drive_errors": {
+    "positive_angle_half_wave": {
+      "max_abs_drive_difference_mv": 1.8416845833257867e-05,
+      "active_ticks_geometric": 2499,
+      "active_ticks_previous": 2500
+    },
+    "negative_angle_half_wave": {
+      "max_abs_drive_difference_mv": 1.5206343500828723e-05,
+      "active_ticks_geometric": 2499,
+      "active_ticks_previous": 2499
+    }
+  },
+  "sensor_transfer_measured": false,
+  "sensory_cell_polarity_identified": false,
+  "biological_response_validated": false
+}

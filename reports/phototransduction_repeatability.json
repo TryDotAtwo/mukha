@@ -1,0 +1,16 @@
+{
+  "scope": "Repeated 100 ms runs of same executable, same seed and launch shape",
+  "bitwise_trace_equal": false,
+  "max_abs_difference": {
+    "tick": 0.0,
+    "dark_mv": 0.0,
+    "light_mv": 1.3175918293578803,
+    "dark_ns": 0.0,
+    "light_ns": 0.048719334426632344
+  },
+  "hashes": {
+    "build\\phototransduction_repeat_0.csv": "bb4f50e1c69f50b64e8ef067c5810a989874f602ae2e44ddd0cd7dbd02b9b104",
+    "build\\phototransduction_repeat_1.csv": "38664b59c294e5f975773359795d7b18afd0f3330fc27f5be512d6900ab4f633",
+    "build\\phototransduction_safe_probe.exe": "00122376685b8a838ee0680f64ec83786edb5e40ddf320501c38bd328b70ab42"
+  }
+}

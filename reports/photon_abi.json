@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "scope": "Windows RTX 3070 native C ABI, two cells, external photon inputs; not calibrated retina/CNS",
+  "reference_trace_exact": true,
+  "single_step_vs_batched_exact": true,
+  "time_varying_input_chunking_exact": true,
+  "invalid_inputs_preserve_state": true,
+  "reset_reproduces_initial_state": true,
+  "simultaneous_second_instance_rejected": true,
+  "binary_sha256": "7e1314780207f851ec1fbcfdec09ccfe40e767ca0728ec72545519afb58aa16d",
+  "reference_trace_sha256": "c5655d7d460dc42c6b3d6fee803724024fb60bbecbd873f58811dec09120343c",
+  "gpu": "NVIDIA GeForce RTX 3070 Laptop GPU, 572.70",
+  "source_hashes": {
+    "native/photon.cu": "81afe83b5fe2311823c28996ff64b71aa905c9b60589ccdd5fcc1b4e56a748a9",
+    "native/photon.h": "65b82b6ca414c9721c8747587ea455a8138457180697f78981eeeb8bbae38241",
+    "native/phototransduction_safe.cuh": "4a6d0a73dc52eb9e86c4a17deb1a321e9db61215a5c8c104be1fd4723c22288b",
+    "native/photocurrent_safe.cuh": "6d45b17e1509a6f2aba3f7b13477d1fcf10d5ba3918f9b4974f3175459c8c89f",
+    "build/photoreceptor_author_hh.cu": "22b4e9346419c47d3e40872f4cf326b5d56400a099a4b133da47580b5b383c4e",
+    "build/photoreceptor_author_adaptation.cu": "4a1c51e40255fd47466c883408b395217efd9ac812bfc909218467549e061c40",
+    "tools/build_photon.cmd": "b5c369fc51e2b7a821ffa84bf511a2ce670a59dffff32718b18f54d3fd6a1680"
+  }
+}

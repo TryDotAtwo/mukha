@@ -1,0 +1,148 @@
+{
+  "scope": "Original accepted graph KC-to-KC anatomy by source type label; no axonal location, receptor localization, physiology or plasticity inference",
+  "graph_manifest_sha256": "b30e21078c0479ac288e7f9d3b7cb2c9eb76aa3b9707f3a2b9fa6a92bb822ef3",
+  "checked_file_sha256": {
+    "nodes.feather": "48c7e4acadf9619d83f08b31bb2062b7a9f0a5fa86429ff968aea066ced57f3f",
+    "indptr.npy": "e8a40f6043b5fac9d7dc8f9746c2b770672eca3f3bea37b4d8a33935752820fe",
+    "indices.npy": "d24a26b19f088719ade13220f4b6d5d269633a49f20456c2a4a37942d0a72e0b",
+    "synapse_counts.npy": "578f95e75aa4c86600429a05a59d43d9fa9ece67b592f97c938e1d8523f46ba1"
+  },
+  "type_mapping": {
+    "KCg*": "gamma",
+    "KCab*": "alpha_beta",
+    "KCa'b'*": "alpha_prime_beta_prime",
+    "other": "unresolved"
+  },
+  "population": [
+    {
+      "subtype": "gamma",
+      "cells": 1557,
+      "mean_distinct_kc_inputs": 200.1971740526654,
+      "mean_distinct_kc_outputs": 199.4155427103404,
+      "median_distinct_kc_inputs": 207.0
+    },
+    {
+      "subtype": "alpha_beta",
+      "cells": 1810,
+      "mean_distinct_kc_inputs": 137.01381215469613,
+      "mean_distinct_kc_outputs": 138.79005524861878,
+      "median_distinct_kc_inputs": 141.0
+    },
+    {
+      "subtype": "alpha_prime_beta_prime",
+      "cells": 695,
+      "mean_distinct_kc_inputs": 119.7251798561151,
+      "mean_distinct_kc_outputs": 116.86187050359712,
+      "median_distinct_kc_inputs": 120.0
+    },
+    {
+      "subtype": "unresolved",
+      "cells": 2,
+      "mean_distinct_kc_inputs": 11.0,
+      "mean_distinct_kc_outputs": 7.0,
+      "median_distinct_kc_inputs": 11.0
+    }
+  ],
+  "directed_subtype_pairs": [
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "gamma",
+      "edge_rows": 305841,
+      "contacts": 507343
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "alpha_beta",
+      "edge_rows": 2146,
+      "contacts": 2341
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "edge_rows": 2497,
+      "contacts": 2760
+    },
+    {
+      "presynaptic_subtype": "gamma",
+      "postsynaptic_subtype": "unresolved",
+      "edge_rows": 6,
+      "contacts": 6
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "gamma",
+      "edge_rows": 3421,
+      "contacts": 3731
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "alpha_beta",
+      "edge_rows": 244283,
+      "contacts": 424741
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "edge_rows": 3493,
+      "contacts": 3772
+    },
+    {
+      "presynaptic_subtype": "alpha_beta",
+      "postsynaptic_subtype": "unresolved",
+      "edge_rows": 13,
+      "contacts": 16
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "gamma",
+      "edge_rows": 2440,
+      "contacts": 2695
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "alpha_beta",
+      "edge_rows": 1561,
+      "contacts": 1625
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "edge_rows": 77215,
+      "contacts": 204797
+    },
+    {
+      "presynaptic_subtype": "alpha_prime_beta_prime",
+      "postsynaptic_subtype": "unresolved",
+      "edge_rows": 3,
+      "contacts": 3
+    },
+    {
+      "presynaptic_subtype": "unresolved",
+      "postsynaptic_subtype": "gamma",
+      "edge_rows": 5,
+      "contacts": 6
+    },
+    {
+      "presynaptic_subtype": "unresolved",
+      "postsynaptic_subtype": "alpha_beta",
+      "edge_rows": 5,
+      "contacts": 5
+    },
+    {
+      "presynaptic_subtype": "unresolved",
+      "postsynaptic_subtype": "alpha_prime_beta_prime",
+      "edge_rows": 4,
+      "contacts": 4
+    },
+    {
+      "presynaptic_subtype": "unresolved",
+      "postsynaptic_subtype": "unresolved",
+      "edge_rows": 0,
+      "contacts": 0
+    }
+  ],
+  "total_kc_kc_edge_rows": 642933,
+  "total_kc_kc_contacts": 1153845,
+  "self_edge_rows": 1,
+  "interpretation_limit": "Source connectivity includes directed chemical rows only; group names are MaleCNS annotations. Cross-study species/sex/release and anatomical compartment differences prevent direct numeric validation against other connectomes."
+}

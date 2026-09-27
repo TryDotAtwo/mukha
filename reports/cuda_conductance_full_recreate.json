@@ -1,0 +1,20 @@
+{
+  "scope": "Two sequential full-CSR zero-weight GPU handle lifecycles; no synaptic physiology",
+  "dll_sha256": "cfb9e152a405b6cf3e990016ba91026f876e4b1e15a3dfc1a7757d160b686772",
+  "graph_manifest_sha256": "b30e21078c0479ac288e7f9d3b7cb2c9eb76aa3b9707f3a2b9fa6a92bb822ef3",
+  "gpu_free_before_bytes": 7463763968,
+  "gpu_total_bytes": 8589410304,
+  "states": [
+    {
+      "iteration": 1,
+      "free_during_bytes": 6794772480,
+      "free_after_destroy_bytes": 7463763968
+    },
+    {
+      "iteration": 2,
+      "free_during_bytes": 6794772480,
+      "free_after_destroy_bytes": 7463763968
+    }
+  ],
+  "passed": true
+}

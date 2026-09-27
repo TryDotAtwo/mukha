@@ -1,0 +1,14 @@
+{
+  "backend": "native-cpu-fp32",
+  "scope": "five-neuron numerical fixture; not full-brain biological validation or CUDA evidence",
+  "fixture_sha256": "4acea783c8087105641121eaa2abd9cbd0fa5c5da030d8547613dd99d187a100",
+  "trace_sha256": "4e1420e79a688a76506da8863a7a76c7a8c6c0ef63723253353cea94a763b24a",
+  "steps": 1200,
+  "max_voltage_error_mv": 2.91219846744184e-05,
+  "max_synapse_error_mv": 2.5988372286178674e-05,
+  "spike_mismatches": 0,
+  "tolerance_mv": 0.002,
+  "checkpoint_continuation_exact": true,
+  "corrupt_checkpoint_rejected": true,
+  "passed": true
+}

@@ -1,0 +1,38 @@
+{
+  "scope": "Counterfactual rocket-to-body acceleration disconnect in the same live CNS/body/rocket diagnostic",
+  "closed_report_sha256": "9c40d6eff9d2b42f503199dd28c61c0afe4837f73ba6ff279e0549375ea46f00",
+  "closed_trace_sha256": "34012cd3087440feec5e3998b93f2f8bae51b89a87aa65918e5e8ce778388dad",
+  "feedback_off_trace_sha256": "2d90258b73f48087a09806da1084c1cc63958fce5c7f35991f0bc1d68b249acc",
+  "identical_neural_and_body_signals_before_feedback_tick": true,
+  "closed_first_nonzero_feedback_tick": 271,
+  "differences": {
+    "knee": {
+      "first_tick": 271,
+      "max_abs": 6.484784252414055e-05
+    },
+    "slide": {
+      "first_tick": 271,
+      "max_abs": 1.014258375467425e-05
+    },
+    "sensor_drive": {
+      "first_tick": 272,
+      "max_abs": 8.193798972655486e-08
+    },
+    "motor_voltage": {
+      "first_tick": null,
+      "max_abs": 0.0
+    },
+    "rocket_velocity": {
+      "first_tick": 307,
+      "max_abs": 1.2897483898655082e-06
+    }
+  },
+  "first_event_difference_tick": null,
+  "closed_event_count": 70,
+  "feedback_off_event_count": 70,
+  "biological_validation": false,
+  "limits": [
+    "Both branches retain unvalidated sensory and motor mappings",
+    "One radial diagnostic plant, not KSP or landing"
+  ]
+}

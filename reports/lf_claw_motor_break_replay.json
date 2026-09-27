@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "intervention": "positive sensory drive replayed exactly; muscle output disconnected",
+  "source_closed_loop_report_sha256": "e525becc353c0702bf498a36c190f300558ebd3e5319a9f2d9a04e01e010a7c3",
+  "sensor_refractory_ticks": 0,
+  "sensory_trace_sha256": "2d5186e7a850253c6695bdd33dc1fb9ee88fb0c78681469cee88acc337cee9f6",
+  "original_event_sha256": "10c60034ae0a4af8dd2059dfe2fa844d906fe1febc26df7371a787c2135212be",
+  "full_neural_events_identical": true,
+  "motor_spikes_identical": true,
+  "motor_spike_ticks": [
+    190,
+    403,
+    492,
+    587,
+    671,
+    743,
+    906,
+    975
+  ],
+  "exact_foot_pad_contacts": 0,
+  "max_slide_mm": 0.0,
+  "max_abs_knee_change_rad": 2.2134276791430096e-06,
+  "scope": "Post-result motor-path break under fixed sensory replay; no claim of natural transduction or a live feedback loop in this control."
+}

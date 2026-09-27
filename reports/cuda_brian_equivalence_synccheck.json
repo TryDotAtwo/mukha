@@ -1,0 +1,16 @@
+{
+  "backend": "native-cuda-fp32-cusparse-csr-alg2",
+  "hardware": "NVIDIA GeForce RTX 3070 Laptop GPU, 572.70, 8192 MiB",
+  "fixture_sha256": "4acea783c8087105641121eaa2abd9cbd0fa5c5da030d8547613dd99d187a100",
+  "library_sha256": "7ec96c45ff1bfe50d9a428e3d0d6f0a9fa2f6633ba46bd576f3a477799e8ff2c",
+  "neurons": 5,
+  "steps": 1200,
+  "max_voltage_error_mv": 2.94525589978889e-05,
+  "max_synapse_error_mv": 2.6609878602812387e-05,
+  "spike_mismatches": 0,
+  "repeated_run_bit_exact": true,
+  "passed": true,
+  "two_replays_wall_seconds": 11.063000000023749,
+  "instrumentation": "synccheck",
+  "scope": "physical GPU numerical fixture only; no full-graph or biological validation; no checkpoint API yet"
+}

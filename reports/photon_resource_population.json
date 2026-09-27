@@ -1,0 +1,21 @@
+{
+  "scope": "Resource sizing only; no graph changes",
+  "annotation_sha256": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2",
+  "count": 6091,
+  "types": {
+    "R1-R6": 3377,
+    "R7y": 482,
+    "R8y": 481,
+    "R8_unclear": 442,
+    "R7_unclear": 404,
+    "R7p": 332,
+    "R8p": 330,
+    "R7R8_unclear": 85,
+    "R7d": 82,
+    "R8d": 76
+  },
+  "microvilli_each_assumption": 30000,
+  "excluded_from_benchmark_only": {
+    "HBeyelet": 7
+  }
+}

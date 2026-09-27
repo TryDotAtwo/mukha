@@ -1,0 +1,29 @@
+{
+  "source_sha256": "c07b830f5782019f9c4751c790d711c6f5c5d688d1f3fea2f1047f9fc7ea0f38",
+  "brian2_version": "2.9.0",
+  "results": {
+    "unmodified": {
+      "runs": true,
+      "spikes": 1,
+      "spike_neurons": [
+        0
+      ],
+      "spike_times_ms": [
+        1.7000000000000002
+      ]
+    },
+    "remove_w_diagnostic": {
+      "runs": true,
+      "spikes": 1,
+      "spike_neurons": [
+        0
+      ],
+      "spike_times_ms": [
+        1.7000000000000002
+      ]
+    }
+  },
+  "traces_identical": true,
+  "biological_replication": false,
+  "source_modified": false
+}

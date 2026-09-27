@@ -1,0 +1,266 @@
+{
+  "game_root": "D:\\SteamLibrary\\steamapps\\common\\Kerbal Space Program",
+  "game_version": "1.12.5",
+  "krpc_release": "0.6.0",
+  "release_zip_sha256": "6b4399a8db57c41dd15323fcd79dc3aa440999aefed808729a5c850bac1a17c8",
+  "installed_files": [
+    {
+      "relative_path": "GameData/ModuleManager.4.2.3.dll",
+      "bytes": 141824,
+      "sha256": "95847827ab293b9e82a19b7efb97ffea3e98cc03b181862536ac8eb572e30d7d"
+    },
+    {
+      "relative_path": "GameData/kRPC/CHANGELOG.DockingCamera.md",
+      "bytes": 143,
+      "sha256": "0d8ee0da2e6e89585a783dff487ac7781d653c0f21add4b990ec33726e89c146"
+    },
+    {
+      "relative_path": "GameData/kRPC/CHANGELOG.Drawing.md",
+      "bytes": 358,
+      "sha256": "bb0c72b5ac0475396390dd038db9ebbee6a019ef1ae71ac831bb557105cc6195"
+    },
+    {
+      "relative_path": "GameData/kRPC/CHANGELOG.InfernalRobotics.md",
+      "bytes": 1973,
+      "sha256": "2a5e3e89d6db294012cef80b4a7b8d5cc724162896c040cb89441e9d694ae86b"
+    },
+    {
+      "relative_path": "GameData/kRPC/CHANGELOG.KerbalAlarmClock.md",
+      "bytes": 925,
+      "sha256": "fcbf8bec7728e5b4c1842d9f14dfd3c636bf719b63288ef7f6648bf88cd57de0"
+    },
+    {
+      "relative_path": "GameData/kRPC/CHANGELOG.LiDAR.md",
+      "bytes": 135,
+      "sha256": "f4e58d7b636864db087f426637cafcf8e1c6928319c332db771c5d571a8a1aeb"
+    },
+    {
+      "relative_path": "GameData/kRPC/CHANGELOG.RemoteTech.md",
+      "bytes": 374,
+      "sha256": "54fe228292c699164d01a500d79e6d495cbd0d1f893c0c5fdf0ca794aa146fd4"
+    },
+    {
+      "relative_path": "GameData/kRPC/CHANGELOG.SpaceCenter.md",
+      "bytes": 40279,
+      "sha256": "91b724a90f67cb92835f4a03bde059799434a83ec8c1c10a12e0d538666fe012"
+    },
+    {
+      "relative_path": "GameData/kRPC/CHANGELOG.UI.md",
+      "bytes": 294,
+      "sha256": "819b8dc315d52a7b9c1a8dff4703d20501549a783fe80a4cf71fc06d8dc88cd1"
+    },
+    {
+      "relative_path": "GameData/kRPC/CHANGELOG.md",
+      "bytes": 7518,
+      "sha256": "787bda77d1eae0201ff25ce224c7bbdc7e377238ae76fdf17403e1b59a53217e"
+    },
+    {
+      "relative_path": "GameData/kRPC/Google.Protobuf.dll",
+      "bytes": 350192,
+      "sha256": "2210e190ecfa7b27f48b6601fdad544e8adb0a9bdcb70d775c8bbdd5e48b5cee"
+    },
+    {
+      "relative_path": "GameData/kRPC/KRPC.Core.dll",
+      "bytes": 321024,
+      "sha256": "0c7e447fc801c41d38169e82e39cb06c04df9973a4d6afa9d4c12e76ab313ad8"
+    },
+    {
+      "relative_path": "GameData/kRPC/KRPC.Core.json",
+      "bytes": 50351,
+      "sha256": "5c31bfc1ef0808ff00719b05e9f496d37616db5e5eeb917e7b946c838b39929e"
+    },
+    {
+      "relative_path": "GameData/kRPC/KRPC.Core.xml",
+      "bytes": 180399,
+      "sha256": "6acd8af051f0c5f4b4f6cec80cec808fdcae54466d763afa8fefd9fabb7b7224"
+    },
+    {
+      "relative_path": "GameData/kRPC/KRPC.DockingCamera.dll",
+      "bytes": 7168,
+      "sha256": "46d7f554ea5d8a91ba93ca7b2ecf7ff32cf224c67dc64c5151c72b45cc8596d6"
+    },
+    {
+      "relative_path": "GameData/kRPC/KRPC.DockingCamera.json",
+      "bytes": 2161,
+      "sha256": "4a1ef95cee87a9611239da13481e8218d14835aa86290cbe5dcbe4a38b49724d"
+    },
+    {
+      "relative_path": "GameData/kRPC/KRPC.DockingCamera.xml",
+      "bytes": 1829,
+      "sha256": "5cfee7c67e019c1a9fd1a2fdf2bfe24c169f5e7a3787278bbdc5b34c4127337c"
+    },
+    {
+      "relative_path": "GameData/kRPC/KRPC.Drawing.dll",
+      "bytes": 15872,
+      "sha256": "146fe419b660e09dac584bcf1361445ad44a4c52be55c4937393a856d2acc34b"
+    },
+    {
+      "relative_path": "GameData/kRPC/KRPC.Drawing.json",
+      "bytes": 45688,
+      "sha256": "3fd54980dcd1b1f2aa561a9569a23858349c39dfde1e8e28abab5afa4170cbc0"
+    },
+    {
+      "relative_path": "GameData/kRPC/KRPC.Drawing.xml",
+      "bytes": 11620,
+      "sha256": "257c32027988be9a1fe28092f970c345021efab5f8ff55434d587672e33f0379"
+    },
+    {
+      "relative_path": "GameData/kRPC/KRPC.IO.Ports.dll",
+      "bytes": 25600,
+      "sha256": "558b0c1649fbc44b518d9de8957fe30e7c9c42d73c62d63d165f6f136fab3ec5"
+    },
+    {
+      "relative_path": "GameData/kRPC/KRPC.InfernalRobotics.dll",
+      "bytes": 40960,
+      "sha256": "d953947d642de2c1151f8cf3855fe831f0f34ed82a14ccb934f5cff7cad82634"
+    },
+    {
+      "relative_path": "GameData/kRPC/KRPC.InfernalRobotics.json",
+      "bytes": 53668,
+      "sha256": "7283ea12afaa50077c87413443d37f71caca796245aaa82b2f0dfa513e63060c"
+    },
+    {
+      "relative_path": "GameData/kRPC/KRPC.InfernalRobotics.xml",
+      "bytes": 19094,
+      "sha256": "7e96dea0fb2c42e9b7d18cd00143b8db80e17d41181705d9232fafa6e612efeb"
+    },
+    {
+      "relative_path": "GameData/kRPC/KRPC.KerbalAlarmClock.dll",
+      "bytes": 24576,
+      "sha256": "1669a3490c75cd1aa9b7e19f8808397aeeab466e1e1486bbe41850330fbeac7d"
+    },
+    {
+      "relative_path": "GameData/kRPC/KRPC.KerbalAlarmClock.json",
+      "bytes": 27385,
+      "sha256": "68426fd36f758f6a13ab89562545ffb5451367c9c8cb38fa11880f1503410174"
+    },
+    {
+      "relative_path": "GameData/kRPC/KRPC.KerbalAlarmClock.xml",
+      "bytes": 24493,
+      "sha256": "61f50bffccdc9a749f37aab66bb687b91b9eec34ddc87705f175580afdd58090"
+    },
+    {
+      "relative_path": "GameData/kRPC/KRPC.LiDAR.dll",
+      "bytes": 6656,
+      "sha256": "426ad764b7c11d40d414e8c6f63de852622c15f922c5586c0cf62614a36bcdd0"
+    },
+    {
+      "relative_path": "GameData/kRPC/KRPC.LiDAR.json",
+      "bytes": 2239,
+      "sha256": "cf4656f9eacc2b8dc6036fd7bb0c6a51028ac952e9fb9130feca955250acadcd"
+    },
+    {
+      "relative_path": "GameData/kRPC/KRPC.LiDAR.xml",
+      "bytes": 1722,
+      "sha256": "b27e1d197963952e7e9c11f154261332bc5aabd7a25e40575391006516a5e4ed"
+    },
+    {
+      "relative_path": "GameData/kRPC/KRPC.RemoteTech.dll",
+      "bytes": 15360,
+      "sha256": "10e7e616ed23ea2afebb02025183190ca26df283e07ba58e339e3f60401ca614"
+    },
+    {
+      "relative_path": "GameData/kRPC/KRPC.RemoteTech.json",
+      "bytes": 14774,
+      "sha256": "2d2de7d88744619c0f91703de5d86b50e6c497e284bc123ce5baa26fe8f0058d"
+    },
+    {
+      "relative_path": "GameData/kRPC/KRPC.RemoteTech.xml",
+      "bytes": 6992,
+      "sha256": "28dfe8d1f51e5deeefe700ede1e2b790e693ebe0188d6692ea471e00b8de94ea"
+    },
+    {
+      "relative_path": "GameData/kRPC/KRPC.SpaceCenter.dll",
+      "bytes": 425472,
+      "sha256": "ef3855f132477d3dd7c3a8fb8aae1fbbe8cca54f23bec5c333c04a91665bd8a4"
+    },
+    {
+      "relative_path": "GameData/kRPC/KRPC.SpaceCenter.json",
+      "bytes": 1049366,
+      "sha256": "ddbcd4098400a9266b527c5beaa985cc802aac8ac6a85c075589b51e11ed5f20"
+    },
+    {
+      "relative_path": "GameData/kRPC/KRPC.SpaceCenter.xml",
+      "bytes": 650154,
+      "sha256": "4efab50dba947a35354021b7ffc8a4157aabe8e62d574125b616e6b44944f498"
+    },
+    {
+      "relative_path": "GameData/kRPC/KRPC.UI.dll",
+      "bytes": 18432,
+      "sha256": "796a6a7f0032be41a5cab1ea4ebc2e3a763ccec7ab71c7fd1d3f9eb45f5aa62a"
+    },
+    {
+      "relative_path": "GameData/kRPC/KRPC.UI.json",
+      "bytes": 52385,
+      "sha256": "77458d6791303a162be886e3fb416c8775e8070c598cc53a64463ede525f4cce"
+    },
+    {
+      "relative_path": "GameData/kRPC/KRPC.UI.ksp",
+      "bytes": 8065,
+      "sha256": "2abb6216807017fea922ba96ab1e84e3fb50a0775631e36b4559ee6a85037038"
+    },
+    {
+      "relative_path": "GameData/kRPC/KRPC.UI.xml",
+      "bytes": 18543,
+      "sha256": "ed79b3e900fd36b81c4c80a2e63912abbcff3fa4a29ad949090baf15bc794e87"
+    },
+    {
+      "relative_path": "GameData/kRPC/KRPC.dll",
+      "bytes": 81408,
+      "sha256": "5aa1d0cdc8eecde0a3efbf16dee8bfa575f4acd94e8960619f642861f7afd2e4"
+    },
+    {
+      "relative_path": "GameData/kRPC/KRPC.xml",
+      "bytes": 20058,
+      "sha256": "5db2e251de9da0e8ec290aa9e2f820562059a87f2f2910107ecdca6c92c12ede"
+    },
+    {
+      "relative_path": "GameData/kRPC/PluginData/settings.cfg",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "relative_path": "GameData/kRPC/icons/applauncher-offline.png",
+      "bytes": 416,
+      "sha256": "1e5e5c7ee0119ea19e608816ffdfa9b4abecb99c47e50011974f9be3b814ca24"
+    },
+    {
+      "relative_path": "GameData/kRPC/icons/applauncher-online.png",
+      "bytes": 455,
+      "sha256": "38e33a159c7007f6d8d865bc593ee3cf542bd6b6f143ed29df32f1e18ac324ed"
+    },
+    {
+      "relative_path": "GameData/kRPC/icons/button-close-window.png",
+      "bytes": 446,
+      "sha256": "a42c7f87a11b6a086edd0d9bf5391b38f91a028629b9f54953b07d08e9c963f1"
+    },
+    {
+      "relative_path": "GameData/kRPC/icons/button-collapse.png",
+      "bytes": 813,
+      "sha256": "d53fb6e2c431d3d907cf6c101af0251cc34b5ef5dc0000d5f4d07f6ee03df911"
+    },
+    {
+      "relative_path": "GameData/kRPC/icons/button-disconnect-client.png",
+      "bytes": 436,
+      "sha256": "74f28b17cc0f51102ab129178c54628752c6392c4b20c630c92a7ac813aec73e"
+    },
+    {
+      "relative_path": "GameData/kRPC/icons/button-expand.png",
+      "bytes": 723,
+      "sha256": "35844b02b8238a6f81092cef9571fa0d34396ae8e4e8ecc8beb166192227f2fe"
+    },
+    {
+      "relative_path": "GameData/kRPC/kRPC.version",
+      "bytes": 376,
+      "sha256": "766a99fe2e19498064adc8a6f23e84599faeae1da1a52252fe8dc82248f4c8a2"
+    },
+    {
+      "relative_path": "GameData/kRPC/module-manager.cfg",
+      "bytes": 82,
+      "sha256": "81ce3b803ededea2ed220123c13fa8e3fa0f9cb00f857d6cb5653e40f78bb589"
+    }
+  ],
+  "preexisting_squad_preserved": true,
+  "preexisting_save_directories_untouched": true,
+  "server_runtime_verified": false
+}

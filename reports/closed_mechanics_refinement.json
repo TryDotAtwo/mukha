@@ -1,0 +1,45 @@
+{
+  "causal_and_clock_checks_passed": true,
+  "refinement": [
+    {
+      "dt_seconds": 1.25e-05,
+      "steps": 160000,
+      "feedback_velocity_effect_mps": 0.018493172218029486,
+      "feedback_slider_effect_mm": 0.0024255084269699037,
+      "final_velocity_mps": -20.99243861957791
+    },
+    {
+      "dt_seconds": 6.25e-06,
+      "steps": 320000,
+      "feedback_velocity_effect_mps": 0.018935378060405128,
+      "final_velocity_mps": -20.989480353462234
+    },
+    {
+      "dt_seconds": 3.125e-06,
+      "steps": 640000,
+      "feedback_velocity_effect_mps": 0.019192441871634713,
+      "final_velocity_mps": -20.98794446632617
+    },
+    {
+      "dt_seconds": 1.5625e-06,
+      "steps": 1280000,
+      "feedback_velocity_effect_mps": 0.019373213419640933,
+      "final_velocity_mps": -20.98711934981608
+    }
+  ],
+  "last_relative_effect_change": 0.009331004830770631,
+  "last_refinement_within_one_percent": true,
+  "scope": "One-second driven mechanical pair only; no general convergence or biological validation",
+  "hashes": {
+    "reports\\closed_mechanics_causality.json": "072b724eff42ee1c1c084b65f4236e899d6a168966d57e299eb31f9768eac60a",
+    "build\\closed_mechanics_eighthstep_trace.csv": "34b3c430f84cf7bc2a5f0cd5eac1985b7b85bc855348eaeb4d314e82e4795bd7",
+    "build\\closed_mechanics_sixteenthstep_trace.csv": "ae8316ec7b6c9f2a30b31384d0c57cb353c0d00d390abe35702291f5167a7122",
+    "build\\closed_mechanics_thirtysecondstep_trace.csv": "c058bd275a873e29a57c7c40e727ffbc164b786a3838ce51894cde17ebb7f83b",
+    "build\\closed_mechanics_sixtyfourthstep_trace.csv": "1d15b57f6404ee6a60e7b9563124a2b832272c5f723432e5beb2b5b5a62cb6a1",
+    "native\\closed_mechanics_probe.cpp": "9586fc20258be4be9508804859f5deaa5d26cb2d5e32408137d9b3119715f850",
+    "native\\rocket_vertical.h": "703d9653f82c3683222778fce5e56b40638a6da458f299a7cf20428498e349ce",
+    "build\\closed_mechanics_probe.exe": "08be5349a8f66e27d238189e42f918057a969e72781cbddc316dac663544f19b",
+    "data\\derived\\contact_diagnostic\\body.xml": "f76a572b0699f6ea38e220f1a08b48803b519175a44457b55839e241d2362438",
+    "tools\\check_mechanics_refinement.py": "7ecc53cc81d73b6ea1b7eabbb92efa1d0d43831a75677de6a7c266096b592b3d"
+  }
+}

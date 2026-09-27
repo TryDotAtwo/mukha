@@ -1,0 +1,70 @@
+{
+  "scope": "Conditional full-network causal diagnostic with three in-memory conductance cuts; not physiological validation",
+  "graph_manifest_sha256": "b30e21078c0479ac288e7f9d3b7cb2c9eb76aa3b9707f3a2b9fa6a92bb822ef3",
+  "dll_sha256": "cfb9e152a405b6cf3e990016ba91026f876e4b1e15a3dfc1a7757d160b686772",
+  "crosswalk_sha256": "92c26306b9a8069402898ab024c8ae281790951664b40bb413206832fe612070",
+  "rows": [
+    {
+      "reversal_inh_mv": -70,
+      "unclear_sign": 1,
+      "roundup_spikes_intact": 59,
+      "roundup_spikes_cut": 63,
+      "roundup_cut_minus_intact": 4,
+      "g2n1_spikes_intact": 8,
+      "g2n1_spikes_cut": 6,
+      "input_spikes_intact": 846,
+      "input_spikes_cut": 846,
+      "report_sha256": {
+        "intact": "d8cc2ea9cc77283d2520ae7a36d04bb04e07275b60ec21d94fab4c9a742b2037",
+        "cut": "12bd6b6866e711600d6737131d678dffa63395eb990b5f8de6e89e7c1bb9e942"
+      }
+    },
+    {
+      "reversal_inh_mv": -70,
+      "unclear_sign": -1,
+      "roundup_spikes_intact": 13,
+      "roundup_spikes_cut": 23,
+      "roundup_cut_minus_intact": 10,
+      "g2n1_spikes_intact": 10,
+      "g2n1_spikes_cut": 8,
+      "input_spikes_intact": 610,
+      "input_spikes_cut": 610,
+      "report_sha256": {
+        "intact": "aa1ae2f7d1aad06e7ac287cd456a1c6b7551635159160bcb4b8f56e634b83418",
+        "cut": "342d997a4d4839eb2ab9400bea8ad91bf80393df2903629a23304ea84c893fdc"
+      }
+    },
+    {
+      "reversal_inh_mv": -48,
+      "unclear_sign": 1,
+      "roundup_spikes_intact": 76,
+      "roundup_spikes_cut": 76,
+      "roundup_cut_minus_intact": 0,
+      "g2n1_spikes_intact": 52,
+      "g2n1_spikes_cut": 52,
+      "input_spikes_intact": 904,
+      "input_spikes_cut": 904,
+      "report_sha256": {
+        "intact": "29a86a8ed19542ec3420497f711718d9428c2790a268b461b2968370d3e16763",
+        "cut": "7c15c4ac52e5a5d058d2292f315529c3fc07412b66b1a814c0057c86b9438ce1"
+      }
+    },
+    {
+      "reversal_inh_mv": -48,
+      "unclear_sign": -1,
+      "roundup_spikes_intact": 74,
+      "roundup_spikes_cut": 74,
+      "roundup_cut_minus_intact": 0,
+      "g2n1_spikes_intact": 45,
+      "g2n1_spikes_cut": 45,
+      "input_spikes_intact": 610,
+      "input_spikes_cut": 610,
+      "report_sha256": {
+        "intact": "e12d3f8f4827f4ea359b9f289cacfa5b74f53a6c12114419e623bed7989231d5",
+        "cut": "bf9e5fcef3a867587fbc57dce65a2736be093d9d13d65508308a1f07e7363d84"
+      }
+    }
+  ],
+  "roundup_rescue_all_variants": false,
+  "biological_validation_passed": false
+}

@@ -1,0 +1,28 @@
+{
+  "scope": "Exact direct R1-R6 to author-assigned L1 graph rows; candidate column paths only, not receptor optical axes",
+  "graph_manifest_sha256": "b30e21078c0479ac288e7f9d3b7cb2c9eb76aa3b9707f3a2b9fa6a92bb822ef3",
+  "assignment_sha256": "aceb35ea500d993cd3ef22b7efbb4724a2f7913d41ace2c3add2a7e396832967",
+  "receptor_cells": 3377,
+  "assigned_l1_cells": 1764,
+  "direct_edge_rows": 3267,
+  "direct_contacts": 102940,
+  "assigned_l1_with_direct_r16_input": 803,
+  "assigned_l1_without_direct_r16_input": 961,
+  "receptor_target_degree_counts": {
+    "1": 3217,
+    "2": 20,
+    "3": 1,
+    "7": 1
+  },
+  "receptor_status_counts": {
+    "single": 3217,
+    "none": 138,
+    "multiple": 22
+  },
+  "cross_side_edge_rows": 0,
+  "direct_edges_csv_sha256": "bbccbccc6cfe565852ac637351a7b159ca072961c470effb925067d63267ead1",
+  "receptor_status_csv_sha256": "93501b9ebad6d682fd4ccacc23c2c7d57af3501a070fff403b7ae22ef1f7a841",
+  "interpretation": "Single assigned L1 target gives one direct anatomical path to an existing medulla hex column. It does not identify an R1-R6 ommatidium, its optical axis, transmission sign/gain, or all potentially missing contacts. Multiple targets are retained without ranking.",
+  "optical_rays_assigned": 0,
+  "visual_input_enabled": false
+}

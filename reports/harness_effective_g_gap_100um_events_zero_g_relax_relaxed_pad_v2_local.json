@@ -1,0 +1,135 @@
+{
+  "cases": [
+    {
+      "feedback": false,
+      "contact": false,
+      "pulse": false,
+      "exact_contact_samples": 0,
+      "first_contact_tick": null,
+      "first_slide_tick": null,
+      "first_throttle_tick": null,
+      "max_slide_mm": 0.0,
+      "max_throttle": 0.0,
+      "max_abs_effective_g_mm_s2": 0.0
+    },
+    {
+      "feedback": false,
+      "contact": false,
+      "pulse": true,
+      "exact_contact_samples": 0,
+      "first_contact_tick": null,
+      "first_slide_tick": null,
+      "first_throttle_tick": null,
+      "max_slide_mm": 0.0,
+      "max_throttle": 0.0,
+      "max_abs_effective_g_mm_s2": 0.0
+    },
+    {
+      "feedback": false,
+      "contact": true,
+      "pulse": false,
+      "exact_contact_samples": 0,
+      "first_contact_tick": null,
+      "first_slide_tick": null,
+      "first_throttle_tick": null,
+      "max_slide_mm": 0.0,
+      "max_throttle": 0.0,
+      "max_abs_effective_g_mm_s2": 0.0
+    },
+    {
+      "feedback": false,
+      "contact": true,
+      "pulse": true,
+      "exact_contact_samples": 213,
+      "first_contact_tick": 419,
+      "first_slide_tick": 419,
+      "first_throttle_tick": 420,
+      "max_slide_mm": 0.020761035606492236,
+      "max_throttle": 0.06912934835964195,
+      "max_abs_effective_g_mm_s2": 0.0
+    },
+    {
+      "feedback": true,
+      "contact": false,
+      "pulse": false,
+      "exact_contact_samples": 0,
+      "first_contact_tick": null,
+      "first_slide_tick": null,
+      "first_throttle_tick": null,
+      "max_slide_mm": 0.0,
+      "max_throttle": 0.0,
+      "max_abs_effective_g_mm_s2": 0.0
+    },
+    {
+      "feedback": true,
+      "contact": false,
+      "pulse": true,
+      "exact_contact_samples": 0,
+      "first_contact_tick": null,
+      "first_slide_tick": null,
+      "first_throttle_tick": null,
+      "max_slide_mm": 0.0,
+      "max_throttle": 0.0,
+      "max_abs_effective_g_mm_s2": 0.0
+    },
+    {
+      "feedback": true,
+      "contact": true,
+      "pulse": false,
+      "exact_contact_samples": 0,
+      "first_contact_tick": null,
+      "first_slide_tick": null,
+      "first_throttle_tick": null,
+      "max_slide_mm": 0.0,
+      "max_throttle": 0.0,
+      "max_abs_effective_g_mm_s2": 0.0
+    },
+    {
+      "feedback": true,
+      "contact": true,
+      "pulse": true,
+      "exact_contact_samples": 213,
+      "first_contact_tick": 419,
+      "first_slide_tick": 419,
+      "first_throttle_tick": 420,
+      "max_slide_mm": 0.020761026683237486,
+      "max_throttle": 0.06912931864961011,
+      "max_abs_effective_g_mm_s2": 120.91461805583707
+    }
+  ],
+  "source_harness_xml_sha256": "eb89b6438bfdd6fb21a4c512b915d96c185e298654cf3221870a174ec3d3a3a0",
+  "executed_source_sha256": "096c58a0ccc179791bd3eccc7e456283dcb2230ca1662ac799dba55568f4faea",
+  "pad_center_mm": [
+    1.1601818399147235,
+    0.04937143414444589,
+    2.623742226223539
+  ],
+  "mujoco_version": "3.14.0",
+  "relaxed_foot_center_mm": [
+    1.0014035998919573,
+    0.05409701684792099,
+    2.629368865279646
+  ],
+  "relaxed_knee_q_rad": 1.1263256023232708,
+  "pad_shift_mm": 0.1,
+  "pad_reference": "relaxed",
+  "motor_drive": "recorded full-graph candidate 156979 events with 0.1 per spike and 20-ms decay",
+  "motor_event_source_sha256": "38bb490b2a800fda91d0839f1031781e200ae6258dffa378525f10a26b21be51",
+  "unclear_transmitter_sign_assumption": "excitatory",
+  "motor_event_ticks": [
+    190,
+    641
+  ],
+  "cabin_frame": "nonrotating co-falling local frame; effective gravity is -thrust/m",
+  "trace_phase_contract": "index t: command, effective g, contacts and actuator_force describe step [t*dt,(t+1)*dt); qpos, activation and rocket state are at (t+1)*dt; throttle uses slider q at t*dt",
+  "relaxation": "zero gravity for 20000 steps before co-falling frame",
+  "rocket_plant": "native/rocket_vertical.h via native/rocket_vertical_abi.cpp",
+  "first_nonzero_throttle_tick": 420,
+  "identical_trajectories_through_first_nonzero_throttle": true,
+  "max_feedback_slide_difference_mm": 8.923254749687581e-09,
+  "max_feedback_velocity_difference_mps": 9.560174873968208e-10,
+  "no_pulse_contact_caused_throttle": false,
+  "trace_sha256": "5e7473d4f2e1062d39817ba29f1e104e11acee5baa82f24a93f2c10130963e8d",
+  "abi_sha256": "d431b64065168d6b85f9ea2165408790bb72fa0b11cd13e1273e3b151fc6c8ce",
+  "scope": "Exploratory replay through hypothetical motor-to-muscle gain; no validated MaleCNS motor mapping, realistic seated cabin or KSP landing."
+}

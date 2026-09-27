@@ -1,0 +1,45 @@
+{
+  "source_url": "https://cdn.elifesciences.org/articles/26117/elife-26117-fig1-data1-v2.xlsx",
+  "source_article": "https://elifesciences.org/articles/26117/figures",
+  "file_sha256": "cb457117a713ad69c985d687c33d96d46ec027b66718b214be379b048d084c0d",
+  "file_bytes": 2310026,
+  "sheets": [
+    {
+      "sheet": "20HzBG0",
+      "samples": 2000,
+      "dt_ms": 1,
+      "trial_columns": 20,
+      "mean_and_sd_columns": true
+    },
+    {
+      "sheet": "50HzBG0",
+      "samples": 2000,
+      "dt_ms": 1,
+      "trial_columns": 20,
+      "mean_and_sd_columns": true
+    },
+    {
+      "sheet": "100HzBG0",
+      "samples": 2000,
+      "dt_ms": 1,
+      "trial_columns": 20,
+      "mean_and_sd_columns": true
+    },
+    {
+      "sheet": "200HzBG0",
+      "samples": 2000,
+      "dt_ms": 1,
+      "trial_columns": 20,
+      "mean_and_sd_columns": true
+    },
+    {
+      "sheet": "500HzBG0",
+      "samples": 2000,
+      "dt_ms": 1,
+      "trial_columns": 20,
+      "mean_and_sd_columns": true
+    }
+  ],
+  "scope": "one R1-R6 photoreceptor, 20 repeated runs per frequency under BG0 darkness; 20/50/100/200/500 Hz burst stimuli",
+  "comparison_status": "not comparable to existing single 20-ms flash traces without matched light waveform, spectral intensity, adaptation and voltage origin"
+}

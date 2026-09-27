@@ -1,0 +1,22 @@
+{
+  "returncode": 0,
+  "stdout": "{\"actuator\":\"c_thorax-lf_coxa-yaw-motor\",\"max_q_difference\":0.097633885118314861,\"max_force\":1,\"warnings\":0,\"ticks\":10000}\n",
+  "stderr": "",
+  "executable_sha256": "877270fa451fb76151cd59dabade3fbb2500d6396b88ad7566a652ba75197828",
+  "runtime_sha256": "d2119d435ef68ceb114d01bc3658eff42ac23ebcc08adca94d9b1ff0b9eb0d0e",
+  "export_report_sha256": "29c83979ae7ae672f817ae4e2b45a03defa4617090347fa4762e9e53605d39d3",
+  "scope": "Diagnostic joint motor pulse",
+  "passed": true,
+  "trace_sha256": "6b73a9b74e1395ca7f43fe57321c4cc332af3d7c83c647702c7783d3a12adf99",
+  "trace_bytes": 55547132,
+  "trace_checks": {
+    "rows": 10000,
+    "pre_pulse_equal": true,
+    "finite": true,
+    "force_bounded": true,
+    "force_matches_pulse": true,
+    "clock_valid": true,
+    "expected_rows": true,
+    "motor_changes_pose": true
+  }
+}

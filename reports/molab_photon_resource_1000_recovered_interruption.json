@@ -1,0 +1,13 @@
+{
+  "status": "platform_loss",
+  "completed": false,
+  "last_stage": "RUNNING seconds 70.0",
+  "transport": "SSE ended without done; subsequent session discovery HTTP 410",
+  "cause": "unknown",
+  "not_proven": [
+    "1000-tick completion",
+    "throughput",
+    "cause of sandbox loss"
+  ],
+  "log_sha256": "3d9abc8dc5d1ca0122a788ff12e4daea59e9d918921e8e2baec936bd4bad68de"
+}

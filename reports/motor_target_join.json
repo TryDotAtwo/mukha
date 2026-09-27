@@ -1,0 +1,19 @@
+{
+  "source_url": "https://cdn.elifesciences.org/articles/96084/elife-96084-supp3-v1.csv",
+  "source_sha256": "c46e3cec1a5114b8d981d5f0383012c8e7fcdebd6c4e3eaffe4ac3ba1def2e94",
+  "candidate_sha256": "8108d056414b6898f25067bb555cae45dbf660ddf492ac6c67fe22f3890d7bb0",
+  "joined_table_sha256": "732c3d9d90b1c97226eee06fb84d4108425e031809476207496105a309ab69e7",
+  "conflicts_sha256": "2d05a268d09a6230557617e218589a481febc948faf53f4c4ca047de3fc4e955",
+  "leg_rows": 381,
+  "exact_id_matches": 349,
+  "unmatched_with_manc_id": 11,
+  "missing_manc_id": 21,
+  "source_label_disagreements": 120,
+  "side_metadata_disagreements": 0,
+  "limb_only_targets": 53,
+  "matched_without_confidence": 349,
+  "approved_mappings": 0,
+  "match_basis": "mancBodyid is predicted, not curated; use mancGroup for curated groups",
+  "semantics_source": "https://natverse.org/malecns/reference/mcns_predict_group.html",
+  "scope": "Exact lookup of predicted IDs only, not confirmed cross-dataset identity"
+}

@@ -1,0 +1,188 @@
+{
+  "scope": "100-ms deterministic full MaleCNS graph engineering perturbation; not a reproduced biological taste protocol",
+  "source_crosswalk_sha256": "92c26306b9a8069402898ab024c8ae281790951664b40bb413206832fe612070",
+  "graph_manifest_sha256": "b30e21078c0479ac288e7f9d3b7cb2c9eb76aa3b9707f3a2b9fa6a92bb822ef3",
+  "native_dll_sha256": "915288319a5bc9442c0d809430fc27f585ce7ed1e9021c43c53c0228b36c12f0",
+  "dt_ms": 0.1,
+  "ticks": 1000,
+  "input": "68.75-mV direct voltage jump to each selected GRN every 10 ms; no receptor transduction or dose calibration",
+  "synapse_model": "uniform LIF, 0.275 mV per contact, transmitter sign hypotheses inherited from prior diagnostic",
+  "results": [
+    {
+      "unclear_sign": 1,
+      "condition": "baseline",
+      "input_cell_count": 0,
+      "input_spikes": 0,
+      "all_graph_spikes": 0,
+      "mn9_spike_ticks": {
+        "16949": [],
+        "10331": []
+      },
+      "mn9_mean_voltage_mv": {
+        "16949": -52.0,
+        "10331": -52.0
+      },
+      "mn9_final_voltage_mv": {
+        "16949": -52.0,
+        "10331": -52.0
+      }
+    },
+    {
+      "unclear_sign": 1,
+      "condition": "sweet_LB3c",
+      "input_cell_count": 23,
+      "input_spikes": 230,
+      "all_graph_spikes": 10376,
+      "mn9_spike_ticks": {
+        "16949": [
+          455,
+          729,
+          945
+        ],
+        "10331": [
+          261,
+          348,
+          397,
+          473,
+          538,
+          613,
+          687,
+          771,
+          852,
+          907,
+          960
+        ]
+      },
+      "mn9_mean_voltage_mv": {
+        "16949": -49.88216377645038,
+        "10331": -52.25769209062542
+      },
+      "mn9_final_voltage_mv": {
+        "16949": -50.89266986680204,
+        "10331": -52.21992488510911
+      }
+    },
+    {
+      "unclear_sign": 1,
+      "condition": "bitter_LB1a_d",
+      "input_cell_count": 38,
+      "input_spikes": 380,
+      "all_graph_spikes": 6328,
+      "mn9_spike_ticks": {
+        "16949": [],
+        "10331": []
+      },
+      "mn9_mean_voltage_mv": {
+        "16949": -51.77225759212989,
+        "10331": -53.41918668756909
+      },
+      "mn9_final_voltage_mv": {
+        "16949": -51.64388840594032,
+        "10331": -53.7505711898289
+      }
+    },
+    {
+      "unclear_sign": 1,
+      "condition": "sweet_plus_bitter",
+      "input_cell_count": 61,
+      "input_spikes": 610,
+      "all_graph_spikes": 8964,
+      "mn9_spike_ticks": {
+        "16949": [],
+        "10331": []
+      },
+      "mn9_mean_voltage_mv": {
+        "16949": -55.807780352064114,
+        "10331": -103.01536159227145
+      },
+      "mn9_final_voltage_mv": {
+        "16949": -57.34527781135004,
+        "10331": -98.5020445741767
+      }
+    },
+    {
+      "unclear_sign": -1,
+      "condition": "baseline",
+      "input_cell_count": 0,
+      "input_spikes": 0,
+      "all_graph_spikes": 0,
+      "mn9_spike_ticks": {
+        "16949": [],
+        "10331": []
+      },
+      "mn9_mean_voltage_mv": {
+        "16949": -52.0,
+        "10331": -52.0
+      },
+      "mn9_final_voltage_mv": {
+        "16949": -52.0,
+        "10331": -52.0
+      }
+    },
+    {
+      "unclear_sign": -1,
+      "condition": "sweet_LB3c",
+      "input_cell_count": 23,
+      "input_spikes": 230,
+      "all_graph_spikes": 2104,
+      "mn9_spike_ticks": {
+        "16949": [],
+        "10331": [
+          238,
+          284,
+          368,
+          417,
+          478,
+          543
+        ]
+      },
+      "mn9_mean_voltage_mv": {
+        "16949": -51.02660034039508,
+        "10331": -58.77496150532289
+      },
+      "mn9_final_voltage_mv": {
+        "16949": -52.495801258191044,
+        "10331": -71.76754619788466
+      }
+    },
+    {
+      "unclear_sign": -1,
+      "condition": "bitter_LB1a_d",
+      "input_cell_count": 38,
+      "input_spikes": 380,
+      "all_graph_spikes": 3158,
+      "mn9_spike_ticks": {
+        "16949": [],
+        "10331": []
+      },
+      "mn9_mean_voltage_mv": {
+        "16949": -52.004740809763774,
+        "10331": -52.5087502152477
+      },
+      "mn9_final_voltage_mv": {
+        "16949": -51.97282892081118,
+        "10331": -52.6373689970835
+      }
+    },
+    {
+      "unclear_sign": -1,
+      "condition": "sweet_plus_bitter",
+      "input_cell_count": 61,
+      "input_spikes": 610,
+      "all_graph_spikes": 3404,
+      "mn9_spike_ticks": {
+        "16949": [],
+        "10331": []
+      },
+      "mn9_mean_voltage_mv": {
+        "16949": -53.2064820417262,
+        "10331": -60.87303782801107
+      },
+      "mn9_final_voltage_mv": {
+        "16949": -53.760631329689396,
+        "10331": -66.74044906625888
+      }
+    }
+  ],
+  "biological_response_reproduced": false
+}

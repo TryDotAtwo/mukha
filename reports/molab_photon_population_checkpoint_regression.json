@@ -1,0 +1,68 @@
+{
+  "scope": "Fresh process restore, same binary and device; trusted raw RNG ABI, not cross-platform portability",
+  "passed": true,
+  "build_identity": "2035bba9237892165092fdb9df7c196fc0be60816ebcdacdb5171965b341b376",
+  "binary_sha256": "c6dfa15f81571651a458cd41de44562702837c3a41a4816b9a9b718c370e2562",
+  "cases": [
+    {
+      "onset_tick": 250,
+      "checkpoint_tick": 500,
+      "final_tick": 1000,
+      "full_state_bytes_equal": true,
+      "csv_equal": true,
+      "snapshot_bytes": 3720320,
+      "snapshot_sha256": "c57f72b1cb49448288d417d53fb6647bf1967c00a7ffd8c09495d5af1031337f",
+      "final_sha256": "d3a73780872cdb7a0daf744faaec1adfadefe83020957eaa177abe9cba9450cd",
+      "rejected": [
+        "truncated",
+        "trailing",
+        "payload",
+        "identity",
+        "configuration"
+      ]
+    },
+    {
+      "onset_tick": 750,
+      "checkpoint_tick": 500,
+      "final_tick": 1000,
+      "full_state_bytes_equal": true,
+      "csv_equal": true,
+      "snapshot_bytes": 3720320,
+      "snapshot_sha256": "c96ce078a5e397205aefd99464f1a9b162cfc50ee6f781a0e98a9980aae0f596",
+      "final_sha256": "14e1f6b588b6b39cd4aead33b9a9f281ea9e04d51d4799d47c484af83de07be2",
+      "rejected": [
+        "truncated",
+        "trailing",
+        "payload",
+        "identity",
+        "configuration"
+      ]
+    }
+  ],
+  "command": [
+    "/tmp/fly-cuda-13.1.1/bin/nvcc",
+    "-L/tmp/fly-cuda-13.1.1/lib",
+    "-std=c++17",
+    "-O2",
+    "-arch=sm_120",
+    "--fmad=false",
+    "-DFF_SAFE_TRANSDUCTION=1",
+    "-DFF_ENTITY_RNG=1",
+    "-DFF_FILE_CHECKPOINT=1",
+    "-DFF_TRANSDUCTION_BLOCKS=16",
+    "-DFF_CHECKPOINT_BUILD_ID=\"2035bba9237892165092fdb9df7c196fc0be60816ebcdacdb5171965b341b376\"",
+    "/tmp/fly-photon-file/native/phototransduction_probe.cu",
+    "-o",
+    "/tmp/fly-photon-file/probe"
+  ],
+  "source_hashes": {
+    "native/phototransduction_probe.cu": "40248c65b3fe8c78a0c7cd50a27da4d6fcaf40b32d2d583cb325730521ebd423",
+    "native/photon_checkpoint.hpp": "d69640449becbf6012dc98ecc108f1e1d7f70b37640d15e93a2b87e6f432f0f4",
+    "native/phototransduction_safe.cuh": "99078b4fba2eb28e7f53d2017e598e9acb2b38f79391ce49ef7cfbf9dc8c7c04",
+    "native/photocurrent_safe.cuh": "27237e700ad2cd11ba00d9726c0a9caec572c0cd2ea06a5c2168e4344f107b74",
+    "build/photoreceptor_author_hh.cu": "5c07136b2207b7ead3163370e276a3a4925bd75f613f751c0e4a7330e3dab72e",
+    "build/photoreceptor_author_adaptation.cu": "0d45ebf462bd2f03ba55c86443ecf7a8e47278148db61809e671fc2cc131fffd",
+    "native/atomic_checkpoint.hpp": "0545f9c7c4a6565564373e52e0303c2afd7539c2d61ce513001fe2ead4a3df6b",
+    "native/atomic_checkpoint_test.cpp": "6da3509f6912def93007b54b93fc7f2c765f7de436f716a95f86f9f670a5723b"
+  }
+}

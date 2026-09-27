@@ -1,0 +1,1156 @@
+{
+  "scope": "Descriptive author GCaMP cluster contrast within FlyMimic's chosen 20-degree movement window",
+  "source_manifest_sha256": "5b6abc974348898d9425ee9e2aa423472e76ecebeb4c167aca87b39c40913bd6",
+  "body_report_sha256": "b2c85073e8a5f082722c9163f3c970fbdc94cb87acfef813ee0f57b63702254e",
+  "angle_window_deg": [
+    123.83194081068851,
+    133.8319408106885,
+    143.8319408106885
+  ],
+  "source_files": {
+    "R73D10_GCaMP6f_XBranch.npz": "bda2a49799e9e641a825316d234431394fa847be15cec829e256ecd5f6c3ca76",
+    "R73D10_GCaMP6f_YBranch.npz": "708641451e992986b6385120be1b5f461c2e40e650547a7cab5b4200777320a8",
+    "R73D10_GCaMP6f_ZBranch.npz": "88120a8701679b4420868e58c956c7d600fb8155c9e605e21bf1195c4f567504"
+  },
+  "minimum_samples_per_half": 3,
+  "summaries": [
+    {
+      "region": "XBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "rows_with_both_halves_at_least_3_samples": 6,
+      "positive_contrast": 4,
+      "negative_contrast": 2,
+      "paired_flies_with_opposite_contrasts": 2
+    },
+    {
+      "region": "XBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "rows_with_both_halves_at_least_3_samples": 6,
+      "positive_contrast": 6,
+      "negative_contrast": 0,
+      "paired_flies_with_opposite_contrasts": 0
+    },
+    {
+      "region": "YBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "rows_with_both_halves_at_least_3_samples": 4,
+      "positive_contrast": 3,
+      "negative_contrast": 1,
+      "paired_flies_with_opposite_contrasts": 1
+    },
+    {
+      "region": "YBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "rows_with_both_halves_at_least_3_samples": 4,
+      "positive_contrast": 4,
+      "negative_contrast": 0,
+      "paired_flies_with_opposite_contrasts": 0
+    },
+    {
+      "region": "ZBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "rows_with_both_halves_at_least_3_samples": 6,
+      "positive_contrast": 6,
+      "negative_contrast": 0,
+      "paired_flies_with_opposite_contrasts": 0
+    },
+    {
+      "region": "ZBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "rows_with_both_halves_at_least_3_samples": 6,
+      "positive_contrast": 6,
+      "negative_contrast": 0,
+      "paired_flies_with_opposite_contrasts": 0
+    }
+  ],
+  "rows": [
+    {
+      "region": "XBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 1,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 1,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "XBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 1,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 1,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "XBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 2,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 49,
+      "high_half_samples": 1,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "XBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 2,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 49,
+      "high_half_samples": 1,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "XBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 3,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 48,
+      "high_half_samples": 1,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "XBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 3,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 48,
+      "high_half_samples": 1,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "XBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 4,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 1,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "XBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 4,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 1,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "XBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 5,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 48,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": 0.7431606255307248
+    },
+    {
+      "region": "XBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 5,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 48,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": -0.010058528806237504
+    },
+    {
+      "region": "XBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 6,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 49,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": 0.1244968518495754
+    },
+    {
+      "region": "XBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 6,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 49,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": -0.0012628129826527945
+    },
+    {
+      "region": "XBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 7,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 49,
+      "high_half_samples": 25,
+      "high_minus_low_median_dff": 0.6669109509653006
+    },
+    {
+      "region": "XBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 7,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 49,
+      "high_half_samples": 25,
+      "high_minus_low_median_dff": 0.11440149299219934
+    },
+    {
+      "region": "XBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 8,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 0,
+      "high_half_samples": 50,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "XBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 8,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 0,
+      "high_half_samples": 50,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "XBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 9,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 49,
+      "high_half_samples": 1,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "XBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 9,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 49,
+      "high_half_samples": 1,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "XBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 10,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 1,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "XBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 10,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 1,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "XBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 1,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 2,
+      "high_half_samples": 48,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "XBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 1,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 2,
+      "high_half_samples": 48,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "XBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 2,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 48,
+      "high_half_samples": 1,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "XBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 2,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 48,
+      "high_half_samples": 1,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "XBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 3,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 48,
+      "high_half_samples": 2,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "XBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 3,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 48,
+      "high_half_samples": 2,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "XBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 4,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 1,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "XBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 4,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 1,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "XBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 5,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 49,
+      "high_half_samples": 48,
+      "high_minus_low_median_dff": 1.2344569355017867
+    },
+    {
+      "region": "XBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 5,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 49,
+      "high_half_samples": 48,
+      "high_minus_low_median_dff": 0.03965809648645038
+    },
+    {
+      "region": "XBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 6,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 49,
+      "high_half_samples": 48,
+      "high_minus_low_median_dff": 0.3855953532771771
+    },
+    {
+      "region": "XBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 6,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 49,
+      "high_half_samples": 48,
+      "high_minus_low_median_dff": 0.03261026926052651
+    },
+    {
+      "region": "XBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 7,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 49,
+      "high_half_samples": 24,
+      "high_minus_low_median_dff": 0.6640299947204886
+    },
+    {
+      "region": "XBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 7,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 49,
+      "high_half_samples": 24,
+      "high_minus_low_median_dff": 0.10776053314525738
+    },
+    {
+      "region": "XBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 8,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 1,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "XBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 8,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 1,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "XBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 9,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 49,
+      "high_half_samples": 1,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "XBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 9,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 49,
+      "high_half_samples": 1,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "XBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 10,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 1,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "XBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 10,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 1,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "YBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 1,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 49,
+      "high_half_samples": 1,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "YBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 1,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 49,
+      "high_half_samples": 1,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "YBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 2,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 1,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "YBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 2,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 1,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "YBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 3,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 49,
+      "high_half_samples": 1,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "YBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 3,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 49,
+      "high_half_samples": 1,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "YBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 4,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 48,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": -0.03338528925966258
+    },
+    {
+      "region": "YBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 4,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 48,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": 0.14438883315802042
+    },
+    {
+      "region": "YBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 5,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 1,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "YBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 5,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 1,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "YBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 6,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 1,
+      "high_half_samples": 48,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "YBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 6,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 1,
+      "high_half_samples": 48,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "YBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 7,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 49,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": 0.11820347253587454
+    },
+    {
+      "region": "YBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 7,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 49,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": 0.3629236891409867
+    },
+    {
+      "region": "YBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 8,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 1,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "YBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 8,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 1,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "YBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 9,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 1,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "YBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 9,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 1,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "YBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 10,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 0,
+      "high_half_samples": 50,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "YBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 10,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 0,
+      "high_half_samples": 50,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "YBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 1,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 48,
+      "high_half_samples": 2,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "YBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 1,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 48,
+      "high_half_samples": 2,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "YBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 2,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 1,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "YBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 2,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 1,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "YBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 3,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 49,
+      "high_half_samples": 1,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "YBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 3,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 49,
+      "high_half_samples": 1,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "YBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 4,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 49,
+      "high_half_samples": 48,
+      "high_minus_low_median_dff": 0.3807864686026862
+    },
+    {
+      "region": "YBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 4,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 49,
+      "high_half_samples": 48,
+      "high_minus_low_median_dff": 0.021720454326987715
+    },
+    {
+      "region": "YBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 5,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 1,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "YBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 5,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 1,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "YBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 6,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 2,
+      "high_half_samples": 48,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "YBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 6,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 2,
+      "high_half_samples": 48,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "YBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 7,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 49,
+      "high_half_samples": 48,
+      "high_minus_low_median_dff": 0.7540857578382988
+    },
+    {
+      "region": "YBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 7,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 49,
+      "high_half_samples": 48,
+      "high_minus_low_median_dff": 0.0014620342189108904
+    },
+    {
+      "region": "YBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 8,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 1,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "YBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 8,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 1,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "YBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 9,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 2,
+      "high_half_samples": 48,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "YBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 9,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 2,
+      "high_half_samples": 48,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "YBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 10,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 1,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "YBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 10,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 1,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "ZBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 1,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 2,
+      "high_half_samples": 48,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "ZBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 1,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 2,
+      "high_half_samples": 48,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "ZBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 2,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 48,
+      "high_half_samples": 1,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "ZBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 2,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 48,
+      "high_half_samples": 1,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "ZBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 3,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 49,
+      "high_half_samples": 1,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "ZBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 3,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 49,
+      "high_half_samples": 1,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "ZBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 4,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 1,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "ZBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 4,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 1,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "ZBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 5,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 0,
+      "high_half_samples": 50,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "ZBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 5,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 0,
+      "high_half_samples": 50,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "ZBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 6,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 48,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": 0.13701627075223596
+    },
+    {
+      "region": "ZBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 6,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 48,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": 0.586829955625503
+    },
+    {
+      "region": "ZBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 7,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 0,
+      "high_half_samples": 50,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "ZBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 7,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 0,
+      "high_half_samples": 50,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "ZBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 8,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 49,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": 0.027426866358752272
+    },
+    {
+      "region": "ZBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 8,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 49,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": 0.04907470415346471
+    },
+    {
+      "region": "ZBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 9,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 49,
+      "high_half_samples": 25,
+      "high_minus_low_median_dff": 0.37527980562149565
+    },
+    {
+      "region": "ZBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 9,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 49,
+      "high_half_samples": 25,
+      "high_minus_low_median_dff": 2.6542098703704395
+    },
+    {
+      "region": "ZBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 10,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 49,
+      "high_half_samples": 1,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "ZBranch",
+      "protocol": "RampAndHold_FlexFirst",
+      "fly_id_within_file": 10,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 49,
+      "high_half_samples": 1,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "ZBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 1,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 1,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "ZBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 1,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 1,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "ZBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 2,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 49,
+      "high_half_samples": 1,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "ZBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 2,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 49,
+      "high_half_samples": 1,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "ZBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 3,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 49,
+      "high_half_samples": 1,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "ZBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 3,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 49,
+      "high_half_samples": 1,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "ZBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 4,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 1,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "ZBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 4,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 1,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "ZBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 5,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 1,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "ZBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 5,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 1,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "ZBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 6,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 49,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": 1.4524964677012386
+    },
+    {
+      "region": "ZBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 6,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 49,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": 0.3104562064015728
+    },
+    {
+      "region": "ZBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 7,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 1,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "ZBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 7,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 1,
+      "high_half_samples": 49,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "ZBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 8,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 49,
+      "high_half_samples": 48,
+      "high_minus_low_median_dff": 1.2158174004653808
+    },
+    {
+      "region": "ZBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 8,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 49,
+      "high_half_samples": 48,
+      "high_minus_low_median_dff": 0.03203421453511865
+    },
+    {
+      "region": "ZBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 9,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 48,
+      "high_half_samples": 25,
+      "high_minus_low_median_dff": 1.9253733751570272
+    },
+    {
+      "region": "ZBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 9,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 48,
+      "high_half_samples": 25,
+      "high_minus_low_median_dff": 0.2886448685798366
+    },
+    {
+      "region": "ZBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 10,
+      "cluster_id_within_trial": 1,
+      "low_half_samples": 49,
+      "high_half_samples": 1,
+      "high_minus_low_median_dff": null
+    },
+    {
+      "region": "ZBranch",
+      "protocol": "RampAndHold_ExtFirst",
+      "fly_id_within_file": 10,
+      "cluster_id_within_trial": 2,
+      "low_half_samples": 49,
+      "high_half_samples": 1,
+      "high_minus_low_median_dff": null
+    }
+  ],
+  "limitations": [
+    "Calcium fluorescence is not voltage or spikes",
+    "Angle covaries with time and movement direction in ramp-and-hold recordings",
+    "Clusters are not identified MaleCNS neurons",
+    "FlyMimic body-origin angle is not registered to source video angle",
+    "The selected body center is not an experimental setpoint"
+  ],
+  "sensor_transfer_calibrated": false
+}

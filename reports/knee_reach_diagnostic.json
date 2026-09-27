@@ -1,0 +1,22 @@
+{
+  "scope": "Static one-joint reach with other joints at neutral; not dynamic or biological validation",
+  "initial_surface_gap_mm": 0.01,
+  "contact_threshold_bracket_rad": [
+    -0.027,
+    -0.026
+  ],
+  "observed_neural_knee_delta_range_rad": [
+    -0.0035954334145062994,
+    0.0
+  ],
+  "static_contact_within_sampled_joint_range": true,
+  "geometry_changed": false,
+  "gains_changed": false,
+  "limitation": "Passive joint deflection and dynamics are absent from static sweep. Neural diagnostic lasts only 100 ms.",
+  "hashes": {
+    "data\\derived\\contact_diagnostic\\body.xml": "f76a572b0699f6ea38e220f1a08b48803b519175a44457b55839e241d2362438",
+    "build\\knee_reach.csv": "7107e95c4326a561ea8fc8d397a89a36571be4eb0eafecccab2aeeb3df16269a",
+    "build\\brain_contact_body.csv": "a3e24986b5ed94403a07642efcc9e0adc9277d490a7cdcacb4a5e459350f71da",
+    "native\\knee_reach_probe.cpp": "1e0fbef891bca1346ee5d4b96a6f0191589b044cf288258d5d58473dd83a4c45"
+  }
+}

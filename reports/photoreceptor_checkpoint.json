@@ -1,0 +1,25 @@
+{
+  "scope": "Same-instance trusted in-memory snapshot at tick 500; replay to tick 1000",
+  "passed": true,
+  "native_result": "Checkpoint continuation exact: 3720160 bytes; checkpoint tick 500; final tick 1000",
+  "compared": [
+    "packed molecular states",
+    "voltage and all membrane gates",
+    "adaptation",
+    "photon input",
+    "XORWOW states",
+    "feedback current",
+    "every recorded voltage/adaptation value after restore"
+  ],
+  "not_covered": [
+    "portable checkpoint file",
+    "new process/device restoration",
+    "untrusted state validation",
+    "other seeds/intensities"
+  ],
+  "hashes": {
+    "build\\phototransduction_checkpoint_probe.exe": "fd34d88709bd9823f114629a52ace8c753c8c45aacf13ad61e33803e50d52fee",
+    "build\\phototransduction_checkpoint.csv": "99eb33ca96e6679a90e7ec110843f7a4d7414abe9e0e8070d8bbac3035e8e6f4",
+    "native\\phototransduction_probe.cu": "d24c70415d7a09109a1b012d28d826e020d48e621b364046b3eb7534e90eadba"
+  }
+}

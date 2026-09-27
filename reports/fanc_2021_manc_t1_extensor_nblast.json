@@ -1,0 +1,97 @@
+{
+  "scope": "Published manual FANC 2021 skeletons vs VFB MANC T1-left skeletons; candidate identity only",
+  "fanc_manifest_sha256": "2b3a3e462c5e8b725634eaa5ec51404406072473b5c9751a80c6852efda3b2b1",
+  "manc_manifest_sha256": "92e504cd01333527f0bd3910c66627cc6fb777c310e53e0c0fce09d67cd1d015",
+  "transform_manifest_sha256": "b9c44b34d79c5ee217e0c4a5e082ac62d5364ec349e82226029e9c3e065e0a18",
+  "transform_route": [
+    "JRCVNC2018F",
+    "JRCVNC2018U"
+  ],
+  "fanc_source_unit_conversion": "nanometres / 1000 to JRCVNC2018F micrometres",
+  "registered_fanc_files": [
+    {
+      "fanc_neuron_id": 581,
+      "nodes": 1689,
+      "path": "data/derived/fanc_2021_ti_extensor_vnc_unisex/581.npy",
+      "sha256": "06200b0dbdcf5eb1f99c032fb8b5487c9ac3dd4ccb3e2343a7497ee4dcfde816",
+      "bbox_min_um": [
+        165.44810619415222,
+        58.85464147227884,
+        41.76741518897482
+      ],
+      "bbox_max_um": [
+        217.1973441780848,
+        126.12118994450418,
+        117.22467282821023
+      ]
+    },
+    {
+      "fanc_neuron_id": 9001,
+      "nodes": 1655,
+      "path": "data/derived/fanc_2021_ti_extensor_vnc_unisex/9001.npy",
+      "sha256": "f9123a8f587ee6e92375dfe36cd96642d878fb2841f7c9d5d3f467d8965a0fe9",
+      "bbox_min_um": [
+        140.59640345362675,
+        45.23236024142516,
+        41.14046862132883
+      ],
+      "bbox_max_um": [
+        215.5713140695087,
+        131.35129675526363,
+        121.76863255038329
+      ]
+    }
+  ],
+  "method": {
+    "navis_version": "1.12.0",
+    "dotprops_k": [
+      10,
+      20,
+      40
+    ],
+    "scores": "mean",
+    "normalized": true,
+    "smat": "auto"
+  },
+  "matrices": {
+    "10": {
+      "581": {
+        "11657": 0.5065895898161645,
+        "12704": 0.513943749535935
+      },
+      "9001": {
+        "11657": 0.4366250574479804,
+        "12704": 0.5535420733336929
+      }
+    },
+    "20": {
+      "581": {
+        "11657": 0.5118446311249307,
+        "12704": 0.5157696856449512
+      },
+      "9001": {
+        "11657": 0.43328819564727333,
+        "12704": 0.5562574129728526
+      }
+    },
+    "40": {
+      "581": {
+        "11657": 0.5100010553400649,
+        "12704": 0.5218354974498852
+      },
+      "9001": {
+        "11657": 0.43520200645849505,
+        "12704": 0.5605871531929425
+      }
+    }
+  },
+  "limitations": [
+    "2021 FANC SWC to 2024 segment association is morphology-derived",
+    "VFB MANC individual SWC release not confirmed as v1.0",
+    "FANC atlas-to-template and VFB template equivalence lack same-cell landmark validation",
+    "FCWB-trained auto scoring matrix is not VNC-specific"
+  ],
+  "fanc_seti_feti_assignment_verified": false,
+  "fanc_to_manc_identity_verified": false,
+  "motor_mapping_enabled": false
+}

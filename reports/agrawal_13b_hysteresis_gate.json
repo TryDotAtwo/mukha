@@ -1,0 +1,69 @@
+{
+  "figure_csv_sha256": "85085f66bf80bfaf2737f73e62809834447c6cad29fc34423ca3c58c8ff2d80a",
+  "source_encoder_sha256": "fe6cef4ef756286a20cf46e5ff6cbe306046eb6962e6560cf95d9c250bdade80",
+  "encoder_spec_sha256": "15e4d570dd0a5b79d8a009409e850179dab22b05f7a9559ddd2314628e144706",
+  "protocol": "13Balpha Figure 2G; steady state measured in middle second of each 3-s angle hold",
+  "comparisons": [
+    {
+      "angle_deg_approx": 90.0,
+      "reference_extension_normalized": 0.2929622372332107,
+      "reference_flexion_normalized": 0.16159778218776627,
+      "reference_approach_gap_normalized": 0.13136445504544442,
+      "gap_range_shared_axis_perturbations": [
+        0.12241586998655124,
+        0.14213791512735524
+      ],
+      "gap_range_independent_axis_perturbations": [
+        0.07162425457004179,
+        0.1923822027416222
+      ],
+      "instantaneous_angle_formula_gap_at_equal_angle_mv": 0.0
+    },
+    {
+      "angle_deg_approx": 120.0,
+      "reference_extension_normalized": 0.5749683975955366,
+      "reference_flexion_normalized": 0.41817112816553503,
+      "reference_approach_gap_normalized": 0.1567972694300016,
+      "gap_range_shared_axis_perturbations": [
+        0.15181034787703396,
+        0.16203008666513452
+      ],
+      "gap_range_independent_axis_perturbations": [
+        0.07575377542921935,
+        0.23780304009015257
+      ],
+      "instantaneous_angle_formula_gap_at_equal_angle_mv": 0.0
+    },
+    {
+      "angle_deg_approx": 150.0,
+      "reference_extension_normalized": 0.8514092956914102,
+      "reference_flexion_normalized": 0.645399502990122,
+      "reference_approach_gap_normalized": 0.20600979270128816,
+      "gap_range_shared_axis_perturbations": [
+        0.20039434227586594,
+        0.21194582069619183
+      ],
+      "gap_range_independent_axis_perturbations": [
+        0.14113882456001192,
+        0.2708807608425643
+      ],
+      "instantaneous_angle_formula_gap_at_equal_angle_mv": 0.0
+    }
+  ],
+  "digitization_sensitivity": "All \u00b11.5-PDF-point endpoint perturbations; shared and independent axis cases. These ranges are neither confidence intervals nor animal variability.",
+  "isolated_lif_decay_after_1s": {
+    "membrane": 1.9287498479639178e-22,
+    "synapse": 1.3838965267367376e-87
+  },
+  "result": "The inspected instantaneous f(angle) has no explicit approach-history state; the published 13Balpha figure means differ by approach.",
+  "runtime_opposite_history_experiment_performed": false,
+  "limitations": [
+    "The full recurrent graph was not run on this protocol and could retain internal state.",
+    "Different angle histories produce different time-series inputs even when their final instantaneous values agree.",
+    "Figure curves are normalized group means, not individual voltage or raw recordings.",
+    "Digitization sensitivity does not measure between-animal uncertainty.",
+    "The old encoder offset, sign and gain are not calibrated to the Agrawal preparation.",
+    "An isolated LIF relaxation bound is not a bound on the complete recurrent CNS."
+  ],
+  "biological_reaction_reproduced": false
+}

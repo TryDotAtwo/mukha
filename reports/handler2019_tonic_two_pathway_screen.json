@@ -1,0 +1,153 @@
+{
+  "source_workbook_sha256": "4db9b76cd0c41dc014c8d00a9e359bbd4165a7984095cc35d1932f9ee7f501dc",
+  "secondary_analysis_hashes": {
+    "handler2019_fig2_timing_data.json": "23bca013aba4309ae4be6f9d35aa37c4ad1a5a69aa08902f83bfe13045ddba29",
+    "handler2019_causal_messenger_kernel.json": "c03b342b829035ba08b4d506615deee9d61ac77fa33633b6da73d71926fda030"
+  },
+  "hypothesis": "delta response = tonic DopR2-like DAN term + delayed DopR2-like KC-after-DAN term - DopR1-like KC/DAN coincidence term",
+  "model_class_assumptions": [
+    "DAN-only potentiation is assigned provisionally to the positive tonic branch; Cohn 2015 did not establish receptor identity for this term.",
+    "Deleting a receptor deletes its entire associated branch without compensation.",
+    "MBON calcium-response change is a monotone proxy for synaptic efficacy change; this transfer is unverified."
+  ],
+  "time_constants_from_prior_second_messenger_screen_s": {
+    "potentiation_er_like": 1.113374555125039,
+    "depression_camp_like": 1.0270212874816518
+  },
+  "isi_s": [
+    -6.0,
+    -1.2,
+    -0.6,
+    0.0,
+    0.5,
+    6.0
+  ],
+  "observed_mean_delta": [
+    0.1917955044935181,
+    1.5752188181611928,
+    0.24430369398102672,
+    -1.0891966639105113,
+    -0.7926525536726119,
+    -0.08924606028426982
+  ],
+  "observed_sem": [
+    0.10523483086345112,
+    0.1077014319639884,
+    0.17861338958308626,
+    0.14973134265955665,
+    0.08046064593336404,
+    0.08846968815470918
+  ],
+  "unweighted_nonnegative_coefficients": [
+    0.024626051328930847,
+    1.5846822160809089,
+    1.264856310968019
+  ],
+  "unweighted_predictions": [
+    0.12695909070970443,
+    1.2115661367334296,
+    0.6736801957451151,
+    -1.2402302596390882,
+    -0.7527070657055164,
+    0.020954640924701257
+  ],
+  "unweighted_rmse": 0.2440499256039277,
+  "sem_weighted_nonnegative_coefficients": [
+    0.0,
+    1.7931480571695249,
+    1.256455226740793
+  ],
+  "sem_weighted_predictions": [
+    0.11630236989970173,
+    1.3974182649424163,
+    0.8318927391214148,
+    -1.256455226740793,
+    -0.7721701266360985,
+    -0.0036470251615967415
+  ],
+  "leave_one_isi_out_retrospective": [
+    {
+      "held_out_isi_s": -6.0,
+      "prediction": 0.10311682211303508,
+      "observed": 0.1917955044935181,
+      "tonic_dan_only_coefficient": 0.0
+    },
+    {
+      "held_out_isi_s": -1.2,
+      "prediction": 0.6865248282210366,
+      "observed": 1.5752188181611928,
+      "tonic_dan_only_coefficient": 0.0005923288393866626
+    },
+    {
+      "held_out_isi_s": -0.6,
+      "prediction": 1.020415076788868,
+      "observed": 0.24430369398102672,
+      "tonic_dan_only_coefficient": 0.0
+    },
+    {
+      "held_out_isi_s": 0.0,
+      "prediction": -1.6085092273063342,
+      "observed": -1.0891966639105113,
+      "tonic_dan_only_coefficient": 0.058233610879647874
+    },
+    {
+      "held_out_isi_s": 0.5,
+      "prediction": -0.7347647853839627,
+      "observed": -0.7926525536726119,
+      "tonic_dan_only_coefficient": 0.033252212482233305
+    },
+    {
+      "held_out_isi_s": 6.0,
+      "prediction": 0.12539903629757,
+      "observed": -0.08924606028426982,
+      "tonic_dan_only_coefficient": 0.129413526526375
+    }
+  ],
+  "leave_one_isi_out_mae": 0.42422158056579873,
+  "unweighted_residual_in_sem": [
+    -0.6161117308008318,
+    -3.376488824673714,
+    2.403943527225621,
+    -1.0086972643528693,
+    0.49645994639637375,
+    1.2456323008199184
+  ],
+  "fixed_tau_key_mismatches_over_2_sem": [
+    -1.2,
+    -0.6
+  ],
+  "tonic_term_robust_to_sem_weighting_and_loo": false,
+  "retrospective_free_tau_grid": {
+    "range_s": [
+      0.3,
+      3.0
+    ],
+    "points_per_axis": 20,
+    "best": {
+      "tau_p_s": 1.4498790715715255,
+      "tau_d_s": 1.284399719615818,
+      "rmse": 0.19431694486873136,
+      "tonic_coefficient": 0.0
+    },
+    "interpretation": "A descriptive 400-combination search on the same six WT means; not an independently selected model or source-derived time constants."
+  },
+  "qualitative_intervention_predictions": {
+    "dop_r1_null_forward_0p5s": 0.024626051328930847,
+    "dop_r2_null_backward_1p2s": -0.393187353269353,
+    "dan_only_induction": 0.024626051328930847
+  },
+  "qualitative_sign_status": "Structural sign consistency only: nonnegative fitted branches and receptor deletion force these signs whenever the tonic coefficient is positive; no independent knockout or DAN-only amplitudes were fitted or predicted robustly.",
+  "primary_source_signs": {
+    "dop_r1_null_forward_0p5s": "positive (weak)",
+    "dop_r2_null_backward_1p2s": "negative",
+    "dan_only_induction": "positive in Cohn 2015 gamma4 protocol"
+  },
+  "biological_validation": false,
+  "plasticity_enabled": false,
+  "limitations": [
+    "The six wild-type intervals were already inspected; leave-one-ISI-out is retrospective diagnosis, not held-out validation.",
+    "The second-messenger time constants themselves have unstable ER leave-one-ISI-out behavior.",
+    "No Figure 6 receptor-null preparation-level values or Cohn quantitative records enter the fit.",
+    "Even matching all signs would not establish a molecular local rule or MaleCNS contact-level transfer."
+  ]
+}

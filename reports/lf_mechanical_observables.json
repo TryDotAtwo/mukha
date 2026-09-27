@@ -1,0 +1,88 @@
+{
+  "scope": "Exact-control physical replay of 500-ms four-cell diagnostic; synchronized mechanical observables after each 0.1-ms MuJoCo step",
+  "source_report_sha256": "f481da62a34fddd713d3ca83fde6196f49092620cfaa7f9c36c7d05331777bd6",
+  "source_trace_sha256": "6f23d7730b8453f1eda471b4219939dd809e922899623948afe19a8b516c4ce0",
+  "source_xml_sha256": "d67ff06d0c684599f00d5f33f8f8ac8ced01ab994c41341b551f8148b6d8aa0b",
+  "pad_report_sha256": "8b15845c0217156a1358c08fff2544c3ac403ba7118f22ce1d435c7df8427875",
+  "source_and_modified_model_sensor_count": [
+    0,
+    0
+  ],
+  "cases": [
+    {
+      "case": "sensory_blocked",
+      "max_knee_replay_error_rad": 0.0,
+      "final_slide_replay_error_mm": 0.0,
+      "velocity_range_rad_s": [
+        -0.2873370024688517,
+        -0.10881388442369001
+      ],
+      "joint_actuator_force_range": [
+        0.0019537795091000934,
+        0.003005857434806975
+      ],
+      "joint_constraint_force_range": [
+        0.0,
+        0.0
+      ],
+      "extensor_force_range": [
+        -0.030159517517987903,
+        -0.029805642361143574
+      ],
+      "exact_contact_force_positive_ticks": 0,
+      "exact_contact_geometry_ticks": 0,
+      "exact_contact_normal_force_max": 0.0
+    },
+    {
+      "case": "four_sensory_motor_connected",
+      "max_knee_replay_error_rad": 0.0,
+      "final_slide_replay_error_mm": 0.0,
+      "velocity_range_rad_s": [
+        -12.903407239243801,
+        1.009811451021616
+      ],
+      "joint_actuator_force_range": [
+        -1.7049658989051493,
+        0.1128623388203005
+      ],
+      "joint_constraint_force_range": [
+        -0.07862299818544777,
+        0.33273604213216507
+      ],
+      "extensor_force_range": [
+        -60.00858960473662,
+        -0.029807755134862335
+      ],
+      "exact_contact_force_positive_ticks": 199,
+      "exact_contact_geometry_ticks": 267,
+      "exact_contact_normal_force_max": 0.4448296889725364
+    },
+    {
+      "case": "four_sensory_motor_disconnected",
+      "max_knee_replay_error_rad": 0.0,
+      "final_slide_replay_error_mm": 0.0,
+      "velocity_range_rad_s": [
+        -0.2873370024688517,
+        -0.10881388442369001
+      ],
+      "joint_actuator_force_range": [
+        0.0019537795091000934,
+        0.003005857434806975
+      ],
+      "joint_constraint_force_range": [
+        0.0,
+        0.0
+      ],
+      "extensor_force_range": [
+        -0.030159517517987903,
+        -0.029805642361143574
+      ],
+      "exact_contact_force_positive_ticks": 0,
+      "exact_contact_geometry_ticks": 0,
+      "exact_contact_normal_force_max": 0.0
+    }
+  ],
+  "output_sha256": "614cb52ca0abcab0ae9a84b94c5f0513d44d7ab1a91e96a9d2ee49cf88bb7b42",
+  "interpretation": "Joint angle/velocity, generalized forces, tendon length, and pad contact force are mechanics outputs; generalized joint force is not cuticular strain, and no hair-plate deflection or receptor tuning is present.",
+  "biological_sensor_calibration": false
+}

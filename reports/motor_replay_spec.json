@@ -1,0 +1,11 @@
+{
+  "source_events_sha256": "38bb490b2a800fda91d0839f1031781e200ae6258dffa378525f10a26b21be51",
+  "mapping_sha256": "435dd9a5a1ae32ba7e0c9738f93e119bb69ef6974fb1fabc725a733bbe982832",
+  "selected_events": 14,
+  "tau_ms": 20,
+  "gain_per_spike": 0.1,
+  "actuator_limit": 1,
+  "engineering_parameters": true,
+  "biological_mapping_validated": false,
+  "feedback_to_brain": false
+}

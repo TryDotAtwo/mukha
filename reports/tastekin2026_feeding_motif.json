@@ -1,0 +1,834 @@
+{
+  "scope": "Pinned MaleCNS anatomical edge counts; cell-type aliases and GRN modalities are cross-specimen candidate mappings",
+  "graph_manifest_sha256": "b30e21078c0479ac288e7f9d3b7cb2c9eb76aa3b9707f3a2b9fa6a92bb822ef3",
+  "crosswalk_sha256": "92c26306b9a8069402898ab024c8ae281790951664b40bb413206832fe612070",
+  "reference": "https://doi.org/10.7554/eLife.79887",
+  "important_difference": "Unlike Shiu 2022 FAFB Figure 5 description, pinned MaleCNS has Scapula-to-G2N-1 candidate edges; this may reflect specimen/dataset or matching differences and does not establish functional inhibition.",
+  "routes": [
+    {
+      "source": "bitter_LB1a_d",
+      "target": "Scapula",
+      "edge_count": 105,
+      "contact_count": 2302,
+      "edges": [
+        {
+          "source_body_id": 54104,
+          "target_body_id": 11896,
+          "contacts": 4
+        },
+        {
+          "source_body_id": 81741,
+          "target_body_id": 11896,
+          "contacts": 41
+        },
+        {
+          "source_body_id": 107241,
+          "target_body_id": 11896,
+          "contacts": 87
+        },
+        {
+          "source_body_id": 115666,
+          "target_body_id": 11896,
+          "contacts": 12
+        },
+        {
+          "source_body_id": 125111,
+          "target_body_id": 11896,
+          "contacts": 20
+        },
+        {
+          "source_body_id": 139178,
+          "target_body_id": 11896,
+          "contacts": 16
+        },
+        {
+          "source_body_id": 144334,
+          "target_body_id": 11896,
+          "contacts": 10
+        },
+        {
+          "source_body_id": 154544,
+          "target_body_id": 11896,
+          "contacts": 13
+        },
+        {
+          "source_body_id": 163395,
+          "target_body_id": 11896,
+          "contacts": 6
+        },
+        {
+          "source_body_id": 173462,
+          "target_body_id": 11896,
+          "contacts": 2
+        },
+        {
+          "source_body_id": 208885,
+          "target_body_id": 11896,
+          "contacts": 16
+        },
+        {
+          "source_body_id": 256844,
+          "target_body_id": 11896,
+          "contacts": 85
+        },
+        {
+          "source_body_id": 375038,
+          "target_body_id": 11896,
+          "contacts": 1
+        },
+        {
+          "source_body_id": 511882,
+          "target_body_id": 11896,
+          "contacts": 6
+        },
+        {
+          "source_body_id": 514546,
+          "target_body_id": 11896,
+          "contacts": 26
+        },
+        {
+          "source_body_id": 514547,
+          "target_body_id": 11896,
+          "contacts": 9
+        },
+        {
+          "source_body_id": 517255,
+          "target_body_id": 11896,
+          "contacts": 17
+        },
+        {
+          "source_body_id": 518112,
+          "target_body_id": 11896,
+          "contacts": 30
+        },
+        {
+          "source_body_id": 522746,
+          "target_body_id": 11896,
+          "contacts": 54
+        },
+        {
+          "source_body_id": 522752,
+          "target_body_id": 11896,
+          "contacts": 25
+        },
+        {
+          "source_body_id": 522753,
+          "target_body_id": 11896,
+          "contacts": 24
+        },
+        {
+          "source_body_id": 522754,
+          "target_body_id": 11896,
+          "contacts": 53
+        },
+        {
+          "source_body_id": 522761,
+          "target_body_id": 11896,
+          "contacts": 77
+        },
+        {
+          "source_body_id": 522762,
+          "target_body_id": 11896,
+          "contacts": 19
+        },
+        {
+          "source_body_id": 522841,
+          "target_body_id": 11896,
+          "contacts": 90
+        },
+        {
+          "source_body_id": 533618,
+          "target_body_id": 11896,
+          "contacts": 45
+        },
+        {
+          "source_body_id": 549024,
+          "target_body_id": 11896,
+          "contacts": 5
+        },
+        {
+          "source_body_id": 556797,
+          "target_body_id": 11896,
+          "contacts": 13
+        },
+        {
+          "source_body_id": 557937,
+          "target_body_id": 11896,
+          "contacts": 2
+        },
+        {
+          "source_body_id": 912379,
+          "target_body_id": 11896,
+          "contacts": 25
+        },
+        {
+          "source_body_id": 140334446,
+          "target_body_id": 11896,
+          "contacts": 5
+        },
+        {
+          "source_body_id": 304136793,
+          "target_body_id": 11896,
+          "contacts": 59
+        },
+        {
+          "source_body_id": 324178811,
+          "target_body_id": 11896,
+          "contacts": 21
+        },
+        {
+          "source_body_id": 602736959,
+          "target_body_id": 11896,
+          "contacts": 2
+        },
+        {
+          "source_body_id": 772366874,
+          "target_body_id": 11896,
+          "contacts": 3
+        },
+        {
+          "source_body_id": 911389008,
+          "target_body_id": 11896,
+          "contacts": 13
+        },
+        {
+          "source_body_id": 54104,
+          "target_body_id": 12811,
+          "contacts": 3
+        },
+        {
+          "source_body_id": 81741,
+          "target_body_id": 12811,
+          "contacts": 54
+        },
+        {
+          "source_body_id": 107241,
+          "target_body_id": 12811,
+          "contacts": 25
+        },
+        {
+          "source_body_id": 125111,
+          "target_body_id": 12811,
+          "contacts": 56
+        },
+        {
+          "source_body_id": 139178,
+          "target_body_id": 12811,
+          "contacts": 2
+        },
+        {
+          "source_body_id": 144334,
+          "target_body_id": 12811,
+          "contacts": 13
+        },
+        {
+          "source_body_id": 154544,
+          "target_body_id": 12811,
+          "contacts": 3
+        },
+        {
+          "source_body_id": 163395,
+          "target_body_id": 12811,
+          "contacts": 1
+        },
+        {
+          "source_body_id": 168492,
+          "target_body_id": 12811,
+          "contacts": 1
+        },
+        {
+          "source_body_id": 208885,
+          "target_body_id": 12811,
+          "contacts": 4
+        },
+        {
+          "source_body_id": 256844,
+          "target_body_id": 12811,
+          "contacts": 17
+        },
+        {
+          "source_body_id": 511882,
+          "target_body_id": 12811,
+          "contacts": 31
+        },
+        {
+          "source_body_id": 514546,
+          "target_body_id": 12811,
+          "contacts": 11
+        },
+        {
+          "source_body_id": 514547,
+          "target_body_id": 12811,
+          "contacts": 20
+        },
+        {
+          "source_body_id": 517255,
+          "target_body_id": 12811,
+          "contacts": 21
+        },
+        {
+          "source_body_id": 518112,
+          "target_body_id": 12811,
+          "contacts": 60
+        },
+        {
+          "source_body_id": 522746,
+          "target_body_id": 12811,
+          "contacts": 5
+        },
+        {
+          "source_body_id": 522752,
+          "target_body_id": 12811,
+          "contacts": 20
+        },
+        {
+          "source_body_id": 522753,
+          "target_body_id": 12811,
+          "contacts": 38
+        },
+        {
+          "source_body_id": 522754,
+          "target_body_id": 12811,
+          "contacts": 43
+        },
+        {
+          "source_body_id": 522761,
+          "target_body_id": 12811,
+          "contacts": 30
+        },
+        {
+          "source_body_id": 522762,
+          "target_body_id": 12811,
+          "contacts": 25
+        },
+        {
+          "source_body_id": 522841,
+          "target_body_id": 12811,
+          "contacts": 22
+        },
+        {
+          "source_body_id": 533618,
+          "target_body_id": 12811,
+          "contacts": 33
+        },
+        {
+          "source_body_id": 549024,
+          "target_body_id": 12811,
+          "contacts": 5
+        },
+        {
+          "source_body_id": 556797,
+          "target_body_id": 12811,
+          "contacts": 4
+        },
+        {
+          "source_body_id": 557937,
+          "target_body_id": 12811,
+          "contacts": 2
+        },
+        {
+          "source_body_id": 912379,
+          "target_body_id": 12811,
+          "contacts": 24
+        },
+        {
+          "source_body_id": 140334446,
+          "target_body_id": 12811,
+          "contacts": 1
+        },
+        {
+          "source_body_id": 304136793,
+          "target_body_id": 12811,
+          "contacts": 4
+        },
+        {
+          "source_body_id": 324178811,
+          "target_body_id": 12811,
+          "contacts": 22
+        },
+        {
+          "source_body_id": 772366874,
+          "target_body_id": 12811,
+          "contacts": 32
+        },
+        {
+          "source_body_id": 911389008,
+          "target_body_id": 12811,
+          "contacts": 3
+        },
+        {
+          "source_body_id": 54104,
+          "target_body_id": 12900,
+          "contacts": 4
+        },
+        {
+          "source_body_id": 81741,
+          "target_body_id": 12900,
+          "contacts": 22
+        },
+        {
+          "source_body_id": 107241,
+          "target_body_id": 12900,
+          "contacts": 58
+        },
+        {
+          "source_body_id": 115666,
+          "target_body_id": 12900,
+          "contacts": 6
+        },
+        {
+          "source_body_id": 125111,
+          "target_body_id": 12900,
+          "contacts": 16
+        },
+        {
+          "source_body_id": 139178,
+          "target_body_id": 12900,
+          "contacts": 14
+        },
+        {
+          "source_body_id": 144334,
+          "target_body_id": 12900,
+          "contacts": 4
+        },
+        {
+          "source_body_id": 154544,
+          "target_body_id": 12900,
+          "contacts": 3
+        },
+        {
+          "source_body_id": 163395,
+          "target_body_id": 12900,
+          "contacts": 6
+        },
+        {
+          "source_body_id": 168492,
+          "target_body_id": 12900,
+          "contacts": 1
+        },
+        {
+          "source_body_id": 208885,
+          "target_body_id": 12900,
+          "contacts": 4
+        },
+        {
+          "source_body_id": 256844,
+          "target_body_id": 12900,
+          "contacts": 75
+        },
+        {
+          "source_body_id": 375038,
+          "target_body_id": 12900,
+          "contacts": 1
+        },
+        {
+          "source_body_id": 511882,
+          "target_body_id": 12900,
+          "contacts": 14
+        },
+        {
+          "source_body_id": 514546,
+          "target_body_id": 12900,
+          "contacts": 26
+        },
+        {
+          "source_body_id": 514547,
+          "target_body_id": 12900,
+          "contacts": 8
+        },
+        {
+          "source_body_id": 517255,
+          "target_body_id": 12900,
+          "contacts": 17
+        },
+        {
+          "source_body_id": 518112,
+          "target_body_id": 12900,
+          "contacts": 38
+        },
+        {
+          "source_body_id": 522746,
+          "target_body_id": 12900,
+          "contacts": 50
+        },
+        {
+          "source_body_id": 522752,
+          "target_body_id": 12900,
+          "contacts": 24
+        },
+        {
+          "source_body_id": 522753,
+          "target_body_id": 12900,
+          "contacts": 18
+        },
+        {
+          "source_body_id": 522754,
+          "target_body_id": 12900,
+          "contacts": 35
+        },
+        {
+          "source_body_id": 522761,
+          "target_body_id": 12900,
+          "contacts": 41
+        },
+        {
+          "source_body_id": 522762,
+          "target_body_id": 12900,
+          "contacts": 26
+        },
+        {
+          "source_body_id": 522841,
+          "target_body_id": 12900,
+          "contacts": 73
+        },
+        {
+          "source_body_id": 533618,
+          "target_body_id": 12900,
+          "contacts": 29
+        },
+        {
+          "source_body_id": 549024,
+          "target_body_id": 12900,
+          "contacts": 5
+        },
+        {
+          "source_body_id": 556797,
+          "target_body_id": 12900,
+          "contacts": 8
+        },
+        {
+          "source_body_id": 557937,
+          "target_body_id": 12900,
+          "contacts": 2
+        },
+        {
+          "source_body_id": 912379,
+          "target_body_id": 12900,
+          "contacts": 12
+        },
+        {
+          "source_body_id": 140334446,
+          "target_body_id": 12900,
+          "contacts": 3
+        },
+        {
+          "source_body_id": 304136793,
+          "target_body_id": 12900,
+          "contacts": 62
+        },
+        {
+          "source_body_id": 324178811,
+          "target_body_id": 12900,
+          "contacts": 9
+        },
+        {
+          "source_body_id": 602736959,
+          "target_body_id": 12900,
+          "contacts": 4
+        },
+        {
+          "source_body_id": 772366874,
+          "target_body_id": 12900,
+          "contacts": 3
+        },
+        {
+          "source_body_id": 911389008,
+          "target_body_id": 12900,
+          "contacts": 10
+        }
+      ]
+    },
+    {
+      "source": "sweet_LB3c",
+      "target": "G2N-1",
+      "edge_count": 35,
+      "contact_count": 519,
+      "edges": [
+        {
+          "source_body_id": 72059,
+          "target_body_id": 31018,
+          "contacts": 87
+        },
+        {
+          "source_body_id": 78240,
+          "target_body_id": 31018,
+          "contacts": 5
+        },
+        {
+          "source_body_id": 85806,
+          "target_body_id": 31018,
+          "contacts": 13
+        },
+        {
+          "source_body_id": 92440,
+          "target_body_id": 31018,
+          "contacts": 25
+        },
+        {
+          "source_body_id": 101087,
+          "target_body_id": 31018,
+          "contacts": 15
+        },
+        {
+          "source_body_id": 120303,
+          "target_body_id": 31018,
+          "contacts": 3
+        },
+        {
+          "source_body_id": 140015,
+          "target_body_id": 31018,
+          "contacts": 17
+        },
+        {
+          "source_body_id": 142827,
+          "target_body_id": 31018,
+          "contacts": 1
+        },
+        {
+          "source_body_id": 180314,
+          "target_body_id": 31018,
+          "contacts": 1
+        },
+        {
+          "source_body_id": 202888,
+          "target_body_id": 31018,
+          "contacts": 14
+        },
+        {
+          "source_body_id": 215556,
+          "target_body_id": 31018,
+          "contacts": 29
+        },
+        {
+          "source_body_id": 512551,
+          "target_body_id": 31018,
+          "contacts": 5
+        },
+        {
+          "source_body_id": 516217,
+          "target_body_id": 31018,
+          "contacts": 19
+        },
+        {
+          "source_body_id": 531237,
+          "target_body_id": 31018,
+          "contacts": 9
+        },
+        {
+          "source_body_id": 933317,
+          "target_body_id": 31018,
+          "contacts": 31
+        },
+        {
+          "source_body_id": 942168,
+          "target_body_id": 31018,
+          "contacts": 4
+        },
+        {
+          "source_body_id": 957530,
+          "target_body_id": 31018,
+          "contacts": 2
+        },
+        {
+          "source_body_id": 72059,
+          "target_body_id": 89638,
+          "contacts": 34
+        },
+        {
+          "source_body_id": 78240,
+          "target_body_id": 89638,
+          "contacts": 17
+        },
+        {
+          "source_body_id": 85806,
+          "target_body_id": 89638,
+          "contacts": 18
+        },
+        {
+          "source_body_id": 92440,
+          "target_body_id": 89638,
+          "contacts": 7
+        },
+        {
+          "source_body_id": 101087,
+          "target_body_id": 89638,
+          "contacts": 2
+        },
+        {
+          "source_body_id": 120303,
+          "target_body_id": 89638,
+          "contacts": 3
+        },
+        {
+          "source_body_id": 140015,
+          "target_body_id": 89638,
+          "contacts": 3
+        },
+        {
+          "source_body_id": 180314,
+          "target_body_id": 89638,
+          "contacts": 2
+        },
+        {
+          "source_body_id": 190769,
+          "target_body_id": 89638,
+          "contacts": 2
+        },
+        {
+          "source_body_id": 215556,
+          "target_body_id": 89638,
+          "contacts": 4
+        },
+        {
+          "source_body_id": 261450,
+          "target_body_id": 89638,
+          "contacts": 3
+        },
+        {
+          "source_body_id": 262567,
+          "target_body_id": 89638,
+          "contacts": 13
+        },
+        {
+          "source_body_id": 512551,
+          "target_body_id": 89638,
+          "contacts": 34
+        },
+        {
+          "source_body_id": 516217,
+          "target_body_id": 89638,
+          "contacts": 3
+        },
+        {
+          "source_body_id": 531237,
+          "target_body_id": 89638,
+          "contacts": 12
+        },
+        {
+          "source_body_id": 933317,
+          "target_body_id": 89638,
+          "contacts": 77
+        },
+        {
+          "source_body_id": 942168,
+          "target_body_id": 89638,
+          "contacts": 1
+        },
+        {
+          "source_body_id": 158893964,
+          "target_body_id": 89638,
+          "contacts": 4
+        }
+      ]
+    },
+    {
+      "source": "Scapula",
+      "target": "Roundup",
+      "edge_count": 3,
+      "contact_count": 251,
+      "edges": [
+        {
+          "source_body_id": 11896,
+          "target_body_id": 26764,
+          "contacts": 62
+        },
+        {
+          "source_body_id": 12900,
+          "target_body_id": 26764,
+          "contacts": 135
+        },
+        {
+          "source_body_id": 12811,
+          "target_body_id": 523040,
+          "contacts": 54
+        }
+      ]
+    },
+    {
+      "source": "Scapula",
+      "target": "Rounddown",
+      "edge_count": 3,
+      "contact_count": 395,
+      "edges": [
+        {
+          "source_body_id": 11896,
+          "target_body_id": 12364,
+          "contacts": 120
+        },
+        {
+          "source_body_id": 12900,
+          "target_body_id": 12364,
+          "contacts": 119
+        },
+        {
+          "source_body_id": 12811,
+          "target_body_id": 12752,
+          "contacts": 156
+        }
+      ]
+    },
+    {
+      "source": "G2N-1",
+      "target": "Roundup",
+      "edge_count": 4,
+      "contact_count": 114,
+      "edges": [
+        {
+          "source_body_id": 31018,
+          "target_body_id": 26764,
+          "contacts": 46
+        },
+        {
+          "source_body_id": 89638,
+          "target_body_id": 26764,
+          "contacts": 11
+        },
+        {
+          "source_body_id": 31018,
+          "target_body_id": 523040,
+          "contacts": 7
+        },
+        {
+          "source_body_id": 89638,
+          "target_body_id": 523040,
+          "contacts": 50
+        }
+      ]
+    },
+    {
+      "source": "Scapula",
+      "target": "G2N-1",
+      "edge_count": 4,
+      "contact_count": 35,
+      "edges": [
+        {
+          "source_body_id": 11896,
+          "target_body_id": 31018,
+          "contacts": 7
+        },
+        {
+          "source_body_id": 12900,
+          "target_body_id": 31018,
+          "contacts": 22
+        },
+        {
+          "source_body_id": 12811,
+          "target_body_id": 89638,
+          "contacts": 5
+        },
+        {
+          "source_body_id": 12900,
+          "target_body_id": 89638,
+          "contacts": 1
+        }
+      ]
+    },
+    {
+      "source": "bitter_LB1a_d",
+      "target": "G2N-1",
+      "edge_count": 0,
+      "contact_count": 0,
+      "edges": []
+    }
+  ]
+}

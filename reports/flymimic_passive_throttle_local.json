@@ -1,0 +1,88 @@
+{
+  "source_commit": "9ea1131626cd76f7203b74076ef8f0e9cab30bef",
+  "source_xml_sha256": "d67ff06d0c684599f00d5f33f8f8ac8ced01ab994c41341b551f8148b6d8aa0b",
+  "source_files_verified": 73,
+  "mujoco_version": "3.14.0",
+  "model_counts": {
+    "bodies": 73,
+    "joints": 14,
+    "muscle_actuators": 15,
+    "tendons": 15
+  },
+  "relax_steps": 20000,
+  "relaxed_foot_minimum_mm": [
+    -1.5170473863482448,
+    -0.4007192050339178,
+    2.4355781720853242
+  ],
+  "relaxed_foot_maximum_mm": [
+    -1.410584369036012,
+    -0.3389522123095802,
+    2.4948659238613025
+  ],
+  "pad_center_mm": [
+    -1.5370473863482448,
+    -0.369835708671749,
+    2.465222047973313
+  ],
+  "initial_surface_gap_mm": 0.01,
+  "pad_half_size_mm": [
+    0.01,
+    0.15,
+    0.15
+  ],
+  "slide_axis": [
+    -1,
+    0,
+    0
+  ],
+  "slide_actuator_present": false,
+  "pre_pulse_knee_trajectories_identical": true,
+  "only_contact_plus_muscle_moves_slide": true,
+  "mujoco_warnings": 0,
+  "cases": [
+    {
+      "contact_enabled": false,
+      "muscle_pulse": false,
+      "exact_foot_pad_contact_samples": 0,
+      "first_contact_tick": null,
+      "maximum_absolute_slide_mm": 0.0,
+      "maximum_slide_mm": 0.0,
+      "xml_path": "data/derived/flymimic_passive_throttle_v1/body_no_contact.xml",
+      "xml_sha256": "2b2fb25321377a622e15fe263b7afe15670245dc9f05897e9e8b7844edb5cfba"
+    },
+    {
+      "contact_enabled": false,
+      "muscle_pulse": true,
+      "exact_foot_pad_contact_samples": 0,
+      "first_contact_tick": null,
+      "maximum_absolute_slide_mm": 0.0,
+      "maximum_slide_mm": 0.0,
+      "xml_path": "data/derived/flymimic_passive_throttle_v1/body_no_contact.xml",
+      "xml_sha256": "2b2fb25321377a622e15fe263b7afe15670245dc9f05897e9e8b7844edb5cfba"
+    },
+    {
+      "contact_enabled": true,
+      "muscle_pulse": false,
+      "exact_foot_pad_contact_samples": 0,
+      "first_contact_tick": null,
+      "maximum_absolute_slide_mm": 0.0,
+      "maximum_slide_mm": 0.0,
+      "xml_path": "data/derived/flymimic_passive_throttle_v1/body_contact.xml",
+      "xml_sha256": "6d0ee9b1b6193caf0b43812c272e9a35d97403a8dd62f9e2d23b158c535650af"
+    },
+    {
+      "contact_enabled": true,
+      "muscle_pulse": true,
+      "exact_foot_pad_contact_samples": 234,
+      "first_contact_tick": 239,
+      "maximum_absolute_slide_mm": 0.16259791915409022,
+      "maximum_slide_mm": 0.16259791915409022,
+      "xml_path": "data/derived/flymimic_passive_throttle_v1/body_contact.xml",
+      "xml_sha256": "6d0ee9b1b6193caf0b43812c272e9a35d97403a8dd62f9e2d23b158c535650af"
+    }
+  ],
+  "trace_path": "data/derived/flymimic_passive_throttle_v1/traces.npz",
+  "trace_sha256": "dec9a7a9b7038a78db5caa1bf55d1c35bb590b3ef96e8acaa39a307812014a64",
+  "scope": "Diagnostic full FlyMimic body and passive one-axis control, artificial muscle pulse; no neural controller, three-axis stick, rocket feedback or KSP landing."
+}

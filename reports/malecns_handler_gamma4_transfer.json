@@ -1,0 +1,69 @@
+{
+  "scope": "Name-matched gamma-4 anatomical candidate; not a measured per-synapse plasticity transfer",
+  "source_graph_manifest_sha256": "b30e21078c0479ac288e7f9d3b7cb2c9eb76aa3b9707f3a2b9fa6a92bb822ef3",
+  "source_synapse_generation": "1780494942562468",
+  "source_synapse_filtered_sha256": "b5855ebd789e7d8d8b9407136de1f8eb85dc2fd36af8afb70545d6e87a8f06d9",
+  "physiology_source": {
+    "doi": "10.1016/j.cell.2019.05.040",
+    "pmcid": "PMC9012144",
+    "measured_observable": "GCaMP6s KC-evoked MBON dendritic calcium peak, 2 seconds after KC stimulation; pre/post pairing",
+    "timing_sign": "DAN onset minus KC onset; DAN-before-KC potentiation, concurrent or DAN-after-KC depression in gamma-4",
+    "controls": "DopR1 loss abolishes forward-pairing depression; DopR2 loss abolishes backward-pairing potentiation",
+    "raw_data_status": "Paper states data and custom scripts available upon request to lead contact"
+  },
+  "candidate_mbon05": [
+    {
+      "body_id": 10495,
+      "instance": "MBON05(y4>y1y2)_R",
+      "soma_side": "R",
+      "kc_contacts": 19140,
+      "primary_post_counts": {
+        "CRE(L)": 200,
+        "CentralBrain-unspecified": 51,
+        "LAL(L)": 1,
+        "b'L(L)": 135,
+        "gL(L)": 18753
+      }
+    },
+    {
+      "body_id": 519371,
+      "instance": "MBON05(y4>y1y2)_L",
+      "soma_side": "L",
+      "kc_contacts": 17180,
+      "primary_post_counts": {
+        "CRE(L)": 8,
+        "CRE(R)": 2898,
+        "CentralBrain-unspecified": 94,
+        "a'L(R)": 55,
+        "aL(R)": 9,
+        "b'L(R)": 152,
+        "bL(R)": 3,
+        "gL(L)": 488,
+        "gL(R)": 13473
+      }
+    }
+  ],
+  "candidate_pam08_cells": 50,
+  "candidate_pam07_cells": 14,
+  "dan_to_mbon05_graph_input": [
+    {
+      "body_id": 10495,
+      "dan_input_pairs": 127,
+      "dan_input_contacts": 1882,
+      "pam08_input_contacts": 1197,
+      "pam07_input_contacts": 439
+    },
+    {
+      "body_id": 519371,
+      "dan_input_pairs": 104,
+      "dan_input_contacts": 1588,
+      "pam08_input_contacts": 1000,
+      "pam07_input_contacts": 421
+    }
+  ],
+  "kc_receptor_type_annotated": 0,
+  "accepted_cell_identity_transfer": false,
+  "per_synapse_teaching_signal_assigned": false,
+  "plasticity_enabled": false,
+  "biological_gate_passed": false
+}

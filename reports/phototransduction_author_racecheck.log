@@ -1,0 +1,9 @@
+========= COMPUTE-SANITIZER
+========= Warning: Race reported between Write access at transduction+0x2f90
+=========     and Read access at transduction+0x1b0 [16 hazards]
+=========     and Read access at transduction+0x2fb0 [14984 hazards]
+========= 
+========= Warning: Race reported between Write access at transduction+0x190
+=========     and Read access at transduction+0x1b0 [16 hazards]
+========= 
+========= RACECHECK SUMMARY: 2 hazards displayed (0 errors, 2 warnings)

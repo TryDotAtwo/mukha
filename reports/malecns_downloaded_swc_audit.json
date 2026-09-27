@@ -1,0 +1,13 @@
+{
+  "dataset": "male-cns:v1.0",
+  "source_inventory_sha256": "0bc334953ab58fb738cdf462900d0b8bf539984f81605f099709cdc15fd23cde",
+  "downloaded_swc_files": 10852,
+  "graph_population": 167216,
+  "downloaded_fraction": 0.06489809587599273,
+  "total_swc_nodes": 54942296,
+  "empty_files": 0,
+  "multi_root_files": 1290,
+  "files_with_zero_length_edges": 0,
+  "structural_issue_files": {},
+  "scope": "Basic SWC syntax/topology and source bytes for downloaded files only; no EM segmentation, synapse-site, or biological fidelity validation."
+}

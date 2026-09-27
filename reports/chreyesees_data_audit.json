@@ -1,0 +1,70 @@
+{
+  "commit": "91cf92581d2abaea72b96a994d69ed6d83ae05f9",
+  "all_source_hashes_verified": true,
+  "rows": 6205,
+  "columns": [
+    "rh1",
+    "rh3",
+    "rh4",
+    "rh5",
+    "rh6",
+    "r",
+    "low",
+    "high",
+    "counts",
+    "cell_type"
+  ],
+  "rows_per_cell_type": {
+    "Tm20": 575,
+    "Tm20-Tnt": 295,
+    "Tm5a": 646,
+    "Tm5a-TnT": 505,
+    "Tm5b": 733,
+    "Tm5b-GCaMP-TNT": 449,
+    "Tm5c": 490,
+    "Tm5c-Tnt": 271,
+    "pDm8": 479,
+    "pR7": 373,
+    "pR8": 367,
+    "yDm8": 245,
+    "yR7": 241,
+    "yR8": 536
+  },
+  "missing_per_column": {
+    "rh1": 0,
+    "rh3": 0,
+    "rh4": 0,
+    "rh5": 0,
+    "rh6": 0,
+    "r": 0,
+    "low": 0,
+    "high": 0,
+    "counts": 0,
+    "cell_type": 0
+  },
+  "nonfinite_per_numeric_column": {
+    "rh1": 0,
+    "rh3": 0,
+    "rh4": 0,
+    "rh5": 0,
+    "rh6": 0,
+    "r": 0,
+    "low": 0,
+    "high": 0,
+    "counts": 0
+  },
+  "duplicated_full_rows": 0,
+  "dm9_rows": 0,
+  "input_columns": [
+    "rh1",
+    "rh3",
+    "rh4",
+    "rh5",
+    "rh6"
+  ],
+  "response_column": "r",
+  "source_code_executed": false,
+  "published_fit_reproduced": false,
+  "malecns_transfer_enabled": false,
+  "scope": "Processed data inventory only; units and fitting protocol require author-method reconciliation"
+}

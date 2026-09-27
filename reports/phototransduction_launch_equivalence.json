@@ -1,0 +1,19 @@
+{
+  "scope": "Two-receptor 100 ms entity-RNG runs; includes startup, allocation, per-tick host recording, not full-brain performance",
+  "runs": [
+    {
+      "blocks": 1,
+      "wall_seconds": 12.066815499973018,
+      "executable_sha256": "c49c72dc64de27fe72f3cc0c18f0d17080d3cc0cdcda4f31d32c7df6186f7973",
+      "trace_sha256": "c5655d7d460dc42c6b3d6fee803724024fb60bbecbd873f58811dec09120343c"
+    },
+    {
+      "blocks": 16,
+      "wall_seconds": 1.375357500044629,
+      "executable_sha256": "1c0742265e155ed944c324f409e5af9c6cd51af966797469f099abe3a5981a3d",
+      "trace_sha256": "c5655d7d460dc42c6b3d6fee803724024fb60bbecbd873f58811dec09120343c"
+    }
+  ],
+  "recorded_trajectories_bitwise_equal": true,
+  "not_checked": "Full molecular/RNG final state across launch sizes"
+}

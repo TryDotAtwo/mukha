@@ -1,0 +1,21 @@
+========= COMPUTE-SANITIZER
+========= Warning: Race reported between Write access at warpReduction(volatile int *, int)+0x970 in C:/Users/320/230/320/262/320/260/320/275 /320/233/320/270/321/202/320/262/320/260/320/272/Documents/ChatGPT/320/234/321/203/321/205/320/260/build/photoreceptor_author_current.cu:48
+=========     and Read access at warpReduction(volatile int *, int)+0x950 in C:/Users/320/230/320/262/320/260/320/275 /320/233/320/270/321/202/320/262/320/260/320/272/Documents/ChatGPT/320/234/321/203/321/205/320/260/build/photoreceptor_author_current.cu:48 [360 hazards]
+=========     and Read access at warpReduction(volatile int *, int)+0x980 in C:/Users/320/230/320/262/320/260/320/275 /320/233/320/270/321/202/320/262/320/260/320/272/Documents/ChatGPT/320/234/321/203/321/205/320/260/build/photoreceptor_author_current.cu:49 [372 hazards]
+========= 
+========= Warning: Race reported between Write access at warpReduction(volatile int *, int)+0x930 in C:/Users/320/230/320/262/320/260/320/275 /320/233/320/270/321/202/320/262/320/260/320/272/Documents/ChatGPT/320/234/321/203/321/205/320/260/build/photoreceptor_author_current.cu:47
+=========     and Read access at warpReduction(volatile int *, int)+0x910 in C:/Users/320/230/320/262/320/260/320/275 /320/233/320/270/321/202/320/262/320/260/320/272/Documents/ChatGPT/320/234/321/203/321/205/320/260/build/photoreceptor_author_current.cu:47 [336 hazards]
+=========     and Read access at warpReduction(volatile int *, int)+0x950 in C:/Users/320/230/320/262/320/260/320/275 /320/233/320/270/321/202/320/262/320/260/320/272/Documents/ChatGPT/320/234/321/203/321/205/320/260/build/photoreceptor_author_current.cu:48 [360 hazards]
+========= 
+========= Warning: Race reported between Write access at warpReduction(volatile int *, int)+0x8f0 in C:/Users/320/230/320/262/320/260/320/275 /320/233/320/270/321/202/320/262/320/260/320/272/Documents/ChatGPT/320/234/321/203/321/205/320/260/build/photoreceptor_author_current.cu:46
+=========     and Read access at warpReduction(volatile int *, int)+0x8d0 in C:/Users/320/230/320/262/320/260/320/275 /320/233/320/270/321/202/320/262/320/260/320/272/Documents/ChatGPT/320/234/321/203/321/205/320/260/build/photoreceptor_author_current.cu:46 [288 hazards]
+=========     and Read access at warpReduction(volatile int *, int)+0x910 in C:/Users/320/230/320/262/320/260/320/275 /320/233/320/270/321/202/320/262/320/260/320/272/Documents/ChatGPT/320/234/321/203/321/205/320/260/build/photoreceptor_author_current.cu:47 [336 hazards]
+========= 
+========= Warning: Race reported between Write access at warpReduction(volatile int *, int)+0x8b0 in C:/Users/320/230/320/262/320/260/320/275 /320/233/320/270/321/202/320/262/320/260/320/272/Documents/ChatGPT/320/234/321/203/321/205/320/260/build/photoreceptor_author_current.cu:45
+=========     and Read access at warpReduction(volatile int *, int)+0x890 in C:/Users/320/230/320/262/320/260/320/275 /320/233/320/270/321/202/320/262/320/260/320/272/Documents/ChatGPT/320/234/321/203/321/205/320/260/build/photoreceptor_author_current.cu:45 [192 hazards]
+=========     and Read access at warpReduction(volatile int *, int)+0x8d0 in C:/Users/320/230/320/262/320/260/320/275 /320/233/320/270/321/202/320/262/320/260/320/272/Documents/ChatGPT/320/234/321/203/321/205/320/260/build/photoreceptor_author_current.cu:46 [288 hazards]
+========= 
+========= Warning: Race reported between Write access at warpReduction(volatile int *, int)+0x870 in C:/Users/320/230/320/262/320/260/320/275 /320/233/320/270/321/202/320/262/320/260/320/272/Documents/ChatGPT/320/234/321/203/321/205/320/260/build/photoreceptor_author_current.cu:44
+=========     and Read access at warpReduction(volatile int *, int)+0x890 in C:/Users/320/230/320/262/320/260/320/275 /320/233/320/270/321/202/320/262/320/260/320/272/Documents/ChatGPT/320/234/321/203/321/205/320/260/build/photoreceptor_author_current.cu:45 [192 hazards]
+========= 
+========= RACECHECK SUMMARY: 5 hazards displayed (0 errors, 5 warnings)

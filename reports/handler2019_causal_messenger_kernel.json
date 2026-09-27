@@ -1,0 +1,148 @@
+{
+  "source_workbook_sha256": "4db9b76cd0c41dc014c8d00a9e359bbd4165a7984095cc35d1932f9ee7f501dc",
+  "event_time_convention": "ISI = DAN onset minus KC onset; first-event traces decay until the second event.",
+  "hypotheses": {
+    "cAMP": "A DAN-evoked baseline plus a symmetric coincidence term exp(-abs(ISI)/tau). The coincidence term can be evaluated causally when the second stimulus occurs.",
+    "ER_release": "At KC, a two-stage decaying DAN trace yields (delay/tau)*exp(1-delay/tau) if DAN preceded KC; otherwise zero, plus an optical baseline."
+  },
+  "analyses": [
+    {
+      "modality": "cAMP_FRET",
+      "parameter_names": [
+        "reporter_baseline",
+        "event_interaction_gain",
+        "event_trace_tau_s"
+      ],
+      "fitted_parameters": [
+        0.0734681096564968,
+        0.07801909249559962,
+        1.0270212874816518
+      ],
+      "observed_means": [
+        0.06785468799294533,
+        0.0958383028847759,
+        0.11848098693071914,
+        0.15084926529466888,
+        0.12203072269100317,
+        0.07992603785608936
+      ],
+      "observed_sem": [
+        0.009850799701934651,
+        0.012282515699886453,
+        0.01866088050901262,
+        0.024226659416761696,
+        0.014945934404028034,
+        0.01229393519256923
+      ],
+      "fitted_means": [
+        0.07369457024765888,
+        0.09772076208572382,
+        0.11696718933801986,
+        0.15148720215209643,
+        0.12141570957904382,
+        0.07369457024765888
+      ],
+      "fit_rmse": 0.00364133340185246,
+      "retrospective_leave_one_isi_out_predictions": [
+        0.07925822237384307,
+        0.09928214134160696,
+        0.11621596652462206,
+        0.15958754744416725,
+        0.1211460783789407,
+        0.06764708913699745
+      ],
+      "retrospective_leave_one_isi_out_mae": 0.006502378070746435
+    },
+    {
+      "modality": "negative_ER_lumen_GCaMP",
+      "parameter_names": [
+        "reporter_baseline",
+        "event_interaction_gain",
+        "event_trace_tau_s"
+      ],
+      "fitted_parameters": [
+        -0.00865440645602915,
+        0.08726213430901168,
+        1.113374555125039
+      ],
+      "observed_means": [
+        -0.00845804104273778,
+        0.08176272507557406,
+        0.06238740895754039,
+        0.002091803103571322,
+        -0.0150998395824183,
+        -0.007187832143095279
+      ],
+      "observed_sem": [
+        0.0032700287009279367,
+        0.010612198878770917,
+        0.007791928898596496,
+        0.001702865725591847,
+        0.0021650779617001206,
+        0.0026066134891237257
+      ],
+      "fitted_means": [
+        -0.002817163858981196,
+        0.0783569144130329,
+        0.0659196931824684,
+        -0.00865440645602915,
+        -0.00865440645602915,
+        -0.00865440645602915
+      ],
+      "fit_rmse": 0.00598709086031411,
+      "retrospective_leave_one_isi_out_predictions": [
+        0.005747240743056148,
+        0.0021488174194113103,
+        0.24315174287899247,
+        -0.012739661158369093,
+        -0.006267363002245517,
+        -0.009203431876714118
+      ],
+      "retrospective_leave_one_isi_out_mae": 0.050043843989856805
+    }
+  ],
+  "minimal_two_branch_plasticity_screen": {
+    "hypothesis": "At a paired KC contact, delta MBON response = positive ER interaction gain minus positive cAMP coincidence gain; knockout removes its receptor branch, with unchanged other branch and monotonic readout.",
+    "fitted_nonnegative_gains_from_six_wild_type_mbon_means": [
+      18.327812744036223,
+      15.854792258911369
+    ],
+    "wild_type_observed_mbon_means": [
+      0.1917955044935181,
+      1.5752188181611928,
+      0.24430369398102672,
+      -1.0891966639105113,
+      -0.7926525536726119,
+      -0.08924606028426982
+    ],
+    "wild_type_predicted_mbon_means": [
+      0.10339340363250162,
+      1.2102064295064439,
+      0.677111261925102,
+      -1.236976503746523,
+      -0.7601992360853778,
+      -0.0035904856277049653
+    ],
+    "wild_type_rmse": 0.2444723374030532,
+    "mutant_predictions": {
+      "dop_r1_null_forward_0p5s": 0.0,
+      "dop_r2_null_backward_1p2s": -0.38452076599297647
+    },
+    "mutant_observations": {
+      "dop_r1_null_forward_0p5s": "weak potentiation",
+      "dop_r2_null_backward_1p2s": "depression"
+    },
+    "accept_receptor_null_signs": false,
+    "reason": "The ER interaction kernel is exactly zero for forward pairing, so DopR1-null forward predicts zero instead of the reported weak potentiation."
+  },
+  "cross_protocol_challenge": {
+    "primary_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4732734/",
+    "source_protocol": "Cohn et al. 2015: 58E02-positive gamma4/gamma5 DAN activation without KC stimulation during induction, with KC-evoked gamma4 MBON responses measured before and after.",
+    "source_observation": "DAN activation alone potentiated KC-evoked gamma4 MBON signaling; temporally paired KC/DAN activation depressed it.",
+    "candidate_dan_alone_prediction": "zero, because both modeled interaction terms require a KC/DAN pair",
+    "candidate_matches_dan_alone": false,
+    "transfer_caution": "Different study/protocol and optical/electrophysiological readouts; this is a qualitative cross-protocol challenge, not a numerical pooled fit."
+  },
+  "fit_scope": "Six already-inspected wild-type ISI means. Leave-one-ISI-out is retrospective model diagnosis, not independent validation. No timecourse, receptor-null or contact-level fit.",
+  "plasticity_enabled": false
+}

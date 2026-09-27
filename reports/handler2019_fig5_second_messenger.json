@@ -1,0 +1,154 @@
+{
+  "source_workbook_sha256": "4db9b76cd0c41dc014c8d00a9e359bbd4165a7984095cc35d1932f9ee7f501dc",
+  "source_repository_commit": "1610c80072fe8bb59bd397e7a61f716393a509b9",
+  "observable": "Fig. 5E/F second-messenger responses in KC axons, each preparation normalized to its own six-ISI min/max; compared with Fig. 2 gamma4 MBON post-minus-pre means.",
+  "reconstruction": "6 cAMP and 7 ER calcium preparation values per ISI, per-preparation normalization, displayed means and Fig. 5F contrast match the workbook within 1e-8.",
+  "conditions": [
+    {
+      "isi_s": -6.0,
+      "raw_camp_per_preparation": [
+        0.06113593562243785,
+        0.10625380219543987,
+        0.03705979312896907,
+        0.05538499312382292,
+        0.0841491357372786,
+        0.06314446814972369
+      ],
+      "raw_er_calcium_per_preparation": [
+        0.013548760965423417,
+        0.01747553165253709,
+        0.015721917005349036,
+        0.008580606128652883,
+        -0.006561554028851976,
+        0.0006080954900516582,
+        0.009832930086002356
+      ],
+      "normalized_camp_mean": 0.0,
+      "normalized_negative_er_mean": 0.07566030542734402,
+      "negative_er_minus_camp": 0.07566030542734402
+    },
+    {
+      "isi_s": -1.2,
+      "raw_camp_per_preparation": [
+        0.0846560277427604,
+        0.1493196339580483,
+        0.060223747999470736,
+        0.09015588938397749,
+        0.10627620956965773,
+        0.08439830865474075
+      ],
+      "raw_er_calcium_per_preparation": [
+        -0.05795597474280429,
+        -0.12081603918526328,
+        -0.0666947615676941,
+        -0.04493174792516542,
+        -0.1139106435704254,
+        -0.08634597218741406,
+        -0.08168393635025183
+      ],
+      "normalized_camp_mean": 0.36402565080402116,
+      "normalized_negative_er_mean": 0.968769381503425,
+      "negative_er_minus_camp": 0.6047437306994038
+    },
+    {
+      "isi_s": -0.6,
+      "raw_camp_per_preparation": [
+        0.1331376452821752,
+        0.19670038555800773,
+        0.059475004846426066,
+        0.10957006273810337,
+        0.11698257253678786,
+        0.0950202506228146
+      ],
+      "raw_er_calcium_per_preparation": [
+        -0.06615430444809124,
+        -0.08158527535194499,
+        -0.048995758017328965,
+        -0.0524256997283207,
+        -0.09776307786240852,
+        -0.04844278215431829,
+        -0.04134496514037001
+      ],
+      "normalized_camp_mean": 0.5906573387225877,
+      "normalized_negative_er_mean": 0.8031212739778218,
+      "negative_er_minus_camp": 0.2124639352552341
+    },
+    {
+      "isi_s": 0.0,
+      "raw_camp_per_preparation": [
+        0.17899974844556496,
+        0.2568063199366377,
+        0.08955942120183245,
+        0.12219720900105321,
+        0.13300298894985477,
+        0.12452990423307016
+      ],
+      "raw_er_calcium_per_preparation": [
+        -0.0023506586987747935,
+        -0.007726211735705506,
+        0.004149254523673177,
+        -0.004576991651275571,
+        -0.0065722564586447145,
+        0.002416416688354896,
+        1.7825607373262046e-05
+      ],
+      "normalized_camp_mean": 0.980061462004027,
+      "normalized_negative_er_mean": 0.1904836999507384,
+      "negative_er_minus_camp": -0.7895777620532886
+    },
+    {
+      "isi_s": 0.5,
+      "raw_camp_per_preparation": [
+        0.1249126686773851,
+        0.18169576768050116,
+        0.0684499431831852,
+        0.13127616282491794,
+        0.11526959591621434,
+        0.11058019786381522
+      ],
+      "raw_er_calcium_per_preparation": [
+        0.01944526719203144,
+        0.005693477822925639,
+        0.01678912129839421,
+        0.008349846465116035,
+        0.016804785115703758,
+        0.020485454863602183,
+        0.018130924319154834
+      ],
+      "normalized_camp_mean": 0.674980227189199,
+      "normalized_negative_er_mean": 0.012711392653633335,
+      "negative_er_minus_camp": -0.6622688345355657
+    },
+    {
+      "isi_s": 6.0,
+      "raw_camp_per_preparation": [
+        0.07734022956899704,
+        0.11928389341491336,
+        0.04100346666855664,
+        0.06343515096093873,
+        0.11180589971673194,
+        0.06668758680639843
+      ],
+      "raw_er_calcium_per_preparation": [
+        0.016095726502855266,
+        0.008956901035202016,
+        0.00789716313811224,
+        0.006056353071211832,
+        -0.005915000133430759,
+        0.012172937901061625,
+        0.005050743486654728
+      ],
+      "normalized_camp_mean": 0.1715093777000465,
+      "normalized_negative_er_mean": 0.09018321806107886,
+      "negative_er_minus_camp": -0.08132615963896765
+    }
+  ],
+  "exploratory_six_isi_association": {
+    "pearson_r": 0.9674090489843286,
+    "ordinary_least_squares_slope": 1.704801438623243,
+    "ordinary_least_squares_intercept": 0.18863587618847985,
+    "same_six_isi_as_source_figure": true,
+    "independent_validation": false
+  },
+  "scope_limit": "Population-level imaging from separate cAMP, ER calcium and MBON preparations; it does not locate signals at individual MaleCNS contacts or establish receptor kinetics."
+}

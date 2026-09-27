@@ -1,0 +1,1600 @@
+{
+  "controls": 42,
+  "samples": [
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.009899999999999996,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.0,
+      "time": 0.009999999999999995
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.019899999999999935,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.0,
+      "time": 0.019999999999999934
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.029899999999999875,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.0,
+      "time": 0.029999999999999874
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.039900000000000116,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.0,
+      "time": 0.04000000000000012
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.0499000000000004,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.0,
+      "time": 0.050000000000000405
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.05990000000000069,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.0,
+      "time": 0.06000000000000069
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.06990000000000098,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.0,
+      "time": 0.07000000000000098
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.07990000000000126,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.0,
+      "time": 0.08000000000000126
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.08990000000000155,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.0,
+      "time": 0.09000000000000155
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.09990000000000183,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.0,
+      "time": 0.10000000000000184
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.10990000000000212,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.0,
+      "time": 0.11000000000000212
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.11990000000000241,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.0,
+      "time": 0.12000000000000241
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.129900000000002,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.0,
+      "time": 0.130000000000002
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.1399000000000009,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.0,
+      "time": 0.1400000000000009
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.1498999999999998,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.0,
+      "time": 0.1499999999999998
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.1598999999999987,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.0,
+      "time": 0.1599999999999987
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.1698999999999976,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.0,
+      "time": 0.1699999999999976
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.1798999999999965,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.0,
+      "time": 0.1799999999999965
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.1898999999999954,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.0,
+      "time": 0.1899999999999954
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.1998999999999943,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.0,
+      "time": 0.1999999999999943
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.2098999999999932,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 1.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.0,
+      "time": 0.2099999999999932
+    },
+    {
+      "contact_count": 1,
+      "contact_evaluation_time": 0.2198999999999921,
+      "contact_normal_force_model_units": 0.009218387587321802,
+      "diagnostic_command": 1.0,
+      "foot_contact_count": 1,
+      "foot_contact_points": [
+        {
+          "force_on_foot_world": [
+            -0.0008694939106793365,
+            -0.009218387587321802,
+            -0.003312222927692828
+          ],
+          "normal_force_model_units": 0.009218387587321802,
+          "normal_into_foot": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "position": [
+            1.334774672984031,
+            1.0681408387940654,
+            0.22146355216562025
+          ]
+        }
+      ],
+      "foot_normal_force_model_units": 0.009218387587321802,
+      "slider_mm": 0.00005665097766622926,
+      "time": 0.2199999999999921
+    },
+    {
+      "contact_count": 1,
+      "contact_evaluation_time": 0.229899999999991,
+      "contact_normal_force_model_units": 0.017634562528585265,
+      "diagnostic_command": 1.0,
+      "foot_contact_count": 1,
+      "foot_contact_points": [
+        {
+          "force_on_foot_world": [
+            -0.0032793888349294522,
+            -0.017634562528585255,
+            -0.005257185509310663
+          ],
+          "normal_force_model_units": 0.017634562528585265,
+          "normal_into_foot": [
+            0.0,
+            -1.0,
+            -1.868994036136451e-15
+          ],
+          "position": [
+            1.3348315419329126,
+            1.0732110824974959,
+            0.2313503262933468
+          ]
+        }
+      ],
+      "foot_normal_force_model_units": 0.017634562528585265,
+      "slider_mm": 0.0009745115099615249,
+      "time": 0.229999999999991
+    },
+    {
+      "contact_count": 1,
+      "contact_evaluation_time": 0.2398999999999899,
+      "contact_normal_force_model_units": 0.018712343709271287,
+      "diagnostic_command": 1.0,
+      "foot_contact_count": 1,
+      "foot_contact_points": [
+        {
+          "force_on_foot_world": [
+            -0.0038182614946806926,
+            -0.018712343709271287,
+            -0.0055379103599549504
+          ],
+          "normal_force_model_units": 0.018712343709271287,
+          "normal_into_foot": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "position": [
+            1.3348733060846427,
+            1.078067107335309,
+            0.23918279156799005
+          ]
+        }
+      ],
+      "foot_normal_force_model_units": 0.018712343709271287,
+      "slider_mm": 0.003509119765889392,
+      "time": 0.2399999999999899
+    },
+    {
+      "contact_count": 1,
+      "contact_evaluation_time": 0.2498999999999888,
+      "contact_normal_force_model_units": 0.01627019225376274,
+      "diagnostic_command": 1.0,
+      "foot_contact_count": 1,
+      "foot_contact_points": [
+        {
+          "force_on_foot_world": [
+            -0.0032273448794388994,
+            -0.01627019225376274,
+            -0.00490775124744247
+          ],
+          "normal_force_model_units": 0.01627019225376274,
+          "normal_into_foot": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "position": [
+            1.3349232662911843,
+            1.0830595876047764,
+            0.24570250238522517
+          ]
+        }
+      ],
+      "foot_normal_force_model_units": 0.01627019225376274,
+      "slider_mm": 0.007635588166001656,
+      "time": 0.2499999999999888
+    },
+    {
+      "contact_count": 1,
+      "contact_evaluation_time": 0.2598999999999877,
+      "contact_normal_force_model_units": 0.012717527274839314,
+      "diagnostic_command": 1.0,
+      "foot_contact_count": 1,
+      "foot_contact_points": [
+        {
+          "force_on_foot_world": [
+            -0.002385106080186348,
+            -0.01271752727483934,
+            -0.003973657557233175
+          ],
+          "normal_force_model_units": 0.012717527274839314,
+          "normal_into_foot": [
+            1.0584125828788167e-14,
+            -1.0,
+            0.0
+          ],
+          "position": [
+            1.3349766170898913,
+            1.0881568759941875,
+            0.2512923950561147
+          ]
+        }
+      ],
+      "foot_normal_force_model_units": 0.012717527274839314,
+      "slider_mm": 0.01289558493378765,
+      "time": 0.2599999999999877
+    },
+    {
+      "contact_count": 1,
+      "contact_evaluation_time": 0.2698999999999866,
+      "contact_normal_force_model_units": 0.00952595913856937,
+      "diagnostic_command": 1.0,
+      "foot_contact_count": 1,
+      "foot_contact_points": [
+        {
+          "force_on_foot_world": [
+            -0.0016807933851032597,
+            -0.009525959138569389,
+            -0.0030821861841813162
+          ],
+          "normal_force_model_units": 0.00952595913856937,
+          "normal_into_foot": [
+            1.1433609796930504e-14,
+            -1.0,
+            0.0
+          ],
+          "position": [
+            1.33502799868744,
+            1.0931487712693673,
+            0.2561342258646563
+          ]
+        }
+      ],
+      "foot_normal_force_model_units": 0.00952595913856937,
+      "slider_mm": 0.018668832747974116,
+      "time": 0.2699999999999866
+    },
+    {
+      "contact_count": 1,
+      "contact_evaluation_time": 0.2798999999999855,
+      "contact_normal_force_model_units": 0.0074333105019795415,
+      "diagnostic_command": 1.0,
+      "foot_contact_count": 1,
+      "foot_contact_points": [
+        {
+          "force_on_foot_world": [
+            -0.0012993538544723096,
+            -0.007433310501979558,
+            -0.0024173013965173656
+          ],
+          "normal_force_model_units": 0.0074333105019795415,
+          "normal_into_foot": [
+            1.282640067604286e-14,
+            -1.0,
+            0.0
+          ],
+          "position": [
+            1.3350744665239445,
+            1.0977819041305086,
+            0.26030412355724897
+          ]
+        }
+      ],
+      "foot_normal_force_model_units": 0.0074333105019795415,
+      "slider_mm": 0.02435284092481095,
+      "time": 0.2799999999999855
+    },
+    {
+      "contact_count": 1,
+      "contact_evaluation_time": 0.2898999999999844,
+      "contact_normal_force_model_units": 0.00666278200336381,
+      "diagnostic_command": 1.0,
+      "foot_contact_count": 1,
+      "foot_contact_points": [
+        {
+          "force_on_foot_world": [
+            -0.001284675865182782,
+            -0.00666278200336381,
+            -0.002046715136499123
+          ],
+          "normal_force_model_units": 0.00666278200336381,
+          "normal_into_foot": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "position": [
+            1.3351152121821341,
+            1.1018401518739078,
+            0.26383398490876875
+          ]
+        }
+      ],
+      "foot_normal_force_model_units": 0.00666278200336381,
+      "slider_mm": 0.029466088985390534,
+      "time": 0.2899999999999844
+    },
+    {
+      "contact_count": 1,
+      "contact_evaluation_time": 0.2998999999999833,
+      "contact_normal_force_model_units": 0.007109835327228932,
+      "diagnostic_command": 1.0,
+      "foot_contact_count": 1,
+      "foot_contact_points": [
+        {
+          "force_on_foot_world": [
+            -0.0015932423397903763,
+            -0.007109835327228925,
+            -0.0019616753238241194
+          ],
+          "normal_force_model_units": 0.007109835327228932,
+          "normal_into_foot": [
+            0.0,
+            -1.0,
+            -4.142378211635666e-15
+          ],
+          "position": [
+            1.335150819443967,
+            1.1051835575848532,
+            0.2667478084128796
+          ]
+        }
+      ],
+      "foot_normal_force_model_units": 0.007109835327228932,
+      "slider_mm": 0.03369243237872607,
+      "time": 0.2999999999999833
+    },
+    {
+      "contact_count": 1,
+      "contact_evaluation_time": 0.3098999999999822,
+      "contact_normal_force_model_units": 0.008497237031715999,
+      "diagnostic_command": 1.0,
+      "foot_contact_count": 1,
+      "foot_contact_points": [
+        {
+          "force_on_foot_world": [
+            -0.0021243092579289993,
+            -0.008497237031715999,
+            -0.0021243092579289998
+          ],
+          "normal_force_model_units": 0.008497237031715999,
+          "normal_into_foot": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "position": [
+            1.3351825116435712,
+            1.1077582350622677,
+            0.2690799669086079
+          ]
+        }
+      ],
+      "foot_normal_force_model_units": 0.008497237031715999,
+      "slider_mm": 0.03688404418380764,
+      "time": 0.3099999999999822
+    },
+    {
+      "contact_count": 1,
+      "contact_evaluation_time": 0.3198999999999811,
+      "contact_normal_force_model_units": 0.011438618016995142,
+      "diagnostic_command": 1.0,
+      "foot_contact_count": 1,
+      "foot_contact_points": [
+        {
+          "force_on_foot_world": [
+            -0.0028011658147398576,
+            -0.01143861801699521,
+            -0.002859654504248731
+          ],
+          "normal_force_model_units": 0.011438618016995142,
+          "normal_into_foot": [
+            1.941786905934564e-14,
+            -1.0,
+            4.85446726483641e-15
+          ],
+          "position": [
+            1.3352149327258047,
+            1.109578403972282,
+            0.2708467190966334
+          ]
+        }
+      ],
+      "foot_normal_force_model_units": 0.011438618016995142,
+      "slider_mm": 0.039049968568774275,
+      "time": 0.3199999999999811
+    },
+    {
+      "contact_count": 1,
+      "contact_evaluation_time": 0.32989999999998,
+      "contact_normal_force_model_units": 0.014838391181429045,
+      "diagnostic_command": 1.0,
+      "foot_contact_count": 1,
+      "foot_contact_points": [
+        {
+          "force_on_foot_world": [
+            -0.003590446365624439,
+            -0.014838391181429064,
+            -0.0037095977953571875
+          ],
+          "normal_force_model_units": 0.014838391181429045,
+          "normal_into_foot": [
+            0.0,
+            -1.0,
+            5.004757135251731e-15
+          ],
+          "position": [
+            1.3352535893449748,
+            1.1107465135024315,
+            0.2720605296561297
+          ]
+        }
+      ],
+      "foot_normal_force_model_units": 0.014838391181429045,
+      "slider_mm": 0.04038281448949452,
+      "time": 0.32999999999998
+    },
+    {
+      "contact_count": 1,
+      "contact_evaluation_time": 0.3398999999999789,
+      "contact_normal_force_model_units": 0.017390047564152016,
+      "diagnostic_command": 1.0,
+      "foot_contact_count": 1,
+      "foot_contact_points": [
+        {
+          "force_on_foot_world": [
+            -0.004289704990830647,
+            -0.017390047564152016,
+            -0.004347511891038004
+          ],
+          "normal_force_model_units": 0.017390047564152016,
+          "normal_into_foot": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "position": [
+            1.335292635359597,
+            1.111454049616829,
+            0.27284146084417404
+          ]
+        }
+      ],
+      "foot_normal_force_model_units": 0.017390047564152016,
+      "slider_mm": 0.04115757791913011,
+      "time": 0.3399999999999789
+    },
+    {
+      "contact_count": 1,
+      "contact_evaluation_time": 0.3498999999999778,
+      "contact_normal_force_model_units": 0.01894617674781786,
+      "diagnostic_command": 1.0,
+      "foot_contact_count": 1,
+      "foot_contact_points": [
+        {
+          "force_on_foot_world": [
+            -0.004736544186954464,
+            -0.01894617674781786,
+            -0.004736544186954465
+          ],
+          "normal_force_model_units": 0.01894617674781786,
+          "normal_into_foot": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "position": [
+            1.3353255225388048,
+            1.1118761356608116,
+            0.2733360710964056
+          ]
+        }
+      ],
+      "foot_normal_force_model_units": 0.01894617674781786,
+      "slider_mm": 0.04159621477754168,
+      "time": 0.3499999999999778
+    },
+    {
+      "contact_count": 1,
+      "contact_evaluation_time": 0.3598999999999767,
+      "contact_normal_force_model_units": 0.01995139234423864,
+      "diagnostic_command": 1.0,
+      "foot_contact_count": 1,
+      "foot_contact_points": [
+        {
+          "force_on_foot_world": [
+            -0.004987848086059659,
+            -0.01995139234423864,
+            -0.004987848086059661
+          ],
+          "normal_force_model_units": 0.01995139234423864,
+          "normal_into_foot": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "position": [
+            1.3353556379605327,
+            1.1121267925515776,
+            0.27365228108242035
+          ]
+        }
+      ],
+      "foot_normal_force_model_units": 0.01995139234423864,
+      "slider_mm": 0.04184077274209955,
+      "time": 0.35999999999997667
+    },
+    {
+      "contact_count": 1,
+      "contact_evaluation_time": 0.3698999999999756,
+      "contact_normal_force_model_units": 0.02054420494256866,
+      "diagnostic_command": 1.0,
+      "foot_contact_count": 1,
+      "foot_contact_points": [
+        {
+          "force_on_foot_world": [
+            -0.005136051235642165,
+            -0.020544204942568686,
+            -0.0051360512356420605
+          ],
+          "normal_force_model_units": 0.02054420494256866,
+          "normal_into_foot": [
+            0.0,
+            -1.0,
+            5.074466714157485e-15
+          ],
+          "position": [
+            1.3353830033608878,
+            1.1122789823232568,
+            0.273855999938713
+          ]
+        }
+      ],
+      "foot_normal_force_model_units": 0.02054420494256866,
+      "slider_mm": 0.04198245406529195,
+      "time": 0.36999999999997557
+    },
+    {
+      "contact_count": 1,
+      "contact_evaluation_time": 0.3798999999999745,
+      "contact_normal_force_model_units": 0.020857496077064483,
+      "diagnostic_command": 1.0,
+      "foot_contact_count": 1,
+      "foot_contact_points": [
+        {
+          "force_on_foot_world": [
+            -0.005214374019266121,
+            -0.020857496077064483,
+            -0.005214374019266122
+          ],
+          "normal_force_model_units": 0.020857496077064483,
+          "normal_into_foot": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "position": [
+            1.3354073066869407,
+            1.112378586881175,
+            0.2739918992335107
+          ]
+        }
+      ],
+      "foot_normal_force_model_units": 0.020857496077064483,
+      "slider_mm": 0.04207547517309374,
+      "time": 0.37999999999997447
+    },
+    {
+      "contact_count": 1,
+      "contact_evaluation_time": 0.3898999999999734,
+      "contact_normal_force_model_units": 0.021005441320941,
+      "diagnostic_command": 1.0,
+      "foot_contact_count": 1,
+      "foot_contact_points": [
+        {
+          "force_on_foot_world": [
+            -0.005251360330234824,
+            -0.021005441320941107,
+            -0.00525136033023525
+          ],
+          "normal_force_model_units": 0.021005441320941,
+          "normal_into_foot": [
+            2.027390567714666e-14,
+            -1.0,
+            0.0
+          ],
+          "position": [
+            1.335428542055117,
+            1.1124512283620915,
+            0.27408766745134006
+          ]
+        }
+      ],
+      "foot_normal_force_model_units": 0.021005441320941,
+      "slider_mm": 0.04214779348942711,
+      "time": 0.38999999999997337
+    },
+    {
+      "contact_count": 1,
+      "contact_evaluation_time": 0.3998999999999723,
+      "contact_normal_force_model_units": 0.021067634134089977,
+      "diagnostic_command": 1.0,
+      "foot_contact_count": 1,
+      "foot_contact_points": [
+        {
+          "force_on_foot_world": [
+            -0.005266908533522494,
+            -0.021067634134089977,
+            -0.005266908533522493
+          ],
+          "normal_force_model_units": 0.021067634134089977,
+          "normal_into_foot": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "position": [
+            1.3354468980078074,
+            1.1125095551098152,
+            0.2741591564628964
+          ]
+        }
+      ],
+      "foot_normal_force_model_units": 0.021067634134089977,
+      "slider_mm": 0.04221135234215391,
+      "time": 0.39999999999997227
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.4098999999999712,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.04140619633979598,
+      "time": 0.40999999999997117
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.4198999999999701,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.038778724143056824,
+      "time": 0.41999999999997006
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.429899999999969,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.03429177169167853,
+      "time": 0.42999999999996896
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.4398999999999679,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.028203328884340278,
+      "time": 0.43999999999996786
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.44989999999996677,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.020845219140678824,
+      "time": 0.44999999999996676
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.45989999999996567,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.012605281118921364,
+      "time": 0.45999999999996566
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.46989999999996457,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.003907142089780751,
+      "time": 0.46999999999996456
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.47989999999996347,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": -0.00481137232754993,
+      "time": 0.47999999999996346
+    },
+    {
+      "contact_count": 1,
+      "contact_evaluation_time": 0.48989999999996237,
+      "contact_normal_force_model_units": 0.014331625101554933,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 1,
+      "foot_contact_points": [
+        {
+          "force_on_foot_world": [
+            -0.003582906275387774,
+            -0.014331625101555173,
+            0.0035829062753887347
+          ],
+          "normal_force_model_units": 0.014331625101554933,
+          "normal_into_foot": [
+            6.68474458593075e-14,
+            -1.0,
+            0.0
+          ],
+          "position": [
+            1.3351043968523402,
+            1.053609711906117,
+            0.20497979748174516
+          ]
+        }
+      ],
+      "foot_normal_force_model_units": 0.014331625101554933,
+      "slider_mm": -0.012952475821387454,
+      "time": 0.48999999999996235
+    },
+    {
+      "contact_count": 1,
+      "contact_evaluation_time": 0.49989999999996126,
+      "contact_normal_force_model_units": 0.013558464534994812,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 1,
+      "foot_contact_points": [
+        {
+          "force_on_foot_world": [
+            -0.003280337305559905,
+            -0.013558464534994812,
+            0.003389616133748701
+          ],
+          "normal_force_model_units": 0.013558464534994812,
+          "normal_into_foot": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "position": [
+            1.3352698511046457,
+            1.0490924284639294,
+            0.20227166704619892
+          ]
+        }
+      ],
+      "foot_normal_force_model_units": 0.013558464534994812,
+      "slider_mm": -0.019091932949656113,
+      "time": 0.49999999999996125
+    },
+    {
+      "contact_count": 1,
+      "contact_evaluation_time": 0.5098999999999602,
+      "contact_normal_force_model_units": 0.00967612378289829,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 1,
+      "foot_contact_points": [
+        {
+          "force_on_foot_world": [
+            -0.001821175970148756,
+            -0.00967612378289829,
+            0.0024190309457245724
+          ],
+          "normal_force_model_units": 0.00967612378289829,
+          "normal_into_foot": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "position": [
+            1.3353681015686751,
+            1.046090390306544,
+            0.20015339895036194
+          ]
+        }
+      ],
+      "foot_normal_force_model_units": 0.00967612378289829,
+      "slider_mm": -0.022853673005719548,
+      "time": 0.5099999999999602
+    },
+    {
+      "contact_count": 1,
+      "contact_evaluation_time": 0.5198999999999591,
+      "contact_normal_force_model_units": 0.005735284788533943,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 1,
+      "foot_contact_points": [
+        {
+          "force_on_foot_world": [
+            -0.00019285683029224813,
+            -0.005735284788533938,
+            0.0014338211971334854
+          ],
+          "normal_force_model_units": 0.005735284788533943,
+          "normal_into_foot": [
+            -2.719341796600725e-14,
+            -1.0,
+            0.0
+          ],
+          "position": [
+            1.3354102831387995,
+            1.0444521239626736,
+            0.19855061798775714
+          ]
+        }
+      ],
+      "foot_normal_force_model_units": 0.005735284788533943,
+      "slider_mm": -0.024465109320773393,
+      "time": 0.519999999999959
+    },
+    {
+      "contact_count": 1,
+      "contact_evaluation_time": 0.529899999999958,
+      "contact_normal_force_model_units": 0.0018580731404238661,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 1,
+      "foot_contact_points": [
+        {
+          "force_on_foot_world": [
+            0.00045901207829741815,
+            -0.0018580731404238531,
+            0.00047002449191456793
+          ],
+          "normal_force_model_units": 0.0018580731404238661,
+          "normal_into_foot": [
+            3.258414817263727e-14,
+            -1.0,
+            -4.073018521579659e-15
+          ],
+          "position": [
+            1.3354053689379985,
+            1.043950125825038,
+            0.19736284571725882
+          ]
+        }
+      ],
+      "foot_normal_force_model_units": 0.0018580731404238661,
+      "slider_mm": -0.024275626158307737,
+      "time": 0.529999999999958
+    },
+    {
+      "contact_count": 1,
+      "contact_evaluation_time": 0.5398999999999569,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 1,
+      "foot_contact_points": [
+        {
+          "force_on_foot_world": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal_force_model_units": 0.0,
+          "normal_into_foot": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "position": [
+            1.3352830818277872,
+            1.0443388934768474,
+            0.19644114056093223
+          ]
+        }
+      ],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": -0.0227059035288937,
+      "time": 0.5399999999999568
+    },
+    {
+      "contact_count": 1,
+      "contact_evaluation_time": 0.5498999999999558,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 1,
+      "foot_contact_points": [
+        {
+          "force_on_foot_world": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal_force_model_units": 0.0,
+          "normal_into_foot": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "position": [
+            1.3351661254369689,
+            1.0453578513360307,
+            0.1956929069769035
+          ]
+        }
+      ],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": -0.020043049895709895,
+      "time": 0.5499999999999557
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.5598999999999547,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": -0.01644494586229811,
+      "time": 0.5599999999999546
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.5698999999999536,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": -0.012107468548767193,
+      "time": 0.5699999999999535
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.5798999999999525,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": -0.007259062433206041,
+      "time": 0.5799999999999524
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.5898999999999514,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": -0.0021488339257579696,
+      "time": 0.5899999999999513
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.5998999999999503,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.002966136816913734,
+      "time": 0.5999999999999502
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.6098999999999491,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.007833625905493087,
+      "time": 0.6099999999999491
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.619899999999948,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.012218602327887452,
+      "time": 0.619999999999948
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.629899999999947,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.01591447282113119,
+      "time": 0.6299999999999469
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.6398999999999458,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.018752702332527932,
+      "time": 0.6399999999999458
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.6498999999999447,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.020610368015188823,
+      "time": 0.6499999999999447
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.6598999999999436,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.021415315316907813,
+      "time": 0.6599999999999436
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.6698999999999425,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.021148709482592617,
+      "time": 0.6699999999999425
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.6798999999999414,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.019844908269329845,
+      "time": 0.6799999999999414
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.6898999999999403,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.017588715186577113,
+      "time": 0.6899999999999403
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.6998999999999392,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.014510200520244826,
+      "time": 0.6999999999999392
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.7098999999999381,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.010777393581980831,
+      "time": 0.7099999999999381
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.719899999999937,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.006587248549782247,
+      "time": 0.719999999999937
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.7298999999999359,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.0021553633985654398,
+      "time": 0.7299999999999359
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.7398999999999348,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": -0.0022950166110576225,
+      "time": 0.7399999999999348
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.7498999999999337,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": -0.0065441546743261825,
+      "time": 0.7499999999999337
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.7598999999999326,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": -0.010386584366495116,
+      "time": 0.7599999999999326
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.7698999999999315,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": -0.013640955064172048,
+      "time": 0.7699999999999315
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.7798999999999304,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": -0.016158493703992517,
+      "time": 0.7799999999999304
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.7898999999999293,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": -0.01782969317254027,
+      "time": 0.7899999999999293
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.7998999999999282,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": -0.01858893275123764,
+      "time": 0.7999999999999282
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.8098999999999271,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": -0.018416843806655852,
+      "time": 0.8099999999999271
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.819899999999926,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": -0.017340348758029273,
+      "time": 0.819999999999926
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.8298999999999249,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": -0.015430417468802568,
+      "time": 0.8299999999999249
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.8398999999999238,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": -0.012797696848970466,
+      "time": 0.8399999999999238
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.8498999999999227,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": -0.009586271205372986,
+      "time": 0.8499999999999227
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.8598999999999216,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": -0.00596589791825249,
+      "time": 0.8599999999999216
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.8698999999999205,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": -0.0021231313550164645,
+      "time": 0.8699999999999205
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.8798999999999194,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.0017482054415920978,
+      "time": 0.8799999999999194
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.8898999999999183,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.0054567187023920535,
+      "time": 0.8899999999999183
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.8998999999999172,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.00882283012230656,
+      "time": 0.8999999999999172
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.9098999999999161,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.011687394795819385,
+      "time": 0.9099999999999161
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.919899999999915,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.013919141308218915,
+      "time": 0.919999999999915
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.9298999999999139,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.015420590562064225,
+      "time": 0.9299999999999139
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.9398999999999128,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.01613219170485042,
+      "time": 0.9399999999999128
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.9498999999999117,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.016034506587682764,
+      "time": 0.9499999999999117
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.9598999999999106,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.015148373715251483,
+      "time": 0.9599999999999106
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.9698999999999095,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.01353308361038634,
+      "time": 0.9699999999999095
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.9798999999999084,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.011282694906872066,
+      "time": 0.9799999999999084
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.9898999999999073,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.008520709572139292,
+      "time": 0.9899999999999073
+    },
+    {
+      "contact_count": 0,
+      "contact_evaluation_time": 0.9998999999999062,
+      "contact_normal_force_model_units": 0.0,
+      "diagnostic_command": 0.0,
+      "foot_contact_count": 0,
+      "foot_contact_points": [],
+      "foot_normal_force_model_units": 0.0,
+      "slider_mm": 0.00539340221991833,
+      "time": 0.9999999999999062
+    }
+  ],
+  "scope": "Rust/native mechanical diagnostic, no neural controller"
+}

@@ -1,0 +1,25 @@
+{
+  "source_sha256": "6be9a4e14f1828480c2bf717c8fa641a86172936e60644456c4e6c428d5629b9",
+  "executed_functions": [
+    "tanh_like",
+    "step_forward"
+  ],
+  "package_imported": false,
+  "tanh_max_abs_errors": [
+    2.220446049250313e-16,
+    1.1102230246251565e-16,
+    2.220446049250313e-16
+  ],
+  "paper_equation5_epsilon_differences": [
+    4.476855146595682e-07,
+    4.474391218645124e-07,
+    4.476855146595682e-07
+  ],
+  "gamma_mapping": "r0 = -gamma; author denominator adds 1e-6",
+  "step_max_abs_error": 1.2212453270876722e-15,
+  "zero_input_zero_state_exact": true,
+  "matrix_orientation": "pre x post",
+  "scope": "FP64 equation checks with synthetic inputs; not a fitted circuit replication",
+  "biological_validation_passed": false,
+  "malecns_transfer_enabled": false
+}

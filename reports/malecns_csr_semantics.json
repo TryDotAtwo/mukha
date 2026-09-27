@@ -1,0 +1,15 @@
+{
+  "scope": "Byte hashes and structural semantics of the retained incoming CSR; no physiological sign or complete-neuron claim",
+  "graph_manifest_sha256": "b30e21078c0479ac288e7f9d3b7cb2c9eb76aa3b9707f3a2b9fa6a92bb822ef3",
+  "nodes": 167216,
+  "edges": 25587572,
+  "retained_contacts": 124193283,
+  "self_edges": 102,
+  "isolated_nodes": 548,
+  "row_monotonic": true,
+  "indices_in_range": true,
+  "rows_strictly_sorted": true,
+  "unique_body_ids": true,
+  "unique_source_rows": true,
+  "passed": true
+}

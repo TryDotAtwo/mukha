@@ -1,0 +1,21 @@
+{
+  "source": "C:\\Users\\Иван Литвак\\Documents\\ChatGPT\\Муха",
+  "destination": "D:\\Муха",
+  "copied_files": 31357,
+  "copied_directories": 4194,
+  "copied_logical_bytes": 4898934200,
+  "all_file_sha256_equal": true,
+  "source_and_destination_git_status_equal": true,
+  "smoke_tests": [
+    "MuJoCo harness model load",
+    "native rocket ABI",
+    "one full-graph CUDA step on 167216 neurons and 25587572 edges"
+  ],
+  "notes": "Source Git branch codex/faithful-fly has no commits; all project files are untracked. Includes data, build, target, reports, .git and project caches.",
+  "source_files_removed": true,
+  "source_empty_root_held_open": true,
+  "c_free_before_removal_bytes": 13462982656,
+  "c_free_after_removal_bytes": 18324004864,
+  "observed_c_free_increase_bytes": 4861022208,
+  "after_removal_smoke": "MuJoCo harness, rocket ABI and one full-graph CUDA step passed from D:\\Муха after C: files removed"
+}

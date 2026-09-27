@@ -1,0 +1,22 @@
+{
+  "source_xml_sha256": "d67ff06d0c684599f00d5f33f8f8ac8ced01ab994c41341b551f8148b6d8aa0b",
+  "joint": "joint_LFTibia_pitch",
+  "joint_q_range_rad": [
+    0.4789,
+    2.502
+  ],
+  "body_origins": {
+    "proximal": "LFTrochanter",
+    "knee": "LFTibia",
+    "distal": "LFTarsus1"
+  },
+  "geometric_measure": "3D interior angle at tibia body origin between proximal trochanter origin and distal tarsus1 origin, with all other joints at source default-pose keyframe",
+  "sampled_q_count": 201,
+  "interior_angle_deg_at_q_min": 152.77806790820145,
+  "interior_angle_deg_at_q_max": 44.07451915518491,
+  "all_sampled_q_increases_reduce_interior_angle": true,
+  "qualitative_direction": "Increasing q flexes; decreasing q extends in this FlyMimic geometry.",
+  "mamiya_recorded_angle_direction": "High measured angle extends; low flexes (reports/mamiya_claw_angle_direction.json).",
+  "exact_mamiya_to_flymimic_angle_calibration": false,
+  "malecns_snpp50_tuning_identified": false
+}

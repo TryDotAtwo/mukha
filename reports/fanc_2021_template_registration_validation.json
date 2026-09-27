@@ -1,0 +1,37 @@
+{
+  "scope": "Same-cell check of FANC 2021 native\u2192published female VNC template registration",
+  "native_manifest_sha256": "adb7682e951df2825c72b0b5bf9fb91b0ce5203d0c2f013c64c0f569ed8dc8d8",
+  "template_manifest_sha256": "2b3a3e462c5e8b725634eaa5ec51404406072473b5c9751a80c6852efda3b2b1",
+  "transform_manifest_sha256": "b9c44b34d79c5ee217e0c4a5e082ac62d5364ec349e82226029e9c3e065e0a18",
+  "route": [
+    "FANC",
+    "FANCum_fixed",
+    "JRCVNC2018F_reflected",
+    "JRCVNC2018F"
+  ],
+  "published_template_swc_units": "nm; divide by 1000 for flybrains micrometres",
+  "results": [
+    {
+      "fanc_neuron_id": 581,
+      "nodes": 1689,
+      "pointwise_error": {
+        "median_um": 6.403124221266514e-06,
+        "p90_um": 1.0488088487469492e-05,
+        "max_um": 1.7378147197265273e-05
+      },
+      "node_and_parent_sequences_identical": true
+    },
+    {
+      "fanc_neuron_id": 9001,
+      "nodes": 1655,
+      "pointwise_error": {
+        "median_um": 6.633249596098959e-06,
+        "p90_um": 1.1224972144641528e-05,
+        "max_um": 2.0808652058343445e-05
+      },
+      "node_and_parent_sequences_identical": true
+    }
+  ],
+  "validates_2024_mesh_to_2021_swc_identity": false,
+  "validates_manc_cell_identity": false
+}

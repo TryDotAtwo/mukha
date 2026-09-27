@@ -1,0 +1,28 @@
+{
+  "scope": "Second preregistered sugar/bitter pair on the original full Shiu graph; not MaleCNS transfer or complete biological replication",
+  "author_commit": "91bdd1e7dcf193f3e7ca5a8933497fcef63b7960",
+  "reference": "Brian2 2.10.1, NumPy backend, FP64, 0.1 ms, 10000 ticks, 127400 neurons, 14687178 synapse rows",
+  "stimulus": "21 sugar cells at 100 Hz in both conditions, 21 bitter cells at 0 or 100 Hz; independent PCG64 seeds 19303 and 19304; identical sugar event list in both conditions; 68.75 mV recorded event jump",
+  "preregistered_inputs": {
+    "hf_commit": "b85d399160eb33255751cf87dc781ff148db36b7",
+    "manifest_sha256": "a7688dcab432c4b1faa06b35016cba0699ef29d422fdda592db4b4f12d6767b7",
+    "control_protocol_sha256": "37d1d98fd68b3dbdce3b54d8b141ef77237286dbebe494124e7f2a93ecaaa3fe",
+    "bitter_protocol_sha256": "b8313ea736eea73497e6eb1d1f910f5bf8e5cdaed37f82c2676b1799e8906a5f"
+  },
+  "control": {
+    "network_spikes": 9447,
+    "mn9_spikes": 60,
+    "hf_commit": "6c680d1298814e90bbd05047b1f9b12af29bc675",
+    "manifest_sha256": "2e26cd72217d1af6d9cbfeb9bc44fdf9a2609b11e36cf14168589587307cd7db",
+    "spikes_sha256": "9ddb498d18a8afd5ae751dd64cae02a6826966df543d2f8cc44df97c47fd266c"
+  },
+  "bitter": {
+    "network_spikes": 8951,
+    "mn9_spikes": 7,
+    "hf_commit": "a65ee483b18d2980569991c3e1a6c5a429163a84",
+    "manifest_sha256": "d12f1d4d2e978f0b15de466c8983f6ad60e04bbcd78fdb5613a04220bcae85c2",
+    "spikes_sha256": "3deb2c3e7176b49ace48dad175a8218b5e8d66a42b72798f13e98c6bc4068f27"
+  },
+  "verified": "All six archived protocol/report/spike objects passed SHA256 and byte-count checks in Molab; sugar events compared equal across conditions. New results have not yet been cross-checked against native MaleCNS or against held-out biological recordings.",
+  "biological_gate_complete": false
+}

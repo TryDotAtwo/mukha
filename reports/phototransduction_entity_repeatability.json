@@ -1,0 +1,17 @@
+{
+  "scope": "Per-microvillus RNG repeated 100 ms runs; no statistical equivalence or checkpoint claim",
+  "bitwise_trace_equal": true,
+  "max_abs_difference": {
+    "tick": 0.0,
+    "dark_mv": 0.0,
+    "light_mv": 0.0,
+    "dark_ns": 0.0,
+    "light_ns": 0.0
+  },
+  "hashes": {
+    "build\\phototransduction_entity_repeat_0.csv": "c5655d7d460dc42c6b3d6fee803724024fb60bbecbd873f58811dec09120343c",
+    "build\\phototransduction_entity_repeat_1.csv": "c5655d7d460dc42c6b3d6fee803724024fb60bbecbd873f58811dec09120343c",
+    "build\\phototransduction_replay_probe.exe": "c49c72dc64de27fe72f3cc0c18f0d17080d3cc0cdcda4f31d32c7df6186f7973",
+    "native\\phototransduction_safe.cuh": "4a6d0a73dc52eb9e86c4a17deb1a321e9db61215a5c8c104be1fd4723c22288b"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "scope": "Single-edge engineering diagnostic; not a MaleCNS circuit or biological calibration",
+  "ticks": 20000,
+  "dt_seconds": 0.0001,
+  "delay_ticks": 10,
+  "membrane_substeps": 10,
+  "schedule": "End-of-photoreceptor-tick sample; delayed voltage drives current held over ten postsynaptic substeps",
+  "max_abs_errors_V_n": [
+    7.105427357601002e-15,
+    6.938893903907228e-18
+  ],
+  "first_effect_zero_based_ticks_delayed_instant": [
+    5139,
+    5129
+  ],
+  "disconnected_equals_dark": true,
+  "max_voltage_effect_mv": 1.8503841919606856,
+  "hashes": {
+    "build\\phototransduction_onset.csv": "7be854eb78c2b628d7a92dec7b9d90d6eafcb2e9a33fbe72346771a7e14a1e13",
+    "build\\graded_photoreceptor_input.bin": "839c82c9fc7b6d2b49fc7b61e08340666820eda2b6c832d516992da31c7bee26",
+    "build\\graded_path_trace.bin": "0da7fb5c2776b4fd841408c6731765019f12ad83c01cd280ce828c85fe423d0c",
+    "build\\graded_path_probe.exe": "61b88a33b709bde4491d421e335e9bb44cf876c0d229793c7260865e485317dc",
+    "native\\graded_path_probe.cu": "ae1b5c6681799ab699ce6fc8188667cf276de0f27d647f87c74f39c7cab2d0b1",
+    "build\\morris_author.cu": "3deaf3d0e83564e884794e79d29f458aa6a797f9a5da033274e9b05e0c54f0f8",
+    "tools\\check_graded_path.py": "941d1565fc92cfcfcbc956718a332250a79b4d7e8e59ddf2d6a5b0ec466f9dce"
+  }
+}

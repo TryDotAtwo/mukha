@@ -1,0 +1,181 @@
+{
+  "scope": "MaleCNS v1.0 SWC geometry integrity, no cross-volume registration or motor identity acceptance",
+  "source_manifest_sha256": "a7b8713107c5dccb9f17e424cea546add846e4baa8b1624efd0c9dea95cb14e1",
+  "coordinate_unit": "8 nm voxels; derived lengths in micrometers",
+  "cells": {
+    "800158": {
+      "nodes": 9940,
+      "roots": 1,
+      "component_node_counts_descending": [
+        9940
+      ],
+      "largest_component_node_fraction": 1.0,
+      "total_skeleton_cable_um": 7957.4717064699,
+      "bbox_extent_um": [
+        74.752,
+        117.248,
+        183.296
+      ]
+    },
+    "800621": {
+      "nodes": 5783,
+      "roots": 1,
+      "component_node_counts_descending": [
+        5783
+      ],
+      "largest_component_node_fraction": 1.0,
+      "total_skeleton_cable_um": 4733.076205631456,
+      "bbox_extent_um": [
+        96.768,
+        132.608,
+        183.296
+      ]
+    },
+    "800636": {
+      "nodes": 4124,
+      "roots": 2,
+      "component_node_counts_descending": [
+        4112,
+        12
+      ],
+      "largest_component_node_fraction": 0.997090203685742,
+      "total_skeleton_cable_um": 3533.6649579225136,
+      "bbox_extent_um": [
+        104.96000000000001,
+        92.672,
+        140.8
+      ]
+    },
+    "800911": {
+      "nodes": 6456,
+      "roots": 1,
+      "component_node_counts_descending": [
+        6456
+      ],
+      "largest_component_node_fraction": 1.0,
+      "total_skeleton_cable_um": 5305.918995532073,
+      "bbox_extent_um": [
+        110.592,
+        125.44,
+        148.992
+      ]
+    },
+    "801234": {
+      "nodes": 7037,
+      "roots": 1,
+      "component_node_counts_descending": [
+        7037
+      ],
+      "largest_component_node_fraction": 1.0,
+      "total_skeleton_cable_um": 5765.1412429904385,
+      "bbox_extent_um": [
+        68.096,
+        129.024,
+        120.32000000000001
+      ]
+    },
+    "804257": {
+      "nodes": 3477,
+      "roots": 1,
+      "component_node_counts_descending": [
+        3477
+      ],
+      "largest_component_node_fraction": 1.0,
+      "total_skeleton_cable_um": 2984.6749004887733,
+      "bbox_extent_um": [
+        83.456,
+        91.136,
+        105.98400000000001
+      ]
+    },
+    "809935": {
+      "nodes": 2707,
+      "roots": 1,
+      "component_node_counts_descending": [
+        2707
+      ],
+      "largest_component_node_fraction": 1.0,
+      "total_skeleton_cable_um": 2300.576832171053,
+      "bbox_extent_um": [
+        89.60000000000001,
+        107.52,
+        159.744
+      ]
+    },
+    "812953": {
+      "nodes": 1802,
+      "roots": 2,
+      "component_node_counts_descending": [
+        1782,
+        20
+      ],
+      "largest_component_node_fraction": 0.9889012208657048,
+      "total_skeleton_cable_um": 1696.979864946612,
+      "bbox_extent_um": [
+        58.368,
+        93.184,
+        160.768
+      ]
+    },
+    "815344": {
+      "nodes": 8975,
+      "roots": 3,
+      "component_node_counts_descending": [
+        8889,
+        59,
+        27
+      ],
+      "largest_component_node_fraction": 0.9904178272980502,
+      "total_skeleton_cable_um": 7293.122216093803,
+      "bbox_extent_um": [
+        111.104,
+        123.904,
+        142.336
+      ]
+    },
+    "815678": {
+      "nodes": 4282,
+      "roots": 1,
+      "component_node_counts_descending": [
+        4282
+      ],
+      "largest_component_node_fraction": 1.0,
+      "total_skeleton_cable_um": 3760.7105044969553,
+      "bbox_extent_um": [
+        109.056,
+        149.504,
+        136.192
+      ]
+    },
+    "830514": {
+      "nodes": 7126,
+      "roots": 1,
+      "component_node_counts_descending": [
+        7126
+      ],
+      "largest_component_node_fraction": 1.0,
+      "total_skeleton_cable_um": 5824.819307671769,
+      "bbox_extent_um": [
+        99.328,
+        122.36800000000001,
+        174.08
+      ]
+    },
+    "928579": {
+      "nodes": 3704,
+      "roots": 1,
+      "component_node_counts_descending": [
+        3704
+      ],
+      "largest_component_node_fraction": 1.0,
+      "total_skeleton_cable_um": 3102.0268564869275,
+      "bbox_extent_um": [
+        84.992,
+        115.2,
+        172.544
+      ]
+    }
+  },
+  "matched_to_manc_skeleton": false,
+  "biological_gate_passed": false
+}

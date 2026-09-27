@@ -1,0 +1,23 @@
+{
+  "scope": "Measured other-specimen microCT optical rays aligned to FAFB hex grid via published Mi1/lens map; no MaleCNS mapping",
+  "source_lock_sha256": "b1bc72bae13056e81da94a1aa7bfe2a9cbdc305516aa3df40c8f4d06239a0c84",
+  "source_eyemap_rdata_sha256": "c3f63c69afdc3f381cdafabb1d376b8e25ec5a71bce67550ae42fcdd79cf618e",
+  "prior_fafb_registration_sha256": "c0c075b092d7e05b2a0bb77c740a9e5879ca31d790f0e13d8aab9d64430a9dcb",
+  "right_lenses_with_hex": 852,
+  "matched_fafb_hex_rays": 778,
+  "unmatched_right_lenses": 74,
+  "fafb_hex_bounds": {
+    "fafb_hex_x": {
+      "min": -17,
+      "max": 20
+    },
+    "fafb_hex_y": {
+      "min": -17,
+      "max": 18
+    }
+  },
+  "output_csv_sha256": "1276926dac9d071063c215569d18b5e64a4763a91a609aab706c2b012c166b2e",
+  "male_cns_body_ids_assigned": 0,
+  "enabled": false,
+  "limitation": "FAFB and MaleCNS are different specimens with different hex origins; no cross-dataset landmarks or body rotation were validated."
+}

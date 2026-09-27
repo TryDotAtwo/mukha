@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "scope": "Same Windows build and GPU, 3 receptors x 30001 microvilli, trusted checkpoint bytes; no cross-platform equivalence",
+  "checkpoint_tick": 500,
+  "final_tick": 1000,
+  "full_final_bytes_equal": true,
+  "snapshot_bytes": 5580618,
+  "final_sha256": "7168902f3d3185d987d23cb8b0675ccc3ab2de5cb897b72384db2728f978bda4",
+  "midpoint_sha256": "d0ef9fcecce8d4b32fe31434c87ee26d14a7bcd4531978e8a5d71bc6639461a8",
+  "binary_sha256": "7e1314780207f851ec1fbcfdec09ccfe40e767ca0728ec72545519afb58aa16d",
+  "build_identity": "7c5a224de3c81e197cfa8e3ba7775453a06c4e8a5c1a5573b2ba5f24a9e076c2",
+  "rejected_without_state_mutation": [
+    "truncated",
+    "trailing",
+    "tick",
+    "seed",
+    "population",
+    "build",
+    "molecular_payload",
+    "rng_payload",
+    "nan_voltage",
+    "gate_out_of_range",
+    "nan_feedback"
+  ]
+}

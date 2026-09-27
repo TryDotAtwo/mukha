@@ -1,0 +1,718 @@
+{
+  "optic_index_report_sha256": "4c905de1ec21acd494490e666c8fa669bfe97e152269efd6541d0e847dec76c2",
+  "sensory_boundary_report_sha256": "4159303bbd2559cd72bba50f35678c4682285622c842605791e9888b53bd5fe2",
+  "assignment_csv_sha256": "aceb35ea500d993cd3ef22b7efbb4724a2f7913d41ace2c3add2a7e396832967",
+  "sensory_cells_feather_sha256": "e42f4fc2af3d3367ce12efe690add5f3fd5b6312c1bdd4f4276897b3e66d71c4",
+  "sensory_population": 6098,
+  "author_column_assignment_rows": 4392,
+  "receptor_assignments_in_sensory_boundary": 2628,
+  "l1_assignments_outside_sensory_boundary": 1764,
+  "all_r7_r8_body_ids_graph_indices_and_types_match": true,
+  "assigned_by_role": {
+    "L1": 1764,
+    "R8": 1329,
+    "R7": 1299
+  },
+  "complete_sensory_partition": {
+    "R1-R6_without_column_assignment": 3377,
+    "R7_R8_with_author_column": 2628,
+    "R7_R8_like_without_column": 86,
+    "HBeyelet": 7
+  },
+  "unassigned_r7_r8_like_by_type": {
+    "R7R8_unclear": 85,
+    "R7_unclear": 1
+  },
+  "unassigned_r7_r8_like": [
+    {
+      "bodyId": 163975,
+      "graph_index": 111576,
+      "type": "R7_unclear",
+      "rootSide": "R",
+      "incoming_rows": 4,
+      "outgoing_rows": 26
+    },
+    {
+      "bodyId": 208820,
+      "graph_index": 120545,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 3,
+      "outgoing_rows": 11
+    },
+    {
+      "bodyId": 397834,
+      "graph_index": 125516,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 1,
+      "outgoing_rows": 8
+    },
+    {
+      "bodyId": 500013,
+      "graph_index": 125943,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 2,
+      "outgoing_rows": 7
+    },
+    {
+      "bodyId": 500052,
+      "graph_index": 125976,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 4,
+      "outgoing_rows": 12
+    },
+    {
+      "bodyId": 500063,
+      "graph_index": 125984,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 3,
+      "outgoing_rows": 4
+    },
+    {
+      "bodyId": 500068,
+      "graph_index": 125988,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 4,
+      "outgoing_rows": 4
+    },
+    {
+      "bodyId": 500076,
+      "graph_index": 125993,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 4,
+      "outgoing_rows": 9
+    },
+    {
+      "bodyId": 500083,
+      "graph_index": 125997,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 7,
+      "outgoing_rows": 15
+    },
+    {
+      "bodyId": 500088,
+      "graph_index": 126002,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 1,
+      "outgoing_rows": 1
+    },
+    {
+      "bodyId": 500090,
+      "graph_index": 126004,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 3,
+      "outgoing_rows": 2
+    },
+    {
+      "bodyId": 500096,
+      "graph_index": 126008,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 3,
+      "outgoing_rows": 6
+    },
+    {
+      "bodyId": 500099,
+      "graph_index": 126010,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 2,
+      "outgoing_rows": 8
+    },
+    {
+      "bodyId": 500100,
+      "graph_index": 126011,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 2,
+      "outgoing_rows": 4
+    },
+    {
+      "bodyId": 500104,
+      "graph_index": 126014,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 2,
+      "outgoing_rows": 1
+    },
+    {
+      "bodyId": 500106,
+      "graph_index": 126015,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 2,
+      "outgoing_rows": 6
+    },
+    {
+      "bodyId": 500107,
+      "graph_index": 126016,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 2,
+      "outgoing_rows": 2
+    },
+    {
+      "bodyId": 500115,
+      "graph_index": 126022,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 2,
+      "outgoing_rows": 12
+    },
+    {
+      "bodyId": 500119,
+      "graph_index": 126023,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 2,
+      "outgoing_rows": 0
+    },
+    {
+      "bodyId": 500123,
+      "graph_index": 126026,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 3,
+      "outgoing_rows": 0
+    },
+    {
+      "bodyId": 500135,
+      "graph_index": 126032,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 6,
+      "outgoing_rows": 19
+    },
+    {
+      "bodyId": 500136,
+      "graph_index": 126033,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 1,
+      "outgoing_rows": 0
+    },
+    {
+      "bodyId": 500141,
+      "graph_index": 126036,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 2,
+      "outgoing_rows": 0
+    },
+    {
+      "bodyId": 500142,
+      "graph_index": 126037,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 1,
+      "outgoing_rows": 1
+    },
+    {
+      "bodyId": 500147,
+      "graph_index": 126042,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 4,
+      "outgoing_rows": 0
+    },
+    {
+      "bodyId": 500149,
+      "graph_index": 126044,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 5,
+      "outgoing_rows": 12
+    },
+    {
+      "bodyId": 500159,
+      "graph_index": 126049,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 1,
+      "outgoing_rows": 1
+    },
+    {
+      "bodyId": 500160,
+      "graph_index": 126050,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 1,
+      "outgoing_rows": 4
+    },
+    {
+      "bodyId": 500164,
+      "graph_index": 126054,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 2,
+      "outgoing_rows": 1
+    },
+    {
+      "bodyId": 500171,
+      "graph_index": 126055,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 2,
+      "outgoing_rows": 3
+    },
+    {
+      "bodyId": 500180,
+      "graph_index": 126060,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 1,
+      "outgoing_rows": 0
+    },
+    {
+      "bodyId": 500183,
+      "graph_index": 126062,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 1,
+      "outgoing_rows": 0
+    },
+    {
+      "bodyId": 500184,
+      "graph_index": 126063,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 0,
+      "outgoing_rows": 6
+    },
+    {
+      "bodyId": 500188,
+      "graph_index": 126067,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 1,
+      "outgoing_rows": 0
+    },
+    {
+      "bodyId": 500189,
+      "graph_index": 126068,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 2,
+      "outgoing_rows": 0
+    },
+    {
+      "bodyId": 500192,
+      "graph_index": 126070,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 5,
+      "outgoing_rows": 5
+    },
+    {
+      "bodyId": 500197,
+      "graph_index": 126071,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 2,
+      "outgoing_rows": 0
+    },
+    {
+      "bodyId": 500199,
+      "graph_index": 126073,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 0,
+      "outgoing_rows": 2
+    },
+    {
+      "bodyId": 500203,
+      "graph_index": 126076,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 2,
+      "outgoing_rows": 0
+    },
+    {
+      "bodyId": 500206,
+      "graph_index": 126078,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 1,
+      "outgoing_rows": 0
+    },
+    {
+      "bodyId": 500210,
+      "graph_index": 126082,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 1,
+      "outgoing_rows": 0
+    },
+    {
+      "bodyId": 500211,
+      "graph_index": 126083,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 2,
+      "outgoing_rows": 0
+    },
+    {
+      "bodyId": 500212,
+      "graph_index": 126084,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 3,
+      "outgoing_rows": 0
+    },
+    {
+      "bodyId": 500214,
+      "graph_index": 126085,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 2,
+      "outgoing_rows": 0
+    },
+    {
+      "bodyId": 500215,
+      "graph_index": 126086,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 1,
+      "outgoing_rows": 0
+    },
+    {
+      "bodyId": 500220,
+      "graph_index": 126087,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 0,
+      "outgoing_rows": 0
+    },
+    {
+      "bodyId": 500221,
+      "graph_index": 126088,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 1,
+      "outgoing_rows": 0
+    },
+    {
+      "bodyId": 500224,
+      "graph_index": 126089,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 1,
+      "outgoing_rows": 0
+    },
+    {
+      "bodyId": 500225,
+      "graph_index": 126090,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 1,
+      "outgoing_rows": 4
+    },
+    {
+      "bodyId": 500226,
+      "graph_index": 126091,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 0,
+      "outgoing_rows": 0
+    },
+    {
+      "bodyId": 500236,
+      "graph_index": 126095,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 3,
+      "outgoing_rows": 20
+    },
+    {
+      "bodyId": 500238,
+      "graph_index": 126097,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 1,
+      "outgoing_rows": 3
+    },
+    {
+      "bodyId": 500239,
+      "graph_index": 126098,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 0,
+      "outgoing_rows": 3
+    },
+    {
+      "bodyId": 500241,
+      "graph_index": 126100,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 2,
+      "outgoing_rows": 0
+    },
+    {
+      "bodyId": 500244,
+      "graph_index": 126102,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 2,
+      "outgoing_rows": 0
+    },
+    {
+      "bodyId": 500250,
+      "graph_index": 126105,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 1,
+      "outgoing_rows": 2
+    },
+    {
+      "bodyId": 500253,
+      "graph_index": 126106,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 1,
+      "outgoing_rows": 0
+    },
+    {
+      "bodyId": 500255,
+      "graph_index": 126108,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 1,
+      "outgoing_rows": 0
+    },
+    {
+      "bodyId": 500256,
+      "graph_index": 126109,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 3,
+      "outgoing_rows": 0
+    },
+    {
+      "bodyId": 500259,
+      "graph_index": 126111,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 0,
+      "outgoing_rows": 4
+    },
+    {
+      "bodyId": 500261,
+      "graph_index": 126113,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 1,
+      "outgoing_rows": 3
+    },
+    {
+      "bodyId": 500264,
+      "graph_index": 126114,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 0,
+      "outgoing_rows": 0
+    },
+    {
+      "bodyId": 500265,
+      "graph_index": 126115,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 1,
+      "outgoing_rows": 0
+    },
+    {
+      "bodyId": 500266,
+      "graph_index": 126116,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 0,
+      "outgoing_rows": 3
+    },
+    {
+      "bodyId": 500267,
+      "graph_index": 126117,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 1,
+      "outgoing_rows": 0
+    },
+    {
+      "bodyId": 500268,
+      "graph_index": 126118,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 1,
+      "outgoing_rows": 0
+    },
+    {
+      "bodyId": 500270,
+      "graph_index": 126120,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 1,
+      "outgoing_rows": 0
+    },
+    {
+      "bodyId": 500272,
+      "graph_index": 126121,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 1,
+      "outgoing_rows": 15
+    },
+    {
+      "bodyId": 500274,
+      "graph_index": 126123,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 1,
+      "outgoing_rows": 0
+    },
+    {
+      "bodyId": 500287,
+      "graph_index": 126128,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 1,
+      "outgoing_rows": 0
+    },
+    {
+      "bodyId": 500291,
+      "graph_index": 126130,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 1,
+      "outgoing_rows": 0
+    },
+    {
+      "bodyId": 500296,
+      "graph_index": 126132,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 2,
+      "outgoing_rows": 0
+    },
+    {
+      "bodyId": 500299,
+      "graph_index": 126133,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 1,
+      "outgoing_rows": 0
+    },
+    {
+      "bodyId": 500302,
+      "graph_index": 126135,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 1,
+      "outgoing_rows": 0
+    },
+    {
+      "bodyId": 500303,
+      "graph_index": 126136,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 1,
+      "outgoing_rows": 0
+    },
+    {
+      "bodyId": 500304,
+      "graph_index": 126137,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 1,
+      "outgoing_rows": 0
+    },
+    {
+      "bodyId": 500307,
+      "graph_index": 126139,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 1,
+      "outgoing_rows": 0
+    },
+    {
+      "bodyId": 500309,
+      "graph_index": 126141,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 1,
+      "outgoing_rows": 5
+    },
+    {
+      "bodyId": 500310,
+      "graph_index": 126142,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 1,
+      "outgoing_rows": 0
+    },
+    {
+      "bodyId": 500311,
+      "graph_index": 126143,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 1,
+      "outgoing_rows": 0
+    },
+    {
+      "bodyId": 500314,
+      "graph_index": 126145,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 1,
+      "outgoing_rows": 0
+    },
+    {
+      "bodyId": 500317,
+      "graph_index": 126146,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 1,
+      "outgoing_rows": 0
+    },
+    {
+      "bodyId": 500329,
+      "graph_index": 126151,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 1,
+      "outgoing_rows": 0
+    },
+    {
+      "bodyId": 500332,
+      "graph_index": 126153,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 2,
+      "outgoing_rows": 0
+    },
+    {
+      "bodyId": 500335,
+      "graph_index": 126154,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 1,
+      "outgoing_rows": 1
+    },
+    {
+      "bodyId": 916989,
+      "graph_index": 164460,
+      "type": "R7R8_unclear",
+      "rootSide": "R",
+      "incoming_rows": 1,
+      "outgoing_rows": 4
+    }
+  ],
+  "optical_ray_assignments": 0,
+  "scope": "Author column-to-MaleCNS anatomical identity only; cannot join other-specimen eyemap rays or infer R1-R6 or spectral response."
+}

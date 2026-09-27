@@ -1,0 +1,506 @@
+{
+  "controls": 42,
+  "samples": [
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.0,
+      "time": 0.009999999999999995
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.0,
+      "time": 0.019999999999999934
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.0,
+      "time": 0.029999999999999874
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.0,
+      "time": 0.04000000000000012
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.0,
+      "time": 0.050000000000000405
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.0,
+      "time": 0.06000000000000069
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.0,
+      "time": 0.07000000000000098
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.0,
+      "time": 0.08000000000000126
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.0,
+      "time": 0.09000000000000155
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.0,
+      "time": 0.10000000000000184
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.0,
+      "time": 0.11000000000000212
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.0,
+      "time": 0.12000000000000241
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.0,
+      "time": 0.130000000000002
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.0,
+      "time": 0.1400000000000009
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.0,
+      "time": 0.1499999999999998
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.0,
+      "time": 0.1599999999999987
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.0,
+      "time": 0.1699999999999976
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.0,
+      "time": 0.1799999999999965
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.0,
+      "time": 0.1899999999999954
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.0,
+      "time": 0.1999999999999943
+    },
+    {
+      "diagnostic_command": 1.0,
+      "slider_mm": 0.0,
+      "time": 0.2099999999999932
+    },
+    {
+      "diagnostic_command": 1.0,
+      "slider_mm": 0.00005665097766622926,
+      "time": 0.2199999999999921
+    },
+    {
+      "diagnostic_command": 1.0,
+      "slider_mm": 0.0009745115099615249,
+      "time": 0.229999999999991
+    },
+    {
+      "diagnostic_command": 1.0,
+      "slider_mm": 0.003509119765889392,
+      "time": 0.2399999999999899
+    },
+    {
+      "diagnostic_command": 1.0,
+      "slider_mm": 0.007635588166001656,
+      "time": 0.2499999999999888
+    },
+    {
+      "diagnostic_command": 1.0,
+      "slider_mm": 0.01289558493378765,
+      "time": 0.2599999999999877
+    },
+    {
+      "diagnostic_command": 1.0,
+      "slider_mm": 0.018668832747974116,
+      "time": 0.2699999999999866
+    },
+    {
+      "diagnostic_command": 1.0,
+      "slider_mm": 0.02435284092481095,
+      "time": 0.2799999999999855
+    },
+    {
+      "diagnostic_command": 1.0,
+      "slider_mm": 0.029466088985390534,
+      "time": 0.2899999999999844
+    },
+    {
+      "diagnostic_command": 1.0,
+      "slider_mm": 0.03369243237872607,
+      "time": 0.2999999999999833
+    },
+    {
+      "diagnostic_command": 1.0,
+      "slider_mm": 0.03688404418380764,
+      "time": 0.3099999999999822
+    },
+    {
+      "diagnostic_command": 1.0,
+      "slider_mm": 0.039049968568774275,
+      "time": 0.3199999999999811
+    },
+    {
+      "diagnostic_command": 1.0,
+      "slider_mm": 0.04038281448949452,
+      "time": 0.32999999999998
+    },
+    {
+      "diagnostic_command": 1.0,
+      "slider_mm": 0.04115757791913011,
+      "time": 0.3399999999999789
+    },
+    {
+      "diagnostic_command": 1.0,
+      "slider_mm": 0.04159621477754168,
+      "time": 0.3499999999999778
+    },
+    {
+      "diagnostic_command": 1.0,
+      "slider_mm": 0.04184077274209955,
+      "time": 0.35999999999997667
+    },
+    {
+      "diagnostic_command": 1.0,
+      "slider_mm": 0.04198245406529195,
+      "time": 0.36999999999997557
+    },
+    {
+      "diagnostic_command": 1.0,
+      "slider_mm": 0.04207547517309374,
+      "time": 0.37999999999997447
+    },
+    {
+      "diagnostic_command": 1.0,
+      "slider_mm": 0.04214779348942711,
+      "time": 0.38999999999997337
+    },
+    {
+      "diagnostic_command": 1.0,
+      "slider_mm": 0.04221135234215391,
+      "time": 0.39999999999997227
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.04140619633979598,
+      "time": 0.40999999999997117
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.038778724143056824,
+      "time": 0.41999999999997006
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.03429177169167853,
+      "time": 0.42999999999996896
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.028203328884340278,
+      "time": 0.43999999999996786
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.020845219140678824,
+      "time": 0.44999999999996676
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.012605281118921364,
+      "time": 0.45999999999996566
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.003907142089780751,
+      "time": 0.46999999999996456
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": -0.00481137232754993,
+      "time": 0.47999999999996346
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": -0.012952475821387454,
+      "time": 0.48999999999996235
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": -0.019091932949656113,
+      "time": 0.49999999999996125
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": -0.022853673005719548,
+      "time": 0.5099999999999602
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": -0.024465109320773393,
+      "time": 0.519999999999959
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": -0.024275626158307737,
+      "time": 0.529999999999958
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": -0.0227059035288937,
+      "time": 0.5399999999999568
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": -0.020043049895709895,
+      "time": 0.5499999999999557
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": -0.01644494586229811,
+      "time": 0.5599999999999546
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": -0.012107468548767193,
+      "time": 0.5699999999999535
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": -0.007259062433206041,
+      "time": 0.5799999999999524
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": -0.0021488339257579696,
+      "time": 0.5899999999999513
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.002966136816913734,
+      "time": 0.5999999999999502
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.007833625905493087,
+      "time": 0.6099999999999491
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.012218602327887452,
+      "time": 0.619999999999948
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.01591447282113119,
+      "time": 0.6299999999999469
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.018752702332527932,
+      "time": 0.6399999999999458
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.020610368015188823,
+      "time": 0.6499999999999447
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.021415315316907813,
+      "time": 0.6599999999999436
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.021148709482592617,
+      "time": 0.6699999999999425
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.019844908269329845,
+      "time": 0.6799999999999414
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.017588715186577113,
+      "time": 0.6899999999999403
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.014510200520244826,
+      "time": 0.6999999999999392
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.010777393581980831,
+      "time": 0.7099999999999381
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.006587248549782247,
+      "time": 0.719999999999937
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.0021553633985654398,
+      "time": 0.7299999999999359
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": -0.0022950166110576225,
+      "time": 0.7399999999999348
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": -0.0065441546743261825,
+      "time": 0.7499999999999337
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": -0.010386584366495116,
+      "time": 0.7599999999999326
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": -0.013640955064172048,
+      "time": 0.7699999999999315
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": -0.016158493703992517,
+      "time": 0.7799999999999304
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": -0.01782969317254027,
+      "time": 0.7899999999999293
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": -0.01858893275123764,
+      "time": 0.7999999999999282
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": -0.018416843806655852,
+      "time": 0.8099999999999271
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": -0.017340348758029273,
+      "time": 0.819999999999926
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": -0.015430417468802568,
+      "time": 0.8299999999999249
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": -0.012797696848970466,
+      "time": 0.8399999999999238
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": -0.009586271205372986,
+      "time": 0.8499999999999227
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": -0.00596589791825249,
+      "time": 0.8599999999999216
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": -0.0021231313550164645,
+      "time": 0.8699999999999205
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.0017482054415920978,
+      "time": 0.8799999999999194
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.0054567187023920535,
+      "time": 0.8899999999999183
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.00882283012230656,
+      "time": 0.8999999999999172
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.011687394795819385,
+      "time": 0.9099999999999161
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.013919141308218915,
+      "time": 0.919999999999915
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.015420590562064225,
+      "time": 0.9299999999999139
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.01613219170485042,
+      "time": 0.9399999999999128
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.016034506587682764,
+      "time": 0.9499999999999117
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.015148373715251483,
+      "time": 0.9599999999999106
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.01353308361038634,
+      "time": 0.9699999999999095
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.011282694906872066,
+      "time": 0.9799999999999084
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.008520709572139292,
+      "time": 0.9899999999999073
+    },
+    {
+      "diagnostic_command": 0.0,
+      "slider_mm": 0.00539340221991833,
+      "time": 0.9999999999999062
+    }
+  ],
+  "scope": "Rust/native mechanical diagnostic, no neural controller"
+}

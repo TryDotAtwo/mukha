@@ -1,0 +1,89 @@
+{
+  "source_commit": "9ea1131626cd76f7203b74076ef8f0e9cab30bef",
+  "source_xml_sha256": "d67ff06d0c684599f00d5f33f8f8ac8ced01ab994c41341b551f8148b6d8aa0b",
+  "keyframe": "default-pose",
+  "thorax_quaternion_source_wxyz": [
+    1.0,
+    0.00039815,
+    0.0,
+    0.0
+  ],
+  "thorax_quaternion_rotated_wxyz": [
+    0.0,
+    0.0,
+    0.00039815,
+    1.0
+  ],
+  "rotated_xml_sha256": "75eda40f3c3331f72474840727a8e1f0c47582e2670e8d6b40107c788e834f7d",
+  "head_matrix_source": [
+    [
+      1.0000000000000002,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.9999996829532054,
+      -0.0007962998737678187
+    ],
+    [
+      0.0,
+      0.0007962998737678187,
+      0.9999996829532054
+    ]
+  ],
+  "head_matrix_yaw_180": [
+    [
+      -1.0000000000000002,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      -0.9999996829532054,
+      0.0007962998737678187
+    ],
+    [
+      0.0,
+      0.0007962998737678187,
+      0.9999996829532054
+    ]
+  ],
+  "head_position_source_mm": [
+    0.021320000000000002,
+    0.0007715451274181321,
+    4.009236617309727
+  ],
+  "head_position_yaw_180_mm": [
+    -0.021320000000000002,
+    -0.0007715451274181321,
+    4.009236617309727
+  ],
+  "eye_positions_source_mm": [
+    [
+      0.2762200000000001,
+      0.004257491898347847,
+      4.031909400357034
+    ],
+    [
+      0.2762200000000001,
+      -0.003520505635662184,
+      4.031903206736616
+    ]
+  ],
+  "eye_positions_yaw_180_mm": [
+    [
+      -0.2762200000000001,
+      -0.004257491898347847,
+      4.031909400357034
+    ],
+    [
+      -0.2762200000000001,
+      0.003520505635662184,
+      4.031903206736616
+    ]
+  ],
+  "rotation_composition_max_error": 0.0,
+  "fixture_sha256": "332943ca91b81e870d7461d9b522a738eb828a08581fe7f45bfd7838a1dce570",
+  "scope": "Source FlyMimic head orientation feeds synthetic panorama/ray fixture; root yaw is prescribed for diagnosis, no body dynamics, MaleCNS optical registration or KSP camera."
+}

@@ -1,0 +1,18 @@
+{
+  "modes": [
+    "hook_flex",
+    "hook_ext",
+    "club",
+    "claw",
+    "9A",
+    "web"
+  ],
+  "samples": 54,
+  "max_error": 2.842170943040401e-14,
+  "threshold_equality_inactive": true,
+  "invalid_inputs_rejected": 5,
+  "matlab_executed": false,
+  "biological_validation": false,
+  "external_9a_mask_is_analysis_only": true,
+  "source_sha256": "8ac8c133195570d44311437c46e6e10a939404b1258f5df45e307bd7ffaa742b"
+}

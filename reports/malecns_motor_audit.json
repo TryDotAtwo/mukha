@@ -1,0 +1,92 @@
+{
+  "scope": "Source annotation inventory joined to full graph; no enabled motor mapping",
+  "source_sha256": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2",
+  "graph_ids_sha256": "6bad3ab247ccb08f958962dd2a3da97289822bb4fe1e345a936db1c8741e05f8",
+  "table_sha256": "8108d056414b6898f25067bb555cae45dbf660ddf492ac6c67fe22f3890d7bb0",
+  "motor_rows": 815,
+  "leg_motor_rows": 381,
+  "leg_rows_with_manc_id": 360,
+  "leg_rows_without_manc_id": 21,
+  "leg_rows_without_root_side": 381,
+  "counts_by_limb_and_soma_side": [
+    {
+      "limb": "fl",
+      "soma_side": "L",
+      "count": 68
+    },
+    {
+      "limb": "fl",
+      "soma_side": "R",
+      "count": 67
+    },
+    {
+      "limb": "hl",
+      "soma_side": "L",
+      "count": 66
+    },
+    {
+      "limb": "hl",
+      "soma_side": "R",
+      "count": 64
+    },
+    {
+      "limb": "ml",
+      "soma_side": "L",
+      "count": 58
+    },
+    {
+      "limb": "ml",
+      "soma_side": "R",
+      "count": 58
+    }
+  ],
+  "type_labels": {
+    "Acc. ti flexor MN": 47,
+    "Ti flexor MN": 37,
+    "Tr flexor MN": 35,
+    "Sternal posterior rotator MN": 22,
+    "Acc. tr flexor MN": 22,
+    "ltm MN": 21,
+    "Fe reductor MN": 20,
+    "Pleural remotor/abductor MN": 14,
+    "Sternotrochanter MN": 14,
+    "ltm2-femur MN": 12,
+    "Sternal anterior rotator MN": 12,
+    "Ti extensor MN": 12,
+    "Tergotr. MN": 12,
+    "Tr extensor MN": 11,
+    "Ta depressor MN": 9,
+    "ltm1-tibia MN": 9,
+    "None": 8,
+    "Tergopleural/Pleural promotor MN": 8,
+    "MNml80": 6,
+    "Sternal adductor MN": 6,
+    "MNml78": 6,
+    "Ta levator MN": 5,
+    "MNhl65": 3,
+    "MNhl64": 2,
+    "MNml82": 2,
+    "MNml29": 2,
+    "MNhl29": 2,
+    "MNhl02": 2,
+    "MNhl59": 2,
+    "MNml81": 2,
+    "MNhl62": 2,
+    "MNhl88": 2,
+    "MNhl01": 2,
+    "MNhl87": 2,
+    "MNml79": 2,
+    "MNhl60": 2,
+    "MNml77": 2,
+    "MNml83": 1,
+    "MNml76": 1
+  },
+  "mapping_accepted": false,
+  "required_evidence": [
+    "Validate MaleCNS-to-MANC matches and muscle-target evidence, including unresolved cells.",
+    "Resolve effector side; somaSide alone is not proof of peripheral laterality.",
+    "Derive torque signs from anatomical actions and FlyGym joint axes.",
+    "Declare gains, time constants and actuator limits as measured or engineering assumptions.",
+    "Freeze mapping before rocket training and validate single-path interventions."
+  ]
+}

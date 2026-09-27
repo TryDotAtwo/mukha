@@ -1,0 +1,43 @@
+{
+  "scope": "Closed native MaleCNS/FlyMimic/radial-rocket diagnostic checkpoint",
+  "graph_sha256": "4a7c892fe278bc6f1e96548c34c376bf49bce1d589af12911cf047a4cf1bf8f8",
+  "brain_dll_sha256": "e41f83a2005e44b04d6be989683c5596dc5e64e72f06762b9e2d64186f0e5b13",
+  "rocket_dll_sha256": "9e173e6a724df60deb086d26df199025b36bc2df0e03f6f580ab4ffa0d85442a",
+  "body_model_xml_sha256": "9663a534b0ac66f93e2db7f42110d5cac32c1e6d734f3c739a9f16c5af6046bc",
+  "source_report_sha256": "10a4af35f8ebbb9f10b384a271096ba527c17a0dee76e1c641900f93f5cffa02",
+  "pad_report_sha256": "8b15845c0217156a1358c08fff2544c3ac403ba7118f22ce1d435c7df8427875",
+  "checkpoint_tick": 500,
+  "end_tick": 1000,
+  "dt_ms": 0.1,
+  "brain_checkpoint_bytes": 29430080,
+  "body_integration_doubles": 542,
+  "rocket_state_fields": [
+    "time_s",
+    "altitude_m",
+    "velocity_mps",
+    "fuel_kg",
+    "thrust_n",
+    "contact_flag"
+  ],
+  "motor_activation_at_checkpoint": 0.07881999483160589,
+  "first_nonzero_slide_start_tick": 270,
+  "first_nonzero_effective_gravity_tick": 271,
+  "max_abs_effective_gravity_mm_s2": 976.2135013173481,
+  "max_slide_mm": 0.1371186222911173,
+  "exact_contact_samples": 272,
+  "motor_spike_count": 3,
+  "neural_event_count": 70,
+  "tail_events_and_all_15_traces_exact": true,
+  "files": {
+    "body_state.npy": "08b3dd338fe4ecd5b07807f7b623ba8260d2afd8531cba0abee1e1661e20564a",
+    "brain_state.npy": "91f9f957e890f65928b520b34d1161955a9126d8a81e7b4d6bc994b822912c90",
+    "rocket_state.npy": "282d21535f257ac42a02aa44808443cc02aae0bd85bbaf5695a61b9a2c1bde60",
+    "trace.npz": "34012cd3087440feec5e3998b93f2f8bae51b89a87aa65918e5e8ce778388dad"
+  },
+  "biological_validation": false,
+  "limits": [
+    "Hypothetical common sensory encoder and individual motor-muscle link",
+    "Fixed thorax, nonrotating co-falling cabin and radial diagnostic rocket",
+    "No KSP, vision, learning, landing or video recorder"
+  ]
+}

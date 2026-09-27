@@ -1,0 +1,146 @@
+========= COMPUTE-SANITIZER
+========= Uninitialized __global__ memory read of size 4 bytes
+=========     at void cusparse::vector_scalar_multiply_kernel<(int)256, cusparse::AlignedVectorScalarMultiplyPolicy, long long, float, float>(cusparse::KernelCoeff<T5>, T3, T4 *)+0x4e0
+=========     by thread (0,0,0) in block (0,0,0)
+=========     Address 0xb09602a10
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuEventRecordWithFlags [0x7ffe77cf1086]
+=========                in C:\WINDOWS\system32\DriverStore\FileRepository\nvami.inf_amd64_138dcebfe5992a47\nvcuda64.dll
+=========     Host Frame:cusparseSpruneCsr2csr_bufferSizeExt [0x7ffe47a1bf23]
+=========                in C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin\cusparse64_12.dll
+=========     Host Frame:cusparseSpruneCsr2csr_bufferSizeExt [0x7ffe47a1bde6]
+=========                in C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin\cusparse64_12.dll
+=========     Host Frame:cusparseSpruneCsr2csr_bufferSizeExt [0x7ffe47a1a157]
+=========                in C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin\cusparse64_12.dll
+=========     Host Frame:cusparseZgemvi_bufferSize [0x7ffe472b1ad9]
+=========                in C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin\cusparse64_12.dll
+=========     Host Frame:cusparseZgemvi_bufferSize [0x7ffe47280df6]
+=========                in C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin\cusparse64_12.dll
+=========     Host Frame:cusparseZgemvi_bufferSize [0x7ffe472b0053]
+=========                in C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin\cusparse64_12.dll
+=========     Host Frame:cusparseZgemvi_bufferSize [0x7ffe472b5f41]
+=========                in C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin\cusparse64_12.dll
+=========     Host Frame:cusparseSpMV [0x7ffe471e5336]
+=========                in C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin\cusparse64_12.dll
+=========     Host Frame:ff_cuda_probe [0x7ffee9e5287c]
+=========                in C:\Users\Иван Литвак\Documents\ChatGPT\Муха\build\fly_cuda_probe.dll
+=========     Host Frame:ffi_prep_go_closure [0x7fff10ff4771]
+=========                in C:\Users\03D1~1\AppData\Local\Programs\Python\PYTHON~1\DLLs\libffi-8.dll
+=========     Host Frame:ffi_call_go [0x7fff10ff4493]
+=========                in C:\Users\03D1~1\AppData\Local\Programs\Python\PYTHON~1\DLLs\libffi-8.dll
+=========     Host Frame:ffi_call [0x7fff10ff42c2]
+=========                in C:\Users\03D1~1\AppData\Local\Programs\Python\PYTHON~1\DLLs\libffi-8.dll
+=========     Host Frame: [0x3cc5]
+=========                in C:\Users\03D1~1\AppData\Local\Programs\Python\PYTHON~1\DLLs\_ctypes.pyd
+=========     Host Frame: [0x2bea]
+=========                in C:\Users\03D1~1\AppData\Local\Programs\Python\PYTHON~1\DLLs\_ctypes.pyd
+=========     Host Frame: [0x27e8]
+=========                in C:\Users\03D1~1\AppData\Local\Programs\Python\PYTHON~1\DLLs\_ctypes.pyd
+=========     Host Frame:PyList_AsTuple [0x7ffe79c5298b]
+=========                in C:\Users\03D1~1\AppData\Local\Programs\Python\PYTHON~1\python311.dll
+=========     Host Frame:PyEval_EvalFrameDefault [0x7ffe79be018a]
+=========                in C:\Users\03D1~1\AppData\Local\Programs\Python\PYTHON~1\python311.dll
+=========     Host Frame:PyMapping_Check [0x7ffe79bfdbc7]
+=========                in C:\Users\03D1~1\AppData\Local\Programs\Python\PYTHON~1\python311.dll
+=========     Host Frame:PyEval_EvalCode [0x7ffe79bfd287]
+=========                in C:\Users\03D1~1\AppData\Local\Programs\Python\PYTHON~1\python311.dll
+=========     Host Frame:PyUnicode_GetLength [0x7ffe79c7bae6]
+=========                in C:\Users\03D1~1\AppData\Local\Programs\Python\PYTHON~1\python311.dll
+=========     Host Frame:PyUnicode_GetLength [0x7ffe79c7ba62]
+=========                in C:\Users\03D1~1\AppData\Local\Programs\Python\PYTHON~1\python311.dll
+=========     Host Frame:PyThread_tss_is_created [0x7ffe79d9a432]
+=========                in C:\Users\03D1~1\AppData\Local\Programs\Python\PYTHON~1\python311.dll
+=========     Host Frame:PyRun_SimpleFileObject [0x7ffe79cd1081]
+=========                in C:\Users\03D1~1\AppData\Local\Programs\Python\PYTHON~1\python311.dll
+=========     Host Frame:PyRun_AnyFileObject [0x7ffe79c392cc]
+=========                in C:\Users\03D1~1\AppData\Local\Programs\Python\PYTHON~1\python311.dll
+=========     Host Frame:Py_MakePendingCalls [0x7ffe79c3979b]
+=========                in C:\Users\03D1~1\AppData\Local\Programs\Python\PYTHON~1\python311.dll
+=========     Host Frame:Py_MakePendingCalls [0x7ffe79c3980b]
+=========                in C:\Users\03D1~1\AppData\Local\Programs\Python\PYTHON~1\python311.dll
+=========     Host Frame:Py_RunMain [0x7ffe79c39e84]
+=========                in C:\Users\03D1~1\AppData\Local\Programs\Python\PYTHON~1\python311.dll
+=========     Host Frame:Py_RunMain [0x7ffe79c39d15]
+=========                in C:\Users\03D1~1\AppData\Local\Programs\Python\PYTHON~1\python311.dll
+=========     Host Frame:Py_Main [0x7ffe79cc7311]
+=========                in C:\Users\03D1~1\AppData\Local\Programs\Python\PYTHON~1\python311.dll
+=========     Host Frame: [0x1230]
+=========                in C:\Users\03D1~1\AppData\Local\Programs\Python\PYTHON~1\python.exe
+=========     Host Frame:BaseThreadInitThunk [0x7fff4963cd87]
+=========                in C:\WINDOWS\System32\KERNEL32.DLL
+=========     Host Frame:RtlUserThreadStart [0x7fff4ae6caec]
+=========                in C:\WINDOWS\SYSTEM32\ntdll.dll
+========= 
+========= Uninitialized __global__ memory read of size 4 bytes
+=========     at void cusparse::vector_scalar_multiply_kernel<(int)256, cusparse::AlignedVectorScalarMultiplyPolicy, long long, float, float>(cusparse::KernelCoeff<T5>, T3, T4 *)+0x4e0
+=========     by thread (0,0,0) in block (0,0,0)
+=========     Address 0xb09602a10
+=========     Saved host backtrace up to driver entry point at kernel launch time
+=========     Host Frame:cuEventRecordWithFlags [0x7ffe77cf1086]
+=========                in C:\WINDOWS\system32\DriverStore\FileRepository\nvami.inf_amd64_138dcebfe5992a47\nvcuda64.dll
+=========     Host Frame:cusparseSpruneCsr2csr_bufferSizeExt [0x7ffe47a1bf23]
+=========                in C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin\cusparse64_12.dll
+=========     Host Frame:cusparseSpruneCsr2csr_bufferSizeExt [0x7ffe47a1bde6]
+=========                in C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin\cusparse64_12.dll
+=========     Host Frame:cusparseSpruneCsr2csr_bufferSizeExt [0x7ffe47a1a157]
+=========                in C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin\cusparse64_12.dll
+=========     Host Frame:cusparseZgemvi_bufferSize [0x7ffe472b1ad9]
+=========                in C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin\cusparse64_12.dll
+=========     Host Frame:cusparseZgemvi_bufferSize [0x7ffe47280df6]
+=========                in C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin\cusparse64_12.dll
+=========     Host Frame:cusparseZgemvi_bufferSize [0x7ffe472b0053]
+=========                in C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin\cusparse64_12.dll
+=========     Host Frame:cusparseZgemvi_bufferSize [0x7ffe472b5f41]
+=========                in C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin\cusparse64_12.dll
+=========     Host Frame:cusparseSpMV [0x7ffe471e5336]
+=========                in C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5\bin\cusparse64_12.dll
+=========     Host Frame:ff_cuda_probe [0x7ffee9e5287c]
+=========                in C:\Users\Иван Литвак\Documents\ChatGPT\Муха\build\fly_cuda_probe.dll
+=========     Host Frame:ffi_prep_go_closure [0x7fff10ff4771]
+=========                in C:\Users\03D1~1\AppData\Local\Programs\Python\PYTHON~1\DLLs\libffi-8.dll
+=========     Host Frame:ffi_call_go [0x7fff10ff4493]
+=========                in C:\Users\03D1~1\AppData\Local\Programs\Python\PYTHON~1\DLLs\libffi-8.dll
+=========     Host Frame:ffi_call [0x7fff10ff42c2]
+=========                in C:\Users\03D1~1\AppData\Local\Programs\Python\PYTHON~1\DLLs\libffi-8.dll
+=========     Host Frame: [0x3cc5]
+=========                in C:\Users\03D1~1\AppData\Local\Programs\Python\PYTHON~1\DLLs\_ctypes.pyd
+=========     Host Frame: [0x2bea]
+=========                in C:\Users\03D1~1\AppData\Local\Programs\Python\PYTHON~1\DLLs\_ctypes.pyd
+=========     Host Frame: [0x27e8]
+=========                in C:\Users\03D1~1\AppData\Local\Programs\Python\PYTHON~1\DLLs\_ctypes.pyd
+=========     Host Frame:PyList_AsTuple [0x7ffe79c5298b]
+=========                in C:\Users\03D1~1\AppData\Local\Programs\Python\PYTHON~1\python311.dll
+=========     Host Frame:PyEval_EvalFrameDefault [0x7ffe79be018a]
+=========                in C:\Users\03D1~1\AppData\Local\Programs\Python\PYTHON~1\python311.dll
+=========     Host Frame:PyMapping_Check [0x7ffe79bfdbc7]
+=========                in C:\Users\03D1~1\AppData\Local\Programs\Python\PYTHON~1\python311.dll
+=========     Host Frame:PyEval_EvalCode [0x7ffe79bfd287]
+=========                in C:\Users\03D1~1\AppData\Local\Programs\Python\PYTHON~1\python311.dll
+=========     Host Frame:PyUnicode_GetLength [0x7ffe79c7bae6]
+=========                in C:\Users\03D1~1\AppData\Local\Programs\Python\PYTHON~1\python311.dll
+=========     Host Frame:PyUnicode_GetLength [0x7ffe79c7ba62]
+=========                in C:\Users\03D1~1\AppData\Local\Programs\Python\PYTHON~1\python311.dll
+=========     Host Frame:PyThread_tss_is_created [0x7ffe79d9a432]
+=========                in C:\Users\03D1~1\AppData\Local\Programs\Python\PYTHON~1\python311.dll
+=========     Host Frame:PyRun_SimpleFileObject [0x7ffe79cd1081]
+=========                in C:\Users\03D1~1\AppData\Local\Programs\Python\PYTHON~1\python311.dll
+=========     Host Frame:PyRun_AnyFileObject [0x7ffe79c392cc]
+=========                in C:\Users\03D1~1\AppData\Local\Programs\Python\PYTHON~1\python311.dll
+=========     Host Frame:Py_MakePendingCalls [0x7ffe79c3979b]
+=========                in C:\Users\03D1~1\AppData\Local\Programs\Python\PYTHON~1\python311.dll
+=========     Host Frame:Py_MakePendingCalls [0x7ffe79c3980b]
+=========                in C:\Users\03D1~1\AppData\Local\Programs\Python\PYTHON~1\python311.dll
+=========     Host Frame:Py_RunMain [0x7ffe79c39e84]
+=========                in C:\Users\03D1~1\AppData\Local\Programs\Python\PYTHON~1\python311.dll
+=========     Host Frame:Py_RunMain [0x7ffe79c39d15]
+=========                in C:\Users\03D1~1\AppData\Local\Programs\Python\PYTHON~1\python311.dll
+=========     Host Frame:Py_Main [0x7ffe79cc7311]
+=========                in C:\Users\03D1~1\AppData\Local\Programs\Python\PYTHON~1\python311.dll
+=========     Host Frame: [0x1230]
+=========                in C:\Users\03D1~1\AppData\Local\Programs\Python\PYTHON~1\python.exe
+=========     Host Frame:BaseThreadInitThunk [0x7fff4963cd87]
+=========                in C:\WINDOWS\System32\KERNEL32.DLL
+=========     Host Frame:RtlUserThreadStart [0x7fff4ae6caec]
+=========                in C:\WINDOWS\SYSTEM32\ntdll.dll
+========= 
+========= ERROR SUMMARY: 2 errors

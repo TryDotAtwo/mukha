@@ -1,0 +1,3369 @@
+{
+  "scope": "Cable-resampled cross-release morphology specificity; no identity proof",
+  "selection": "all 23 annotated chordotonal / left ProLN MaleCNS cells",
+  "malecns_release": "v1.0",
+  "manc_release": "MANC 1.2.1, not MANC 1.0",
+  "steps_um_predeclared": [
+    1.0,
+    2.0,
+    4.0
+  ],
+  "method": "SWC parent segments sampled at segment-midpoint grid with max spacing step; median nearest-point distance in both directions; equal-weight mean of medians",
+  "annotation_sha256": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2",
+  "source_manifest_sha256": "cd70d0b4c158dea7d87a84b1bae29e5813df514d88d5e1b934885f3ce15ddbba",
+  "target_manifest_sha256": "091246910d581b477695701ca4dd269a053125ac4cae9bf0526c5f36ccc5c299",
+  "transform_manifest_sha256": "b9c44b34d79c5ee217e0c4a5e082ac62d5364ec349e82226029e9c3e065e0a18",
+  "prior_report_sha256": "52ff76509aba4a75b8bff8044e5493fcf20e9d20d8d41eb2d20659b3f95f84f2",
+  "route": [
+    "JRCFIB2022Mraw",
+    "JRCFIB2022M",
+    "BANC",
+    "BANCum",
+    "JRCVNC2018F",
+    "JRCVNC2018F_reflected",
+    "FANCum_fixed",
+    "FANC",
+    "MANC"
+  ],
+  "rows": [
+    {
+      "malecns_body_id": 135305,
+      "malecns_type": "SApp23",
+      "steps": {
+        "1.0": {
+          "source_geometry": {
+            "samples": 2029,
+            "segments": 1245,
+            "cable_length_um": 1415.717801053485,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 187.49025054781572,
+              "target_to_source_median_um": 13.42094503317098,
+              "bidirectional_median_mean_um": 100.45559779049336,
+              "target_geometry": {
+                "samples": 144,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 155.90357177436175,
+              "target_to_source_median_um": 24.74931045241746,
+              "bidirectional_median_mean_um": 90.3264411133896,
+              "target_geometry": {
+                "samples": 477,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 169.54834997926304,
+              "target_to_source_median_um": 17.622962283580456,
+              "bidirectional_median_mean_um": 93.58565613142174,
+              "target_geometry": {
+                "samples": 447,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        },
+        "2.0": {
+          "source_geometry": {
+            "samples": 1457,
+            "segments": 1245,
+            "cable_length_um": 1415.717801053485,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 167.04645285211177,
+              "target_to_source_median_um": 13.5211502070612,
+              "bidirectional_median_mean_um": 90.28380152958648,
+              "target_geometry": {
+                "samples": 124,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 126.26067167430897,
+              "target_to_source_median_um": 24.21806737804357,
+              "bidirectional_median_mean_um": 75.23936952617626,
+              "target_geometry": {
+                "samples": 402,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 131.54339050710496,
+              "target_to_source_median_um": 19.644747983344438,
+              "bidirectional_median_mean_um": 75.5940692452247,
+              "target_geometry": {
+                "samples": 387,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        },
+        "4.0": {
+          "source_geometry": {
+            "samples": 1315,
+            "segments": 1245,
+            "cable_length_um": 1415.717801053485,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 168.62740790312392,
+              "target_to_source_median_um": 13.823236061359921,
+              "bidirectional_median_mean_um": 91.22532198224192,
+              "target_geometry": {
+                "samples": 120,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 126.26067167430897,
+              "target_to_source_median_um": 24.211882342744598,
+              "bidirectional_median_mean_um": 75.23627700852678,
+              "target_geometry": {
+                "samples": 399,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 131.13482805320922,
+              "target_to_source_median_um": 19.982219890904492,
+              "bidirectional_median_mean_um": 75.55852397205686,
+              "target_geometry": {
+                "samples": 385,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "malecns_body_id": 142571,
+      "malecns_type": "SApp23",
+      "steps": {
+        "1.0": {
+          "source_geometry": {
+            "samples": 1925,
+            "segments": 1173,
+            "cable_length_um": 1350.7120236143621,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 180.8934486345924,
+              "target_to_source_median_um": 13.063387687595053,
+              "bidirectional_median_mean_um": 96.97841816109373,
+              "target_geometry": {
+                "samples": 144,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 137.73679531359537,
+              "target_to_source_median_um": 25.10816981391076,
+              "bidirectional_median_mean_um": 81.42248256375306,
+              "target_geometry": {
+                "samples": 477,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 146.99845638427448,
+              "target_to_source_median_um": 18.094400820864788,
+              "bidirectional_median_mean_um": 82.54642860256963,
+              "target_geometry": {
+                "samples": 447,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        },
+        "2.0": {
+          "source_geometry": {
+            "samples": 1384,
+            "segments": 1173,
+            "cable_length_um": 1350.7120236143621,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 160.80396293913037,
+              "target_to_source_median_um": 13.18521493027234,
+              "bidirectional_median_mean_um": 86.99458893470135,
+              "target_geometry": {
+                "samples": 124,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 117.68363915188223,
+              "target_to_source_median_um": 24.607552018574356,
+              "bidirectional_median_mean_um": 71.14559558522829,
+              "target_geometry": {
+                "samples": 402,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 124.01031144335667,
+              "target_to_source_median_um": 19.671354996130482,
+              "bidirectional_median_mean_um": 71.84083321974357,
+              "target_geometry": {
+                "samples": 387,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        },
+        "4.0": {
+          "source_geometry": {
+            "samples": 1242,
+            "segments": 1173,
+            "cable_length_um": 1350.7120236143621,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 161.18263773054872,
+              "target_to_source_median_um": 13.49049012677412,
+              "bidirectional_median_mean_um": 87.33656392866142,
+              "target_geometry": {
+                "samples": 120,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 115.55730083944864,
+              "target_to_source_median_um": 24.5714475035122,
+              "bidirectional_median_mean_um": 70.06437417148042,
+              "target_geometry": {
+                "samples": 399,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 121.34395461359657,
+              "target_to_source_median_um": 19.824183290021757,
+              "bidirectional_median_mean_um": 70.58406895180916,
+              "target_geometry": {
+                "samples": 385,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "malecns_body_id": 248280,
+      "malecns_type": "SApp23",
+      "steps": {
+        "1.0": {
+          "source_geometry": {
+            "samples": 1915,
+            "segments": 1198,
+            "cable_length_um": 1345.3678658327115,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 171.26556874723457,
+              "target_to_source_median_um": 54.23053169991633,
+              "bidirectional_median_mean_um": 112.74805022357545,
+              "target_geometry": {
+                "samples": 144,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 129.22559858992292,
+              "target_to_source_median_um": 51.604503698765335,
+              "bidirectional_median_mean_um": 90.41505114434413,
+              "target_geometry": {
+                "samples": 477,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 134.87130692383204,
+              "target_to_source_median_um": 52.256264567771815,
+              "bidirectional_median_mean_um": 93.56378574580192,
+              "target_geometry": {
+                "samples": 447,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        },
+        "2.0": {
+          "source_geometry": {
+            "samples": 1409,
+            "segments": 1198,
+            "cable_length_um": 1345.3678658327115,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 150.72052475737237,
+              "target_to_source_median_um": 55.11154952559281,
+              "bidirectional_median_mean_um": 102.91603714148259,
+              "target_geometry": {
+                "samples": 124,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 109.63057510193688,
+              "target_to_source_median_um": 51.34585332766336,
+              "bidirectional_median_mean_um": 80.48821421480012,
+              "target_geometry": {
+                "samples": 402,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 112.32741657424201,
+              "target_to_source_median_um": 52.18667107297514,
+              "bidirectional_median_mean_um": 82.25704382360857,
+              "target_geometry": {
+                "samples": 387,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        },
+        "4.0": {
+          "source_geometry": {
+            "samples": 1268,
+            "segments": 1198,
+            "cable_length_um": 1345.3678658327115,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 148.36169436220234,
+              "target_to_source_median_um": 55.34767302743387,
+              "bidirectional_median_mean_um": 101.8546836948181,
+              "target_geometry": {
+                "samples": 120,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 108.62099117969437,
+              "target_to_source_median_um": 51.18501601060382,
+              "bidirectional_median_mean_um": 79.9030035951491,
+              "target_geometry": {
+                "samples": 399,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 110.85248905275253,
+              "target_to_source_median_um": 52.18667107297514,
+              "bidirectional_median_mean_um": 81.51958006286384,
+              "target_geometry": {
+                "samples": 385,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "malecns_body_id": 815569,
+      "malecns_type": "SNpp39",
+      "steps": {
+        "1.0": {
+          "source_geometry": {
+            "samples": 190,
+            "segments": 139,
+            "cable_length_um": 123.33512086819022,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 37.41353729437881,
+              "target_to_source_median_um": 15.312165667755886,
+              "bidirectional_median_mean_um": 26.36285148106735,
+              "target_geometry": {
+                "samples": 144,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 11.98142731927932,
+              "target_to_source_median_um": 19.433293129720305,
+              "bidirectional_median_mean_um": 15.707360224499812,
+              "target_geometry": {
+                "samples": 477,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 12.587239834169527,
+              "target_to_source_median_um": 17.64102856184218,
+              "bidirectional_median_mean_um": 15.114134198005853,
+              "target_geometry": {
+                "samples": 447,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        },
+        "2.0": {
+          "source_geometry": {
+            "samples": 143,
+            "segments": 139,
+            "cable_length_um": 123.33512086819022,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 37.623984814046274,
+              "target_to_source_median_um": 15.611602700098416,
+              "bidirectional_median_mean_um": 26.617793757072345,
+              "target_geometry": {
+                "samples": 124,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 12.124944838499955,
+              "target_to_source_median_um": 18.739273710330714,
+              "bidirectional_median_mean_um": 15.432109274415335,
+              "target_geometry": {
+                "samples": 402,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 12.724105811216573,
+              "target_to_source_median_um": 18.963243155559415,
+              "bidirectional_median_mean_um": 15.843674483387993,
+              "target_geometry": {
+                "samples": 387,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        },
+        "4.0": {
+          "source_geometry": {
+            "samples": 139,
+            "segments": 139,
+            "cable_length_um": 123.33512086819022,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 37.64413993649829,
+              "target_to_source_median_um": 15.973886472608466,
+              "bidirectional_median_mean_um": 26.80901320455338,
+              "target_geometry": {
+                "samples": 120,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 12.162001231310901,
+              "target_to_source_median_um": 18.619178609150083,
+              "bidirectional_median_mean_um": 15.390589920230493,
+              "target_geometry": {
+                "samples": 399,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 12.874916728279787,
+              "target_to_source_median_um": 18.963817932815385,
+              "bidirectional_median_mean_um": 15.919367330547587,
+              "target_geometry": {
+                "samples": 385,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "malecns_body_id": 815843,
+      "malecns_type": "SNpp51",
+      "steps": {
+        "1.0": {
+          "source_geometry": {
+            "samples": 1256,
+            "segments": 970,
+            "cable_length_um": 832.7143867968315,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 28.885974534962536,
+              "target_to_source_median_um": 6.511230391103159,
+              "bidirectional_median_mean_um": 17.69860246303285,
+              "target_geometry": {
+                "samples": 144,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 10.151817905746327,
+              "target_to_source_median_um": 5.943166747326288,
+              "bidirectional_median_mean_um": 8.047492326536307,
+              "target_geometry": {
+                "samples": 477,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 10.780341700294551,
+              "target_to_source_median_um": 4.9099883549207926,
+              "bidirectional_median_mean_um": 7.845165027607672,
+              "target_geometry": {
+                "samples": 447,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        },
+        "2.0": {
+          "source_geometry": {
+            "samples": 1000,
+            "segments": 970,
+            "cable_length_um": 832.7143867968315,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 30.250728557654746,
+              "target_to_source_median_um": 6.462273698526277,
+              "bidirectional_median_mean_um": 18.35650112809051,
+              "target_geometry": {
+                "samples": 124,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 10.48865294974031,
+              "target_to_source_median_um": 5.977273565611238,
+              "bidirectional_median_mean_um": 8.232963257675774,
+              "target_geometry": {
+                "samples": 402,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 10.913420717042413,
+              "target_to_source_median_um": 4.886051855655207,
+              "bidirectional_median_mean_um": 7.89973628634881,
+              "target_geometry": {
+                "samples": 387,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        },
+        "4.0": {
+          "source_geometry": {
+            "samples": 970,
+            "segments": 970,
+            "cable_length_um": 832.7143867968315,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 31.41248937944534,
+              "target_to_source_median_um": 6.446639658831903,
+              "bidirectional_median_mean_um": 18.929564519138623,
+              "target_geometry": {
+                "samples": 120,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 10.518729050343612,
+              "target_to_source_median_um": 5.992731372102359,
+              "bidirectional_median_mean_um": 8.255730211222986,
+              "target_geometry": {
+                "samples": 399,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 10.92519177842346,
+              "target_to_source_median_um": 4.882666956289058,
+              "bidirectional_median_mean_um": 7.903929367356259,
+              "target_geometry": {
+                "samples": 385,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "malecns_body_id": 817298,
+      "malecns_type": "SNpp41",
+      "steps": {
+        "1.0": {
+          "source_geometry": {
+            "samples": 412,
+            "segments": 309,
+            "cable_length_um": 272.1912766842056,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 10.955004732281878,
+              "target_to_source_median_um": 4.531259014377731,
+              "bidirectional_median_mean_um": 7.743131873329805,
+              "target_geometry": {
+                "samples": 144,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 7.5333549399517,
+              "target_to_source_median_um": 11.930432374445815,
+              "bidirectional_median_mean_um": 9.731893657198757,
+              "target_geometry": {
+                "samples": 477,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 11.261445036924567,
+              "target_to_source_median_um": 12.979537686694433,
+              "bidirectional_median_mean_um": 12.1204913618095,
+              "target_geometry": {
+                "samples": 447,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        },
+        "2.0": {
+          "source_geometry": {
+            "samples": 315,
+            "segments": 309,
+            "cable_length_um": 272.1912766842056,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 11.742279130781606,
+              "target_to_source_median_um": 4.533069085315907,
+              "bidirectional_median_mean_um": 8.137674108048756,
+              "target_geometry": {
+                "samples": 124,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 7.922854101241646,
+              "target_to_source_median_um": 12.171305134042349,
+              "bidirectional_median_mean_um": 10.047079617641998,
+              "target_geometry": {
+                "samples": 402,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 11.971551115187502,
+              "target_to_source_median_um": 14.743813460796353,
+              "bidirectional_median_mean_um": 13.357682287991928,
+              "target_geometry": {
+                "samples": 387,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        },
+        "4.0": {
+          "source_geometry": {
+            "samples": 309,
+            "segments": 309,
+            "cable_length_um": 272.1912766842056,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 11.77815260504133,
+              "target_to_source_median_um": 4.553175221879577,
+              "bidirectional_median_mean_um": 8.165663913460453,
+              "target_geometry": {
+                "samples": 120,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 7.964667471604828,
+              "target_to_source_median_um": 12.188145650232594,
+              "bidirectional_median_mean_um": 10.076406560918711,
+              "target_geometry": {
+                "samples": 399,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 11.971551115187502,
+              "target_to_source_median_um": 14.952085693106985,
+              "bidirectional_median_mean_um": 13.461818404147245,
+              "target_geometry": {
+                "samples": 385,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "malecns_body_id": 817680,
+      "malecns_type": "SNpp51",
+      "steps": {
+        "1.0": {
+          "source_geometry": {
+            "samples": 703,
+            "segments": 542,
+            "cable_length_um": 458.76404670809586,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 26.825543112219506,
+              "target_to_source_median_um": 3.7913353086384456,
+              "bidirectional_median_mean_um": 15.308439210428975,
+              "target_geometry": {
+                "samples": 144,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 4.640025420809979,
+              "target_to_source_median_um": 3.433264394044583,
+              "bidirectional_median_mean_um": 4.036644907427281,
+              "target_geometry": {
+                "samples": 477,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 4.43747283319812,
+              "target_to_source_median_um": 3.2381201296564357,
+              "bidirectional_median_mean_um": 3.8377964814272776,
+              "target_geometry": {
+                "samples": 447,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        },
+        "2.0": {
+          "source_geometry": {
+            "samples": 549,
+            "segments": 542,
+            "cable_length_um": 458.76404670809586,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 27.3870931004052,
+              "target_to_source_median_um": 3.891243932959413,
+              "bidirectional_median_mean_um": 15.639168516682306,
+              "target_geometry": {
+                "samples": 124,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 4.694855883878199,
+              "target_to_source_median_um": 3.3910106894574756,
+              "bidirectional_median_mean_um": 4.042933286667838,
+              "target_geometry": {
+                "samples": 402,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 4.397677082148432,
+              "target_to_source_median_um": 3.163110605608664,
+              "bidirectional_median_mean_um": 3.780393843878548,
+              "target_geometry": {
+                "samples": 387,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        },
+        "4.0": {
+          "source_geometry": {
+            "samples": 542,
+            "segments": 542,
+            "cable_length_um": 458.76404670809586,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 27.39975233918849,
+              "target_to_source_median_um": 3.906864016755536,
+              "bidirectional_median_mean_um": 15.653308177972011,
+              "target_geometry": {
+                "samples": 120,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 4.719195239084762,
+              "target_to_source_median_um": 3.3914901250120013,
+              "bidirectional_median_mean_um": 4.055342682048382,
+              "target_geometry": {
+                "samples": 399,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 4.390775577241535,
+              "target_to_source_median_um": 3.145522954079946,
+              "bidirectional_median_mean_um": 3.7681492656607407,
+              "target_geometry": {
+                "samples": 385,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "malecns_body_id": 817839,
+      "malecns_type": "SNpp57",
+      "steps": {
+        "1.0": {
+          "source_geometry": {
+            "samples": 237,
+            "segments": 138,
+            "cable_length_um": 175.48909647484928,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 58.46371868062079,
+              "target_to_source_median_um": 17.54638175116287,
+              "bidirectional_median_mean_um": 38.00505021589183,
+              "target_geometry": {
+                "samples": 144,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 24.61297564348125,
+              "target_to_source_median_um": 23.788990929522317,
+              "bidirectional_median_mean_um": 24.20098328650178,
+              "target_geometry": {
+                "samples": 477,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 31.606590303041337,
+              "target_to_source_median_um": 19.954966350676653,
+              "bidirectional_median_mean_um": 25.780778326858993,
+              "target_geometry": {
+                "samples": 447,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        },
+        "2.0": {
+          "source_geometry": {
+            "samples": 158,
+            "segments": 138,
+            "cable_length_um": 175.48909647484928,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 58.85021055450717,
+              "target_to_source_median_um": 17.68863755293313,
+              "bidirectional_median_mean_um": 38.26942405372015,
+              "target_geometry": {
+                "samples": 124,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 25.274412128396577,
+              "target_to_source_median_um": 23.16792681792239,
+              "bidirectional_median_mean_um": 24.221169473159485,
+              "target_geometry": {
+                "samples": 402,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 32.031236271478534,
+              "target_to_source_median_um": 20.9691033636228,
+              "bidirectional_median_mean_um": 26.500169817550667,
+              "target_geometry": {
+                "samples": 387,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        },
+        "4.0": {
+          "source_geometry": {
+            "samples": 138,
+            "segments": 138,
+            "cable_length_um": 175.48909647484928,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 59.080733445808775,
+              "target_to_source_median_um": 17.980407701856628,
+              "bidirectional_median_mean_um": 38.530570573832705,
+              "target_geometry": {
+                "samples": 120,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 25.869893599683415,
+              "target_to_source_median_um": 23.163353671588364,
+              "bidirectional_median_mean_um": 24.516623635635888,
+              "target_geometry": {
+                "samples": 399,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 32.25183856015989,
+              "target_to_source_median_um": 21.206584264849937,
+              "bidirectional_median_mean_um": 26.729211412504913,
+              "target_geometry": {
+                "samples": 385,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "malecns_body_id": 902324,
+      "malecns_type": "SNpp43",
+      "steps": {
+        "1.0": {
+          "source_geometry": {
+            "samples": 243,
+            "segments": 186,
+            "cable_length_um": 165.24510945055206,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 20.55128216328134,
+              "target_to_source_median_um": 20.188474060306532,
+              "bidirectional_median_mean_um": 20.369878111793938,
+              "target_geometry": {
+                "samples": 144,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 13.991129953965729,
+              "target_to_source_median_um": 29.49117442385742,
+              "bidirectional_median_mean_um": 21.741152188911574,
+              "target_geometry": {
+                "samples": 477,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 13.592953743766792,
+              "target_to_source_median_um": 20.45903004714257,
+              "bidirectional_median_mean_um": 17.02599189545468,
+              "target_geometry": {
+                "samples": 447,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        },
+        "2.0": {
+          "source_geometry": {
+            "samples": 191,
+            "segments": 186,
+            "cable_length_um": 165.24510945055206,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 22.499120521333893,
+              "target_to_source_median_um": 20.26980850219917,
+              "bidirectional_median_mean_um": 21.38446451176653,
+              "target_geometry": {
+                "samples": 124,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 15.290421021556984,
+              "target_to_source_median_um": 29.07317287201841,
+              "bidirectional_median_mean_um": 22.1817969467877,
+              "target_geometry": {
+                "samples": 402,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 14.035697033502355,
+              "target_to_source_median_um": 22.106213256996252,
+              "bidirectional_median_mean_um": 18.070955145249304,
+              "target_geometry": {
+                "samples": 387,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        },
+        "4.0": {
+          "source_geometry": {
+            "samples": 186,
+            "segments": 186,
+            "cable_length_um": 165.24510945055206,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 23.00262106630309,
+              "target_to_source_median_um": 20.516768001288256,
+              "bidirectional_median_mean_um": 21.759694533795674,
+              "target_geometry": {
+                "samples": 120,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 15.796401858683446,
+              "target_to_source_median_um": 28.978807129358966,
+              "bidirectional_median_mean_um": 22.387604494021204,
+              "target_geometry": {
+                "samples": 399,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 14.054706115661313,
+              "target_to_source_median_um": 22.391844994056175,
+              "bidirectional_median_mean_um": 18.223275554858745,
+              "target_geometry": {
+                "samples": 385,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "malecns_body_id": 902359,
+      "malecns_type": "SNpp60",
+      "steps": {
+        "1.0": {
+          "source_geometry": {
+            "samples": 543,
+            "segments": 388,
+            "cable_length_um": 374.7741955553132,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 34.51855181964791,
+              "target_to_source_median_um": 15.41596935317709,
+              "bidirectional_median_mean_um": 24.9672605864125,
+              "target_geometry": {
+                "samples": 144,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 21.261011235023354,
+              "target_to_source_median_um": 25.770307462656984,
+              "bidirectional_median_mean_um": 23.515659348840167,
+              "target_geometry": {
+                "samples": 477,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 21.422228080372044,
+              "target_to_source_median_um": 17.333847401060165,
+              "bidirectional_median_mean_um": 19.378037740716103,
+              "target_geometry": {
+                "samples": 447,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        },
+        "2.0": {
+          "source_geometry": {
+            "samples": 407,
+            "segments": 388,
+            "cable_length_um": 374.7741955553132,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 42.41741922894798,
+              "target_to_source_median_um": 15.416930428429234,
+              "bidirectional_median_mean_um": 28.917174828688605,
+              "target_geometry": {
+                "samples": 124,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 26.70503202088999,
+              "target_to_source_median_um": 25.313696941158533,
+              "bidirectional_median_mean_um": 26.009364481024264,
+              "target_geometry": {
+                "samples": 402,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 27.15432408664955,
+              "target_to_source_median_um": 18.703874143741952,
+              "bidirectional_median_mean_um": 22.92909911519575,
+              "target_geometry": {
+                "samples": 387,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        },
+        "4.0": {
+          "source_geometry": {
+            "samples": 388,
+            "segments": 388,
+            "cable_length_um": 374.7741955553132,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 44.38616236379932,
+              "target_to_source_median_um": 15.674322277064425,
+              "bidirectional_median_mean_um": 30.030242320431874,
+              "target_geometry": {
+                "samples": 120,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 28.713842750398026,
+              "target_to_source_median_um": 25.23411562306684,
+              "bidirectional_median_mean_um": 26.973979186732436,
+              "target_geometry": {
+                "samples": 399,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 29.015439272983542,
+              "target_to_source_median_um": 18.721208525595912,
+              "bidirectional_median_mean_um": 23.868323899289727,
+              "target_geometry": {
+                "samples": 385,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "malecns_body_id": 903843,
+      "malecns_type": "SNpp39",
+      "steps": {
+        "1.0": {
+          "source_geometry": {
+            "samples": 221,
+            "segments": 176,
+            "cable_length_um": 144.13656413658845,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 3.2323352831591152,
+              "target_to_source_median_um": 2.604633945816068,
+              "bidirectional_median_mean_um": 2.9184846144875918,
+              "target_geometry": {
+                "samples": 144,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 3.180329932037582,
+              "target_to_source_median_um": 8.93392423017548,
+              "bidirectional_median_mean_um": 6.057127081106531,
+              "target_geometry": {
+                "samples": 477,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 5.297174970323659,
+              "target_to_source_median_um": 9.988187220197602,
+              "bidirectional_median_mean_um": 7.642681095260631,
+              "target_geometry": {
+                "samples": 447,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        },
+        "2.0": {
+          "source_geometry": {
+            "samples": 178,
+            "segments": 176,
+            "cable_length_um": 144.13656413658845,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 3.23554780050096,
+              "target_to_source_median_um": 2.5563309535840353,
+              "bidirectional_median_mean_um": 2.895939377042498,
+              "target_geometry": {
+                "samples": 124,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 3.2314413318267503,
+              "target_to_source_median_um": 9.022634062267059,
+              "bidirectional_median_mean_um": 6.127037697046905,
+              "target_geometry": {
+                "samples": 402,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 5.2300119970567405,
+              "target_to_source_median_um": 11.474178946359835,
+              "bidirectional_median_mean_um": 8.352095471708289,
+              "target_geometry": {
+                "samples": 387,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        },
+        "4.0": {
+          "source_geometry": {
+            "samples": 176,
+            "segments": 176,
+            "cable_length_um": 144.13656413658845,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 3.2363949991462935,
+              "target_to_source_median_um": 2.5746164264520814,
+              "bidirectional_median_mean_um": 2.9055057127991875,
+              "target_geometry": {
+                "samples": 120,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 3.2314413318267503,
+              "target_to_source_median_um": 9.103006102981533,
+              "bidirectional_median_mean_um": 6.167223717404141,
+              "target_geometry": {
+                "samples": 399,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 5.2300119970567405,
+              "target_to_source_median_um": 11.474178946359835,
+              "bidirectional_median_mean_um": 8.352095471708289,
+              "target_geometry": {
+                "samples": 385,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "malecns_body_id": 905037,
+      "malecns_type": "SNpp40",
+      "steps": {
+        "1.0": {
+          "source_geometry": {
+            "samples": 367,
+            "segments": 290,
+            "cable_length_um": 231.30940624282115,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 64.50440287174675,
+              "target_to_source_median_um": 15.189251127336066,
+              "bidirectional_median_mean_um": 39.846826999541406,
+              "target_geometry": {
+                "samples": 144,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 34.503049757129645,
+              "target_to_source_median_um": 26.075306011012305,
+              "bidirectional_median_mean_um": 30.289177884070973,
+              "target_geometry": {
+                "samples": 477,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 39.83138823322904,
+              "target_to_source_median_um": 20.21205908676721,
+              "bidirectional_median_mean_um": 30.021723659998123,
+              "target_geometry": {
+                "samples": 447,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        },
+        "2.0": {
+          "source_geometry": {
+            "samples": 294,
+            "segments": 290,
+            "cable_length_um": 231.30940624282115,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 65.15020305797441,
+              "target_to_source_median_um": 15.39443776706807,
+              "bidirectional_median_mean_um": 40.27232041252124,
+              "target_geometry": {
+                "samples": 124,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 36.42893746968183,
+              "target_to_source_median_um": 25.542406608381597,
+              "bidirectional_median_mean_um": 30.985672039031712,
+              "target_geometry": {
+                "samples": 402,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 41.18057908394818,
+              "target_to_source_median_um": 21.871577175203072,
+              "bidirectional_median_mean_um": 31.526078129575627,
+              "target_geometry": {
+                "samples": 387,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        },
+        "4.0": {
+          "source_geometry": {
+            "samples": 290,
+            "segments": 290,
+            "cable_length_um": 231.30940624282115,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 65.15020305797441,
+              "target_to_source_median_um": 15.65088592778659,
+              "bidirectional_median_mean_um": 40.4005444928805,
+              "target_geometry": {
+                "samples": 120,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 36.42893746968183,
+              "target_to_source_median_um": 25.536834587816564,
+              "bidirectional_median_mean_um": 30.982886028749196,
+              "target_geometry": {
+                "samples": 399,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 41.18057908394818,
+              "target_to_source_median_um": 22.061320423853214,
+              "bidirectional_median_mean_um": 31.620949753900696,
+              "target_geometry": {
+                "samples": 385,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "malecns_body_id": 905335,
+      "malecns_type": "SNpp40",
+      "steps": {
+        "1.0": {
+          "source_geometry": {
+            "samples": 691,
+            "segments": 626,
+            "cable_length_um": 358.99356932842096,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 74.39991268208315,
+              "target_to_source_median_um": 15.955446368710241,
+              "bidirectional_median_mean_um": 45.1776795253967,
+              "target_geometry": {
+                "samples": 144,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 51.08383821269834,
+              "target_to_source_median_um": 25.96506385719958,
+              "bidirectional_median_mean_um": 38.52445103494896,
+              "target_geometry": {
+                "samples": 477,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 54.03955758129734,
+              "target_to_source_median_um": 21.086388375738384,
+              "bidirectional_median_mean_um": 37.56297297851786,
+              "target_geometry": {
+                "samples": 447,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        },
+        "2.0": {
+          "source_geometry": {
+            "samples": 627,
+            "segments": 626,
+            "cable_length_um": 358.99356932842096,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 75.52481166809665,
+              "target_to_source_median_um": 16.055467576615303,
+              "bidirectional_median_mean_um": 45.79013962235597,
+              "target_geometry": {
+                "samples": 124,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 53.857687044359274,
+              "target_to_source_median_um": 25.400331029904592,
+              "bidirectional_median_mean_um": 39.62900903713194,
+              "target_geometry": {
+                "samples": 402,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 56.25993488250358,
+              "target_to_source_median_um": 22.342095922067102,
+              "bidirectional_median_mean_um": 39.301015402285344,
+              "target_geometry": {
+                "samples": 387,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        },
+        "4.0": {
+          "source_geometry": {
+            "samples": 626,
+            "segments": 626,
+            "cable_length_um": 358.99356932842096,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 75.63642111700261,
+              "target_to_source_median_um": 16.45692633223053,
+              "bidirectional_median_mean_um": 46.04667372461657,
+              "target_geometry": {
+                "samples": 120,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 53.85783907991848,
+              "target_to_source_median_um": 25.360803742811626,
+              "bidirectional_median_mean_um": 39.60932141136505,
+              "target_geometry": {
+                "samples": 399,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 56.27677817962355,
+              "target_to_source_median_um": 22.439092345127207,
+              "bidirectional_median_mean_um": 39.35793526237538,
+              "target_geometry": {
+                "samples": 385,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "malecns_body_id": 905339,
+      "malecns_type": "SNpp59",
+      "steps": {
+        "1.0": {
+          "source_geometry": {
+            "samples": 568,
+            "segments": 504,
+            "cable_length_um": 348.39410086009207,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 70.66728619250281,
+              "target_to_source_median_um": 12.399931379873934,
+              "bidirectional_median_mean_um": 41.533608786188374,
+              "target_geometry": {
+                "samples": 144,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 46.741713248795776,
+              "target_to_source_median_um": 25.537531632133213,
+              "bidirectional_median_mean_um": 36.13962244046449,
+              "target_geometry": {
+                "samples": 477,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 48.97513187988183,
+              "target_to_source_median_um": 18.793571063510836,
+              "bidirectional_median_mean_um": 33.884351471696334,
+              "target_geometry": {
+                "samples": 447,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        },
+        "2.0": {
+          "source_geometry": {
+            "samples": 508,
+            "segments": 504,
+            "cable_length_um": 348.39410086009207,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 71.20258932380011,
+              "target_to_source_median_um": 12.530729935159535,
+              "bidirectional_median_mean_um": 41.86665962947983,
+              "target_geometry": {
+                "samples": 124,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 48.886306144234986,
+              "target_to_source_median_um": 24.88391571121318,
+              "bidirectional_median_mean_um": 36.885110927724085,
+              "target_geometry": {
+                "samples": 402,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 50.57165522908431,
+              "target_to_source_median_um": 20.003633592019757,
+              "bidirectional_median_mean_um": 35.28764441055203,
+              "target_geometry": {
+                "samples": 387,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        },
+        "4.0": {
+          "source_geometry": {
+            "samples": 504,
+            "segments": 504,
+            "cable_length_um": 348.39410086009207,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 71.33679547447076,
+              "target_to_source_median_um": 12.83129294539398,
+              "bidirectional_median_mean_um": 42.08404420993237,
+              "target_geometry": {
+                "samples": 120,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 49.001898197115224,
+              "target_to_source_median_um": 24.83712636960833,
+              "bidirectional_median_mean_um": 36.919512283361776,
+              "target_geometry": {
+                "samples": 399,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 50.74488415082881,
+              "target_to_source_median_um": 20.327612782153796,
+              "bidirectional_median_mean_um": 35.5362484664913,
+              "target_geometry": {
+                "samples": 385,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "malecns_body_id": 905340,
+      "malecns_type": "SNpp59",
+      "steps": {
+        "1.0": {
+          "source_geometry": {
+            "samples": 519,
+            "segments": 462,
+            "cable_length_um": 323.6749146017556,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 51.46694587149403,
+              "target_to_source_median_um": 4.5629431352895145,
+              "bidirectional_median_mean_um": 28.014944503391774,
+              "target_geometry": {
+                "samples": 144,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 31.803453029741988,
+              "target_to_source_median_um": 13.278637007438668,
+              "bidirectional_median_mean_um": 22.541045018590328,
+              "target_geometry": {
+                "samples": 477,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 32.02136354466764,
+              "target_to_source_median_um": 11.992573607785893,
+              "bidirectional_median_mean_um": 22.006968576226768,
+              "target_geometry": {
+                "samples": 447,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        },
+        "2.0": {
+          "source_geometry": {
+            "samples": 463,
+            "segments": 462,
+            "cable_length_um": 323.6749146017556,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 54.74439729732076,
+              "target_to_source_median_um": 4.588583352546168,
+              "bidirectional_median_mean_um": 29.666490324933463,
+              "target_geometry": {
+                "samples": 124,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 33.6483710086512,
+              "target_to_source_median_um": 13.218816720798134,
+              "bidirectional_median_mean_um": 23.43359386472467,
+              "target_geometry": {
+                "samples": 402,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 34.92660064785737,
+              "target_to_source_median_um": 13.895040550712427,
+              "bidirectional_median_mean_um": 24.410820599284897,
+              "target_geometry": {
+                "samples": 387,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        },
+        "4.0": {
+          "source_geometry": {
+            "samples": 462,
+            "segments": 462,
+            "cable_length_um": 323.6749146017556,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 54.625980393791465,
+              "target_to_source_median_um": 4.652817697737433,
+              "bidirectional_median_mean_um": 29.63939904576445,
+              "target_geometry": {
+                "samples": 120,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 33.60034580474553,
+              "target_to_source_median_um": 13.267350304936357,
+              "bidirectional_median_mean_um": 23.433848054840944,
+              "target_geometry": {
+                "samples": 399,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 34.72734324426313,
+              "target_to_source_median_um": 13.970224978671087,
+              "bidirectional_median_mean_um": 24.34878411146711,
+              "target_geometry": {
+                "samples": 385,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "malecns_body_id": 906290,
+      "malecns_type": "SNpp47",
+      "steps": {
+        "1.0": {
+          "source_geometry": {
+            "samples": 352,
+            "segments": 240,
+            "cable_length_um": 244.54801522755182,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 57.74662163908296,
+              "target_to_source_median_um": 18.468238297200863,
+              "bidirectional_median_mean_um": 38.107429968141915,
+              "target_geometry": {
+                "samples": 144,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 27.404157157351293,
+              "target_to_source_median_um": 27.55719587338639,
+              "bidirectional_median_mean_um": 27.48067651536884,
+              "target_geometry": {
+                "samples": 477,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 32.898672578385366,
+              "target_to_source_median_um": 23.100214381043415,
+              "bidirectional_median_mean_um": 27.99944347971439,
+              "target_geometry": {
+                "samples": 447,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        },
+        "2.0": {
+          "source_geometry": {
+            "samples": 253,
+            "segments": 240,
+            "cable_length_um": 244.54801522755182,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 60.072757284340305,
+              "target_to_source_median_um": 18.96949879425147,
+              "bidirectional_median_mean_um": 39.52112803929589,
+              "target_geometry": {
+                "samples": 124,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 28.220259920422126,
+              "target_to_source_median_um": 26.33300477078397,
+              "bidirectional_median_mean_um": 27.276632345603048,
+              "target_geometry": {
+                "samples": 402,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 33.40388089321383,
+              "target_to_source_median_um": 24.798429610719417,
+              "bidirectional_median_mean_um": 29.101155251966624,
+              "target_geometry": {
+                "samples": 387,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        },
+        "4.0": {
+          "source_geometry": {
+            "samples": 241,
+            "segments": 240,
+            "cable_length_um": 244.54801522755182,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 60.69530274966355,
+              "target_to_source_median_um": 18.972304786635057,
+              "bidirectional_median_mean_um": 39.8338037681493,
+              "target_geometry": {
+                "samples": 120,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 28.376546039538677,
+              "target_to_source_median_um": 26.26977496600896,
+              "bidirectional_median_mean_um": 27.323160502773817,
+              "target_geometry": {
+                "samples": 399,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 33.572786962016224,
+              "target_to_source_median_um": 25.13206247954727,
+              "bidirectional_median_mean_um": 29.352424720781748,
+              "target_geometry": {
+                "samples": 385,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "malecns_body_id": 906558,
+      "malecns_type": "SNpp47",
+      "steps": {
+        "1.0": {
+          "source_geometry": {
+            "samples": 400,
+            "segments": 242,
+            "cable_length_um": 287.6406692735464,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 60.75992491639484,
+              "target_to_source_median_um": 20.998552727374943,
+              "bidirectional_median_mean_um": 40.87923882188489,
+              "target_geometry": {
+                "samples": 144,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 24.13191804843637,
+              "target_to_source_median_um": 24.35613081301588,
+              "bidirectional_median_mean_um": 24.244024430726125,
+              "target_geometry": {
+                "samples": 477,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 31.38243938646849,
+              "target_to_source_median_um": 21.765851034487362,
+              "bidirectional_median_mean_um": 26.574145210477926,
+              "target_geometry": {
+                "samples": 447,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        },
+        "2.0": {
+          "source_geometry": {
+            "samples": 275,
+            "segments": 242,
+            "cable_length_um": 287.6406692735464,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 61.072704540187296,
+              "target_to_source_median_um": 20.84163759172204,
+              "bidirectional_median_mean_um": 40.95717106595467,
+              "target_geometry": {
+                "samples": 124,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 24.2413505177245,
+              "target_to_source_median_um": 23.839615110397887,
+              "bidirectional_median_mean_um": 24.040482814061193,
+              "target_geometry": {
+                "samples": 402,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 31.39672992159169,
+              "target_to_source_median_um": 22.63465678868464,
+              "bidirectional_median_mean_um": 27.015693355138165,
+              "target_geometry": {
+                "samples": 387,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        },
+        "4.0": {
+          "source_geometry": {
+            "samples": 242,
+            "segments": 242,
+            "cable_length_um": 287.6406692735464,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 62.131127779878284,
+              "target_to_source_median_um": 21.34499417976143,
+              "bidirectional_median_mean_um": 41.738060979819856,
+              "target_geometry": {
+                "samples": 120,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 24.561891062393244,
+              "target_to_source_median_um": 23.808284909247618,
+              "bidirectional_median_mean_um": 24.18508798582043,
+              "target_geometry": {
+                "samples": 399,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 32.00057522438513,
+              "target_to_source_median_um": 22.63465678868464,
+              "bidirectional_median_mean_um": 27.317616006534884,
+              "target_geometry": {
+                "samples": 385,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "malecns_body_id": 906823,
+      "malecns_type": "SNpp43",
+      "steps": {
+        "1.0": {
+          "source_geometry": {
+            "samples": 308,
+            "segments": 196,
+            "cable_length_um": 222.83009669416492,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 34.10461900289553,
+              "target_to_source_median_um": 16.494581962020934,
+              "bidirectional_median_mean_um": 25.29960048245823,
+              "target_geometry": {
+                "samples": 144,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 19.34459112432881,
+              "target_to_source_median_um": 28.877132193310615,
+              "bidirectional_median_mean_um": 24.110861658819715,
+              "target_geometry": {
+                "samples": 477,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 19.263814524300255,
+              "target_to_source_median_um": 19.586086555956427,
+              "bidirectional_median_mean_um": 19.424950540128343,
+              "target_geometry": {
+                "samples": 447,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        },
+        "2.0": {
+          "source_geometry": {
+            "samples": 211,
+            "segments": 196,
+            "cable_length_um": 222.83009669416492,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 36.00553856727646,
+              "target_to_source_median_um": 16.627663127991724,
+              "bidirectional_median_mean_um": 26.316600847634092,
+              "target_geometry": {
+                "samples": 124,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 20.676574731726305,
+              "target_to_source_median_um": 28.066924466563403,
+              "bidirectional_median_mean_um": 24.371749599144856,
+              "target_geometry": {
+                "samples": 402,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 21.289112375397075,
+              "target_to_source_median_um": 21.91747536017744,
+              "bidirectional_median_mean_um": 21.603293867787258,
+              "target_geometry": {
+                "samples": 387,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        },
+        "4.0": {
+          "source_geometry": {
+            "samples": 196,
+            "segments": 196,
+            "cable_length_um": 222.83009669416492,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 39.11476925921875,
+              "target_to_source_median_um": 16.872998590364602,
+              "bidirectional_median_mean_um": 27.993883924791675,
+              "target_geometry": {
+                "samples": 120,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 22.679080490619526,
+              "target_to_source_median_um": 28.016550487630706,
+              "bidirectional_median_mean_um": 25.347815489125118,
+              "target_geometry": {
+                "samples": 399,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 23.10241099757939,
+              "target_to_source_median_um": 22.21605946704215,
+              "bidirectional_median_mean_um": 22.65923523231077,
+              "target_geometry": {
+                "samples": 385,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "malecns_body_id": 911316,
+      "malecns_type": "SNpp60",
+      "steps": {
+        "1.0": {
+          "source_geometry": {
+            "samples": 225,
+            "segments": 142,
+            "cable_length_um": 165.1398372617892,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 52.44202578539123,
+              "target_to_source_median_um": 16.97971890870907,
+              "bidirectional_median_mean_um": 34.71087234705015,
+              "target_geometry": {
+                "samples": 144,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 21.051859341784745,
+              "target_to_source_median_um": 22.232525125704516,
+              "bidirectional_median_mean_um": 21.64219223374463,
+              "target_geometry": {
+                "samples": 477,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 25.53049995241993,
+              "target_to_source_median_um": 18.51380710313752,
+              "bidirectional_median_mean_um": 22.022153527778727,
+              "target_geometry": {
+                "samples": 447,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        },
+        "2.0": {
+          "source_geometry": {
+            "samples": 157,
+            "segments": 142,
+            "cable_length_um": 165.1398372617892,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 58.283385501216394,
+              "target_to_source_median_um": 17.098151630391264,
+              "bidirectional_median_mean_um": 37.69076856580383,
+              "target_geometry": {
+                "samples": 124,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 23.72355604329343,
+              "target_to_source_median_um": 21.72871788887593,
+              "bidirectional_median_mean_um": 22.72613696608468,
+              "target_geometry": {
+                "samples": 402,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 30.33875629780135,
+              "target_to_source_median_um": 19.66566289555326,
+              "bidirectional_median_mean_um": 25.002209596677304,
+              "target_geometry": {
+                "samples": 387,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        },
+        "4.0": {
+          "source_geometry": {
+            "samples": 142,
+            "segments": 142,
+            "cable_length_um": 165.1398372617892,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 61.76155055505451,
+              "target_to_source_median_um": 17.406878194933615,
+              "bidirectional_median_mean_um": 39.58421437499406,
+              "target_geometry": {
+                "samples": 120,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 24.55401493969907,
+              "target_to_source_median_um": 21.692844497110315,
+              "bidirectional_median_mean_um": 23.123429718404694,
+              "target_geometry": {
+                "samples": 399,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 32.25136239491513,
+              "target_to_source_median_um": 19.77061141725261,
+              "bidirectional_median_mean_um": 26.01098690608387,
+              "target_geometry": {
+                "samples": 385,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "malecns_body_id": 912317,
+      "malecns_type": "SNpp50",
+      "steps": {
+        "1.0": {
+          "source_geometry": {
+            "samples": 356,
+            "segments": 257,
+            "cable_length_um": 232.218284034337,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 14.09906052268019,
+              "target_to_source_median_um": 6.179140054227302,
+              "bidirectional_median_mean_um": 10.139100288453747,
+              "target_geometry": {
+                "samples": 144,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 4.689899831996603,
+              "target_to_source_median_um": 5.068070725721376,
+              "bidirectional_median_mean_um": 4.878985278858989,
+              "target_geometry": {
+                "samples": 477,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 4.996919174626347,
+              "target_to_source_median_um": 5.490693299217551,
+              "bidirectional_median_mean_um": 5.243806236921949,
+              "target_geometry": {
+                "samples": 447,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        },
+        "2.0": {
+          "source_geometry": {
+            "samples": 261,
+            "segments": 257,
+            "cable_length_um": 232.218284034337,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 13.24079005349741,
+              "target_to_source_median_um": 6.203312881931945,
+              "bidirectional_median_mean_um": 9.722051467714678,
+              "target_geometry": {
+                "samples": 124,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 4.6840887807114155,
+              "target_to_source_median_um": 5.048801816673674,
+              "bidirectional_median_mean_um": 4.866445298692545,
+              "target_geometry": {
+                "samples": 402,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 4.971246365054768,
+              "target_to_source_median_um": 5.491084531433103,
+              "bidirectional_median_mean_um": 5.231165448243935,
+              "target_geometry": {
+                "samples": 387,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        },
+        "4.0": {
+          "source_geometry": {
+            "samples": 257,
+            "segments": 257,
+            "cable_length_um": 232.218284034337,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 13.711268835263473,
+              "target_to_source_median_um": 6.206543047079032,
+              "bidirectional_median_mean_um": 9.958905941171253,
+              "target_geometry": {
+                "samples": 120,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 4.691790366113364,
+              "target_to_source_median_um": 5.044956366087937,
+              "bidirectional_median_mean_um": 4.86837336610065,
+              "target_geometry": {
+                "samples": 399,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 5.002694162683033,
+              "target_to_source_median_um": 5.487481716654514,
+              "bidirectional_median_mean_um": 5.245087939668774,
+              "target_geometry": {
+                "samples": 385,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "malecns_body_id": 914116,
+      "malecns_type": "SNpp60",
+      "steps": {
+        "1.0": {
+          "source_geometry": {
+            "samples": 261,
+            "segments": 144,
+            "cable_length_um": 192.8232186699242,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 57.47615858600467,
+              "target_to_source_median_um": 20.808841098906747,
+              "bidirectional_median_mean_um": 39.142499842455706,
+              "target_geometry": {
+                "samples": 144,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 23.791902293820165,
+              "target_to_source_median_um": 22.74412597843637,
+              "bidirectional_median_mean_um": 23.268014136128265,
+              "target_geometry": {
+                "samples": 477,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 30.392616864699278,
+              "target_to_source_median_um": 20.876086679175742,
+              "bidirectional_median_mean_um": 25.63435177193751,
+              "target_geometry": {
+                "samples": 447,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        },
+        "2.0": {
+          "source_geometry": {
+            "samples": 172,
+            "segments": 144,
+            "cable_length_um": 192.8232186699242,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 60.738008262043124,
+              "target_to_source_median_um": 20.69443607812186,
+              "bidirectional_median_mean_um": 40.71622217008249,
+              "target_geometry": {
+                "samples": 124,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 25.529445512776714,
+              "target_to_source_median_um": 22.39437857237974,
+              "bidirectional_median_mean_um": 23.961912042578227,
+              "target_geometry": {
+                "samples": 402,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 32.344944158083095,
+              "target_to_source_median_um": 21.62846501737159,
+              "bidirectional_median_mean_um": 26.986704587727342,
+              "target_geometry": {
+                "samples": 387,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        },
+        "4.0": {
+          "source_geometry": {
+            "samples": 145,
+            "segments": 144,
+            "cable_length_um": 192.8232186699242,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 64.11608983809559,
+              "target_to_source_median_um": 21.454187972219927,
+              "bidirectional_median_mean_um": 42.78513890515776,
+              "target_geometry": {
+                "samples": 120,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 26.746799126561797,
+              "target_to_source_median_um": 22.475177826757925,
+              "bidirectional_median_mean_um": 24.610988476659863,
+              "target_geometry": {
+                "samples": 399,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 33.888235695453986,
+              "target_to_source_median_um": 21.870293581410557,
+              "bidirectional_median_mean_um": 27.87926463843227,
+              "target_geometry": {
+                "samples": 385,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "malecns_body_id": 935383,
+      "malecns_type": "SNpp51",
+      "steps": {
+        "1.0": {
+          "source_geometry": {
+            "samples": 685,
+            "segments": 523,
+            "cable_length_um": 449.6407468870216,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 29.16267278246743,
+              "target_to_source_median_um": 3.303514319123523,
+              "bidirectional_median_mean_um": 16.233093550795477,
+              "target_geometry": {
+                "samples": 144,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 4.982751422844364,
+              "target_to_source_median_um": 3.8549019341450386,
+              "bidirectional_median_mean_um": 4.4188266784947015,
+              "target_geometry": {
+                "samples": 477,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 5.46024375852738,
+              "target_to_source_median_um": 3.378858407338415,
+              "bidirectional_median_mean_um": 4.419551082932897,
+              "target_geometry": {
+                "samples": 447,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        },
+        "2.0": {
+          "source_geometry": {
+            "samples": 532,
+            "segments": 523,
+            "cable_length_um": 449.6407468870216,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 29.104781584759095,
+              "target_to_source_median_um": 3.3949611119569907,
+              "bidirectional_median_mean_um": 16.24987134835804,
+              "target_geometry": {
+                "samples": 124,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 5.2034865747358285,
+              "target_to_source_median_um": 3.844251459905101,
+              "bidirectional_median_mean_um": 4.5238690173204645,
+              "target_geometry": {
+                "samples": 402,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 5.712938167841566,
+              "target_to_source_median_um": 3.4561310209634595,
+              "bidirectional_median_mean_um": 4.584534594402513,
+              "target_geometry": {
+                "samples": 387,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        },
+        "4.0": {
+          "source_geometry": {
+            "samples": 523,
+            "segments": 523,
+            "cable_length_um": 449.6407468870216,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 29.22270504681163,
+              "target_to_source_median_um": 3.430253336423905,
+              "bidirectional_median_mean_um": 16.326479191617768,
+              "target_geometry": {
+                "samples": 120,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 5.210676371185181,
+              "target_to_source_median_um": 3.838761895732435,
+              "bidirectional_median_mean_um": 4.524719133458808,
+              "target_geometry": {
+                "samples": 399,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 5.835218340894519,
+              "target_to_source_median_um": 3.4346315292078233,
+              "bidirectional_median_mean_um": 4.634924935051171,
+              "target_geometry": {
+                "samples": 385,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "malecns_body_id": 935541,
+      "malecns_type": "SNpp39",
+      "steps": {
+        "1.0": {
+          "source_geometry": {
+            "samples": 289,
+            "segments": 213,
+            "cable_length_um": 187.05533713332522,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 3.7476472179250986,
+              "target_to_source_median_um": 2.7536345161315685,
+              "bidirectional_median_mean_um": 3.2506408670283333,
+              "target_geometry": {
+                "samples": 144,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 3.1452506417750064,
+              "target_to_source_median_um": 8.420429878158,
+              "bidirectional_median_mean_um": 5.782840259966504,
+              "target_geometry": {
+                "samples": 477,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 5.133202566254841,
+              "target_to_source_median_um": 9.337770254583836,
+              "bidirectional_median_mean_um": 7.235486410419338,
+              "target_geometry": {
+                "samples": 447,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        },
+        "2.0": {
+          "source_geometry": {
+            "samples": 218,
+            "segments": 213,
+            "cable_length_um": 187.05533713332522,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 3.8234330055597483,
+              "target_to_source_median_um": 2.787175635091888,
+              "bidirectional_median_mean_um": 3.305304320325818,
+              "target_geometry": {
+                "samples": 124,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 3.151472537931606,
+              "target_to_source_median_um": 8.85484874029152,
+              "bidirectional_median_mean_um": 6.003160639111563,
+              "target_geometry": {
+                "samples": 402,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 5.1424762995666855,
+              "target_to_source_median_um": 11.365971708842904,
+              "bidirectional_median_mean_um": 8.254224004204795,
+              "target_geometry": {
+                "samples": 387,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        },
+        "4.0": {
+          "source_geometry": {
+            "samples": 213,
+            "segments": 213,
+            "cable_length_um": 187.05533713332522,
+            "missing_parent_links": 0
+          },
+          "targets": {
+            "96728": {
+              "source_to_target_median_um": 3.823768986763227,
+              "target_to_source_median_um": 2.7447026444704186,
+              "bidirectional_median_mean_um": 3.2842358156168228,
+              "target_geometry": {
+                "samples": 120,
+                "segments": 120,
+                "cable_length_um": 103.18349592109834,
+                "missing_parent_links": 0
+              }
+            },
+            "100531": {
+              "source_to_target_median_um": 3.1545583417043055,
+              "target_to_source_median_um": 8.872714497098514,
+              "bidirectional_median_mean_um": 6.01363641940141,
+              "target_geometry": {
+                "samples": 399,
+                "segments": 399,
+                "cable_length_um": 307.8720021280186,
+                "missing_parent_links": 0
+              }
+            },
+            "163745": {
+              "source_to_target_median_um": 5.133165713253983,
+              "target_to_source_median_um": 11.365971708842904,
+              "bidirectional_median_mean_um": 8.249568711048443,
+              "target_geometry": {
+                "samples": 385,
+                "segments": 385,
+                "cable_length_um": 288.83948314983786,
+                "missing_parent_links": 0
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "rankings": {
+    "1.0": {
+      "96728": [
+        903843,
+        935541,
+        817298,
+        912317,
+        817680,
+        935383,
+        815843,
+        902324,
+        902359,
+        906823,
+        815569,
+        905340,
+        911316,
+        817839,
+        906290,
+        914116,
+        905037,
+        906558,
+        905339,
+        905335,
+        142571,
+        135305,
+        248280
+      ],
+      "100531": [
+        817680,
+        935383,
+        912317,
+        935541,
+        903843,
+        815843,
+        817298,
+        815569,
+        911316,
+        902324,
+        905340,
+        914116,
+        902359,
+        906823,
+        817839,
+        906558,
+        906290,
+        905037,
+        905339,
+        905335,
+        142571,
+        135305,
+        248280
+      ],
+      "163745": [
+        817680,
+        935383,
+        912317,
+        935541,
+        903843,
+        815843,
+        817298,
+        815569,
+        902324,
+        902359,
+        906823,
+        905340,
+        911316,
+        914116,
+        817839,
+        906558,
+        906290,
+        905037,
+        905339,
+        905335,
+        142571,
+        248280,
+        135305
+      ]
+    },
+    "2.0": {
+      "96728": [
+        903843,
+        935541,
+        817298,
+        912317,
+        817680,
+        935383,
+        815843,
+        902324,
+        906823,
+        815569,
+        902359,
+        905340,
+        911316,
+        817839,
+        906290,
+        905037,
+        914116,
+        906558,
+        905339,
+        905335,
+        142571,
+        135305,
+        248280
+      ],
+      "100531": [
+        817680,
+        935383,
+        912317,
+        935541,
+        903843,
+        815843,
+        817298,
+        815569,
+        902324,
+        911316,
+        905340,
+        914116,
+        906558,
+        817839,
+        906823,
+        902359,
+        906290,
+        905037,
+        905339,
+        905335,
+        142571,
+        135305,
+        248280
+      ],
+      "163745": [
+        817680,
+        935383,
+        912317,
+        815843,
+        935541,
+        903843,
+        817298,
+        815569,
+        902324,
+        906823,
+        902359,
+        905340,
+        911316,
+        817839,
+        914116,
+        906558,
+        906290,
+        905037,
+        905339,
+        905335,
+        142571,
+        135305,
+        248280
+      ]
+    },
+    "4.0": {
+      "96728": [
+        903843,
+        935541,
+        817298,
+        912317,
+        817680,
+        935383,
+        815843,
+        902324,
+        815569,
+        906823,
+        905340,
+        902359,
+        817839,
+        911316,
+        906290,
+        905037,
+        906558,
+        905339,
+        914116,
+        905335,
+        142571,
+        135305,
+        248280
+      ],
+      "100531": [
+        817680,
+        935383,
+        912317,
+        935541,
+        903843,
+        815843,
+        817298,
+        815569,
+        902324,
+        911316,
+        905340,
+        906558,
+        817839,
+        914116,
+        906823,
+        902359,
+        906290,
+        905037,
+        905339,
+        905335,
+        142571,
+        135305,
+        248280
+      ],
+      "163745": [
+        817680,
+        935383,
+        912317,
+        815843,
+        935541,
+        903843,
+        817298,
+        815569,
+        902324,
+        906823,
+        902359,
+        905340,
+        911316,
+        817839,
+        906558,
+        914116,
+        906290,
+        905037,
+        905339,
+        905335,
+        142571,
+        135305,
+        248280
+      ]
+    }
+  },
+  "validates_manc_v1_identity": false
+}

@@ -1,0 +1,134 @@
+{
+  "repository": "neurokernel/lamina",
+  "commit": "1dc2d80912ab1be87fb06c0d46d930270a3033d2",
+  "files": [
+    {
+      "path": "AUTHORS.rst",
+      "url": "https://raw.githubusercontent.com/neurokernel/lamina/1dc2d80912ab1be87fb06c0d46d930270a3033d2/AUTHORS.rst",
+      "git_blob": "dae3ad37041da486bff48376aa78df87da4423e6",
+      "bytes": 175,
+      "sha256": "79966f87dde3aabcf563baaf2326f791c0b40bc8c2153b1d29770c516b20d946"
+    },
+    {
+      "path": "LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/neurokernel/lamina/1dc2d80912ab1be87fb06c0d46d930270a3033d2/LICENSE.txt",
+      "git_blob": "f934ff30577763192a6d7c105f5dad052a057ee8",
+      "bytes": 1505,
+      "sha256": "c8b812996bb1ca1e547bf70f06612ff5ccc5490a1a61fc5dffb816778ebb287a"
+    },
+    {
+      "path": "README.rst",
+      "url": "https://raw.githubusercontent.com/neurokernel/lamina/1dc2d80912ab1be87fb06c0d46d930270a3033d2/README.rst",
+      "git_blob": "a2e21fc4e648ed3a91ac898fc48f777a5b58522a",
+      "bytes": 662,
+      "sha256": "09a570dc176790f46c4817c7a060af4940663453e55d266de674dfb234149863"
+    },
+    {
+      "path": "examples/lamina_demo/lamina_demo.py",
+      "url": "https://raw.githubusercontent.com/neurokernel/lamina/1dc2d80912ab1be87fb06c0d46d930270a3033d2/examples/lamina_demo/lamina_demo.py",
+      "git_blob": "79ff41b04b2f1e1f577115522f1d123799c02a02",
+      "bytes": 4711,
+      "sha256": "d81322a1267f09b5fdf643de06ad6664d789f8346e892f911654568257b06818"
+    },
+    {
+      "path": "lamina/__init__.py",
+      "url": "https://raw.githubusercontent.com/neurokernel/lamina/1dc2d80912ab1be87fb06c0d46d930270a3033d2/lamina/__init__.py",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "lamina/configreader.py",
+      "url": "https://raw.githubusercontent.com/neurokernel/lamina/1dc2d80912ab1be87fb06c0d46d930270a3033d2/lamina/configreader.py",
+      "git_blob": "0b34342fb5dfd3c89d962aed40e62f5df7652f6b",
+      "bytes": 1765,
+      "sha256": "2dc4ad4a881e9596afd35fb0ddf7f31a1a3dda256158d42eb955f1be3fdb9601"
+    },
+    {
+      "path": "lamina/geometry/__init__.py",
+      "url": "https://raw.githubusercontent.com/neurokernel/lamina/1dc2d80912ab1be87fb06c0d46d930270a3033d2/lamina/geometry/__init__.py",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "lamina/geometry/hexagon.py",
+      "url": "https://raw.githubusercontent.com/neurokernel/lamina/1dc2d80912ab1be87fb06c0d46d930270a3033d2/lamina/geometry/hexagon.py",
+      "git_blob": "3584bb93aa7f386efc82a2fa46039308ccfcc928",
+      "bytes": 9371,
+      "sha256": "36174b6288333b93250ff63347ca8c733a29c88dabc0570bbb6a10d6db0e5583"
+    },
+    {
+      "path": "lamina/lamina.py",
+      "url": "https://raw.githubusercontent.com/neurokernel/lamina/1dc2d80912ab1be87fb06c0d46d930270a3033d2/lamina/lamina.py",
+      "git_blob": "7931fd10a1894fec4bac7469f0fc35c608ee151b",
+      "bytes": 33341,
+      "sha256": "af89cde204ba4692b550f4ebcedd3da2f3c219010130b1cf0919b148f7e3ba5e"
+    },
+    {
+      "path": "lamina/neurons/__init__.py",
+      "url": "https://raw.githubusercontent.com/neurokernel/lamina/1dc2d80912ab1be87fb06c0d46d930270a3033d2/lamina/neurons/__init__.py",
+      "git_blob": "f2a60078f480d96d64a89a85d0bd9c8cbf5addb2",
+      "bytes": 189,
+      "sha256": "eeb83ea58bfd4716ba7b8310bccfe057c74b8b754cfeb7f1b37913790768de68"
+    },
+    {
+      "path": "lamina/neurons/baseneuron.py",
+      "url": "https://raw.githubusercontent.com/neurokernel/lamina/1dc2d80912ab1be87fb06c0d46d930270a3033d2/lamina/neurons/baseneuron.py",
+      "git_blob": "bdf99ae3094d35cf1c6e5d44dffd775d1525ad7b",
+      "bytes": 14564,
+      "sha256": "54216a946e66427bc93d0954ad813c2263a06955cae446c7987cc1c1b96a7d72"
+    },
+    {
+      "path": "lamina/synapses/__init__.py",
+      "url": "https://raw.githubusercontent.com/neurokernel/lamina/1dc2d80912ab1be87fb06c0d46d930270a3033d2/lamina/synapses/__init__.py",
+      "git_blob": "f2a60078f480d96d64a89a85d0bd9c8cbf5addb2",
+      "bytes": 189,
+      "sha256": "eeb83ea58bfd4716ba7b8310bccfe057c74b8b754cfeb7f1b37913790768de68"
+    },
+    {
+      "path": "lamina/synapses/basesynapse.py",
+      "url": "https://raw.githubusercontent.com/neurokernel/lamina/1dc2d80912ab1be87fb06c0d46d930270a3033d2/lamina/synapses/basesynapse.py",
+      "git_blob": "49754a7964815dbb418b360ab92f26c895e2347a",
+      "bytes": 429,
+      "sha256": "3c3cec6c9b988c024c4dda0717d5d3db55cd69a827dd51ed669669d17ee45a4a"
+    },
+    {
+      "path": "lamina/synapses/dummysynapse.py",
+      "url": "https://raw.githubusercontent.com/neurokernel/lamina/1dc2d80912ab1be87fb06c0d46d930270a3033d2/lamina/synapses/dummysynapse.py",
+      "git_blob": "926d702f0fab4d60bddb2257dca2da8fb1cda3d1",
+      "bytes": 2945,
+      "sha256": "c002cecf7b86641bcf8d8b582dd730a8de954d3f4dc33e96e44b62a2f24ff150"
+    },
+    {
+      "path": "lamina/vision_models/__init__.py",
+      "url": "https://raw.githubusercontent.com/neurokernel/lamina/1dc2d80912ab1be87fb06c0d46d930270a3033d2/lamina/vision_models/__init__.py",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "lamina/vision_models/lamina_model_template.py",
+      "url": "https://raw.githubusercontent.com/neurokernel/lamina/1dc2d80912ab1be87fb06c0d46d930270a3033d2/lamina/vision_models/lamina_model_template.py",
+      "git_blob": "56950ccbfb1102491db08f8aad69e0dc38b94c55",
+      "bytes": 15947,
+      "sha256": "c33970b3b4032d05efdc56f9c58717ac3408b504cbe6172719c38e9ce449f397"
+    },
+    {
+      "path": "lamina/vision_models/vision_model_template.py",
+      "url": "https://raw.githubusercontent.com/neurokernel/lamina/1dc2d80912ab1be87fb06c0d46d930270a3033d2/lamina/vision_models/vision_model_template.py",
+      "git_blob": "2f95a558f8c1cd5b87274b5b010fbc6226cfd0ed",
+      "bytes": 21229,
+      "sha256": "f25f8ebf7e5733d64e8c1925ea06d2462346fedf02887019963f7ef35e658998"
+    },
+    {
+      "path": "setup.py",
+      "url": "https://raw.githubusercontent.com/neurokernel/lamina/1dc2d80912ab1be87fb06c0d46d930270a3033d2/setup.py",
+      "git_blob": "66f1bd65e83c437e252f0b727735fb1a52617f79",
+      "bytes": 1860,
+      "sha256": "a83a67906fac999b0d05dbcab17b24752add012dfce86bba2dbf214ca60963f0"
+    }
+  ],
+  "executed": false,
+  "scope": "Author lamina model sources; acquired for graded-synapse audit, not executed or mapped to MaleCNS"
+}

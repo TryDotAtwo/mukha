@@ -1,0 +1,68 @@
+{
+  "passed": true,
+  "scope": "Independent alternating dark/light synthetic population; no anatomical MaleCNS visual mapping",
+  "cases": [
+    {
+      "n": 2,
+      "microvilli_each": 30000,
+      "ticks": 1000,
+      "dt_seconds": 0.0001,
+      "elapsed_wall_seconds": 0.7336762260001706,
+      "binary_sha256": "264eaf5dd680189a8e322fd5ad3847a714e62c1b3a74fdbc56911e13957b1648",
+      "state_sha256": "e32410ad68305d5d2fb7cd57a9e3ef2c3761a9533284163da90084630a88d277",
+      "command": [
+        "/tmp/fly-cuda-13.1.1/bin/nvcc",
+        "-L/tmp/fly-cuda-13.1.1/lib",
+        "-std=c++17",
+        "-O2",
+        "-arch=sm_120",
+        "--fmad=false",
+        "-DFF_SAFE_TRANSDUCTION=1",
+        "-DFF_ENTITY_RNG=1",
+        "-DFF_DUMP_POPULATION=1",
+        "-DFF_TRANSDUCTION_BLOCKS=16",
+        "-DFF_PHOTORECEPTORS=2",
+        "/tmp/fly-photon-population/native/phototransduction_probe.cu",
+        "-o",
+        "/tmp/fly-photon-population/probe-2"
+      ]
+    },
+    {
+      "n": 130,
+      "microvilli_each": 30000,
+      "ticks": 1000,
+      "dt_seconds": 0.0001,
+      "elapsed_wall_seconds": 17.369974633000083,
+      "binary_sha256": "e1b2c2588e6e8d0469cf153b32248f9243b5a3c094fb2648a00c9116635d4ee8",
+      "state_sha256": "5a23d6f183ed4f273a74e0d0c8af7d593c6a336ade8549dd6cac290d83fa1a64",
+      "command": [
+        "/tmp/fly-cuda-13.1.1/bin/nvcc",
+        "-L/tmp/fly-cuda-13.1.1/lib",
+        "-std=c++17",
+        "-O2",
+        "-arch=sm_120",
+        "--fmad=false",
+        "-DFF_SAFE_TRANSDUCTION=1",
+        "-DFF_ENTITY_RNG=1",
+        "-DFF_DUMP_POPULATION=1",
+        "-DFF_TRANSDUCTION_BLOCKS=16",
+        "-DFF_PHOTORECEPTORS=130",
+        "/tmp/fly-photon-population/native/phototransduction_probe.cu",
+        "-o",
+        "/tmp/fly-photon-population/probe-130"
+      ]
+    }
+  ],
+  "first_pair_exact": true,
+  "all_dark_equal": true,
+  "all_light_responded": true,
+  "source_hashes": {
+    "native/phototransduction_probe.cu": "40248c65b3fe8c78a0c7cd50a27da4d6fcaf40b32d2d583cb325730521ebd423",
+    "native/phototransduction_safe.cuh": "99078b4fba2eb28e7f53d2017e598e9acb2b38f79391ce49ef7cfbf9dc8c7c04",
+    "native/photocurrent_safe.cuh": "27237e700ad2cd11ba00d9726c0a9caec572c0cd2ea06a5c2168e4344f107b74",
+    "build/photoreceptor_author_hh.cu": "5c07136b2207b7ead3163370e276a3a4925bd75f613f751c0e4a7330e3dab72e",
+    "build/photoreceptor_author_adaptation.cu": "0d45ebf462bd2f03ba55c86443ecf7a8e47278148db61809e671fc2cc131fffd"
+  },
+  "matches_previous_pair_trace": true,
+  "short_trial_note": "10 ms trial did not reach the specified 1 mV response; 100 ms trial passed."
+}

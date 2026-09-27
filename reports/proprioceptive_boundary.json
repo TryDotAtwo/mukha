@@ -1,0 +1,279 @@
+{
+  "format": "faithful-fly.proprioceptive-boundary.v1",
+  "scope": "Complete anatomical incident-edge view; no enabled physiology, CNS truncation or functional receptor binding",
+  "graph_manifest_sha256": "b30e21078c0479ac288e7f9d3b7cb2c9eb76aa3b9707f3a2b9fa6a92bb822ef3",
+  "candidate_population": 167216,
+  "sensory_cells": 1454,
+  "type_counts": {
+    "SApp": 148,
+    "SNppxx": 78,
+    "SApp09,SApp22": 74,
+    "SNpp50": 62,
+    "SNpp45": 52,
+    "SApp08": 47,
+    "SNpp52": 43,
+    "SNpp60": 41,
+    "SNpp47": 40,
+    "SNpp39": 39,
+    "SApp06,SApp15": 37,
+    "SApp10": 37,
+    "SNpp02": 36,
+    "SNpp19": 35,
+    "SNpp40": 32,
+    "SNpp51": 31,
+    "SNpp01": 25,
+    "SApp23": 23,
+    "SNpp41": 22,
+    "SNpp42": 20,
+    "SApp01": 19,
+    "SNpp43": 19,
+    "SNpp29,SNpp63": 18,
+    "SNpp18": 18,
+    "SNpp28": 17,
+    "SNpp58": 16,
+    "SNpp23": 16,
+    "SNpp53": 13,
+    "SNpp16": 13,
+    "SNpp56": 13,
+    "SNpp17": 12,
+    "SNpp57": 12,
+    "SNpp07": 12,
+    "SNpp48": 10,
+    "SNxxxx": 10,
+    "SNpp61": 10,
+    "SApp19": 9,
+    "SApp04": 9,
+    "SNpp62": 9,
+    "SNpp32": 8,
+    "SNpp34": 8,
+    "SNpp30": 8,
+    "SApp11,SApp18": 8,
+    "SApp13": 8,
+    "SNpp55": 7,
+    "SNpp25": 7,
+    "SNpp33": 7,
+    "SNpp37": 7,
+    "SApp14": 7,
+    "SNpp10": 7,
+    "SNpp59": 6,
+    "SNpp20": 6,
+    "SApp23,SNpp56": 6,
+    "SNpp11": 6,
+    "SNpp38": 6,
+    "SNpp14": 6,
+    "SNpp35": 6,
+    "SNpp15": 6,
+    "SNpp44": 5,
+    "SNpp09": 4,
+    "SNpp21": 4,
+    "SNpp03": 4,
+    "SNpp24": 4,
+    "SNpp08": 4,
+    "SNpp06": 4,
+    "SNpp49": 4,
+    "SNpp04": 4,
+    "SApp21": 3,
+    "SNpp34,SApp16": 3,
+    "SApp05": 3,
+    "SApp02,SApp03": 3,
+    "SNpp20,SApp02": 3,
+    "SNpp31": 2,
+    "SNpp12": 2,
+    "SApp20": 2,
+    "SNpp05": 2,
+    "SNta21": 2,
+    "SNpp36": 2,
+    "SNpp26": 2,
+    "SNpp13": 2,
+    "SNpp46": 2,
+    "SNpp27": 2,
+    "SApp07": 2,
+    "SNpp22": 2
+  },
+  "incident_rows": 209361,
+  "incident_synapse_count": 1183473,
+  "categories": {
+    "proprioceptor_to_other": {
+      "rows": 168599,
+      "synapse_count": 975377
+    },
+    "other_to_proprioceptor": {
+      "rows": 30176,
+      "synapse_count": 179807
+    },
+    "proprioceptor_to_proprioceptor": {
+      "rows": 10586,
+      "synapse_count": 28289
+    }
+  },
+  "sensory_cells_with_incoming_edges": 1454,
+  "sensory_cells_without_incoming_edges": 0,
+  "sensory_cells_without_incident_edges": 0,
+  "largest_non_sensory_input_types": [
+    {
+      "pre_type": "IN06B017",
+      "rows": 1501,
+      "synapse_count": 19534
+    },
+    {
+      "pre_type": "AN06B068",
+      "rows": 522,
+      "synapse_count": 6332
+    },
+    {
+      "pre_type": "IN19A041",
+      "rows": 521,
+      "synapse_count": 5652
+    },
+    {
+      "pre_type": "IN09A012",
+      "rows": 102,
+      "synapse_count": 5403
+    },
+    {
+      "pre_type": "IN05B016",
+      "rows": 217,
+      "synapse_count": 5374
+    },
+    {
+      "pre_type": "IN03B060",
+      "rows": 383,
+      "synapse_count": 5203
+    },
+    {
+      "pre_type": "AN12B004",
+      "rows": 682,
+      "synapse_count": 3706
+    },
+    {
+      "pre_type": "AN17B002",
+      "rows": 214,
+      "synapse_count": 3500
+    },
+    {
+      "pre_type": "IN17B003",
+      "rows": 288,
+      "synapse_count": 3377
+    },
+    {
+      "pre_type": "<untyped>",
+      "rows": 528,
+      "synapse_count": 2904
+    },
+    {
+      "pre_type": "AN06B037",
+      "rows": 208,
+      "synapse_count": 2857
+    },
+    {
+      "pre_type": "IN13A008",
+      "rows": 265,
+      "synapse_count": 2841
+    },
+    {
+      "pre_type": "AN06B046",
+      "rows": 274,
+      "synapse_count": 2603
+    },
+    {
+      "pre_type": "IN19A043",
+      "rows": 225,
+      "synapse_count": 2537
+    },
+    {
+      "pre_type": "AN17B008",
+      "rows": 420,
+      "synapse_count": 2523
+    },
+    {
+      "pre_type": "IN19A060_c",
+      "rows": 231,
+      "synapse_count": 2417
+    },
+    {
+      "pre_type": "IN05B001",
+      "rows": 179,
+      "synapse_count": 2189
+    },
+    {
+      "pre_type": "IN17B014",
+      "rows": 102,
+      "synapse_count": 2094
+    },
+    {
+      "pre_type": "IN19A056",
+      "rows": 271,
+      "synapse_count": 1968
+    },
+    {
+      "pre_type": "AN07B004",
+      "rows": 350,
+      "synapse_count": 1880
+    },
+    {
+      "pre_type": "IN06A006",
+      "rows": 44,
+      "synapse_count": 1819
+    },
+    {
+      "pre_type": "IN17B008",
+      "rows": 348,
+      "synapse_count": 1781
+    },
+    {
+      "pre_type": "IN19A060_d",
+      "rows": 303,
+      "synapse_count": 1779
+    },
+    {
+      "pre_type": "INXXX044",
+      "rows": 117,
+      "synapse_count": 1748
+    },
+    {
+      "pre_type": "IN06A075",
+      "rows": 161,
+      "synapse_count": 1671
+    },
+    {
+      "pre_type": "IN19A054",
+      "rows": 146,
+      "synapse_count": 1662
+    },
+    {
+      "pre_type": "IN06B076",
+      "rows": 305,
+      "synapse_count": 1635
+    },
+    {
+      "pre_type": "IN19A117",
+      "rows": 142,
+      "synapse_count": 1571
+    },
+    {
+      "pre_type": "AN17B013",
+      "rows": 39,
+      "synapse_count": 1535
+    },
+    {
+      "pre_type": "IN05B038",
+      "rows": 32,
+      "synapse_count": 1531
+    }
+  ],
+  "independent_incident_union_exact": true,
+  "files": {
+    "cells.feather": {
+      "sha256": "1ab4128bb4519e45465720695a68f031f0eee4882b4077b7bca35e32a818e076",
+      "bytes": 97282
+    },
+    "edges.feather": {
+      "sha256": "c1df50ebfa1feffa13039c4e6d03d03636133c1960fd61d8f12bbc16f1482efe",
+      "bytes": 4183554
+    },
+    "type_pairs.csv": {
+      "sha256": "7654dd5b7b7a1af17a6510ee11debf09353d72ed531b8e109e746437c7e1700a",
+      "bytes": 738578
+    }
+  }
+}

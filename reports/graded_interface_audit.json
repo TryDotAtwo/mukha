@@ -1,0 +1,266 @@
+{
+  "scope": "Source interface compatibility audit, not biological validation",
+  "current_required_parameters": [
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "phi",
+    "offset",
+    "V_L",
+    "V_Ca",
+    "V_K",
+    "g_L",
+    "g_Ca",
+    "g_K"
+  ],
+  "cells": [
+    {
+      "name": "Am",
+      "missing_required_names": [
+        "V_K",
+        "g_Ca",
+        "g_K"
+      ],
+      "historical_keys": [
+        "G_Ca",
+        "G_k",
+        "V1",
+        "V2",
+        "V3",
+        "V4",
+        "V_Ca",
+        "V_L",
+        "V_k",
+        "class",
+        "g_L",
+        "initV",
+        "initn",
+        "name",
+        "offset",
+        "phi"
+      ]
+    },
+    {
+      "name": "L1",
+      "missing_required_names": [
+        "V_K",
+        "g_Ca",
+        "g_K"
+      ],
+      "historical_keys": [
+        "G_Ca",
+        "G_k",
+        "V1",
+        "V2",
+        "V3",
+        "V4",
+        "V_Ca",
+        "V_L",
+        "V_k",
+        "class",
+        "g_L",
+        "initV",
+        "initn",
+        "name",
+        "offset",
+        "phi"
+      ]
+    },
+    {
+      "name": "L2",
+      "missing_required_names": [
+        "V_K",
+        "g_Ca",
+        "g_K"
+      ],
+      "historical_keys": [
+        "G_Ca",
+        "G_k",
+        "V1",
+        "V2",
+        "V3",
+        "V4",
+        "V_Ca",
+        "V_L",
+        "V_k",
+        "class",
+        "g_L",
+        "initV",
+        "initn",
+        "name",
+        "offset",
+        "phi"
+      ]
+    },
+    {
+      "name": "L3",
+      "missing_required_names": [
+        "V_K",
+        "g_Ca",
+        "g_K"
+      ],
+      "historical_keys": [
+        "G_Ca",
+        "G_k",
+        "V1",
+        "V2",
+        "V3",
+        "V4",
+        "V_Ca",
+        "V_L",
+        "V_k",
+        "class",
+        "g_L",
+        "initV",
+        "initn",
+        "name",
+        "offset",
+        "phi"
+      ]
+    },
+    {
+      "name": "L4",
+      "missing_required_names": [
+        "V_K",
+        "g_Ca",
+        "g_K"
+      ],
+      "historical_keys": [
+        "G_Ca",
+        "G_k",
+        "V1",
+        "V2",
+        "V3",
+        "V4",
+        "V_Ca",
+        "V_L",
+        "V_k",
+        "class",
+        "g_L",
+        "initV",
+        "initn",
+        "name",
+        "offset",
+        "phi"
+      ]
+    },
+    {
+      "name": "L5",
+      "missing_required_names": [
+        "V_K",
+        "g_Ca",
+        "g_K"
+      ],
+      "historical_keys": [
+        "G_Ca",
+        "G_k",
+        "V1",
+        "V2",
+        "V3",
+        "V4",
+        "V_Ca",
+        "V_L",
+        "V_k",
+        "class",
+        "g_L",
+        "initV",
+        "initn",
+        "name",
+        "offset",
+        "phi"
+      ]
+    },
+    {
+      "name": "T1",
+      "missing_required_names": [
+        "V_K",
+        "g_Ca",
+        "g_K"
+      ],
+      "historical_keys": [
+        "G_Ca",
+        "G_k",
+        "V1",
+        "V2",
+        "V3",
+        "V4",
+        "V_Ca",
+        "V_L",
+        "V_k",
+        "class",
+        "g_L",
+        "initV",
+        "initn",
+        "name",
+        "offset",
+        "phi"
+      ]
+    },
+    {
+      "name": "C2",
+      "missing_required_names": [
+        "V_K",
+        "g_Ca",
+        "g_K"
+      ],
+      "historical_keys": [
+        "G_Ca",
+        "G_k",
+        "V1",
+        "V2",
+        "V3",
+        "V4",
+        "V_Ca",
+        "V_L",
+        "V_k",
+        "class",
+        "g_L",
+        "initV",
+        "initn",
+        "name",
+        "offset",
+        "phi"
+      ]
+    },
+    {
+      "name": "C3",
+      "missing_required_names": [
+        "V_K",
+        "g_Ca",
+        "g_K"
+      ],
+      "historical_keys": [
+        "G_Ca",
+        "G_k",
+        "V1",
+        "V2",
+        "V3",
+        "V4",
+        "V_Ca",
+        "V_L",
+        "V_k",
+        "class",
+        "g_L",
+        "initV",
+        "initn",
+        "name",
+        "offset",
+        "phi"
+      ]
+    }
+  ],
+  "direct_parameter_compatibility": false,
+  "automatic_transfer_enabled": false,
+  "graded_synapse_equation": "g=min(saturation,slope*max(0,Vpre-threshold)^power)",
+  "unresolved": [
+    "historical-to-current parameter semantics and naming",
+    "scale/delay and reversal handling outside conductance kernel",
+    "MaleCNS edge counts versus author cartridge scale",
+    "cell-specific biological calibration"
+  ],
+  "source_sha256": {
+    "data\\reference\\lamina\\lamina\\vision_models\\lamina_model_template.py": "c33970b3b4032d05efdc56f9c58717ac3408b504cbe6172719c38e9ce449f397",
+    "data\\reference\\neurodriver_graded\\neurokernel\\LPU\\NDComponents\\MembraneModels\\MorrisLecar.py": "3bd44c0ac9c22ff02f81f055b85fe668d716b430a1777f1e6319234ad8201274"
+  }
+}

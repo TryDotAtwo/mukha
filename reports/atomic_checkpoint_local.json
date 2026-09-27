@@ -1,0 +1,18 @@
+{
+  "platform": "Windows MSVC",
+  "passed": true,
+  "cases": [
+    "initial publication",
+    "abandoned write",
+    "writer collision",
+    "replacement",
+    "failed publication"
+  ],
+  "scope": "Normal execution and exceptions, not crash/power-loss durability",
+  "hashes": {
+    "native/atomic_checkpoint.hpp": "0545f9c7c4a6565564373e52e0303c2afd7539c2d61ce513001fe2ead4a3df6b",
+    "native/atomic_checkpoint_test.cpp": "6da3509f6912def93007b54b93fc7f2c765f7de436f716a95f86f9f670a5723b",
+    "native/photon_checkpoint.hpp": "d69640449becbf6012dc98ecc108f1e1d7f70b37640d15e93a2b87e6f432f0f4",
+    "build/atomic_checkpoint_test.exe": "59b1ed341aa52f8170a86843415b578b41830f4a76a6577f84c5962efdf37383"
+  }
+}

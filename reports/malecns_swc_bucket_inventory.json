@@ -1,0 +1,15 @@
+{
+  "dataset": "male-cns:v1.0",
+  "source": "https://storage.googleapis.com/storage/v1/b/flyem-male-cns/o",
+  "prefix": "v1.0/segmentation/skeletons-malecns/skeletons-swc/",
+  "pages": 212,
+  "listed_swc_files": 211573,
+  "graph_population": 167216,
+  "graph_ids_with_published_swc": 167216,
+  "graph_ids_without_published_swc": 0,
+  "missing_graph_ids": [],
+  "published_bytes_for_graph_ids": 9034068018,
+  "inventory_path": "data/derived/malecns_v1_swc_bucket_inventory.csv.gz",
+  "inventory_sha256": "0bc334953ab58fb738cdf462900d0b8bf539984f81605f099709cdc15fd23cde",
+  "scope": "Public bucket metadata listing, not downloaded skeleton validation; file existence does not prove morphology completeness."
+}

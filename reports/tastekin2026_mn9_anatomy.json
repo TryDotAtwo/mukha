@@ -1,0 +1,825 @@
+{
+  "scope": "Exact anatomical graph paths, without functional signs or dynamical inference",
+  "graph_manifest_sha256": "b30e21078c0479ac288e7f9d3b7cb2c9eb76aa3b9707f3a2b9fa6a92bb822ef3",
+  "crosswalk_sha256": "92c26306b9a8069402898ab024c8ae281790951664b40bb413206832fe612070",
+  "mn9": [
+    {
+      "mn9_body_id": 10331,
+      "incoming_edges": 278,
+      "incoming_contacts": 6012,
+      "presynaptic_nt_counts": {
+        "gaba": 90,
+        "acetylcholine": 126,
+        "unclear": 27,
+        "glutamate": 33,
+        "histamine": 2
+      },
+      "direct_taste_source_ids": {
+        "sweet_LB3c": [],
+        "bitter_LB1a_d": []
+      },
+      "two_edge_intermediates": {
+        "sweet_LB3c": [
+          {
+            "intermediate_body_id": 10032,
+            "sensory_body_ids": [
+              512551
+            ],
+            "contacts_to_mn9": 4
+          },
+          {
+            "intermediate_body_id": 10135,
+            "sensory_body_ids": [
+              262567,
+              512551,
+              933317
+            ],
+            "contacts_to_mn9": 5
+          },
+          {
+            "intermediate_body_id": 10313,
+            "sensory_body_ids": [
+              72059,
+              92440
+            ],
+            "contacts_to_mn9": 3
+          },
+          {
+            "intermediate_body_id": 10557,
+            "sensory_body_ids": [
+              92440,
+              120303,
+              142827,
+              215556
+            ],
+            "contacts_to_mn9": 2
+          },
+          {
+            "intermediate_body_id": 11582,
+            "sensory_body_ids": [
+              72059,
+              92440,
+              512551
+            ],
+            "contacts_to_mn9": 2
+          },
+          {
+            "intermediate_body_id": 11935,
+            "sensory_body_ids": [
+              120303,
+              142827,
+              933317,
+              942168
+            ],
+            "contacts_to_mn9": 1
+          },
+          {
+            "intermediate_body_id": 12230,
+            "sensory_body_ids": [
+              72059,
+              78240,
+              85806,
+              92440,
+              101087,
+              120303,
+              140015,
+              142827,
+              190769,
+              202888,
+              215556,
+              261450,
+              262567,
+              512551,
+              531237,
+              933317,
+              158893964
+            ],
+            "contacts_to_mn9": 5
+          },
+          {
+            "intermediate_body_id": 12364,
+            "sensory_body_ids": [
+              72059
+            ],
+            "contacts_to_mn9": 96
+          },
+          {
+            "intermediate_body_id": 12752,
+            "sensory_body_ids": [
+              475202322
+            ],
+            "contacts_to_mn9": 101
+          },
+          {
+            "intermediate_body_id": 12807,
+            "sensory_body_ids": [
+              78240,
+              85806,
+              92440,
+              101087,
+              120303,
+              140015,
+              142827,
+              190769,
+              215556,
+              261450,
+              262567,
+              512551,
+              933317
+            ],
+            "contacts_to_mn9": 1
+          },
+          {
+            "intermediate_body_id": 12808,
+            "sensory_body_ids": [
+              72059,
+              78240,
+              85806,
+              92440,
+              101087,
+              120303,
+              142827,
+              190769,
+              215556,
+              261450,
+              512551,
+              933317,
+              942168,
+              349137284
+            ],
+            "contacts_to_mn9": 5
+          },
+          {
+            "intermediate_body_id": 15285,
+            "sensory_body_ids": [
+              933317
+            ],
+            "contacts_to_mn9": 3
+          },
+          {
+            "intermediate_body_id": 15450,
+            "sensory_body_ids": [
+              92440,
+              120303,
+              215556,
+              942168
+            ],
+            "contacts_to_mn9": 2
+          },
+          {
+            "intermediate_body_id": 15812,
+            "sensory_body_ids": [
+              262567,
+              349137284
+            ],
+            "contacts_to_mn9": 3
+          },
+          {
+            "intermediate_body_id": 17655,
+            "sensory_body_ids": [
+              92440,
+              101087,
+              120303,
+              140015
+            ],
+            "contacts_to_mn9": 1
+          },
+          {
+            "intermediate_body_id": 19973,
+            "sensory_body_ids": [
+              475202322
+            ],
+            "contacts_to_mn9": 1
+          },
+          {
+            "intermediate_body_id": 32102,
+            "sensory_body_ids": [
+              475202322
+            ],
+            "contacts_to_mn9": 21
+          },
+          {
+            "intermediate_body_id": 43293,
+            "sensory_body_ids": [
+              72059,
+              78240,
+              85806,
+              92440,
+              101087,
+              120303,
+              140015,
+              142827,
+              202888,
+              215556,
+              262567,
+              512551,
+              531237,
+              933317,
+              942168
+            ],
+            "contacts_to_mn9": 1
+          },
+          {
+            "intermediate_body_id": 512730,
+            "sensory_body_ids": [
+              85806,
+              180314,
+              190769,
+              261450,
+              512551,
+              531237,
+              933317,
+              158893964,
+              475202322
+            ],
+            "contacts_to_mn9": 7
+          },
+          {
+            "intermediate_body_id": 514753,
+            "sensory_body_ids": [
+              85806,
+              262567,
+              475202322
+            ],
+            "contacts_to_mn9": 12
+          },
+          {
+            "intermediate_body_id": 521748,
+            "sensory_body_ids": [
+              92440,
+              142827,
+              215556,
+              531237
+            ],
+            "contacts_to_mn9": 1
+          },
+          {
+            "intermediate_body_id": 567143,
+            "sensory_body_ids": [
+              72059
+            ],
+            "contacts_to_mn9": 1
+          }
+        ],
+        "bitter_LB1a_d": [
+          {
+            "intermediate_body_id": 10557,
+            "sensory_body_ids": [
+              514546,
+              522761
+            ],
+            "contacts_to_mn9": 2
+          },
+          {
+            "intermediate_body_id": 11097,
+            "sensory_body_ids": [
+              54104,
+              115666,
+              139178,
+              144334,
+              154544,
+              163395,
+              168492,
+              173462,
+              375038,
+              533618,
+              549024,
+              556797,
+              557937,
+              140334446,
+              304136793,
+              772366874
+            ],
+            "contacts_to_mn9": 1
+          },
+          {
+            "intermediate_body_id": 11160,
+            "sensory_body_ids": [
+              54104,
+              81741,
+              115666,
+              125111,
+              154544,
+              168492,
+              256844,
+              514547,
+              522753,
+              522762,
+              533618,
+              549024,
+              557937,
+              304136793,
+              911389008
+            ],
+            "contacts_to_mn9": 4
+          },
+          {
+            "intermediate_body_id": 12230,
+            "sensory_body_ids": [
+              54104,
+              81741,
+              107241,
+              154544,
+              163395,
+              168492,
+              173462,
+              522752,
+              522762,
+              557937,
+              144295263,
+              304136793,
+              324178811,
+              772366874,
+              911389008
+            ],
+            "contacts_to_mn9": 5
+          },
+          {
+            "intermediate_body_id": 12808,
+            "sensory_body_ids": [
+              81741,
+              107241,
+              115666,
+              125111,
+              139178,
+              154544,
+              168492,
+              173462,
+              522746,
+              522753,
+              522754,
+              522762,
+              556797,
+              557937,
+              912379,
+              140334446,
+              304136793,
+              324178811
+            ],
+            "contacts_to_mn9": 5
+          },
+          {
+            "intermediate_body_id": 23489,
+            "sensory_body_ids": [
+              81741,
+              125111,
+              518112,
+              522761,
+              533618,
+              324178811
+            ],
+            "contacts_to_mn9": 11
+          },
+          {
+            "intermediate_body_id": 63701,
+            "sensory_body_ids": [
+              81741,
+              115666,
+              125111,
+              139178,
+              144334,
+              154544,
+              163395,
+              173462,
+              533618,
+              557937,
+              912379,
+              324178811,
+              772366874
+            ],
+            "contacts_to_mn9": 1
+          },
+          {
+            "intermediate_body_id": 521748,
+            "sensory_body_ids": [
+              107241,
+              517255,
+              522746
+            ],
+            "contacts_to_mn9": 1
+          },
+          {
+            "intermediate_body_id": 524253,
+            "sensory_body_ids": [
+              139178,
+              168492,
+              557937
+            ],
+            "contacts_to_mn9": 46
+          },
+          {
+            "intermediate_body_id": 524610,
+            "sensory_body_ids": [
+              81741,
+              107241,
+              115666,
+              125111,
+              144334,
+              208885,
+              256844,
+              511882,
+              514546,
+              514547,
+              517255,
+              518112,
+              522746,
+              522752,
+              522753,
+              522754,
+              522761,
+              522762,
+              522841,
+              533618,
+              557937,
+              912379,
+              304136793,
+              324178811,
+              772366874,
+              911389008
+            ],
+            "contacts_to_mn9": 2
+          }
+        ]
+      },
+      "strongest_incoming": [
+        {
+          "body_id": 10833,
+          "contacts": 464,
+          "consensus_nt": "acetylcholine"
+        },
+        {
+          "body_id": 10881,
+          "contacts": 359,
+          "consensus_nt": "acetylcholine"
+        },
+        {
+          "body_id": 13754,
+          "contacts": 357,
+          "consensus_nt": "gaba"
+        },
+        {
+          "body_id": 12851,
+          "contacts": 351,
+          "consensus_nt": "gaba"
+        },
+        {
+          "body_id": 26764,
+          "contacts": 348,
+          "consensus_nt": "acetylcholine"
+        },
+        {
+          "body_id": 523590,
+          "contacts": 266,
+          "consensus_nt": "gaba"
+        },
+        {
+          "body_id": 10849,
+          "contacts": 241,
+          "consensus_nt": "acetylcholine"
+        },
+        {
+          "body_id": 513655,
+          "contacts": 214,
+          "consensus_nt": "gaba"
+        },
+        {
+          "body_id": 14891,
+          "contacts": 198,
+          "consensus_nt": "acetylcholine"
+        },
+        {
+          "body_id": 17782,
+          "contacts": 187,
+          "consensus_nt": "gaba"
+        },
+        {
+          "body_id": 28181,
+          "contacts": 177,
+          "consensus_nt": "gaba"
+        },
+        {
+          "body_id": 11755,
+          "contacts": 160,
+          "consensus_nt": "acetylcholine"
+        },
+        {
+          "body_id": 523679,
+          "contacts": 142,
+          "consensus_nt": "gaba"
+        },
+        {
+          "body_id": 16142,
+          "contacts": 136,
+          "consensus_nt": "acetylcholine"
+        },
+        {
+          "body_id": 12752,
+          "contacts": 101,
+          "consensus_nt": "acetylcholine"
+        },
+        {
+          "body_id": 12364,
+          "contacts": 96,
+          "consensus_nt": "acetylcholine"
+        },
+        {
+          "body_id": 10673,
+          "contacts": 92,
+          "consensus_nt": "unclear"
+        },
+        {
+          "body_id": 238142,
+          "contacts": 92,
+          "consensus_nt": "acetylcholine"
+        },
+        {
+          "body_id": 13402,
+          "contacts": 78,
+          "consensus_nt": "gaba"
+        },
+        {
+          "body_id": 522702,
+          "contacts": 76,
+          "consensus_nt": "gaba"
+        }
+      ]
+    },
+    {
+      "mn9_body_id": 16949,
+      "incoming_edges": 137,
+      "incoming_contacts": 556,
+      "presynaptic_nt_counts": {
+        "unclear": 10,
+        "acetylcholine": 70,
+        "gaba": 48,
+        "glutamate": 8,
+        "histamine": 1
+      },
+      "direct_taste_source_ids": {
+        "sweet_LB3c": [],
+        "bitter_LB1a_d": []
+      },
+      "two_edge_intermediates": {
+        "sweet_LB3c": [
+          {
+            "intermediate_body_id": 10313,
+            "sensory_body_ids": [
+              72059,
+              92440
+            ],
+            "contacts_to_mn9": 1
+          },
+          {
+            "intermediate_body_id": 12230,
+            "sensory_body_ids": [
+              72059,
+              78240,
+              85806,
+              92440,
+              101087,
+              120303,
+              140015,
+              142827,
+              190769,
+              202888,
+              215556,
+              261450,
+              262567,
+              512551,
+              531237,
+              933317,
+              158893964
+            ],
+            "contacts_to_mn9": 1
+          },
+          {
+            "intermediate_body_id": 12364,
+            "sensory_body_ids": [
+              72059
+            ],
+            "contacts_to_mn9": 9
+          },
+          {
+            "intermediate_body_id": 12422,
+            "sensory_body_ids": [
+              262567,
+              531237
+            ],
+            "contacts_to_mn9": 4
+          },
+          {
+            "intermediate_body_id": 12752,
+            "sensory_body_ids": [
+              475202322
+            ],
+            "contacts_to_mn9": 13
+          },
+          {
+            "intermediate_body_id": 12807,
+            "sensory_body_ids": [
+              78240,
+              85806,
+              92440,
+              101087,
+              120303,
+              140015,
+              142827,
+              190769,
+              215556,
+              261450,
+              262567,
+              512551,
+              933317
+            ],
+            "contacts_to_mn9": 1
+          },
+          {
+            "intermediate_body_id": 512751,
+            "sensory_body_ids": [
+              202888
+            ],
+            "contacts_to_mn9": 3
+          },
+          {
+            "intermediate_body_id": 517861,
+            "sensory_body_ids": [
+              72059,
+              78240,
+              92440,
+              101087,
+              120303,
+              142827,
+              180314,
+              202888,
+              215556,
+              261450,
+              262567,
+              512551,
+              531237,
+              933317
+            ],
+            "contacts_to_mn9": 1
+          },
+          {
+            "intermediate_body_id": 521748,
+            "sensory_body_ids": [
+              92440,
+              142827,
+              215556,
+              531237
+            ],
+            "contacts_to_mn9": 1
+          },
+          {
+            "intermediate_body_id": 556512,
+            "sensory_body_ids": [
+              72059,
+              92440,
+              120303,
+              140015,
+              142827,
+              202888,
+              516217,
+              942168
+            ],
+            "contacts_to_mn9": 1
+          }
+        ],
+        "bitter_LB1a_d": [
+          {
+            "intermediate_body_id": 12230,
+            "sensory_body_ids": [
+              54104,
+              81741,
+              107241,
+              154544,
+              163395,
+              168492,
+              173462,
+              522752,
+              522762,
+              557937,
+              144295263,
+              304136793,
+              324178811,
+              772366874,
+              911389008
+            ],
+            "contacts_to_mn9": 1
+          },
+          {
+            "intermediate_body_id": 521748,
+            "sensory_body_ids": [
+              107241,
+              517255,
+              522746
+            ],
+            "contacts_to_mn9": 1
+          }
+        ]
+      },
+      "strongest_incoming": [
+        {
+          "body_id": 43765,
+          "contacts": 55,
+          "consensus_nt": "gaba"
+        },
+        {
+          "body_id": 511989,
+          "contacts": 34,
+          "consensus_nt": "gaba"
+        },
+        {
+          "body_id": 519839,
+          "contacts": 31,
+          "consensus_nt": "acetylcholine"
+        },
+        {
+          "body_id": 523040,
+          "contacts": 25,
+          "consensus_nt": "acetylcholine"
+        },
+        {
+          "body_id": 513162,
+          "contacts": 24,
+          "consensus_nt": "acetylcholine"
+        },
+        {
+          "body_id": 14891,
+          "contacts": 22,
+          "consensus_nt": "acetylcholine"
+        },
+        {
+          "body_id": 28181,
+          "contacts": 19,
+          "consensus_nt": "gaba"
+        },
+        {
+          "body_id": 523590,
+          "contacts": 16,
+          "consensus_nt": "gaba"
+        },
+        {
+          "body_id": 11179,
+          "contacts": 13,
+          "consensus_nt": "gaba"
+        },
+        {
+          "body_id": 12752,
+          "contacts": 13,
+          "consensus_nt": "acetylcholine"
+        },
+        {
+          "body_id": 10673,
+          "contacts": 12,
+          "consensus_nt": "unclear"
+        },
+        {
+          "body_id": 10895,
+          "contacts": 11,
+          "consensus_nt": "gaba"
+        },
+        {
+          "body_id": 14593,
+          "contacts": 11,
+          "consensus_nt": "gaba"
+        },
+        {
+          "body_id": 16595,
+          "contacts": 11,
+          "consensus_nt": "gaba"
+        },
+        {
+          "body_id": 10643,
+          "contacts": 10,
+          "consensus_nt": "acetylcholine"
+        },
+        {
+          "body_id": 32092,
+          "contacts": 10,
+          "consensus_nt": "unclear"
+        },
+        {
+          "body_id": 11755,
+          "contacts": 9,
+          "consensus_nt": "acetylcholine"
+        },
+        {
+          "body_id": 12364,
+          "contacts": 9,
+          "consensus_nt": "acetylcholine"
+        },
+        {
+          "body_id": 131272,
+          "contacts": 7,
+          "consensus_nt": "acetylcholine"
+        },
+        {
+          "body_id": 16142,
+          "contacts": 6,
+          "consensus_nt": "acetylcholine"
+        }
+      ]
+    }
+  ]
+}

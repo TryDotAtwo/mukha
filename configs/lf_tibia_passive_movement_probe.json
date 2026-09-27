@@ -1,0 +1,21 @@
+{
+  "schema": "faithful-fly.passive-tibia-movement-diagnostic.v1",
+  "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4535187/",
+  "source_protocol": "Male fly extensor EMG; 2-Hz sinusoidal tibia displacement, approximately 20 degrees of movement",
+  "model_interpretation": "One 500-ms period, 20 degrees peak-to-peak about a fixed reference; the article does not establish exact joint phase in our coordinate system",
+  "frequency_hz": 2.0,
+  "angle_peak_to_peak_deg": 20.0,
+  "dt_ms": 0.1,
+  "ticks": 5000,
+  "sensor_body_id": 912317,
+  "sensor_graph_index": 164105,
+  "motor_body_id": 815344,
+  "motor_graph_index": 156979,
+  "sensor_gain_mv_per_rad": 200.0,
+  "sensor_gain_status": "unmeasured diagnostic hypothesis carried from lf_claw_closed_loop_keyframe_probe.json",
+  "sensor_refractory_ticks": 22,
+  "central_direct_drive": false,
+  "cases": ["sensor_off", "positive_angle_half_wave", "negative_angle_half_wave"],
+  "biological_validation": false,
+  "muscle_emg_comparable": false
+}

@@ -1,0 +1,171 @@
+{
+  "scope": "Engineering actuator budget for the one-second diagnostic; not physiological muscle calibration",
+  "independent_filter_max_abs_error": 1.1102230246251565e-16,
+  "channels": [
+    {
+      "graph_index": 144900,
+      "actuator": "rh_trochanterfemur-rh_tibia-pitch-motor",
+      "sign": -1,
+      "spikes": 28
+    },
+    {
+      "graph_index": 145241,
+      "actuator": "lh_trochanterfemur-lh_tibia-pitch-motor",
+      "sign": -1,
+      "spikes": 2
+    },
+    {
+      "graph_index": 145248,
+      "actuator": "lf_trochanterfemur-lf_tibia-pitch-motor",
+      "sign": -1,
+      "spikes": 3
+    },
+    {
+      "graph_index": 145453,
+      "actuator": "lm_trochanterfemur-lm_tibia-pitch-motor",
+      "sign": -1,
+      "spikes": 40
+    },
+    {
+      "graph_index": 145689,
+      "actuator": "lm_trochanterfemur-lm_tibia-pitch-motor",
+      "sign": -1,
+      "spikes": 27
+    },
+    {
+      "graph_index": 146483,
+      "actuator": "lm_trochanterfemur-lm_tibia-pitch-motor",
+      "sign": 1,
+      "spikes": 0
+    },
+    {
+      "graph_index": 147072,
+      "actuator": "rh_trochanterfemur-rh_tibia-pitch-motor",
+      "sign": 1,
+      "spikes": 0
+    },
+    {
+      "graph_index": 148012,
+      "actuator": "rf_trochanterfemur-rf_tibia-pitch-motor",
+      "sign": -1,
+      "spikes": 0
+    },
+    {
+      "graph_index": 148126,
+      "actuator": "rm_trochanterfemur-rm_tibia-pitch-motor",
+      "sign": 1,
+      "spikes": 0
+    },
+    {
+      "graph_index": 148545,
+      "actuator": "lh_trochanterfemur-lh_tibia-pitch-motor",
+      "sign": 1,
+      "spikes": 11
+    },
+    {
+      "graph_index": 152506,
+      "actuator": "lm_trochanterfemur-lm_tibia-pitch-motor",
+      "sign": 1,
+      "spikes": 0
+    },
+    {
+      "graph_index": 152728,
+      "actuator": "rh_trochanterfemur-rh_tibia-pitch-motor",
+      "sign": -1,
+      "spikes": 0
+    },
+    {
+      "graph_index": 155145,
+      "actuator": "lh_trochanterfemur-lh_tibia-pitch-motor",
+      "sign": -1,
+      "spikes": 0
+    },
+    {
+      "graph_index": 156979,
+      "actuator": "lf_trochanterfemur-lf_tibia-pitch-motor",
+      "sign": -1,
+      "spikes": 18
+    },
+    {
+      "graph_index": 157213,
+      "actuator": "rf_trochanterfemur-rf_tibia-pitch-motor",
+      "sign": -1,
+      "spikes": 0
+    },
+    {
+      "graph_index": 158408,
+      "actuator": "rf_trochanterfemur-rf_tibia-pitch-motor",
+      "sign": 1,
+      "spikes": 0
+    },
+    {
+      "graph_index": 159501,
+      "actuator": "lf_trochanterfemur-lf_tibia-pitch-motor",
+      "sign": 1,
+      "spikes": 0
+    },
+    {
+      "graph_index": 160570,
+      "actuator": "rm_trochanterfemur-rm_tibia-pitch-motor",
+      "sign": -1,
+      "spikes": 11
+    },
+    {
+      "graph_index": 162056,
+      "actuator": "rm_trochanterfemur-rm_tibia-pitch-motor",
+      "sign": 1,
+      "spikes": 0
+    },
+    {
+      "graph_index": 162869,
+      "actuator": "lm_trochanterfemur-lm_tibia-pitch-motor",
+      "sign": 1,
+      "spikes": 0
+    },
+    {
+      "graph_index": 163317,
+      "actuator": "rm_trochanterfemur-rm_tibia-pitch-motor",
+      "sign": 1,
+      "spikes": 0
+    },
+    {
+      "graph_index": 163599,
+      "actuator": "rh_trochanterfemur-rh_tibia-pitch-motor",
+      "sign": 1,
+      "spikes": 0
+    },
+    {
+      "graph_index": 164711,
+      "actuator": "lm_trochanterfemur-lm_tibia-pitch-motor",
+      "sign": 1,
+      "spikes": 1
+    },
+    {
+      "graph_index": 164731,
+      "actuator": "rm_trochanterfemur-rm_tibia-pitch-motor",
+      "sign": -1,
+      "spikes": 0
+    }
+  ],
+  "left_front": {
+    "spikes": 21,
+    "command_min": -0.1818765304635937,
+    "command_mean": -0.04210126217755175,
+    "max_extension_rad": 0.008751912055327882,
+    "spring_stiffness_model_units_per_rad": 10.0,
+    "static_spring_load_at_contact_model_units": [
+      0.27,
+      0.26
+    ],
+    "mean_command_over_stiffness_rad": 0.004210126217755175
+  },
+  "interpretation": "For an isolated unit-gain joint at rest, even the observed peak command is below the spring load at the static contact threshold. This is not a dynamic impossibility proof: coupled inertia, other joints and future stimuli can change the result.",
+  "next_requirement": "Calibrate the engineering motor/body interface against independent physiological or biomechanical data before adjusting gains or training.",
+  "hashes": {
+    "data\\derived\\contact_diagnostic\\body.xml": "f76a572b0699f6ea38e220f1a08b48803b519175a44457b55839e241d2362438",
+    "build\\brain_duration_body.csv": "8f27014cc9fab0016b32a3aa6982d5b4ced6084be0ea7cd2c44b18676fb560c7",
+    "build\\brain_duration_spikes.csv": "5a59e6625edad35a493bf8f6ea9d02cae81cfe509c6c22b3fe115a11688c22fa",
+    "build\\brain_body_mapping.txt": "ed16e82d81581c7b73365f6a0772f6a1bca0ec03a2aa8928c6d6b58ed6d7bdc4",
+    "reports\\knee_reach_diagnostic.json": "ac86b98732c5603e8c063cfd18151197233b4b5445cb747b112b15993c9b813c"
+  }
+}

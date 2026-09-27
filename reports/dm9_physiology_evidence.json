@@ -1,0 +1,36 @@
+{
+  "scope": "Source-linked qualitative evidence only; no calibrated dynamics or enabled MaleCNS transfer",
+  "source_snapshot_sha256": "951545c53012da5bd7af52b077ded4cefad11b07a7bf6bcbb852558e7d97eca8",
+  "evidence_config_sha256": "d4183fe0f901fea41901c1f7d4c03be867391cd99b18897b45d116cd72dd60f0",
+  "graph_manifest_sha256": "b30e21078c0479ac288e7f9d3b7cb2c9eb76aa3b9707f3a2b9fa6a92bb822ef3",
+  "dm9_objects": 273,
+  "dm9_consensus_nt": {
+    "glutamate": 273
+  },
+  "full_graph_dm9_incoming_rows": 21398,
+  "full_graph_dm9_outgoing_rows": 39299,
+  "evidence_coverage": {
+    "inner_to_dm9": {
+      "rows": 2916,
+      "contact_count": 42030
+    },
+    "dm9_to_inner": {
+      "rows": 3359,
+      "contact_count": 88907
+    },
+    "same_column_r7_r8": {
+      "rows": 1567,
+      "contact_count": 29566
+    }
+  },
+  "unassigned_visual_rows": 91569,
+  "all_visual_rows_retained": true,
+  "runtime_enabled": false,
+  "readout_conversion_to_voltage_fitted": false,
+  "model_parameters_fitted": false,
+  "files": {
+    "visual_edge_evidence.feather": "f17f8cb27c9caec48d574681382e6ee3b1d552d252eac38cd212d3f2e58afbd6",
+    "dm9_chemistry.feather": "68396680708bdcc50cd68449bfd5f3e73055688d61eda901fc8f5ce4838029af",
+    "dm9_all_input_types.csv": "e868aa98b24a53dc04b5c9ffd5c12e8d9203a749f4b09374a4da0e7b565f7809"
+  }
+}

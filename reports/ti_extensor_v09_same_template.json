@@ -1,0 +1,58 @@
+{
+  "scope": "Descriptive cross-version morphology; no motor identity or muscle assignment",
+  "source_manifest_sha256": "92e504cd01333527f0bd3910c66627cc6fb777c310e53e0c0fce09d67cd1d015",
+  "same_template": "JRC2018UnisexVNC",
+  "same_dataset_release": false,
+  "vfb_manc_dataset_page_release": "v1.2.1",
+  "vfb_manc_dataset_page": "https://www.virtualflybrain.org/term/male-adult-nerve-cord-manc-connectome-neurons-takemura2023/",
+  "topology_check": {
+    "815344": {
+      "same_node_count": true,
+      "same_parent_sequence": false,
+      "v09_root_count": 1,
+      "v10_root_count": 3
+    },
+    "815678": {
+      "same_node_count": true,
+      "same_parent_sequence": false,
+      "v09_root_count": 1,
+      "v10_root_count": 1
+    }
+  },
+  "comparisons": [
+    {
+      "male_v09": 815344,
+      "manc_v10": 11657,
+      "male_to_manc_median_um": 3.238867491320885,
+      "manc_to_male_median_um": 1.6672771323564566,
+      "male_to_manc_p90_um": 11.991922707764244,
+      "manc_to_male_p90_um": 3.7809368491019315
+    },
+    {
+      "male_v09": 815344,
+      "manc_v10": 12704,
+      "male_to_manc_median_um": 3.195856686270444,
+      "manc_to_male_median_um": 1.5937465573054752,
+      "male_to_manc_p90_um": 10.794674241708407,
+      "manc_to_male_p90_um": 17.087049139645856
+    },
+    {
+      "male_v09": 815678,
+      "manc_v10": 11706,
+      "male_to_manc_median_um": 1.9171457243874583,
+      "manc_to_male_median_um": 3.3899351354159926,
+      "male_to_manc_p90_um": 4.242305061187199,
+      "manc_to_male_p90_um": 8.625897155506305
+    },
+    {
+      "male_v09": 815678,
+      "manc_v10": 13115,
+      "male_to_manc_median_um": 2.126984802046053,
+      "manc_to_male_median_um": 2.8769545658665274,
+      "male_to_manc_p90_um": 8.446678913362614,
+      "manc_to_male_p90_um": 7.980044460370296
+    }
+  ],
+  "conclusion": "Nearest-neighbor rankings depend on direction and tail; no unique match established. VFB MaleCNS v0.9 and VFB MANC dataset page v1.2.1 cannot validate v1.0-to-v1.0 identity.",
+  "biological_gate_passed": false
+}

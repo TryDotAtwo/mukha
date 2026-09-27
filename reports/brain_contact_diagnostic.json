@@ -1,0 +1,62 @@
+{
+  "scope": "100 ms diagnostic, not learned or biologically validated control",
+  "original_trajectories_byte_identical": true,
+  "geometry_timestamp": "Euler start-of-step; positions are geom centers, not surface distances",
+  "contact_pairs": [
+    {
+      "geom1": "lf_tarsus5",
+      "geom2": "control_pad",
+      "condim": "3",
+      "friction": "0.5 0.5 0.005 0.0001 0.0001"
+    }
+  ],
+  "cases": [
+    {
+      "motor_enabled": false,
+      "steps_with_pad_contacts": 0,
+      "maximum_normal_force_model_units": 0.0,
+      "foot_geom_center_initial_mm": [
+        1.3332603632446065,
+        1.0077491435835997,
+        0.2472921741210159
+      ],
+      "foot_geom_center_final_mm": [
+        1.3332603632446065,
+        1.0077491435835997,
+        0.2472921741210159
+      ],
+      "foot_geom_center_axis_excursion_mm": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "motor_enabled": true,
+      "steps_with_pad_contacts": 0,
+      "maximum_normal_force_model_units": 0.0,
+      "foot_geom_center_initial_mm": [
+        1.3332603632446065,
+        1.0077491435835997,
+        0.2472921741210159
+      ],
+      "foot_geom_center_final_mm": [
+        1.3356266604925977,
+        1.0089883438150364,
+        0.2499962201296441
+      ],
+      "foot_geom_center_axis_excursion_mm": [
+        0.002531359601426697,
+        0.0013254177742527684,
+        0.002892833451162924
+      ]
+    }
+  ],
+  "hashes": {
+    "build\\brain_contact_body.csv": "a3e24986b5ed94403a07642efcc9e0adc9277d490a7cdcacb4a5e459350f71da",
+    "build\\brain_contact_spikes.csv": "85143a9e27af2c9d0771a5f9c3b5ed832090ff822c63a61306f2c25e5bc5b5ab",
+    "build\\brain_contact_environment.csv": "f313c6349120588fc7da3810bc092a5033017e52605e6464bccadcb722e93206",
+    "build\\brain_contact_environment.csv.contacts.csv": "073f22aec54997dfdecea115a69d878ca56a208743f25e95f5de666a28f30068",
+    "data\\derived\\contact_diagnostic\\body.xml": "f76a572b0699f6ea38e220f1a08b48803b519175a44457b55839e241d2362438"
+  }
+}

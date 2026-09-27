@@ -1,0 +1,21 @@
+{
+  "results": [
+    {
+      "variant": "unclear_excitatory",
+      "continuation_spikes": 3756,
+      "events_exact": true,
+      "final_state_bit_exact": true
+    },
+    {
+      "variant": "unclear_inhibitory",
+      "continuation_spikes": 1852,
+      "events_exact": true,
+      "final_state_bit_exact": true
+    }
+  ],
+  "fresh_process": true,
+  "restore_tick": 500,
+  "stop_tick": 1000,
+  "source_report_sha256": "0593dea9140b6347df0f20fdb3a8bbeb8fb2b1876bf773d0ec0c1fd485d61258",
+  "scope": "Same machine/library diagnostic brain state only; not cross-platform or composite experiment checkpoint"
+}

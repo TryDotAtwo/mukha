@@ -1,0 +1,8345 @@
+{
+  "name": "shiu-original-sugar100-bitter0-paired-pilot",
+  "steps": 10000,
+  "dt_ms": 0.1,
+  "condition": "100 Hz sugar and 0 Hz bitter inputs",
+  "seed": 19301,
+  "stimulus_generator": "numpy.default_rng PCG64; Bernoulli(rate*dt), N=1 per cell per tick",
+  "voltage_jump_mv": 68.75,
+  "sensory": [
+    65153,
+    90982,
+    113421,
+    114820,
+    27680,
+    93880,
+    102632,
+    48902,
+    47685,
+    119716,
+    117163,
+    27293,
+    116889,
+    44337,
+    31392,
+    100853,
+    103321,
+    14231,
+    84634,
+    86214,
+    11916,
+    49043,
+    54,
+    27948,
+    36101,
+    70965,
+    34035,
+    78689,
+    90788,
+    124264,
+    8716,
+    123974,
+    78054,
+    51714,
+    45008,
+    86057,
+    8347,
+    8714,
+    35523,
+    18731,
+    15402,
+    473
+  ],
+  "target_index": 127193,
+  "target_body_id": 720575940660219265,
+  "source_notebook_sha256": "33cd73c0b4b4a291c51b7bab639c4fa28978e49e111ff0d6adbca5687addb84c",
+  "source_cells": {
+    "neu_sugar": 4,
+    "id_mn9": 8
+  },
+  "graph_manifest_sha256": "de08d5037d249f914840d9ac219a7004b441b637870e3c044d61ea895de82a97",
+  "events": [
+    {
+      "tick": 0,
+      "neuron": 113421
+    },
+    {
+      "tick": 1,
+      "neuron": 14231
+    },
+    {
+      "tick": 10,
+      "neuron": 102632
+    },
+    {
+      "tick": 12,
+      "neuron": 114820
+    },
+    {
+      "tick": 17,
+      "neuron": 103321
+    },
+    {
+      "tick": 21,
+      "neuron": 117163
+    },
+    {
+      "tick": 25,
+      "neuron": 93880
+    },
+    {
+      "tick": 29,
+      "neuron": 116889
+    },
+    {
+      "tick": 40,
+      "neuron": 14231
+    },
+    {
+      "tick": 42,
+      "neuron": 116889
+    },
+    {
+      "tick": 46,
+      "neuron": 47685
+    },
+    {
+      "tick": 51,
+      "neuron": 48902
+    },
+    {
+      "tick": 54,
+      "neuron": 27680
+    },
+    {
+      "tick": 58,
+      "neuron": 114820
+    },
+    {
+      "tick": 62,
+      "neuron": 44337
+    },
+    {
+      "tick": 74,
+      "neuron": 44337
+    },
+    {
+      "tick": 78,
+      "neuron": 14231
+    },
+    {
+      "tick": 79,
+      "neuron": 103321
+    },
+    {
+      "tick": 81,
+      "neuron": 27293
+    },
+    {
+      "tick": 89,
+      "neuron": 119716
+    },
+    {
+      "tick": 94,
+      "neuron": 93880
+    },
+    {
+      "tick": 94,
+      "neuron": 103321
+    },
+    {
+      "tick": 98,
+      "neuron": 11916
+    },
+    {
+      "tick": 115,
+      "neuron": 27293
+    },
+    {
+      "tick": 115,
+      "neuron": 65153
+    },
+    {
+      "tick": 119,
+      "neuron": 102632
+    },
+    {
+      "tick": 130,
+      "neuron": 116889
+    },
+    {
+      "tick": 147,
+      "neuron": 93880
+    },
+    {
+      "tick": 150,
+      "neuron": 86214
+    },
+    {
+      "tick": 163,
+      "neuron": 119716
+    },
+    {
+      "tick": 172,
+      "neuron": 93880
+    },
+    {
+      "tick": 180,
+      "neuron": 44337
+    },
+    {
+      "tick": 181,
+      "neuron": 27293
+    },
+    {
+      "tick": 183,
+      "neuron": 31392
+    },
+    {
+      "tick": 191,
+      "neuron": 102632
+    },
+    {
+      "tick": 199,
+      "neuron": 27680
+    },
+    {
+      "tick": 202,
+      "neuron": 27680
+    },
+    {
+      "tick": 207,
+      "neuron": 90982
+    },
+    {
+      "tick": 212,
+      "neuron": 90982
+    },
+    {
+      "tick": 212,
+      "neuron": 102632
+    },
+    {
+      "tick": 214,
+      "neuron": 27680
+    },
+    {
+      "tick": 214,
+      "neuron": 48902
+    },
+    {
+      "tick": 217,
+      "neuron": 102632
+    },
+    {
+      "tick": 245,
+      "neuron": 93880
+    },
+    {
+      "tick": 248,
+      "neuron": 119716
+    },
+    {
+      "tick": 255,
+      "neuron": 86214
+    },
+    {
+      "tick": 257,
+      "neuron": 11916
+    },
+    {
+      "tick": 267,
+      "neuron": 100853
+    },
+    {
+      "tick": 278,
+      "neuron": 65153
+    },
+    {
+      "tick": 284,
+      "neuron": 44337
+    },
+    {
+      "tick": 286,
+      "neuron": 11916
+    },
+    {
+      "tick": 286,
+      "neuron": 86214
+    },
+    {
+      "tick": 287,
+      "neuron": 65153
+    },
+    {
+      "tick": 288,
+      "neuron": 119716
+    },
+    {
+      "tick": 292,
+      "neuron": 93880
+    },
+    {
+      "tick": 293,
+      "neuron": 100853
+    },
+    {
+      "tick": 297,
+      "neuron": 100853
+    },
+    {
+      "tick": 302,
+      "neuron": 113421
+    },
+    {
+      "tick": 319,
+      "neuron": 114820
+    },
+    {
+      "tick": 320,
+      "neuron": 103321
+    },
+    {
+      "tick": 322,
+      "neuron": 84634
+    },
+    {
+      "tick": 332,
+      "neuron": 48902
+    },
+    {
+      "tick": 339,
+      "neuron": 27680
+    },
+    {
+      "tick": 341,
+      "neuron": 117163
+    },
+    {
+      "tick": 347,
+      "neuron": 116889
+    },
+    {
+      "tick": 351,
+      "neuron": 90982
+    },
+    {
+      "tick": 355,
+      "neuron": 102632
+    },
+    {
+      "tick": 361,
+      "neuron": 84634
+    },
+    {
+      "tick": 367,
+      "neuron": 117163
+    },
+    {
+      "tick": 370,
+      "neuron": 113421
+    },
+    {
+      "tick": 381,
+      "neuron": 44337
+    },
+    {
+      "tick": 381,
+      "neuron": 90982
+    },
+    {
+      "tick": 384,
+      "neuron": 27680
+    },
+    {
+      "tick": 392,
+      "neuron": 84634
+    },
+    {
+      "tick": 393,
+      "neuron": 27293
+    },
+    {
+      "tick": 394,
+      "neuron": 114820
+    },
+    {
+      "tick": 395,
+      "neuron": 116889
+    },
+    {
+      "tick": 398,
+      "neuron": 27680
+    },
+    {
+      "tick": 401,
+      "neuron": 27680
+    },
+    {
+      "tick": 404,
+      "neuron": 100853
+    },
+    {
+      "tick": 405,
+      "neuron": 90982
+    },
+    {
+      "tick": 413,
+      "neuron": 47685
+    },
+    {
+      "tick": 414,
+      "neuron": 27293
+    },
+    {
+      "tick": 414,
+      "neuron": 114820
+    },
+    {
+      "tick": 417,
+      "neuron": 86214
+    },
+    {
+      "tick": 418,
+      "neuron": 27293
+    },
+    {
+      "tick": 418,
+      "neuron": 48902
+    },
+    {
+      "tick": 418,
+      "neuron": 93880
+    },
+    {
+      "tick": 421,
+      "neuron": 65153
+    },
+    {
+      "tick": 423,
+      "neuron": 65153
+    },
+    {
+      "tick": 423,
+      "neuron": 113421
+    },
+    {
+      "tick": 433,
+      "neuron": 117163
+    },
+    {
+      "tick": 440,
+      "neuron": 102632
+    },
+    {
+      "tick": 444,
+      "neuron": 44337
+    },
+    {
+      "tick": 444,
+      "neuron": 90982
+    },
+    {
+      "tick": 465,
+      "neuron": 113421
+    },
+    {
+      "tick": 469,
+      "neuron": 84634
+    },
+    {
+      "tick": 484,
+      "neuron": 113421
+    },
+    {
+      "tick": 488,
+      "neuron": 44337
+    },
+    {
+      "tick": 489,
+      "neuron": 102632
+    },
+    {
+      "tick": 497,
+      "neuron": 27680
+    },
+    {
+      "tick": 498,
+      "neuron": 100853
+    },
+    {
+      "tick": 501,
+      "neuron": 47685
+    },
+    {
+      "tick": 513,
+      "neuron": 103321
+    },
+    {
+      "tick": 520,
+      "neuron": 31392
+    },
+    {
+      "tick": 526,
+      "neuron": 93880
+    },
+    {
+      "tick": 534,
+      "neuron": 116889
+    },
+    {
+      "tick": 537,
+      "neuron": 84634
+    },
+    {
+      "tick": 541,
+      "neuron": 103321
+    },
+    {
+      "tick": 542,
+      "neuron": 48902
+    },
+    {
+      "tick": 550,
+      "neuron": 114820
+    },
+    {
+      "tick": 555,
+      "neuron": 14231
+    },
+    {
+      "tick": 575,
+      "neuron": 90982
+    },
+    {
+      "tick": 576,
+      "neuron": 27293
+    },
+    {
+      "tick": 581,
+      "neuron": 102632
+    },
+    {
+      "tick": 584,
+      "neuron": 103321
+    },
+    {
+      "tick": 589,
+      "neuron": 93880
+    },
+    {
+      "tick": 604,
+      "neuron": 103321
+    },
+    {
+      "tick": 610,
+      "neuron": 86214
+    },
+    {
+      "tick": 612,
+      "neuron": 102632
+    },
+    {
+      "tick": 629,
+      "neuron": 102632
+    },
+    {
+      "tick": 631,
+      "neuron": 119716
+    },
+    {
+      "tick": 634,
+      "neuron": 47685
+    },
+    {
+      "tick": 634,
+      "neuron": 102632
+    },
+    {
+      "tick": 634,
+      "neuron": 103321
+    },
+    {
+      "tick": 637,
+      "neuron": 103321
+    },
+    {
+      "tick": 638,
+      "neuron": 117163
+    },
+    {
+      "tick": 639,
+      "neuron": 27680
+    },
+    {
+      "tick": 640,
+      "neuron": 86214
+    },
+    {
+      "tick": 647,
+      "neuron": 100853
+    },
+    {
+      "tick": 651,
+      "neuron": 48902
+    },
+    {
+      "tick": 655,
+      "neuron": 100853
+    },
+    {
+      "tick": 667,
+      "neuron": 27680
+    },
+    {
+      "tick": 670,
+      "neuron": 116889
+    },
+    {
+      "tick": 671,
+      "neuron": 90982
+    },
+    {
+      "tick": 676,
+      "neuron": 65153
+    },
+    {
+      "tick": 684,
+      "neuron": 86214
+    },
+    {
+      "tick": 687,
+      "neuron": 14231
+    },
+    {
+      "tick": 694,
+      "neuron": 102632
+    },
+    {
+      "tick": 706,
+      "neuron": 84634
+    },
+    {
+      "tick": 708,
+      "neuron": 31392
+    },
+    {
+      "tick": 715,
+      "neuron": 90982
+    },
+    {
+      "tick": 725,
+      "neuron": 119716
+    },
+    {
+      "tick": 730,
+      "neuron": 114820
+    },
+    {
+      "tick": 741,
+      "neuron": 47685
+    },
+    {
+      "tick": 742,
+      "neuron": 84634
+    },
+    {
+      "tick": 743,
+      "neuron": 44337
+    },
+    {
+      "tick": 753,
+      "neuron": 84634
+    },
+    {
+      "tick": 756,
+      "neuron": 27680
+    },
+    {
+      "tick": 757,
+      "neuron": 84634
+    },
+    {
+      "tick": 761,
+      "neuron": 27680
+    },
+    {
+      "tick": 765,
+      "neuron": 119716
+    },
+    {
+      "tick": 779,
+      "neuron": 84634
+    },
+    {
+      "tick": 781,
+      "neuron": 100853
+    },
+    {
+      "tick": 787,
+      "neuron": 93880
+    },
+    {
+      "tick": 788,
+      "neuron": 102632
+    },
+    {
+      "tick": 792,
+      "neuron": 84634
+    },
+    {
+      "tick": 793,
+      "neuron": 84634
+    },
+    {
+      "tick": 795,
+      "neuron": 113421
+    },
+    {
+      "tick": 797,
+      "neuron": 27680
+    },
+    {
+      "tick": 798,
+      "neuron": 119716
+    },
+    {
+      "tick": 801,
+      "neuron": 90982
+    },
+    {
+      "tick": 806,
+      "neuron": 116889
+    },
+    {
+      "tick": 807,
+      "neuron": 14231
+    },
+    {
+      "tick": 812,
+      "neuron": 65153
+    },
+    {
+      "tick": 813,
+      "neuron": 44337
+    },
+    {
+      "tick": 816,
+      "neuron": 27680
+    },
+    {
+      "tick": 826,
+      "neuron": 14231
+    },
+    {
+      "tick": 835,
+      "neuron": 65153
+    },
+    {
+      "tick": 836,
+      "neuron": 14231
+    },
+    {
+      "tick": 841,
+      "neuron": 48902
+    },
+    {
+      "tick": 857,
+      "neuron": 65153
+    },
+    {
+      "tick": 857,
+      "neuron": 90982
+    },
+    {
+      "tick": 858,
+      "neuron": 116889
+    },
+    {
+      "tick": 859,
+      "neuron": 102632
+    },
+    {
+      "tick": 860,
+      "neuron": 27680
+    },
+    {
+      "tick": 861,
+      "neuron": 44337
+    },
+    {
+      "tick": 862,
+      "neuron": 31392
+    },
+    {
+      "tick": 864,
+      "neuron": 103321
+    },
+    {
+      "tick": 865,
+      "neuron": 86214
+    },
+    {
+      "tick": 867,
+      "neuron": 31392
+    },
+    {
+      "tick": 869,
+      "neuron": 100853
+    },
+    {
+      "tick": 870,
+      "neuron": 84634
+    },
+    {
+      "tick": 873,
+      "neuron": 11916
+    },
+    {
+      "tick": 874,
+      "neuron": 27680
+    },
+    {
+      "tick": 884,
+      "neuron": 90982
+    },
+    {
+      "tick": 894,
+      "neuron": 65153
+    },
+    {
+      "tick": 896,
+      "neuron": 119716
+    },
+    {
+      "tick": 904,
+      "neuron": 93880
+    },
+    {
+      "tick": 910,
+      "neuron": 65153
+    },
+    {
+      "tick": 910,
+      "neuron": 113421
+    },
+    {
+      "tick": 922,
+      "neuron": 103321
+    },
+    {
+      "tick": 923,
+      "neuron": 65153
+    },
+    {
+      "tick": 927,
+      "neuron": 90982
+    },
+    {
+      "tick": 931,
+      "neuron": 84634
+    },
+    {
+      "tick": 935,
+      "neuron": 47685
+    },
+    {
+      "tick": 937,
+      "neuron": 31392
+    },
+    {
+      "tick": 950,
+      "neuron": 116889
+    },
+    {
+      "tick": 950,
+      "neuron": 119716
+    },
+    {
+      "tick": 958,
+      "neuron": 14231
+    },
+    {
+      "tick": 963,
+      "neuron": 84634
+    },
+    {
+      "tick": 977,
+      "neuron": 100853
+    },
+    {
+      "tick": 977,
+      "neuron": 102632
+    },
+    {
+      "tick": 978,
+      "neuron": 31392
+    },
+    {
+      "tick": 980,
+      "neuron": 27293
+    },
+    {
+      "tick": 983,
+      "neuron": 48902
+    },
+    {
+      "tick": 987,
+      "neuron": 90982
+    },
+    {
+      "tick": 990,
+      "neuron": 14231
+    },
+    {
+      "tick": 1004,
+      "neuron": 27680
+    },
+    {
+      "tick": 1007,
+      "neuron": 31392
+    },
+    {
+      "tick": 1008,
+      "neuron": 14231
+    },
+    {
+      "tick": 1008,
+      "neuron": 114820
+    },
+    {
+      "tick": 1012,
+      "neuron": 27293
+    },
+    {
+      "tick": 1012,
+      "neuron": 65153
+    },
+    {
+      "tick": 1013,
+      "neuron": 90982
+    },
+    {
+      "tick": 1016,
+      "neuron": 103321
+    },
+    {
+      "tick": 1021,
+      "neuron": 117163
+    },
+    {
+      "tick": 1025,
+      "neuron": 100853
+    },
+    {
+      "tick": 1027,
+      "neuron": 47685
+    },
+    {
+      "tick": 1027,
+      "neuron": 65153
+    },
+    {
+      "tick": 1036,
+      "neuron": 65153
+    },
+    {
+      "tick": 1046,
+      "neuron": 100853
+    },
+    {
+      "tick": 1050,
+      "neuron": 117163
+    },
+    {
+      "tick": 1052,
+      "neuron": 116889
+    },
+    {
+      "tick": 1058,
+      "neuron": 100853
+    },
+    {
+      "tick": 1058,
+      "neuron": 117163
+    },
+    {
+      "tick": 1060,
+      "neuron": 84634
+    },
+    {
+      "tick": 1062,
+      "neuron": 44337
+    },
+    {
+      "tick": 1062,
+      "neuron": 100853
+    },
+    {
+      "tick": 1069,
+      "neuron": 14231
+    },
+    {
+      "tick": 1069,
+      "neuron": 116889
+    },
+    {
+      "tick": 1078,
+      "neuron": 86214
+    },
+    {
+      "tick": 1084,
+      "neuron": 93880
+    },
+    {
+      "tick": 1085,
+      "neuron": 103321
+    },
+    {
+      "tick": 1088,
+      "neuron": 31392
+    },
+    {
+      "tick": 1093,
+      "neuron": 48902
+    },
+    {
+      "tick": 1096,
+      "neuron": 93880
+    },
+    {
+      "tick": 1099,
+      "neuron": 93880
+    },
+    {
+      "tick": 1117,
+      "neuron": 116889
+    },
+    {
+      "tick": 1121,
+      "neuron": 48902
+    },
+    {
+      "tick": 1122,
+      "neuron": 102632
+    },
+    {
+      "tick": 1124,
+      "neuron": 117163
+    },
+    {
+      "tick": 1124,
+      "neuron": 119716
+    },
+    {
+      "tick": 1127,
+      "neuron": 14231
+    },
+    {
+      "tick": 1128,
+      "neuron": 102632
+    },
+    {
+      "tick": 1132,
+      "neuron": 47685
+    },
+    {
+      "tick": 1132,
+      "neuron": 90982
+    },
+    {
+      "tick": 1133,
+      "neuron": 65153
+    },
+    {
+      "tick": 1140,
+      "neuron": 47685
+    },
+    {
+      "tick": 1144,
+      "neuron": 27293
+    },
+    {
+      "tick": 1149,
+      "neuron": 113421
+    },
+    {
+      "tick": 1155,
+      "neuron": 14231
+    },
+    {
+      "tick": 1155,
+      "neuron": 114820
+    },
+    {
+      "tick": 1157,
+      "neuron": 27293
+    },
+    {
+      "tick": 1167,
+      "neuron": 113421
+    },
+    {
+      "tick": 1172,
+      "neuron": 116889
+    },
+    {
+      "tick": 1173,
+      "neuron": 47685
+    },
+    {
+      "tick": 1174,
+      "neuron": 103321
+    },
+    {
+      "tick": 1179,
+      "neuron": 14231
+    },
+    {
+      "tick": 1183,
+      "neuron": 44337
+    },
+    {
+      "tick": 1189,
+      "neuron": 103321
+    },
+    {
+      "tick": 1194,
+      "neuron": 119716
+    },
+    {
+      "tick": 1204,
+      "neuron": 31392
+    },
+    {
+      "tick": 1210,
+      "neuron": 100853
+    },
+    {
+      "tick": 1212,
+      "neuron": 27680
+    },
+    {
+      "tick": 1220,
+      "neuron": 48902
+    },
+    {
+      "tick": 1227,
+      "neuron": 65153
+    },
+    {
+      "tick": 1238,
+      "neuron": 11916
+    },
+    {
+      "tick": 1241,
+      "neuron": 90982
+    },
+    {
+      "tick": 1247,
+      "neuron": 48902
+    },
+    {
+      "tick": 1250,
+      "neuron": 11916
+    },
+    {
+      "tick": 1263,
+      "neuron": 100853
+    },
+    {
+      "tick": 1265,
+      "neuron": 119716
+    },
+    {
+      "tick": 1266,
+      "neuron": 117163
+    },
+    {
+      "tick": 1270,
+      "neuron": 113421
+    },
+    {
+      "tick": 1275,
+      "neuron": 116889
+    },
+    {
+      "tick": 1278,
+      "neuron": 90982
+    },
+    {
+      "tick": 1279,
+      "neuron": 113421
+    },
+    {
+      "tick": 1282,
+      "neuron": 31392
+    },
+    {
+      "tick": 1287,
+      "neuron": 47685
+    },
+    {
+      "tick": 1288,
+      "neuron": 103321
+    },
+    {
+      "tick": 1297,
+      "neuron": 90982
+    },
+    {
+      "tick": 1299,
+      "neuron": 11916
+    },
+    {
+      "tick": 1306,
+      "neuron": 103321
+    },
+    {
+      "tick": 1312,
+      "neuron": 44337
+    },
+    {
+      "tick": 1315,
+      "neuron": 14231
+    },
+    {
+      "tick": 1315,
+      "neuron": 27293
+    },
+    {
+      "tick": 1316,
+      "neuron": 27680
+    },
+    {
+      "tick": 1317,
+      "neuron": 90982
+    },
+    {
+      "tick": 1317,
+      "neuron": 116889
+    },
+    {
+      "tick": 1320,
+      "neuron": 103321
+    },
+    {
+      "tick": 1322,
+      "neuron": 114820
+    },
+    {
+      "tick": 1323,
+      "neuron": 27680
+    },
+    {
+      "tick": 1328,
+      "neuron": 102632
+    },
+    {
+      "tick": 1330,
+      "neuron": 65153
+    },
+    {
+      "tick": 1330,
+      "neuron": 113421
+    },
+    {
+      "tick": 1336,
+      "neuron": 116889
+    },
+    {
+      "tick": 1346,
+      "neuron": 65153
+    },
+    {
+      "tick": 1362,
+      "neuron": 113421
+    },
+    {
+      "tick": 1365,
+      "neuron": 11916
+    },
+    {
+      "tick": 1368,
+      "neuron": 48902
+    },
+    {
+      "tick": 1371,
+      "neuron": 65153
+    },
+    {
+      "tick": 1373,
+      "neuron": 93880
+    },
+    {
+      "tick": 1377,
+      "neuron": 103321
+    },
+    {
+      "tick": 1381,
+      "neuron": 93880
+    },
+    {
+      "tick": 1381,
+      "neuron": 114820
+    },
+    {
+      "tick": 1388,
+      "neuron": 117163
+    },
+    {
+      "tick": 1389,
+      "neuron": 27680
+    },
+    {
+      "tick": 1403,
+      "neuron": 113421
+    },
+    {
+      "tick": 1408,
+      "neuron": 90982
+    },
+    {
+      "tick": 1409,
+      "neuron": 44337
+    },
+    {
+      "tick": 1417,
+      "neuron": 14231
+    },
+    {
+      "tick": 1430,
+      "neuron": 100853
+    },
+    {
+      "tick": 1443,
+      "neuron": 116889
+    },
+    {
+      "tick": 1451,
+      "neuron": 116889
+    },
+    {
+      "tick": 1454,
+      "neuron": 113421
+    },
+    {
+      "tick": 1458,
+      "neuron": 102632
+    },
+    {
+      "tick": 1458,
+      "neuron": 119716
+    },
+    {
+      "tick": 1463,
+      "neuron": 116889
+    },
+    {
+      "tick": 1466,
+      "neuron": 44337
+    },
+    {
+      "tick": 1474,
+      "neuron": 65153
+    },
+    {
+      "tick": 1474,
+      "neuron": 103321
+    },
+    {
+      "tick": 1474,
+      "neuron": 116889
+    },
+    {
+      "tick": 1477,
+      "neuron": 100853
+    },
+    {
+      "tick": 1477,
+      "neuron": 116889
+    },
+    {
+      "tick": 1490,
+      "neuron": 117163
+    },
+    {
+      "tick": 1505,
+      "neuron": 31392
+    },
+    {
+      "tick": 1507,
+      "neuron": 65153
+    },
+    {
+      "tick": 1520,
+      "neuron": 102632
+    },
+    {
+      "tick": 1522,
+      "neuron": 27293
+    },
+    {
+      "tick": 1532,
+      "neuron": 100853
+    },
+    {
+      "tick": 1535,
+      "neuron": 14231
+    },
+    {
+      "tick": 1539,
+      "neuron": 119716
+    },
+    {
+      "tick": 1550,
+      "neuron": 102632
+    },
+    {
+      "tick": 1559,
+      "neuron": 65153
+    },
+    {
+      "tick": 1562,
+      "neuron": 116889
+    },
+    {
+      "tick": 1563,
+      "neuron": 90982
+    },
+    {
+      "tick": 1566,
+      "neuron": 93880
+    },
+    {
+      "tick": 1572,
+      "neuron": 119716
+    },
+    {
+      "tick": 1580,
+      "neuron": 119716
+    },
+    {
+      "tick": 1583,
+      "neuron": 119716
+    },
+    {
+      "tick": 1589,
+      "neuron": 14231
+    },
+    {
+      "tick": 1599,
+      "neuron": 47685
+    },
+    {
+      "tick": 1611,
+      "neuron": 27680
+    },
+    {
+      "tick": 1614,
+      "neuron": 90982
+    },
+    {
+      "tick": 1618,
+      "neuron": 114820
+    },
+    {
+      "tick": 1620,
+      "neuron": 14231
+    },
+    {
+      "tick": 1621,
+      "neuron": 93880
+    },
+    {
+      "tick": 1623,
+      "neuron": 102632
+    },
+    {
+      "tick": 1635,
+      "neuron": 44337
+    },
+    {
+      "tick": 1640,
+      "neuron": 14231
+    },
+    {
+      "tick": 1648,
+      "neuron": 100853
+    },
+    {
+      "tick": 1655,
+      "neuron": 119716
+    },
+    {
+      "tick": 1662,
+      "neuron": 48902
+    },
+    {
+      "tick": 1663,
+      "neuron": 86214
+    },
+    {
+      "tick": 1664,
+      "neuron": 102632
+    },
+    {
+      "tick": 1674,
+      "neuron": 116889
+    },
+    {
+      "tick": 1681,
+      "neuron": 86214
+    },
+    {
+      "tick": 1683,
+      "neuron": 114820
+    },
+    {
+      "tick": 1684,
+      "neuron": 14231
+    },
+    {
+      "tick": 1691,
+      "neuron": 14231
+    },
+    {
+      "tick": 1711,
+      "neuron": 44337
+    },
+    {
+      "tick": 1713,
+      "neuron": 27293
+    },
+    {
+      "tick": 1717,
+      "neuron": 100853
+    },
+    {
+      "tick": 1720,
+      "neuron": 84634
+    },
+    {
+      "tick": 1722,
+      "neuron": 84634
+    },
+    {
+      "tick": 1725,
+      "neuron": 119716
+    },
+    {
+      "tick": 1726,
+      "neuron": 11916
+    },
+    {
+      "tick": 1729,
+      "neuron": 103321
+    },
+    {
+      "tick": 1729,
+      "neuron": 119716
+    },
+    {
+      "tick": 1736,
+      "neuron": 103321
+    },
+    {
+      "tick": 1736,
+      "neuron": 114820
+    },
+    {
+      "tick": 1738,
+      "neuron": 117163
+    },
+    {
+      "tick": 1739,
+      "neuron": 100853
+    },
+    {
+      "tick": 1742,
+      "neuron": 116889
+    },
+    {
+      "tick": 1746,
+      "neuron": 103321
+    },
+    {
+      "tick": 1752,
+      "neuron": 44337
+    },
+    {
+      "tick": 1756,
+      "neuron": 11916
+    },
+    {
+      "tick": 1756,
+      "neuron": 31392
+    },
+    {
+      "tick": 1767,
+      "neuron": 119716
+    },
+    {
+      "tick": 1769,
+      "neuron": 100853
+    },
+    {
+      "tick": 1773,
+      "neuron": 100853
+    },
+    {
+      "tick": 1782,
+      "neuron": 27680
+    },
+    {
+      "tick": 1787,
+      "neuron": 93880
+    },
+    {
+      "tick": 1792,
+      "neuron": 31392
+    },
+    {
+      "tick": 1809,
+      "neuron": 65153
+    },
+    {
+      "tick": 1813,
+      "neuron": 48902
+    },
+    {
+      "tick": 1819,
+      "neuron": 90982
+    },
+    {
+      "tick": 1822,
+      "neuron": 31392
+    },
+    {
+      "tick": 1825,
+      "neuron": 27680
+    },
+    {
+      "tick": 1829,
+      "neuron": 84634
+    },
+    {
+      "tick": 1832,
+      "neuron": 119716
+    },
+    {
+      "tick": 1841,
+      "neuron": 31392
+    },
+    {
+      "tick": 1845,
+      "neuron": 114820
+    },
+    {
+      "tick": 1845,
+      "neuron": 117163
+    },
+    {
+      "tick": 1862,
+      "neuron": 90982
+    },
+    {
+      "tick": 1863,
+      "neuron": 103321
+    },
+    {
+      "tick": 1866,
+      "neuron": 93880
+    },
+    {
+      "tick": 1871,
+      "neuron": 47685
+    },
+    {
+      "tick": 1871,
+      "neuron": 90982
+    },
+    {
+      "tick": 1876,
+      "neuron": 117163
+    },
+    {
+      "tick": 1877,
+      "neuron": 11916
+    },
+    {
+      "tick": 1880,
+      "neuron": 100853
+    },
+    {
+      "tick": 1889,
+      "neuron": 90982
+    },
+    {
+      "tick": 1891,
+      "neuron": 27680
+    },
+    {
+      "tick": 1896,
+      "neuron": 114820
+    },
+    {
+      "tick": 1900,
+      "neuron": 27293
+    },
+    {
+      "tick": 1909,
+      "neuron": 119716
+    },
+    {
+      "tick": 1916,
+      "neuron": 84634
+    },
+    {
+      "tick": 1916,
+      "neuron": 93880
+    },
+    {
+      "tick": 1923,
+      "neuron": 44337
+    },
+    {
+      "tick": 1923,
+      "neuron": 65153
+    },
+    {
+      "tick": 1924,
+      "neuron": 114820
+    },
+    {
+      "tick": 1927,
+      "neuron": 31392
+    },
+    {
+      "tick": 1931,
+      "neuron": 90982
+    },
+    {
+      "tick": 1942,
+      "neuron": 100853
+    },
+    {
+      "tick": 1945,
+      "neuron": 93880
+    },
+    {
+      "tick": 1947,
+      "neuron": 93880
+    },
+    {
+      "tick": 1952,
+      "neuron": 93880
+    },
+    {
+      "tick": 1958,
+      "neuron": 103321
+    },
+    {
+      "tick": 1970,
+      "neuron": 11916
+    },
+    {
+      "tick": 1972,
+      "neuron": 27293
+    },
+    {
+      "tick": 1975,
+      "neuron": 86214
+    },
+    {
+      "tick": 1987,
+      "neuron": 84634
+    },
+    {
+      "tick": 1987,
+      "neuron": 90982
+    },
+    {
+      "tick": 1990,
+      "neuron": 119716
+    },
+    {
+      "tick": 1994,
+      "neuron": 27680
+    },
+    {
+      "tick": 1996,
+      "neuron": 90982
+    },
+    {
+      "tick": 2004,
+      "neuron": 47685
+    },
+    {
+      "tick": 2005,
+      "neuron": 114820
+    },
+    {
+      "tick": 2015,
+      "neuron": 100853
+    },
+    {
+      "tick": 2021,
+      "neuron": 86214
+    },
+    {
+      "tick": 2023,
+      "neuron": 116889
+    },
+    {
+      "tick": 2026,
+      "neuron": 113421
+    },
+    {
+      "tick": 2032,
+      "neuron": 48902
+    },
+    {
+      "tick": 2033,
+      "neuron": 27293
+    },
+    {
+      "tick": 2058,
+      "neuron": 11916
+    },
+    {
+      "tick": 2064,
+      "neuron": 65153
+    },
+    {
+      "tick": 2065,
+      "neuron": 103321
+    },
+    {
+      "tick": 2065,
+      "neuron": 119716
+    },
+    {
+      "tick": 2070,
+      "neuron": 114820
+    },
+    {
+      "tick": 2078,
+      "neuron": 114820
+    },
+    {
+      "tick": 2086,
+      "neuron": 86214
+    },
+    {
+      "tick": 2087,
+      "neuron": 44337
+    },
+    {
+      "tick": 2094,
+      "neuron": 103321
+    },
+    {
+      "tick": 2101,
+      "neuron": 47685
+    },
+    {
+      "tick": 2107,
+      "neuron": 48902
+    },
+    {
+      "tick": 2112,
+      "neuron": 90982
+    },
+    {
+      "tick": 2120,
+      "neuron": 90982
+    },
+    {
+      "tick": 2121,
+      "neuron": 84634
+    },
+    {
+      "tick": 2123,
+      "neuron": 102632
+    },
+    {
+      "tick": 2129,
+      "neuron": 27293
+    },
+    {
+      "tick": 2143,
+      "neuron": 113421
+    },
+    {
+      "tick": 2154,
+      "neuron": 48902
+    },
+    {
+      "tick": 2155,
+      "neuron": 100853
+    },
+    {
+      "tick": 2160,
+      "neuron": 44337
+    },
+    {
+      "tick": 2164,
+      "neuron": 65153
+    },
+    {
+      "tick": 2168,
+      "neuron": 114820
+    },
+    {
+      "tick": 2180,
+      "neuron": 114820
+    },
+    {
+      "tick": 2187,
+      "neuron": 14231
+    },
+    {
+      "tick": 2192,
+      "neuron": 113421
+    },
+    {
+      "tick": 2195,
+      "neuron": 44337
+    },
+    {
+      "tick": 2206,
+      "neuron": 47685
+    },
+    {
+      "tick": 2208,
+      "neuron": 27293
+    },
+    {
+      "tick": 2213,
+      "neuron": 116889
+    },
+    {
+      "tick": 2222,
+      "neuron": 119716
+    },
+    {
+      "tick": 2231,
+      "neuron": 31392
+    },
+    {
+      "tick": 2231,
+      "neuron": 84634
+    },
+    {
+      "tick": 2232,
+      "neuron": 14231
+    },
+    {
+      "tick": 2241,
+      "neuron": 93880
+    },
+    {
+      "tick": 2251,
+      "neuron": 47685
+    },
+    {
+      "tick": 2256,
+      "neuron": 84634
+    },
+    {
+      "tick": 2260,
+      "neuron": 116889
+    },
+    {
+      "tick": 2268,
+      "neuron": 90982
+    },
+    {
+      "tick": 2276,
+      "neuron": 27293
+    },
+    {
+      "tick": 2282,
+      "neuron": 44337
+    },
+    {
+      "tick": 2295,
+      "neuron": 44337
+    },
+    {
+      "tick": 2304,
+      "neuron": 113421
+    },
+    {
+      "tick": 2313,
+      "neuron": 103321
+    },
+    {
+      "tick": 2314,
+      "neuron": 103321
+    },
+    {
+      "tick": 2325,
+      "neuron": 113421
+    },
+    {
+      "tick": 2329,
+      "neuron": 84634
+    },
+    {
+      "tick": 2329,
+      "neuron": 117163
+    },
+    {
+      "tick": 2331,
+      "neuron": 31392
+    },
+    {
+      "tick": 2333,
+      "neuron": 102632
+    },
+    {
+      "tick": 2336,
+      "neuron": 27293
+    },
+    {
+      "tick": 2338,
+      "neuron": 100853
+    },
+    {
+      "tick": 2343,
+      "neuron": 103321
+    },
+    {
+      "tick": 2343,
+      "neuron": 116889
+    },
+    {
+      "tick": 2344,
+      "neuron": 27293
+    },
+    {
+      "tick": 2355,
+      "neuron": 116889
+    },
+    {
+      "tick": 2363,
+      "neuron": 27680
+    },
+    {
+      "tick": 2363,
+      "neuron": 31392
+    },
+    {
+      "tick": 2368,
+      "neuron": 65153
+    },
+    {
+      "tick": 2373,
+      "neuron": 116889
+    },
+    {
+      "tick": 2381,
+      "neuron": 90982
+    },
+    {
+      "tick": 2382,
+      "neuron": 44337
+    },
+    {
+      "tick": 2388,
+      "neuron": 84634
+    },
+    {
+      "tick": 2399,
+      "neuron": 44337
+    },
+    {
+      "tick": 2402,
+      "neuron": 44337
+    },
+    {
+      "tick": 2405,
+      "neuron": 31392
+    },
+    {
+      "tick": 2408,
+      "neuron": 14231
+    },
+    {
+      "tick": 2412,
+      "neuron": 47685
+    },
+    {
+      "tick": 2418,
+      "neuron": 93880
+    },
+    {
+      "tick": 2421,
+      "neuron": 100853
+    },
+    {
+      "tick": 2422,
+      "neuron": 48902
+    },
+    {
+      "tick": 2427,
+      "neuron": 11916
+    },
+    {
+      "tick": 2428,
+      "neuron": 47685
+    },
+    {
+      "tick": 2434,
+      "neuron": 84634
+    },
+    {
+      "tick": 2439,
+      "neuron": 114820
+    },
+    {
+      "tick": 2444,
+      "neuron": 113421
+    },
+    {
+      "tick": 2445,
+      "neuron": 86214
+    },
+    {
+      "tick": 2446,
+      "neuron": 65153
+    },
+    {
+      "tick": 2448,
+      "neuron": 27293
+    },
+    {
+      "tick": 2448,
+      "neuron": 116889
+    },
+    {
+      "tick": 2451,
+      "neuron": 90982
+    },
+    {
+      "tick": 2456,
+      "neuron": 11916
+    },
+    {
+      "tick": 2459,
+      "neuron": 86214
+    },
+    {
+      "tick": 2461,
+      "neuron": 102632
+    },
+    {
+      "tick": 2462,
+      "neuron": 93880
+    },
+    {
+      "tick": 2465,
+      "neuron": 119716
+    },
+    {
+      "tick": 2479,
+      "neuron": 84634
+    },
+    {
+      "tick": 2481,
+      "neuron": 113421
+    },
+    {
+      "tick": 2486,
+      "neuron": 44337
+    },
+    {
+      "tick": 2488,
+      "neuron": 47685
+    },
+    {
+      "tick": 2490,
+      "neuron": 65153
+    },
+    {
+      "tick": 2496,
+      "neuron": 117163
+    },
+    {
+      "tick": 2499,
+      "neuron": 48902
+    },
+    {
+      "tick": 2499,
+      "neuron": 93880
+    },
+    {
+      "tick": 2502,
+      "neuron": 116889
+    },
+    {
+      "tick": 2505,
+      "neuron": 113421
+    },
+    {
+      "tick": 2512,
+      "neuron": 113421
+    },
+    {
+      "tick": 2520,
+      "neuron": 65153
+    },
+    {
+      "tick": 2522,
+      "neuron": 44337
+    },
+    {
+      "tick": 2522,
+      "neuron": 84634
+    },
+    {
+      "tick": 2524,
+      "neuron": 114820
+    },
+    {
+      "tick": 2552,
+      "neuron": 103321
+    },
+    {
+      "tick": 2554,
+      "neuron": 27680
+    },
+    {
+      "tick": 2556,
+      "neuron": 90982
+    },
+    {
+      "tick": 2557,
+      "neuron": 90982
+    },
+    {
+      "tick": 2558,
+      "neuron": 11916
+    },
+    {
+      "tick": 2559,
+      "neuron": 86214
+    },
+    {
+      "tick": 2562,
+      "neuron": 47685
+    },
+    {
+      "tick": 2565,
+      "neuron": 48902
+    },
+    {
+      "tick": 2568,
+      "neuron": 27293
+    },
+    {
+      "tick": 2580,
+      "neuron": 103321
+    },
+    {
+      "tick": 2583,
+      "neuron": 119716
+    },
+    {
+      "tick": 2591,
+      "neuron": 93880
+    },
+    {
+      "tick": 2594,
+      "neuron": 31392
+    },
+    {
+      "tick": 2603,
+      "neuron": 103321
+    },
+    {
+      "tick": 2605,
+      "neuron": 103321
+    },
+    {
+      "tick": 2614,
+      "neuron": 117163
+    },
+    {
+      "tick": 2621,
+      "neuron": 47685
+    },
+    {
+      "tick": 2624,
+      "neuron": 103321
+    },
+    {
+      "tick": 2631,
+      "neuron": 27293
+    },
+    {
+      "tick": 2638,
+      "neuron": 14231
+    },
+    {
+      "tick": 2638,
+      "neuron": 90982
+    },
+    {
+      "tick": 2641,
+      "neuron": 113421
+    },
+    {
+      "tick": 2642,
+      "neuron": 119716
+    },
+    {
+      "tick": 2650,
+      "neuron": 100853
+    },
+    {
+      "tick": 2660,
+      "neuron": 100853
+    },
+    {
+      "tick": 2667,
+      "neuron": 117163
+    },
+    {
+      "tick": 2677,
+      "neuron": 14231
+    },
+    {
+      "tick": 2681,
+      "neuron": 27293
+    },
+    {
+      "tick": 2691,
+      "neuron": 90982
+    },
+    {
+      "tick": 2694,
+      "neuron": 84634
+    },
+    {
+      "tick": 2694,
+      "neuron": 119716
+    },
+    {
+      "tick": 2698,
+      "neuron": 117163
+    },
+    {
+      "tick": 2699,
+      "neuron": 90982
+    },
+    {
+      "tick": 2702,
+      "neuron": 14231
+    },
+    {
+      "tick": 2705,
+      "neuron": 90982
+    },
+    {
+      "tick": 2715,
+      "neuron": 27680
+    },
+    {
+      "tick": 2719,
+      "neuron": 31392
+    },
+    {
+      "tick": 2728,
+      "neuron": 47685
+    },
+    {
+      "tick": 2729,
+      "neuron": 31392
+    },
+    {
+      "tick": 2729,
+      "neuron": 119716
+    },
+    {
+      "tick": 2731,
+      "neuron": 48902
+    },
+    {
+      "tick": 2732,
+      "neuron": 31392
+    },
+    {
+      "tick": 2735,
+      "neuron": 14231
+    },
+    {
+      "tick": 2739,
+      "neuron": 14231
+    },
+    {
+      "tick": 2742,
+      "neuron": 116889
+    },
+    {
+      "tick": 2745,
+      "neuron": 102632
+    },
+    {
+      "tick": 2751,
+      "neuron": 31392
+    },
+    {
+      "tick": 2754,
+      "neuron": 93880
+    },
+    {
+      "tick": 2758,
+      "neuron": 116889
+    },
+    {
+      "tick": 2770,
+      "neuron": 27680
+    },
+    {
+      "tick": 2770,
+      "neuron": 113421
+    },
+    {
+      "tick": 2770,
+      "neuron": 119716
+    },
+    {
+      "tick": 2778,
+      "neuron": 44337
+    },
+    {
+      "tick": 2778,
+      "neuron": 114820
+    },
+    {
+      "tick": 2786,
+      "neuron": 44337
+    },
+    {
+      "tick": 2788,
+      "neuron": 117163
+    },
+    {
+      "tick": 2796,
+      "neuron": 48902
+    },
+    {
+      "tick": 2796,
+      "neuron": 103321
+    },
+    {
+      "tick": 2798,
+      "neuron": 90982
+    },
+    {
+      "tick": 2799,
+      "neuron": 48902
+    },
+    {
+      "tick": 2801,
+      "neuron": 47685
+    },
+    {
+      "tick": 2812,
+      "neuron": 90982
+    },
+    {
+      "tick": 2818,
+      "neuron": 102632
+    },
+    {
+      "tick": 2820,
+      "neuron": 27293
+    },
+    {
+      "tick": 2826,
+      "neuron": 11916
+    },
+    {
+      "tick": 2827,
+      "neuron": 27680
+    },
+    {
+      "tick": 2827,
+      "neuron": 113421
+    },
+    {
+      "tick": 2828,
+      "neuron": 47685
+    },
+    {
+      "tick": 2828,
+      "neuron": 100853
+    },
+    {
+      "tick": 2834,
+      "neuron": 44337
+    },
+    {
+      "tick": 2846,
+      "neuron": 65153
+    },
+    {
+      "tick": 2850,
+      "neuron": 117163
+    },
+    {
+      "tick": 2851,
+      "neuron": 116889
+    },
+    {
+      "tick": 2852,
+      "neuron": 31392
+    },
+    {
+      "tick": 2857,
+      "neuron": 100853
+    },
+    {
+      "tick": 2859,
+      "neuron": 11916
+    },
+    {
+      "tick": 2868,
+      "neuron": 90982
+    },
+    {
+      "tick": 2869,
+      "neuron": 27680
+    },
+    {
+      "tick": 2870,
+      "neuron": 27293
+    },
+    {
+      "tick": 2873,
+      "neuron": 47685
+    },
+    {
+      "tick": 2873,
+      "neuron": 114820
+    },
+    {
+      "tick": 2876,
+      "neuron": 90982
+    },
+    {
+      "tick": 2883,
+      "neuron": 48902
+    },
+    {
+      "tick": 2885,
+      "neuron": 14231
+    },
+    {
+      "tick": 2885,
+      "neuron": 31392
+    },
+    {
+      "tick": 2888,
+      "neuron": 27680
+    },
+    {
+      "tick": 2892,
+      "neuron": 117163
+    },
+    {
+      "tick": 2893,
+      "neuron": 65153
+    },
+    {
+      "tick": 2898,
+      "neuron": 93880
+    },
+    {
+      "tick": 2902,
+      "neuron": 27293
+    },
+    {
+      "tick": 2902,
+      "neuron": 86214
+    },
+    {
+      "tick": 2905,
+      "neuron": 100853
+    },
+    {
+      "tick": 2909,
+      "neuron": 27293
+    },
+    {
+      "tick": 2910,
+      "neuron": 102632
+    },
+    {
+      "tick": 2923,
+      "neuron": 48902
+    },
+    {
+      "tick": 2924,
+      "neuron": 86214
+    },
+    {
+      "tick": 2927,
+      "neuron": 27680
+    },
+    {
+      "tick": 2930,
+      "neuron": 48902
+    },
+    {
+      "tick": 2931,
+      "neuron": 93880
+    },
+    {
+      "tick": 2932,
+      "neuron": 11916
+    },
+    {
+      "tick": 2940,
+      "neuron": 90982
+    },
+    {
+      "tick": 2952,
+      "neuron": 86214
+    },
+    {
+      "tick": 2956,
+      "neuron": 47685
+    },
+    {
+      "tick": 2966,
+      "neuron": 84634
+    },
+    {
+      "tick": 2969,
+      "neuron": 113421
+    },
+    {
+      "tick": 2972,
+      "neuron": 27680
+    },
+    {
+      "tick": 2980,
+      "neuron": 103321
+    },
+    {
+      "tick": 2981,
+      "neuron": 44337
+    },
+    {
+      "tick": 2991,
+      "neuron": 103321
+    },
+    {
+      "tick": 2998,
+      "neuron": 117163
+    },
+    {
+      "tick": 3004,
+      "neuron": 11916
+    },
+    {
+      "tick": 3018,
+      "neuron": 117163
+    },
+    {
+      "tick": 3025,
+      "neuron": 31392
+    },
+    {
+      "tick": 3029,
+      "neuron": 27293
+    },
+    {
+      "tick": 3032,
+      "neuron": 119716
+    },
+    {
+      "tick": 3037,
+      "neuron": 11916
+    },
+    {
+      "tick": 3040,
+      "neuron": 86214
+    },
+    {
+      "tick": 3046,
+      "neuron": 84634
+    },
+    {
+      "tick": 3048,
+      "neuron": 84634
+    },
+    {
+      "tick": 3056,
+      "neuron": 11916
+    },
+    {
+      "tick": 3066,
+      "neuron": 119716
+    },
+    {
+      "tick": 3077,
+      "neuron": 27293
+    },
+    {
+      "tick": 3080,
+      "neuron": 27680
+    },
+    {
+      "tick": 3082,
+      "neuron": 114820
+    },
+    {
+      "tick": 3083,
+      "neuron": 113421
+    },
+    {
+      "tick": 3084,
+      "neuron": 48902
+    },
+    {
+      "tick": 3086,
+      "neuron": 116889
+    },
+    {
+      "tick": 3091,
+      "neuron": 86214
+    },
+    {
+      "tick": 3093,
+      "neuron": 47685
+    },
+    {
+      "tick": 3109,
+      "neuron": 48902
+    },
+    {
+      "tick": 3116,
+      "neuron": 31392
+    },
+    {
+      "tick": 3125,
+      "neuron": 117163
+    },
+    {
+      "tick": 3126,
+      "neuron": 27680
+    },
+    {
+      "tick": 3140,
+      "neuron": 103321
+    },
+    {
+      "tick": 3143,
+      "neuron": 31392
+    },
+    {
+      "tick": 3144,
+      "neuron": 11916
+    },
+    {
+      "tick": 3148,
+      "neuron": 11916
+    },
+    {
+      "tick": 3148,
+      "neuron": 14231
+    },
+    {
+      "tick": 3148,
+      "neuron": 116889
+    },
+    {
+      "tick": 3151,
+      "neuron": 103321
+    },
+    {
+      "tick": 3157,
+      "neuron": 48902
+    },
+    {
+      "tick": 3159,
+      "neuron": 47685
+    },
+    {
+      "tick": 3160,
+      "neuron": 93880
+    },
+    {
+      "tick": 3165,
+      "neuron": 86214
+    },
+    {
+      "tick": 3168,
+      "neuron": 65153
+    },
+    {
+      "tick": 3181,
+      "neuron": 48902
+    },
+    {
+      "tick": 3183,
+      "neuron": 47685
+    },
+    {
+      "tick": 3185,
+      "neuron": 102632
+    },
+    {
+      "tick": 3185,
+      "neuron": 113421
+    },
+    {
+      "tick": 3188,
+      "neuron": 27680
+    },
+    {
+      "tick": 3190,
+      "neuron": 65153
+    },
+    {
+      "tick": 3190,
+      "neuron": 117163
+    },
+    {
+      "tick": 3195,
+      "neuron": 100853
+    },
+    {
+      "tick": 3198,
+      "neuron": 84634
+    },
+    {
+      "tick": 3199,
+      "neuron": 90982
+    },
+    {
+      "tick": 3199,
+      "neuron": 119716
+    },
+    {
+      "tick": 3203,
+      "neuron": 84634
+    },
+    {
+      "tick": 3218,
+      "neuron": 27680
+    },
+    {
+      "tick": 3222,
+      "neuron": 86214
+    },
+    {
+      "tick": 3226,
+      "neuron": 65153
+    },
+    {
+      "tick": 3229,
+      "neuron": 11916
+    },
+    {
+      "tick": 3237,
+      "neuron": 65153
+    },
+    {
+      "tick": 3246,
+      "neuron": 113421
+    },
+    {
+      "tick": 3258,
+      "neuron": 114820
+    },
+    {
+      "tick": 3259,
+      "neuron": 102632
+    },
+    {
+      "tick": 3260,
+      "neuron": 31392
+    },
+    {
+      "tick": 3262,
+      "neuron": 14231
+    },
+    {
+      "tick": 3279,
+      "neuron": 48902
+    },
+    {
+      "tick": 3284,
+      "neuron": 116889
+    },
+    {
+      "tick": 3289,
+      "neuron": 102632
+    },
+    {
+      "tick": 3289,
+      "neuron": 116889
+    },
+    {
+      "tick": 3290,
+      "neuron": 27680
+    },
+    {
+      "tick": 3304,
+      "neuron": 84634
+    },
+    {
+      "tick": 3311,
+      "neuron": 116889
+    },
+    {
+      "tick": 3328,
+      "neuron": 27293
+    },
+    {
+      "tick": 3335,
+      "neuron": 113421
+    },
+    {
+      "tick": 3337,
+      "neuron": 14231
+    },
+    {
+      "tick": 3347,
+      "neuron": 102632
+    },
+    {
+      "tick": 3348,
+      "neuron": 44337
+    },
+    {
+      "tick": 3351,
+      "neuron": 65153
+    },
+    {
+      "tick": 3360,
+      "neuron": 47685
+    },
+    {
+      "tick": 3385,
+      "neuron": 11916
+    },
+    {
+      "tick": 3387,
+      "neuron": 65153
+    },
+    {
+      "tick": 3388,
+      "neuron": 86214
+    },
+    {
+      "tick": 3392,
+      "neuron": 102632
+    },
+    {
+      "tick": 3397,
+      "neuron": 27680
+    },
+    {
+      "tick": 3401,
+      "neuron": 47685
+    },
+    {
+      "tick": 3402,
+      "neuron": 31392
+    },
+    {
+      "tick": 3402,
+      "neuron": 65153
+    },
+    {
+      "tick": 3409,
+      "neuron": 44337
+    },
+    {
+      "tick": 3429,
+      "neuron": 116889
+    },
+    {
+      "tick": 3431,
+      "neuron": 14231
+    },
+    {
+      "tick": 3433,
+      "neuron": 117163
+    },
+    {
+      "tick": 3438,
+      "neuron": 27293
+    },
+    {
+      "tick": 3439,
+      "neuron": 65153
+    },
+    {
+      "tick": 3457,
+      "neuron": 11916
+    },
+    {
+      "tick": 3464,
+      "neuron": 114820
+    },
+    {
+      "tick": 3469,
+      "neuron": 27680
+    },
+    {
+      "tick": 3476,
+      "neuron": 84634
+    },
+    {
+      "tick": 3490,
+      "neuron": 114820
+    },
+    {
+      "tick": 3493,
+      "neuron": 114820
+    },
+    {
+      "tick": 3493,
+      "neuron": 116889
+    },
+    {
+      "tick": 3498,
+      "neuron": 114820
+    },
+    {
+      "tick": 3499,
+      "neuron": 93880
+    },
+    {
+      "tick": 3503,
+      "neuron": 65153
+    },
+    {
+      "tick": 3504,
+      "neuron": 44337
+    },
+    {
+      "tick": 3506,
+      "neuron": 84634
+    },
+    {
+      "tick": 3507,
+      "neuron": 14231
+    },
+    {
+      "tick": 3518,
+      "neuron": 93880
+    },
+    {
+      "tick": 3519,
+      "neuron": 119716
+    },
+    {
+      "tick": 3534,
+      "neuron": 93880
+    },
+    {
+      "tick": 3539,
+      "neuron": 47685
+    },
+    {
+      "tick": 3540,
+      "neuron": 47685
+    },
+    {
+      "tick": 3545,
+      "neuron": 47685
+    },
+    {
+      "tick": 3547,
+      "neuron": 27293
+    },
+    {
+      "tick": 3552,
+      "neuron": 27680
+    },
+    {
+      "tick": 3567,
+      "neuron": 65153
+    },
+    {
+      "tick": 3573,
+      "neuron": 90982
+    },
+    {
+      "tick": 3580,
+      "neuron": 65153
+    },
+    {
+      "tick": 3581,
+      "neuron": 116889
+    },
+    {
+      "tick": 3584,
+      "neuron": 116889
+    },
+    {
+      "tick": 3588,
+      "neuron": 93880
+    },
+    {
+      "tick": 3591,
+      "neuron": 84634
+    },
+    {
+      "tick": 3591,
+      "neuron": 86214
+    },
+    {
+      "tick": 3591,
+      "neuron": 90982
+    },
+    {
+      "tick": 3593,
+      "neuron": 27293
+    },
+    {
+      "tick": 3593,
+      "neuron": 114820
+    },
+    {
+      "tick": 3594,
+      "neuron": 27293
+    },
+    {
+      "tick": 3604,
+      "neuron": 119716
+    },
+    {
+      "tick": 3605,
+      "neuron": 102632
+    },
+    {
+      "tick": 3606,
+      "neuron": 100853
+    },
+    {
+      "tick": 3606,
+      "neuron": 116889
+    },
+    {
+      "tick": 3620,
+      "neuron": 93880
+    },
+    {
+      "tick": 3628,
+      "neuron": 31392
+    },
+    {
+      "tick": 3634,
+      "neuron": 103321
+    },
+    {
+      "tick": 3645,
+      "neuron": 47685
+    },
+    {
+      "tick": 3651,
+      "neuron": 65153
+    },
+    {
+      "tick": 3655,
+      "neuron": 119716
+    },
+    {
+      "tick": 3657,
+      "neuron": 103321
+    },
+    {
+      "tick": 3657,
+      "neuron": 114820
+    },
+    {
+      "tick": 3660,
+      "neuron": 116889
+    },
+    {
+      "tick": 3666,
+      "neuron": 14231
+    },
+    {
+      "tick": 3666,
+      "neuron": 31392
+    },
+    {
+      "tick": 3676,
+      "neuron": 100853
+    },
+    {
+      "tick": 3677,
+      "neuron": 116889
+    },
+    {
+      "tick": 3679,
+      "neuron": 44337
+    },
+    {
+      "tick": 3687,
+      "neuron": 27293
+    },
+    {
+      "tick": 3688,
+      "neuron": 31392
+    },
+    {
+      "tick": 3705,
+      "neuron": 14231
+    },
+    {
+      "tick": 3705,
+      "neuron": 103321
+    },
+    {
+      "tick": 3709,
+      "neuron": 113421
+    },
+    {
+      "tick": 3725,
+      "neuron": 65153
+    },
+    {
+      "tick": 3729,
+      "neuron": 102632
+    },
+    {
+      "tick": 3730,
+      "neuron": 90982
+    },
+    {
+      "tick": 3735,
+      "neuron": 84634
+    },
+    {
+      "tick": 3737,
+      "neuron": 113421
+    },
+    {
+      "tick": 3739,
+      "neuron": 14231
+    },
+    {
+      "tick": 3741,
+      "neuron": 11916
+    },
+    {
+      "tick": 3742,
+      "neuron": 11916
+    },
+    {
+      "tick": 3750,
+      "neuron": 11916
+    },
+    {
+      "tick": 3752,
+      "neuron": 47685
+    },
+    {
+      "tick": 3762,
+      "neuron": 44337
+    },
+    {
+      "tick": 3774,
+      "neuron": 93880
+    },
+    {
+      "tick": 3780,
+      "neuron": 31392
+    },
+    {
+      "tick": 3792,
+      "neuron": 65153
+    },
+    {
+      "tick": 3808,
+      "neuron": 117163
+    },
+    {
+      "tick": 3815,
+      "neuron": 100853
+    },
+    {
+      "tick": 3821,
+      "neuron": 86214
+    },
+    {
+      "tick": 3824,
+      "neuron": 44337
+    },
+    {
+      "tick": 3843,
+      "neuron": 100853
+    },
+    {
+      "tick": 3846,
+      "neuron": 93880
+    },
+    {
+      "tick": 3857,
+      "neuron": 114820
+    },
+    {
+      "tick": 3869,
+      "neuron": 48902
+    },
+    {
+      "tick": 3881,
+      "neuron": 117163
+    },
+    {
+      "tick": 3885,
+      "neuron": 14231
+    },
+    {
+      "tick": 3890,
+      "neuron": 116889
+    },
+    {
+      "tick": 3892,
+      "neuron": 27293
+    },
+    {
+      "tick": 3896,
+      "neuron": 27680
+    },
+    {
+      "tick": 3898,
+      "neuron": 14231
+    },
+    {
+      "tick": 3899,
+      "neuron": 44337
+    },
+    {
+      "tick": 3906,
+      "neuron": 90982
+    },
+    {
+      "tick": 3907,
+      "neuron": 100853
+    },
+    {
+      "tick": 3919,
+      "neuron": 114820
+    },
+    {
+      "tick": 3925,
+      "neuron": 84634
+    },
+    {
+      "tick": 3928,
+      "neuron": 86214
+    },
+    {
+      "tick": 3939,
+      "neuron": 117163
+    },
+    {
+      "tick": 3951,
+      "neuron": 48902
+    },
+    {
+      "tick": 3958,
+      "neuron": 84634
+    },
+    {
+      "tick": 3959,
+      "neuron": 116889
+    },
+    {
+      "tick": 3962,
+      "neuron": 102632
+    },
+    {
+      "tick": 3971,
+      "neuron": 117163
+    },
+    {
+      "tick": 3976,
+      "neuron": 100853
+    },
+    {
+      "tick": 3980,
+      "neuron": 117163
+    },
+    {
+      "tick": 3981,
+      "neuron": 90982
+    },
+    {
+      "tick": 3983,
+      "neuron": 102632
+    },
+    {
+      "tick": 3985,
+      "neuron": 93880
+    },
+    {
+      "tick": 3991,
+      "neuron": 100853
+    },
+    {
+      "tick": 3992,
+      "neuron": 65153
+    },
+    {
+      "tick": 3997,
+      "neuron": 90982
+    },
+    {
+      "tick": 3999,
+      "neuron": 119716
+    },
+    {
+      "tick": 4004,
+      "neuron": 27293
+    },
+    {
+      "tick": 4004,
+      "neuron": 116889
+    },
+    {
+      "tick": 4011,
+      "neuron": 47685
+    },
+    {
+      "tick": 4011,
+      "neuron": 65153
+    },
+    {
+      "tick": 4017,
+      "neuron": 116889
+    },
+    {
+      "tick": 4038,
+      "neuron": 11916
+    },
+    {
+      "tick": 4039,
+      "neuron": 47685
+    },
+    {
+      "tick": 4053,
+      "neuron": 116889
+    },
+    {
+      "tick": 4068,
+      "neuron": 65153
+    },
+    {
+      "tick": 4069,
+      "neuron": 27293
+    },
+    {
+      "tick": 4071,
+      "neuron": 93880
+    },
+    {
+      "tick": 4072,
+      "neuron": 84634
+    },
+    {
+      "tick": 4073,
+      "neuron": 119716
+    },
+    {
+      "tick": 4079,
+      "neuron": 100853
+    },
+    {
+      "tick": 4081,
+      "neuron": 119716
+    },
+    {
+      "tick": 4084,
+      "neuron": 100853
+    },
+    {
+      "tick": 4085,
+      "neuron": 93880
+    },
+    {
+      "tick": 4089,
+      "neuron": 31392
+    },
+    {
+      "tick": 4092,
+      "neuron": 27680
+    },
+    {
+      "tick": 4096,
+      "neuron": 119716
+    },
+    {
+      "tick": 4101,
+      "neuron": 47685
+    },
+    {
+      "tick": 4106,
+      "neuron": 31392
+    },
+    {
+      "tick": 4111,
+      "neuron": 31392
+    },
+    {
+      "tick": 4114,
+      "neuron": 27680
+    },
+    {
+      "tick": 4119,
+      "neuron": 14231
+    },
+    {
+      "tick": 4135,
+      "neuron": 90982
+    },
+    {
+      "tick": 4137,
+      "neuron": 48902
+    },
+    {
+      "tick": 4141,
+      "neuron": 117163
+    },
+    {
+      "tick": 4142,
+      "neuron": 90982
+    },
+    {
+      "tick": 4144,
+      "neuron": 116889
+    },
+    {
+      "tick": 4150,
+      "neuron": 27293
+    },
+    {
+      "tick": 4154,
+      "neuron": 114820
+    },
+    {
+      "tick": 4155,
+      "neuron": 119716
+    },
+    {
+      "tick": 4162,
+      "neuron": 100853
+    },
+    {
+      "tick": 4166,
+      "neuron": 116889
+    },
+    {
+      "tick": 4170,
+      "neuron": 31392
+    },
+    {
+      "tick": 4171,
+      "neuron": 117163
+    },
+    {
+      "tick": 4172,
+      "neuron": 31392
+    },
+    {
+      "tick": 4173,
+      "neuron": 93880
+    },
+    {
+      "tick": 4181,
+      "neuron": 27680
+    },
+    {
+      "tick": 4183,
+      "neuron": 102632
+    },
+    {
+      "tick": 4186,
+      "neuron": 47685
+    },
+    {
+      "tick": 4189,
+      "neuron": 27680
+    },
+    {
+      "tick": 4193,
+      "neuron": 100853
+    },
+    {
+      "tick": 4204,
+      "neuron": 27680
+    },
+    {
+      "tick": 4209,
+      "neuron": 103321
+    },
+    {
+      "tick": 4218,
+      "neuron": 47685
+    },
+    {
+      "tick": 4223,
+      "neuron": 44337
+    },
+    {
+      "tick": 4236,
+      "neuron": 114820
+    },
+    {
+      "tick": 4237,
+      "neuron": 113421
+    },
+    {
+      "tick": 4240,
+      "neuron": 11916
+    },
+    {
+      "tick": 4241,
+      "neuron": 100853
+    },
+    {
+      "tick": 4251,
+      "neuron": 44337
+    },
+    {
+      "tick": 4259,
+      "neuron": 48902
+    },
+    {
+      "tick": 4260,
+      "neuron": 48902
+    },
+    {
+      "tick": 4260,
+      "neuron": 100853
+    },
+    {
+      "tick": 4261,
+      "neuron": 100853
+    },
+    {
+      "tick": 4261,
+      "neuron": 102632
+    },
+    {
+      "tick": 4276,
+      "neuron": 86214
+    },
+    {
+      "tick": 4281,
+      "neuron": 31392
+    },
+    {
+      "tick": 4283,
+      "neuron": 14231
+    },
+    {
+      "tick": 4293,
+      "neuron": 116889
+    },
+    {
+      "tick": 4295,
+      "neuron": 117163
+    },
+    {
+      "tick": 4302,
+      "neuron": 14231
+    },
+    {
+      "tick": 4312,
+      "neuron": 27293
+    },
+    {
+      "tick": 4314,
+      "neuron": 11916
+    },
+    {
+      "tick": 4340,
+      "neuron": 84634
+    },
+    {
+      "tick": 4340,
+      "neuron": 86214
+    },
+    {
+      "tick": 4344,
+      "neuron": 47685
+    },
+    {
+      "tick": 4344,
+      "neuron": 116889
+    },
+    {
+      "tick": 4346,
+      "neuron": 113421
+    },
+    {
+      "tick": 4350,
+      "neuron": 84634
+    },
+    {
+      "tick": 4351,
+      "neuron": 31392
+    },
+    {
+      "tick": 4353,
+      "neuron": 47685
+    },
+    {
+      "tick": 4355,
+      "neuron": 90982
+    },
+    {
+      "tick": 4363,
+      "neuron": 11916
+    },
+    {
+      "tick": 4365,
+      "neuron": 93880
+    },
+    {
+      "tick": 4369,
+      "neuron": 84634
+    },
+    {
+      "tick": 4383,
+      "neuron": 102632
+    },
+    {
+      "tick": 4389,
+      "neuron": 14231
+    },
+    {
+      "tick": 4393,
+      "neuron": 27293
+    },
+    {
+      "tick": 4417,
+      "neuron": 116889
+    },
+    {
+      "tick": 4420,
+      "neuron": 14231
+    },
+    {
+      "tick": 4422,
+      "neuron": 90982
+    },
+    {
+      "tick": 4426,
+      "neuron": 31392
+    },
+    {
+      "tick": 4430,
+      "neuron": 90982
+    },
+    {
+      "tick": 4433,
+      "neuron": 27680
+    },
+    {
+      "tick": 4437,
+      "neuron": 47685
+    },
+    {
+      "tick": 4439,
+      "neuron": 119716
+    },
+    {
+      "tick": 4447,
+      "neuron": 84634
+    },
+    {
+      "tick": 4469,
+      "neuron": 11916
+    },
+    {
+      "tick": 4474,
+      "neuron": 90982
+    },
+    {
+      "tick": 4478,
+      "neuron": 48902
+    },
+    {
+      "tick": 4486,
+      "neuron": 86214
+    },
+    {
+      "tick": 4493,
+      "neuron": 102632
+    },
+    {
+      "tick": 4497,
+      "neuron": 65153
+    },
+    {
+      "tick": 4500,
+      "neuron": 47685
+    },
+    {
+      "tick": 4502,
+      "neuron": 31392
+    },
+    {
+      "tick": 4502,
+      "neuron": 47685
+    },
+    {
+      "tick": 4512,
+      "neuron": 93880
+    },
+    {
+      "tick": 4522,
+      "neuron": 44337
+    },
+    {
+      "tick": 4524,
+      "neuron": 65153
+    },
+    {
+      "tick": 4532,
+      "neuron": 116889
+    },
+    {
+      "tick": 4535,
+      "neuron": 65153
+    },
+    {
+      "tick": 4542,
+      "neuron": 90982
+    },
+    {
+      "tick": 4543,
+      "neuron": 27680
+    },
+    {
+      "tick": 4547,
+      "neuron": 65153
+    },
+    {
+      "tick": 4550,
+      "neuron": 84634
+    },
+    {
+      "tick": 4557,
+      "neuron": 103321
+    },
+    {
+      "tick": 4558,
+      "neuron": 84634
+    },
+    {
+      "tick": 4570,
+      "neuron": 90982
+    },
+    {
+      "tick": 4572,
+      "neuron": 103321
+    },
+    {
+      "tick": 4577,
+      "neuron": 44337
+    },
+    {
+      "tick": 4578,
+      "neuron": 14231
+    },
+    {
+      "tick": 4578,
+      "neuron": 48902
+    },
+    {
+      "tick": 4579,
+      "neuron": 90982
+    },
+    {
+      "tick": 4583,
+      "neuron": 11916
+    },
+    {
+      "tick": 4587,
+      "neuron": 11916
+    },
+    {
+      "tick": 4595,
+      "neuron": 84634
+    },
+    {
+      "tick": 4596,
+      "neuron": 14231
+    },
+    {
+      "tick": 4597,
+      "neuron": 93880
+    },
+    {
+      "tick": 4602,
+      "neuron": 11916
+    },
+    {
+      "tick": 4602,
+      "neuron": 84634
+    },
+    {
+      "tick": 4603,
+      "neuron": 114820
+    },
+    {
+      "tick": 4612,
+      "neuron": 113421
+    },
+    {
+      "tick": 4616,
+      "neuron": 27293
+    },
+    {
+      "tick": 4616,
+      "neuron": 44337
+    },
+    {
+      "tick": 4631,
+      "neuron": 44337
+    },
+    {
+      "tick": 4632,
+      "neuron": 90982
+    },
+    {
+      "tick": 4642,
+      "neuron": 100853
+    },
+    {
+      "tick": 4643,
+      "neuron": 90982
+    },
+    {
+      "tick": 4653,
+      "neuron": 113421
+    },
+    {
+      "tick": 4657,
+      "neuron": 86214
+    },
+    {
+      "tick": 4657,
+      "neuron": 102632
+    },
+    {
+      "tick": 4658,
+      "neuron": 47685
+    },
+    {
+      "tick": 4673,
+      "neuron": 103321
+    },
+    {
+      "tick": 4676,
+      "neuron": 47685
+    },
+    {
+      "tick": 4679,
+      "neuron": 117163
+    },
+    {
+      "tick": 4682,
+      "neuron": 47685
+    },
+    {
+      "tick": 4689,
+      "neuron": 93880
+    },
+    {
+      "tick": 4692,
+      "neuron": 65153
+    },
+    {
+      "tick": 4693,
+      "neuron": 14231
+    },
+    {
+      "tick": 4693,
+      "neuron": 84634
+    },
+    {
+      "tick": 4695,
+      "neuron": 116889
+    },
+    {
+      "tick": 4697,
+      "neuron": 84634
+    },
+    {
+      "tick": 4698,
+      "neuron": 31392
+    },
+    {
+      "tick": 4717,
+      "neuron": 48902
+    },
+    {
+      "tick": 4722,
+      "neuron": 113421
+    },
+    {
+      "tick": 4723,
+      "neuron": 11916
+    },
+    {
+      "tick": 4732,
+      "neuron": 84634
+    },
+    {
+      "tick": 4732,
+      "neuron": 114820
+    },
+    {
+      "tick": 4734,
+      "neuron": 31392
+    },
+    {
+      "tick": 4735,
+      "neuron": 84634
+    },
+    {
+      "tick": 4742,
+      "neuron": 86214
+    },
+    {
+      "tick": 4751,
+      "neuron": 44337
+    },
+    {
+      "tick": 4753,
+      "neuron": 119716
+    },
+    {
+      "tick": 4754,
+      "neuron": 116889
+    },
+    {
+      "tick": 4760,
+      "neuron": 44337
+    },
+    {
+      "tick": 4761,
+      "neuron": 113421
+    },
+    {
+      "tick": 4766,
+      "neuron": 114820
+    },
+    {
+      "tick": 4773,
+      "neuron": 47685
+    },
+    {
+      "tick": 4779,
+      "neuron": 14231
+    },
+    {
+      "tick": 4781,
+      "neuron": 31392
+    },
+    {
+      "tick": 4782,
+      "neuron": 27680
+    },
+    {
+      "tick": 4782,
+      "neuron": 31392
+    },
+    {
+      "tick": 4783,
+      "neuron": 93880
+    },
+    {
+      "tick": 4785,
+      "neuron": 48902
+    },
+    {
+      "tick": 4788,
+      "neuron": 27680
+    },
+    {
+      "tick": 4790,
+      "neuron": 103321
+    },
+    {
+      "tick": 4794,
+      "neuron": 31392
+    },
+    {
+      "tick": 4794,
+      "neuron": 90982
+    },
+    {
+      "tick": 4795,
+      "neuron": 100853
+    },
+    {
+      "tick": 4800,
+      "neuron": 93880
+    },
+    {
+      "tick": 4801,
+      "neuron": 48902
+    },
+    {
+      "tick": 4810,
+      "neuron": 27680
+    },
+    {
+      "tick": 4811,
+      "neuron": 31392
+    },
+    {
+      "tick": 4811,
+      "neuron": 119716
+    },
+    {
+      "tick": 4813,
+      "neuron": 47685
+    },
+    {
+      "tick": 4814,
+      "neuron": 48902
+    },
+    {
+      "tick": 4816,
+      "neuron": 27293
+    },
+    {
+      "tick": 4816,
+      "neuron": 116889
+    },
+    {
+      "tick": 4843,
+      "neuron": 48902
+    },
+    {
+      "tick": 4846,
+      "neuron": 14231
+    },
+    {
+      "tick": 4850,
+      "neuron": 119716
+    },
+    {
+      "tick": 4852,
+      "neuron": 113421
+    },
+    {
+      "tick": 4856,
+      "neuron": 47685
+    },
+    {
+      "tick": 4858,
+      "neuron": 84634
+    },
+    {
+      "tick": 4860,
+      "neuron": 44337
+    },
+    {
+      "tick": 4904,
+      "neuron": 65153
+    },
+    {
+      "tick": 4912,
+      "neuron": 100853
+    },
+    {
+      "tick": 4918,
+      "neuron": 117163
+    },
+    {
+      "tick": 4928,
+      "neuron": 86214
+    },
+    {
+      "tick": 4945,
+      "neuron": 114820
+    },
+    {
+      "tick": 4947,
+      "neuron": 27293
+    },
+    {
+      "tick": 4947,
+      "neuron": 117163
+    },
+    {
+      "tick": 4953,
+      "neuron": 65153
+    },
+    {
+      "tick": 4957,
+      "neuron": 103321
+    },
+    {
+      "tick": 4958,
+      "neuron": 48902
+    },
+    {
+      "tick": 4962,
+      "neuron": 102632
+    },
+    {
+      "tick": 4963,
+      "neuron": 31392
+    },
+    {
+      "tick": 4968,
+      "neuron": 90982
+    },
+    {
+      "tick": 4968,
+      "neuron": 119716
+    },
+    {
+      "tick": 4973,
+      "neuron": 102632
+    },
+    {
+      "tick": 4976,
+      "neuron": 113421
+    },
+    {
+      "tick": 4979,
+      "neuron": 102632
+    },
+    {
+      "tick": 4990,
+      "neuron": 116889
+    },
+    {
+      "tick": 4998,
+      "neuron": 31392
+    },
+    {
+      "tick": 5000,
+      "neuron": 100853
+    },
+    {
+      "tick": 5004,
+      "neuron": 100853
+    },
+    {
+      "tick": 5007,
+      "neuron": 114820
+    },
+    {
+      "tick": 5012,
+      "neuron": 114820
+    },
+    {
+      "tick": 5014,
+      "neuron": 102632
+    },
+    {
+      "tick": 5014,
+      "neuron": 117163
+    },
+    {
+      "tick": 5016,
+      "neuron": 119716
+    },
+    {
+      "tick": 5018,
+      "neuron": 114820
+    },
+    {
+      "tick": 5035,
+      "neuron": 47685
+    },
+    {
+      "tick": 5036,
+      "neuron": 117163
+    },
+    {
+      "tick": 5038,
+      "neuron": 114820
+    },
+    {
+      "tick": 5040,
+      "neuron": 114820
+    },
+    {
+      "tick": 5041,
+      "neuron": 11916
+    },
+    {
+      "tick": 5041,
+      "neuron": 116889
+    },
+    {
+      "tick": 5048,
+      "neuron": 103321
+    },
+    {
+      "tick": 5056,
+      "neuron": 119716
+    },
+    {
+      "tick": 5062,
+      "neuron": 102632
+    },
+    {
+      "tick": 5063,
+      "neuron": 44337
+    },
+    {
+      "tick": 5063,
+      "neuron": 100853
+    },
+    {
+      "tick": 5067,
+      "neuron": 90982
+    },
+    {
+      "tick": 5068,
+      "neuron": 14231
+    },
+    {
+      "tick": 5071,
+      "neuron": 113421
+    },
+    {
+      "tick": 5074,
+      "neuron": 27293
+    },
+    {
+      "tick": 5077,
+      "neuron": 11916
+    },
+    {
+      "tick": 5088,
+      "neuron": 93880
+    },
+    {
+      "tick": 5089,
+      "neuron": 93880
+    },
+    {
+      "tick": 5100,
+      "neuron": 103321
+    },
+    {
+      "tick": 5102,
+      "neuron": 27680
+    },
+    {
+      "tick": 5116,
+      "neuron": 102632
+    },
+    {
+      "tick": 5117,
+      "neuron": 14231
+    },
+    {
+      "tick": 5117,
+      "neuron": 113421
+    },
+    {
+      "tick": 5119,
+      "neuron": 93880
+    },
+    {
+      "tick": 5120,
+      "neuron": 100853
+    },
+    {
+      "tick": 5121,
+      "neuron": 103321
+    },
+    {
+      "tick": 5129,
+      "neuron": 90982
+    },
+    {
+      "tick": 5131,
+      "neuron": 113421
+    },
+    {
+      "tick": 5131,
+      "neuron": 119716
+    },
+    {
+      "tick": 5141,
+      "neuron": 102632
+    },
+    {
+      "tick": 5154,
+      "neuron": 114820
+    },
+    {
+      "tick": 5161,
+      "neuron": 44337
+    },
+    {
+      "tick": 5166,
+      "neuron": 27293
+    },
+    {
+      "tick": 5169,
+      "neuron": 90982
+    },
+    {
+      "tick": 5170,
+      "neuron": 65153
+    },
+    {
+      "tick": 5179,
+      "neuron": 100853
+    },
+    {
+      "tick": 5182,
+      "neuron": 90982
+    },
+    {
+      "tick": 5185,
+      "neuron": 84634
+    },
+    {
+      "tick": 5187,
+      "neuron": 48902
+    },
+    {
+      "tick": 5190,
+      "neuron": 116889
+    },
+    {
+      "tick": 5199,
+      "neuron": 14231
+    },
+    {
+      "tick": 5208,
+      "neuron": 84634
+    },
+    {
+      "tick": 5212,
+      "neuron": 100853
+    },
+    {
+      "tick": 5212,
+      "neuron": 119716
+    },
+    {
+      "tick": 5224,
+      "neuron": 119716
+    },
+    {
+      "tick": 5225,
+      "neuron": 11916
+    },
+    {
+      "tick": 5226,
+      "neuron": 93880
+    },
+    {
+      "tick": 5233,
+      "neuron": 90982
+    },
+    {
+      "tick": 5256,
+      "neuron": 102632
+    },
+    {
+      "tick": 5257,
+      "neuron": 117163
+    },
+    {
+      "tick": 5273,
+      "neuron": 103321
+    },
+    {
+      "tick": 5274,
+      "neuron": 117163
+    },
+    {
+      "tick": 5281,
+      "neuron": 119716
+    },
+    {
+      "tick": 5285,
+      "neuron": 113421
+    },
+    {
+      "tick": 5287,
+      "neuron": 47685
+    },
+    {
+      "tick": 5295,
+      "neuron": 44337
+    },
+    {
+      "tick": 5304,
+      "neuron": 90982
+    },
+    {
+      "tick": 5306,
+      "neuron": 90982
+    },
+    {
+      "tick": 5323,
+      "neuron": 47685
+    },
+    {
+      "tick": 5324,
+      "neuron": 27680
+    },
+    {
+      "tick": 5326,
+      "neuron": 11916
+    },
+    {
+      "tick": 5328,
+      "neuron": 47685
+    },
+    {
+      "tick": 5339,
+      "neuron": 86214
+    },
+    {
+      "tick": 5342,
+      "neuron": 113421
+    },
+    {
+      "tick": 5344,
+      "neuron": 117163
+    },
+    {
+      "tick": 5354,
+      "neuron": 103321
+    },
+    {
+      "tick": 5356,
+      "neuron": 117163
+    },
+    {
+      "tick": 5360,
+      "neuron": 44337
+    },
+    {
+      "tick": 5372,
+      "neuron": 44337
+    },
+    {
+      "tick": 5375,
+      "neuron": 27680
+    },
+    {
+      "tick": 5377,
+      "neuron": 27680
+    },
+    {
+      "tick": 5377,
+      "neuron": 86214
+    },
+    {
+      "tick": 5387,
+      "neuron": 27680
+    },
+    {
+      "tick": 5398,
+      "neuron": 48902
+    },
+    {
+      "tick": 5400,
+      "neuron": 86214
+    },
+    {
+      "tick": 5413,
+      "neuron": 119716
+    },
+    {
+      "tick": 5416,
+      "neuron": 119716
+    },
+    {
+      "tick": 5417,
+      "neuron": 27293
+    },
+    {
+      "tick": 5423,
+      "neuron": 11916
+    },
+    {
+      "tick": 5423,
+      "neuron": 14231
+    },
+    {
+      "tick": 5423,
+      "neuron": 27293
+    },
+    {
+      "tick": 5429,
+      "neuron": 31392
+    },
+    {
+      "tick": 5431,
+      "neuron": 114820
+    },
+    {
+      "tick": 5435,
+      "neuron": 11916
+    },
+    {
+      "tick": 5437,
+      "neuron": 102632
+    },
+    {
+      "tick": 5442,
+      "neuron": 114820
+    },
+    {
+      "tick": 5448,
+      "neuron": 100853
+    },
+    {
+      "tick": 5451,
+      "neuron": 84634
+    },
+    {
+      "tick": 5467,
+      "neuron": 14231
+    },
+    {
+      "tick": 5472,
+      "neuron": 27293
+    },
+    {
+      "tick": 5473,
+      "neuron": 27293
+    },
+    {
+      "tick": 5473,
+      "neuron": 47685
+    },
+    {
+      "tick": 5482,
+      "neuron": 44337
+    },
+    {
+      "tick": 5484,
+      "neuron": 100853
+    },
+    {
+      "tick": 5488,
+      "neuron": 113421
+    },
+    {
+      "tick": 5489,
+      "neuron": 86214
+    },
+    {
+      "tick": 5500,
+      "neuron": 27680
+    },
+    {
+      "tick": 5501,
+      "neuron": 102632
+    },
+    {
+      "tick": 5503,
+      "neuron": 84634
+    },
+    {
+      "tick": 5504,
+      "neuron": 84634
+    },
+    {
+      "tick": 5505,
+      "neuron": 117163
+    },
+    {
+      "tick": 5508,
+      "neuron": 11916
+    },
+    {
+      "tick": 5510,
+      "neuron": 103321
+    },
+    {
+      "tick": 5512,
+      "neuron": 11916
+    },
+    {
+      "tick": 5512,
+      "neuron": 27680
+    },
+    {
+      "tick": 5518,
+      "neuron": 113421
+    },
+    {
+      "tick": 5521,
+      "neuron": 114820
+    },
+    {
+      "tick": 5525,
+      "neuron": 84634
+    },
+    {
+      "tick": 5529,
+      "neuron": 103321
+    },
+    {
+      "tick": 5529,
+      "neuron": 117163
+    },
+    {
+      "tick": 5533,
+      "neuron": 84634
+    },
+    {
+      "tick": 5538,
+      "neuron": 93880
+    },
+    {
+      "tick": 5540,
+      "neuron": 119716
+    },
+    {
+      "tick": 5541,
+      "neuron": 27293
+    },
+    {
+      "tick": 5542,
+      "neuron": 113421
+    },
+    {
+      "tick": 5554,
+      "neuron": 47685
+    },
+    {
+      "tick": 5556,
+      "neuron": 113421
+    },
+    {
+      "tick": 5560,
+      "neuron": 14231
+    },
+    {
+      "tick": 5565,
+      "neuron": 114820
+    },
+    {
+      "tick": 5569,
+      "neuron": 11916
+    },
+    {
+      "tick": 5571,
+      "neuron": 84634
+    },
+    {
+      "tick": 5573,
+      "neuron": 113421
+    },
+    {
+      "tick": 5576,
+      "neuron": 44337
+    },
+    {
+      "tick": 5586,
+      "neuron": 93880
+    },
+    {
+      "tick": 5590,
+      "neuron": 114820
+    },
+    {
+      "tick": 5595,
+      "neuron": 113421
+    },
+    {
+      "tick": 5604,
+      "neuron": 14231
+    },
+    {
+      "tick": 5605,
+      "neuron": 86214
+    },
+    {
+      "tick": 5606,
+      "neuron": 65153
+    },
+    {
+      "tick": 5607,
+      "neuron": 31392
+    },
+    {
+      "tick": 5608,
+      "neuron": 102632
+    },
+    {
+      "tick": 5611,
+      "neuron": 27293
+    },
+    {
+      "tick": 5615,
+      "neuron": 114820
+    },
+    {
+      "tick": 5622,
+      "neuron": 90982
+    },
+    {
+      "tick": 5637,
+      "neuron": 47685
+    },
+    {
+      "tick": 5637,
+      "neuron": 100853
+    },
+    {
+      "tick": 5647,
+      "neuron": 103321
+    },
+    {
+      "tick": 5654,
+      "neuron": 93880
+    },
+    {
+      "tick": 5661,
+      "neuron": 90982
+    },
+    {
+      "tick": 5662,
+      "neuron": 14231
+    },
+    {
+      "tick": 5671,
+      "neuron": 103321
+    },
+    {
+      "tick": 5674,
+      "neuron": 48902
+    },
+    {
+      "tick": 5689,
+      "neuron": 14231
+    },
+    {
+      "tick": 5690,
+      "neuron": 102632
+    },
+    {
+      "tick": 5697,
+      "neuron": 27680
+    },
+    {
+      "tick": 5699,
+      "neuron": 100853
+    },
+    {
+      "tick": 5703,
+      "neuron": 27293
+    },
+    {
+      "tick": 5706,
+      "neuron": 27680
+    },
+    {
+      "tick": 5709,
+      "neuron": 27293
+    },
+    {
+      "tick": 5721,
+      "neuron": 47685
+    },
+    {
+      "tick": 5724,
+      "neuron": 14231
+    },
+    {
+      "tick": 5730,
+      "neuron": 27680
+    },
+    {
+      "tick": 5731,
+      "neuron": 47685
+    },
+    {
+      "tick": 5733,
+      "neuron": 84634
+    },
+    {
+      "tick": 5735,
+      "neuron": 114820
+    },
+    {
+      "tick": 5737,
+      "neuron": 31392
+    },
+    {
+      "tick": 5738,
+      "neuron": 27680
+    },
+    {
+      "tick": 5740,
+      "neuron": 100853
+    },
+    {
+      "tick": 5747,
+      "neuron": 48902
+    },
+    {
+      "tick": 5747,
+      "neuron": 65153
+    },
+    {
+      "tick": 5748,
+      "neuron": 11916
+    },
+    {
+      "tick": 5750,
+      "neuron": 114820
+    },
+    {
+      "tick": 5751,
+      "neuron": 90982
+    },
+    {
+      "tick": 5756,
+      "neuron": 86214
+    },
+    {
+      "tick": 5758,
+      "neuron": 47685
+    },
+    {
+      "tick": 5767,
+      "neuron": 27680
+    },
+    {
+      "tick": 5772,
+      "neuron": 100853
+    },
+    {
+      "tick": 5780,
+      "neuron": 117163
+    },
+    {
+      "tick": 5783,
+      "neuron": 14231
+    },
+    {
+      "tick": 5786,
+      "neuron": 102632
+    },
+    {
+      "tick": 5794,
+      "neuron": 48902
+    },
+    {
+      "tick": 5796,
+      "neuron": 116889
+    },
+    {
+      "tick": 5798,
+      "neuron": 65153
+    },
+    {
+      "tick": 5807,
+      "neuron": 103321
+    },
+    {
+      "tick": 5812,
+      "neuron": 65153
+    },
+    {
+      "tick": 5817,
+      "neuron": 114820
+    },
+    {
+      "tick": 5821,
+      "neuron": 114820
+    },
+    {
+      "tick": 5830,
+      "neuron": 27293
+    },
+    {
+      "tick": 5830,
+      "neuron": 31392
+    },
+    {
+      "tick": 5832,
+      "neuron": 100853
+    },
+    {
+      "tick": 5841,
+      "neuron": 31392
+    },
+    {
+      "tick": 5849,
+      "neuron": 27293
+    },
+    {
+      "tick": 5852,
+      "neuron": 27293
+    },
+    {
+      "tick": 5853,
+      "neuron": 86214
+    },
+    {
+      "tick": 5854,
+      "neuron": 14231
+    },
+    {
+      "tick": 5855,
+      "neuron": 103321
+    },
+    {
+      "tick": 5863,
+      "neuron": 48902
+    },
+    {
+      "tick": 5863,
+      "neuron": 114820
+    },
+    {
+      "tick": 5864,
+      "neuron": 93880
+    },
+    {
+      "tick": 5870,
+      "neuron": 65153
+    },
+    {
+      "tick": 5870,
+      "neuron": 93880
+    },
+    {
+      "tick": 5877,
+      "neuron": 103321
+    },
+    {
+      "tick": 5879,
+      "neuron": 84634
+    },
+    {
+      "tick": 5887,
+      "neuron": 116889
+    },
+    {
+      "tick": 5890,
+      "neuron": 47685
+    },
+    {
+      "tick": 5893,
+      "neuron": 86214
+    },
+    {
+      "tick": 5896,
+      "neuron": 86214
+    },
+    {
+      "tick": 5896,
+      "neuron": 114820
+    },
+    {
+      "tick": 5898,
+      "neuron": 102632
+    },
+    {
+      "tick": 5916,
+      "neuron": 114820
+    },
+    {
+      "tick": 5923,
+      "neuron": 102632
+    },
+    {
+      "tick": 5924,
+      "neuron": 117163
+    },
+    {
+      "tick": 5928,
+      "neuron": 114820
+    },
+    {
+      "tick": 5936,
+      "neuron": 65153
+    },
+    {
+      "tick": 5939,
+      "neuron": 114820
+    },
+    {
+      "tick": 5941,
+      "neuron": 31392
+    },
+    {
+      "tick": 5945,
+      "neuron": 86214
+    },
+    {
+      "tick": 5956,
+      "neuron": 47685
+    },
+    {
+      "tick": 5957,
+      "neuron": 100853
+    },
+    {
+      "tick": 5958,
+      "neuron": 27680
+    },
+    {
+      "tick": 5959,
+      "neuron": 117163
+    },
+    {
+      "tick": 5985,
+      "neuron": 14231
+    },
+    {
+      "tick": 5987,
+      "neuron": 44337
+    },
+    {
+      "tick": 5987,
+      "neuron": 93880
+    },
+    {
+      "tick": 5992,
+      "neuron": 84634
+    },
+    {
+      "tick": 5995,
+      "neuron": 100853
+    },
+    {
+      "tick": 6001,
+      "neuron": 11916
+    },
+    {
+      "tick": 6003,
+      "neuron": 113421
+    },
+    {
+      "tick": 6005,
+      "neuron": 14231
+    },
+    {
+      "tick": 6006,
+      "neuron": 65153
+    },
+    {
+      "tick": 6007,
+      "neuron": 113421
+    },
+    {
+      "tick": 6009,
+      "neuron": 90982
+    },
+    {
+      "tick": 6022,
+      "neuron": 47685
+    },
+    {
+      "tick": 6031,
+      "neuron": 27293
+    },
+    {
+      "tick": 6033,
+      "neuron": 114820
+    },
+    {
+      "tick": 6035,
+      "neuron": 27680
+    },
+    {
+      "tick": 6038,
+      "neuron": 90982
+    },
+    {
+      "tick": 6048,
+      "neuron": 48902
+    },
+    {
+      "tick": 6051,
+      "neuron": 65153
+    },
+    {
+      "tick": 6056,
+      "neuron": 116889
+    },
+    {
+      "tick": 6062,
+      "neuron": 102632
+    },
+    {
+      "tick": 6066,
+      "neuron": 93880
+    },
+    {
+      "tick": 6075,
+      "neuron": 102632
+    },
+    {
+      "tick": 6076,
+      "neuron": 84634
+    },
+    {
+      "tick": 6083,
+      "neuron": 103321
+    },
+    {
+      "tick": 6089,
+      "neuron": 119716
+    },
+    {
+      "tick": 6100,
+      "neuron": 93880
+    },
+    {
+      "tick": 6103,
+      "neuron": 47685
+    },
+    {
+      "tick": 6106,
+      "neuron": 119716
+    },
+    {
+      "tick": 6108,
+      "neuron": 103321
+    },
+    {
+      "tick": 6121,
+      "neuron": 65153
+    },
+    {
+      "tick": 6139,
+      "neuron": 47685
+    },
+    {
+      "tick": 6141,
+      "neuron": 90982
+    },
+    {
+      "tick": 6142,
+      "neuron": 27293
+    },
+    {
+      "tick": 6142,
+      "neuron": 48902
+    },
+    {
+      "tick": 6149,
+      "neuron": 114820
+    },
+    {
+      "tick": 6153,
+      "neuron": 84634
+    },
+    {
+      "tick": 6154,
+      "neuron": 102632
+    },
+    {
+      "tick": 6169,
+      "neuron": 65153
+    },
+    {
+      "tick": 6171,
+      "neuron": 113421
+    },
+    {
+      "tick": 6172,
+      "neuron": 44337
+    },
+    {
+      "tick": 6176,
+      "neuron": 27680
+    },
+    {
+      "tick": 6177,
+      "neuron": 90982
+    },
+    {
+      "tick": 6185,
+      "neuron": 117163
+    },
+    {
+      "tick": 6186,
+      "neuron": 113421
+    },
+    {
+      "tick": 6189,
+      "neuron": 47685
+    },
+    {
+      "tick": 6196,
+      "neuron": 27293
+    },
+    {
+      "tick": 6199,
+      "neuron": 27680
+    },
+    {
+      "tick": 6199,
+      "neuron": 84634
+    },
+    {
+      "tick": 6208,
+      "neuron": 11916
+    },
+    {
+      "tick": 6213,
+      "neuron": 27293
+    },
+    {
+      "tick": 6214,
+      "neuron": 65153
+    },
+    {
+      "tick": 6215,
+      "neuron": 102632
+    },
+    {
+      "tick": 6216,
+      "neuron": 103321
+    },
+    {
+      "tick": 6225,
+      "neuron": 114820
+    },
+    {
+      "tick": 6229,
+      "neuron": 44337
+    },
+    {
+      "tick": 6231,
+      "neuron": 84634
+    },
+    {
+      "tick": 6236,
+      "neuron": 27293
+    },
+    {
+      "tick": 6239,
+      "neuron": 117163
+    },
+    {
+      "tick": 6244,
+      "neuron": 65153
+    },
+    {
+      "tick": 6244,
+      "neuron": 102632
+    },
+    {
+      "tick": 6245,
+      "neuron": 48902
+    },
+    {
+      "tick": 6248,
+      "neuron": 93880
+    },
+    {
+      "tick": 6251,
+      "neuron": 11916
+    },
+    {
+      "tick": 6270,
+      "neuron": 84634
+    },
+    {
+      "tick": 6276,
+      "neuron": 65153
+    },
+    {
+      "tick": 6280,
+      "neuron": 93880
+    },
+    {
+      "tick": 6284,
+      "neuron": 119716
+    },
+    {
+      "tick": 6286,
+      "neuron": 48902
+    },
+    {
+      "tick": 6290,
+      "neuron": 102632
+    },
+    {
+      "tick": 6300,
+      "neuron": 31392
+    },
+    {
+      "tick": 6303,
+      "neuron": 31392
+    },
+    {
+      "tick": 6309,
+      "neuron": 27680
+    },
+    {
+      "tick": 6313,
+      "neuron": 86214
+    },
+    {
+      "tick": 6324,
+      "neuron": 117163
+    },
+    {
+      "tick": 6328,
+      "neuron": 114820
+    },
+    {
+      "tick": 6328,
+      "neuron": 119716
+    },
+    {
+      "tick": 6334,
+      "neuron": 65153
+    },
+    {
+      "tick": 6335,
+      "neuron": 102632
+    },
+    {
+      "tick": 6336,
+      "neuron": 47685
+    },
+    {
+      "tick": 6338,
+      "neuron": 119716
+    },
+    {
+      "tick": 6339,
+      "neuron": 93880
+    },
+    {
+      "tick": 6344,
+      "neuron": 47685
+    },
+    {
+      "tick": 6346,
+      "neuron": 31392
+    },
+    {
+      "tick": 6348,
+      "neuron": 102632
+    },
+    {
+      "tick": 6351,
+      "neuron": 100853
+    },
+    {
+      "tick": 6359,
+      "neuron": 27293
+    },
+    {
+      "tick": 6360,
+      "neuron": 86214
+    },
+    {
+      "tick": 6366,
+      "neuron": 103321
+    },
+    {
+      "tick": 6367,
+      "neuron": 27680
+    },
+    {
+      "tick": 6369,
+      "neuron": 47685
+    },
+    {
+      "tick": 6377,
+      "neuron": 65153
+    },
+    {
+      "tick": 6377,
+      "neuron": 90982
+    },
+    {
+      "tick": 6386,
+      "neuron": 90982
+    },
+    {
+      "tick": 6389,
+      "neuron": 102632
+    },
+    {
+      "tick": 6390,
+      "neuron": 14231
+    },
+    {
+      "tick": 6393,
+      "neuron": 90982
+    },
+    {
+      "tick": 6399,
+      "neuron": 31392
+    },
+    {
+      "tick": 6401,
+      "neuron": 114820
+    },
+    {
+      "tick": 6404,
+      "neuron": 102632
+    },
+    {
+      "tick": 6411,
+      "neuron": 27293
+    },
+    {
+      "tick": 6415,
+      "neuron": 102632
+    },
+    {
+      "tick": 6421,
+      "neuron": 102632
+    },
+    {
+      "tick": 6426,
+      "neuron": 103321
+    },
+    {
+      "tick": 6430,
+      "neuron": 100853
+    },
+    {
+      "tick": 6435,
+      "neuron": 103321
+    },
+    {
+      "tick": 6445,
+      "neuron": 84634
+    },
+    {
+      "tick": 6445,
+      "neuron": 116889
+    },
+    {
+      "tick": 6447,
+      "neuron": 84634
+    },
+    {
+      "tick": 6449,
+      "neuron": 84634
+    },
+    {
+      "tick": 6462,
+      "neuron": 86214
+    },
+    {
+      "tick": 6467,
+      "neuron": 119716
+    },
+    {
+      "tick": 6468,
+      "neuron": 65153
+    },
+    {
+      "tick": 6468,
+      "neuron": 100853
+    },
+    {
+      "tick": 6468,
+      "neuron": 102632
+    },
+    {
+      "tick": 6470,
+      "neuron": 48902
+    },
+    {
+      "tick": 6478,
+      "neuron": 84634
+    },
+    {
+      "tick": 6478,
+      "neuron": 102632
+    },
+    {
+      "tick": 6481,
+      "neuron": 103321
+    },
+    {
+      "tick": 6495,
+      "neuron": 47685
+    },
+    {
+      "tick": 6498,
+      "neuron": 65153
+    },
+    {
+      "tick": 6501,
+      "neuron": 119716
+    },
+    {
+      "tick": 6504,
+      "neuron": 44337
+    },
+    {
+      "tick": 6505,
+      "neuron": 119716
+    },
+    {
+      "tick": 6515,
+      "neuron": 44337
+    },
+    {
+      "tick": 6520,
+      "neuron": 93880
+    },
+    {
+      "tick": 6528,
+      "neuron": 93880
+    },
+    {
+      "tick": 6537,
+      "neuron": 84634
+    },
+    {
+      "tick": 6543,
+      "neuron": 47685
+    },
+    {
+      "tick": 6543,
+      "neuron": 86214
+    },
+    {
+      "tick": 6547,
+      "neuron": 65153
+    },
+    {
+      "tick": 6561,
+      "neuron": 100853
+    },
+    {
+      "tick": 6561,
+      "neuron": 103321
+    },
+    {
+      "tick": 6563,
+      "neuron": 90982
+    },
+    {
+      "tick": 6567,
+      "neuron": 102632
+    },
+    {
+      "tick": 6585,
+      "neuron": 93880
+    },
+    {
+      "tick": 6590,
+      "neuron": 113421
+    },
+    {
+      "tick": 6591,
+      "neuron": 103321
+    },
+    {
+      "tick": 6597,
+      "neuron": 31392
+    },
+    {
+      "tick": 6602,
+      "neuron": 113421
+    },
+    {
+      "tick": 6604,
+      "neuron": 117163
+    },
+    {
+      "tick": 6610,
+      "neuron": 48902
+    },
+    {
+      "tick": 6612,
+      "neuron": 100853
+    },
+    {
+      "tick": 6621,
+      "neuron": 27680
+    },
+    {
+      "tick": 6621,
+      "neuron": 86214
+    },
+    {
+      "tick": 6623,
+      "neuron": 11916
+    },
+    {
+      "tick": 6631,
+      "neuron": 86214
+    },
+    {
+      "tick": 6633,
+      "neuron": 103321
+    },
+    {
+      "tick": 6640,
+      "neuron": 102632
+    },
+    {
+      "tick": 6646,
+      "neuron": 93880
+    },
+    {
+      "tick": 6656,
+      "neuron": 116889
+    },
+    {
+      "tick": 6659,
+      "neuron": 65153
+    },
+    {
+      "tick": 6659,
+      "neuron": 119716
+    },
+    {
+      "tick": 6661,
+      "neuron": 31392
+    },
+    {
+      "tick": 6665,
+      "neuron": 117163
+    },
+    {
+      "tick": 6666,
+      "neuron": 102632
+    },
+    {
+      "tick": 6683,
+      "neuron": 86214
+    },
+    {
+      "tick": 6685,
+      "neuron": 48902
+    },
+    {
+      "tick": 6685,
+      "neuron": 103321
+    },
+    {
+      "tick": 6685,
+      "neuron": 114820
+    },
+    {
+      "tick": 6686,
+      "neuron": 48902
+    },
+    {
+      "tick": 6687,
+      "neuron": 100853
+    },
+    {
+      "tick": 6699,
+      "neuron": 11916
+    },
+    {
+      "tick": 6699,
+      "neuron": 47685
+    },
+    {
+      "tick": 6703,
+      "neuron": 11916
+    },
+    {
+      "tick": 6703,
+      "neuron": 84634
+    },
+    {
+      "tick": 6708,
+      "neuron": 116889
+    },
+    {
+      "tick": 6718,
+      "neuron": 65153
+    },
+    {
+      "tick": 6721,
+      "neuron": 100853
+    },
+    {
+      "tick": 6725,
+      "neuron": 116889
+    },
+    {
+      "tick": 6727,
+      "neuron": 116889
+    },
+    {
+      "tick": 6728,
+      "neuron": 102632
+    },
+    {
+      "tick": 6730,
+      "neuron": 119716
+    },
+    {
+      "tick": 6733,
+      "neuron": 116889
+    },
+    {
+      "tick": 6745,
+      "neuron": 11916
+    },
+    {
+      "tick": 6747,
+      "neuron": 11916
+    },
+    {
+      "tick": 6748,
+      "neuron": 31392
+    },
+    {
+      "tick": 6753,
+      "neuron": 44337
+    },
+    {
+      "tick": 6756,
+      "neuron": 48902
+    },
+    {
+      "tick": 6761,
+      "neuron": 93880
+    },
+    {
+      "tick": 6768,
+      "neuron": 100853
+    },
+    {
+      "tick": 6775,
+      "neuron": 27293
+    },
+    {
+      "tick": 6783,
+      "neuron": 86214
+    },
+    {
+      "tick": 6793,
+      "neuron": 116889
+    },
+    {
+      "tick": 6797,
+      "neuron": 14231
+    },
+    {
+      "tick": 6802,
+      "neuron": 44337
+    },
+    {
+      "tick": 6804,
+      "neuron": 90982
+    },
+    {
+      "tick": 6813,
+      "neuron": 27680
+    },
+    {
+      "tick": 6816,
+      "neuron": 48902
+    },
+    {
+      "tick": 6821,
+      "neuron": 103321
+    },
+    {
+      "tick": 6821,
+      "neuron": 116889
+    },
+    {
+      "tick": 6827,
+      "neuron": 11916
+    },
+    {
+      "tick": 6836,
+      "neuron": 113421
+    },
+    {
+      "tick": 6847,
+      "neuron": 27293
+    },
+    {
+      "tick": 6854,
+      "neuron": 100853
+    },
+    {
+      "tick": 6857,
+      "neuron": 14231
+    },
+    {
+      "tick": 6861,
+      "neuron": 93880
+    },
+    {
+      "tick": 6871,
+      "neuron": 11916
+    },
+    {
+      "tick": 6872,
+      "neuron": 27680
+    },
+    {
+      "tick": 6885,
+      "neuron": 11916
+    },
+    {
+      "tick": 6889,
+      "neuron": 65153
+    },
+    {
+      "tick": 6892,
+      "neuron": 116889
+    },
+    {
+      "tick": 6904,
+      "neuron": 27293
+    },
+    {
+      "tick": 6905,
+      "neuron": 14231
+    },
+    {
+      "tick": 6910,
+      "neuron": 27680
+    },
+    {
+      "tick": 6911,
+      "neuron": 93880
+    },
+    {
+      "tick": 6930,
+      "neuron": 113421
+    },
+    {
+      "tick": 6935,
+      "neuron": 14231
+    },
+    {
+      "tick": 6939,
+      "neuron": 84634
+    },
+    {
+      "tick": 6939,
+      "neuron": 114820
+    },
+    {
+      "tick": 6942,
+      "neuron": 14231
+    },
+    {
+      "tick": 6948,
+      "neuron": 11916
+    },
+    {
+      "tick": 6966,
+      "neuron": 117163
+    },
+    {
+      "tick": 6967,
+      "neuron": 14231
+    },
+    {
+      "tick": 6972,
+      "neuron": 116889
+    },
+    {
+      "tick": 6975,
+      "neuron": 100853
+    },
+    {
+      "tick": 6983,
+      "neuron": 103321
+    },
+    {
+      "tick": 6992,
+      "neuron": 119716
+    },
+    {
+      "tick": 6993,
+      "neuron": 27293
+    },
+    {
+      "tick": 6994,
+      "neuron": 119716
+    },
+    {
+      "tick": 7000,
+      "neuron": 100853
+    },
+    {
+      "tick": 7008,
+      "neuron": 113421
+    },
+    {
+      "tick": 7010,
+      "neuron": 117163
+    },
+    {
+      "tick": 7023,
+      "neuron": 65153
+    },
+    {
+      "tick": 7026,
+      "neuron": 44337
+    },
+    {
+      "tick": 7034,
+      "neuron": 102632
+    },
+    {
+      "tick": 7047,
+      "neuron": 119716
+    },
+    {
+      "tick": 7053,
+      "neuron": 44337
+    },
+    {
+      "tick": 7056,
+      "neuron": 65153
+    },
+    {
+      "tick": 7056,
+      "neuron": 114820
+    },
+    {
+      "tick": 7064,
+      "neuron": 119716
+    },
+    {
+      "tick": 7067,
+      "neuron": 114820
+    },
+    {
+      "tick": 7067,
+      "neuron": 119716
+    },
+    {
+      "tick": 7073,
+      "neuron": 116889
+    },
+    {
+      "tick": 7078,
+      "neuron": 27293
+    },
+    {
+      "tick": 7090,
+      "neuron": 86214
+    },
+    {
+      "tick": 7101,
+      "neuron": 119716
+    },
+    {
+      "tick": 7106,
+      "neuron": 116889
+    },
+    {
+      "tick": 7112,
+      "neuron": 48902
+    },
+    {
+      "tick": 7114,
+      "neuron": 48902
+    },
+    {
+      "tick": 7123,
+      "neuron": 90982
+    },
+    {
+      "tick": 7123,
+      "neuron": 100853
+    },
+    {
+      "tick": 7131,
+      "neuron": 102632
+    },
+    {
+      "tick": 7143,
+      "neuron": 100853
+    },
+    {
+      "tick": 7153,
+      "neuron": 31392
+    },
+    {
+      "tick": 7167,
+      "neuron": 65153
+    },
+    {
+      "tick": 7168,
+      "neuron": 116889
+    },
+    {
+      "tick": 7170,
+      "neuron": 116889
+    },
+    {
+      "tick": 7175,
+      "neuron": 102632
+    },
+    {
+      "tick": 7179,
+      "neuron": 102632
+    },
+    {
+      "tick": 7179,
+      "neuron": 117163
+    },
+    {
+      "tick": 7192,
+      "neuron": 117163
+    },
+    {
+      "tick": 7194,
+      "neuron": 27293
+    },
+    {
+      "tick": 7194,
+      "neuron": 47685
+    },
+    {
+      "tick": 7206,
+      "neuron": 27293
+    },
+    {
+      "tick": 7207,
+      "neuron": 27680
+    },
+    {
+      "tick": 7220,
+      "neuron": 93880
+    },
+    {
+      "tick": 7223,
+      "neuron": 93880
+    },
+    {
+      "tick": 7240,
+      "neuron": 103321
+    },
+    {
+      "tick": 7241,
+      "neuron": 93880
+    },
+    {
+      "tick": 7241,
+      "neuron": 114820
+    },
+    {
+      "tick": 7246,
+      "neuron": 100853
+    },
+    {
+      "tick": 7248,
+      "neuron": 117163
+    },
+    {
+      "tick": 7254,
+      "neuron": 117163
+    },
+    {
+      "tick": 7260,
+      "neuron": 14231
+    },
+    {
+      "tick": 7265,
+      "neuron": 86214
+    },
+    {
+      "tick": 7267,
+      "neuron": 100853
+    },
+    {
+      "tick": 7271,
+      "neuron": 103321
+    },
+    {
+      "tick": 7275,
+      "neuron": 31392
+    },
+    {
+      "tick": 7278,
+      "neuron": 48902
+    },
+    {
+      "tick": 7282,
+      "neuron": 84634
+    },
+    {
+      "tick": 7286,
+      "neuron": 119716
+    },
+    {
+      "tick": 7288,
+      "neuron": 114820
+    },
+    {
+      "tick": 7292,
+      "neuron": 44337
+    },
+    {
+      "tick": 7296,
+      "neuron": 84634
+    },
+    {
+      "tick": 7302,
+      "neuron": 48902
+    },
+    {
+      "tick": 7303,
+      "neuron": 65153
+    },
+    {
+      "tick": 7322,
+      "neuron": 27293
+    },
+    {
+      "tick": 7338,
+      "neuron": 103321
+    },
+    {
+      "tick": 7344,
+      "neuron": 27680
+    },
+    {
+      "tick": 7346,
+      "neuron": 27293
+    },
+    {
+      "tick": 7347,
+      "neuron": 100853
+    },
+    {
+      "tick": 7351,
+      "neuron": 14231
+    },
+    {
+      "tick": 7374,
+      "neuron": 116889
+    },
+    {
+      "tick": 7375,
+      "neuron": 114820
+    },
+    {
+      "tick": 7379,
+      "neuron": 27680
+    },
+    {
+      "tick": 7381,
+      "neuron": 90982
+    },
+    {
+      "tick": 7387,
+      "neuron": 14231
+    },
+    {
+      "tick": 7387,
+      "neuron": 90982
+    },
+    {
+      "tick": 7393,
+      "neuron": 119716
+    },
+    {
+      "tick": 7400,
+      "neuron": 27680
+    },
+    {
+      "tick": 7404,
+      "neuron": 48902
+    },
+    {
+      "tick": 7405,
+      "neuron": 90982
+    },
+    {
+      "tick": 7406,
+      "neuron": 47685
+    },
+    {
+      "tick": 7410,
+      "neuron": 14231
+    },
+    {
+      "tick": 7412,
+      "neuron": 117163
+    },
+    {
+      "tick": 7413,
+      "neuron": 119716
+    },
+    {
+      "tick": 7414,
+      "neuron": 116889
+    },
+    {
+      "tick": 7425,
+      "neuron": 119716
+    },
+    {
+      "tick": 7432,
+      "neuron": 27293
+    },
+    {
+      "tick": 7434,
+      "neuron": 84634
+    },
+    {
+      "tick": 7439,
+      "neuron": 27293
+    },
+    {
+      "tick": 7454,
+      "neuron": 44337
+    },
+    {
+      "tick": 7457,
+      "neuron": 93880
+    },
+    {
+      "tick": 7458,
+      "neuron": 113421
+    },
+    {
+      "tick": 7459,
+      "neuron": 44337
+    },
+    {
+      "tick": 7460,
+      "neuron": 48902
+    },
+    {
+      "tick": 7463,
+      "neuron": 65153
+    },
+    {
+      "tick": 7463,
+      "neuron": 119716
+    },
+    {
+      "tick": 7466,
+      "neuron": 90982
+    },
+    {
+      "tick": 7471,
+      "neuron": 27293
+    },
+    {
+      "tick": 7474,
+      "neuron": 84634
+    },
+    {
+      "tick": 7475,
+      "neuron": 100853
+    },
+    {
+      "tick": 7481,
+      "neuron": 86214
+    },
+    {
+      "tick": 7483,
+      "neuron": 84634
+    },
+    {
+      "tick": 7488,
+      "neuron": 103321
+    },
+    {
+      "tick": 7491,
+      "neuron": 11916
+    },
+    {
+      "tick": 7492,
+      "neuron": 14231
+    },
+    {
+      "tick": 7493,
+      "neuron": 11916
+    },
+    {
+      "tick": 7497,
+      "neuron": 65153
+    },
+    {
+      "tick": 7497,
+      "neuron": 117163
+    },
+    {
+      "tick": 7513,
+      "neuron": 93880
+    },
+    {
+      "tick": 7516,
+      "neuron": 93880
+    },
+    {
+      "tick": 7523,
+      "neuron": 84634
+    },
+    {
+      "tick": 7528,
+      "neuron": 47685
+    },
+    {
+      "tick": 7529,
+      "neuron": 100853
+    },
+    {
+      "tick": 7539,
+      "neuron": 86214
+    },
+    {
+      "tick": 7540,
+      "neuron": 27293
+    },
+    {
+      "tick": 7549,
+      "neuron": 93880
+    },
+    {
+      "tick": 7559,
+      "neuron": 65153
+    },
+    {
+      "tick": 7568,
+      "neuron": 27293
+    },
+    {
+      "tick": 7568,
+      "neuron": 119716
+    },
+    {
+      "tick": 7569,
+      "neuron": 93880
+    },
+    {
+      "tick": 7570,
+      "neuron": 27293
+    },
+    {
+      "tick": 7571,
+      "neuron": 27680
+    },
+    {
+      "tick": 7572,
+      "neuron": 102632
+    },
+    {
+      "tick": 7577,
+      "neuron": 102632
+    },
+    {
+      "tick": 7582,
+      "neuron": 117163
+    },
+    {
+      "tick": 7586,
+      "neuron": 47685
+    },
+    {
+      "tick": 7586,
+      "neuron": 102632
+    },
+    {
+      "tick": 7588,
+      "neuron": 44337
+    },
+    {
+      "tick": 7595,
+      "neuron": 14231
+    },
+    {
+      "tick": 7596,
+      "neuron": 119716
+    },
+    {
+      "tick": 7600,
+      "neuron": 102632
+    },
+    {
+      "tick": 7615,
+      "neuron": 102632
+    },
+    {
+      "tick": 7616,
+      "neuron": 65153
+    },
+    {
+      "tick": 7620,
+      "neuron": 114820
+    },
+    {
+      "tick": 7621,
+      "neuron": 102632
+    },
+    {
+      "tick": 7623,
+      "neuron": 31392
+    },
+    {
+      "tick": 7667,
+      "neuron": 65153
+    },
+    {
+      "tick": 7667,
+      "neuron": 117163
+    },
+    {
+      "tick": 7670,
+      "neuron": 31392
+    },
+    {
+      "tick": 7671,
+      "neuron": 31392
+    },
+    {
+      "tick": 7675,
+      "neuron": 90982
+    },
+    {
+      "tick": 7678,
+      "neuron": 86214
+    },
+    {
+      "tick": 7696,
+      "neuron": 90982
+    },
+    {
+      "tick": 7709,
+      "neuron": 114820
+    },
+    {
+      "tick": 7711,
+      "neuron": 114820
+    },
+    {
+      "tick": 7712,
+      "neuron": 113421
+    },
+    {
+      "tick": 7716,
+      "neuron": 65153
+    },
+    {
+      "tick": 7718,
+      "neuron": 119716
+    },
+    {
+      "tick": 7720,
+      "neuron": 44337
+    },
+    {
+      "tick": 7722,
+      "neuron": 86214
+    },
+    {
+      "tick": 7726,
+      "neuron": 27680
+    },
+    {
+      "tick": 7741,
+      "neuron": 48902
+    },
+    {
+      "tick": 7747,
+      "neuron": 47685
+    },
+    {
+      "tick": 7752,
+      "neuron": 44337
+    },
+    {
+      "tick": 7754,
+      "neuron": 84634
+    },
+    {
+      "tick": 7758,
+      "neuron": 117163
+    },
+    {
+      "tick": 7767,
+      "neuron": 100853
+    },
+    {
+      "tick": 7768,
+      "neuron": 90982
+    },
+    {
+      "tick": 7774,
+      "neuron": 11916
+    },
+    {
+      "tick": 7788,
+      "neuron": 44337
+    },
+    {
+      "tick": 7788,
+      "neuron": 102632
+    },
+    {
+      "tick": 7788,
+      "neuron": 117163
+    },
+    {
+      "tick": 7789,
+      "neuron": 44337
+    },
+    {
+      "tick": 7794,
+      "neuron": 14231
+    },
+    {
+      "tick": 7809,
+      "neuron": 48902
+    },
+    {
+      "tick": 7809,
+      "neuron": 86214
+    },
+    {
+      "tick": 7813,
+      "neuron": 27293
+    },
+    {
+      "tick": 7819,
+      "neuron": 93880
+    },
+    {
+      "tick": 7823,
+      "neuron": 31392
+    },
+    {
+      "tick": 7823,
+      "neuron": 102632
+    },
+    {
+      "tick": 7824,
+      "neuron": 103321
+    },
+    {
+      "tick": 7824,
+      "neuron": 116889
+    },
+    {
+      "tick": 7830,
+      "neuron": 44337
+    },
+    {
+      "tick": 7833,
+      "neuron": 27680
+    },
+    {
+      "tick": 7834,
+      "neuron": 117163
+    },
+    {
+      "tick": 7850,
+      "neuron": 93880
+    },
+    {
+      "tick": 7850,
+      "neuron": 103321
+    },
+    {
+      "tick": 7852,
+      "neuron": 84634
+    },
+    {
+      "tick": 7854,
+      "neuron": 114820
+    },
+    {
+      "tick": 7856,
+      "neuron": 48902
+    },
+    {
+      "tick": 7863,
+      "neuron": 113421
+    },
+    {
+      "tick": 7865,
+      "neuron": 117163
+    },
+    {
+      "tick": 7871,
+      "neuron": 117163
+    },
+    {
+      "tick": 7872,
+      "neuron": 93880
+    },
+    {
+      "tick": 7873,
+      "neuron": 114820
+    },
+    {
+      "tick": 7877,
+      "neuron": 65153
+    },
+    {
+      "tick": 7881,
+      "neuron": 27293
+    },
+    {
+      "tick": 7881,
+      "neuron": 27680
+    },
+    {
+      "tick": 7881,
+      "neuron": 114820
+    },
+    {
+      "tick": 7882,
+      "neuron": 100853
+    },
+    {
+      "tick": 7902,
+      "neuron": 14231
+    },
+    {
+      "tick": 7914,
+      "neuron": 44337
+    },
+    {
+      "tick": 7914,
+      "neuron": 93880
+    },
+    {
+      "tick": 7915,
+      "neuron": 48902
+    },
+    {
+      "tick": 7923,
+      "neuron": 27680
+    },
+    {
+      "tick": 7923,
+      "neuron": 48902
+    },
+    {
+      "tick": 7926,
+      "neuron": 90982
+    },
+    {
+      "tick": 7929,
+      "neuron": 113421
+    },
+    {
+      "tick": 7932,
+      "neuron": 113421
+    },
+    {
+      "tick": 7940,
+      "neuron": 102632
+    },
+    {
+      "tick": 7943,
+      "neuron": 11916
+    },
+    {
+      "tick": 7944,
+      "neuron": 65153
+    },
+    {
+      "tick": 7959,
+      "neuron": 114820
+    },
+    {
+      "tick": 7963,
+      "neuron": 93880
+    },
+    {
+      "tick": 7968,
+      "neuron": 93880
+    },
+    {
+      "tick": 7968,
+      "neuron": 114820
+    },
+    {
+      "tick": 7983,
+      "neuron": 102632
+    },
+    {
+      "tick": 7984,
+      "neuron": 11916
+    },
+    {
+      "tick": 7984,
+      "neuron": 86214
+    },
+    {
+      "tick": 7992,
+      "neuron": 119716
+    },
+    {
+      "tick": 7999,
+      "neuron": 114820
+    },
+    {
+      "tick": 8008,
+      "neuron": 117163
+    },
+    {
+      "tick": 8011,
+      "neuron": 31392
+    },
+    {
+      "tick": 8014,
+      "neuron": 48902
+    },
+    {
+      "tick": 8022,
+      "neuron": 103321
+    },
+    {
+      "tick": 8023,
+      "neuron": 114820
+    },
+    {
+      "tick": 8023,
+      "neuron": 117163
+    },
+    {
+      "tick": 8027,
+      "neuron": 31392
+    },
+    {
+      "tick": 8028,
+      "neuron": 84634
+    },
+    {
+      "tick": 8032,
+      "neuron": 27680
+    },
+    {
+      "tick": 8034,
+      "neuron": 44337
+    },
+    {
+      "tick": 8036,
+      "neuron": 27293
+    },
+    {
+      "tick": 8037,
+      "neuron": 103321
+    },
+    {
+      "tick": 8043,
+      "neuron": 27293
+    },
+    {
+      "tick": 8046,
+      "neuron": 44337
+    },
+    {
+      "tick": 8058,
+      "neuron": 113421
+    },
+    {
+      "tick": 8059,
+      "neuron": 114820
+    },
+    {
+      "tick": 8062,
+      "neuron": 27680
+    },
+    {
+      "tick": 8071,
+      "neuron": 117163
+    },
+    {
+      "tick": 8074,
+      "neuron": 31392
+    },
+    {
+      "tick": 8083,
+      "neuron": 86214
+    },
+    {
+      "tick": 8104,
+      "neuron": 31392
+    },
+    {
+      "tick": 8107,
+      "neuron": 11916
+    },
+    {
+      "tick": 8111,
+      "neuron": 14231
+    },
+    {
+      "tick": 8116,
+      "neuron": 93880
+    },
+    {
+      "tick": 8119,
+      "neuron": 103321
+    },
+    {
+      "tick": 8123,
+      "neuron": 100853
+    },
+    {
+      "tick": 8143,
+      "neuron": 31392
+    },
+    {
+      "tick": 8151,
+      "neuron": 27293
+    },
+    {
+      "tick": 8153,
+      "neuron": 116889
+    },
+    {
+      "tick": 8159,
+      "neuron": 31392
+    },
+    {
+      "tick": 8162,
+      "neuron": 102632
+    },
+    {
+      "tick": 8164,
+      "neuron": 48902
+    },
+    {
+      "tick": 8164,
+      "neuron": 93880
+    },
+    {
+      "tick": 8168,
+      "neuron": 103321
+    },
+    {
+      "tick": 8172,
+      "neuron": 86214
+    },
+    {
+      "tick": 8172,
+      "neuron": 102632
+    },
+    {
+      "tick": 8176,
+      "neuron": 100853
+    },
+    {
+      "tick": 8184,
+      "neuron": 65153
+    },
+    {
+      "tick": 8185,
+      "neuron": 117163
+    },
+    {
+      "tick": 8186,
+      "neuron": 11916
+    },
+    {
+      "tick": 8188,
+      "neuron": 100853
+    },
+    {
+      "tick": 8189,
+      "neuron": 14231
+    },
+    {
+      "tick": 8190,
+      "neuron": 65153
+    },
+    {
+      "tick": 8195,
+      "neuron": 93880
+    },
+    {
+      "tick": 8207,
+      "neuron": 84634
+    },
+    {
+      "tick": 8207,
+      "neuron": 103321
+    },
+    {
+      "tick": 8214,
+      "neuron": 48902
+    },
+    {
+      "tick": 8221,
+      "neuron": 44337
+    },
+    {
+      "tick": 8231,
+      "neuron": 14231
+    },
+    {
+      "tick": 8233,
+      "neuron": 103321
+    },
+    {
+      "tick": 8244,
+      "neuron": 11916
+    },
+    {
+      "tick": 8279,
+      "neuron": 48902
+    },
+    {
+      "tick": 8291,
+      "neuron": 27293
+    },
+    {
+      "tick": 8295,
+      "neuron": 86214
+    },
+    {
+      "tick": 8298,
+      "neuron": 86214
+    },
+    {
+      "tick": 8301,
+      "neuron": 11916
+    },
+    {
+      "tick": 8303,
+      "neuron": 119716
+    },
+    {
+      "tick": 8306,
+      "neuron": 11916
+    },
+    {
+      "tick": 8318,
+      "neuron": 103321
+    },
+    {
+      "tick": 8321,
+      "neuron": 114820
+    },
+    {
+      "tick": 8330,
+      "neuron": 65153
+    },
+    {
+      "tick": 8332,
+      "neuron": 103321
+    },
+    {
+      "tick": 8335,
+      "neuron": 14231
+    },
+    {
+      "tick": 8341,
+      "neuron": 11916
+    },
+    {
+      "tick": 8351,
+      "neuron": 113421
+    },
+    {
+      "tick": 8358,
+      "neuron": 116889
+    },
+    {
+      "tick": 8362,
+      "neuron": 119716
+    },
+    {
+      "tick": 8370,
+      "neuron": 113421
+    },
+    {
+      "tick": 8371,
+      "neuron": 47685
+    },
+    {
+      "tick": 8378,
+      "neuron": 90982
+    },
+    {
+      "tick": 8381,
+      "neuron": 11916
+    },
+    {
+      "tick": 8384,
+      "neuron": 119716
+    },
+    {
+      "tick": 8396,
+      "neuron": 117163
+    },
+    {
+      "tick": 8405,
+      "neuron": 113421
+    },
+    {
+      "tick": 8411,
+      "neuron": 27680
+    },
+    {
+      "tick": 8414,
+      "neuron": 86214
+    },
+    {
+      "tick": 8418,
+      "neuron": 47685
+    },
+    {
+      "tick": 8421,
+      "neuron": 113421
+    },
+    {
+      "tick": 8422,
+      "neuron": 47685
+    },
+    {
+      "tick": 8428,
+      "neuron": 114820
+    },
+    {
+      "tick": 8431,
+      "neuron": 84634
+    },
+    {
+      "tick": 8445,
+      "neuron": 116889
+    },
+    {
+      "tick": 8450,
+      "neuron": 27293
+    },
+    {
+      "tick": 8458,
+      "neuron": 113421
+    },
+    {
+      "tick": 8463,
+      "neuron": 119716
+    },
+    {
+      "tick": 8473,
+      "neuron": 93880
+    },
+    {
+      "tick": 8481,
+      "neuron": 27293
+    },
+    {
+      "tick": 8485,
+      "neuron": 103321
+    },
+    {
+      "tick": 8494,
+      "neuron": 11916
+    },
+    {
+      "tick": 8497,
+      "neuron": 27680
+    },
+    {
+      "tick": 8498,
+      "neuron": 44337
+    },
+    {
+      "tick": 8499,
+      "neuron": 27293
+    },
+    {
+      "tick": 8501,
+      "neuron": 102632
+    },
+    {
+      "tick": 8511,
+      "neuron": 11916
+    },
+    {
+      "tick": 8520,
+      "neuron": 48902
+    },
+    {
+      "tick": 8521,
+      "neuron": 114820
+    },
+    {
+      "tick": 8522,
+      "neuron": 117163
+    },
+    {
+      "tick": 8540,
+      "neuron": 103321
+    },
+    {
+      "tick": 8542,
+      "neuron": 116889
+    },
+    {
+      "tick": 8553,
+      "neuron": 119716
+    },
+    {
+      "tick": 8555,
+      "neuron": 86214
+    },
+    {
+      "tick": 8560,
+      "neuron": 27680
+    },
+    {
+      "tick": 8560,
+      "neuron": 47685
+    },
+    {
+      "tick": 8560,
+      "neuron": 113421
+    },
+    {
+      "tick": 8561,
+      "neuron": 27680
+    },
+    {
+      "tick": 8565,
+      "neuron": 31392
+    },
+    {
+      "tick": 8567,
+      "neuron": 27680
+    },
+    {
+      "tick": 8575,
+      "neuron": 102632
+    },
+    {
+      "tick": 8582,
+      "neuron": 11916
+    },
+    {
+      "tick": 8582,
+      "neuron": 27680
+    },
+    {
+      "tick": 8604,
+      "neuron": 48902
+    },
+    {
+      "tick": 8605,
+      "neuron": 84634
+    },
+    {
+      "tick": 8618,
+      "neuron": 47685
+    },
+    {
+      "tick": 8618,
+      "neuron": 103321
+    },
+    {
+      "tick": 8618,
+      "neuron": 119716
+    },
+    {
+      "tick": 8634,
+      "neuron": 117163
+    },
+    {
+      "tick": 8638,
+      "neuron": 90982
+    },
+    {
+      "tick": 8644,
+      "neuron": 103321
+    },
+    {
+      "tick": 8656,
+      "neuron": 90982
+    },
+    {
+      "tick": 8665,
+      "neuron": 84634
+    },
+    {
+      "tick": 8665,
+      "neuron": 119716
+    },
+    {
+      "tick": 8672,
+      "neuron": 31392
+    },
+    {
+      "tick": 8678,
+      "neuron": 14231
+    },
+    {
+      "tick": 8692,
+      "neuron": 47685
+    },
+    {
+      "tick": 8695,
+      "neuron": 113421
+    },
+    {
+      "tick": 8700,
+      "neuron": 90982
+    },
+    {
+      "tick": 8704,
+      "neuron": 48902
+    },
+    {
+      "tick": 8704,
+      "neuron": 119716
+    },
+    {
+      "tick": 8707,
+      "neuron": 65153
+    },
+    {
+      "tick": 8718,
+      "neuron": 102632
+    },
+    {
+      "tick": 8720,
+      "neuron": 84634
+    },
+    {
+      "tick": 8725,
+      "neuron": 102632
+    },
+    {
+      "tick": 8726,
+      "neuron": 102632
+    },
+    {
+      "tick": 8733,
+      "neuron": 113421
+    },
+    {
+      "tick": 8756,
+      "neuron": 65153
+    },
+    {
+      "tick": 8765,
+      "neuron": 102632
+    },
+    {
+      "tick": 8774,
+      "neuron": 119716
+    },
+    {
+      "tick": 8775,
+      "neuron": 65153
+    },
+    {
+      "tick": 8779,
+      "neuron": 27293
+    },
+    {
+      "tick": 8787,
+      "neuron": 90982
+    },
+    {
+      "tick": 8790,
+      "neuron": 90982
+    },
+    {
+      "tick": 8797,
+      "neuron": 31392
+    },
+    {
+      "tick": 8799,
+      "neuron": 14231
+    },
+    {
+      "tick": 8800,
+      "neuron": 119716
+    },
+    {
+      "tick": 8813,
+      "neuron": 113421
+    },
+    {
+      "tick": 8814,
+      "neuron": 102632
+    },
+    {
+      "tick": 8825,
+      "neuron": 117163
+    },
+    {
+      "tick": 8827,
+      "neuron": 48902
+    },
+    {
+      "tick": 8831,
+      "neuron": 47685
+    },
+    {
+      "tick": 8837,
+      "neuron": 31392
+    },
+    {
+      "tick": 8841,
+      "neuron": 27293
+    },
+    {
+      "tick": 8843,
+      "neuron": 11916
+    },
+    {
+      "tick": 8843,
+      "neuron": 48902
+    },
+    {
+      "tick": 8848,
+      "neuron": 119716
+    },
+    {
+      "tick": 8851,
+      "neuron": 27680
+    },
+    {
+      "tick": 8855,
+      "neuron": 11916
+    },
+    {
+      "tick": 8863,
+      "neuron": 14231
+    },
+    {
+      "tick": 8863,
+      "neuron": 117163
+    },
+    {
+      "tick": 8868,
+      "neuron": 14231
+    },
+    {
+      "tick": 8874,
+      "neuron": 65153
+    },
+    {
+      "tick": 8875,
+      "neuron": 113421
+    },
+    {
+      "tick": 8877,
+      "neuron": 86214
+    },
+    {
+      "tick": 8883,
+      "neuron": 27293
+    },
+    {
+      "tick": 8886,
+      "neuron": 44337
+    },
+    {
+      "tick": 8889,
+      "neuron": 27680
+    },
+    {
+      "tick": 8892,
+      "neuron": 47685
+    },
+    {
+      "tick": 8894,
+      "neuron": 31392
+    },
+    {
+      "tick": 8898,
+      "neuron": 102632
+    },
+    {
+      "tick": 8903,
+      "neuron": 27293
+    },
+    {
+      "tick": 8911,
+      "neuron": 27680
+    },
+    {
+      "tick": 8917,
+      "neuron": 93880
+    },
+    {
+      "tick": 8929,
+      "neuron": 119716
+    },
+    {
+      "tick": 8930,
+      "neuron": 116889
+    },
+    {
+      "tick": 8935,
+      "neuron": 100853
+    },
+    {
+      "tick": 8939,
+      "neuron": 65153
+    },
+    {
+      "tick": 8939,
+      "neuron": 84634
+    },
+    {
+      "tick": 8947,
+      "neuron": 65153
+    },
+    {
+      "tick": 8959,
+      "neuron": 100853
+    },
+    {
+      "tick": 8965,
+      "neuron": 93880
+    },
+    {
+      "tick": 8972,
+      "neuron": 103321
+    },
+    {
+      "tick": 8975,
+      "neuron": 86214
+    },
+    {
+      "tick": 8988,
+      "neuron": 103321
+    },
+    {
+      "tick": 8990,
+      "neuron": 119716
+    },
+    {
+      "tick": 8994,
+      "neuron": 90982
+    },
+    {
+      "tick": 8998,
+      "neuron": 117163
+    },
+    {
+      "tick": 8999,
+      "neuron": 84634
+    },
+    {
+      "tick": 9007,
+      "neuron": 65153
+    },
+    {
+      "tick": 9010,
+      "neuron": 93880
+    },
+    {
+      "tick": 9010,
+      "neuron": 114820
+    },
+    {
+      "tick": 9011,
+      "neuron": 113421
+    },
+    {
+      "tick": 9012,
+      "neuron": 65153
+    },
+    {
+      "tick": 9012,
+      "neuron": 103321
+    },
+    {
+      "tick": 9012,
+      "neuron": 117163
+    },
+    {
+      "tick": 9013,
+      "neuron": 90982
+    },
+    {
+      "tick": 9014,
+      "neuron": 103321
+    },
+    {
+      "tick": 9015,
+      "neuron": 27680
+    },
+    {
+      "tick": 9020,
+      "neuron": 103321
+    },
+    {
+      "tick": 9022,
+      "neuron": 93880
+    },
+    {
+      "tick": 9024,
+      "neuron": 11916
+    },
+    {
+      "tick": 9030,
+      "neuron": 90982
+    },
+    {
+      "tick": 9043,
+      "neuron": 27680
+    },
+    {
+      "tick": 9043,
+      "neuron": 117163
+    },
+    {
+      "tick": 9050,
+      "neuron": 48902
+    },
+    {
+      "tick": 9052,
+      "neuron": 84634
+    },
+    {
+      "tick": 9074,
+      "neuron": 93880
+    },
+    {
+      "tick": 9079,
+      "neuron": 90982
+    },
+    {
+      "tick": 9080,
+      "neuron": 27293
+    },
+    {
+      "tick": 9090,
+      "neuron": 48902
+    },
+    {
+      "tick": 9097,
+      "neuron": 117163
+    },
+    {
+      "tick": 9102,
+      "neuron": 93880
+    },
+    {
+      "tick": 9103,
+      "neuron": 14231
+    },
+    {
+      "tick": 9106,
+      "neuron": 44337
+    },
+    {
+      "tick": 9110,
+      "neuron": 114820
+    },
+    {
+      "tick": 9117,
+      "neuron": 93880
+    },
+    {
+      "tick": 9117,
+      "neuron": 114820
+    },
+    {
+      "tick": 9146,
+      "neuron": 48902
+    },
+    {
+      "tick": 9147,
+      "neuron": 84634
+    },
+    {
+      "tick": 9149,
+      "neuron": 93880
+    },
+    {
+      "tick": 9155,
+      "neuron": 119716
+    },
+    {
+      "tick": 9168,
+      "neuron": 47685
+    },
+    {
+      "tick": 9171,
+      "neuron": 100853
+    },
+    {
+      "tick": 9177,
+      "neuron": 65153
+    },
+    {
+      "tick": 9186,
+      "neuron": 116889
+    },
+    {
+      "tick": 9188,
+      "neuron": 44337
+    },
+    {
+      "tick": 9209,
+      "neuron": 31392
+    },
+    {
+      "tick": 9210,
+      "neuron": 14231
+    },
+    {
+      "tick": 9214,
+      "neuron": 65153
+    },
+    {
+      "tick": 9218,
+      "neuron": 48902
+    },
+    {
+      "tick": 9221,
+      "neuron": 84634
+    },
+    {
+      "tick": 9225,
+      "neuron": 113421
+    },
+    {
+      "tick": 9227,
+      "neuron": 27680
+    },
+    {
+      "tick": 9228,
+      "neuron": 103321
+    },
+    {
+      "tick": 9230,
+      "neuron": 103321
+    },
+    {
+      "tick": 9233,
+      "neuron": 100853
+    },
+    {
+      "tick": 9241,
+      "neuron": 117163
+    },
+    {
+      "tick": 9253,
+      "neuron": 14231
+    },
+    {
+      "tick": 9260,
+      "neuron": 11916
+    },
+    {
+      "tick": 9265,
+      "neuron": 117163
+    },
+    {
+      "tick": 9267,
+      "neuron": 11916
+    },
+    {
+      "tick": 9274,
+      "neuron": 100853
+    },
+    {
+      "tick": 9276,
+      "neuron": 27680
+    },
+    {
+      "tick": 9280,
+      "neuron": 11916
+    },
+    {
+      "tick": 9286,
+      "neuron": 90982
+    },
+    {
+      "tick": 9294,
+      "neuron": 103321
+    },
+    {
+      "tick": 9297,
+      "neuron": 90982
+    },
+    {
+      "tick": 9305,
+      "neuron": 27680
+    },
+    {
+      "tick": 9313,
+      "neuron": 27680
+    },
+    {
+      "tick": 9314,
+      "neuron": 84634
+    },
+    {
+      "tick": 9320,
+      "neuron": 113421
+    },
+    {
+      "tick": 9324,
+      "neuron": 102632
+    },
+    {
+      "tick": 9326,
+      "neuron": 116889
+    },
+    {
+      "tick": 9334,
+      "neuron": 102632
+    },
+    {
+      "tick": 9334,
+      "neuron": 119716
+    },
+    {
+      "tick": 9335,
+      "neuron": 65153
+    },
+    {
+      "tick": 9344,
+      "neuron": 11916
+    },
+    {
+      "tick": 9363,
+      "neuron": 103321
+    },
+    {
+      "tick": 9367,
+      "neuron": 102632
+    },
+    {
+      "tick": 9369,
+      "neuron": 116889
+    },
+    {
+      "tick": 9385,
+      "neuron": 47685
+    },
+    {
+      "tick": 9385,
+      "neuron": 86214
+    },
+    {
+      "tick": 9391,
+      "neuron": 93880
+    },
+    {
+      "tick": 9398,
+      "neuron": 11916
+    },
+    {
+      "tick": 9399,
+      "neuron": 102632
+    },
+    {
+      "tick": 9404,
+      "neuron": 84634
+    },
+    {
+      "tick": 9407,
+      "neuron": 116889
+    },
+    {
+      "tick": 9412,
+      "neuron": 84634
+    },
+    {
+      "tick": 9412,
+      "neuron": 93880
+    },
+    {
+      "tick": 9414,
+      "neuron": 114820
+    },
+    {
+      "tick": 9415,
+      "neuron": 117163
+    },
+    {
+      "tick": 9429,
+      "neuron": 102632
+    },
+    {
+      "tick": 9432,
+      "neuron": 47685
+    },
+    {
+      "tick": 9434,
+      "neuron": 114820
+    },
+    {
+      "tick": 9437,
+      "neuron": 31392
+    },
+    {
+      "tick": 9442,
+      "neuron": 100853
+    },
+    {
+      "tick": 9443,
+      "neuron": 90982
+    },
+    {
+      "tick": 9444,
+      "neuron": 44337
+    },
+    {
+      "tick": 9447,
+      "neuron": 119716
+    },
+    {
+      "tick": 9449,
+      "neuron": 27293
+    },
+    {
+      "tick": 9449,
+      "neuron": 90982
+    },
+    {
+      "tick": 9456,
+      "neuron": 84634
+    },
+    {
+      "tick": 9460,
+      "neuron": 11916
+    },
+    {
+      "tick": 9461,
+      "neuron": 84634
+    },
+    {
+      "tick": 9479,
+      "neuron": 113421
+    },
+    {
+      "tick": 9485,
+      "neuron": 44337
+    },
+    {
+      "tick": 9498,
+      "neuron": 11916
+    },
+    {
+      "tick": 9499,
+      "neuron": 11916
+    },
+    {
+      "tick": 9500,
+      "neuron": 27680
+    },
+    {
+      "tick": 9502,
+      "neuron": 90982
+    },
+    {
+      "tick": 9502,
+      "neuron": 93880
+    },
+    {
+      "tick": 9503,
+      "neuron": 44337
+    },
+    {
+      "tick": 9512,
+      "neuron": 86214
+    },
+    {
+      "tick": 9522,
+      "neuron": 47685
+    },
+    {
+      "tick": 9526,
+      "neuron": 93880
+    },
+    {
+      "tick": 9530,
+      "neuron": 44337
+    },
+    {
+      "tick": 9534,
+      "neuron": 103321
+    },
+    {
+      "tick": 9537,
+      "neuron": 65153
+    },
+    {
+      "tick": 9547,
+      "neuron": 44337
+    },
+    {
+      "tick": 9555,
+      "neuron": 114820
+    },
+    {
+      "tick": 9561,
+      "neuron": 103321
+    },
+    {
+      "tick": 9563,
+      "neuron": 65153
+    },
+    {
+      "tick": 9576,
+      "neuron": 27680
+    },
+    {
+      "tick": 9581,
+      "neuron": 119716
+    },
+    {
+      "tick": 9599,
+      "neuron": 116889
+    },
+    {
+      "tick": 9604,
+      "neuron": 93880
+    },
+    {
+      "tick": 9606,
+      "neuron": 44337
+    },
+    {
+      "tick": 9609,
+      "neuron": 44337
+    },
+    {
+      "tick": 9614,
+      "neuron": 114820
+    },
+    {
+      "tick": 9618,
+      "neuron": 113421
+    },
+    {
+      "tick": 9618,
+      "neuron": 114820
+    },
+    {
+      "tick": 9620,
+      "neuron": 48902
+    },
+    {
+      "tick": 9620,
+      "neuron": 65153
+    },
+    {
+      "tick": 9630,
+      "neuron": 90982
+    },
+    {
+      "tick": 9633,
+      "neuron": 100853
+    },
+    {
+      "tick": 9636,
+      "neuron": 114820
+    },
+    {
+      "tick": 9640,
+      "neuron": 116889
+    },
+    {
+      "tick": 9648,
+      "neuron": 84634
+    },
+    {
+      "tick": 9666,
+      "neuron": 47685
+    },
+    {
+      "tick": 9671,
+      "neuron": 84634
+    },
+    {
+      "tick": 9671,
+      "neuron": 116889
+    },
+    {
+      "tick": 9673,
+      "neuron": 65153
+    },
+    {
+      "tick": 9675,
+      "neuron": 14231
+    },
+    {
+      "tick": 9682,
+      "neuron": 84634
+    },
+    {
+      "tick": 9691,
+      "neuron": 47685
+    },
+    {
+      "tick": 9694,
+      "neuron": 90982
+    },
+    {
+      "tick": 9699,
+      "neuron": 48902
+    },
+    {
+      "tick": 9701,
+      "neuron": 31392
+    },
+    {
+      "tick": 9701,
+      "neuron": 84634
+    },
+    {
+      "tick": 9702,
+      "neuron": 27680
+    },
+    {
+      "tick": 9703,
+      "neuron": 103321
+    },
+    {
+      "tick": 9705,
+      "neuron": 27680
+    },
+    {
+      "tick": 9718,
+      "neuron": 86214
+    },
+    {
+      "tick": 9723,
+      "neuron": 44337
+    },
+    {
+      "tick": 9727,
+      "neuron": 31392
+    },
+    {
+      "tick": 9728,
+      "neuron": 86214
+    },
+    {
+      "tick": 9729,
+      "neuron": 119716
+    },
+    {
+      "tick": 9735,
+      "neuron": 93880
+    },
+    {
+      "tick": 9738,
+      "neuron": 11916
+    },
+    {
+      "tick": 9761,
+      "neuron": 65153
+    },
+    {
+      "tick": 9769,
+      "neuron": 93880
+    },
+    {
+      "tick": 9778,
+      "neuron": 65153
+    },
+    {
+      "tick": 9778,
+      "neuron": 102632
+    },
+    {
+      "tick": 9779,
+      "neuron": 48902
+    },
+    {
+      "tick": 9789,
+      "neuron": 84634
+    },
+    {
+      "tick": 9797,
+      "neuron": 103321
+    },
+    {
+      "tick": 9804,
+      "neuron": 14231
+    },
+    {
+      "tick": 9804,
+      "neuron": 103321
+    },
+    {
+      "tick": 9812,
+      "neuron": 11916
+    },
+    {
+      "tick": 9820,
+      "neuron": 14231
+    },
+    {
+      "tick": 9825,
+      "neuron": 31392
+    },
+    {
+      "tick": 9826,
+      "neuron": 93880
+    },
+    {
+      "tick": 9833,
+      "neuron": 100853
+    },
+    {
+      "tick": 9834,
+      "neuron": 93880
+    },
+    {
+      "tick": 9835,
+      "neuron": 48902
+    },
+    {
+      "tick": 9840,
+      "neuron": 14231
+    },
+    {
+      "tick": 9845,
+      "neuron": 48902
+    },
+    {
+      "tick": 9847,
+      "neuron": 117163
+    },
+    {
+      "tick": 9848,
+      "neuron": 113421
+    },
+    {
+      "tick": 9859,
+      "neuron": 14231
+    },
+    {
+      "tick": 9859,
+      "neuron": 86214
+    },
+    {
+      "tick": 9860,
+      "neuron": 84634
+    },
+    {
+      "tick": 9862,
+      "neuron": 102632
+    },
+    {
+      "tick": 9867,
+      "neuron": 100853
+    },
+    {
+      "tick": 9870,
+      "neuron": 102632
+    },
+    {
+      "tick": 9876,
+      "neuron": 44337
+    },
+    {
+      "tick": 9877,
+      "neuron": 119716
+    },
+    {
+      "tick": 9878,
+      "neuron": 27293
+    },
+    {
+      "tick": 9894,
+      "neuron": 44337
+    },
+    {
+      "tick": 9903,
+      "neuron": 48902
+    },
+    {
+      "tick": 9905,
+      "neuron": 31392
+    },
+    {
+      "tick": 9915,
+      "neuron": 47685
+    },
+    {
+      "tick": 9930,
+      "neuron": 117163
+    },
+    {
+      "tick": 9933,
+      "neuron": 44337
+    },
+    {
+      "tick": 9934,
+      "neuron": 100853
+    },
+    {
+      "tick": 9936,
+      "neuron": 27680
+    },
+    {
+      "tick": 9939,
+      "neuron": 103321
+    },
+    {
+      "tick": 9948,
+      "neuron": 119716
+    },
+    {
+      "tick": 9957,
+      "neuron": 119716
+    },
+    {
+      "tick": 9958,
+      "neuron": 27293
+    },
+    {
+      "tick": 9969,
+      "neuron": 102632
+    },
+    {
+      "tick": 9973,
+      "neuron": 47685
+    },
+    {
+      "tick": 9974,
+      "neuron": 116889
+    },
+    {
+      "tick": 9984,
+      "neuron": 119716
+    },
+    {
+      "tick": 9987,
+      "neuron": 14231
+    }
+  ],
+  "hypothesis": "Adding bitter drive suppresses MN9 compared with the matched 0 Hz bitter control.",
+  "evaluation": "Compare both runs to Brian2 with shared inputs; report MN9 event counts. One paired seed does not pass full biological replication.",
+  "failure": "Any hidden input, pruned edge, graph mismatch, numerical divergence or absent predicted response must be reported.",
+  "max_wall_seconds": 1800,
+  "bitter_seed": 19302,
+  "bitter_rate_hz": 0,
+  "sugar_rate_hz": 100,
+  "source_bitter_cell": 23,
+  "source_experiment_cell": 24,
+  "sensory_refractory_note": "Both populations have zero refractory time in BOTH conditions, including 0 Hz bitter, matching author.poi neu_exc2 handling."
+}

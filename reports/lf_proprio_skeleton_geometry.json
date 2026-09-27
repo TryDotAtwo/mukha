@@ -1,0 +1,148 @@
+{
+  "source_manifest_sha256": "9bcbf11d79b28d8201af7dd913be6d7d07563dcd88139a114f9540a920223f5c",
+  "image_sha256": "74510ca95284a2a948eee12117fb9eb5a5325e9dc08697934ee90867712657f7",
+  "image_path": "previews/lf_proprio_skeletons_v1.png",
+  "scope": "Shared axes of native v1.0 SWC centerline projections; visual morphology aid, not a cell-type classifier",
+  "skeletons": [
+    {
+      "body_id": 817697,
+      "source_sha256": "c37795b7fd87e677cbca3c1ec44fdf91b78b73b0356b2c88d2f2a46acfece86b",
+      "nodes": 368,
+      "bounding_box_swc_units": {
+        "x": [
+          58944.0,
+          63872.0
+        ],
+        "y": [
+          57024.0,
+          65344.0
+        ],
+        "z": [
+          66240.0,
+          74304.0
+        ]
+      },
+      "coordinate_units_nm": 8
+    },
+    {
+      "body_id": 821306,
+      "source_sha256": "64ed31049eddf4b6c584fd84fd81ec121cf48def14b7fbea3db4acbcd3e1096a",
+      "nodes": 251,
+      "bounding_box_swc_units": {
+        "x": [
+          59200.0,
+          63232.0
+        ],
+        "y": [
+          57088.0,
+          64960.0
+        ],
+        "z": [
+          66240.0,
+          73152.0
+        ]
+      },
+      "coordinate_units_nm": 8
+    },
+    {
+      "body_id": 908487,
+      "source_sha256": "f7b972b97be4e835d36b2d43e0854c3091c00a15ffb88e45d8bfc14fb67c4c58",
+      "nodes": 589,
+      "bounding_box_swc_units": {
+        "x": [
+          50432.0,
+          65664.0
+        ],
+        "y": [
+          55936.0,
+          65536.0
+        ],
+        "z": [
+          68864.0,
+          81984.0
+        ]
+      },
+      "coordinate_units_nm": 8
+    },
+    {
+      "body_id": 912317,
+      "source_sha256": "d070184ac5d819dc799fd535a51fe73c188f82aa8dddd137147a72cfb01b42b9",
+      "nodes": 258,
+      "bounding_box_swc_units": {
+        "x": [
+          54912.0,
+          64128.0
+        ],
+        "y": [
+          57984.0,
+          62272.0
+        ],
+        "z": [
+          66560.0,
+          78592.0
+        ]
+      },
+      "coordinate_units_nm": 8
+    },
+    {
+      "body_id": 815843,
+      "source_sha256": "87048ddd179f69279b691be675f0a533b36024b99895bdb80cbe5fe2e38c39cb",
+      "nodes": 971,
+      "bounding_box_swc_units": {
+        "x": [
+          55040.0,
+          64256.0
+        ],
+        "y": [
+          55936.0,
+          66176.0
+        ],
+        "z": [
+          66240.0,
+          79040.0
+        ]
+      },
+      "coordinate_units_nm": 8
+    },
+    {
+      "body_id": 817680,
+      "source_sha256": "9efd51e099bc7ba86682a060138e848ffd384c130364d5ccb788767c507b3f0a",
+      "nodes": 543,
+      "bounding_box_swc_units": {
+        "x": [
+          54528.0,
+          64256.0
+        ],
+        "y": [
+          55936.0,
+          63616.0
+        ],
+        "z": [
+          66624.0,
+          78976.0
+        ]
+      },
+      "coordinate_units_nm": 8
+    },
+    {
+      "body_id": 935383,
+      "source_sha256": "2fff1965e3cf4f4e0d7df9bac21dc2b4bb3175a09794a7dcc1ec044b9e7269c6",
+      "nodes": 524,
+      "bounding_box_swc_units": {
+        "x": [
+          54400.0,
+          64384.0
+        ],
+        "y": [
+          55680.0,
+          63616.0
+        ],
+        "z": [
+          66368.0,
+          79296.0
+        ]
+      },
+      "coordinate_units_nm": 8
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "source_report_sha256": "bd55516d116359f0c3bf281e120d2c20411ec7494807df7bb65a6fac590476a7",
+  "event_sha256": "2bc31c82a141ccbcda1517f4ea2e8c08bc7615be20757b188797fb6c5cf7a4ac",
+  "graph_sha256": "4a7c892fe278bc6f1e96548c34c376bf49bce1d589af12911cf047a4cf1bf8f8",
+  "motor_graph_index": 156979,
+  "motor_body_id": 815344,
+  "labelled_tibia_extensor_incoming": [
+    {
+      "body_id": 815344,
+      "graph_index": 156979,
+      "incoming_edge_rows": 571,
+      "incoming_contacts": 10207
+    },
+    {
+      "body_id": 815678,
+      "graph_index": 157213,
+      "incoming_edge_rows": 315,
+      "incoming_contacts": 3740
+    }
+  ],
+  "active_cells": [
+    {
+      "graph_index": 144975,
+      "body_id": 800270,
+      "type": "IN13A002",
+      "spikes": 15,
+      "predicted_nt": "gaba",
+      "direct_edge_rows_to_motor": 0,
+      "contacts_to_motor": 0,
+      "runtime_weights_to_motor_mv": []
+    },
+    {
+      "graph_index": 145469,
+      "body_id": 800931,
+      "type": "IN13A009",
+      "spikes": 2,
+      "predicted_nt": "gaba",
+      "direct_edge_rows_to_motor": 0,
+      "contacts_to_motor": 0,
+      "runtime_weights_to_motor_mv": []
+    },
+    {
+      "graph_index": 164105,
+      "body_id": 912317,
+      "type": "SNpp50",
+      "spikes": 107,
+      "predicted_nt": "acetylcholine",
+      "direct_edge_rows_to_motor": 1,
+      "contacts_to_motor": 5,
+      "runtime_weights_to_motor_mv": [
+        1.375
+      ]
+    }
+  ],
+  "mechanism": "Only active direct presynaptic cell to this motor was SNpp50 912317; the two active GABAergic intrinsic cells had no direct motor edge",
+  "biological_validation": false
+}

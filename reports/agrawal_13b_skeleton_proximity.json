@@ -1,0 +1,356 @@
+{
+  "screen_sha256": "08227adf0be6400a338e875e7b3fd230e61c9cdedd5729ace85dd0fa2bca7f7a",
+  "candidate_manifest_sha256": "2d4407fa7f1f26c30ef1924079c1b228af62c873a832891b5750a782760eb90a",
+  "sensory_manifest_sha256": "9bcbf11d79b28d8201af7dd913be6d7d07563dcd88139a114f9540a920223f5c",
+  "coordinate_scale_um_per_voxel": 0.008,
+  "scope": "coarse SWC-node proximity; no synapse coordinates or individual experimental identity",
+  "candidate_count": 13,
+  "pairs": 17,
+  "results": [
+    {
+      "bodyId": 800115,
+      "somaSide": "R",
+      "source_root_sides": [
+        "L"
+      ],
+      "swc_nodes": 10690,
+      "swc_bbox_min": [
+        47168.0,
+        51264.0,
+        66368.0
+      ],
+      "swc_bbox_max": [
+        65216.0,
+        65536.0,
+        79936.0
+      ],
+      "pairs": [
+        {
+          "source_body_id": 815843,
+          "minimum_swc_node_distance_voxels": 0.0,
+          "minimum_swc_node_distance_um": 0.0
+        },
+        {
+          "source_body_id": 817680,
+          "minimum_swc_node_distance_voxels": 64.0,
+          "minimum_swc_node_distance_um": 0.512
+        },
+        {
+          "source_body_id": 935383,
+          "minimum_swc_node_distance_voxels": 64.0,
+          "minimum_swc_node_distance_um": 0.512
+        }
+      ]
+    },
+    {
+      "bodyId": 800306,
+      "somaSide": "R",
+      "source_root_sides": [
+        "L"
+      ],
+      "swc_nodes": 7317,
+      "swc_bbox_min": [
+        46720.0,
+        50688.0,
+        66688.0
+      ],
+      "swc_bbox_max": [
+        66304.0,
+        64512.0,
+        81472.0
+      ],
+      "pairs": [
+        {
+          "source_body_id": 817680,
+          "minimum_swc_node_distance_voxels": 64.0,
+          "minimum_swc_node_distance_um": 0.512
+        }
+      ]
+    },
+    {
+      "bodyId": 800514,
+      "somaSide": "R",
+      "source_root_sides": [
+        "L"
+      ],
+      "swc_nodes": 7937,
+      "swc_bbox_min": [
+        45696.0,
+        51264.0,
+        66432.0
+      ],
+      "swc_bbox_max": [
+        64896.0,
+        65152.0,
+        81408.0
+      ],
+      "pairs": [
+        {
+          "source_body_id": 912317,
+          "minimum_swc_node_distance_voxels": 64.0,
+          "minimum_swc_node_distance_um": 0.512
+        }
+      ]
+    },
+    {
+      "bodyId": 801154,
+      "somaSide": "R",
+      "source_root_sides": [
+        "L"
+      ],
+      "swc_nodes": 1098,
+      "swc_bbox_min": [
+        47680.0,
+        55936.0,
+        68160.0
+      ],
+      "swc_bbox_max": [
+        64448.0,
+        64448.0,
+        79808.0
+      ],
+      "pairs": [
+        {
+          "source_body_id": 815843,
+          "minimum_swc_node_distance_voxels": 110.85125168440814,
+          "minimum_swc_node_distance_um": 0.8868100134752651
+        }
+      ]
+    },
+    {
+      "bodyId": 801254,
+      "somaSide": "R",
+      "source_root_sides": [
+        "L"
+      ],
+      "swc_nodes": 5606,
+      "swc_bbox_min": [
+        45632.0,
+        51712.0,
+        66304.0
+      ],
+      "swc_bbox_max": [
+        65024.0,
+        65984.0,
+        83264.0
+      ],
+      "pairs": [
+        {
+          "source_body_id": 817680,
+          "minimum_swc_node_distance_voxels": 64.0,
+          "minimum_swc_node_distance_um": 0.512
+        }
+      ]
+    },
+    {
+      "bodyId": 801374,
+      "somaSide": "R",
+      "source_root_sides": [
+        "L"
+      ],
+      "swc_nodes": 4808,
+      "swc_bbox_min": [
+        48064.0,
+        57024.0,
+        69120.0
+      ],
+      "swc_bbox_max": [
+        65664.0,
+        65536.0,
+        80448.0
+      ],
+      "pairs": [
+        {
+          "source_body_id": 912317,
+          "minimum_swc_node_distance_voxels": 64.0,
+          "minimum_swc_node_distance_um": 0.512
+        }
+      ]
+    },
+    {
+      "bodyId": 803431,
+      "somaSide": "R",
+      "source_root_sides": [
+        "L"
+      ],
+      "swc_nodes": 1931,
+      "swc_bbox_min": [
+        47017.4,
+        50432.0,
+        66176.0
+      ],
+      "swc_bbox_max": [
+        64896.0,
+        64990.1,
+        80960.0
+      ],
+      "pairs": [
+        {
+          "source_body_id": 817680,
+          "minimum_swc_node_distance_voxels": 64.0,
+          "minimum_swc_node_distance_um": 0.512
+        }
+      ]
+    },
+    {
+      "bodyId": 804781,
+      "somaSide": "R",
+      "source_root_sides": [
+        "L"
+      ],
+      "swc_nodes": 3247,
+      "swc_bbox_min": [
+        48960.0,
+        50752.0,
+        66176.0
+      ],
+      "swc_bbox_max": [
+        62912.0,
+        65728.0,
+        80000.0
+      ],
+      "pairs": [
+        {
+          "source_body_id": 815843,
+          "minimum_swc_node_distance_voxels": 64.0,
+          "minimum_swc_node_distance_um": 0.512
+        }
+      ]
+    },
+    {
+      "bodyId": 806911,
+      "somaSide": "R",
+      "source_root_sides": [
+        "L"
+      ],
+      "swc_nodes": 1318,
+      "swc_bbox_min": [
+        46848.0,
+        55744.0,
+        69760.0
+      ],
+      "swc_bbox_max": [
+        64192.0,
+        65600.0,
+        79808.0
+      ],
+      "pairs": [
+        {
+          "source_body_id": 815843,
+          "minimum_swc_node_distance_voxels": 64.0,
+          "minimum_swc_node_distance_um": 0.512
+        },
+        {
+          "source_body_id": 817680,
+          "minimum_swc_node_distance_voxels": 90.50966799187809,
+          "minimum_swc_node_distance_um": 0.7240773439350248
+        }
+      ]
+    },
+    {
+      "bodyId": 813697,
+      "somaSide": "R",
+      "source_root_sides": [
+        "L"
+      ],
+      "swc_nodes": 1336,
+      "swc_bbox_min": [
+        48768.0,
+        56448.0,
+        68096.0
+      ],
+      "swc_bbox_max": [
+        65216.0,
+        64256.0,
+        76160.0
+      ],
+      "pairs": [
+        {
+          "source_body_id": 815843,
+          "minimum_swc_node_distance_voxels": 64.0,
+          "minimum_swc_node_distance_um": 0.512
+        }
+      ]
+    },
+    {
+      "bodyId": 814394,
+      "somaSide": "R",
+      "source_root_sides": [
+        "L"
+      ],
+      "swc_nodes": 1446,
+      "swc_bbox_min": [
+        48256.0,
+        59136.0,
+        70528.0
+      ],
+      "swc_bbox_max": [
+        64960.0,
+        64768.0,
+        79168.0
+      ],
+      "pairs": [
+        {
+          "source_body_id": 815843,
+          "minimum_swc_node_distance_voxels": 64.0,
+          "minimum_swc_node_distance_um": 0.512
+        }
+      ]
+    },
+    {
+      "bodyId": 907687,
+      "somaSide": "R",
+      "source_root_sides": [
+        "L"
+      ],
+      "swc_nodes": 1278,
+      "swc_bbox_min": [
+        48512.0,
+        58944.0,
+        69888.0
+      ],
+      "swc_bbox_max": [
+        65344.0,
+        65664.0,
+        78912.0
+      ],
+      "pairs": [
+        {
+          "source_body_id": 815843,
+          "minimum_swc_node_distance_voxels": 64.0,
+          "minimum_swc_node_distance_um": 0.512
+        }
+      ]
+    },
+    {
+      "bodyId": 914246,
+      "somaSide": "R",
+      "source_root_sides": [
+        "L"
+      ],
+      "swc_nodes": 4787,
+      "swc_bbox_min": [
+        46400.0,
+        54464.0,
+        66048.0
+      ],
+      "swc_bbox_max": [
+        65920.0,
+        65600.0,
+        80832.0
+      ],
+      "pairs": [
+        {
+          "source_body_id": 815843,
+          "minimum_swc_node_distance_voxels": 0.0,
+          "minimum_swc_node_distance_um": 0.0
+        },
+        {
+          "source_body_id": 912317,
+          "minimum_swc_node_distance_voxels": 0.0,
+          "minimum_swc_node_distance_um": 0.0
+        }
+      ]
+    }
+  ]
+}

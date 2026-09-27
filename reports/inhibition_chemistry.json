@@ -1,0 +1,286 @@
+{
+  "source_nt_sha256": "a53fd05fbc6279d90ae4ab8f6e420afe570956c65cc5278ebb7c4d3ff10f5cc4",
+  "candidate_paths_sha256": "e7675e466cfeef3655d392639350da313dc096e98e2019e96ca9c259be653685",
+  "candidates": [
+    {
+      "body": 805450,
+      "cell_type": "IN09A012",
+      "total_nt_predictions": 549,
+      "predicted_nt_confidence": 0.816935154279637,
+      "predicted_nt": "gaba",
+      "ground_truth": "gaba",
+      "celltype_total_nt_predictions": 4085,
+      "celltype_predicted_nt": "gaba",
+      "celltype_predicted_nt_confidence": 0.863806952195178,
+      "consensus_nt": "gaba"
+    },
+    {
+      "body": 804940,
+      "cell_type": "IN09A012",
+      "total_nt_predictions": 815,
+      "predicted_nt_confidence": 0.893564153371015,
+      "predicted_nt": "gaba",
+      "ground_truth": "gaba",
+      "celltype_total_nt_predictions": 4085,
+      "celltype_predicted_nt": "gaba",
+      "celltype_predicted_nt_confidence": 0.863806952195178,
+      "consensus_nt": "gaba"
+    },
+    {
+      "body": 809102,
+      "cell_type": "SNpp41",
+      "total_nt_predictions": 282,
+      "predicted_nt_confidence": 0.960961137387248,
+      "predicted_nt": "acetylcholine",
+      "ground_truth": null,
+      "celltype_total_nt_predictions": 4961,
+      "celltype_predicted_nt": "acetylcholine",
+      "celltype_predicted_nt_confidence": 0.94127699006753,
+      "consensus_nt": "acetylcholine"
+    },
+    {
+      "body": 802115,
+      "cell_type": "IN09A012",
+      "total_nt_predictions": 788,
+      "predicted_nt_confidence": 0.860505110144933,
+      "predicted_nt": "gaba",
+      "ground_truth": "gaba",
+      "celltype_total_nt_predictions": 4085,
+      "celltype_predicted_nt": "gaba",
+      "celltype_predicted_nt_confidence": 0.863806952195178,
+      "consensus_nt": "gaba"
+    },
+    {
+      "body": 805777,
+      "cell_type": "IN09A012",
+      "total_nt_predictions": 445,
+      "predicted_nt_confidence": 0.820684377710363,
+      "predicted_nt": "gaba",
+      "ground_truth": "gaba",
+      "celltype_total_nt_predictions": 4085,
+      "celltype_predicted_nt": "gaba",
+      "celltype_predicted_nt_confidence": 0.863806952195178,
+      "consensus_nt": "gaba"
+    },
+    {
+      "body": 803114,
+      "cell_type": "IN09A012",
+      "total_nt_predictions": 771,
+      "predicted_nt_confidence": 0.883412439174266,
+      "predicted_nt": "gaba",
+      "ground_truth": "gaba",
+      "celltype_total_nt_predictions": 4085,
+      "celltype_predicted_nt": "gaba",
+      "celltype_predicted_nt_confidence": 0.863806952195178,
+      "consensus_nt": "gaba"
+    },
+    {
+      "body": 805004,
+      "cell_type": "IN09A012",
+      "total_nt_predictions": 717,
+      "predicted_nt_confidence": 0.875182216934065,
+      "predicted_nt": "gaba",
+      "ground_truth": "gaba",
+      "celltype_total_nt_predictions": 4085,
+      "celltype_predicted_nt": "gaba",
+      "celltype_predicted_nt_confidence": 0.863806952195178,
+      "consensus_nt": "gaba"
+    },
+    {
+      "body": 10056,
+      "cell_type": "DNg100",
+      "total_nt_predictions": 7472,
+      "predicted_nt_confidence": 0.956023511445726,
+      "predicted_nt": "acetylcholine",
+      "ground_truth": null,
+      "celltype_total_nt_predictions": 14507,
+      "celltype_predicted_nt": "acetylcholine",
+      "celltype_predicted_nt_confidence": 0.954530119873198,
+      "consensus_nt": "acetylcholine"
+    },
+    {
+      "body": 10131,
+      "cell_type": "DNg74_a",
+      "total_nt_predictions": 6320,
+      "predicted_nt_confidence": 0.885773626105655,
+      "predicted_nt": "gaba",
+      "ground_truth": null,
+      "celltype_total_nt_predictions": 12360,
+      "celltype_predicted_nt": "gaba",
+      "celltype_predicted_nt_confidence": 0.887116329271332,
+      "consensus_nt": "gaba"
+    },
+    {
+      "body": 13964,
+      "cell_type": null,
+      "total_nt_predictions": 2659,
+      "predicted_nt_confidence": 0.893152846415868,
+      "predicted_nt": "acetylcholine",
+      "ground_truth": null,
+      "celltype_total_nt_predictions": 2659,
+      "celltype_predicted_nt": "unclear",
+      "celltype_predicted_nt_confidence": null,
+      "consensus_nt": "acetylcholine"
+    }
+  ],
+  "candidate_connections": [
+    {
+      "pre": 804940,
+      "post": 809102,
+      "synapse_count": 166,
+      "source_row": 16037,
+      "presynaptic_consensus_nt": "gaba",
+      "receptor_mechanism": null,
+      "functional_sign": null,
+      "runtime_enabled": false
+    },
+    {
+      "pre": 809102,
+      "post": 804940,
+      "synapse_count": 2,
+      "source_row": 44970503,
+      "presynaptic_consensus_nt": "acetylcholine",
+      "receptor_mechanism": null,
+      "functional_sign": null,
+      "runtime_enabled": false
+    },
+    {
+      "pre": 10056,
+      "post": 10131,
+      "synapse_count": 2,
+      "source_row": 56684206,
+      "presynaptic_consensus_nt": "acetylcholine",
+      "receptor_mechanism": null,
+      "functional_sign": null,
+      "runtime_enabled": false
+    },
+    {
+      "pre": 10056,
+      "post": 802115,
+      "synapse_count": 81,
+      "source_row": 85611,
+      "presynaptic_consensus_nt": "acetylcholine",
+      "receptor_mechanism": null,
+      "functional_sign": null,
+      "runtime_enabled": false
+    },
+    {
+      "pre": 10056,
+      "post": 804940,
+      "synapse_count": 53,
+      "source_row": 202316,
+      "presynaptic_consensus_nt": "acetylcholine",
+      "receptor_mechanism": null,
+      "functional_sign": null,
+      "runtime_enabled": false
+    },
+    {
+      "pre": 10056,
+      "post": 805450,
+      "synapse_count": 58,
+      "source_row": 166984,
+      "presynaptic_consensus_nt": "acetylcholine",
+      "receptor_mechanism": null,
+      "functional_sign": null,
+      "runtime_enabled": false
+    },
+    {
+      "pre": 10131,
+      "post": 10056,
+      "synapse_count": 43,
+      "source_row": 289722,
+      "presynaptic_consensus_nt": "gaba",
+      "receptor_mechanism": null,
+      "functional_sign": null,
+      "runtime_enabled": false
+    },
+    {
+      "pre": 10131,
+      "post": 802115,
+      "synapse_count": 40,
+      "source_row": 334624,
+      "presynaptic_consensus_nt": "gaba",
+      "receptor_mechanism": null,
+      "functional_sign": null,
+      "runtime_enabled": false
+    },
+    {
+      "pre": 10131,
+      "post": 804940,
+      "synapse_count": 39,
+      "source_row": 355909,
+      "presynaptic_consensus_nt": "gaba",
+      "receptor_mechanism": null,
+      "functional_sign": null,
+      "runtime_enabled": false
+    },
+    {
+      "pre": 10131,
+      "post": 805450,
+      "synapse_count": 31,
+      "source_row": 520147,
+      "presynaptic_consensus_nt": "gaba",
+      "receptor_mechanism": null,
+      "functional_sign": null,
+      "runtime_enabled": false
+    },
+    {
+      "pre": 10131,
+      "post": 805777,
+      "synapse_count": 1,
+      "source_row": 143753942,
+      "presynaptic_consensus_nt": "gaba",
+      "receptor_mechanism": null,
+      "functional_sign": null,
+      "runtime_enabled": false
+    },
+    {
+      "pre": 13964,
+      "post": 10056,
+      "synapse_count": 13,
+      "source_row": 1787832,
+      "presynaptic_consensus_nt": "acetylcholine",
+      "receptor_mechanism": null,
+      "functional_sign": null,
+      "runtime_enabled": false
+    },
+    {
+      "pre": 13964,
+      "post": 802115,
+      "synapse_count": 1,
+      "source_row": 108569174,
+      "presynaptic_consensus_nt": "acetylcholine",
+      "receptor_mechanism": null,
+      "functional_sign": null,
+      "runtime_enabled": false
+    },
+    {
+      "pre": 13964,
+      "post": 804940,
+      "synapse_count": 1,
+      "source_row": 108569113,
+      "presynaptic_consensus_nt": "acetylcholine",
+      "receptor_mechanism": null,
+      "functional_sign": null,
+      "runtime_enabled": false
+    },
+    {
+      "pre": 13964,
+      "post": 805450,
+      "synapse_count": 1,
+      "source_row": 108569089,
+      "presynaptic_consensus_nt": "acetylcholine",
+      "receptor_mechanism": null,
+      "functional_sign": null,
+      "runtime_enabled": false
+    }
+  ],
+  "missing_candidates": 0,
+  "exact_source_columns_preserved": true,
+  "source_ground_truth_scope": "Source annotation; specimen-specific measurement provenance not established here",
+  "confidence_scope": "Source prediction score, not interpreted as calibrated probability",
+  "ambiguity": "DNg74_a and untyped alternative for MANC10107 have different consensus transmitters",
+  "functional_signs_assigned": false,
+  "runtime_enabled": false,
+  "output_sha256": "34130918da8be8a8afc9e05813716214f406e9e7502f84563de1a0ade463b644"
+}

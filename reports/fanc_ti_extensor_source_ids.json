@@ -1,0 +1,16 @@
+{
+  "source_article": "https://doi.org/10.1038/s41586-024-07389-x",
+  "supplement_url": "https://media.springernature.com/original/springer-static/esm/art:10.1038%2Fs41586-024-07389-x/MediaObjects/41586_2024_7389_MOESM1_ESM.pdf",
+  "supplement_sha256": "dcbb671d7831eb64f7554af4a32f59e3f2eb0dc1b1294e4876f2838a603076ba",
+  "supplement_pdf_page_1based": 2,
+  "source_link": "https://neuromancer-seung-import.appspot.com/?json_url=https://raw.githubusercontent.com/EllenLesser/Azevedo_Lesser_Phelps_Mark_2023/main/jsons/ti_extensor.json",
+  "neuroglancer_state_sha256": "cf0ee2947192d3260548f67b98c17c11f65f3583dba910b5e50c0a1d5f5fdf4a",
+  "published_fanc_t1_tibia_extensor_segment_ids": [
+    "648518346493238080",
+    "648518346495797355"
+  ],
+  "fanc_mn39_vs_mn40_segment_assignment_verified": false,
+  "fanc_to_manc_identity_verified": false,
+  "male_cns_motor_mapping_enabled": false,
+  "scope": "Published pair of FANC T1 tibia-extensor segments, without individual fast/slow or MANC mapping"
+}

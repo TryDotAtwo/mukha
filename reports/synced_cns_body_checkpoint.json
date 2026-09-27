@@ -1,0 +1,31 @@
+{
+  "scope": "Same-model full-CNS plus FlyMimic feedback checkpoint continuity diagnostic",
+  "source_trace_sha256": "6f23d7730b8453f1eda471b4219939dd809e922899623948afe19a8b516c4ce0",
+  "source_report_sha256": "bd26788b5b8586ebd658552fb2cb4a17db72ff0262ed57e9b6d6a7eca1daad98",
+  "graph_sha256": "4a7c892fe278bc6f1e96548c34c376bf49bce1d589af12911cf047a4cf1bf8f8",
+  "library_sha256": "e41f83a2005e44b04d6be989683c5596dc5e64e72f06762b9e2d64186f0e5b13",
+  "model_xml_sha256": "9663a534b0ac66f93e2db7f42110d5cac32c1e6d734f3c739a9f16c5af6046bc",
+  "checkpoint_tick": 250,
+  "end_tick": 500,
+  "dt_ms": 0.1,
+  "brain_checkpoint_bytes": 29430080,
+  "body_integration_doubles": 542,
+  "motor_activation_at_checkpoint": 0.12667039477558273,
+  "fresh_brain_handle": true,
+  "fresh_body_data": true,
+  "body_state_restored_exact": true,
+  "tail_events_exact": true,
+  "tail_all_eight_traces_exact": true,
+  "first_500_ticks_match_archived": true,
+  "files": {
+    "body_checkpoint.npy": "51d18517a1303fdd23b53bacbd5fd66374b3642c4cee269714d5d0c1bbaa732d",
+    "brain_checkpoint.npy": "23030196da1d6e429a94b23ca88148d3f940e47d90158be0a8877fe2e2c332e7",
+    "continuation.npz": "28df31c88634513e31e5589c4b9cf0fb6ae471d91a31c42f424f016a0621a010"
+  },
+  "biological_validation": false,
+  "limits": [
+    "Same machine, DLL, model and graph; not a portable experiment checkpoint",
+    "Unvalidated four-cell sensory encoder and motor-muscle map",
+    "No optical scene, rocket, KSP, training state, or video recorder included"
+  ]
+}

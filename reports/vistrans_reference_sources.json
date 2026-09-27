@@ -1,0 +1,239 @@
+{
+  "repository": "FlyBrainLab/VisTrans",
+  "commit": "ba096778d4bd895a0e0fab02b9c519c5941bc82b",
+  "files": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/FlyBrainLab/VisTrans/ba096778d4bd895a0e0fab02b9c519c5941bc82b/LICENSE",
+      "git_blob": "a877482b770662fdc3e0f598597f9d39ebeb7525",
+      "bytes": 1519,
+      "sha256": "e2b7d85424c48b672e14b05dfc946e1cb05f77803d5ded2d9b8e2b145f80407d"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/FlyBrainLab/VisTrans/ba096778d4bd895a0e0fab02b9c519c5941bc82b/README.md",
+      "git_blob": "72697680006e2f48ce955551e052793d7b1f1234",
+      "bytes": 1310,
+      "sha256": "cfd6374aa01e5d6d5f357ec3a707143a423212bd29c8e1452f20bb7b580fdb3c"
+    },
+    {
+      "path": "setup.py",
+      "url": "https://raw.githubusercontent.com/FlyBrainLab/VisTrans/ba096778d4bd895a0e0fab02b9c519c5941bc82b/setup.py",
+      "git_blob": "0dbaebe6e8c230c8dc3b34332afddb434dea3f81",
+      "bytes": 2001,
+      "sha256": "1e2639b424b4e5ac0fafffb79843dce5e2d80ad9d6aa23e50ada57d4306b5a23"
+    },
+    {
+      "path": "vistrans/InputProcessors/RetinaInputIndividual.py",
+      "url": "https://raw.githubusercontent.com/FlyBrainLab/VisTrans/ba096778d4bd895a0e0fab02b9c519c5941bc82b/vistrans/InputProcessors/RetinaInputIndividual.py",
+      "git_blob": "2188dbef86e0d755222095cafc6b15eaecf2f964",
+      "bytes": 3373,
+      "sha256": "1c3d2ab099966dcd6f8f7b424db97e46c79e7993d5fd56729f14bd7f0a4c8c3e"
+    },
+    {
+      "path": "vistrans/InputProcessors/__init__.py",
+      "url": "https://raw.githubusercontent.com/FlyBrainLab/VisTrans/ba096778d4bd895a0e0fab02b9c519c5941bc82b/vistrans/InputProcessors/__init__.py",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vistrans/InputProcessors/classmapper.py",
+      "url": "https://raw.githubusercontent.com/FlyBrainLab/VisTrans/ba096778d4bd895a0e0fab02b9c519c5941bc82b/vistrans/InputProcessors/classmapper.py",
+      "git_blob": "6c86e25674e4a4e590a62a133943e44f7d27acb6",
+      "bytes": 1528,
+      "sha256": "d117b71f88ee2dd3ccf85530a8baa4f511475d797ba764549b97eec756c4762a"
+    },
+    {
+      "path": "vistrans/InputProcessors/vrf/__init__.py",
+      "url": "https://raw.githubusercontent.com/FlyBrainLab/VisTrans/ba096778d4bd895a0e0fab02b9c519c5941bc82b/vistrans/InputProcessors/vrf/__init__.py",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vistrans/InputProcessors/vrf/vrf.py",
+      "url": "https://raw.githubusercontent.com/FlyBrainLab/VisTrans/ba096778d4bd895a0e0fab02b9c519c5941bc82b/vistrans/InputProcessors/vrf/vrf.py",
+      "git_blob": "afbbefd0768c5ec3bed9fe8ab8bc81b2ca80dc47",
+      "bytes": 19426,
+      "sha256": "15a0d5e742084abe83db3f411ca8f141a3aa14b95131e29c05f1d4ced650e8ee"
+    },
+    {
+      "path": "vistrans/InputProcessors/vrf/vrf_no_gpu.py",
+      "url": "https://raw.githubusercontent.com/FlyBrainLab/VisTrans/ba096778d4bd895a0e0fab02b9c519c5941bc82b/vistrans/InputProcessors/vrf/vrf_no_gpu.py",
+      "git_blob": "d4f73db5f39aeb3ab3c3ee7b502568225819563e",
+      "bytes": 7382,
+      "sha256": "4e3105cb6a844b415a3e780eae6164862a783cbd27c047ccfe2f8bdea2e83169"
+    },
+    {
+      "path": "vistrans/NDComponents/PhotoreceptorModel.py",
+      "url": "https://raw.githubusercontent.com/FlyBrainLab/VisTrans/ba096778d4bd895a0e0fab02b9c519c5941bc82b/vistrans/NDComponents/PhotoreceptorModel.py",
+      "git_blob": "d73c72a37041e9b2e296d067772f2758fbe90d8b",
+      "bytes": 41061,
+      "sha256": "81494bf3045b8f2e29920e12bcc76a5f0471eb7b8c0d3dc3fc076bb9ea05a1b2"
+    },
+    {
+      "path": "vistrans/NDComponents/__init__.py",
+      "url": "https://raw.githubusercontent.com/FlyBrainLab/VisTrans/ba096778d4bd895a0e0fab02b9c519c5941bc82b/vistrans/NDComponents/__init__.py",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vistrans/__init__.py",
+      "url": "https://raw.githubusercontent.com/FlyBrainLab/VisTrans/ba096778d4bd895a0e0fab02b9c519c5941bc82b/vistrans/__init__.py",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vistrans/config.py",
+      "url": "https://raw.githubusercontent.com/FlyBrainLab/VisTrans/ba096778d4bd895a0e0fab02b9c519c5941bc82b/vistrans/config.py",
+      "git_blob": "12c1c63c691cde5f07505c567332ff84967f0595",
+      "bytes": 6506,
+      "sha256": "80a69437824b466e3731145076815399d1a31bfd2407b775861da37d175d3f62"
+    },
+    {
+      "path": "vistrans/geometry/__init__.py",
+      "url": "https://raw.githubusercontent.com/FlyBrainLab/VisTrans/ba096778d4bd895a0e0fab02b9c519c5941bc82b/vistrans/geometry/__init__.py",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vistrans/geometry/hexagon.py",
+      "url": "https://raw.githubusercontent.com/FlyBrainLab/VisTrans/ba096778d4bd895a0e0fab02b9c519c5941bc82b/vistrans/geometry/hexagon.py",
+      "git_blob": "1a2c3bc8b5da159f2010dac191a290c80ec2fcab",
+      "bytes": 12786,
+      "sha256": "db3f6f403e403d7bec5c3f742cb2b878991587e23eb2086d89dec7f93b942918"
+    },
+    {
+      "path": "vistrans/geometry/opticaxis.py",
+      "url": "https://raw.githubusercontent.com/FlyBrainLab/VisTrans/ba096778d4bd895a0e0fab02b9c519c5941bc82b/vistrans/geometry/opticaxis.py",
+      "git_blob": "b8d9fa43743a8101d81d855b5e6194b6bf8145f5",
+      "bytes": 7899,
+      "sha256": "16807a9c8cb790236fb5f490ff7cbe36b81558f9a088c5249a552f2d2e6b9fae"
+    },
+    {
+      "path": "vistrans/loader.py",
+      "url": "https://raw.githubusercontent.com/FlyBrainLab/VisTrans/ba096778d4bd895a0e0fab02b9c519c5941bc82b/vistrans/loader.py",
+      "git_blob": "acd9f3d1b398060d174a5bab05c1403a999b6032",
+      "bytes": 3737,
+      "sha256": "9a698b121401300e19a9d440bb5d16d4b8e641eb01fcf6e6576dfc5a724bd7b7"
+    },
+    {
+      "path": "vistrans/retina.py",
+      "url": "https://raw.githubusercontent.com/FlyBrainLab/VisTrans/ba096778d4bd895a0e0fab02b9c519c5941bc82b/vistrans/retina.py",
+      "git_blob": "095d4ec7405f5f15fc1d5173499d65c799dfccf4",
+      "bytes": 10131,
+      "sha256": "ca5f8c37949ab44964576172e2e8e063d51259765bd45a0bb1f6d0366135c0cc"
+    },
+    {
+      "path": "vistrans/screen/__init__.py",
+      "url": "https://raw.githubusercontent.com/FlyBrainLab/VisTrans/ba096778d4bd895a0e0fab02b9c519c5941bc82b/vistrans/screen/__init__.py",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vistrans/screen/input/__init__.py",
+      "url": "https://raw.githubusercontent.com/FlyBrainLab/VisTrans/ba096778d4bd895a0e0fab02b9c519c5941bc82b/vistrans/screen/input/__init__.py",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vistrans/screen/input/image2d.py",
+      "url": "https://raw.githubusercontent.com/FlyBrainLab/VisTrans/ba096778d4bd895a0e0fab02b9c519c5941bc82b/vistrans/screen/input/image2d.py",
+      "git_blob": "82f7a385cc0ac26f6aabcdc5f0064f67f1b5cc82",
+      "bytes": 13933,
+      "sha256": "9c923e5fb04d695a8ec817b52983ee1c1797fc41da20677a8242af6df50728e6"
+    },
+    {
+      "path": "vistrans/screen/map/__init__.py",
+      "url": "https://raw.githubusercontent.com/FlyBrainLab/VisTrans/ba096778d4bd895a0e0fab02b9c519c5941bc82b/vistrans/screen/map/__init__.py",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vistrans/screen/map/mapimpl.py",
+      "url": "https://raw.githubusercontent.com/FlyBrainLab/VisTrans/ba096778d4bd895a0e0fab02b9c519c5941bc82b/vistrans/screen/map/mapimpl.py",
+      "git_blob": "db9303712d501718602f58dc6989e027a4ef65d5",
+      "bytes": 16300,
+      "sha256": "951b60affdc433b00e55aaff43a68e593b010c5aaa342b5c913c63e76a390b54"
+    },
+    {
+      "path": "vistrans/screen/map/mapimpldr.py",
+      "url": "https://raw.githubusercontent.com/FlyBrainLab/VisTrans/ba096778d4bd895a0e0fab02b9c519c5941bc82b/vistrans/screen/map/mapimpldr.py",
+      "git_blob": "b127e0fdcd122f11ea769f70f9b1ba16ab99fc05",
+      "bytes": 5694,
+      "sha256": "d835d687d4489d0d292bd26d13c85b86cd657b58c415094f727c1976f32c001a"
+    },
+    {
+      "path": "vistrans/screen/map/pointmap.py",
+      "url": "https://raw.githubusercontent.com/FlyBrainLab/VisTrans/ba096778d4bd895a0e0fab02b9c519c5941bc82b/vistrans/screen/map/pointmap.py",
+      "git_blob": "fa1520729a9e087d070bf63fb4ca2eb9bf77c326",
+      "bytes": 2424,
+      "sha256": "179a933f5b814710ab877f23782f65b0bfaa8f0ade12d458469160867d1c633b"
+    },
+    {
+      "path": "vistrans/screen/screen.py",
+      "url": "https://raw.githubusercontent.com/FlyBrainLab/VisTrans/ba096778d4bd895a0e0fab02b9c519c5941bc82b/vistrans/screen/screen.py",
+      "git_blob": "b106d8a290121f95df69cd4f5560ac383a2d2c3c",
+      "bytes": 12154,
+      "sha256": "5daec0c7ddce6caafd81a7fa12669a86eea63c33ed9e355b44c5cb187666a1ec"
+    },
+    {
+      "path": "vistrans/screen/transform/__init__.py",
+      "url": "https://raw.githubusercontent.com/FlyBrainLab/VisTrans/ba096778d4bd895a0e0fab02b9c519c5941bc82b/vistrans/screen/transform/__init__.py",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vistrans/screen/transform/imagetransform.py",
+      "url": "https://raw.githubusercontent.com/FlyBrainLab/VisTrans/ba096778d4bd895a0e0fab02b9c519c5941bc82b/vistrans/screen/transform/imagetransform.py",
+      "git_blob": "73f0d70c4ffe300a11900c561e2e96e7f881121e",
+      "bytes": 1041,
+      "sha256": "8159b0e6f1fdf6041c863958a797697a8f96d80a65538d2348d0563ad694baab"
+    },
+    {
+      "path": "vistrans/screen/transform/signaltransform.py",
+      "url": "https://raw.githubusercontent.com/FlyBrainLab/VisTrans/ba096778d4bd895a0e0fab02b9c519c5941bc82b/vistrans/screen/transform/signaltransform.py",
+      "git_blob": "b94357279db326e80127b9205e68569cea8d0b0e",
+      "bytes": 375,
+      "sha256": "33c55e2adaeff04b44370a36ea3e901d76e24d79e5f4b392c589624a80f2cb2d"
+    },
+    {
+      "path": "vistrans/utils/__init__.py",
+      "url": "https://raw.githubusercontent.com/FlyBrainLab/VisTrans/ba096778d4bd895a0e0fab02b9c519c5941bc82b/vistrans/utils/__init__.py",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vistrans/utils/linalg.py",
+      "url": "https://raw.githubusercontent.com/FlyBrainLab/VisTrans/ba096778d4bd895a0e0fab02b9c519c5941bc82b/vistrans/utils/linalg.py",
+      "git_blob": "c5c2abd729302f5b48ccce02cf940e69fd08558e",
+      "bytes": 13016,
+      "sha256": "24911ff89332cc1bdb275757767af6677e50457c4ca0f85c8d1ba04e4f0d14a8"
+    },
+    {
+      "path": "vistrans/utils/parray.py",
+      "url": "https://raw.githubusercontent.com/FlyBrainLab/VisTrans/ba096778d4bd895a0e0fab02b9c519c5941bc82b/vistrans/utils/parray.py",
+      "git_blob": "7293fc594f2245a20ff5014407bd6e53ca4b29be",
+      "bytes": 91567,
+      "sha256": "9df2ef2b1b085b2d8832907a9f3f38968d5b858b93a4e24efb4910dd3658d748"
+    },
+    {
+      "path": "vistrans/utils/parray_utils.py",
+      "url": "https://raw.githubusercontent.com/FlyBrainLab/VisTrans/ba096778d4bd895a0e0fab02b9c519c5941bc82b/vistrans/utils/parray_utils.py",
+      "git_blob": "989e5c6a65498f1854cb5c28269608b7fbc8cab0",
+      "bytes": 59293,
+      "sha256": "6a22e563dbfd09264adda733a2fd44acade9b08c26ad81398f89eb88d34829b6"
+    }
+  ],
+  "executed": false,
+  "scope": "Author stochastic graded photoreceptor model; acquired for equation audit, not executed or connected to MaleCNS"
+}

@@ -1,0 +1,10 @@
+{
+  "samples": 84000,
+  "source_motor_spikes": 14,
+  "max_control_error": 3.885780586188048e-16,
+  "max_joint_difference_radians": 0.01190473322915242,
+  "disabled_controls_zero": true,
+  "closed_loop": false,
+  "biological_motor_map_validated": false,
+  "trace_sha256": "92fc927b0cbb1de3d5a89160ec94d4f371c006b21b57a87a753d28a79ce2e224"
+}

@@ -1,0 +1,28 @@
+{
+  "nodes": 127400,
+  "edges": 14687178,
+  "steps": 10000,
+  "protocol_sha256": "d99af36f72e0c2258bb978491e7fecd02d8842f311c6c6a0e277f69fefa22102",
+  "all_spike_events_exact": false,
+  "gpu_spikes": 9574,
+  "brian_spikes": 9440,
+  "gpu_only_events": 3599,
+  "brian_only_events": 3465,
+  "target_spikes_exact": false,
+  "target_spike_count": 68,
+  "max_target_voltage_error_mv": 33.653190526115814,
+  "voltage_tolerance_mv": 0.002,
+  "numerical_comparison_passed": false,
+  "predicted_target_responded": true,
+  "gpu_wall_seconds": 23.8093218,
+  "brian_wall_seconds": 31.17099999997299,
+  "source_reports": {
+    "shiu_sugar_pilot.json": "a20d9889061b35ee33dc6cd58bb4f47d749539cf85729279f4873083fa90e073",
+    "shiu_brian_pilot.json": "c0f8990d3425e04b188b20f4e5f553bbb9ae497b126c0be27c72e53898ce19ad"
+  },
+  "spike_files": {
+    "shiu_sugar_pilot.spikes.bin": "f29e6ec2c55cb6f2d35ea70cf2356227ab978863efda0ceb39ed6f9a65bf4f73",
+    "shiu_brian_pilot.spikes.bin": "4136a78dd07b81a70e79825440dbd59d60e14fe61b093a7805cfdc45fbc7e780"
+  },
+  "scope": "original full author graph, one sugar pilot, shared inputs; biological replication gate remains open"
+}

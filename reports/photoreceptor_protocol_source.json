@@ -1,0 +1,8 @@
+{
+  "url": "https://neurokernel.github.io/rfc/nk-rfc3.pdf",
+  "sha256": "6010bc3d70e241957146641136ea557b6310170ba83e85af5ea1493148fb54e0",
+  "protocol": "Figure 15, section 4.3.2: constant-light onset at 0.5 s; figure spans 2 s",
+  "scope": "Model reference protocol; not raw biological recording",
+  "chosen_single_rate_photons_per_s": 100000,
+  "full_intensity_series_reproduced": false
+}

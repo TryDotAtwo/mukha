@@ -1,0 +1,23 @@
+{
+  "scope": "Inference from complete-graph anatomical contacts; not independently validated visual fields",
+  "graph_manifest_sha256": "b30e21078c0479ac288e7f9d3b7cb2c9eb76aa3b9707f3a2b9fa6a92bb822ef3",
+  "r16_neurons": 3377,
+  "anchor_neurons": 4426,
+  "evidence_rows": 8550,
+  "status_counts": {
+    "multi_type_agreement_candidate": 3235,
+    "single_anchor_type_only": 90,
+    "no_anchor_contacts": 42,
+    "tied_or_disagreeing": 10
+  },
+  "inputs_touching_coordinate_conflict": 0,
+  "candidate_sha256": "1ebc51c23ec3bc5120b4b49433abea45bf52f9e5372b0b8a9ff2b5262888fea1",
+  "edges_sha256": "be6e40ebf01188264328ab6f340be02f341d8542b1ef46496f3b7a0ec4cdfc1d",
+  "visual_input_enabled": false,
+  "caveats": [
+    "Top-count agreement is not a statistical confidence estimate.",
+    "Unassigned L1/L2/L3 coordinates limit available anchors.",
+    "A known source coordinate conflict is retained in evidence.",
+    "Column identity is not an optical viewing direction or phototransduction model."
+  ]
+}

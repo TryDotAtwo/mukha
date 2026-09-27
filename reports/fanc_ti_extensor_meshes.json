@@ -1,0 +1,55 @@
+{
+  "scope": "Source-pinned published 3D meshes for the FANC T1 tibia-extensor pair",
+  "published_pair_source_report": "reports/fanc_ti_extensor_source_ids.json",
+  "meshes": [
+    {
+      "segment_id": "648518346493238080",
+      "source_manifest": "https://storage.googleapis.com/lee-lab_female-adult-nerve-cord/meshes/FANC/FANC_neurons/meshes/648518346493238080:0?generation=1685135798532508",
+      "source_fragment": "https://storage.googleapis.com/lee-lab_female-adult-nerve-cord/meshes/FANC/FANC_neurons/meshes/648518346493238080:0:1?generation=1685135801215267",
+      "source_files_are_gzip_encoded": true,
+      "local_files_are_decompressed_http_payloads": true,
+      "manifest_sha256": "3d9a601699ed293f80bafc162d4dd714943266b3b66884854ad96729bee19b04",
+      "fragment_sha256": "d9a0ab526e1539a1a942f162e7d6252deec07e46122181aeafa0da1be11e0a8d",
+      "manifest_generation": "1685135798532508",
+      "fragment_generation": "1685135801215267",
+      "vertex_count": 2623059,
+      "triangle_count": 5287133,
+      "bbox_min_nm": [
+        18630.0,
+        358128.0,
+        56088.0
+      ],
+      "bbox_max_nm": [
+        150894.0,
+        501372.0,
+        171108.0
+      ]
+    },
+    {
+      "segment_id": "648518346495797355",
+      "source_manifest": "https://storage.googleapis.com/lee-lab_female-adult-nerve-cord/meshes/FANC/FANC_neurons/meshes/648518346495797355:0?generation=1685132518125363",
+      "source_fragment": "https://storage.googleapis.com/lee-lab_female-adult-nerve-cord/meshes/FANC/FANC_neurons/meshes/648518346495797355:0:1?generation=1685132519981130",
+      "source_files_are_gzip_encoded": true,
+      "local_files_are_decompressed_http_payloads": true,
+      "manifest_sha256": "351f57099b98a84c525d64221939fa4aa6000f03dac3c1aa79a1f3525a6c870a",
+      "fragment_sha256": "871ceac63ea3ed42b44a71000acbd693217fe4893d89c458a2d3aa79531ec5cd",
+      "manifest_generation": "1685132518125363",
+      "fragment_generation": "1685132519981130",
+      "vertex_count": 1642995,
+      "triangle_count": 3305832,
+      "bbox_min_nm": [
+        20592.0,
+        385182.0,
+        59130.0
+      ],
+      "bbox_max_nm": [
+        141624.0,
+        485226.0,
+        169128.0
+      ]
+    }
+  ],
+  "fanc_mn39_vs_mn40_assignment_verified": false,
+  "fanc_to_manc_registration_performed": false,
+  "motor_mapping_enabled": false
+}

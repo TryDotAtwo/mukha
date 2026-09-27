@@ -1,0 +1,459 @@
+{
+  "scope": "Shape-only diagnostic over hypothesized 12 axial-hex symmetries and all integer translations; no accepted cross-specimen registration",
+  "source_eyemap_sha256": "c3f63c69afdc3f381cdafabb1d376b8e25ec5a71bce67550ae42fcdd79cf618e",
+  "male_columns_sha256": "a759e230dc1dde74977d0e763b51facec464c469aeaca96cc07b44116a49ad31",
+  "fafb_hex_rays_sha256": "1276926dac9d071063c215569d18b5e64a4763a91a609aab706c2b012c166b2e",
+  "male_right_columns": 892,
+  "fafb_right_lenses": 852,
+  "orientation_best_candidates": [
+    {
+      "rotation_sixth_turns": 0,
+      "reflected": true,
+      "matrix": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "shift_hex1": 18,
+      "shift_hex2": 18,
+      "overlapping_lenses": 846,
+      "orientation_rank": 1
+    },
+    {
+      "rotation_sixth_turns": 3,
+      "reflected": true,
+      "matrix": [
+        [
+          0,
+          -1
+        ],
+        [
+          -1,
+          0
+        ]
+      ],
+      "shift_hex1": 19,
+      "shift_hex2": 21,
+      "overlapping_lenses": 836,
+      "orientation_rank": 1
+    },
+    {
+      "rotation_sixth_turns": 3,
+      "reflected": false,
+      "matrix": [
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ]
+      ],
+      "shift_hex1": 20,
+      "shift_hex2": 20,
+      "overlapping_lenses": 819,
+      "orientation_rank": 1
+    },
+    {
+      "rotation_sixth_turns": 0,
+      "reflected": false,
+      "matrix": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "shift_hex1": 18,
+      "shift_hex2": 20,
+      "overlapping_lenses": 814,
+      "orientation_rank": 1
+    },
+    {
+      "rotation_sixth_turns": 1,
+      "reflected": false,
+      "matrix": [
+        [
+          0,
+          -1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "shift_hex1": 18,
+      "shift_hex2": 20,
+      "overlapping_lenses": 378,
+      "orientation_rank": 1
+    },
+    {
+      "rotation_sixth_turns": 4,
+      "reflected": false,
+      "matrix": [
+        [
+          0,
+          1
+        ],
+        [
+          -1,
+          -1
+        ]
+      ],
+      "shift_hex1": 19,
+      "shift_hex2": 19,
+      "overlapping_lenses": 378,
+      "orientation_rank": 1
+    },
+    {
+      "rotation_sixth_turns": 1,
+      "reflected": true,
+      "matrix": [
+        [
+          1,
+          1
+        ],
+        [
+          0,
+          -1
+        ]
+      ],
+      "shift_hex1": 20,
+      "shift_hex2": 21,
+      "overlapping_lenses": 369,
+      "orientation_rank": 1
+    },
+    {
+      "rotation_sixth_turns": 2,
+      "reflected": true,
+      "matrix": [
+        [
+          1,
+          0
+        ],
+        [
+          -1,
+          -1
+        ]
+      ],
+      "shift_hex1": 15,
+      "shift_hex2": 23,
+      "overlapping_lenses": 369,
+      "orientation_rank": 1
+    },
+    {
+      "rotation_sixth_turns": 4,
+      "reflected": true,
+      "matrix": [
+        [
+          -1,
+          -1
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "shift_hex1": 20,
+      "shift_hex2": 22,
+      "overlapping_lenses": 369,
+      "orientation_rank": 1
+    },
+    {
+      "rotation_sixth_turns": 5,
+      "reflected": true,
+      "matrix": [
+        [
+          -1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "shift_hex1": 20,
+      "shift_hex2": 16,
+      "overlapping_lenses": 369,
+      "orientation_rank": 1
+    },
+    {
+      "rotation_sixth_turns": 2,
+      "reflected": false,
+      "matrix": [
+        [
+          -1,
+          -1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "shift_hex1": 24,
+      "shift_hex2": 19,
+      "overlapping_lenses": 361,
+      "orientation_rank": 1
+    },
+    {
+      "rotation_sixth_turns": 5,
+      "reflected": false,
+      "matrix": [
+        [
+          1,
+          1
+        ],
+        [
+          -1,
+          0
+        ]
+      ],
+      "shift_hex1": 17,
+      "shift_hex2": 24,
+      "overlapping_lenses": 361,
+      "orientation_rank": 1
+    }
+  ],
+  "top_candidates": [
+    {
+      "rotation_sixth_turns": 0,
+      "reflected": true,
+      "matrix": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "shift_hex1": 18,
+      "shift_hex2": 18,
+      "overlapping_lenses": 846,
+      "orientation_rank": 1
+    },
+    {
+      "rotation_sixth_turns": 0,
+      "reflected": true,
+      "matrix": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "shift_hex1": 19,
+      "shift_hex2": 19,
+      "overlapping_lenses": 844,
+      "orientation_rank": 2
+    },
+    {
+      "rotation_sixth_turns": 0,
+      "reflected": true,
+      "matrix": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "shift_hex1": 18,
+      "shift_hex2": 19,
+      "overlapping_lenses": 843,
+      "orientation_rank": 3
+    },
+    {
+      "rotation_sixth_turns": 3,
+      "reflected": true,
+      "matrix": [
+        [
+          0,
+          -1
+        ],
+        [
+          -1,
+          0
+        ]
+      ],
+      "shift_hex1": 19,
+      "shift_hex2": 21,
+      "overlapping_lenses": 836,
+      "orientation_rank": 1
+    },
+    {
+      "rotation_sixth_turns": 3,
+      "reflected": true,
+      "matrix": [
+        [
+          0,
+          -1
+        ],
+        [
+          -1,
+          0
+        ]
+      ],
+      "shift_hex1": 20,
+      "shift_hex2": 21,
+      "overlapping_lenses": 833,
+      "orientation_rank": 2
+    },
+    {
+      "rotation_sixth_turns": 3,
+      "reflected": true,
+      "matrix": [
+        [
+          0,
+          -1
+        ],
+        [
+          -1,
+          0
+        ]
+      ],
+      "shift_hex1": 20,
+      "shift_hex2": 22,
+      "overlapping_lenses": 833,
+      "orientation_rank": 3
+    },
+    {
+      "rotation_sixth_turns": 3,
+      "reflected": false,
+      "matrix": [
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ]
+      ],
+      "shift_hex1": 20,
+      "shift_hex2": 20,
+      "overlapping_lenses": 819,
+      "orientation_rank": 1
+    },
+    {
+      "rotation_sixth_turns": 3,
+      "reflected": false,
+      "matrix": [
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ]
+      ],
+      "shift_hex1": 20,
+      "shift_hex2": 21,
+      "overlapping_lenses": 819,
+      "orientation_rank": 2
+    },
+    {
+      "rotation_sixth_turns": 3,
+      "reflected": false,
+      "matrix": [
+        [
+          -1,
+          0
+        ],
+        [
+          0,
+          -1
+        ]
+      ],
+      "shift_hex1": 21,
+      "shift_hex2": 21,
+      "overlapping_lenses": 818,
+      "orientation_rank": 3
+    },
+    {
+      "rotation_sixth_turns": 0,
+      "reflected": false,
+      "matrix": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "shift_hex1": 18,
+      "shift_hex2": 20,
+      "overlapping_lenses": 814,
+      "orientation_rank": 1
+    },
+    {
+      "rotation_sixth_turns": 0,
+      "reflected": false,
+      "matrix": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "shift_hex1": 17,
+      "shift_hex2": 20,
+      "overlapping_lenses": 813,
+      "orientation_rank": 2
+    },
+    {
+      "rotation_sixth_turns": 0,
+      "reflected": false,
+      "matrix": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "shift_hex1": 17,
+      "shift_hex2": 19,
+      "overlapping_lenses": 812,
+      "orientation_rank": 3
+    }
+  ],
+  "top_two_measured_rays_on_male_grid": [
+    778,
+    778
+  ],
+  "top_two_shared_male_columns_with_measured_rays": 743,
+  "top_two_ray_angle_disagreement_deg": {
+    "min": 1.7833477462586589,
+    "median": 4.873616709063365,
+    "p90": 6.09662516495324,
+    "max": 8.325363919642289
+  },
+  "interpretation": "Large grid overlap under several nearby transforms does not identify homologous cells. The top two shape candidates differ by roughly one column and yield distinct optical rays on the same MaleCNS columns. Landmarks and held-out optical/anatomical validation are required.",
+  "registration_accepted": false,
+  "male_cns_neuron_ray_assignments": 0,
+  "visual_input_enabled": false
+}

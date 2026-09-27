@@ -1,0 +1,30 @@
+{
+  "source_commit": "e1233f4a987c532c9f1ab42273af21a0a6a50393",
+  "verified_files": 31,
+  "source_executed": false,
+  "author_model": {
+    "activation": "Binary thresholded angle derivative for hook and club",
+    "hook_flex_fit_threshold": -5,
+    "club_fit_threshold": 5,
+    "threshold_units": "degrees/s",
+    "gcamp_tau_on_s": 0.03,
+    "gcamp_tau_off_s": 0.3,
+    "kernel": "Difference of exponentials normalized by discrete sum",
+    "derivative_first_sample": "Repeated first forward difference",
+    "kernel_time": "linspace(0,N/sr,N): spacing N/(N-1)/sr, not 1/sr",
+    "normalization": "Kernel length depends on complete input trace; author function is offline"
+  },
+  "reproduction_cautions": [
+    "Preserve author finite-trace normalization and time vector in replication",
+    "Do not silently reinterpret binary activation as measured spikes",
+    "Online filter equivalence and exposure integration require separate validation",
+    "Claw fit script subtracts 90 degrees while predictor subtracts 80; inspect before replication",
+    "Hook example computes -25 threshold but legend says -10"
+  ],
+  "calibration_download": {
+    "api_status": 401,
+    "public_link_web_status": 403,
+    "files_acquired": false
+  },
+  "runtime_enabled": false
+}

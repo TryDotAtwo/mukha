@@ -1,0 +1,46 @@
+{
+  "scope": "Fixed-current membrane numerical comparison only; no photons or biological validation",
+  "passed": true,
+  "ticks": 10000,
+  "simulated_seconds": 1,
+  "protocols": 4,
+  "state_variables": [
+    "V",
+    "sa",
+    "si",
+    "dra",
+    "dri",
+    "nov"
+  ],
+  "max_abs_error_by_variable": [
+    1.7763568394002505e-14,
+    4.440892098500626e-16,
+    5.551115123125783e-16,
+    2.220446049250313e-16,
+    0.0,
+    5.551115123125783e-17
+  ],
+  "gpu_voltage_range_mv": [
+    -81.99250658992402,
+    13.33421305304826
+  ],
+  "final_voltage_mv": [
+    -81.99250658992402,
+    -45.92005141016276,
+    -17.022612470151078,
+    -81.98981117328493
+  ],
+  "initial_voltage_mv": -81.9925,
+  "current_protocols_model_units": [
+    "0",
+    "10",
+    "100",
+    "100 on [0.2,0.4) seconds; otherwise 0"
+  ],
+  "hashes": {
+    "build\\photoreceptor_hh_trace.bin": "1ea4ee31997bb4f8b469577739f3a564d73f1fe569795dc32649e1a5e76338ac",
+    "build\\photoreceptor_probe.exe": "eaa16f0018a0f131d0f4b241955e6b56f46878f44664b385f9828e4bea582547",
+    "build\\photoreceptor_author_hh.cu": "22b4e9346419c47d3e40872f4cf326b5d56400a099a4b133da47580b5b383c4e",
+    "tools\\check_photoreceptor_membrane.py": "6a6842b808df8f0ced3f6e5193ad9e94baaeedd4b8490cf53314119eec15be4d"
+  }
+}

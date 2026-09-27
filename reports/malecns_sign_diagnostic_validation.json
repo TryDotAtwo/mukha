@@ -1,0 +1,14 @@
+{
+  "hardware": "NVIDIA GeForce RTX 3070 Laptop GPU, 572.70, 8192 MiB",
+  "neurons_with_different_counts": 1831,
+  "simulation_ms": 100,
+  "neuron_count": 167216,
+  "source_sha256": "7a583f10cfe4e606795b02d91e48466e8aafa7bb2a8edd3cae41a834badd209d",
+  "files": {
+    "report.json": "920217335a5abf2644adc006f1de0a7831bcfc21d3edd857ecd0a6639f72f3cc",
+    "spec.json": "d10178ac34db8dd1615738e9621612d75b5ea3f4fc2fe39d21d39c3670cc3f2f",
+    "unclear_excitatory_counts.npy": "9059ec1f5b3baecb5e375724cceb1c630e7797b15a2d0bd3702a1a7f7c8f4fa1",
+    "unclear_inhibitory_counts.npy": "1e20db626a396c205f5bea35f4521c0f0bd2507def14766cd6b2dde73616a2da"
+  },
+  "scope": "Two full-graph diagnostic hypotheses; not physiological validation, independent reference comparison, or performance benchmark"
+}

@@ -1,0 +1,64 @@
+{
+  "scope": "Local files and shipped RPC schemas only; no running game, server or physics-step test",
+  "ksp_root": "D:\\SteamLibrary\\steamapps\\common\\Kerbal Space Program",
+  "ksp_build_id": "03190",
+  "ksp_log_first_line": "[LOG 12:39:06.807] ******* Log Initiated for Kerbal Space Program - 1.12.5.3190 (WindowsPlayer x64) ru *******",
+  "ksp_log_predates_krpc_install": true,
+  "krpc_changelog_release_header": "## [v0.6.0]",
+  "krpc_settings_bytes": 1,
+  "game_data_top_level_directories": [
+    "Squad",
+    "kRPC"
+  ],
+  "shipped_rpc_capabilities": {
+    "pause_read": true,
+    "pause_write": true,
+    "physics_warp_read": true,
+    "physics_warp_write": true,
+    "autopilot_engaged_read": true,
+    "sas_read": true,
+    "control_state_read": true,
+    "control_source_read": true,
+    "throttle_read": true,
+    "pitch_read": true,
+    "yaw_read": true,
+    "roll_read": true,
+    "pitch_trim_read": true,
+    "yaw_trim_read": true,
+    "roll_trim_read": true
+  },
+  "explicit_physics_single_step_rpc_names": [],
+  "files": {
+    "KSP_x64.exe": {
+      "bytes": 661336,
+      "sha256": "7f9f43c8cd831f91992aa88d77ea78fab39bc339bb42f2d19b3874cee28c82d5"
+    },
+    "buildID64.txt": {
+      "bytes": 108,
+      "sha256": "4764f6f3f14dde9fdcbba66d8e5691cc9497a8541f7b43d2d2c2e7f25379d801"
+    },
+    "GameData/kRPC/KRPC.dll": {
+      "bytes": 81408,
+      "sha256": "5aa1d0cdc8eecde0a3efbf16dee8bfa575f4acd94e8960619f642861f7afd2e4"
+    },
+    "GameData/kRPC/KRPC.Core.dll": {
+      "bytes": 321024,
+      "sha256": "0c7e447fc801c41d38169e82e39cb06c04df9973a4d6afa9d4c12e76ab313ad8"
+    },
+    "GameData/kRPC/KRPC.SpaceCenter.dll": {
+      "bytes": 425472,
+      "sha256": "ef3855f132477d3dd7c3a8fb8aae1fbbe8cca54f23bec5c333c04a91665bd8a4"
+    },
+    "GameData/kRPC/KRPC.Core.json": {
+      "bytes": 50351,
+      "sha256": "5c31bfc1ef0808ff00719b05e9f496d37616db5e5eeb917e7b946c838b39929e"
+    },
+    "GameData/kRPC/KRPC.SpaceCenter.json": {
+      "bytes": 1049366,
+      "sha256": "ddbcd4098400a9266b527c5beaa985cc802aac8ac6a85c075589b51e11ed5f20"
+    }
+  },
+  "live_bridge_verified": false,
+  "physics_time_control_verified": false,
+  "applied_control_provenance_verified": false
+}

@@ -1,0 +1,180 @@
+{
+  "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9012144/",
+  "hypothesis": "KC then DAN: DopR1-dependent depression; DAN then KC: DopR2-dependent potentiation, with exponentially decaying eligibility; positive rates and time constants.",
+  "readout_assumption": "MBON calcium-response change has the same sign as the local KC-to-MBON efficacy change.",
+  "parameter_scope": "Positive amplitudes do not change signs; the sampled positive time constants verify timing calculations. Knockout mismatches hold for every positive time constant.",
+  "rows": [
+    {
+      "tau_s": 0.1,
+      "condition": "wild_type_forward_0p5s",
+      "observed_sign": "negative",
+      "predicted_sign": "negative",
+      "matches": true
+    },
+    {
+      "tau_s": 0.1,
+      "condition": "wild_type_backward_1p2s",
+      "observed_sign": "positive",
+      "predicted_sign": "positive",
+      "matches": true
+    },
+    {
+      "tau_s": 0.1,
+      "condition": "dop_r1_null_forward_0p5s",
+      "observed_sign": "positive",
+      "predicted_sign": "zero",
+      "matches": false
+    },
+    {
+      "tau_s": 0.1,
+      "condition": "dop_r2_null_backward_1p2s",
+      "observed_sign": "negative",
+      "predicted_sign": "zero",
+      "matches": false
+    },
+    {
+      "tau_s": 0.5,
+      "condition": "wild_type_forward_0p5s",
+      "observed_sign": "negative",
+      "predicted_sign": "negative",
+      "matches": true
+    },
+    {
+      "tau_s": 0.5,
+      "condition": "wild_type_backward_1p2s",
+      "observed_sign": "positive",
+      "predicted_sign": "positive",
+      "matches": true
+    },
+    {
+      "tau_s": 0.5,
+      "condition": "dop_r1_null_forward_0p5s",
+      "observed_sign": "positive",
+      "predicted_sign": "zero",
+      "matches": false
+    },
+    {
+      "tau_s": 0.5,
+      "condition": "dop_r2_null_backward_1p2s",
+      "observed_sign": "negative",
+      "predicted_sign": "zero",
+      "matches": false
+    },
+    {
+      "tau_s": 1.0,
+      "condition": "wild_type_forward_0p5s",
+      "observed_sign": "negative",
+      "predicted_sign": "negative",
+      "matches": true
+    },
+    {
+      "tau_s": 1.0,
+      "condition": "wild_type_backward_1p2s",
+      "observed_sign": "positive",
+      "predicted_sign": "positive",
+      "matches": true
+    },
+    {
+      "tau_s": 1.0,
+      "condition": "dop_r1_null_forward_0p5s",
+      "observed_sign": "positive",
+      "predicted_sign": "zero",
+      "matches": false
+    },
+    {
+      "tau_s": 1.0,
+      "condition": "dop_r2_null_backward_1p2s",
+      "observed_sign": "negative",
+      "predicted_sign": "zero",
+      "matches": false
+    },
+    {
+      "tau_s": 3.0,
+      "condition": "wild_type_forward_0p5s",
+      "observed_sign": "negative",
+      "predicted_sign": "negative",
+      "matches": true
+    },
+    {
+      "tau_s": 3.0,
+      "condition": "wild_type_backward_1p2s",
+      "observed_sign": "positive",
+      "predicted_sign": "positive",
+      "matches": true
+    },
+    {
+      "tau_s": 3.0,
+      "condition": "dop_r1_null_forward_0p5s",
+      "observed_sign": "positive",
+      "predicted_sign": "zero",
+      "matches": false
+    },
+    {
+      "tau_s": 3.0,
+      "condition": "dop_r2_null_backward_1p2s",
+      "observed_sign": "negative",
+      "predicted_sign": "zero",
+      "matches": false
+    },
+    {
+      "tau_s": 10.0,
+      "condition": "wild_type_forward_0p5s",
+      "observed_sign": "negative",
+      "predicted_sign": "negative",
+      "matches": true
+    },
+    {
+      "tau_s": 10.0,
+      "condition": "wild_type_backward_1p2s",
+      "observed_sign": "positive",
+      "predicted_sign": "positive",
+      "matches": true
+    },
+    {
+      "tau_s": 10.0,
+      "condition": "dop_r1_null_forward_0p5s",
+      "observed_sign": "positive",
+      "predicted_sign": "zero",
+      "matches": false
+    },
+    {
+      "tau_s": 10.0,
+      "condition": "dop_r2_null_backward_1p2s",
+      "observed_sign": "negative",
+      "predicted_sign": "zero",
+      "matches": false
+    }
+  ],
+  "controls": {
+    "learning_disabled_forward": true,
+    "learning_disabled_backward": true,
+    "unpaired_kc": true,
+    "model_unpaired_dan_predicts_zero": true
+  },
+  "cross_protocol_dan_alone_challenge": {
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4732734/",
+    "observation": "Cohn et al. 2015 gamma4/gamma5 DAN activation without KC during induction potentiated later KC-evoked gamma4 MBON response.",
+    "model_prediction": "zero",
+    "matches": false,
+    "scope": "Qualitative separate-study control, not a numerical fit to Handler conditions."
+  },
+  "conditional_additive_constraints": {
+    "assumption": "Receptor deletion removes only that branch, with unchanged other branch and monotonic readout.",
+    "forward": "DopR1 contribution < -DopR2 contribution < 0",
+    "backward": "DopR2 contribution > -DopR1 contribution > 0",
+    "example_witness_not_fit": {
+      "forward_r1": -2.0,
+      "forward_r2": 1.0,
+      "backward_r1": -1.0,
+      "backward_r2": 2.0
+    },
+    "witness_signs": {
+      "wild_type_forward": "negative",
+      "dop_r1_null_forward": "positive",
+      "wild_type_backward": "positive",
+      "dop_r2_null_backward": "negative"
+    }
+  },
+  "accepts_all_constraints": false,
+  "conclusion": "Reject this one-sided rule under its readout assumption; do not enable it in the MaleCNS graph."
+}

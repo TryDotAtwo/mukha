@@ -1,0 +1,78 @@
+{
+  "repository": "philshiu/Drosophila_brain_model",
+  "commit": "91bdd1e7dcf193f3e7ca5a8933497fcef63b7960",
+  "license": "MIT (see downloaded LICENSE)",
+  "files": [
+    {
+      "path": "data/reference/shiu_2024/LICENSE",
+      "source_url": "https://raw.githubusercontent.com/philshiu/Drosophila_brain_model/91bdd1e7dcf193f3e7ca5a8933497fcef63b7960/LICENSE",
+      "bytes": 1085,
+      "git_blob": "deca2d0f1e82e910d8248b0d27398eb9450976ee",
+      "sha256": "3621f6d6476189190e2960fa43f11b275ba4eca848fdac50a1ba2925de6223e8"
+    },
+    {
+      "path": "data/reference/shiu_2024/model.py",
+      "source_url": "https://raw.githubusercontent.com/philshiu/Drosophila_brain_model/91bdd1e7dcf193f3e7ca5a8933497fcef63b7960/model.py",
+      "bytes": 11900,
+      "git_blob": "5ba7083cf55bf6092967f8d9065e86cd677efed1",
+      "sha256": "fc45837d7122c6ce2a7f3f2f23c515992e4b232aadb919efabb72337fac88e4e"
+    },
+    {
+      "path": "data/reference/shiu_2024/Readme.md",
+      "source_url": "https://raw.githubusercontent.com/philshiu/Drosophila_brain_model/91bdd1e7dcf193f3e7ca5a8933497fcef63b7960/Readme.md",
+      "bytes": 3617,
+      "git_blob": "2f7d66ec7fbcd849fcb4c99e2412b171d37a565f",
+      "sha256": "0654ac53f9af85000b50f6a5d2297aade8602c507a44e811f8aff602629c2625"
+    },
+    {
+      "path": "data/reference/shiu_2024/environment_full.yml",
+      "source_url": "https://raw.githubusercontent.com/philshiu/Drosophila_brain_model/91bdd1e7dcf193f3e7ca5a8933497fcef63b7960/environment_full.yml",
+      "bytes": 3445,
+      "git_blob": "1428b314d40bf8b7dc2cb3991db213c12033fdfc",
+      "sha256": "402fcef4968c99397b0e908b3323ab9e6ef86af5583e46e6427f96f3d1091adf"
+    },
+    {
+      "path": "data/reference/shiu_2024/example.ipynb",
+      "source_url": "https://raw.githubusercontent.com/philshiu/Drosophila_brain_model/91bdd1e7dcf193f3e7ca5a8933497fcef63b7960/example.ipynb",
+      "bytes": 10282,
+      "git_blob": "bc479485c42c18ef50762d9ab50817bc96d65c8d",
+      "sha256": "1737c3043af700504c4791c4bfc02d1856bbeb0d36c469832e4b9399dfddda3a"
+    },
+    {
+      "path": "data/reference/shiu_2024/figures.ipynb",
+      "source_url": "https://raw.githubusercontent.com/philshiu/Drosophila_brain_model/91bdd1e7dcf193f3e7ca5a8933497fcef63b7960/figures.ipynb",
+      "bytes": 33229,
+      "git_blob": "25db39b200f3175f575154408e722218b3761262",
+      "sha256": "33cd73c0b4b4a291c51b7bab639c4fa28978e49e111ff0d6adbca5687addb84c"
+    },
+    {
+      "path": "data/reference/shiu_2024/sez_neurons.pickle",
+      "source_url": "https://raw.githubusercontent.com/philshiu/Drosophila_brain_model/91bdd1e7dcf193f3e7ca5a8933497fcef63b7960/sez_neurons.pickle",
+      "bytes": 5114,
+      "git_blob": "7fdfc5d9fe43789468d349d86d3f23df068962ed",
+      "sha256": "2bc5a2a8289924f2de39a8e68bdc07025cb6d6c6c6ddc83a973c0cace7cec2ce"
+    },
+    {
+      "path": "data/reference/shiu_2024/2023_03_23_completeness_630_final.csv",
+      "source_url": "https://raw.githubusercontent.com/philshiu/Drosophila_brain_model/91bdd1e7dcf193f3e7ca5a8933497fcef63b7960/2023_03_23_completeness_630_final.csv",
+      "bytes": 3057611,
+      "git_blob": "be745f0ce054308df21accc5c4b3883aa38498f9",
+      "sha256": "e6b71e17671a9bdb05f55e4bc6774640a1418cb7a05125e0fc994ad40f9bfdfb"
+    },
+    {
+      "path": "data/reference/shiu_2024/2023_03_23_connectivity_630_final.parquet",
+      "source_url": "https://raw.githubusercontent.com/philshiu/Drosophila_brain_model/91bdd1e7dcf193f3e7ca5a8933497fcef63b7960/2023_03_23_connectivity_630_final.parquet",
+      "bytes": 86630944,
+      "git_blob": "8b4d9531bc0acbda7c2074ae577e6ac9e2fca166",
+      "sha256": "94db8c650533bc36ffa3223f2e62325d5648b8d6bd31c3a4e1c804628c7557b3"
+    },
+    {
+      "path": "data/reference/shiu_2024/results/example/sugarR_100Hz.parquet",
+      "source_url": "https://raw.githubusercontent.com/philshiu/Drosophila_brain_model/91bdd1e7dcf193f3e7ca5a8933497fcef63b7960/results/example/sugarR_100Hz.parquet",
+      "bytes": 557849,
+      "git_blob": "bd76730d5e991d64b756f354a749f94ffb874c64",
+      "sha256": "93722ec03c3faa5a85790d77ed16bdd7f1e38a7c847ed0bc3af3dc2e4d0c3d34"
+    }
+  ],
+  "executed": false
+}

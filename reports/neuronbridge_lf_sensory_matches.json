@@ -1,0 +1,569 @@
+{
+  "scope": "Public NeuronBridge color-depth VNC image matches for MaleCNS v0.9 IDs; comparison only, not peripheral receptor identification",
+  "api_version": "v3_10_0",
+  "source_api_documentation": "https://link.springer.com/article/10.1186/s12859-024-05732-7",
+  "source_files": {
+    "817697": {
+      "lookup_url": "https://janelia-neuronbridge-data-prod.s3.amazonaws.com/v3_10_0/metadata/by_body/817697.json",
+      "lookup_sha256": "06ffe02e16d3a29d96ed466920054242ee7aee4993c5e31102642be86fad6f1e",
+      "match_url": "https://janelia-neuronbridge-data-prod.s3.amazonaws.com/v3_10_0/metadata/cdsresults/3514108688750637187.json",
+      "match_sha256": "2bd4549fe7551238022f9b785bb8c48accd6016a1946f11279bd0bb43c5d92b6"
+    },
+    "821306": {
+      "lookup_url": "https://janelia-neuronbridge-data-prod.s3.amazonaws.com/v3_10_0/metadata/by_body/821306.json",
+      "lookup_sha256": "8a85c33b6a033e0c8c644f44072bc10d6f1033ac063a06d084696d49c7df8112",
+      "match_url": "https://janelia-neuronbridge-data-prod.s3.amazonaws.com/v3_10_0/metadata/cdsresults/3514108690396049539.json",
+      "match_sha256": "9fa26d822c02defa1676114c64d044901d6e9894ff7378be801d72d657618bda"
+    },
+    "912317": {
+      "lookup_url": "https://janelia-neuronbridge-data-prod.s3.amazonaws.com/v3_10_0/metadata/by_body/912317.json",
+      "lookup_sha256": "57e0bfb0c342699df0e5ab066c7cd6ac7f9f76b47e5229907830b0f7c27c13f4",
+      "match_url": "https://janelia-neuronbridge-data-prod.s3.amazonaws.com/v3_10_0/metadata/cdsresults/3514108697493147779.json",
+      "match_sha256": "7d40999108471a5c715a1c36fffeb5b31ca2d634eee6dd846c0da126629f1d10"
+    }
+  },
+  "results": {
+    "817697": {
+      "source_image_library": "FlyEM_Male_CNS_VNC_v0.9",
+      "source_image_published_name": "male-cns:v0.9:817697",
+      "source_image_id": "3514108688750637187",
+      "raw_match_count": 2275,
+      "top_25_distinct_lines": [
+        "IS68471",
+        "SS46318",
+        "SS46313",
+        "SS32427",
+        "SS61008",
+        "SS62046",
+        "SS47896",
+        "SS02381",
+        "SS20739",
+        "SS48402",
+        "SS49623",
+        "IS72899",
+        "SS23736",
+        "SS51867",
+        "IS79026",
+        "SS01589",
+        "SS33365",
+        "SS27417",
+        "SS03524",
+        "IS27595",
+        "SS52796",
+        "SS49483",
+        "SS20847",
+        "SS25488",
+        "SS02479"
+      ],
+      "top_25_original_rows": [
+        {
+          "line": "IS68471",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 34909.344
+        },
+        {
+          "line": "SS46318",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 32811.805
+        },
+        {
+          "line": "SS46313",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 31428.572
+        },
+        {
+          "line": "SS32427",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 30476.191
+        },
+        {
+          "line": "SS46313",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 30476.191
+        },
+        {
+          "line": "SS61008",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 28571.428
+        },
+        {
+          "line": "SS62046",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 28095.238
+        },
+        {
+          "line": "SS47896",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 28095.238
+        },
+        {
+          "line": "SS46313",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 26666.666
+        },
+        {
+          "line": "SS02381",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 26666.666
+        },
+        {
+          "line": "SS20739",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 25536.037
+        },
+        {
+          "line": "SS20739",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 25297.94
+        },
+        {
+          "line": "SS48402",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 25238.096
+        },
+        {
+          "line": "SS46318",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 24760.4
+        },
+        {
+          "line": "SS46313",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 24674.838
+        },
+        {
+          "line": "SS49623",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 24285.715
+        },
+        {
+          "line": "IS72899",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 24285.715
+        },
+        {
+          "line": "SS23736",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 23809.523
+        },
+        {
+          "line": "SS46318",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 23349.268
+        },
+        {
+          "line": "SS49623",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 23333.334
+        },
+        {
+          "line": "SS61008",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 23073.246
+        },
+        {
+          "line": "SS51867",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 22882.22
+        },
+        {
+          "line": "SS46313",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 22838.418
+        },
+        {
+          "line": "IS79026",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 22510.58
+        },
+        {
+          "line": "SS01589",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 21905.213
+        }
+      ]
+    },
+    "821306": {
+      "source_image_library": "FlyEM_Male_CNS_VNC_v0.9",
+      "source_image_published_name": "male-cns:v0.9:821306",
+      "source_image_id": "3514108690396049539",
+      "raw_match_count": 2484,
+      "top_25_distinct_lines": [
+        "SS46313",
+        "IS44081",
+        "IS68471",
+        "SS41564",
+        "IS79026",
+        "IS78480",
+        "SS28954",
+        "SS49483",
+        "SS49623",
+        "SS20847",
+        "SS03524",
+        "SS23714",
+        "IS35832",
+        "SS62046",
+        "SS02381",
+        "SS61008",
+        "IS78761",
+        "SS46319",
+        "IS72899",
+        "SS04739",
+        "SS48402",
+        "IS44393",
+        "SS25488",
+        "SS31452",
+        "SS34575"
+      ],
+      "top_25_original_rows": [
+        {
+          "line": "SS46313",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 34834.344
+        },
+        {
+          "line": "SS46313",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 31548.084
+        },
+        {
+          "line": "IS44081",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 29398.777
+        },
+        {
+          "line": "IS68471",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 26027.168
+        },
+        {
+          "line": "SS41564",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 25396.826
+        },
+        {
+          "line": "SS46313",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 24226.908
+        },
+        {
+          "line": "IS79026",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 23618.363
+        },
+        {
+          "line": "SS46313",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 22722.13
+        },
+        {
+          "line": "IS78480",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 22344.129
+        },
+        {
+          "line": "SS28954",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 22222.223
+        },
+        {
+          "line": "SS49483",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 21428.572
+        },
+        {
+          "line": "SS49623",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 21257.938
+        },
+        {
+          "line": "SS20847",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 19841.27
+        },
+        {
+          "line": "SS03524",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 19702.75
+        },
+        {
+          "line": "SS49623",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 19452.76
+        },
+        {
+          "line": "SS23714",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 19142.893
+        },
+        {
+          "line": "IS35832",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 19047.62
+        },
+        {
+          "line": "SS49623",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 19047.62
+        },
+        {
+          "line": "SS49623",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 18942.887
+        },
+        {
+          "line": "SS62046",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 18935.11
+        },
+        {
+          "line": "SS02381",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 18253.969
+        },
+        {
+          "line": "SS61008",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 18120.182
+        },
+        {
+          "line": "IS78761",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 18058.637
+        },
+        {
+          "line": "SS46319",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 18048.785
+        },
+        {
+          "line": "SS46313",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 17860.492
+        }
+      ]
+    },
+    "912317": {
+      "source_image_library": "FlyEM_Male_CNS_VNC_v0.9",
+      "source_image_published_name": "male-cns:v0.9:912317",
+      "source_image_id": "3514108697493147779",
+      "raw_match_count": 2079,
+      "top_25_distinct_lines": [
+        "SS46318",
+        "SS46313",
+        "SS42056",
+        "SS61008",
+        "SS67459",
+        "SS46317",
+        "SS20847",
+        "SS49483",
+        "SS03524",
+        "SS52119",
+        "SS02292",
+        "SS33343",
+        "SS49623",
+        "SS03887",
+        "R66B12",
+        "SS50324",
+        "SS46319",
+        "SS30817",
+        "SS50323",
+        "SS03888",
+        "VT033785",
+        "SS31884",
+        "SS65686",
+        "SS04739",
+        "SS64627"
+      ],
+      "top_25_original_rows": [
+        {
+          "line": "SS46318",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 48701.297
+        },
+        {
+          "line": "SS46313",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 47077.92
+        },
+        {
+          "line": "SS46313",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 44155.844
+        },
+        {
+          "line": "SS42056",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 42532.47
+        },
+        {
+          "line": "SS46313",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 42532.47
+        },
+        {
+          "line": "SS61008",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 40596.164
+        },
+        {
+          "line": "SS67459",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 38961.04
+        },
+        {
+          "line": "SS46313",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 38636.363
+        },
+        {
+          "line": "SS46313",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 38311.688
+        },
+        {
+          "line": "SS46318",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 38311.688
+        },
+        {
+          "line": "SS46317",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 36363.637
+        },
+        {
+          "line": "SS46318",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 36363.637
+        },
+        {
+          "line": "SS20847",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 36318.35
+        },
+        {
+          "line": "SS46318",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 35714.285
+        },
+        {
+          "line": "SS20847",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 35389.61
+        },
+        {
+          "line": "SS61008",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 35064.934
+        },
+        {
+          "line": "SS46318",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 34740.258
+        },
+        {
+          "line": "SS49483",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 34090.91
+        },
+        {
+          "line": "SS03524",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 33441.56
+        },
+        {
+          "line": "SS52119",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 33116.883
+        },
+        {
+          "line": "SS03524",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 33116.883
+        },
+        {
+          "line": "SS02292",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 33056.88
+        },
+        {
+          "line": "SS33343",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 32792.207
+        },
+        {
+          "line": "SS49483",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 32467.533
+        },
+        {
+          "line": "SS49623",
+          "library": "FlyLight Split-GAL4 Omnibus Broad",
+          "normalized_score": 32467.533
+        }
+      ]
+    }
+  },
+  "unique_line_overlap": {
+    "817697-821306": {
+      "10": {
+        "shared_count": 2,
+        "jaccard": 0.1111111111111111
+      },
+      "25": {
+        "shared_count": 13,
+        "jaccard": 0.35135135135135137
+      },
+      "50": {
+        "shared_count": 30,
+        "jaccard": 0.42857142857142855
+      },
+      "100": {
+        "shared_count": 70,
+        "jaccard": 0.5384615384615384
+      }
+    },
+    "817697-912317": {
+      "10": {
+        "shared_count": 3,
+        "jaccard": 0.17647058823529413
+      },
+      "25": {
+        "shared_count": 7,
+        "jaccard": 0.16279069767441862
+      },
+      "50": {
+        "shared_count": 24,
+        "jaccard": 0.3157894736842105
+      },
+      "100": {
+        "shared_count": 49,
+        "jaccard": 0.32450331125827814
+      }
+    },
+    "821306-912317": {
+      "10": {
+        "shared_count": 3,
+        "jaccard": 0.17647058823529413
+      },
+      "25": {
+        "shared_count": 8,
+        "jaccard": 0.19047619047619047
+      },
+      "50": {
+        "shared_count": 19,
+        "jaccard": 0.2345679012345679
+      },
+      "100": {
+        "shared_count": 50,
+        "jaccard": 0.3333333333333333
+      }
+    }
+  },
+  "limits": [
+    "Matches use aligned v0.9 VNC projections, while the native simulation uses v1.0 graph and SWCs.",
+    "Broad LM driver images can label multiple cells and do not establish peripheral receptor identity or physiological tuning.",
+    "Ranking scores are search-algorithm outputs, not confidence or biological response measurements."
+  ],
+  "biological_validation": false
+}

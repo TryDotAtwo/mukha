@@ -1,0 +1,36 @@
+{
+  "scope": "Predeclared diagnostic extension, not training or biological validation",
+  "simulation_seconds": 1.0,
+  "original_100ms_prefix_exact": true,
+  "clock_and_slider_command_checks": true,
+  "sensory_feedback": false,
+  "learning": false,
+  "cases": [
+    {
+      "motor_enabled": false,
+      "neural_spikes": 86475,
+      "steps_with_pad_contact": 0,
+      "maximum_pad_normal_force_model_units": 0.0,
+      "maximum_abs_slider_displacement_mm": 0.0,
+      "maximum_throttle": 0.0,
+      "maximum_thrust_n": 0.0
+    },
+    {
+      "motor_enabled": true,
+      "neural_spikes": 86475,
+      "steps_with_pad_contact": 0,
+      "maximum_pad_normal_force_model_units": 0.0,
+      "maximum_abs_slider_displacement_mm": 0.0,
+      "maximum_throttle": 0.0,
+      "maximum_thrust_n": 0.0
+    }
+  ],
+  "hashes": {
+    "build\\brain_duration_body.csv": "8f27014cc9fab0016b32a3aa6982d5b4ced6084be0ea7cd2c44b18676fb560c7",
+    "build\\brain_duration_spikes.csv": "5a59e6625edad35a493bf8f6ea9d02cae81cfe509c6c22b3fe115a11688c22fa",
+    "build\\brain_duration_environment.csv": "c8654fedffebc37da7a9593331774c0eba30a2a712253ffa426aeafc466c1ee2",
+    "build\\brain_duration_environment.csv.contacts.csv": "ca68ed06804d99f9ff57ff1b797da12558a6ea0b6838a43f0cf986249985e136",
+    "configs\\brain_body_duration_pilot.json": "748c69c8bea39b4f7d6e7fd8a6897c9e8b87ab7be4ac15e3812a650fd0f94134",
+    "build\\brain_body_probe.exe": "ce4b876e590c83b3ab33efc196d5fadabc0704727b908a77c3ac1d9798c38649"
+  }
+}

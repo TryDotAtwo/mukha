@@ -1,0 +1,23 @@
+{
+  "scope": "Direct graph R1-R6 anatomical paths to L1 and L2; no optical-axis assignment or enabled visual drive",
+  "graph_manifest_sha256": "b30e21078c0479ac288e7f9d3b7cb2c9eb76aa3b9707f3a2b9fa6a92bb822ef3",
+  "l1_edge_csv_sha256": "bbccbccc6cfe565852ac637351a7b159ca072961c470effb925067d63267ead1",
+  "accepted_columns_sha256": "a759e230dc1dde74977d0e763b51facec464c469aeaca96cc07b44116a49ad31",
+  "l2_cell_count_with_primary_hex": 1767,
+  "l2_direct_edge_rows": 3274,
+  "l2_direct_contacts": 107452,
+  "l2_cells_with_direct_r16_input": 811,
+  "receptor_status_counts": {
+    "both_agree": 3132,
+    "l2_only": 76,
+    "l1_only": 69,
+    "none": 61,
+    "multiple_or_mixed": 39
+  },
+  "single_path_coordinates_outside_accepted_index": 3,
+  "l2_direct_edges_csv_sha256": "672e890cf2a4f7bd74b994860dc57870f9812244ccb33b9b0db440ab9988a89f",
+  "receptor_path_status_csv_sha256": "152ccae1316db68e1b97475d89e2afbcebdb9af5205a27e0a37fd44139de42e4",
+  "interpretation": "Both-agree cells have two distinct direct graph paths with the same annotated medulla hex. The cell annotations and graph share source provenance, so this is internal consistency, not independent optical calibration. Missing paths do not prove absent biology under minconf filtering.",
+  "optical_rays_assigned": 0,
+  "visual_input_enabled": false
+}

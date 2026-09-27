@@ -1,0 +1,25 @@
+{
+  "scope": "Sparse direct-support sign alternative for source-identified Dm9 to named R7/R8 contacts",
+  "source_evidence_sha256": "f17f8cb27c9caec48d574681382e6ee3b1d552d252eac38cd212d3f2e58afbd6",
+  "evidence_report_sha256": "f7b06ab2851aef9b4941445ddb57031c71c2440a1f036f462cacba52066af9d9",
+  "diagnostic_report_sha256": "a2787b87dd4d88ac3e11b6656bd86dbce07ecaf3fd13fb85790d5d9527e7c8ec",
+  "baseline_graph_sha256": "4a7c892fe278bc6f1e96548c34c376bf49bce1d589af12911cf047a4cf1bf8f8",
+  "csr_edge_offsets_sha256": "9945a8ff31ed2c712898f4120782463444ced60774f399d749bf41b628e072d2",
+  "changed_edge_rows": 3359,
+  "changed_contacts": 88907,
+  "distinct_dm9_sources": 222,
+  "distinct_r7_r8_targets": 1594,
+  "baseline_direct_weight_sum_mv": -24449.425000000003,
+  "alternative_direct_weight_sum_mv": 24449.425000000003,
+  "patch_operation": "multiply only listed CSR weights by -1 in a separately named diagnostic run",
+  "unchanged_edge_rows": 25584213,
+  "source_claim": "Dm9 provides likely excitatory glutamatergic support to inner photoreceptors; net circuit feedback can be inhibitory",
+  "known_limits": [
+    "Direct receptor and conductance are not established",
+    "Female calcium findings have not been transferred to this male individual-cell model",
+    "Uniform diagnostic 0.275 mV/contact gain remains unmeasured",
+    "No physiological visual stimulus or dynamic response is tested here"
+  ],
+  "runtime_enabled": false,
+  "biological_validation": false
+}

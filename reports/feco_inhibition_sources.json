@@ -1,0 +1,131 @@
+{
+  "commit": "e1233f4a987c532c9f1ab42273af21a0a6a50393",
+  "repository": "https://github.com/chrisjdallmann/feco-inhibition",
+  "files": {
+    "LICENSE": {
+      "bytes": 1071,
+      "sha256": "fa192f06f1cc09e8c7c03e79bd00665226c5220db447b81c7c6b82bc46c45097"
+    },
+    "README.md": {
+      "bytes": 1841,
+      "sha256": "9e6b1542eeaa872857526e32387553404975aa13319789c5ab1c3fb3b5c83120"
+    },
+    "code/README.md": {
+      "bytes": 30635,
+      "sha256": "31fa9e9f2de8522c0c04fbbddd580c742c345fe907837e260daf1d912568d1a3"
+    },
+    "code/behavior_9A_activation_silencing.ipynb": {
+      "bytes": 548391,
+      "sha256": "eda703e94d3f78546ddbef141cc206f6f897b8ef7dbc872721798b09809e5e1d"
+    },
+    "code/fanc_9A_connectivity.ipynb": {
+      "bytes": 8542,
+      "sha256": "d7b492ddde101b18798f2be85706ca0dcbe4d094ca041dbeef9511f0264781f3"
+    },
+    "code/fanc_DN_IN_connectivity.ipynb": {
+      "bytes": 194662,
+      "sha256": "7439857e85c35c2f53c7291df214556112351a0d50b00712cab128f00867f89f"
+    },
+    "code/fanc_feco_connectivity.ipynb": {
+      "bytes": 247716,
+      "sha256": "61d05345ac8e3f9c384443a18484bdedaf2552410b40fa8620948e074dd3770b"
+    },
+    "code/fanc_synapse_locations.ipynb": {
+      "bytes": 46386,
+      "sha256": "ba0d4d4c7f751d2fc2a7adff8f183695503ea17049a82c045fe1b47432f69e4c"
+    },
+    "code/fanc_synapse_transmitters.ipynb": {
+      "bytes": 7259,
+      "sha256": "5726c752d494248acc96043c4dd31d806fcc2c4735c160b85693415aa979485b"
+    },
+    "code/flywire_plot_neuron.ipynb": {
+      "bytes": 216304,
+      "sha256": "0a89a55040baf683af189d23be610ba7111806993a95bc33f7fb8581ac3ff714"
+    },
+    "code/flywire_web_connectivity.ipynb": {
+      "bytes": 27001,
+      "sha256": "fdf8060f209d71d3f7160fbcac2b495a4f8cf37c115023a5034298bef7adb9c2"
+    },
+    "code/imaging_BDN2_activation.ipynb": {
+      "bytes": 547697,
+      "sha256": "41a97d83d139748eef8803a111032a5c3ade1bb3d72e9e81de820c46a5f3efc2"
+    },
+    "code/imaging_config.toml": {
+      "bytes": 885,
+      "sha256": "46245ab2999b8117d2031d27d0e4c080d9fc8c51408eff374d13a18f466b9c56"
+    },
+    "code/imaging_fit_activation_function.m": {
+      "bytes": 7279,
+      "sha256": "28236008995ebc5e0beaaf69c8b9baffea0e9b7fd97566482289e3d770279a12"
+    },
+    "code/imaging_hook_model_example.m": {
+      "bytes": 2054,
+      "sha256": "cf92e893d63930862e8e27c00ff6c7c69442f885f9ce32542a1493e6d0104789"
+    },
+    "code/imaging_plot_epochs.m": {
+      "bytes": 7156,
+      "sha256": "31df3f98ec7622dcc35fadf0f7e36bcc16710f568d829791ec91678049cae97a"
+    },
+    "code/imaging_plot_transitions.m": {
+      "bytes": 13505,
+      "sha256": "68dba36357c311b2ef51cac2311e4b1bbfef597416bf561bd7c27f3181726c93"
+    },
+    "code/imaging_plot_trial.m": {
+      "bytes": 2817,
+      "sha256": "db603b8b3d86a5c0b640bb1f92aba065c6c01031024944a96ef7597b96a73e5a"
+    },
+    "code/imaging_plot_xcorr.m": {
+      "bytes": 5400,
+      "sha256": "df1361fabe24e732e3269a445cbd8f57a1c0351e3eff90b59e6d5350094dfd83"
+    },
+    "code/manc_9A_web_connectivity.ipynb": {
+      "bytes": 8502,
+      "sha256": "61d40f1e30b90cec69e2fa62bb3297ac0717c09df8a308e6e4d236f75fa88083"
+    },
+    "code/rna_seq_plot_expression.m": {
+      "bytes": 2186,
+      "sha256": "2cf60b6fad5c2dd408245f07833aba62365f5b36371c2d0f46489cc92c2fdb47"
+    },
+    "code/simulation_model.py": {
+      "bytes": 12007,
+      "sha256": "c07b830f5782019f9c4751c790d711c6f5c5d688d1f3fea2f1047f9fc7ea0f38"
+    },
+    "code/simulation_parquet_to_csv.ipynb": {
+      "bytes": 11946,
+      "sha256": "7622866a28656b0480c555b73b448f539d4285e5931505a0c9393ea39231c8b4"
+    },
+    "code/simulation_plot_results.ipynb": {
+      "bytes": 15520,
+      "sha256": "7f34453d4e65f513a471fd594c31d5849cadaf3f4e8ee8dfa5d097bd818173dc"
+    },
+    "code/simulation_run_model.ipynb": {
+      "bytes": 5095,
+      "sha256": "75de8dddcc53dec23761ae99f5f1453224c7a83e0917a5cc640d6e781010cd8e"
+    },
+    "code/utils/imaging_find_epochs.m": {
+      "bytes": 1815,
+      "sha256": "9322dcd6aab38b03983d1eae3ca1f0fa1fa986fee31b8500825245c3d98d0f79"
+    },
+    "code/utils/imaging_plot_trial_figure.m": {
+      "bytes": 1290,
+      "sha256": "a6350618c3019edf80dee0417be2d944626e494c9ef1b079c68e85d0cd2ea045"
+    },
+    "code/utils/imaging_poly_fun.m": {
+      "bytes": 606,
+      "sha256": "b0673966b3f938bae9346665d27c69cbf00e3e1004148293c8a01bc37f343cee"
+    },
+    "code/utils/imaging_predict_gcamp.m": {
+      "bytes": 2558,
+      "sha256": "8ac8c133195570d44311437c46e6e10a939404b1258f5df45e307bd7ffaa742b"
+    },
+    "data/README.md": {
+      "bytes": 3444,
+      "sha256": "0d7b24633d02bd06a5900ef2bb371a75609169f386a33766dea64941a399321d"
+    },
+    "requirements.txt": {
+      "bytes": 176,
+      "sha256": "a3c2c3a6d5eef3e25a216318f5fb819868438b8486de6aa83ea07bcc2e77f4bd"
+    }
+  },
+  "code_executed": false
+}

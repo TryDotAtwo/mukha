@@ -1,0 +1,8 @@
+{
+  "frames_checked": 16,
+  "invalid_cases": 5,
+  "max_quadrature_error": 1.2079226507921703e-13,
+  "max_subdivision_error": 1.1723955140041653e-13,
+  "invalid_input_preserves_state": true,
+  "biological_validation": false
+}

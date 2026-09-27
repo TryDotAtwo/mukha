@@ -1,0 +1,134 @@
+{
+  "source_harness_xml_sha256": "eb89b6438bfdd6fb21a4c512b915d96c185e298654cf3221870a174ec3d3a3a0",
+  "source_harness_report_sha256": "95e3b28f7ede553c0a67597e4250172065c1785ec3724eb02046bdc312f163b2",
+  "source_initial_root_qpos": [
+    -1.892162876804047e-05,
+    8.121589626832594e-08,
+    3.9999989530331224,
+    0.9999999207395428,
+    0.0003981398165412676,
+    -2.365203464182238e-06,
+    9.41705403403928e-10
+  ],
+  "source_initial_knee_rad": 0.806423799808616,
+  "foot_bbox_low_mm": [
+    0.7546675978784615,
+    -0.3319768418807199,
+    2.3260579801868695
+  ],
+  "foot_bbox_high_mm": [
+    0.8361606938163695,
+    -0.24867449578341863,
+    2.4022294381223643
+  ],
+  "pad_centers_mm": {
+    "negative_x": [
+      0.7346675978784615,
+      -0.2903256688320693,
+      2.364143709154617
+    ],
+    "positive_x": [
+      0.8561606938163695,
+      -0.2903256688320693,
+      2.364143709154617
+    ]
+  },
+  "initial_gap_mm": 0.01,
+  "causal_checks": {
+    "all_three_positive_x_controls_zero": true,
+    "pre_pulse_knee_identical": true,
+    "slide_zero_before_first_contact": true
+  },
+  "cases": [
+    {
+      "side": "negative_x",
+      "contact": false,
+      "pulse": false,
+      "exact_foot_pad_contact_samples": 0,
+      "first_contact_tick": null,
+      "peak_abs_slide_mm": 0.0,
+      "final_slide_mm": 0.0,
+      "peak_root_displacement_from_initial_mm": 8.123002205924823e-11,
+      "xml_sha256": "1cdabbc509a6476881ae5d64d8625f511fc8663a5480dc1be9cd84c4f25b1409"
+    },
+    {
+      "side": "negative_x",
+      "contact": false,
+      "pulse": true,
+      "exact_foot_pad_contact_samples": 0,
+      "first_contact_tick": null,
+      "peak_abs_slide_mm": 0.0,
+      "final_slide_mm": 0.0,
+      "peak_root_displacement_from_initial_mm": 1.5025867590303987e-08,
+      "xml_sha256": "1cdabbc509a6476881ae5d64d8625f511fc8663a5480dc1be9cd84c4f25b1409"
+    },
+    {
+      "side": "negative_x",
+      "contact": true,
+      "pulse": false,
+      "exact_foot_pad_contact_samples": 0,
+      "first_contact_tick": null,
+      "peak_abs_slide_mm": 0.0,
+      "final_slide_mm": 0.0,
+      "peak_root_displacement_from_initial_mm": 8.123002205924823e-11,
+      "xml_sha256": "c2b5f5224ea4ccf675182bac7f6c759822990ac21e6cd532c4b4b8dfeb10807a"
+    },
+    {
+      "side": "negative_x",
+      "contact": true,
+      "pulse": true,
+      "exact_foot_pad_contact_samples": 0,
+      "first_contact_tick": null,
+      "peak_abs_slide_mm": 0.0,
+      "final_slide_mm": 0.0,
+      "peak_root_displacement_from_initial_mm": 1.5025867590303987e-08,
+      "xml_sha256": "c2b5f5224ea4ccf675182bac7f6c759822990ac21e6cd532c4b4b8dfeb10807a"
+    },
+    {
+      "side": "positive_x",
+      "contact": false,
+      "pulse": false,
+      "exact_foot_pad_contact_samples": 0,
+      "first_contact_tick": null,
+      "peak_abs_slide_mm": 0.0,
+      "final_slide_mm": 0.0,
+      "peak_root_displacement_from_initial_mm": 8.123002205924823e-11,
+      "xml_sha256": "38d98e6626c7f55bba4745760b1929784dc0eb5ed74da597c311b85741b9dcf9"
+    },
+    {
+      "side": "positive_x",
+      "contact": false,
+      "pulse": true,
+      "exact_foot_pad_contact_samples": 0,
+      "first_contact_tick": null,
+      "peak_abs_slide_mm": 0.0,
+      "final_slide_mm": 0.0,
+      "peak_root_displacement_from_initial_mm": 1.5025867590303987e-08,
+      "xml_sha256": "38d98e6626c7f55bba4745760b1929784dc0eb5ed74da597c311b85741b9dcf9"
+    },
+    {
+      "side": "positive_x",
+      "contact": true,
+      "pulse": false,
+      "exact_foot_pad_contact_samples": 0,
+      "first_contact_tick": null,
+      "peak_abs_slide_mm": 0.0,
+      "final_slide_mm": 0.0,
+      "peak_root_displacement_from_initial_mm": 8.123002205924823e-11,
+      "xml_sha256": "327d9ebce715806f9186eb8713200bfd4077823a6abb8be811cf7f1121656be4"
+    },
+    {
+      "side": "positive_x",
+      "contact": true,
+      "pulse": true,
+      "exact_foot_pad_contact_samples": 204,
+      "first_contact_tick": 221,
+      "peak_abs_slide_mm": 0.1242630918917482,
+      "final_slide_mm": 0.1242630918917482,
+      "peak_root_displacement_from_initial_mm": 1.3723987032659843e-06,
+      "xml_sha256": "327d9ebce715806f9186eb8713200bfd4077823a6abb8be811cf7f1121656be4"
+    }
+  ],
+  "trace_sha256": "5d1c1b565375fa4e1e3d0a8a2afcf08cbb38c64f84e2fa9df18edce6c1bf31ee",
+  "scope": "Passive one-axis pad from harness-supported free-root FlyMimic posture; full-strength muscle pulse diagnostic, no validated cabin or neural-muscle command."
+}

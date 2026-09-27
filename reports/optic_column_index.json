@@ -1,0 +1,29 @@
+{
+  "scope": "Author anatomical column assignments, not implemented vision",
+  "source_lock_sha256": "4811be9796f563ed2e690aa8cf0e3279b0c37eba8f2229dd713bd963136674f7",
+  "columns": 1772,
+  "columns_with_any_cell": 1764,
+  "assignment_rows": 4392,
+  "role_counts": {
+    "L1": 1764,
+    "R8": 1329,
+    "R7": 1299
+  },
+  "missing_cell_slots": 924,
+  "multiple_assignment_rows": 0,
+  "l1_coordinate_conflicts": 1,
+  "files": {
+    "assignments.csv": "aceb35ea500d993cd3ef22b7efbb4724a2f7913d41ace2c3add2a7e396832967",
+    "columns.csv": "a759e230dc1dde74977d0e763b51facec464c469aeaca96cc07b44116a49ad31",
+    "coordinate_conflicts.json": "df70f68841b07b4bd1e32c2d7a679398d6221f516cb4971a0d7f1497c9a1bb37",
+    "missing.csv": "d5133bae8786a7355fe60c04ea04824f947f9a869c219773408eeb8d7c4fa45e",
+    "multiple_assignments.csv": "dc54d4e933de0075bcb5e39972f72969a3c595fece7653ff54d3cfc6c47f48bc"
+  },
+  "remaining": [
+    "R1-R6 receptive-field mapping",
+    "Optical directions in anatomical eye coordinates",
+    "Spectral response and phototransduction",
+    "Native image-to-sensory input validation"
+  ],
+  "visual_input_enabled": false
+}

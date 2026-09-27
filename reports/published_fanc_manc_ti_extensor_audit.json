@@ -1,0 +1,69 @@
+{
+  "scope": "Coverage of one published FANC/MANC matching supplement; absence is not evidence of no biological match",
+  "source_url": "https://raw.githubusercontent.com/flyconnectome/2023neckconnective/main/Supplemental_files/Supplemental_file13_other_MANC_FANC_matching.tsv",
+  "source_sha256": "2d6598b55e690dbe5433f18311b8c74b1707d4044b22670fc41ce2fd87c3f9a7",
+  "manc_target_source_sha256": "c46e3cec1a5114b8d981d5f0383012c8e7fcdebd6c4e3eaffe4ac3ba1def2e94",
+  "published_match_rows": 800,
+  "manc_t1_extensor_rows": [
+    {
+      "bodyid": "11657",
+      "group": "11657",
+      "type": "Ti extensor MN",
+      "target": "Ti extensor"
+    },
+    {
+      "bodyid": "13115",
+      "group": "11657",
+      "type": "Ti extensor MN",
+      "target": "Ti extensor"
+    },
+    {
+      "bodyid": "12704",
+      "group": "11706",
+      "type": "Ti extensor MN",
+      "target": "Ti extensor"
+    },
+    {
+      "bodyid": "11706",
+      "group": "11706",
+      "type": "Ti extensor MN",
+      "target": "Ti extensor"
+    }
+  ],
+  "t1_extensor_match_rows": [],
+  "all_tibia_extensor_match_rows": [
+    {
+      "class": "MN",
+      "cell_id": "586",
+      "supervoxel_id": "74597054185486257",
+      "root_id": "648518346488949853",
+      "group": "648518346481125722",
+      "side": "R",
+      "type": "Ti extensor MN",
+      "soma_division": "T3",
+      "manc_match_id": "13006",
+      "manc_predicted_nt": "glutamate",
+      "dimorphic": "dimorphic in connectivity",
+      "figure": "dimorphic DN figure, DNa12",
+      "name_in_figure": "Ti extensor MN_f"
+    },
+    {
+      "class": "MN",
+      "cell_id": "483",
+      "supervoxel_id": "72627004830350128",
+      "root_id": "648518346481125722",
+      "group": "648518346481125722",
+      "side": "L",
+      "type": "Ti extensor MN",
+      "soma_division": "T3",
+      "manc_match_id": "13075",
+      "manc_predicted_nt": "glutamate",
+      "dimorphic": "dimorphic in connectivity",
+      "figure": "dimorphic DN figure, DNa12",
+      "name_in_figure": "Ti extensor MN_f"
+    }
+  ],
+  "fanc_mn39_40_to_manc_id_resolved": false,
+  "malecns_seti_feti_identity_resolved": false,
+  "motor_mapping_enabled": false
+}

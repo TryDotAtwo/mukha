@@ -1,0 +1,46 @@
+{
+  "scope": "Unmodified author FP64 membrane kernel, extracted only; not full phototransduction",
+  "commit": "ba096778d4bd895a0e0fab02b9c519c5941bc82b",
+  "source_sha256": "81494bf3045b8f2e29920e12bcc76a5f0471eb7b8c0d3dc3fc076bb9ea05a1b2",
+  "kernel_sha256": "22b4e9346419c47d3e40872f4cf326b5d56400a099a4b133da47580b5b383c4e",
+  "output": "build\\photoreceptor_author_hh.cu",
+  "source_function": "get_hh_func",
+  "executed": false,
+  "additional_kernels": [
+    {
+      "function": "get_transduction_func",
+      "template_variable": "template_run",
+      "output": "build\\photoreceptor_author_transduction.cu",
+      "sha256": "02c6872b527d9609c011b225c235ab3528835da1070f23519bf7bd1dcc745e57"
+    },
+    {
+      "function": "get_sum_current_func",
+      "template_variable": "template",
+      "output": "build\\photoreceptor_author_current.cu",
+      "sha256": "f83315eede6fa7edfdbf3177ca27265882b7641d9dc486c2ffef480e54866e8f"
+    },
+    {
+      "function": "get_update_ns_func",
+      "template_variable": "template",
+      "output": "build\\photoreceptor_author_adaptation.cu",
+      "sha256": "4a1c51e40255fd47466c883408b395217efd9ac812bfc909218467549e061c40"
+    }
+  ],
+  "input": "summed current, not RGB or photon rate",
+  "output_variables": [
+    "V",
+    "sa",
+    "si",
+    "dra",
+    "dri",
+    "nov"
+  ],
+  "time_contract": "ddt in seconds; kernel multiplies by 1000; author uses 10 membrane substeps per transduction step",
+  "missing": [
+    "stochastic microvillus cascade",
+    "summed TRP current",
+    "feedback ns",
+    "graded synaptic coupling",
+    "independent numerical and biological validation"
+  ]
+}

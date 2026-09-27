@@ -1,0 +1,131 @@
+{
+  "scope": "Contact-level ROI resolution for MaleCNS MBON instance names containing y4; anatomical boundary only",
+  "source_contact_sha256": "b5855ebd789e7d8d8b9407136de1f8eb85dc2fd36af8afb70545d6e87a8f06d9",
+  "reconciliation_sha256": "e96e46004b645da9319928b7256cdf5a7dbcb2f77d233b1d1ab23b6848ad7b91",
+  "nodes_sha256": "48c7e4acadf9619d83f08b31bb2062b7a9f0a5fa86429ff968aea066ced57f3f",
+  "candidate_count": 6,
+  "candidate_contacts": 49708,
+  "candidate_gamma_lobe_contacts": 44120,
+  "candidate_gamma_lobe_fraction": 0.8875834875673936,
+  "all_primary_post_labels": [
+    "AVLP(R)",
+    "CA(L)",
+    "CA(R)",
+    "CRE(L)",
+    "CRE(R)",
+    "CentralBrain-unspecified",
+    "EB",
+    "ICL(L)",
+    "LAL(L)",
+    "PED(L)",
+    "PED(R)",
+    "PLP(L)",
+    "PLP(R)",
+    "SCL(L)",
+    "SCL(R)",
+    "SIP(L)",
+    "SIP(R)",
+    "SMP(R)",
+    "a'L(L)",
+    "a'L(R)",
+    "aL(L)",
+    "aL(R)",
+    "b'L(L)",
+    "b'L(R)",
+    "bL(L)",
+    "bL(R)",
+    "gL(L)",
+    "gL(R)"
+  ],
+  "has_explicit_gamma4_primary_post_label": false,
+  "per_candidate": [
+    {
+      "bodyId": 10495,
+      "instance": "MBON05(y4>y1y2)_R",
+      "contacts": 19140,
+      "primary_post_counts": {
+        "CRE(L)": 200,
+        "CentralBrain-unspecified": 51,
+        "LAL(L)": 1,
+        "b'L(L)": 135,
+        "gL(L)": 18753
+      }
+    },
+    {
+      "bodyId": 10826,
+      "instance": "MBON21(y4y5)_L",
+      "contacts": 3980,
+      "primary_post_counts": {
+        "CRE(L)": 80,
+        "CRE(R)": 3,
+        "CentralBrain-unspecified": 15,
+        "PED(L)": 5,
+        "bL(L)": 1,
+        "bL(R)": 52,
+        "gL(L)": 3797,
+        "gL(R)": 27
+      }
+    },
+    {
+      "bodyId": 519371,
+      "instance": "MBON05(y4>y1y2)_L",
+      "contacts": 17180,
+      "primary_post_counts": {
+        "CRE(L)": 8,
+        "CRE(R)": 2898,
+        "CentralBrain-unspecified": 94,
+        "a'L(R)": 55,
+        "aL(R)": 9,
+        "b'L(R)": 152,
+        "bL(R)": 3,
+        "gL(L)": 488,
+        "gL(R)": 13473
+      }
+    },
+    {
+      "bodyId": 519619,
+      "instance": "MBON29(y4y5)_L",
+      "contacts": 2452,
+      "primary_post_counts": {
+        "CRE(L)": 41,
+        "CRE(R)": 129,
+        "CentralBrain-unspecified": 18,
+        "b'L(L)": 13,
+        "b'L(R)": 1,
+        "gL(L)": 1892,
+        "gL(R)": 358
+      }
+    },
+    {
+      "bodyId": 523628,
+      "instance": "MBON21(y4y5)_R",
+      "contacts": 4403,
+      "primary_post_counts": {
+        "CRE(L)": 1,
+        "CRE(R)": 942,
+        "CentralBrain-unspecified": 121,
+        "b'L(R)": 5,
+        "bL(R)": 44,
+        "gL(L)": 20,
+        "gL(R)": 3270
+      }
+    },
+    {
+      "bodyId": 523987,
+      "instance": "MBON29(y4y5)_R",
+      "contacts": 2553,
+      "primary_post_counts": {
+        "CRE(L)": 15,
+        "CRE(R)": 428,
+        "CentralBrain-unspecified": 64,
+        "b'L(L)": 3,
+        "b'L(R)": 1,
+        "gL(L)": 697,
+        "gL(R)": 1345
+      }
+    }
+  ],
+  "conclusion": "Primary ROI labels identify gamma lobe gL, not gamma4 subcompartment. Instance names identify candidate MBONs but do not assign individual KC contacts to gamma4 or a local DAN field.",
+  "plasticity_enabled": false,
+  "biological_gate_passed": false
+}

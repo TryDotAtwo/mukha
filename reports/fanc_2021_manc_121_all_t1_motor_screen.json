@@ -1,0 +1,1332 @@
+{
+  "scope": "All 69 FANC 2021 T1-left motor SWCs against two MANC 1.2.1 native SWCs",
+  "fanc_release": "2021 manual",
+  "manc_release": "MANC 1.2.1, not MANC 1.0",
+  "route": [
+    "FANC",
+    "MANC"
+  ],
+  "source_manifest_sha256": "adb7682e951df2825c72b0b5bf9fb91b0ce5203d0c2f013c64c0f569ed8dc8d8",
+  "target_manifest_sha256": "6491e748cef3d969d60727b4d4db747b370ac26715aec38cc792570bdb72f00b",
+  "rank_metric": "mean of forward and reverse median nearest-node distance, um",
+  "rows": [
+    {
+      "fanc_neuron_id": 9862,
+      "source_name": "left T1 leg motor neuron A1#01 (neuron 9862).swc",
+      "fanc_nodes": 1729,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 11.37586237367627,
+          "manc_to_fanc_median_um": 25.73879618285449,
+          "mean_bidirectional_median_um": 18.557329278265378
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 13.751349417503642,
+          "manc_to_fanc_median_um": 22.60624985237067,
+          "mean_bidirectional_median_um": 18.178799634937157
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 9883,
+      "source_name": "left T1 leg motor neuron A1#02 (neuron 9883).swc",
+      "fanc_nodes": 1882,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 11.12893543289042,
+          "manc_to_fanc_median_um": 16.8789500391727,
+          "mean_bidirectional_median_um": 14.003942736031561
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 11.8208006085082,
+          "manc_to_fanc_median_um": 16.095114798905435,
+          "mean_bidirectional_median_um": 13.957957703706818
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 9929,
+      "source_name": "left T1 leg motor neuron A1#03 (neuron 9929).swc",
+      "fanc_nodes": 2401,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 9.236117515888402,
+          "manc_to_fanc_median_um": 10.083751811077326,
+          "mean_bidirectional_median_um": 9.659934663482865
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 10.300994055106594,
+          "manc_to_fanc_median_um": 10.252340068374435,
+          "mean_bidirectional_median_um": 10.276667061740515
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 9935,
+      "source_name": "left T1 leg motor neuron A1#04 (neuron 9935).swc",
+      "fanc_nodes": 2762,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 8.441172564669603,
+          "manc_to_fanc_median_um": 11.864699276803378,
+          "mean_bidirectional_median_um": 10.15293592073649
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 8.246577938694646,
+          "manc_to_fanc_median_um": 10.508684598127317,
+          "mean_bidirectional_median_um": 9.377631268410981
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 10299,
+      "source_name": "left T1 leg motor neuron A2#01 (neuron 10299).swc",
+      "fanc_nodes": 1634,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 9.21849084746927,
+          "manc_to_fanc_median_um": 26.066630988230543,
+          "mean_bidirectional_median_um": 17.642560917849906
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 7.606613731461395,
+          "manc_to_fanc_median_um": 25.286548590582985,
+          "mean_bidirectional_median_um": 16.44658116102219
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 9899,
+      "source_name": "left T1 leg motor neuron A2#02 (neuron 9899).swc",
+      "fanc_nodes": 718,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 15.124486725533249,
+          "manc_to_fanc_median_um": 47.01294749269076,
+          "mean_bidirectional_median_um": 31.068717109112008
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 12.388057646483558,
+          "manc_to_fanc_median_um": 44.74182638251975,
+          "mean_bidirectional_median_um": 28.564942014501653
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 9755,
+      "source_name": "left T1 leg motor neuron A3#01 (neuron 9755).swc",
+      "fanc_nodes": 2269,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 6.017646414169967,
+          "manc_to_fanc_median_um": 10.297243595207785,
+          "mean_bidirectional_median_um": 8.157445004688876
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 5.5024757802507,
+          "manc_to_fanc_median_um": 9.576405283312695,
+          "mean_bidirectional_median_um": 7.539440531781698
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 9878,
+      "source_name": "left T1 leg motor neuron A3#02 (neuron 9878).swc",
+      "fanc_nodes": 2206,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 5.7301556812040095,
+          "manc_to_fanc_median_um": 9.982313244517469,
+          "mean_bidirectional_median_um": 7.856234462860739
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 4.956291579072258,
+          "manc_to_fanc_median_um": 8.651143319728439,
+          "mean_bidirectional_median_um": 6.803717449400349
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 9888,
+      "source_name": "left T1 leg motor neuron A3#03 (neuron 9888).swc",
+      "fanc_nodes": 3158,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 6.589236367278364,
+          "manc_to_fanc_median_um": 8.746426336113524,
+          "mean_bidirectional_median_um": 7.667831351695944
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 6.080349640766768,
+          "manc_to_fanc_median_um": 8.29946852854812,
+          "mean_bidirectional_median_um": 7.189909084657444
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 9797,
+      "source_name": "left T1 leg motor neuron A4#01 (neuron 9797).swc",
+      "fanc_nodes": 1326,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 9.968753890897759,
+          "manc_to_fanc_median_um": 13.852864430384008,
+          "mean_bidirectional_median_um": 11.910809160640884
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 9.901503976255155,
+          "manc_to_fanc_median_um": 13.214577635340953,
+          "mean_bidirectional_median_um": 11.558040805798054
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 9867,
+      "source_name": "left T1 leg motor neuron A4#02 (neuron 9867).swc",
+      "fanc_nodes": 1385,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 9.673665443599717,
+          "manc_to_fanc_median_um": 13.496580387072449,
+          "mean_bidirectional_median_um": 11.585122915336083
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 10.020236134520623,
+          "manc_to_fanc_median_um": 13.466063455749689,
+          "mean_bidirectional_median_um": 11.743149795135157
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 9857,
+      "source_name": "left T1 leg motor neuron A5#01 (neuron 9857).swc",
+      "fanc_nodes": 1604,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 9.918850686177485,
+          "manc_to_fanc_median_um": 16.928968724906884,
+          "mean_bidirectional_median_um": 13.423909705542185
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 10.14750670674755,
+          "manc_to_fanc_median_um": 16.677298479211156,
+          "mean_bidirectional_median_um": 13.412402592979353
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 13031,
+      "source_name": "left T1 leg motor neuron D1#01 (neuron 13031).swc",
+      "fanc_nodes": 3037,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 6.3100851489829894,
+          "manc_to_fanc_median_um": 7.34617506577593,
+          "mean_bidirectional_median_um": 6.82813010737946
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 5.594153403019109,
+          "manc_to_fanc_median_um": 7.3985076096016655,
+          "mean_bidirectional_median_um": 6.496330506310388
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 13036,
+      "source_name": "left T1 leg motor neuron D1#02 (neuron 13036).swc",
+      "fanc_nodes": 2785,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 10.157875183710953,
+          "manc_to_fanc_median_um": 10.222163663574268,
+          "mean_bidirectional_median_um": 10.19001942364261
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 10.268383463683644,
+          "manc_to_fanc_median_um": 10.855429794856601,
+          "mean_bidirectional_median_um": 10.561906629270123
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 13025,
+      "source_name": "left T1 leg motor neuron D2#01 (neuron 13025).swc",
+      "fanc_nodes": 2840,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 6.925328534203758,
+          "manc_to_fanc_median_um": 7.2589421558250065,
+          "mean_bidirectional_median_um": 7.092135345014382
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 5.670625382598136,
+          "manc_to_fanc_median_um": 7.587921949686094,
+          "mean_bidirectional_median_um": 6.629273666142115
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 16857,
+      "source_name": "left T1 leg motor neuron D2#02 (neuron 16857).swc",
+      "fanc_nodes": 3499,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 6.148453150479429,
+          "manc_to_fanc_median_um": 7.120486783734746,
+          "mean_bidirectional_median_um": 6.634469967107087
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 6.256173259973173,
+          "manc_to_fanc_median_um": 7.003416846752794,
+          "mean_bidirectional_median_um": 6.629795053362983
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 10407,
+      "source_name": "left T1 leg motor neuron L1 bundle (neuron 10407).swc",
+      "fanc_nodes": 1197,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 6.588432097874337,
+          "manc_to_fanc_median_um": 12.556690543843533,
+          "mean_bidirectional_median_um": 9.572561320858934
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 5.232903244843118,
+          "manc_to_fanc_median_um": 11.963241542965998,
+          "mean_bidirectional_median_um": 8.598072393904557
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 8996,
+      "source_name": "left T1 leg motor neuron L1 bundle (neuron 8996).swc",
+      "fanc_nodes": 9711,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 8.871697290802551,
+          "manc_to_fanc_median_um": 6.957958453800651,
+          "mean_bidirectional_median_um": 7.914827872301601
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 7.04643043027166,
+          "manc_to_fanc_median_um": 6.891139597721331,
+          "mean_bidirectional_median_um": 6.968785013996495
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 9009,
+      "source_name": "left T1 leg motor neuron L1 bundle (neuron 9009).swc",
+      "fanc_nodes": 2002,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 19.653812209159355,
+          "manc_to_fanc_median_um": 15.50087591981351,
+          "mean_bidirectional_median_um": 17.577344064486432
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 15.705710631827532,
+          "manc_to_fanc_median_um": 14.424322528221465,
+          "mean_bidirectional_median_um": 15.065016580024498
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 9013,
+      "source_name": "left T1 leg motor neuron L1 bundle (neuron 9013).swc",
+      "fanc_nodes": 2084,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 11.746073485368875,
+          "manc_to_fanc_median_um": 11.95503859550976,
+          "mean_bidirectional_median_um": 11.850556040439319
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 8.344938031670502,
+          "manc_to_fanc_median_um": 12.041157194555696,
+          "mean_bidirectional_median_um": 10.193047613113098
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 9187,
+      "source_name": "left T1 leg motor neuron L1 bundle (neuron 9187).swc",
+      "fanc_nodes": 1900,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 6.815608409299052,
+          "manc_to_fanc_median_um": 9.863633072005019,
+          "mean_bidirectional_median_um": 8.339620740652036
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 5.060004974082676,
+          "manc_to_fanc_median_um": 9.623170335821952,
+          "mean_bidirectional_median_um": 7.341587654952313
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 9191,
+      "source_name": "left T1 leg motor neuron L1 bundle (neuron 9191).swc",
+      "fanc_nodes": 1338,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 7.071475163093021,
+          "manc_to_fanc_median_um": 11.366794472940791,
+          "mean_bidirectional_median_um": 9.219134818016906
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 4.839380481694818,
+          "manc_to_fanc_median_um": 11.198995303420975,
+          "mean_bidirectional_median_um": 8.019187892557897
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 9195,
+      "source_name": "left T1 leg motor neuron L1 bundle (neuron 9195).swc",
+      "fanc_nodes": 1470,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 6.025024425179866,
+          "manc_to_fanc_median_um": 10.42633945253444,
+          "mean_bidirectional_median_um": 8.225681938857154
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 5.50319172428698,
+          "manc_to_fanc_median_um": 9.856736407041973,
+          "mean_bidirectional_median_um": 7.6799640656644765
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 9211,
+      "source_name": "left T1 leg motor neuron L1 bundle (neuron 9211).swc",
+      "fanc_nodes": 1947,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 5.2016894548633985,
+          "manc_to_fanc_median_um": 10.582344468508566,
+          "mean_bidirectional_median_um": 7.892016961685982
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 5.0819171231030795,
+          "manc_to_fanc_median_um": 11.124829949509804,
+          "mean_bidirectional_median_um": 8.103373536306442
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 9552,
+      "source_name": "left T1 leg motor neuron L1 bundle (neuron 9552).swc",
+      "fanc_nodes": 1250,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 14.39854270988744,
+          "manc_to_fanc_median_um": 14.369515696090986,
+          "mean_bidirectional_median_um": 14.384029202989213
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 11.173194885011565,
+          "manc_to_fanc_median_um": 14.229187834878989,
+          "mean_bidirectional_median_um": 12.701191359945277
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 2714,
+      "source_name": "left T1 leg motor neuron L1#01 (neuron 2714).swc",
+      "fanc_nodes": 6176,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 7.810524698475523,
+          "manc_to_fanc_median_um": 6.44535718857253,
+          "mean_bidirectional_median_um": 7.127940943524026
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 6.251480350743767,
+          "manc_to_fanc_median_um": 6.197253245302015,
+          "mean_bidirectional_median_um": 6.224366798022891
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 464,
+      "source_name": "left T1 leg motor neuron L1#02 (neuron 464).swc",
+      "fanc_nodes": 5749,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 9.983098202389113,
+          "manc_to_fanc_median_um": 6.927407253871359,
+          "mean_bidirectional_median_um": 8.455252728130237
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 6.682788216126452,
+          "manc_to_fanc_median_um": 6.5061352610000664,
+          "mean_bidirectional_median_um": 6.594461738563259
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 10393,
+      "source_name": "left T1 leg motor neuron L1#03 (neuron 10393).swc",
+      "fanc_nodes": 1338,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 11.494439487661914,
+          "manc_to_fanc_median_um": 12.91284472190177,
+          "mean_bidirectional_median_um": 12.203642104781842
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 7.063817644649683,
+          "manc_to_fanc_median_um": 11.799983465773716,
+          "mean_bidirectional_median_um": 9.4319005552117
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 10414,
+      "source_name": "left T1 leg motor neuron L1#04 (neuron 10414).swc",
+      "fanc_nodes": 1849,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 13.045067875468405,
+          "manc_to_fanc_median_um": 14.862262854522317,
+          "mean_bidirectional_median_um": 13.953665364995361
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 10.869735537643882,
+          "manc_to_fanc_median_um": 14.806310937409227,
+          "mean_bidirectional_median_um": 12.838023237526555
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 12262,
+      "source_name": "left T1 leg motor neuron L1#05 (neuron 12262).swc",
+      "fanc_nodes": 1642,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 8.837792738885259,
+          "manc_to_fanc_median_um": 11.804205062239154,
+          "mean_bidirectional_median_um": 10.320998900562206
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 6.185190081431253,
+          "manc_to_fanc_median_um": 11.145650867502113,
+          "mean_bidirectional_median_um": 8.665420474466682
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 468,
+      "source_name": "left T1 leg motor neuron L1#06 (neuron 468).swc",
+      "fanc_nodes": 3282,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 9.289943042206227,
+          "manc_to_fanc_median_um": 8.116192364291559,
+          "mean_bidirectional_median_um": 8.703067703248893
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 5.515686099640978,
+          "manc_to_fanc_median_um": 7.7230911852519615,
+          "mean_bidirectional_median_um": 6.61938864244647
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 472,
+      "source_name": "left T1 leg motor neuron L1#07 (neuron 472).swc",
+      "fanc_nodes": 2006,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 4.8514144764478715,
+          "manc_to_fanc_median_um": 8.064208840899003,
+          "mean_bidirectional_median_um": 6.457811658673437
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 3.6171930513171278,
+          "manc_to_fanc_median_um": 7.679164848876835,
+          "mean_bidirectional_median_um": 5.648178950096981
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 476,
+      "source_name": "left T1 leg motor neuron L1#08 (neuron 476).swc",
+      "fanc_nodes": 1430,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 6.64635133053339,
+          "manc_to_fanc_median_um": 10.726097419905638,
+          "mean_bidirectional_median_um": 8.686224375219513
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 4.653825814424982,
+          "manc_to_fanc_median_um": 10.313538703402642,
+          "mean_bidirectional_median_um": 7.483682258913812
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 83815,
+      "source_name": "left T1 leg motor neuron L1#09 (neuron 83815).swc",
+      "fanc_nodes": 1255,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 12.86030442192765,
+          "manc_to_fanc_median_um": 15.57626511569136,
+          "mean_bidirectional_median_um": 14.218284768809504
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 7.990149101094883,
+          "manc_to_fanc_median_um": 15.004295344772835,
+          "mean_bidirectional_median_um": 11.497222222933859
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 8992,
+      "source_name": "left T1 leg motor neuron L1#10 (neuron 8992).swc",
+      "fanc_nodes": 3134,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 11.612898071773381,
+          "manc_to_fanc_median_um": 12.792917390522312,
+          "mean_bidirectional_median_um": 12.202907731147846
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 8.302458243475233,
+          "manc_to_fanc_median_um": 11.989822282305328,
+          "mean_bidirectional_median_um": 10.146140262890281
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 9005,
+      "source_name": "left T1 leg motor neuron L1#11 (neuron 9005).swc",
+      "fanc_nodes": 4362,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 11.718061456241841,
+          "manc_to_fanc_median_um": 11.780177929392623,
+          "mean_bidirectional_median_um": 11.749119692817231
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 8.05586432993701,
+          "manc_to_fanc_median_um": 10.527095737740781,
+          "mean_bidirectional_median_um": 9.291480033838896
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 9207,
+      "source_name": "left T1 leg motor neuron L1#12 (neuron 9207).swc",
+      "fanc_nodes": 5323,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 12.231406713738526,
+          "manc_to_fanc_median_um": 12.41061195104918,
+          "mean_bidirectional_median_um": 12.321009332393853
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 9.332143548814377,
+          "manc_to_fanc_median_um": 11.456898513051026,
+          "mean_bidirectional_median_um": 10.394521030932701
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 9557,
+      "source_name": "left T1 leg motor neuron L1#13 (neuron 9557).swc",
+      "fanc_nodes": 1050,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 12.128528909986898,
+          "manc_to_fanc_median_um": 12.084272945317561,
+          "mean_bidirectional_median_um": 12.10640092765223
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 11.657040634822884,
+          "manc_to_fanc_median_um": 15.264014232599415,
+          "mean_bidirectional_median_um": 13.46052743371115
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 9630,
+      "source_name": "left T1 leg motor neuron L1#14 (neuron 9630).swc",
+      "fanc_nodes": 2449,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 11.609757890390252,
+          "manc_to_fanc_median_um": 12.830541097677381,
+          "mean_bidirectional_median_um": 12.220149494033816
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 8.198189112018827,
+          "manc_to_fanc_median_um": 11.533224571730043,
+          "mean_bidirectional_median_um": 9.865706841874434
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 9687,
+      "source_name": "left T1 leg motor neuron L1#15 (neuron 9687).swc",
+      "fanc_nodes": 1485,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 6.4397397555523845,
+          "manc_to_fanc_median_um": 10.363424364105253,
+          "mean_bidirectional_median_um": 8.401582059828819
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 4.858886426758328,
+          "manc_to_fanc_median_um": 9.808853422167171,
+          "mean_bidirectional_median_um": 7.33386992446275
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 9709,
+      "source_name": "left T1 leg motor neuron L1#16 (neuron 9709).swc",
+      "fanc_nodes": 1035,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 14.411502953207405,
+          "manc_to_fanc_median_um": 17.760300046201337,
+          "mean_bidirectional_median_um": 16.08590149970437
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 11.32402164535472,
+          "manc_to_fanc_median_um": 17.74368319488593,
+          "mean_bidirectional_median_um": 14.533852420120324
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 9746,
+      "source_name": "left T1 leg motor neuron L1#17 (neuron 9746).swc",
+      "fanc_nodes": 2646,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 9.432247406586484,
+          "manc_to_fanc_median_um": 11.110622216897113,
+          "mean_bidirectional_median_um": 10.271434811741798
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 7.833452200184102,
+          "manc_to_fanc_median_um": 11.3745951345406,
+          "mean_bidirectional_median_um": 9.604023667362352
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 10424,
+      "source_name": "left T1 leg motor neuron L1#18 (neuron 10424).swc",
+      "fanc_nodes": 1007,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 9.889262549492576,
+          "manc_to_fanc_median_um": 15.598177484240084,
+          "mean_bidirectional_median_um": 12.74372001686633
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 8.737758824767083,
+          "manc_to_fanc_median_um": 16.79444008995072,
+          "mean_bidirectional_median_um": 12.766099457358902
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 16811,
+      "source_name": "left T1 leg motor neuron L1#19 (neuron 16811).swc",
+      "fanc_nodes": 1000,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 17.19453464023031,
+          "manc_to_fanc_median_um": 15.955953799006991,
+          "mean_bidirectional_median_um": 16.57524421961865
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 12.336112333633558,
+          "manc_to_fanc_median_um": 17.39300814182394,
+          "mean_bidirectional_median_um": 14.86456023772875
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 492,
+      "source_name": "left T1 leg motor neuron L1#20 (neuron 492).swc",
+      "fanc_nodes": 9339,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 6.204384721840252,
+          "manc_to_fanc_median_um": 7.723324964212467,
+          "mean_bidirectional_median_um": 6.963854843026359
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 5.237932385428305,
+          "manc_to_fanc_median_um": 7.313374057338312,
+          "mean_bidirectional_median_um": 6.275653221383308
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 21244,
+      "source_name": "left T1 leg motor neuron L2 bundle (neuron 21244).swc",
+      "fanc_nodes": 1205,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 10.78634002944202,
+          "manc_to_fanc_median_um": 16.046257163440316,
+          "mean_bidirectional_median_um": 13.416298596441168
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 12.221305148823582,
+          "manc_to_fanc_median_um": 16.440406757380483,
+          "mean_bidirectional_median_um": 14.330855953102033
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 21338,
+      "source_name": "left T1 leg motor neuron L2 bundle (neuron 21338).swc",
+      "fanc_nodes": 1469,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 10.953334661712107,
+          "manc_to_fanc_median_um": 17.097157240433983,
+          "mean_bidirectional_median_um": 14.025245951073046
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 12.37937015972859,
+          "manc_to_fanc_median_um": 17.550131951661612,
+          "mean_bidirectional_median_um": 14.9647510556951
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 480,
+      "source_name": "left T1 leg motor neuron L2#01 (neuron 480).swc",
+      "fanc_nodes": 1856,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 7.8695908234323415,
+          "manc_to_fanc_median_um": 12.02258854850889,
+          "mean_bidirectional_median_um": 9.946089685970616
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 8.947552139729606,
+          "manc_to_fanc_median_um": 13.258918627489594,
+          "mean_bidirectional_median_um": 11.1032353836096
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 484,
+      "source_name": "left T1 leg motor neuron L2#02 (neuron 484).swc",
+      "fanc_nodes": 2825,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 7.780950461807031,
+          "manc_to_fanc_median_um": 8.297740731905117,
+          "mean_bidirectional_median_um": 8.039345596856073
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 8.399032924882182,
+          "manc_to_fanc_median_um": 8.904887243648778,
+          "mean_bidirectional_median_um": 8.651960084265479
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 488,
+      "source_name": "left T1 leg motor neuron L2#03 (neuron 488).swc",
+      "fanc_nodes": 3171,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 5.238879179806513,
+          "manc_to_fanc_median_um": 8.408064882573195,
+          "mean_bidirectional_median_um": 6.823472031189853
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 7.306919193095061,
+          "manc_to_fanc_median_um": 8.98250001438956,
+          "mean_bidirectional_median_um": 8.14470960374231
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 9175,
+      "source_name": "left T1 leg motor neuron L2#04 (neuron 9175).swc",
+      "fanc_nodes": 1264,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 11.050087845353202,
+          "manc_to_fanc_median_um": 15.308136739376696,
+          "mean_bidirectional_median_um": 13.179112292364948
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 13.412139027483775,
+          "manc_to_fanc_median_um": 14.394894709005873,
+          "mean_bidirectional_median_um": 13.903516868244825
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 12257,
+      "source_name": "left T1 leg motor neuron L3#01 (neuron 12257).swc",
+      "fanc_nodes": 6555,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 7.72532826676999,
+          "manc_to_fanc_median_um": 9.736953117431169,
+          "mean_bidirectional_median_um": 8.73114069210058
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 6.88227014777403,
+          "manc_to_fanc_median_um": 8.540120368619695,
+          "mean_bidirectional_median_um": 7.711195258196862
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 581,
+      "source_name": "left T1 leg motor neuron L3#02 (neuron 581).swc",
+      "fanc_nodes": 1689,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 3.3270465839234125,
+          "manc_to_fanc_median_um": 7.029340857125249,
+          "mean_bidirectional_median_um": 5.178193720524331
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 2.4403903673954757,
+          "manc_to_fanc_median_um": 5.8070342969508415,
+          "mean_bidirectional_median_um": 4.123712332173159
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 9001,
+      "source_name": "left T1 leg motor neuron L3#03 (neuron 9001).swc",
+      "fanc_nodes": 1655,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 4.070877083021404,
+          "manc_to_fanc_median_um": 7.146620222293561,
+          "mean_bidirectional_median_um": 5.608748652657482
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 2.810065695665582,
+          "manc_to_fanc_median_um": 5.270082102084402,
+          "mean_bidirectional_median_um": 4.040073898874992
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 9025,
+      "source_name": "left T1 leg motor neuron L3#04 (neuron 9025).swc",
+      "fanc_nodes": 1945,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 5.243683253748634,
+          "manc_to_fanc_median_um": 9.287727239106319,
+          "mean_bidirectional_median_um": 7.265705246427476
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 4.724218177824422,
+          "manc_to_fanc_median_um": 8.035270957661249,
+          "mean_bidirectional_median_um": 6.3797445677428355
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 9171,
+      "source_name": "left T1 leg motor neuron L3#05 (neuron 9171).swc",
+      "fanc_nodes": 6692,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 7.5391773848395776,
+          "manc_to_fanc_median_um": 8.249553273661547,
+          "mean_bidirectional_median_um": 7.8943653292505624
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 7.266586262636972,
+          "manc_to_fanc_median_um": 7.3509931573000635,
+          "mean_bidirectional_median_um": 7.308789709968518
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 12243,
+      "source_name": "left T1 leg motor neuron L4#01 (neuron 12243).swc",
+      "fanc_nodes": 1273,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 7.316537593898705,
+          "manc_to_fanc_median_um": 15.612659700145429,
+          "mean_bidirectional_median_um": 11.464598647022067
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 5.596981051311815,
+          "manc_to_fanc_median_um": 13.312484587793676,
+          "mean_bidirectional_median_um": 9.454732819552746
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 9029,
+      "source_name": "left T1 leg motor neuron L5#01 (neuron 9029).swc",
+      "fanc_nodes": 5324,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 8.441817862830653,
+          "manc_to_fanc_median_um": 7.482723600879396,
+          "mean_bidirectional_median_um": 7.962270731855025
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 7.17790282585662,
+          "manc_to_fanc_median_um": 7.0633175333279565,
+          "mean_bidirectional_median_um": 7.120610179592289
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 10377,
+      "source_name": "left T1 leg motor neuron V1#01 (neuron 10377).swc",
+      "fanc_nodes": 2828,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 6.510284655968954,
+          "manc_to_fanc_median_um": 8.004625999442316,
+          "mean_bidirectional_median_um": 7.257455327705635
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 5.400009627650289,
+          "manc_to_fanc_median_um": 7.66649801302812,
+          "mean_bidirectional_median_um": 6.533253820339205
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 11802,
+      "source_name": "left T1 leg motor neuron V1#02 (neuron 11802).swc",
+      "fanc_nodes": 2321,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 7.277455212458318,
+          "manc_to_fanc_median_um": 9.693945294656487,
+          "mean_bidirectional_median_um": 8.485700253557402
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 6.5082532376452535,
+          "manc_to_fanc_median_um": 8.509791598864695,
+          "mean_bidirectional_median_um": 7.509022418254974
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 11817,
+      "source_name": "left T1 leg motor neuron V1#03 (neuron 11817).swc",
+      "fanc_nodes": 2735,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 6.543878467902474,
+          "manc_to_fanc_median_um": 9.283269201142248,
+          "mean_bidirectional_median_um": 7.913573834522362
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 5.638373588373165,
+          "manc_to_fanc_median_um": 8.689479088161367,
+          "mean_bidirectional_median_um": 7.163926338267266
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 11787,
+      "source_name": "left T1 leg motor neuron V2#01 (neuron 11787).swc",
+      "fanc_nodes": 1802,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 8.493251687125937,
+          "manc_to_fanc_median_um": 12.296089362424429,
+          "mean_bidirectional_median_um": 10.394670524775183
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 6.833726203785154,
+          "manc_to_fanc_median_um": 10.28103636116602,
+          "mean_bidirectional_median_um": 8.557381282475587
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 11792,
+      "source_name": "left T1 leg motor neuron V2#02 (neuron 11792).swc",
+      "fanc_nodes": 1752,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 9.97178432063839,
+          "manc_to_fanc_median_um": 10.12544286456996,
+          "mean_bidirectional_median_um": 10.048613592604175
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 7.4113947755112335,
+          "manc_to_fanc_median_um": 9.569057361003107,
+          "mean_bidirectional_median_um": 8.49022606825717
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 10367,
+      "source_name": "left T1 leg motor neuron V3 bundle (neuron 10367).swc",
+      "fanc_nodes": 2972,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 8.26359893714983,
+          "manc_to_fanc_median_um": 9.613203173059064,
+          "mean_bidirectional_median_um": 8.938401055104446
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 6.804044265708434,
+          "manc_to_fanc_median_um": 7.588926769723631,
+          "mean_bidirectional_median_um": 7.196485517716033
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 10385,
+      "source_name": "left T1 leg motor neuron V3 bundle (neuron 10385).swc",
+      "fanc_nodes": 1429,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 7.308047084400382,
+          "manc_to_fanc_median_um": 12.20901413775781,
+          "mean_bidirectional_median_um": 9.758530611079095
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 6.467067646536622,
+          "manc_to_fanc_median_um": 10.178777816117828,
+          "mean_bidirectional_median_um": 8.322922731327225
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 10208,
+      "source_name": "left T1 leg motor neuron V4#01 (neuron 10208).swc",
+      "fanc_nodes": 2337,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 6.36126157089688,
+          "manc_to_fanc_median_um": 7.446671940522757,
+          "mean_bidirectional_median_um": 6.903966755709819
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 5.730377407262958,
+          "manc_to_fanc_median_um": 7.915160567652195,
+          "mean_bidirectional_median_um": 6.822768987457577
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 10223,
+      "source_name": "left T1 leg motor neuron V4#02 (neuron 10223).swc",
+      "fanc_nodes": 3209,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 7.544989510988011,
+          "manc_to_fanc_median_um": 6.914749534098862,
+          "mean_bidirectional_median_um": 7.229869522543437
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 6.92283736639032,
+          "manc_to_fanc_median_um": 6.859615290011157,
+          "mean_bidirectional_median_um": 6.891226328200739
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 11797,
+      "source_name": "left T1 leg motor neuron V5#01 (neuron 11797).swc",
+      "fanc_nodes": 1586,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 5.2917431254791625,
+          "manc_to_fanc_median_um": 9.106443946010815,
+          "mean_bidirectional_median_um": 7.199093535744989
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 4.321235305738373,
+          "manc_to_fanc_median_um": 7.260733594421749,
+          "mean_bidirectional_median_um": 5.790984450080061
+        }
+      }
+    },
+    {
+      "fanc_neuron_id": 10372,
+      "source_name": "left T1 leg motor neuron V6#01 (neuron 10372).swc",
+      "fanc_nodes": 3417,
+      "targets": {
+        "11657": {
+          "fanc_to_manc_median_um": 8.682335009385266,
+          "manc_to_fanc_median_um": 9.207886727658437,
+          "mean_bidirectional_median_um": 8.945110868521851
+        },
+        "12704": {
+          "fanc_to_manc_median_um": 7.253469050283191,
+          "manc_to_fanc_median_um": 7.674081944098574,
+          "mean_bidirectional_median_um": 7.463775497190882
+        }
+      }
+    }
+  ],
+  "rankings": {
+    "11657": [
+      581,
+      9001,
+      472,
+      16857,
+      488,
+      13031,
+      10208,
+      492,
+      13025,
+      2714,
+      11797,
+      10223,
+      10377,
+      9025,
+      9888,
+      9878,
+      9211,
+      9171,
+      11817,
+      8996,
+      9029,
+      484,
+      9755,
+      9195,
+      9187,
+      9687,
+      464,
+      11802,
+      476,
+      468,
+      12257,
+      10367,
+      10372,
+      9191,
+      10407,
+      9929,
+      10385,
+      480,
+      11792,
+      9935,
+      13036,
+      9746,
+      12262,
+      11787,
+      12243,
+      9867,
+      9005,
+      9013,
+      9797,
+      9557,
+      8992,
+      10393,
+      9630,
+      9207,
+      10424,
+      9175,
+      21244,
+      9857,
+      10414,
+      9883,
+      21338,
+      83815,
+      9552,
+      9709,
+      16811,
+      9009,
+      10299,
+      9862,
+      9899
+    ],
+    "12704": [
+      9001,
+      581,
+      472,
+      11797,
+      2714,
+      492,
+      9025,
+      13031,
+      10377,
+      464,
+      468,
+      13025,
+      16857,
+      9878,
+      10208,
+      10223,
+      8996,
+      9029,
+      11817,
+      9888,
+      10367,
+      9171,
+      9687,
+      9187,
+      10372,
+      476,
+      11802,
+      9755,
+      9195,
+      12257,
+      9191,
+      9211,
+      488,
+      10385,
+      11792,
+      11787,
+      10407,
+      484,
+      12262,
+      9005,
+      9935,
+      10393,
+      12243,
+      9746,
+      9630,
+      8992,
+      9013,
+      9929,
+      9207,
+      13036,
+      480,
+      83815,
+      9797,
+      9867,
+      9552,
+      10424,
+      10414,
+      9857,
+      9557,
+      9175,
+      9883,
+      21244,
+      9709,
+      16811,
+      21338,
+      9009,
+      10299,
+      9862,
+      9899
+    ]
+  },
+  "validates_manc_v1_identity": false
+}

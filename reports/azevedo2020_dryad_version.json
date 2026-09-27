@@ -1,0 +1,252 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/versions/105831"
+    },
+    "stash:dataset": {
+      "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.76hdr7stb"
+    },
+    "stash:files": {
+      "href": "/api/v2/versions/105831/files"
+    },
+    "stash:download": {
+      "href": "/api/v2/versions/105831/download"
+    },
+    "curies": [
+      {
+        "name": "stash",
+        "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+        "templated": "true"
+      }
+    ]
+  },
+  "title": "Data for: A size principle for recruitment of Drosophila leg motor neurons",
+  "authors": [
+    {
+      "firstName": "Anthony",
+      "lastName": "Azevedo",
+      "email": "tazevedo@uw.edu",
+      "affiliation": "University of Washington",
+      "affiliationROR": "https://ror.org/00cvxb145",
+      "affiliations": [
+        {
+          "name": "University of Washington",
+          "ror_id": "https://ror.org/00cvxb145"
+        }
+      ],
+      "orcid": "0000-0001-8318-9678",
+      "order": null
+    },
+    {
+      "firstName": "Evyn",
+      "lastName": "Dickinson",
+      "email": "",
+      "affiliation": "University of Washington",
+      "affiliationROR": "https://ror.org/00cvxb145",
+      "affiliations": [
+        {
+          "name": "University of Washington",
+          "ror_id": "https://ror.org/00cvxb145"
+        }
+      ],
+      "orcid": null,
+      "order": null
+    },
+    {
+      "firstName": "Pralaksha",
+      "lastName": "Gurung",
+      "email": "",
+      "affiliation": "University of Washington",
+      "affiliationROR": "https://ror.org/00cvxb145",
+      "affiliations": [
+        {
+          "name": "University of Washington",
+          "ror_id": "https://ror.org/00cvxb145"
+        }
+      ],
+      "orcid": null,
+      "order": null
+    },
+    {
+      "firstName": "Lalanti",
+      "lastName": "Venkatasubramanian",
+      "email": "",
+      "affiliation": "Columbia University",
+      "affiliationROR": "https://ror.org/00hj8s172",
+      "affiliations": [
+        {
+          "name": "Columbia University",
+          "ror_id": "https://ror.org/00hj8s172"
+        }
+      ],
+      "orcid": null,
+      "order": null
+    },
+    {
+      "firstName": "Richard",
+      "lastName": "Mann",
+      "email": "",
+      "affiliation": "Columbia University",
+      "affiliationROR": "https://ror.org/00hj8s172",
+      "affiliations": [
+        {
+          "name": "Columbia University",
+          "ror_id": "https://ror.org/00hj8s172"
+        }
+      ],
+      "orcid": null,
+      "order": null
+    },
+    {
+      "firstName": "John",
+      "lastName": "Tuthill",
+      "email": "tuthill@uw.edu",
+      "affiliation": "University of Washington",
+      "affiliationROR": "https://ror.org/00cvxb145",
+      "affiliations": [
+        {
+          "name": "University of Washington",
+          "ror_id": "https://ror.org/00cvxb145"
+        }
+      ],
+      "orcid": "0000-0002-5689-5806",
+      "order": null
+    }
+  ],
+  "abstract": "<p>To move the body, the brain must precisely coordinate patterns of activity among diverse populations of motor neurons. In many species, including vertebrates, the motor neurons innervating a given muscle fire in a specific order that is determined by a gradient of cellular size and electrical excitability. This hierarchy allows premotor circuits to recruit motor neurons of increasing force capacity in a task-dependent manner. However, it remains unclear whether such a size principle also applies to species with more compact motor systems, such as the fruit fly,\u00a0<em>Drosophila melanogaster</em>, which has just 53 motor neurons per leg. Using\u00a0<em>in vivo</em>\u00a0calcium imaging and electrophysiology, we found that genetically-identified motor neurons controlling flexion of the fly tibia exhibit a gradient of anatomical, physiological, and functional properties consistent with the size principle. Large, fast motor neurons control high force, ballistic movements while small, slow motor neurons control low force, postural movements. Intermediate neurons fall between these two extremes. In behaving flies, motor neurons are recruited in order from slow to fast. This hierarchical organization suggests that slow and fast motor neurons control distinct motor regimes. Indeed, we find that optogenetic manipulation of each motor neuron type has distinct effects on the behavior of walking flies.</p>\r\n",
+  "funders": [
+    {
+      "organization": "National Institute of Neurological Disorders and Stroke",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/01s5ya894",
+      "awardNumber": "5U19NS104655-05",
+      "awardURI": "https://reporter.nih.gov/project-details/10202757",
+      "awardDescription": null,
+      "awardTitle": "A Brain Circuit Program for Understanding the Sensorimotor Basis of Behavior",
+      "order": null
+    },
+    {
+      "organization": "Searle Foundation*",
+      "identifierType": null,
+      "identifier": "",
+      "awardNumber": "",
+      "awardURI": null,
+      "awardDescription": null,
+      "awardTitle": null,
+      "order": null
+    },
+    {
+      "organization": "McKnight Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/003ghvj67",
+      "awardNumber": "",
+      "awardURI": null,
+      "awardDescription": null,
+      "awardTitle": null,
+      "order": null
+    },
+    {
+      "organization": "Pew Biomedical Trust*",
+      "identifierType": null,
+      "identifier": "",
+      "awardNumber": "",
+      "awardURI": null,
+      "awardDescription": null,
+      "awardTitle": null,
+      "order": null
+    },
+    {
+      "organization": "Alfred P. Sloan Foundation",
+      "identifierType": "ror",
+      "identifier": "https://ror.org/052csg198",
+      "awardNumber": "",
+      "awardURI": null,
+      "awardDescription": null,
+      "awardTitle": null,
+      "order": null
+    },
+    {
+      "organization": "Searle Foundation",
+      "identifierType": null,
+      "identifier": "",
+      "awardNumber": null,
+      "awardURI": null,
+      "awardDescription": null,
+      "awardTitle": null,
+      "order": null
+    },
+    {
+      "organization": "Pew Biomedical Trust",
+      "identifierType": null,
+      "identifier": "",
+      "awardNumber": null,
+      "awardURI": null,
+      "awardDescription": null,
+      "awardTitle": null,
+      "order": null
+    }
+  ],
+  "keywords": [
+    "Motor neuron",
+    "size principle"
+  ],
+  "methods": "<p>This dataset contains preprocessed records for 1) electrophysiology recordings with\u00a0membrane voltage or EMG current, stimulus parameters, exposure times from synchronous video recordings, as well as the position of a force probe calculated\u00a0from simultaneous videos, 2) limb positions tracked from video recordings during optogenetic perturbation, and 3) recordings of the position and velocity of a ball during optogenetic perturbation in flies walking on the ball.</p>\r\n",
+  "usageNotes": "<p>Please see README file for instructions.\u00a0</p>\r\n",
+  "relatedWorks": [
+    {
+      "relationship": "primary_article",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.7554/eLife.56754"
+    },
+    {
+      "relationship": "software",
+      "identifierType": "DOI",
+      "identifier": "https://doi.org/10.5281/zenodo.4527659"
+    }
+  ],
+  "versionNumber": 6,
+  "versionStatus": "submitted",
+  "curationStatus": "Published",
+  "versionChanges": "files_changed",
+  "publicationDate": "2021-02-18",
+  "lastModificationDate": "2021-02-19",
+  "visibility": "public",
+  "sharingLink": "http://datadryad.org/dataset/doi:10.5061/dryad.76hdr7stb",
+  "changedFields": [
+    "funders",
+    [
+      {
+        "index": 0,
+        "name": "National Institute of Neurological Disorders and Stroke",
+        "award": "5U19NS104655-05",
+        "title": "A Brain Circuit Program for Understanding the Sensorimotor Basis of Behavior"
+      },
+      {
+        "index": 5,
+        "name": "Searle Foundation"
+      },
+      {
+        "index": 6,
+        "name": "Pew Biomedical Trust"
+      }
+    ],
+    "related_identifiers",
+    [
+      {
+        "deleted": 1
+      },
+      {
+        "index": 0,
+        "id": "https://doi.org/10.7554/eLife.56754"
+      },
+      {
+        "index": 1,
+        "id": "https://doi.org/10.5281/zenodo.4527659",
+        "type": "software",
+        "relation": "isderivedfrom"
+      }
+    ],
+    "data_files",
+    "software_files"
+  ]
+}

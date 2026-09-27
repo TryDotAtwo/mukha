@@ -1,0 +1,27 @@
+{
+  "source_commit": "9ea1131626cd76f7203b74076ef8f0e9cab30bef",
+  "model_sha256": "d67ff06d0c684599f00d5f33f8f8ac8ced01ab994c41341b551f8148b6d8aa0b",
+  "mujoco_version": "3.14.0",
+  "source_files_verified": 73,
+  "model_counts": {
+    "bodies": 73,
+    "joints": 14,
+    "actuators": 15,
+    "tendons": 15
+  },
+  "joint": "joint_LFTibia_pitch",
+  "actuator": "LFTibia_extensor_93932",
+  "timestep_s": 0.0001,
+  "steps_per_condition": 1000,
+  "pulse_ticks": [
+    200,
+    600
+  ],
+  "baseline_command": 0.0001,
+  "pulse_command": 1.0,
+  "maximum_absolute_joint_difference_rad": 0.4114802408027029,
+  "matches_prior_molab_maximum_within_1e_6_rad": true,
+  "trace_path": "data/derived/flymimic_muscle_local_replay/trace.npz",
+  "trace_sha256": "af1927db3c38d2f31d8faecc894e58b76b18d89515f3b4006a3f1e6f974c3232",
+  "scope": "Local author-model muscle pulse; artificial activation, no MaleCNS mapping, contact, rocket or biological calibration."
+}

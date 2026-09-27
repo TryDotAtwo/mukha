@@ -1,0 +1,7 @@
+{
+  "scope": "Cross-process full-CNS/FlyMimic/radial-rocket closed-loop checkpoint restore",
+  "checkpoint_report_sha256": "9c40d6eff9d2b42f503199dd28c61c0afe4837f73ba6ff279e0549375ea46f00",
+  "brain_body_rocket_tail_exact": true,
+  "fresh_process": true,
+  "biological_validation": false
+}

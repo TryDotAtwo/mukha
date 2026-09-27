@@ -1,0 +1,208 @@
+{
+  "scope": "Published coordinate registration only; identity and muscle mapping unverified",
+  "source_manifest_sha256": "a7b8713107c5dccb9f17e424cea546add846e4baa8b1624efd0c9dea95cb14e1",
+  "transform_manifest_sha256": "b9c44b34d79c5ee217e0c4a5e082ac62d5364ec349e82226029e9c3e065e0a18",
+  "route": [
+    "JRCFIB2022Mraw",
+    "JRCFIB2022M",
+    "BANC",
+    "BANCum",
+    "JRCVNC2018F",
+    "JRCVNC2018U"
+  ],
+  "results": [
+    {
+      "bodyId": 800158,
+      "nodes": 9940,
+      "output": "data/reference/ti_extensor_v1_vnc_registered/800158.npy",
+      "sha256": "b20eced6a7f4f09976687a9ecd335f9cc092bf10a7610eed96ea27436cdfd220",
+      "bbox_min_um": [
+        49.46830567798341,
+        308.11540835564216,
+        35.88454695345768
+      ],
+      "bbox_max_um": [
+        114.42842261709959,
+        435.5114916556213,
+        117.2788573582753
+      ]
+    },
+    {
+      "bodyId": 800621,
+      "nodes": 5783,
+      "output": "data/reference/ti_extensor_v1_vnc_registered/800621.npy",
+      "sha256": "2a4250e667279574ce4846067f495e9523a2440133ee195dfa9622a2059edd8a",
+      "bbox_min_um": [
+        136.65974097746766,
+        285.9561842663586,
+        28.18329285842598
+      ],
+      "bbox_max_um": [
+        209.40930605294037,
+        414.36928106886893,
+        126.61768347074351
+      ]
+    },
+    {
+      "bodyId": 800636,
+      "nodes": 4124,
+      "output": "data/reference/ti_extensor_v1_vnc_registered/800636.npy",
+      "sha256": "e5cca0517341915741678060897cec28233bcf6f24cd250a47d7e7d1542f34bd",
+      "bbox_min_um": [
+        140.90494074801572,
+        21.372920563441163,
+        62.76496972363925
+      ],
+      "bbox_max_um": [
+        211.13300652531362,
+        133.9230521881222,
+        124.66194372381347
+      ]
+    },
+    {
+      "bodyId": 800911,
+      "nodes": 6456,
+      "output": "data/reference/ti_extensor_v1_vnc_registered/800911.npy",
+      "sha256": "90b594ba5f741ead3df874c2226bb91b5b3090e114c34a53ea4e3e4566f308bb",
+      "bbox_min_um": [
+        138.5455416821446,
+        162.06428125885046,
+        18.98918689408058
+      ],
+      "bbox_max_um": [
+        214.52232750043368,
+        272.044686687659,
+        96.17755779583479
+      ]
+    },
+    {
+      "bodyId": 801234,
+      "nodes": 7037,
+      "output": "data/reference/ti_extensor_v1_vnc_registered/801234.npy",
+      "sha256": "dc45cd45d69f7e6e751064dfe16efbd016bc5f1942c28617876585bc945dd35e",
+      "bbox_min_um": [
+        162.37614673584108,
+        185.67034628393992,
+        17.15113295418166
+      ],
+      "bbox_max_um": [
+        214.23262667196616,
+        273.53949958424136,
+        99.9362947185756
+      ]
+    },
+    {
+      "bodyId": 804257,
+      "nodes": 3477,
+      "output": "data/reference/ti_extensor_v1_vnc_registered/804257.npy",
+      "sha256": "8c50a94fb03c6664e9130ccfca507ef41da4fc5a824cba1eef796dd8f6ce9c3f",
+      "bbox_min_um": [
+        51.21531813191626,
+        43.89025197029133,
+        64.76695921044684
+      ],
+      "bbox_max_um": [
+        110.40568079937695,
+        124.68219767440746,
+        119.67180818843026
+      ]
+    },
+    {
+      "bodyId": 809935,
+      "nodes": 2707,
+      "output": "data/reference/ti_extensor_v1_vnc_registered/809935.npy",
+      "sha256": "12769e401f7a2c5d5ef81f1f515590208f37f0682c34961c0e90f0fe44c70851",
+      "bbox_min_um": [
+        47.5685817835505,
+        292.3323264988216,
+        44.11597061816109
+      ],
+      "bbox_max_um": [
+        123.86265128378264,
+        398.191422885956,
+        121.61460110488939
+      ]
+    },
+    {
+      "bodyId": 812953,
+      "nodes": 1802,
+      "output": "data/reference/ti_extensor_v1_vnc_registered/812953.npy",
+      "sha256": "fc9f46ff543d1623d07186e5abd2e17b6d9fc694b9915d8350c609ba896c6ed5",
+      "bbox_min_um": [
+        163.43393972903235,
+        317.71158370562756,
+        41.076547359845236
+      ],
+      "bbox_max_um": [
+        208.27469822466674,
+        434.5032702930036,
+        109.19046200605119
+      ]
+    },
+    {
+      "bodyId": 815344,
+      "nodes": 8975,
+      "output": "data/reference/ti_extensor_v1_vnc_registered/815344.npy",
+      "sha256": "f22098572752945558bccd76a9f91520b6a5fa4ae8b1ad5175f5cbca37e3c7ec",
+      "bbox_min_um": [
+        141.11288321466517,
+        22.350699540807316,
+        44.39002021570776
+      ],
+      "bbox_max_um": [
+        214.12369725125788,
+        141.89460783460223,
+        127.59846491468045
+      ]
+    },
+    {
+      "bodyId": 815678,
+      "nodes": 4282,
+      "output": "data/reference/ti_extensor_v1_vnc_registered/815678.npy",
+      "sha256": "33ae3df7a5bcc245ece50c137b53f1f027ca3fa53310ef9e3d8e3ae13b5ce94f",
+      "bbox_min_um": [
+        37.61981225832145,
+        37.61587501393319,
+        32.22483253152778
+      ],
+      "bbox_max_um": [
+        118.68280225680796,
+        141.50106962742797,
+        122.9633517958763
+      ]
+    },
+    {
+      "bodyId": 830514,
+      "nodes": 7126,
+      "output": "data/reference/ti_extensor_v1_vnc_registered/830514.npy",
+      "sha256": "c233e1f2bbdc3c07eb6d0be0892af3bc7803f52b4e172309b3a936c493b0ec7d",
+      "bbox_min_um": [
+        51.46172149389359,
+        183.54350337709175,
+        13.459420875061905
+      ],
+      "bbox_max_um": [
+        126.8390814813183,
+        307.66575036603047,
+        101.25749174309858
+      ]
+    },
+    {
+      "bodyId": 928579,
+      "nodes": 3704,
+      "output": "data/reference/ti_extensor_v1_vnc_registered/928579.npy",
+      "sha256": "8bc73871dc4c7cf326c850ca9020cb8a841027c1b6555f6cacfd8000a81c433e",
+      "bbox_min_um": [
+        45.66977648675254,
+        185.72920354579517,
+        19.71948370894789
+      ],
+      "bbox_max_um": [
+        116.02794991129439,
+        310.19699822729376,
+        101.33764340328194
+      ]
+    }
+  ],
+  "biological_gate_passed": false
+}

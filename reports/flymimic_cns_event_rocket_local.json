@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "dt_seconds": 0.0001,
+  "steps_per_case": 1000,
+  "source_contact_report_sha256": "775bc383717f15e79c79c7d93edf33a4ab4f5df89c3c56d0c8b70380e472a559",
+  "six_controls_rocket_traces_identical": true,
+  "maximum_engine_recurrence_error_n": 0.0,
+  "maximum_fuel_recurrence_error_kg": 0.0,
+  "active": [
+    {
+      "variant": "unclear_excitatory",
+      "first_throttle_tick": 447,
+      "max_throttle": 0.004813590835561157,
+      "max_velocity_effect_mps": 0.00014322315259818197
+    },
+    {
+      "variant": "unclear_inhibitory",
+      "first_throttle_tick": 447,
+      "max_throttle": 0.004813590835561157,
+      "max_velocity_effect_mps": 0.00014322315259818197
+    }
+  ],
+  "sampling": "MuJoCo slide position after one step enters native rocket at next step",
+  "scope": "Recorded artificial-drive CNS events, hypothetical muscle filter/mapping, one-way native rocket replay; no biological response validation or KSP landing.",
+  "hashes": {
+    "data/derived/flymimic_cns_event_contact_v1/traces.npz": "f1191e91e6861027220b7d401775fd69fb90d27baa61ed6b58905496cbd8cf09",
+    "build/flymimic_rocket_replay.exe": "5eeb09e740baf19fbfe42698f597c363ce72c3b819bcaafef563cd0395997e5e",
+    "data/derived/flymimic_cns_event_contact_v1/rocket_slide_input.csv": "0b0ab8acc93cc25e4f7f437336a50823484a427f95597dedabe724e7433a6cdd",
+    "data/derived/flymimic_cns_event_contact_v1/rocket_replay.csv": "390fffbb74830e10c01b1beeeaaf7642fbf862ff65f1c84b3985cb536318d329"
+  }
+}

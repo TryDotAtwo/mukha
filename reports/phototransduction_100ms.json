@@ -1,0 +1,23 @@
+{
+  "scope": "100 ms two-receptor photon run; numerical pilot only, not biological validation",
+  "passed_numerical_checks": true,
+  "ticks": 1000,
+  "dt_seconds": 0.0001,
+  "photons_per_second": [
+    0,
+    100000
+  ],
+  "seed": 19303,
+  "final_dark_mv": -81.99249502243413,
+  "final_light_mv": -18.96694320127799,
+  "max_light_dark_difference_mv": 70.77329290677768,
+  "final_adaptation": [
+    1.0,
+    25.81005597007335
+  ],
+  "hashes": {
+    "build\\phototransduction_100ms.csv": "3bcce61484da748cc53f1a5933392d1e16156afb2ba747ccf99a87a039d40b02",
+    "build\\phototransduction_safe_probe.exe": "1a7f996313260ffa939cc0944c850eb98eeb82ccb3b892096801fd4bea78f6b7",
+    "native\\phototransduction_probe.cu": "acb52346601b17f335e34ec50208b0a17542b6c3e9c525b7c119a8ab486dc1e6"
+  }
+}

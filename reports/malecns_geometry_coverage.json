@@ -1,0 +1,32 @@
+{
+  "dataset": "male-cns:v1.0",
+  "annotation_sha256": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2",
+  "graph_population": 167216,
+  "annotation_point_coverage": {
+    "included": {
+      "rows": 167216,
+      "soma_points": 140034,
+      "to_soma_points": 995,
+      "either_point": 141010,
+      "missing_both": 26206
+    },
+    "outside_population": {
+      "rows": 44361,
+      "soma_points": 1747,
+      "to_soma_points": 0,
+      "either_point": 1747,
+      "missing_both": 42614
+    }
+  },
+  "pinned_v1_swc_manifest_files": [
+    "data/reference/malecns_v1_agrawal_13b_candidates/source_manifest.json",
+    "data/reference/malecns_v1_lf_proprio_45_skeletons/source_manifest.json",
+    "data/reference/malecns_v1_lf_proprio_skeletons/source_manifest.json",
+    "data/reference/malecns_v1_ti_extensor_skeletons/source_manifest.json"
+  ],
+  "distinct_pinned_v1_swc_ids": 70,
+  "pinned_v1_swc_inside_population": 70,
+  "pinned_v1_swc_outside_population": 0,
+  "population_without_local_pinned_swc": 167146,
+  "scope": "Local artifact coverage only; a soma point is not a neurite skeleton, and a pinned SWC is not proof of complete morphology or biology."
+}

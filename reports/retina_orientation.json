@@ -1,0 +1,16 @@
+{
+  "rays": 80,
+  "panorama_width": 37,
+  "panorama_height": 19,
+  "seed": 9215,
+  "oracle_max_absolute_error_by_rotation": {
+    "identity": 0.0,
+    "yaw_90": 0.0,
+    "pitch_45": 0.0
+  },
+  "identity_exactly_matches_static_sampler": true,
+  "reflection_rejected_without_output_mutation": true,
+  "dll_sha256": "0ce15b8cf923d3ebfe4878e3afd1d7069ed1dcc724e6031ffc307c705c4a8abe",
+  "source_sha256": "3c6ed7b151d6523981b8040f6948a08fa98053be1511d3619dad6fbeed4cce14",
+  "scope": "Dynamic body-local to panorama ray rotation only; no MaleCNS cell mapping, calibrated optics or receptor-to-CNS coupling."
+}

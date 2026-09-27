@@ -1,0 +1,327 @@
+{
+  "scope": "Unmodified repeat with top-20 left-MN9 presynaptic source traces; no causal attribution or biological validation",
+  "graph_manifest_sha256": "b30e21078c0479ac288e7f9d3b7cb2c9eb76aa3b9707f3a2b9fa6a92bb822ef3",
+  "dll_sha256": "915288319a5bc9442c0d809430fc27f585ce7ed1e9021c43c53c0228b36c12f0",
+  "prior_report_sha256": "37bac41599a4f3d1de0994d30918d4342550f96b41fa3d80469a36ced07df623",
+  "top20_edges": [
+    {
+      "body_id": 10833,
+      "contacts": 464,
+      "signed_synaptic_state_impulse_mv": 127.60000000000001,
+      "consensus_nt": "acetylcholine"
+    },
+    {
+      "body_id": 10881,
+      "contacts": 359,
+      "signed_synaptic_state_impulse_mv": 98.72500000000001,
+      "consensus_nt": "acetylcholine"
+    },
+    {
+      "body_id": 13754,
+      "contacts": 357,
+      "signed_synaptic_state_impulse_mv": -98.17500000000001,
+      "consensus_nt": "gaba"
+    },
+    {
+      "body_id": 12851,
+      "contacts": 351,
+      "signed_synaptic_state_impulse_mv": -96.525,
+      "consensus_nt": "gaba"
+    },
+    {
+      "body_id": 26764,
+      "contacts": 348,
+      "signed_synaptic_state_impulse_mv": 95.7,
+      "consensus_nt": "acetylcholine"
+    },
+    {
+      "body_id": 523590,
+      "contacts": 266,
+      "signed_synaptic_state_impulse_mv": -73.15,
+      "consensus_nt": "gaba"
+    },
+    {
+      "body_id": 10849,
+      "contacts": 241,
+      "signed_synaptic_state_impulse_mv": 66.275,
+      "consensus_nt": "acetylcholine"
+    },
+    {
+      "body_id": 513655,
+      "contacts": 214,
+      "signed_synaptic_state_impulse_mv": -58.85,
+      "consensus_nt": "gaba"
+    },
+    {
+      "body_id": 14891,
+      "contacts": 198,
+      "signed_synaptic_state_impulse_mv": 54.45,
+      "consensus_nt": "acetylcholine"
+    },
+    {
+      "body_id": 17782,
+      "contacts": 187,
+      "signed_synaptic_state_impulse_mv": -51.425000000000004,
+      "consensus_nt": "gaba"
+    },
+    {
+      "body_id": 28181,
+      "contacts": 177,
+      "signed_synaptic_state_impulse_mv": -48.675000000000004,
+      "consensus_nt": "gaba"
+    },
+    {
+      "body_id": 11755,
+      "contacts": 160,
+      "signed_synaptic_state_impulse_mv": 44.0,
+      "consensus_nt": "acetylcholine"
+    },
+    {
+      "body_id": 523679,
+      "contacts": 142,
+      "signed_synaptic_state_impulse_mv": -39.050000000000004,
+      "consensus_nt": "gaba"
+    },
+    {
+      "body_id": 16142,
+      "contacts": 136,
+      "signed_synaptic_state_impulse_mv": 37.400000000000006,
+      "consensus_nt": "acetylcholine"
+    },
+    {
+      "body_id": 12752,
+      "contacts": 101,
+      "signed_synaptic_state_impulse_mv": 27.775000000000002,
+      "consensus_nt": "acetylcholine"
+    },
+    {
+      "body_id": 12364,
+      "contacts": 96,
+      "signed_synaptic_state_impulse_mv": 26.400000000000002,
+      "consensus_nt": "acetylcholine"
+    },
+    {
+      "body_id": 10673,
+      "contacts": 92,
+      "signed_synaptic_state_impulse_mv": 25.3,
+      "consensus_nt": "unclear"
+    },
+    {
+      "body_id": 238142,
+      "contacts": 92,
+      "signed_synaptic_state_impulse_mv": 25.3,
+      "consensus_nt": "acetylcholine"
+    },
+    {
+      "body_id": 13402,
+      "contacts": 78,
+      "signed_synaptic_state_impulse_mv": -21.450000000000003,
+      "consensus_nt": "gaba"
+    },
+    {
+      "body_id": 522702,
+      "contacts": 76,
+      "signed_synaptic_state_impulse_mv": -20.900000000000002,
+      "consensus_nt": "gaba"
+    }
+  ],
+  "results": [
+    {
+      "condition": "sweet_LB3c",
+      "mn9_spike_ticks": [
+        261,
+        348,
+        397,
+        473,
+        538,
+        613,
+        687,
+        771,
+        852,
+        907,
+        960
+      ],
+      "mn9_voltage_min_mv": -65.07238171617094,
+      "mn9_voltage_max_mv": -45.024298618602316,
+      "mn9_voltage_mean_mv": -52.25769209062542,
+      "mn9_synaptic_state_min_mv": -148.07329476074224,
+      "mn9_synaptic_state_max_mv": 273.8719374470954,
+      "top20_presynaptic_spike_ticks": {
+        "10833": [
+          327,
+          515,
+          660,
+          774,
+          900
+        ],
+        "10881": [
+          230,
+          291,
+          395,
+          764
+        ],
+        "13754": [
+          141,
+          202,
+          265,
+          341,
+          470,
+          598,
+          670,
+          792,
+          902
+        ],
+        "12851": [],
+        "26764": [
+          132,
+          192,
+          238,
+          300,
+          363,
+          454,
+          517,
+          568,
+          614,
+          663,
+          745,
+          800,
+          880,
+          928,
+          985
+        ],
+        "523590": [],
+        "10849": [],
+        "513655": [],
+        "14891": [],
+        "17782": [],
+        "28181": [],
+        "11755": [],
+        "523679": [
+          112,
+          185,
+          267,
+          327,
+          458,
+          543,
+          623,
+          689,
+          768,
+          834,
+          896,
+          956
+        ],
+        "16142": [],
+        "12752": [
+          183,
+          264,
+          317,
+          433,
+          510,
+          587,
+          645,
+          707,
+          769,
+          828,
+          882,
+          958
+        ],
+        "12364": [
+          151,
+          239,
+          307,
+          375,
+          453,
+          538,
+          610,
+          672,
+          755,
+          809,
+          876,
+          938
+        ],
+        "10673": [
+          172,
+          223,
+          276,
+          342,
+          447,
+          497,
+          548,
+          617,
+          677,
+          742,
+          788,
+          845,
+          904,
+          959
+        ],
+        "238142": [],
+        "13402": [
+          441
+        ],
+        "522702": []
+      }
+    },
+    {
+      "condition": "sweet_plus_bitter",
+      "mn9_spike_ticks": [],
+      "mn9_voltage_min_mv": -141.67186999291042,
+      "mn9_voltage_max_mv": -52.0,
+      "mn9_voltage_mean_mv": -103.01536159227145,
+      "mn9_synaptic_state_min_mv": -175.91287616585564,
+      "mn9_synaptic_state_max_mv": 55.17806103010294,
+      "top20_presynaptic_spike_ticks": {
+        "10833": [],
+        "10881": [],
+        "13754": [
+          157,
+          234,
+          308,
+          423,
+          480,
+          597,
+          677,
+          943
+        ],
+        "12851": [],
+        "26764": [
+          818
+        ],
+        "523590": [],
+        "10849": [],
+        "513655": [],
+        "14891": [],
+        "17782": [],
+        "28181": [],
+        "11755": [],
+        "523679": [
+          117,
+          200,
+          305,
+          376,
+          463,
+          557,
+          623,
+          685,
+          793,
+          887,
+          962
+        ],
+        "16142": [],
+        "12752": [],
+        "12364": [],
+        "10673": [
+          329,
+          452,
+          645,
+          722,
+          838,
+          928
+        ],
+        "238142": [],
+        "13402": [],
+        "522702": []
+      }
+    }
+  ]
+}

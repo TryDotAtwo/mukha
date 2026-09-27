@@ -1,0 +1,1996 @@
+{
+  "flygym_repository": "NeLy-EPFL/flygym",
+  "flygym_tag": "v2.1.0",
+  "flygym_commit": "ca65a510c2afe6ac61c51df4f274c8d190c2f95f",
+  "flygym_files": [
+    {
+      "path": "data\\reference\\flygym_2.1.0\\LICENSE",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/LICENSE",
+      "bytes": 11362,
+      "git_blob": "08f9a061494f0c2a130d27b51b1ee4050d8292ea",
+      "sha256": "02afa15750a169f0815ff1525dacf28d010f1dfd4cb119fc9e96bfca4f426eb4"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\README.md",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/README.md",
+      "bytes": 4127,
+      "git_blob": "efdda558b26b41f6b7e988395f3a6392e0d40274",
+      "sha256": "aa219c32e59beee5e498db70267425cc6b4fb709127f4137d804a32cea571cc3"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\pyproject.toml",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/pyproject.toml",
+      "bytes": 5623,
+      "git_blob": "67ebac77ec81d420c26b07de42c39e8cfa69d087",
+      "sha256": "adba22334274b58b48483322ae6bd8aa1568784ae959a71350f9665007abd341"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\__init__.py",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/__init__.py",
+      "bytes": 737,
+      "git_blob": "9676d5ccfc8193e5bddc4e339d7e66b188b0c2d2",
+      "sha256": "bf57d0f48b247996a36aa7c3153f105af1b8b9b6d8fd47b19e0505604157fd53"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\anatomy.py",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/anatomy.py",
+      "bytes": 20311,
+      "git_blob": "7b4c318dd2c0ed4ad0c00ef30ad17a8ab99b62d5",
+      "sha256": "64ac2cb6239d26ff872e34f2b59e6e35c9182b4b05e21e151e7e7d2c129c0e87"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\compound_eye.npz",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/compound_eye.npz",
+      "bytes": 27591,
+      "git_blob": "ddf5cff34b838c393ccc4af95f1a373d3307c1c5",
+      "sha256": "51afb29664ac1f4ef05535f417ae37ed8a625911c99995720ca382799eef36b3"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\legacy\\flygym1_config.yaml",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/legacy/flygym1_config.yaml",
+      "bytes": 7217,
+      "git_blob": "b67905c2f9dc701b3e6eb4c14ad3fab33d70d22d",
+      "sha256": "521f2ebc9951bdd71ab71aed5c1c4f3352d036b2df257dba53b0370c0f2e16fb"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\legacy\\flygym1_deepfly3d_rollyawpitch.xml",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/legacy/flygym1_deepfly3d_rollyawpitch.xml",
+      "bytes": 47522,
+      "git_blob": "747ed1f3800bf7d2db48bae8dea62170d00c24ff",
+      "sha256": "01c2eb51a379e8f7af37ad64f795d942da3d433841ee2397f6bce4af8698484a"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\legacy\\flygym1_seqikpy_yawpitchroll.xml",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/legacy/flygym1_seqikpy_yawpitchroll.xml",
+      "bytes": 47518,
+      "git_blob": "fe43c55ed54133e3b92fc67717c4bafd4613d8ba",
+      "sha256": "e8bf4474c98b85cd142f1bf053d744edd92a2b39f01aff6cba3fb199e54059c7"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\meshes\\simplified_max2000faces\\c_abdomen12.stl",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/c_abdomen12.stl",
+      "bytes": 100084,
+      "git_blob": "a16a3c07054d35dde979e6e7d58e9f9ab3709cfe",
+      "sha256": "656b60100c06b0a8eb2dfbd201b12cac5eb31ffec6bf9c6c4ff3f97d14376371"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\meshes\\simplified_max2000faces\\c_abdomen3.stl",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/c_abdomen3.stl",
+      "bytes": 100084,
+      "git_blob": "eef046fc47ca8f5086f3aace946f5ccd9ade69b2",
+      "sha256": "264af5ede95bfcb11720219b31c76141a0921394f7c46e7fb7fb6b7066880f3b"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\meshes\\simplified_max2000faces\\c_abdomen4.stl",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/c_abdomen4.stl",
+      "bytes": 99984,
+      "git_blob": "02709142afef0c1c6c9369b67212771d09e52403",
+      "sha256": "662bbc3af32a987511af04e437d02c40e99840960809f5020abe9ec91b226ca4"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\meshes\\simplified_max2000faces\\c_abdomen5.stl",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/c_abdomen5.stl",
+      "bytes": 99984,
+      "git_blob": "a914fe962890d1d002044a5657d14af820146d51",
+      "sha256": "87d1de98ad39ba52c096e0fd3b4860ae3a0aadeb4be46cac824e9b2501be6c48"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\meshes\\simplified_max2000faces\\c_abdomen6.stl",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/c_abdomen6.stl",
+      "bytes": 99984,
+      "git_blob": "b0ffe8927eba325814f1c8e120acbf6ebc012e07",
+      "sha256": "748dda76a46554fd1743113eaafdf0dc2d10546095f5420406745e0eb47f87fb"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\meshes\\simplified_max2000faces\\c_haustellum.stl",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/c_haustellum.stl",
+      "bytes": 99984,
+      "git_blob": "5760d2b021b45574c62c995b1b374e2826f2a8e0",
+      "sha256": "babceb7a6adf0c88e8de6ce9810c32b397d3d1cdd073c0b1bea1df9d8c6ac4e9"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\meshes\\simplified_max2000faces\\c_head.stl",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/c_head.stl",
+      "bytes": 99984,
+      "git_blob": "3dedbeb8e40a6c7541519b7ad80d63ffe1f8e51e",
+      "sha256": "39c51acbdf5957af95e294fa485cd7602103ca83bf451e95e29d251bd43765b6"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\meshes\\simplified_max2000faces\\c_rostrum.stl",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/c_rostrum.stl",
+      "bytes": 100084,
+      "git_blob": "a3130611d2820821b94e3ba50070f5ded04326ac",
+      "sha256": "4ed0fa33c5867013482011e2ff656b71189f2b29dfb0bda2b0797961d95d12e4"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\meshes\\simplified_max2000faces\\c_thorax.stl",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/c_thorax.stl",
+      "bytes": 100084,
+      "git_blob": "bdd7934d06544c7baf01ce60257c05b0bce21def",
+      "sha256": "b7fac1a3bcbad2100d063bae2ae6e81217e808f3c32564763ee7e43ec3904969"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\meshes\\simplified_max2000faces\\l_arista.stl",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/l_arista.stl",
+      "bytes": 100084,
+      "git_blob": "d7f886e29caf204f88e5b4adaedb5d1953502df4",
+      "sha256": "6201af1cbe213ee6e259a6d89df65080f9cb9d806e6526cbcc7c5f1ae793f97c"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\meshes\\simplified_max2000faces\\l_eye.stl",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/l_eye.stl",
+      "bytes": 100084,
+      "git_blob": "82d56fadb0cfafa8aa625577d0e93ede6dbae754",
+      "sha256": "08ce40c3264c9ab87703b6c013eae39d1bc48fa3e4cf02aec06d529c94e70daf"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\meshes\\simplified_max2000faces\\l_funiculus.stl",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/l_funiculus.stl",
+      "bytes": 26584,
+      "git_blob": "375cb105a9d7cc0ae0e0b2fb66f533c758a602ff",
+      "sha256": "d2a6d35751922fb8b1ce07b269bc432f33d7f8f6d243b2dd1801e021b91d8156"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\meshes\\simplified_max2000faces\\l_haltere.stl",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/l_haltere.stl",
+      "bytes": 41284,
+      "git_blob": "5156a9cf450f48272caf6291bfad6dccb9583ef5",
+      "sha256": "13d77fcca66fca90db5cf00b33a7369ae80366fe39974df3667e709882e64ed6"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\meshes\\simplified_max2000faces\\l_pedicel.stl",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/l_pedicel.stl",
+      "bytes": 100084,
+      "git_blob": "25e240099adc2e8e3271e6dd3afd88a2ae90f4f6",
+      "sha256": "6de0f06e57c78f8738f67c0c52b85e74cb105789497a4183944e90211d3a4bf4"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\meshes\\simplified_max2000faces\\l_wing.stl",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/l_wing.stl",
+      "bytes": 100034,
+      "git_blob": "f8f9253b1f135190787ad85dfe0b6339e3ddb1bd",
+      "sha256": "142f77f15008fd75e1490b546bb859cf98c056121f1abd65acea2052c4e7764c"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\meshes\\simplified_max2000faces\\lf_coxa.stl",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/lf_coxa.stl",
+      "bytes": 100084,
+      "git_blob": "00e7d4827f5ad1723c73236d3576dfac9fa41b6e",
+      "sha256": "bff053bfee772796dae2b396aa0e3be12919b7fb1ee33b5fde369bec00944b64"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\meshes\\simplified_max2000faces\\lf_tarsus1.stl",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/lf_tarsus1.stl",
+      "bytes": 89584,
+      "git_blob": "0c7073a8c2cdbdded5e636844fb47dfa54fa8f6e",
+      "sha256": "29085dda732699c4a3110458303adf2eec667f7db6e42166d408c260ae6acf5e"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\meshes\\simplified_max2000faces\\lf_tarsus2.stl",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/lf_tarsus2.stl",
+      "bytes": 89884,
+      "git_blob": "813018b7eb9631c38c03e66201f9288705383c14",
+      "sha256": "996735c15a7e8e0c022babf5500224fa6e23de0e277305279d4b6787d56335d8"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\meshes\\simplified_max2000faces\\lf_tarsus3.stl",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/lf_tarsus3.stl",
+      "bytes": 100084,
+      "git_blob": "ed475df5bf528a3689ddb862a58c1f2fbb347f06",
+      "sha256": "166044083a5a4a0e8b7db91cdd71ef0ea0e3feb18f1630955156de14931d9495"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\meshes\\simplified_max2000faces\\lf_tarsus4.stl",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/lf_tarsus4.stl",
+      "bytes": 100034,
+      "git_blob": "532b5c6e9e7a50c5a2b89c8f8199509748d3441d",
+      "sha256": "c90d8c6ebd0e2384a45524944e4fb2e02ba413be26ee04bc5030b2afb5876943"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\meshes\\simplified_max2000faces\\lf_tarsus5.stl",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/lf_tarsus5.stl",
+      "bytes": 100084,
+      "git_blob": "7fb9e5d00acdec2e0c5c35bc043793803c409156",
+      "sha256": "93b048052461fa756a767608418ec90e537435a1ff282f2a393faa45ba60ae73"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\meshes\\simplified_max2000faces\\lf_tibia.stl",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/lf_tibia.stl",
+      "bytes": 85534,
+      "git_blob": "1ff6d9e1a606df65f90970361a4d11da985acaec",
+      "sha256": "8138fe5f1fc52588dca6677bb338d39451813ac96159f78d6cf677eba73f3862"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\meshes\\simplified_max2000faces\\lf_trochanterfemur.stl",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/lf_trochanterfemur.stl",
+      "bytes": 80984,
+      "git_blob": "c801dca70c3c82edde0a66f7755cdc372904233b",
+      "sha256": "50e4e7baf2852a369f0dda2a2c9708a68c45893b3019a79dd74799e8e2ea64c9"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\meshes\\simplified_max2000faces\\lh_coxa.stl",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/lh_coxa.stl",
+      "bytes": 100084,
+      "git_blob": "93ef4c54ca9164af6adcd4e6552c4a46a823ec60",
+      "sha256": "ad3a10789b8bd5e0f3db2667a1fe373ffdb83cfc876b34d60508e9e34a51366d"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\meshes\\simplified_max2000faces\\lh_tarsus1.stl",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/lh_tarsus1.stl",
+      "bytes": 38934,
+      "git_blob": "211cc3b30d26cdb0bcd1cab3623a2813e19ee7d2",
+      "sha256": "61af16259215525e092d61426b874c7855485a9c7cfa91eecfc2fe99281a2dc6"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\meshes\\simplified_max2000faces\\lh_tarsus2.stl",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/lh_tarsus2.stl",
+      "bytes": 98684,
+      "git_blob": "aea81aa4748d5bfef73fbd8a452249e195a7f589",
+      "sha256": "da796bc3ad5d355b9e941aeeb6ad96c7fb00dee7421995605dcc81cd6fd7af12"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\meshes\\simplified_max2000faces\\lh_tarsus3.stl",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/lh_tarsus3.stl",
+      "bytes": 100084,
+      "git_blob": "966825869751f9e4f14250d3886c73ccec5d2bde",
+      "sha256": "08280c942abf91279e86414d064f39cae2b46ba9f62845252a9763d0839fabe5"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\meshes\\simplified_max2000faces\\lh_tarsus4.stl",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/lh_tarsus4.stl",
+      "bytes": 99984,
+      "git_blob": "c908f41d185a6d4730f91f35c89e5c7e2c4892f9",
+      "sha256": "623f9059236af1327770f6f8e5e4fb8dc87930c49f5559c36d3d4245f51f7678"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\meshes\\simplified_max2000faces\\lh_tarsus5.stl",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/lh_tarsus5.stl",
+      "bytes": 100084,
+      "git_blob": "fd228eda351167e8d56372f98181ceabcaac2567",
+      "sha256": "1b86c811928d0a6e04c693b9a213f06c0f7a037584252fc8f35d408be1bf87e8"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\meshes\\simplified_max2000faces\\lh_tibia.stl",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/lh_tibia.stl",
+      "bytes": 37484,
+      "git_blob": "424a347c0aec393b782873492e426f7acfd0a300",
+      "sha256": "2853873ade9abeb35da5f1a6c822d223bbe19a50d8ed77921bb77743b4782a60"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\meshes\\simplified_max2000faces\\lh_trochanterfemur.stl",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/lh_trochanterfemur.stl",
+      "bytes": 100084,
+      "git_blob": "1826ae6a147dcf781d75b3cbc7b1494798309556",
+      "sha256": "8e6b7ee8c4f6c388b64250086acc952c10abd469ac7bf0fb7015c2837e53d423"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\meshes\\simplified_max2000faces\\lm_coxa.stl",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/lm_coxa.stl",
+      "bytes": 100084,
+      "git_blob": "6922a511219a94d8c9f6c53f73a3cdac9d270d9f",
+      "sha256": "01a6f4f4147b7cd308f0a1db79786694632c9fe5a3425b5e3454a7fa7624897b"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\meshes\\simplified_max2000faces\\lm_tarsus1.stl",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/lm_tarsus1.stl",
+      "bytes": 46284,
+      "git_blob": "0151a57a3bb1113838882d4af13545d1f0f1f668",
+      "sha256": "b7f50bfe1e75dfa65110a4f80e0216858a7a75712115b04605f344c8e837b1ae"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\meshes\\simplified_max2000faces\\lm_tarsus2.stl",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/lm_tarsus2.stl",
+      "bytes": 77884,
+      "git_blob": "71078a5197a9afce741e3639000f1b1adafb7c6f",
+      "sha256": "2dbb000ae11ef58de0023ccbdbfc8f1c5ff7b7517824a58d3e204f3ee00770c4"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\meshes\\simplified_max2000faces\\lm_tarsus3.stl",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/lm_tarsus3.stl",
+      "bytes": 92884,
+      "git_blob": "7f7e1a4828f7982f98a76b541f44c0972fe82cd4",
+      "sha256": "8f1814f0054382e037279f04d0bb998e36ccaabd57ec418d35dd6f7e47bd51bb"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\meshes\\simplified_max2000faces\\lm_tarsus4.stl",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/lm_tarsus4.stl",
+      "bytes": 100084,
+      "git_blob": "e0fd11b58e889cbb8ca35e54a50c238750b8e431",
+      "sha256": "3f2881bd6f1fdb445bf01c00cac53c9a1b30388cd3fdc1b327704c60f138bf03"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\meshes\\simplified_max2000faces\\lm_tarsus5.stl",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/lm_tarsus5.stl",
+      "bytes": 49384,
+      "git_blob": "a1e05e4870a87021e05b6417c53f390f749638bb",
+      "sha256": "3e9a76e4c0c4e829705271846f93a3aa056a0e87bc99996519722eeb841c1b70"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\meshes\\simplified_max2000faces\\lm_tibia.stl",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/lm_tibia.stl",
+      "bytes": 33884,
+      "git_blob": "52502f1fc827a7ca5a944ca501730ffecf7a6721",
+      "sha256": "dc1ad6da6db91ba703150e6150f59a498f9dbd311b1ec0678da3f896c421dab5"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\meshes\\simplified_max2000faces\\lm_trochanterfemur.stl",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/lm_trochanterfemur.stl",
+      "bytes": 41384,
+      "git_blob": "777b8c1f9286fd7844af2db1599ffa740b1a8247",
+      "sha256": "9619105028e5006d891b12dfced77aafa3c41a599edbf49d14691907ce2eb502"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\meshes\\simplified_max2000faces\\simplification_metadata.csv",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/simplification_metadata.csv",
+      "bytes": 4098,
+      "git_blob": "12a1329134f41a018396281c40e427333c8d8e79",
+      "sha256": "c3b77709577fe547b13ee4e39d1e71040edcd94743e78660b5f605d758a8745f"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\mujoco_globals.yaml",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/mujoco_globals.yaml",
+      "bytes": 842,
+      "git_blob": "3beba5db4e88d3ce1202f83f928935f437ae1323",
+      "sha256": "e5b70e5bd5199ab2a9a68eb119ce9ef3f0b1dfa1890e13f1adb6d6cc20579988"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\pose\\_manual_specs\\neutral.yaml",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/pose/_manual_specs/neutral.yaml",
+      "bytes": 1394,
+      "git_blob": "152b38e404d8b4233441ed4b81934fca9e53bd32",
+      "sha256": "1824449abfd55d6447ce24bc8ec190496a8f334a232b4c894495082c166f6924"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\pose\\neutral\\pitch_roll_yaw.yaml",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/pose/neutral/pitch_roll_yaw.yaml",
+      "bytes": 1191,
+      "git_blob": "ae55e52e57d44f44cb52924e38f6daae3a8fffd2",
+      "sha256": "e3256fd1c9711daabcd90ed029dfc2a585720034b83e0900ac60697efe104aba"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\pose\\neutral\\pitch_yaw_roll.yaml",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/pose/neutral/pitch_yaw_roll.yaml",
+      "bytes": 1188,
+      "git_blob": "b9314a846f05065c3adbaddd90e28cd37240c2e2",
+      "sha256": "bf69ba3a84f72b4b42371b4ea2e013a770956b113a05a4b0dec88a8ee525e12c"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\pose\\neutral\\roll_pitch_yaw.yaml",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/pose/neutral/roll_pitch_yaw.yaml",
+      "bytes": 1136,
+      "git_blob": "0552fdb9e42ca2cb70227fb5b7f24b5ef13dcead",
+      "sha256": "bb39dac918af60e9287a122e4201eb4419ee8c6a78a404f67c82702b6f47a6db"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\pose\\neutral\\roll_yaw_pitch.yaml",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/pose/neutral/roll_yaw_pitch.yaml",
+      "bytes": 1132,
+      "git_blob": "4d5bfdcea6eaa970a6859a9877280b5d7ea0bcd8",
+      "sha256": "99ec76c61c427be836b37202edab010f92dc3150830c5460436b016a83ace287"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\pose\\neutral\\yaw_pitch_roll.yaml",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/pose/neutral/yaw_pitch_roll.yaml",
+      "bytes": 1184,
+      "git_blob": "63a273c34a538ee377072b6c6b84ae5be9eb7a6c",
+      "sha256": "b4ada107c43a1588e5f361dace0bac5ea1ce7df181201e62a02cc6ec99dc48a9"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\pose\\neutral\\yaw_roll_pitch.yaml",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/pose/neutral/yaw_roll_pitch.yaml",
+      "bytes": 1133,
+      "git_blob": "b6ff12785266d2b5be4f3b583961373296cb45e8",
+      "sha256": "619a8efe6e3c2d4bb8acda82735f5732b7de039470ce0cd74e6c574cde6e1a8c"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\rigging.yaml",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/rigging.yaml",
+      "bytes": 6425,
+      "git_blob": "95da6ad5a7df97715728903581860ae1a23642f9",
+      "sha256": "4e51d5ed3f151aefc125c91ff9298921b3b79a9d64e03e6fe88f1ce9945dbe3d"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\vision.yaml",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/vision.yaml",
+      "bytes": 874,
+      "git_blob": "249c2628594634a1efdcf5d95a9664d74ceb775e",
+      "sha256": "aeaf9c67603e85ac81d251a01e7a20821687c1a62be0626af49ef09919e10545"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\vision\\ommatidia_id_map.npy",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/vision/ommatidia_id_map.npy",
+      "bytes": 460928,
+      "git_blob": "cc2bc08d227396b120970fd22c2c09fed478f596",
+      "sha256": "270baa562cd56b74c91fd3d0a218548aaf41c00df3401ebf521a0461adadf21d"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\vision\\pale_mask.npy",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/vision/pale_mask.npy",
+      "bytes": 849,
+      "git_blob": "4187658404b35ac6a5f10fa9f9a3786b712c721b",
+      "sha256": "1489f64d82dbf35d488448d0a86afa7314be1f29a58ffc7ce4c454a5d492bb3f"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\assets\\model\\neuromechfly\\visuals.yaml",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/assets/model/neuromechfly/visuals.yaml",
+      "bytes": 4566,
+      "git_blob": "5f31b24c5f1cceccc69b9bbed6e8df222da6c0e9",
+      "sha256": "1b959ada4d8016d4c7f6bde4b118733b48e72d749acc74b8753b547c86b6546a"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\compose\\__init__.py",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/compose/__init__.py",
+      "bytes": 1294,
+      "git_blob": "b252515c723826dabf5bb842c471f007a4cc3cb2",
+      "sha256": "238b5cfadf7bc5bce8631d13ed6861c3ec727827d7938bdb2fbe38a31caacf8e"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\compose\\base.py",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/compose/base.py",
+      "bytes": 4206,
+      "git_blob": "d4c7518e8eb734aebc1dffeaff1700dbf1f989a7",
+      "sha256": "de307140820365ee47e9391ad96e3750640f40f2673d61d66b3fd75cec795ebe"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\compose\\fly\\__init__.py",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/compose/fly/__init__.py",
+      "bytes": 846,
+      "git_blob": "8045fa036cdca1c1eb37db0f5534e30c96a7d515",
+      "sha256": "c72dfa9d0c0720b0b4747b51cefaddbc8aeba82a77bda25429f140dd2332f454"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\compose\\fly\\base_fly.py",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/compose/fly/base_fly.py",
+      "bytes": 37477,
+      "git_blob": "3d63c183ef3d067676911a2f01468f9eeecb51ba",
+      "sha256": "9f7ec2c3786972467085cf6a92363cc72a95551226151ff1941fd96800ec677f"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\compose\\fly\\flybody.py",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/compose/fly/flybody.py",
+      "bytes": 40384,
+      "git_blob": "767772879245d2415851d8d324d04a66ee2358ad",
+      "sha256": "2b1f0b304d0ed70a79b70dc6f7cf9eabb434ec9ac34a7e338e66baf9464bc928"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\compose\\fly\\musculoskeletal.py",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/compose/fly/musculoskeletal.py",
+      "bytes": 23910,
+      "git_blob": "a2c407434589c92bd211a99ae2c4c06f120eb202",
+      "sha256": "c6e882479923640e4134ec1e2b6e567dd34f8a928556dccc4067b36a694ecd7a"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\compose\\fly\\neuromechfly.py",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/compose/fly/neuromechfly.py",
+      "bytes": 5164,
+      "git_blob": "1659b51222020f535a27cb9add0afa14800ead74",
+      "sha256": "c47f422e5719f712b3f8b60913a22ce9d89d3943c81a8433549a129197ed50e3"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\compose\\physics.py",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/compose/physics.py",
+      "bytes": 7484,
+      "git_blob": "1de63344c629abbe434d7033d02c987b72150785",
+      "sha256": "da373a8753470a6480add7beeaa56fedebedb7408341c240e92de8e83ae90708"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\compose\\pose.py",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/compose/pose.py",
+      "bytes": 6176,
+      "git_blob": "fdb0b8cd56b2d224bb16d6f89bb7b5b2bf589568",
+      "sha256": "77b275210751e4cf33627f0404e93ffb5094f913cdf54a5f6672190bbd4650d5"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\compose\\world\\__init__.py",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/compose/world/__init__.py",
+      "bytes": 453,
+      "git_blob": "eaec213ac29baedf6f952fb258f20ac933d98e27",
+      "sha256": "6b9c52fab55ae229d7c50f95fe29669d409c2f8a272347651225cd3d7ae39e48"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\compose\\world\\base_world.py",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/compose/world/base_world.py",
+      "bytes": 15896,
+      "git_blob": "25b2bad759c71ecac51309254b7a77e01a7be2dd",
+      "sha256": "cff1a5d0ec8781d2099e72f9eb6452706f7d5a3ba9016ef004343359aa9b2fca"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\compose\\world\\complex_terrain.py",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/compose/world/complex_terrain.py",
+      "bytes": 9055,
+      "git_blob": "037cd44f86da101f74c7768cf25cc8dae9450b06",
+      "sha256": "9d50276652c5cd61495a0b04452edc327b10677e5205a459a0350ce96540381b"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\compose\\world\\flat_ground.py",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/compose/world/flat_ground.py",
+      "bytes": 1934,
+      "git_blob": "b5920897cd023daecbcf348fbb93ca8fb676a740",
+      "sha256": "a1ed5add63ad316f0c4dbf3b02e169b79490bafb85a0d8763e9963ac701e9ba4"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\compose\\world\\musculoskeletal.py",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/compose/world/musculoskeletal.py",
+      "bytes": 4011,
+      "git_blob": "891345e64b07f3868b8763aaf727b1a88fbc1552",
+      "sha256": "ecd37219c06c0e2273f1a3595fe892fd99714887acdc83906aab45acd3dd8169"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\compose\\world\\tethered_world.py",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/compose/world/tethered_world.py",
+      "bytes": 1951,
+      "git_blob": "8313069e6dd5a2c117caa66c59b01457337a166c",
+      "sha256": "fbbc49898d742ddf7942af029728e52cb7155d8375ca91242a9041b40ac75235"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\flybody\\__init__.py",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/flybody/__init__.py",
+      "bytes": 180,
+      "git_blob": "7c13f6bcdaa45fff3a2774ea82d80d0830f2888a",
+      "sha256": "5e1aeb4b1b85c78ebe850aea30cd11aed20f8d971715f0f845956fbc56fa19d8"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\flybody\\anatomy_flybody.py",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/flybody/anatomy_flybody.py",
+      "bytes": 13878,
+      "git_blob": "12e8f9634c96966234d416812507ff75651032c1",
+      "sha256": "87c7a74e23e42ed876fb57e208d1d27d4966abe4a95ad861b27da0c9f3f9f230"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\flybody\\parse_flybody.py",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/flybody/parse_flybody.py",
+      "bytes": 30009,
+      "git_blob": "4733d94ef22b17075489724c6b808817074d1abe",
+      "sha256": "8db21b02a1017fc08347679c5689fe3c94db0f451e4a57ed3f3f7b5f1b59e704"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\rendering.py",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/rendering.py",
+      "bytes": 18968,
+      "git_blob": "d8c709e3735353ea9b0f2d3c726d6cb52df2d864",
+      "sha256": "fe30605d5bd727d6cbcca8a70e2ce5ae7eb7c966171b932d37b4342e94dd7cfe"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\simulation.py",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/simulation.py",
+      "bytes": 31165,
+      "git_blob": "d8565dceb17d1705145f1f321f90681aa4f99b3a",
+      "sha256": "c2a6fded0ccedb2124c1ac421e1b52cb2c087bfa40fcb38f8a32722d21c012d2"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\utils\\__init__.py",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/utils/__init__.py",
+      "bytes": 0,
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\utils\\api1to2.py",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/utils/api1to2.py",
+      "bytes": 2051,
+      "git_blob": "6e25f40783ca08b17b97bc2eeaa6de66958b7be1",
+      "sha256": "245a24710e5ce3e6322033fc756f44609673a925751d7f6c125ce9b417320c8d"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\utils\\assets_lazy_loading.py",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/utils/assets_lazy_loading.py",
+      "bytes": 9674,
+      "git_blob": "3bea4dc4d0db4a9a29982b82f395c2a14abb5bc3",
+      "sha256": "534756e948ed21d12e6e1704cd11b549d565533d7d6611e28ff0fffcce0ee9f3"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\utils\\exceptions.py",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/utils/exceptions.py",
+      "bytes": 145,
+      "git_blob": "428977f00f106de53cfd6e3b7b9ffd6aa5a90a89",
+      "sha256": "c4e17b8a1ade26964ea176df6c7f6d540cf6d020c9ca02dd15a58218cc58d6b8"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\utils\\math.py",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/utils/math.py",
+      "bytes": 5734,
+      "git_blob": "97dc092aff7058ce2d3e6f68c46d3ebd84bcb54f",
+      "sha256": "010159a4812390d6610efd1e240fc4854838616c41c0c0f7875d453d8c8f7bd0"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\utils\\mjcf.py",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/utils/mjcf.py",
+      "bytes": 14383,
+      "git_blob": "8875d50f2cebd9110ea28f17269ac3f72e20140b",
+      "sha256": "376a34852461e516e76c16ee2d4ef2348d84dd7c4988f9f30a2824405a1b868d"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\utils\\plot.py",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/utils/plot.py",
+      "bytes": 617,
+      "git_blob": "17c78d6b2b314c299faf46844825c00f8157e44e",
+      "sha256": "409b5d1f0e56eee3aaeae91a6900c889bd18d204188d9d2056bd889230cf18b1"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\utils\\pose_conversion.py",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/utils/pose_conversion.py",
+      "bytes": 6851,
+      "git_blob": "e646c1dcf412505b71c8d77b6a32e2ba1bd6c99f",
+      "sha256": "ff71c3db5d52e1a72dcbfe71c718d10098e54f736806d12ecb301bc32407cef3"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\utils\\profiling.py",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/utils/profiling.py",
+      "bytes": 9269,
+      "git_blob": "3ab130a883216cc8a5f270f8b343398d5e6f2791",
+      "sha256": "751f926e50e162c7fadd914a0091d2995ee717c62242f46c745210b23ef091ab"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\utils\\video.py",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/utils/video.py",
+      "bytes": 1209,
+      "git_blob": "abe338a654d439e0b34efa9f04c2c706da5faed7",
+      "sha256": "eb48777c443c5eb41170424bfce06e91349126e7d8f36f4f95092fbafbf94d15"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\vision\\__init__.py",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/vision/__init__.py",
+      "bytes": 0,
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\vision\\retina.py",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/vision/retina.py",
+      "bytes": 11253,
+      "git_blob": "24738792f7352354312cdf3237014062d7d3d746",
+      "sha256": "fbb43595de2d7736423424b5cb4ea8eabc369d500fb028c26065c0e2ec4746c6"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\warp\\__init__.py",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/warp/__init__.py",
+      "bytes": 171,
+      "git_blob": "427a6d78d338cb1a622054fc167605233d136d8a",
+      "sha256": "779c5caf7381c86226ff926437c2c4c9728b02dda21ef9935ff9f62118523f73"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\warp\\rendering.py",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/warp/rendering.py",
+      "bytes": 17488,
+      "git_blob": "be88be5348b0574bc1a11260afb50cd294f79698",
+      "sha256": "7af34fe811754ef72f12bedc90f872adc58bf03c0e8aa55e03d85494956d2cf1"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\warp\\simulation.py",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/warp/simulation.py",
+      "bytes": 16526,
+      "git_blob": "36c4635171f17d8e47daa75a935e7c76b06247a9",
+      "sha256": "2484143ccf8e3ae01d80774b7c257ef9c089bf7a2c293bba543f9f2842e7c310"
+    },
+    {
+      "path": "data\\reference\\flygym_2.1.0\\src\\flygym\\warp\\utils.py",
+      "source_url": "https://raw.githubusercontent.com/NeLy-EPFL/flygym/ca65a510c2afe6ac61c51df4f274c8d190c2f95f/src/flygym/warp/utils.py",
+      "bytes": 7562,
+      "git_blob": "5dd6253af748f32136df5fe21fa7c564e79bae23",
+      "sha256": "91bc2d6044a09b4ed6408bea169299eed5c12dbcc8169dd63df5cc7ff153722e"
+    }
+  ],
+  "mujoco_version": "3.9.0",
+  "mujoco_source_url": "https://github.com/google-deepmind/mujoco/releases/download/3.9.0/mujoco-3.9.0-windows-x86_64.zip",
+  "mujoco_archive_sha256": "544f44a8a7df3e94648a7eaf41500f4456eb59f9f01df3ec2cfb03bdbf5c2bb9",
+  "runtime_files": [
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\bin\\basic.exe",
+      "bytes": 228504,
+      "sha256": "12be555d01ce69c6ca59bb0c151867d134393303d8119ffeaebe7455b9b0c9a5"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\bin\\compile.exe",
+      "bytes": 27800,
+      "sha256": "2cdd093c8b4a60145f36ab22b25d2b5ce44af4c87e7edba9037c41b98d38df65"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\bin\\dependencies.exe",
+      "bytes": 31896,
+      "sha256": "4c6500f26f33c0c2d738893c01d0479d4ec2a767d5098496323853f2f9481fac"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\bin\\mujoco.dll",
+      "bytes": 4890776,
+      "sha256": "d2119d435ef68ceb114d01bc3658eff42ac23ebcc08adca94d9b1ff0b9eb0d0e"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\bin\\record.exe",
+      "bytes": 229528,
+      "sha256": "131ab0ee983c9aef1c2da00feac1bd98b9713ecd99dcb6fa895d91694a05af27"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\bin\\simulate.exe",
+      "bytes": 771224,
+      "sha256": "480bf3991c58cc2fd4e96c59e0e4b74dffb628f0c0f5864fce97b5fb900a16a7"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\bin\\testspeed.exe",
+      "bytes": 48280,
+      "sha256": "ca69a78ece642de964d4819415a1fecbcd5579e7688b2aad1e8be96851aea5a7"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\bin\\mujoco_plugin\\actuator.dll",
+      "bytes": 28312,
+      "sha256": "bbeecb8113284e1aec765f00edf56d113b8d7ecaf1a2122e922d36e93410d3bd"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\bin\\mujoco_plugin\\elasticity.dll",
+      "bytes": 34968,
+      "sha256": "647ca3a60f8b506d8cab24f75c8314ef94200eec66c3c33c8e8ab5df173f4e36"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\bin\\mujoco_plugin\\sdf_plugin.dll",
+      "bytes": 52888,
+      "sha256": "9e52e4e6865db99aa0f2b8f002f3715cffa98751e0df57954917b3ed4699e5c1"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\bin\\mujoco_plugin\\sensor.dll",
+      "bytes": 50840,
+      "sha256": "6841368bc907be25bafa04300b13421cfef10ad69d48a11eb8b99a93613b264b"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\include\\mujoco\\.clang-format",
+      "bytes": 74,
+      "sha256": "f24dc4218b655b2d3754693ecc3cdbc00b9b83d471c14ff1d7b1aa59c24947b1"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\include\\mujoco\\mjassert.h",
+      "bytes": 4028,
+      "sha256": "1b3e6ac7e2603e621d94d4c3cadcce473ede6819a2113d8c34f04a4519d31087"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\include\\mujoco\\mjdata.h",
+      "bytes": 25878,
+      "sha256": "78875ee0b7ca1a3e7f44321a11546fa693d5d7149c0f86e93d84b763e7d9da97"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\include\\mujoco\\mjexport.h",
+      "bytes": 1580,
+      "sha256": "b24c932efbfc9819ee84272401e48b27bb40ba03591214d6bc6e26af1c5d549e"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\include\\mujoco\\mjmacro.h",
+      "bytes": 1374,
+      "sha256": "f9b20ef343c9b29530bbd0d799355485d2f660f6c0b4c102dc233fad4b204653"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\include\\mujoco\\mjmodel.h",
+      "bytes": 64191,
+      "sha256": "5fd577bb5640d3fcd2cb86495c9e58d6c7115a699fb1f492cd463bef8a249ade"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\include\\mujoco\\mjplugin.h",
+      "bytes": 9818,
+      "sha256": "98bf10a430fab99f3ed051e295fe1f90f14269ae46ec2ed7e4fa61a65e83740a"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\include\\mujoco\\mjrender.h",
+      "bytes": 8235,
+      "sha256": "53de48e3086f53456678deb5b930c7f48c97938433faaa1e9f2d287499dd0248"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\include\\mujoco\\mjsan.h",
+      "bytes": 2566,
+      "sha256": "ce49b7ea51eddea0510a8fb8ea54988f5c6461488cad1f9ae0aa2a147e0a3eec"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\include\\mujoco\\mjspec.h",
+      "bytes": 36590,
+      "sha256": "9c81cc7e31bfcb089262eecd48bb0a387f6d6c9e5293e0fa32d913a40f05da77"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\include\\mujoco\\mjthread.h",
+      "bytes": 1585,
+      "sha256": "2bd73aea25c24fd5cdf8a4c24b45c1b11a79af946aaf43aef58516e523d6118c"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\include\\mujoco\\mjtype.h",
+      "bytes": 26434,
+      "sha256": "d7c046d2a679236437075cf46a2506ed47bf998a40e49cd2ccf9a2178680fa38"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\include\\mujoco\\mjui.h",
+      "bytes": 14705,
+      "sha256": "b1b543e706e14e71b5ad59575518e5878d2c342cb8ffddae3f86b1fe79480988"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\include\\mujoco\\mjvisualize.h",
+      "bytes": 19746,
+      "sha256": "d61bc82c26378df821bcae781a125cfde77a50c7c19754ca91df42e52f4c4d36"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\include\\mujoco\\mjxmacro.h",
+      "bytes": 66267,
+      "sha256": "c6b364902b868035c13dad5257b559a778efb8d7025aad3342406d614f0cbaef"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\include\\mujoco\\mujoco.h",
+      "bytes": 87241,
+      "sha256": "508d76a2bf1367476f9874af0c472155722b8bf00c75d63df53153ef6bef044c"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\include\\mujoco\\experimental\\usd\\layer_sink.h",
+      "bytes": 1328,
+      "sha256": "8ae68d8235a4baf46779d2e786dc49ced1d4ddbc75cd7bcad7a12f6df400e851"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\include\\mujoco\\experimental\\usd\\utils.h",
+      "bytes": 1311,
+      "sha256": "abdebecc374204593f92890cdf9bf7055a8d6ef3f7b566f4861beac6a7dc2eb1"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\include\\mujoco\\experimental\\usd\\writer.h",
+      "bytes": 1626,
+      "sha256": "4b89dc14d6b5bc327fdde41d6fd827f4dd26a8f6a270b750a797b79801ebed45"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\include\\mujoco\\experimental\\usd\\mjcPhysics\\actuator.h",
+      "bytes": 40140,
+      "sha256": "504ed3c9c8dd25ca71b60982d880c8ecc108b600779563309fdeddd2aa904aec"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\include\\mujoco\\experimental\\usd\\mjcPhysics\\api.h",
+      "bytes": 1480,
+      "sha256": "fd764348c17e8f8b102d73a36c52b16d5e34956f81137fac5ac670ce43da093b"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\include\\mujoco\\experimental\\usd\\mjcPhysics\\collisionAPI.h",
+      "bytes": 15900,
+      "sha256": "66646715de806b12583857e07add3c57cf1c3865044b77ab96a7ca3965b26299"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\include\\mujoco\\experimental\\usd\\mjcPhysics\\equalityAPI.h",
+      "bytes": 8610,
+      "sha256": "3ad396472a6ea00d4b34253e0fa5ca926684164cd44409ce74f7778539f5dfdf"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\include\\mujoco\\experimental\\usd\\mjcPhysics\\equalityConnectAPI.h",
+      "bytes": 6108,
+      "sha256": "2463772068c76940ede5d36654c0e383abda5c8f3f1c87951885cba25413eb7f"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\include\\mujoco\\experimental\\usd\\mjcPhysics\\equalityJointAPI.h",
+      "bytes": 11769,
+      "sha256": "ed6829ab434c117ec9a1ae5788529ed8114acb34a4bc6aef970f168b7cc20c47"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\include\\mujoco\\experimental\\usd\\mjcPhysics\\equalityWeldAPI.h",
+      "bytes": 7373,
+      "sha256": "dc8178ed89167e06ac019076f0b4066ef4df31df1d8bb4ef651f46a1c689afaa"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\include\\mujoco\\experimental\\usd\\mjcPhysics\\imageableAPI.h",
+      "bytes": 7032,
+      "sha256": "e1bc3c64bbb293df944e7665bec08ad8792dafb95d7aaccd5cfe6f1529d04ac5"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\include\\mujoco\\experimental\\usd\\mjcPhysics\\jointAPI.h",
+      "bytes": 29393,
+      "sha256": "0fa3b262be136bf009b7b332dae2d1ffb316d7dee9672b03b8ec665808bf292c"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\include\\mujoco\\experimental\\usd\\mjcPhysics\\keyframe.h",
+      "bytes": 11884,
+      "sha256": "001d8b4e8073077d01fe78c883c7b3096df99f1f52faafe501050e2ed109e6de"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\include\\mujoco\\experimental\\usd\\mjcPhysics\\materialAPI.h",
+      "bytes": 8162,
+      "sha256": "4f0b5857d39b56368f114eb523d70a984a6ed46411b6a59597f2419d26cd3f61"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\include\\mujoco\\experimental\\usd\\mjcPhysics\\meshCollisionAPI.h",
+      "bytes": 8657,
+      "sha256": "044cf3a8cd06d0f2ab6079b3b63dce5ee23c77a52159e11ae9762e78bcbac542"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\include\\mujoco\\experimental\\usd\\mjcPhysics\\sceneAPI.h",
+      "bytes": 79374,
+      "sha256": "f53cad0595725c77bdc5026674ec702507f96b9855ad9932e9a6e7ac5bf23327"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\include\\mujoco\\experimental\\usd\\mjcPhysics\\siteAPI.h",
+      "bytes": 6872,
+      "sha256": "19f35a9f0abbb7d2781418db68293ae642356e1452a4a602fd12c16f19f2a496"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\include\\mujoco\\experimental\\usd\\mjcPhysics\\tendon.h",
+      "bytes": 37707,
+      "sha256": "b53169d60afa14cb3225db097db44ad897866befa5f447d4c93db67e652d9d2a"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\include\\mujoco\\experimental\\usd\\mjcPhysics\\tokens.h",
+      "bytes": 25321,
+      "sha256": "55868b6337214abfef1aa27b03e787c31b40896a93a7e4e4b2949bccc1d23f96"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\lib\\mujoco.lib",
+      "bytes": 162728,
+      "sha256": "f747107a87c63633f885f6bbdfda66f0818d932b3d2c3373556be4789f66be1d"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\adhesion\\active_adhesion.xml",
+      "bytes": 5752,
+      "sha256": "84833d48f891e5f82cd9255682b5ce080762d8837d2f4520d3273d6e320f953d"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\adhesion\\README.md",
+      "bytes": 296,
+      "sha256": "fdd00fa23a365924491bce80a4fa434edca2f878cd06c608c64442952e7d7765"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\balloons\\balloons.xml",
+      "bytes": 3814,
+      "sha256": "54118da714e5977ac0a060874427f831049aa7f03b3062c98f86fc4adab498dc"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\car\\car.xml",
+      "bytes": 2376,
+      "sha256": "b443c68df8eacfd808ce461d8df95f1412f1ae0f3ed43ab2d08603267ea3d8ac"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\cards.xml",
+      "bytes": 16776,
+      "sha256": "9971135a6af9993a3510ed7498387ad82669a20ac96b0eed7a4022df79773152"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\10_of_clubs.png",
+      "bytes": 130453,
+      "sha256": "8151a80b0ab9be48610c777566202e512c87a08969535c7c328a2f0def49fc39"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\10_of_diamonds.png",
+      "bytes": 127510,
+      "sha256": "b32951d2eea17f4b02bdfb9221aaaa30cafe707749d133f7fecdf971fd240140"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\10_of_hearts.png",
+      "bytes": 128173,
+      "sha256": "662e33d265b6d7b9f92923e6f632ff7201d619a5c32c574fde8c97747854e65f"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\10_of_spades.png",
+      "bytes": 128524,
+      "sha256": "15da0c7ca41ff9614402bdbbdb5984ccc7a34a1fd1a917786ae886cef0bd30a5"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\2_of_clubs.png",
+      "bytes": 114526,
+      "sha256": "dca16bc0332b374b9f12f8e863c6e6405a3a023f6bd7485278cf211d754c13e5"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\2_of_diamonds.png",
+      "bytes": 113246,
+      "sha256": "db91113c3f4df53521353b228f7a53409e045b7d3ee73c1861cec3be22f7a290"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\2_of_hearts.png",
+      "bytes": 113735,
+      "sha256": "ff423133f83f78249144d501e4f7dc7b1a63e352b6564c7d25d699178d31a099"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\2_of_spades.png",
+      "bytes": 113792,
+      "sha256": "e310b51137b7c5953ce401ba49272d8ecd2b18b439e3b7d837121a3ca77615cb"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\3_of_clubs.png",
+      "bytes": 116853,
+      "sha256": "c9331f5e8daf0e8b7387421b640d742051cd861c1a36c8dafbbabb7b29429f22"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\3_of_diamonds.png",
+      "bytes": 115250,
+      "sha256": "6d431260bd6342b3db720c8cc9d9f504ff12ad79fb35699bef37c8b5b0282c3b"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\3_of_hearts.png",
+      "bytes": 115677,
+      "sha256": "9f6f961164f7fdde6dca3bcb549e9816b3c9b6954d2e1480cf55353dd082faf9"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\3_of_spades.png",
+      "bytes": 116158,
+      "sha256": "3f8893e8a96714cefc2c3401c9f32dc71a4970c0afb6dcb2deb7dcceeb1ef225"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\4_of_clubs.png",
+      "bytes": 117916,
+      "sha256": "a274c16a53bc31ef3e42175cdf3ade79dd7cf2d72334a42d9218e0ec48b1422a"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\4_of_diamonds.png",
+      "bytes": 116166,
+      "sha256": "69e96d1722a4484650936078fdfdb8b83f654bc70418fcb87e82f49523e82c82"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\4_of_hearts.png",
+      "bytes": 116921,
+      "sha256": "66f0b4a8a00ecd53df066d541780ba500a01a7304fa4334cfe0375a324fcb780"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\4_of_spades.png",
+      "bytes": 117133,
+      "sha256": "256955c6143d1bdd5cdc51bd99acb2fb1735188ba5c915d887e8cbb1e0ac3964"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\5_of_clubs.png",
+      "bytes": 120421,
+      "sha256": "6085f488e4a76700b59609eff3cf0f566f8fde1201fb73222db2e589b0512fef"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\5_of_diamonds.png",
+      "bytes": 118359,
+      "sha256": "d062b5a6e7c8bbf63d17823fe52e64aa84e476ed62227db80d4cccd2ef2d38dd"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\5_of_hearts.png",
+      "bytes": 119153,
+      "sha256": "acbe55d8a2e9981be9c732edf481a9d87affcb332589f7f0dc9841dcebff86b9"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\5_of_spades.png",
+      "bytes": 119248,
+      "sha256": "8fc5482ac02ef73db560f01335fb2b0edf53afa17987c3f5cc08eae635f3f98f"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\6_of_clubs.png",
+      "bytes": 122349,
+      "sha256": "4913572681474ed56f2821a8029dcd3354877cd4d7297f1c1ff6db8b34e88045"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\6_of_diamonds.png",
+      "bytes": 120348,
+      "sha256": "27489e8038d5eb2714e4a846ad54dda1a6c514c977a636fc950fa9383337eb43"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\6_of_hearts.png",
+      "bytes": 120721,
+      "sha256": "a6bc33a52ff70b00d9d2a651992701d0c67a10a77921cd3921fc650c76dc22b7"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\6_of_spades.png",
+      "bytes": 121341,
+      "sha256": "4e126bd0f239bf6e6ecbbae0ad67cbe19008f33447b753b3e19b38898f83f6e7"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\7_of_clubs.png",
+      "bytes": 122954,
+      "sha256": "6af0d5e1746c3df58dd52bcdb74bece5f25173e7e12df2436d1779e1b73603f5"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\7_of_diamonds.png",
+      "bytes": 120803,
+      "sha256": "37cc595e9fd99dc655278664a573bd442f318e16b0852346a2271a50b6a7eba4"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\7_of_hearts.png",
+      "bytes": 121192,
+      "sha256": "fe3056b0a630c26d84ab6c0db95420e5d3ee49e91fef6a01d365771d63765674"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\7_of_spades.png",
+      "bytes": 121963,
+      "sha256": "76fefad9a8cb256f6168943ff2e54e8e18ce77d61f01cf5361ade1326e24e660"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\8_of_clubs.png",
+      "bytes": 125957,
+      "sha256": "5128371acd9c0f754d86ce8afd9dc6274aee5dbda3f92f827dcc3a365f21c8b8"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\8_of_diamonds.png",
+      "bytes": 123717,
+      "sha256": "edc597c60c1304b3ecbb0748041fd3194cb667aeaeee84837b40aae82bdef30a"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\8_of_hearts.png",
+      "bytes": 124067,
+      "sha256": "f8bf8deb7e3f80d4fac4ccca8faee4c88356f8ba18679c150b64449bfbfaa038"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\8_of_spades.png",
+      "bytes": 124876,
+      "sha256": "0383c9aceec79666d058726d3cc5795a460f203ca68d5512b85701d6ad6b8e3c"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\9_of_clubs.png",
+      "bytes": 127806,
+      "sha256": "16c8d42dc7d0660905c4ad9bf03c36d1e33e03f6deb6a6ef3160c39e28e6374c"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\9_of_diamonds.png",
+      "bytes": 125052,
+      "sha256": "4c93ce3180a6a0c9be10654e625bdd2aa97234fa8360e22fc00400e3c163cbe7"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\9_of_hearts.png",
+      "bytes": 125806,
+      "sha256": "f386eb9f5c55b59fd0362dd86c4befaef0f5f5b211fd3933eb1dbb314ac46b77"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\9_of_spades.png",
+      "bytes": 126133,
+      "sha256": "4be017152a3c8ced0d7bc2fe370232c32a55cd56ebafd3a7c407bd51347ea69f"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\ace_of_clubs.png",
+      "bytes": 124412,
+      "sha256": "5aa415041738efb92bd3b46c88f3df40a7fd6202ec35be057ec93a0a1a8ac7c5"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\ace_of_diamonds.png",
+      "bytes": 121615,
+      "sha256": "ecbd2083ffcfcc399dead65c91a4d0fde72c92265505b6dd75228c21138d7b2e"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\ace_of_hearts.png",
+      "bytes": 125653,
+      "sha256": "72753d43f56785c61755dff9915242648edd3483b06b147baaa0f44d83752771"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\ace_of_spades.png",
+      "bytes": 130054,
+      "sha256": "2fb87d38360f344b09034d39c9a044e35600361ee2d8621f6ee44099b9118fdf"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\black_joker.png",
+      "bytes": 123376,
+      "sha256": "52631d1e97f28bfe2c2b45058e9e8685591045cf25462ba2deb7097fec1f4ee2"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\card.obj",
+      "bytes": 6052,
+      "sha256": "8aed80b6272ba0cfb35782fff808994fe2a46d1aa09228405aaef15568dc8384"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\jack_of_clubs.png",
+      "bytes": 198951,
+      "sha256": "ccd3dbf13fcdebee422563238756ad9b3d290247b8041ad59222ebf21427d845"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\jack_of_diamonds.png",
+      "bytes": 202555,
+      "sha256": "7d4b19741afb1b4f934e2b95bd8cd4cdc6b00bd760bb8f6f98d1ee5566b94148"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\jack_of_hearts.png",
+      "bytes": 207472,
+      "sha256": "2baa12b28c533328e49ed09afab58483ed0c504afecad2305a399b18277c8f9c"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\jack_of_spades.png",
+      "bytes": 201293,
+      "sha256": "c39a9f68e87598baaa2a62ec6b37980a44250756e084483913793a469a573b04"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\king_of_clubs.png",
+      "bytes": 203142,
+      "sha256": "96ce1860633de60f45bf1f0f26b50699d8780a76b1abbb0e3e74f74a4a477f92"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\king_of_diamonds.png",
+      "bytes": 206638,
+      "sha256": "02ae7fdc74873bd1c64e71f4ccc691bc74b6c598c25a457ec17dc3337fb01325"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\king_of_hearts.png",
+      "bytes": 210658,
+      "sha256": "7cb2573318ad842caba0e70331b5ab66c95f1802f90536f322ac58c25abb5322"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\king_of_spades.png",
+      "bytes": 195662,
+      "sha256": "19f9aa28ae110589c447c7e519e8d6890b81b64573a86dbad40432cae5a7c296"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\queen_of_clubs.png",
+      "bytes": 208887,
+      "sha256": "a433e5e8bc41a5bb42aa9d9a858378a9bbf32b2e7a83190736754d4811737305"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\queen_of_diamonds.png",
+      "bytes": 194143,
+      "sha256": "aa3ec406722c62f79505874d6bccd274db434fac0d04f4cf032fab3a85bf9527"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\queen_of_hearts.png",
+      "bytes": 202291,
+      "sha256": "cc716e53468bc08f098ed5bf1c9316166b5d9af5d8f5973c335318d6c385d281"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\queen_of_spades.png",
+      "bytes": 196916,
+      "sha256": "541a9a3f55c55275d222968e8683be9eb7dfd6f25e05d1ca8feaa962df890698"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cards\\assets\\red_joker.png",
+      "bytes": 124196,
+      "sha256": "5579125c365c6c552af504c7653f7bb9ae75cd49aab0541fd22dbe5be999daac"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cube\\cube_3x3x3.xml",
+      "bytes": 9806,
+      "sha256": "68b11bcaaf121cc1e30cbb442bab9aacbc0969d22f977b3c8d78fc88f6ca3030"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cube\\README.md",
+      "bytes": 356,
+      "sha256": "27c322045aaadb3226bcb9a65cb9bf2ce1d5e9c09e8665e0752bf45463edda12"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cube\\assets\\blue.png",
+      "bytes": 3094,
+      "sha256": "541833892441d2fbdb997760605027cc8a8faba38262e6f882df45210cce805f"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cube\\assets\\blue_orange.png",
+      "bytes": 3362,
+      "sha256": "1c7d54f25e996aedc826aad993f082696e87fc25177e84275f546619969ed0b4"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cube\\assets\\blue_orange_white.png",
+      "bytes": 3607,
+      "sha256": "8fda67c9f00c9c50b39f343f23b1dd0b7914ebea931ced0179926aef24c158cd"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cube\\assets\\blue_orange_yellow.png",
+      "bytes": 3622,
+      "sha256": "d6dd998e2574831407eeb26ed0b7bad14c41173f87d2519bca3320f0ecf69260"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cube\\assets\\blue_red.png",
+      "bytes": 3365,
+      "sha256": "591a1d94fbaffda3ff9d7b449ef395bb36ccb35f4454b5180c92d77b74dfc12c"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cube\\assets\\blue_red_white.png",
+      "bytes": 3612,
+      "sha256": "f2710c71c3a15b6d60f4ec219926598ff69821a06efd58e323d4957c08e7d821"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cube\\assets\\blue_red_yellow.png",
+      "bytes": 3627,
+      "sha256": "97233bd01764e13c2524e14ca0d9ac0476a04c95de504562295e3f19b84b2129"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cube\\assets\\blue_white.png",
+      "bytes": 3356,
+      "sha256": "a3eccfe473fc9e10f5237551d86d2c47f50d8a9d244b6e8303859747681f9ce1"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cube\\assets\\blue_yellow.png",
+      "bytes": 3364,
+      "sha256": "8c3f04eea24e23e202fdd095f86229ff9d2ad83f0c2a190f09de158126c9552c"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cube\\assets\\green.png",
+      "bytes": 3094,
+      "sha256": "acaf8320f14957232e901b32f0a2f76600a4792face369b9dd231dd008ba472b"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cube\\assets\\green_orange.png",
+      "bytes": 3364,
+      "sha256": "518a65d44fb31467b71ff18851e9c7d5a6409005422d10e60297071c54647f0e"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cube\\assets\\green_orange_white.png",
+      "bytes": 3609,
+      "sha256": "95331a0f1ad11fda7d24b418d14b4a0aa505eb481210a931e360f1de8f4b4522"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cube\\assets\\green_orange_yellow.png",
+      "bytes": 3625,
+      "sha256": "151cdf326fabcaad8ffffab96a3ece71416771f390a04856bc99594b4b4b08d5"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cube\\assets\\green_red.png",
+      "bytes": 3366,
+      "sha256": "044ca673dad5395423f5003e4a7ddddb491a895660db58d7f95e792cb0b99de2"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cube\\assets\\green_red_white.png",
+      "bytes": 3612,
+      "sha256": "d906f5c0330e67ef7fc500cb60c9752987943382fd2f87c3596553db874791e9"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cube\\assets\\green_red_yellow.png",
+      "bytes": 3628,
+      "sha256": "11e541479ac5455dd17580524cb1f45de588805097ceda9e571c5cb46610a8f4"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cube\\assets\\green_white.png",
+      "bytes": 3357,
+      "sha256": "7c5ffc2c4b98a510beaf4d3664c231c3a86bf19014b71bee57f38b770c0ec06b"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cube\\assets\\green_yellow.png",
+      "bytes": 3365,
+      "sha256": "eb473fd97bb3dca436256d0a9d9efec429882566fa5302b9c261bed9ecf91c4a"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cube\\assets\\orange.png",
+      "bytes": 3091,
+      "sha256": "5e3254685a48034c6e5b3e3506c3e883721e40c27c7b9cb1f0c87153ca618d04"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cube\\assets\\orange_red.png",
+      "bytes": 3363,
+      "sha256": "6cfcd0cb96c4471fc4db963e48c679a3b2d7ffc6b39754a7d9c6bea75dd62e9b"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cube\\assets\\orange_white.png",
+      "bytes": 3352,
+      "sha256": "e40d28900207f1a5de0c78a0d2bfbacfc0fecbf65d3b0a960b49fb4f85397b3b"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cube\\assets\\orange_yellow.png",
+      "bytes": 3360,
+      "sha256": "9dddaaecf9c3e954a7ede6f7fe0c3ff97e18014ef7cb5b6add6735875cfc3aa4"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cube\\assets\\red.png",
+      "bytes": 3093,
+      "sha256": "51a8ebff0db6ddc9cb3ce370c83d603600fbc82a54805ee169bc44b92174f61c"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cube\\assets\\red_white.png",
+      "bytes": 3355,
+      "sha256": "d95e3f73bfeb2ea74fc35d7ad9e5b7b26b7d361ce3c6ea9f1149c3eda4f3f277"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cube\\assets\\red_yellow.png",
+      "bytes": 3363,
+      "sha256": "01d04f5b3cd4152b1b9424115355d556f8f3698b00ee1dceb6715d982511e948"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cube\\assets\\white.png",
+      "bytes": 3085,
+      "sha256": "b64452dde421e006b8f1ee87b183b434da92f0cd78186d40b682b28c04b4d471"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\cube\\assets\\yellow.png",
+      "bytes": 3093,
+      "sha256": "ee68ee0295c1ba0d4c3eb08353b01bb07ba0afdb017be4bb32e621cb500be7eb"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\flex\\basket.xml",
+      "bytes": 1675,
+      "sha256": "0d91874a200a41afc5830a756cd34ec249d1300a05a76887062b98b6bde35480"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\flex\\bunny.xml",
+      "bytes": 1504,
+      "sha256": "c721d5cc49899c4758253a7e67c55bf707cf9c20eb2b8f2e9323759df5a360b7"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\flex\\bunny_multicell.xml",
+      "bytes": 1503,
+      "sha256": "93e4ad659a6fa0f45baf059544986c8dfc0300b58f459fa0123c24a085866722"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\flex\\bunny_quadratic.xml",
+      "bytes": 1508,
+      "sha256": "92a71e692c8a2e14a73198cdf8d8d9a47c27e89048147d6246bdc4e0901cee20"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\flex\\bunny_with_uv.xml",
+      "bytes": 1673,
+      "sha256": "75ead2931f9bdeb4a650513f0b985d02e2c24fe433072e761796865c7f1e22ae"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\flex\\cloth_sdf.xml",
+      "bytes": 1583,
+      "sha256": "8b7af106659f31a806a3528720f2f54c23404d1ab58b330263a14ec84b36438f"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\flex\\flag.xml",
+      "bytes": 1566,
+      "sha256": "05b07022d167f30e410125681aad6b8c4e3c1e294726b2fa1d6428c9d54d0325"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\flex\\floppy.xml",
+      "bytes": 1530,
+      "sha256": "422e13baa379979fd6a3245527fe6f401be55edccc966895520222e4d57c7dcd"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\flex\\gripper.xml",
+      "bytes": 3019,
+      "sha256": "b0fa2ca6b3469f5dfefd5e1363aa9f06e0e1196a47a359d833931ddf43912631"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\flex\\gripper_2d.xml",
+      "bytes": 14307,
+      "sha256": "47af7c16fed2a8ce2755a27c945f3f9d5528c26b6c9dc86bf72775174bc9ab5a"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\flex\\gripper_trilinear.xml",
+      "bytes": 2761,
+      "sha256": "423086ac89423701b124c4e20d42bb73b146fd52708defde0098c09235af86d1"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\flex\\hollow_vs_solid.xml",
+      "bytes": 3884,
+      "sha256": "1f621318fc613688475173825e3a7e48d6b4b46ab3485476ef986e9cc8b4e804"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\flex\\jelly.xml",
+      "bytes": 1696,
+      "sha256": "50046a2e26665d7f49a5ebfcd021086e890775fac0a2bc5982f0ec0bf5c9d0d2"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\flex\\mannequin.xml",
+      "bytes": 7029,
+      "sha256": "a396c1f4db502d8ff24ead9d09621d3c3781b3a08ac8ec10fd4e57a45e182cf7"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\flex\\pancake.xml",
+      "bytes": 1368,
+      "sha256": "7f9a6abe15bf899395cd8763d97a808abbaa7f8bebd8542965d3892b53100f54"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\flex\\pinch.xml",
+      "bytes": 1362,
+      "sha256": "ca906b177975ac2b4a49e68febae2439f7b30f457e95fae6ed43765b54e60581"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\flex\\plate.xml",
+      "bytes": 1472,
+      "sha256": "4df40a32dda593040e4b9045211a2c190e33a382690ebd90f93e2e429491fd64"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\flex\\poncho.xml",
+      "bytes": 49454,
+      "sha256": "a98b78f4c86319d3022511732ab44ab92cf385a4f41df3e73d32a5132ffa31cd"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\flex\\poncho_edgeequality.xml",
+      "bytes": 49454,
+      "sha256": "5328e4f284c4d091844c70bdaad114a266437f7f99b203ab50bb96b94bae7956"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\flex\\press.xml",
+      "bytes": 2125,
+      "sha256": "d3e6e0110830385bea1fc64ca9387858b37ff8e2e337b6a0f3ade0480cc4f062"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\flex\\pulley.xml",
+      "bytes": 2159,
+      "sha256": "80c4a2c056ad067c0b412a001a774357952d94c93f82cc4d2168a3a181929755"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\flex\\quadratic.xml",
+      "bytes": 1394,
+      "sha256": "cc096f44bd0ea0eb7adb15ebc255d7aa11117419e40b5dedb8af433d16880c49"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\flex\\scene.xml",
+      "bytes": 1678,
+      "sha256": "c50ef440e43c6060ec1d59033ed48a09bc1b1c6ac29ec2772ee4157038b608e4"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\flex\\softbox.xml",
+      "bytes": 1360,
+      "sha256": "2443effacf6cf9e4ac7eeaffab18357316c7950573a9e1b8a89f8f3b5ad7564b"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\flex\\sphere_full.xml",
+      "bytes": 1303,
+      "sha256": "0f440ac9e3d2dc322e0cfa0f9eb3f47b3766743ed2382c35fb7a254d97fdb434"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\flex\\sphere_passive.xml",
+      "bytes": 1318,
+      "sha256": "48cce9e008617de0ab3f647b284cdfc1d62e0757c5b2e91dd46ab233ed91dfca"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\flex\\sphere_radial.xml",
+      "bytes": 1558,
+      "sha256": "2bebc6430c70043ca814323bd751bce553b50f6e554447b90b66187e179fa183"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\flex\\sphere_trilinear.xml",
+      "bytes": 1953,
+      "sha256": "4de53c9d8b1e0566047edb1f5f0172c13e47be6a419816305f0ac8b609577fe8"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\flex\\strain.xml",
+      "bytes": 2669,
+      "sha256": "231f796e567d113740edd96c59f40d51875976cdc7c89be4f36be633a3ece8be"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\flex\\trampoline.xml",
+      "bytes": 1508,
+      "sha256": "785c0f83f659b00cc203a6b7c6bfaf69e22066ce1489d69c04df1168bfd1f4b7"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\flex\\trilinear.xml",
+      "bytes": 1392,
+      "sha256": "c0d4c81b36015728e2182ab0a2272eafd38bf48d85406f369ac99c0be37d9981"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\flex\\asset\\bunny.obj",
+      "bytes": 205917,
+      "sha256": "e4bfe098950c61c42190fefe8f23ad7b469da8d5d488c8f8e28a0e0b00c4c88c"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\flex\\asset\\bunny_with_uv.obj",
+      "bytes": 461103,
+      "sha256": "c475d79d817431813d8f9cabb14c8082d4d5084e148dd9cc1d68e17bb57b68d8"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\flex\\asset\\cap.obj",
+      "bytes": 13486,
+      "sha256": "90468c4f4e28e699cfacac422e23be51267323fd7d278a642a95de3cfefe3c79"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\flex\\asset\\sponge.png",
+      "bytes": 649548,
+      "sha256": "451f855a98d005932be2ada10c9b7946d4236212e0ece47bfccfc2fdfdc03d57"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\hammock\\hammock.xml",
+      "bytes": 2605,
+      "sha256": "eecce4db6fc12c6f77023b74d541cf0e9a98ccf2a6d6922eb249b4652c38263c"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\humanoid\\100_humanoids.xml",
+      "bytes": 1955,
+      "sha256": "f2ca2a796a524b8ba1f3aa95ce0c85b98fe8ec866c69f0b9806b9754bf3e4a69"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\humanoid\\22_humanoids.xml",
+      "bytes": 1947,
+      "sha256": "aa5106af30d56f72e79d6ee0f3358e85699b4ba05b41ad0f973c46350b2bf9ab"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\humanoid\\humanoid.png",
+      "bytes": 397686,
+      "sha256": "7df114887f1b573b56e9876e3979a832218c08798ee245f58bf79ec5a4c8c763"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\humanoid\\humanoid.xml",
+      "bytes": 11554,
+      "sha256": "4b35b912d9f92c12484a757b684b4e0d0dd138d84b3ab8356f80cce0169012df"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\humanoid\\humanoid100.xml",
+      "bytes": 5367,
+      "sha256": "38060f8e12502bc3cb2512a49a0366ea4e74096ab982bca219fc4124523163c8"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\humanoid\\README.md",
+      "bytes": 1335,
+      "sha256": "796bd0a685c2b404620c333bb2d41bd9484fd69c0d18b130d3f2a772f3056e77"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\mug\\mug.obj",
+      "bytes": 2259632,
+      "sha256": "492d6b213c93b85ab42d44e06f0bac436f7432c1a6a6c1c05b53e00b5273e296"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\mug\\mug.png",
+      "bytes": 37551,
+      "sha256": "8bee0ad778cda4459b486a3fe97d49196d3583abf041020eb1a54ef840e95318"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\mug\\mug.xml",
+      "bytes": 3576,
+      "sha256": "75c677b42802c0936cfcb384b5443b8732fc2f13b3b9c8611ea77d57e628816f"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\plugin\\actuator\\pid.xml",
+      "bytes": 2222,
+      "sha256": "f6d31c000b188d8ca6a0fe282d075efdcd06720ec595d6f72be52a843a54b6ed"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\plugin\\elasticity\\belt.xml",
+      "bytes": 2186,
+      "sha256": "8e82ed436d8c3b64e27b9fc320b81d3f5c648572598927bdc68246876ef9baef"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\plugin\\elasticity\\cable.xml",
+      "bytes": 1860,
+      "sha256": "26a792965dbeaaec7e2fbef3bf436465ad8498a8c6490ec33d139b4e40ca24d7"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\plugin\\elasticity\\coil.xml",
+      "bytes": 3885,
+      "sha256": "75d4827fc10866ed6da27d1910f22c0a4158f3a4f40e52c06d1d86d9c18b48ee"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\plugin\\elasticity\\scene.xml",
+      "bytes": 1678,
+      "sha256": "c50ef440e43c6060ec1d59033ed48a09bc1b1c6ac29ec2772ee4157038b608e4"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\plugin\\sdf\\bowl.xml",
+      "bytes": 1260,
+      "sha256": "d19c22bd8ab984fccebcb7a8f7e404a39f229f57e22a9ab7b6c42369c91173a4"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\plugin\\sdf\\cow.xml",
+      "bytes": 1340,
+      "sha256": "a9c734f52ba84f41cc156ca52f9a58f8c4c681eefe834a4480f9d55502b17925"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\plugin\\sdf\\gear.xml",
+      "bytes": 1426,
+      "sha256": "c5b63c9a184b09fe9d2770dba01010b75e8829d52f27067c725f0d2a0ca4a271"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\plugin\\sdf\\mesh.xml",
+      "bytes": 990,
+      "sha256": "5f83d83432c060223f3467800d209057d8ec107a6809932c83551aeb933b6455"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\plugin\\sdf\\mug.xml",
+      "bytes": 907,
+      "sha256": "3f167b48cd40b09a0c98941f8b0044449242f5991f65638a66c4904d41eee621"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\plugin\\sdf\\nutbolt.xml",
+      "bytes": 1386,
+      "sha256": "7c6c32509b5eb75f99a563ef30bda40509668f2c52ca71c5a697a59ddb8048a9"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\plugin\\sdf\\primitives.xml",
+      "bytes": 1717,
+      "sha256": "c0b331ee7719e5714bdcee9d464f9e356e9aaf0df9a7f02beecf5c0c9b9bb9fc"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\plugin\\sdf\\scene.xml",
+      "bytes": 1529,
+      "sha256": "73dd43bb2b545c639663f3e366dae9fab84da10a5df4642dbd2d01d51a13c01d"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\plugin\\sdf\\torus.xml",
+      "bytes": 1372,
+      "sha256": "8852bfd519558a00d85cd88dcb2d4c2dfb7cd05c1d8d5729cf9d95dadc175b89"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\plugin\\sdf\\asset\\die.obj",
+      "bytes": 9324,
+      "sha256": "99d56b303caee530d776e3cc5e57293c86403b93768363cb05113d86c74a4ca8"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\plugin\\sdf\\asset\\README.md",
+      "bytes": 181,
+      "sha256": "841bfaacb366673c8ad1c92f43c6f961df6966c2b10531ac6b837d9e3c2f5321"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\plugin\\sdf\\asset\\spot.obj",
+      "bytes": 342635,
+      "sha256": "a6709ef942d71329731a818270c6783b179a22b5f50549f21b398cb24aa4e958"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\plugin\\sdf\\asset\\spot.png",
+      "bytes": 78699,
+      "sha256": "cddabbae52a666173e7953e238b88340d285044dc20b36f8ed3f1a41db534fa5"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\plugin\\sensor\\a.png",
+      "bytes": 195,
+      "sha256": "9db4e8b7a62cb9d5df52f831a3bbab0fa28b01c6bb0566107604b2a26d485aa2"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\plugin\\sensor\\touch_grid.xml",
+      "bytes": 1797,
+      "sha256": "b1193be8d1502964ac99690b8924a399e19008710bfde58bd78a784b91adc443"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\replicate\\bowl.xml",
+      "bytes": 1503,
+      "sha256": "8527bc4c8c9eea86a5936df9717b6241401bd119c7ac774555c6e199de32838b"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\replicate\\bunnies.xml",
+      "bytes": 597,
+      "sha256": "87123d0136420cfbfa119993bfdc3fdd8778f980d62b67465f2f720d33c5fd88"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\replicate\\bunny.obj",
+      "bytes": 205917,
+      "sha256": "e4bfe098950c61c42190fefe8f23ad7b469da8d5d488c8f8e28a0e0b00c4c88c"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\replicate\\container.xml",
+      "bytes": 1197,
+      "sha256": "701fefe1fcc39efa07c6d9dd613b1c40f1145c296a242dc511fcc7d359c53bd4"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\replicate\\cylinder.xml",
+      "bytes": 870,
+      "sha256": "7b86de43d907d1f5cfda98f63ad72a6e6ef7aa98bab9160127b30a7e7651e970"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\replicate\\helix.xml",
+      "bytes": 699,
+      "sha256": "79e436c0622445969576fd3ce4a3a69af2378ad7d9eb8821d6aad9c61369ed77"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\replicate\\leaves.xml",
+      "bytes": 1869,
+      "sha256": "933d60d598ce4de037317a498925140c98b2a7d37d6f931573ba3a7f4c326a07"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\replicate\\newton_cradle.xml",
+      "bytes": 2111,
+      "sha256": "579fd77136b24472b34908259fb716565e2af111a0db34cd1dfa3a0b2559d2fd"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\replicate\\particle.xml",
+      "bytes": 1787,
+      "sha256": "e0dadc10ad6c8ed5e62680af4073d7a7832788d84bffb026cb3f26f39932ba3a"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\replicate\\particle_free.xml",
+      "bytes": 1631,
+      "sha256": "62747bfd47f05b9e8f987a8904e380a118aa82db5d26838a584206c43a0afde2"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\replicate\\particle_free2d.xml",
+      "bytes": 1665,
+      "sha256": "1428c96ea494e6b6d23743d40be4250f124abd9eda901bcffa056c2829fd0f9b"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\replicate\\README.md",
+      "bytes": 718,
+      "sha256": "a61324734fc29f8ea2cf75a87fa3477370da9e78716e6702b705a2c573971a14"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\replicate\\scene.xml",
+      "bytes": 2050,
+      "sha256": "453f7865e0506a24e3f94128229fd38e9b5f6a6ef2daa3e51e0b25f1758baa1e"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\replicate\\stonehenge.xml",
+      "bytes": 1126,
+      "sha256": "30aec9ba7afd73b8120bb68246c0ae4615846a3ae0b1478200dc1be932930833"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\replicate\\tendon.xml",
+      "bytes": 1207,
+      "sha256": "2a114e038fc5c00f98500d771a11095b5f49418c9c331f66577cc0750485528c"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\replicate\\asset\\marble.png",
+      "bytes": 318067,
+      "sha256": "9f66cafdf3b915cff439a9ce00aa6e4e71ae9efc4657552de8ee675e6af49e30"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\sleep\\100_humanoids.xml",
+      "bytes": 2074,
+      "sha256": "b5523cc07a066f05f9d055db9cadf3aac252047233888691bbbb8d1619699d76"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\sleep\\dominos.xml",
+      "bytes": 2940,
+      "sha256": "08dcedb03fcda08098a82cbf8b4b343ca6b60c1ef6e5ffee0635b477bce3e42b"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\sleep\\humanoid.xml",
+      "bytes": 11761,
+      "sha256": "82baa6321d65c53e6ced22bb012ee092adaa5f4da2938e6208804f6b102bdbfc"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\slider_crank\\slider_crank.xml",
+      "bytes": 2404,
+      "sha256": "28e37e90c1b8e6859a29452b607e7bd07c075310284776f38e55c8fc6aea2c69"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\tactile\\tactile.xml",
+      "bytes": 2300,
+      "sha256": "8cf5b2c5a12db7ae76e20bb5aaca264528c40679e2db668a350b3d4127980529"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\model\\tendon_arm\\arm26.xml",
+      "bytes": 4137,
+      "sha256": "6c186a02195d8d5b05eee3c7311d1c480fcb491ab8c6ccff0d931b409a037cc2"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\sample\\array_safety.h",
+      "bytes": 3442,
+      "sha256": "bd57d487e2ef8521eb3bc37f0e3eb6216c3c2fb7a415c371a77a1f4fbf2c8dfa"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\sample\\basic.cc",
+      "bytes": 5837,
+      "sha256": "569875e16845345bf4d7dfd9240d61c670e4dd826b58f74e46fc169a390327c7"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\sample\\compile.cc",
+      "bytes": 5638,
+      "sha256": "f5500794f7527a48c7f18929d91e418ece1f46f7324f91d41743e0d62e34ab5d"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\sample\\dependencies.cc",
+      "bytes": 1413,
+      "sha256": "0bf958e3d78475ad3f66710d219611ee7969b40fd659d35f47f81cf3a3a89cf9"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\sample\\record.cc",
+      "bytes": 8978,
+      "sha256": "1c62f2763f7cee8d2f23d6c5d165b486b4f942572dbef9277e8e170150d6b57a"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\sample\\testspeed.cc",
+      "bytes": 11928,
+      "sha256": "5e973f7fee53aa52e9ff43fae4a664714dcc8f380e31c7be7541d1ffba318724"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\sample\\cmake\\CheckAvxSupport.cmake",
+      "bytes": 1796,
+      "sha256": "0b0a9ba89469af8bee5518a9db3fe8b201443321ef4286691478fdad8f2e007f"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\sample\\cmake\\FindOrFetch.cmake",
+      "bytes": 7471,
+      "sha256": "92527be4b1462bdbb6d10d9e3ead68ebfdf0da3ba26b79df3f346330013a5c4c"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\sample\\cmake\\MujocoHarden.cmake",
+      "bytes": 1277,
+      "sha256": "05d7fc0d622bfaf25f5517851082d8f2f76af017a5781ac13a26fa1e7a66691d"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\sample\\cmake\\MujocoLinkOptions.cmake",
+      "bytes": 2443,
+      "sha256": "6f4d5de487a6966145dc102162759218d7595cdeb12b65061c5ee67d66e60f12"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\sample\\cmake\\MujocoMacOS.cmake",
+      "bytes": 1830,
+      "sha256": "b69c75395d77bf5de9fa1ecdb422f4b69132766ddf7ecdd2aa050bbcd2d56046"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\sample\\cmake\\SampleDependencies.cmake",
+      "bytes": 2774,
+      "sha256": "e34abf0bef9e833002b322df7ca7541754110f7c9b81f7df2d55e9707cd2aa19"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\sample\\cmake\\SampleOptions.cmake",
+      "bytes": 4164,
+      "sha256": "87e3ed1f37eac158f3097b6c17826950e355899e5e522ecd3dc2e1735cfc96e4"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\simulate\\array_safety.h",
+      "bytes": 3442,
+      "sha256": "bd57d487e2ef8521eb3bc37f0e3eb6216c3c2fb7a415c371a77a1f4fbf2c8dfa"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\simulate\\glfw_adapter.cc",
+      "bytes": 7997,
+      "sha256": "c2327138df288ff5d317fdbef53f0c4f5f893442087cdaa535695727801470e0"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\simulate\\glfw_adapter.h",
+      "bytes": 2567,
+      "sha256": "844e2c5859f722f310be0d85a9989398825abb8d5ecaa5239f7985d89314c9a0"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\simulate\\glfw_corevideo.h",
+      "bytes": 1544,
+      "sha256": "53d694c881ebfc58f6f30dfcadf370f66ee20fe245b574a873b984e3b48d10ea"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\simulate\\glfw_corevideo.mm",
+      "bytes": 2601,
+      "sha256": "33b274bda637f3ea4972384bba0e381c562d63a696a276b5598b55c62f5b22fc"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\simulate\\glfw_dispatch.cc",
+      "bytes": 4522,
+      "sha256": "e7e866f3d98d39e0e3d6a0a1f4500d4c762c9c1c1cf19bba807d7f23abcb5277"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\simulate\\glfw_dispatch.h",
+      "bytes": 2961,
+      "sha256": "86a47166c521555ec7c952088bb8a55b5bd6f447c8f260be7d141bb1985f4335"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\simulate\\macos_gui.mm",
+      "bytes": 1700,
+      "sha256": "aab1ec83e655f3c0a986f68cab1bf75d7c41b5f7cb35f6d9e69d1ea317f4e83c"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\simulate\\main.cc",
+      "bytes": 16398,
+      "sha256": "ada5563dd3103fb750fbcdda89a2252f152e7e0efcc3ea4c010475d1f4143bdb"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\simulate\\platform_ui_adapter.cc",
+      "bytes": 6367,
+      "sha256": "43dcace8e97fa2775e19b51421a456317c21835063da9da362b634f254959c49"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\simulate\\platform_ui_adapter.h",
+      "bytes": 3479,
+      "sha256": "cb4da5c01838ee7ac407a2d70d7137ef6c8fdac05392fc0a2d133aeee07bba47"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\simulate\\README.md",
+      "bytes": 622,
+      "sha256": "7170b03147a32839a6757155ba19f5b98948c3efc43ec8d5702435444dad88cc"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\simulate\\simulate.cc",
+      "bytes": 107332,
+      "sha256": "468320d8ba4b4a74fb373b8fc7cfb74182490f5764e02fa850358de98876023d"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\simulate\\simulate.h",
+      "bytes": 12378,
+      "sha256": "e3e35c2b4be248bf906cbabb9067ad2b6be54462bafd8d8f12af3ecdc16ddf11"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\simulate\\cmake\\CheckAvxSupport.cmake",
+      "bytes": 1796,
+      "sha256": "0b0a9ba89469af8bee5518a9db3fe8b201443321ef4286691478fdad8f2e007f"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\simulate\\cmake\\FindOrFetch.cmake",
+      "bytes": 7471,
+      "sha256": "92527be4b1462bdbb6d10d9e3ead68ebfdf0da3ba26b79df3f346330013a5c4c"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\simulate\\cmake\\MujocoHarden.cmake",
+      "bytes": 1277,
+      "sha256": "05d7fc0d622bfaf25f5517851082d8f2f76af017a5781ac13a26fa1e7a66691d"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\simulate\\cmake\\MujocoLinkOptions.cmake",
+      "bytes": 2443,
+      "sha256": "6f4d5de487a6966145dc102162759218d7595cdeb12b65061c5ee67d66e60f12"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\simulate\\cmake\\MujocoMacOS.cmake",
+      "bytes": 1830,
+      "sha256": "b69c75395d77bf5de9fa1ecdb422f4b69132766ddf7ecdd2aa050bbcd2d56046"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\simulate\\cmake\\SimulateDependencies.cmake",
+      "bytes": 2784,
+      "sha256": "466b5f8e321114b1ca4343f8226873c03e6a55308936d5644fcfe4af021404d2"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\simulate\\cmake\\SimulateOptions.cmake",
+      "bytes": 4164,
+      "sha256": "87e3ed1f37eac158f3097b6c17826950e355899e5e522ecd3dc2e1735cfc96e4"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\LICENSE",
+      "bytes": 11560,
+      "sha256": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5"
+    },
+    {
+      "path": "data\\reference\\mujoco_3.9.0\\THIRD_PARTY_NOTICES.txt",
+      "bytes": 30608,
+      "sha256": "5ac8b2055ea0f52d37738cbb1086c9d44c73a5470f6c93e6ed31c47953e1cf0d"
+    }
+  ],
+  "version_reason": "Pinned FlyGym pyproject.toml requires mujoco>=3.9,<3.10; latest 3.13 was not selected.",
+  "scope": "Published anatomy/configuration and native runtime acquired; no body simulation or neural motor mapping validated",
+  "executed": false
+}

@@ -1,0 +1,179 @@
+{
+  "scope": "Name-matched candidate anatomy for Huang 2024 aggregate modules; no accepted cell identity transfer or plasticity rule",
+  "author_fit_source_sha256": "9b8593e4079762abd201596749071c184a8515fe4a1d3616506c3129adc0dbec",
+  "source_synapse_report_sha256": "ab520f63d4ab6d2184ea282dd849c30b0c86b7a80fa9065b688f1eb9508fb4f9",
+  "module_labels_in_author_source": [
+    "PPL1-gamma1pedc / MBON-gamma1pedc",
+    "PPL1-alpha-prime2alpha2 / MBON-alpha2sc",
+    "PPL1-alpha3 / MBON-alpha3"
+  ],
+  "candidate_mbon_types": [
+    "MBON11",
+    "MBON18",
+    "MBON14"
+  ],
+  "candidate_dan_types": [
+    "PPL101",
+    "PPL105",
+    "PPL104"
+  ],
+  "candidate_mbon_cells": [
+    {
+      "bodyId": 10267,
+      "type": "MBON14",
+      "instance": "MBON14(a3)_R",
+      "contacts": 4929,
+      "primary_post_counts": {
+        "aL(R)": 4929
+      }
+    },
+    {
+      "bodyId": 10704,
+      "type": "MBON11",
+      "instance": "MBON11(y1pedc>a/B)_L",
+      "contacts": 16863,
+      "primary_post_counts": {
+        "CRE(L)": 4,
+        "CRE(R)": 4,
+        "CentralBrain-unspecified": 588,
+        "ICL(L)": 9,
+        "PED(L)": 4062,
+        "PED(R)": 37,
+        "SCL(L)": 5,
+        "SIP(L)": 4,
+        "a'L(L)": 13,
+        "a'L(R)": 1,
+        "aL(L)": 695,
+        "aL(R)": 191,
+        "b'L(L)": 20,
+        "b'L(R)": 60,
+        "bL(L)": 190,
+        "bL(R)": 94,
+        "gL(L)": 10818,
+        "gL(R)": 68
+      }
+    },
+    {
+      "bodyId": 11402,
+      "type": "MBON11",
+      "instance": "MBON11(y1pedc>a/B)_R",
+      "contacts": 24597,
+      "primary_post_counts": {
+        "CRE(L)": 5,
+        "CRE(R)": 25,
+        "CentralBrain-unspecified": 2438,
+        "PED(L)": 48,
+        "PED(R)": 5042,
+        "SCL(R)": 99,
+        "SIP(L)": 5,
+        "SIP(R)": 1,
+        "a'L(L)": 14,
+        "a'L(R)": 25,
+        "aL(L)": 74,
+        "aL(R)": 1911,
+        "b'L(L)": 24,
+        "b'L(R)": 23,
+        "bL(L)": 200,
+        "bL(R)": 265,
+        "gL(L)": 26,
+        "gL(R)": 14372
+      }
+    },
+    {
+      "bodyId": 11873,
+      "type": "MBON14",
+      "instance": "MBON14(a3)_L",
+      "contacts": 5488,
+      "primary_post_counts": {
+        "CentralBrain-unspecified": 50,
+        "SIP(L)": 7,
+        "aL(L)": 5431
+      }
+    },
+    {
+      "bodyId": 14221,
+      "type": "MBON18",
+      "instance": "MBON18(a2sc)_R",
+      "contacts": 6940,
+      "primary_post_counts": {
+        "CentralBrain-unspecified": 25,
+        "SIP(R)": 4,
+        "a'L(R)": 108,
+        "aL(R)": 6803
+      }
+    },
+    {
+      "bodyId": 17946,
+      "type": "MBON14",
+      "instance": "MBON14(a3)_R",
+      "contacts": 6719,
+      "primary_post_counts": {
+        "aL(R)": 6719
+      }
+    },
+    {
+      "bodyId": 19366,
+      "type": "MBON14",
+      "instance": "MBON14(a3)_L",
+      "contacts": 5081,
+      "primary_post_counts": {
+        "CentralBrain-unspecified": 38,
+        "aL(L)": 5043
+      }
+    },
+    {
+      "bodyId": 512788,
+      "type": "MBON18",
+      "instance": "MBON18(a2sc)_L",
+      "contacts": 6985,
+      "primary_post_counts": {
+        "CRE(L)": 166,
+        "SIP(L)": 23,
+        "a'L(L)": 320,
+        "aL(L)": 6476
+      }
+    }
+  ],
+  "candidate_mbon_contacts": 77602,
+  "candidate_dan_cells": [
+    {
+      "bodyId": 11327,
+      "type": "PPL101",
+      "instance": "PPL101(y1ped)_R"
+    },
+    {
+      "bodyId": 11900,
+      "type": "PPL101",
+      "instance": "PPL101(y1ped)_L"
+    },
+    {
+      "bodyId": 14225,
+      "type": "PPL105",
+      "instance": "PPL105(a'2a2)_R"
+    },
+    {
+      "bodyId": 21145,
+      "type": "PPL104",
+      "instance": "PPL104(a'3)_R"
+    },
+    {
+      "bodyId": 512326,
+      "type": "PPL105",
+      "instance": "PPL105(a'2a2)_L"
+    },
+    {
+      "bodyId": 515048,
+      "type": "PPL104",
+      "instance": "PPL104(a'3)_L"
+    }
+  ],
+  "limitations": [
+    "Primary neuropil labels are broad lobes, not γ1/α2/α3 microcompartments",
+    "MBON11 has KC contacts in multiple source ROIs",
+    "Pairwise contact locations do not specify dopamine release, receptors or a local learning law",
+    "Author variables are population level and cannot directly set individual MaleCNS synaptic weights"
+  ],
+  "mapping_accepted": false,
+  "plasticity_enabled": false,
+  "biological_gate_passed": false
+}

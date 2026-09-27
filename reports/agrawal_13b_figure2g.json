@@ -1,0 +1,43 @@
+{
+  "source_url": "https://cdn.elifesciences.org/articles/60299/elife-60299-v2.pdf",
+  "source_sha256": "8c69fc15a85e13740c38ad7488211423d9718febb0472144b4be3b16d303cf04",
+  "page_one_based": 5,
+  "panel": "Figure 2G",
+  "axis_calibration_pdf_points": {
+    "x_0_deg": 426.5,
+    "x_180_deg": 534.5,
+    "y_0_normalized": 274.6,
+    "y_1_normalized": 166.5
+  },
+  "estimated_axis_reading_uncertainty": {
+    "angle_deg": 2.5,
+    "normalized_response": 0.015
+  },
+  "csv_sha256": "85085f66bf80bfaf2737f73e62809834447c6cad29fc34423ca3c58c8ff2d80a",
+  "summary": {
+    "flexion": {
+      "points": 11,
+      "angle_range_deg": [
+        25.458316666666672,
+        155.06836666666666
+      ],
+      "response_range": [
+        0.04198917668825184,
+        0.6830807585568918
+      ]
+    },
+    "extension": {
+      "points": 11,
+      "angle_range_deg": [
+        35.50831666666662,
+        163.11005000000003
+      ],
+      "response_range": [
+        0.060323959296947456,
+        0.9456245143385753
+      ]
+    }
+  },
+  "scope": "Publisher vector mean curves, normalized population response; no raw voltage or individual-cell data",
+  "model_fit_performed": false
+}

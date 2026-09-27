@@ -1,0 +1,22 @@
+{
+  "scope": "Author smoothed optical axes from a separate microCT specimen; no MaleCNS registration",
+  "source_lock_sha256": "b1bc72bae13056e81da94a1aa7bfe2a9cbdc305516aa3df40c8f4d06239a0c84",
+  "source_commit": "99d2a43123db636cedb55af9ff31a59657e7d17e",
+  "rays": 1709,
+  "left": 857,
+  "right": 852,
+  "geometry_max_abs_error": 2.220446049250313e-16,
+  "unit_norm_max_error": 2.220446049250313e-16,
+  "coordinate_basis": "+X forward, +Y left, +Z up, per proc_uCT.R",
+  "position_units": "preserved author units; not converted to MuJoCo units",
+  "index_basis": "cone order; lens index is author i_match (1-based)",
+  "rays_sha256": "14250fc7385f3a6940e28d373a0a353e2c3e60b1d0ece68c4141cd6f7f49eaf4",
+  "enabled": false,
+  "missing": [
+    "MaleCNS column registration",
+    "body eye registration",
+    "acceptance angles and spectral sensitivity",
+    "phototransduction"
+  ],
+  "passed": true
+}

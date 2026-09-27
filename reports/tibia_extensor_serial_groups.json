@@ -1,0 +1,47 @@
+{
+  "fast_slow_identity": null,
+  "flymimic_activation_mapping_enabled": false,
+  "groups": {
+    "11657": {
+      "members": [
+        {
+          "bodyid": 11657,
+          "soma_side": "LHS"
+        },
+        {
+          "bodyid": 13115,
+          "soma_side": "RHS"
+        }
+      ],
+      "serial_group": 10347,
+      "subclass": "fl",
+      "target": "Ti extensor",
+      "type": "Ti extensor MN"
+    },
+    "11706": {
+      "members": [
+        {
+          "bodyid": 12704,
+          "soma_side": "LHS"
+        },
+        {
+          "bodyid": 11706,
+          "soma_side": "RHS"
+        }
+      ],
+      "serial_group": 10737,
+      "subclass": "fl",
+      "target": "Ti extensor",
+      "type": "Ti extensor MN"
+    }
+  },
+  "interpretation": "Two distinct annotated serial groups, each with left and right members",
+  "malecns_individual_crosswalk_verified": false,
+  "published_reconstruction_warning": {
+    "scope": "Figure 5 supplement 1 depicts one less-well-reconstructed member; this audit does not assign which side",
+    "serial_group": 10347,
+    "source": "https://elifesciences.org/articles/96084/figures"
+  },
+  "source_sha256": "b56b0563f6a6000b2a43fbc7ebec46297668e8e3b6c6d596843d5ad5aab83a65",
+  "source_url": "https://cdn.elifesciences.org/articles/96084/elife-96084-supp6-v1.csv"
+}

@@ -1,0 +1,28 @@
+{
+  "scope": "Source-bound receptor-input count per author-assigned L1; equator landmark not accepted",
+  "direct_edge_csv_sha256": "bbccbccc6cfe565852ac637351a7b159ca072961c470effb925067d63267ead1",
+  "assignment_sha256": "aceb35ea500d993cd3ef22b7efbb4724a2f7913d41ace2c3add2a7e396832967",
+  "assigned_l1": 1764,
+  "distinct_r16_count_distribution": {
+    "0": 961,
+    "1": 124,
+    "2": 97,
+    "3": 103,
+    "4": 95,
+    "5": 108,
+    "6": 242,
+    "7": 18,
+    "8": 6,
+    "9": 7,
+    "10": 2,
+    "11": 1
+  },
+  "l1_with_zero_direct_r16": 961,
+  "l1_with_six_direct_r16": 242,
+  "l1_with_seven_or_eight_direct_r16": 24,
+  "l1_with_more_than_eight_direct_r16": 10,
+  "per_l1_csv_sha256": "32ee15bf78c8593eeacbddb14ea0bb9a7fc54d47e91078316f261c70cfb71e43",
+  "interpretation": "The published equatorial landmark method requires near-complete cartridge photoreceptor counts and morphology. This minconf=0.5 graph has many empty L1 inputs and some counts above eight; 7/8 here are candidates only and cannot establish an equator row.",
+  "equator_landmark_accepted": false,
+  "visual_registration_accepted": false
+}
