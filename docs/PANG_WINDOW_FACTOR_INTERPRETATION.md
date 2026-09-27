@@ -4,7 +4,10 @@ Interpretation of the actual retrieved Molab result, not a new calculation of
 the eight input curves. Operator Astra1 reports one CPU execution after both
 reviews of f61ef73c869a0d54170b3e4212c1a5605dc4af4b. Independent actual-result
 numerical audit belongs to Astra2 and structure/provenance audit to Astra3;
-their final verdicts were pending when this interpretation was written.
+Astra2 subsequently APPROVED the actual archive in evidence commit
+c182c2f4cf596ba71f8715e33bd22a86b3aedc46: 2152 independent numerical
+comparisons pass (maximum ratio/contrast discrepancy1.78e-15). Astra3's
+actual-result structure verdict remains pending at this handoff.
 
 Archive: 40875 bytes, SHA256
 af79f4143614bb275c84605b8627b4faf28301cad61aad4d8f4c20425c8cd444.
@@ -162,7 +165,8 @@ If bytes remain unavailable, request a user-provided public export or a genuinel
 different authorized mirror once; do not repeat known Dryad401/403 downloads.
 There is no current authority to contact authors or submit another kernel job.
 
-Proposed roles sent to peers: Astra1 acquisition coordination; Astra4 eligibility
+Roles ACKed by Astra1 (message31) and Astra2 (actual numerical approval):
+Astra1 acquisition coordination; Astra4 eligibility
 and observation contract; Astra2 estimands/animal split; Astra3 provenance and
-join completeness. This is a proposal pending peer ACK, not a claim of acquired
+join completeness. Astra3's next-scope ACK remains pending, not a claim of acquired
 metadata or closed gate. It narrows the next work to a real evidence dependency.
