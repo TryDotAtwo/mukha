@@ -57,7 +57,14 @@ def main():
     args = parser.parse_args()
     SOURCE.mkdir(parents=True, exist_ok=True)
     receipt_path = SOURCE / 'source_receipts.json'
-    receipts = json.loads(receipt_path.read_text()) if receipt_path.exists() else {}
+    report_path = ROOT / 'reports/astra1_swc_source_pilot.json'
+    # Published report receipts pin fresh-clone restoration to the exact same
+    # generations; do not silently refresh from the live bucket on replay.
+    pinned = ({key: row['source'] for key, row in json.loads(report_path.read_text())['rows'].items()}
+              if report_path.exists() else {})
+    receipts = json.loads(receipt_path.read_text()) if receipt_path.exists() else dict(pinned)
+    if pinned and receipts != pinned:
+        raise ValueError('Cached receipts differ from committed report')
     for body in BODIES:
         key = str(body)
         path = SOURCE / f'{body}.swc'
@@ -73,17 +80,22 @@ def main():
             url = f"https://storage.googleapis.com/flyem-male-cns/{name}?generation={meta['generation']}"
             row = {'generation': meta['generation'], 'bytes': int(meta['size']),
                    'md5_base64': meta['md5Hash'], 'url': url, 'metadata_url': metadata_url}
-            with urlopen(url, timeout=30) as response:
-                payload = response.read(MAX_BYTES + 1)
-            row['sha256'] = verified(payload, row)
-            if path.exists() and path.read_bytes() != payload:
-                raise ValueError(f'Existing source differs: {path}')
-            path.write_bytes(payload)
             receipts[key] = row
-            receipt_path.write_text(json.dumps(receipts, indent=2) + '\n')
+        if not path.exists():
+            if not args.fetch:
+                raise FileNotFoundError('Restoring source bytes requires --fetch')
+            row = receipts[key]
+            with urlopen(row['url'], timeout=30) as response:
+                payload = response.read(MAX_BYTES + 1)
+            digest = verified(payload, row)
+            if 'sha256' in row and row['sha256'] != digest:
+                raise ValueError('Restored source SHA256 mismatch')
+            row['sha256'] = digest
+            path.write_bytes(payload)
         payload = path.read_bytes()
         if verified(payload, receipts[key]) != receipts[key]['sha256']:
             raise ValueError(f'Cached source SHA256 mismatch: {body}')
+    receipt_path.write_text(json.dumps(receipts, indent=2) + '\n')
     historical_path = ROOT / 'reports/malecns_ti_extensor_skeleton_integrity.json'
     historical = json.loads(historical_path.read_text())
     rows = {}
