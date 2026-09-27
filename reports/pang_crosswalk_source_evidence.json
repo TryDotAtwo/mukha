@@ -1,0 +1,758 @@
+{
+  "scope": "Local MAT/XLSX under workspace excluding private/git/dependencies, max8MB/file; complete public trees; verified release manifest, not all large zip payloads",
+  "author_commit": "7fa5829e37d566e02beaaa87efd6a0f1de4e48c0",
+  "mukha_tree": "673050e2aabc4f7b1c01c825a13dc7f17a6dc33b",
+  "release_manifest_sha256": "05727a3cb50b47da90658be736e683e1a9eb2d5f3c78e4a61aff6474ad1f646b",
+  "release_file_count": 12506,
+  "release_relevant_files": [
+    {
+      "path": "data/reference/flygym_2.1.0/src/flygym/assets/model/neuromechfly/meshes/simplified_max2000faces/simplification_metadata.csv",
+      "bytes": 4098,
+      "sha256": "c3b77709577fe547b13ee4e39d1e71040edcd94743e78660b5f605d758a8745f"
+    },
+    {
+      "path": "data/reference/handler2019/Handler2019_Fig2Fig5_Data.xlsx",
+      "bytes": 421421,
+      "sha256": "4db9b76cd0c41dc014c8d00a9e359bbd4165a7984095cc35d1932f9ee7f501dc"
+    },
+    {
+      "path": "data/reference/huang_2024/data_and_parameters/Dx_steady_state_nonlinear_3_27-Mar-2023_2modules.mat",
+      "bytes": 1248270,
+      "sha256": "69effbd740976aa0702963edf3fa1105b110ff5bb05833fa7367d998567d05c6"
+    },
+    {
+      "path": "data/reference/huang_2024/data_and_parameters/Dx_steady_state_nonlinear_3_27-Mar-2023_3modules.mat",
+      "bytes": 1798652,
+      "sha256": "cb7b555026f97b59678adf8902b9f4a02975413a7eed9d6e03f2e2864821915d"
+    },
+    {
+      "path": "data/reference/huang_2024/data_and_parameters/Imaging_24hr_data.xlsx",
+      "bytes": 13478,
+      "sha256": "45497111f4b49a48c4d85f6ddc898c32a4090320228c27a280f96a6266cbc9d6"
+    },
+    {
+      "path": "data/reference/juusola_r16_elife26117/elife-26117-fig1-data1-v2.xlsx",
+      "bytes": 2310026,
+      "sha256": "cb457117a713ad69c985d687c33d96d46ec027b66718b214be379b048d084c0d"
+    },
+    {
+      "path": "data/reference/malecns_optic/optic-column-type-assignments-v1.0.xlsx",
+      "bytes": 111565,
+      "sha256": "d4af1cacb751036f7e84bfecc9bec79ca010066ac066559c29b566003ec080d3"
+    },
+    {
+      "path": "data/reference/pang_20ms_stimulus_family/fullfield_6contrastA_LDflash20ms_Gray500ms.txt",
+      "bytes": 147,
+      "sha256": "9334d0f72dd5288da02f63a44b8761940526bd394682c6bbe9c9d24ccb55d334"
+    },
+    {
+      "path": "data/reference/pang_20ms_stimulus_family/fullfield_6contrastB_LDflash20ms_Gray500ms.txt",
+      "bytes": 153,
+      "sha256": "0cc9f23720f8e8119ea2d66f2a800764ef85b8e3b6d9df1717d6fe3719bd9f12"
+    },
+    {
+      "path": "data/reference/pang_20ms_stimulus_family/fullfield_6contrastC_LDflash20ms_Gray500ms.txt",
+      "bytes": 157,
+      "sha256": "dd33545236d9d4a23bbfe2fa1668c116300e1ca71c96ef0758e6653f33e4dd65"
+    },
+    {
+      "path": "data/reference/pang_20ms_stimulus_family/FullFieldFlashOntoGray.m",
+      "bytes": 13049,
+      "sha256": "a69879b3b105061002135ff0d306f04a2e70f053b0e8a8dc4d2b05d45a379a21"
+    },
+    {
+      "path": "data/reference/pang_l1l2_author_curves/CDM_results.ipynb",
+      "bytes": 64846,
+      "sha256": "c088e92100b3fb2a3a8d90d7ba4ff18547cb6af6b194dcc2cd496d6e14d1028a"
+    },
+    {
+      "path": "data/reference/pang_l1l2_author_curves/L1_2responses_to_flashes.ipynb",
+      "bytes": 149036,
+      "sha256": "8fc96a50db5811bc07d53d23263f23c3cc780b463a0ecd82e7f56a6876c642f6"
+    },
+    {
+      "path": "data/reference/pang_l1l2_author_curves/L1_CDM_highLum.mat",
+      "bytes": 55790,
+      "sha256": "4425910a67db801af030652ff1d7d6428edbc6da90539869f375d25ffba7eac0"
+    },
+    {
+      "path": "data/reference/pang_l1l2_author_curves/L1_CDM_lowLum.mat",
+      "bytes": 33593,
+      "sha256": "0608ea5df61490290f2143993a307d4edd7fa5a234089aedc8c6cec250af0e04"
+    },
+    {
+      "path": "data/reference/pang_l1l2_author_curves/L1_highLum.mat",
+      "bytes": 1464,
+      "sha256": "bbc8c90dbc57fba0c4d2afdebe29797e06360448a9dfb0b9018cd32583da6746"
+    },
+    {
+      "path": "data/reference/pang_l1l2_author_curves/L1_lowLum.mat",
+      "bytes": 1468,
+      "sha256": "8b539a2b34c39e8fec11e6576f3f7badd1fc80815e93319093a4cf41ea03d33a"
+    },
+    {
+      "path": "data/reference/pang_l1l2_author_curves/L2_CDM_highLum.mat",
+      "bytes": 100252,
+      "sha256": "e19bd5d5e40863d509c72fb3d7348d96e9469f0d1ab6256897d4ef2b5366e5dc"
+    },
+    {
+      "path": "data/reference/pang_l1l2_author_curves/L2_CDM_lowLum.mat",
+      "bytes": 89722,
+      "sha256": "0a835999723058712b6a311ec9ec52dca36333313dfb3ced9493bde89c4d6e3e"
+    },
+    {
+      "path": "data/reference/pang_l1l2_author_curves/L2_highLum.mat",
+      "bytes": 1463,
+      "sha256": "1c9266f5c387a217013f8715a49f6351f78e9a9de9894a5ac2892b2a06cf6e36"
+    },
+    {
+      "path": "data/reference/pang_l1l2_author_curves/L2_lowLum.mat",
+      "bytes": 1459,
+      "sha256": "49c0e5587618f9d11e0dea12a218b6eecd511e563d8d42ad986e9c410c6d012c"
+    },
+    {
+      "path": "data/reference/pang_l1l2_author_curves/source_manifest.json",
+      "bytes": 3517,
+      "sha256": "695ed9e81b3a032eaab37e9475beef4ef7939da91e9b9dcd966dc7bb0aa6f954"
+    },
+    {
+      "path": "data/reference/pang_projector_method/PMC11769683_bioc.xml",
+      "bytes": 178557,
+      "sha256": "6c9414dc8e011687d4c515ac17f2035445252578e6172e1d851cb67e21ce0103"
+    },
+    {
+      "path": "data/reference/shiu2022/elife-79887-fig5-data1-v3.xlsx",
+      "bytes": 63355,
+      "sha256": "bf84dd582638fb5fa2520566b9949c3c66ba5c90ee126d5ba74c15018dc9758d"
+    },
+    {
+      "path": "data/reference/tastekin2026/mmc2.xlsx",
+      "bytes": 186967,
+      "sha256": "7b28d5f3ae45d68c510b8a3616700f0df2a5a6f2e2d2dba490d172939f2b64c9"
+    },
+    {
+      "path": "data/reference/visualpathways/ME_columnar-cells_location.xlsx",
+      "bytes": 103433,
+      "sha256": "cabb48a8ab040a63c5d379e01bd4a9189b27b816add372d0a472187323e294be"
+    },
+    {
+      "path": "data/reference/visualpathways/ME_L_columnar-cells_location.xlsx",
+      "bytes": 92505,
+      "sha256": "877b4cc33c504540406e55c33f3d7a7ed6b3542469db64184cbcecd68df3abc4"
+    }
+  ],
+  "author_data": [
+    {
+      "path": "computational-model/data/L1_CDM_highLum.mat",
+      "bytes": 55790,
+      "sha256": "4425910a67db801af030652ff1d7d6428edbc6da90539869f375d25ffba7eac0",
+      "git_blob": "c1b49640eb0be3a9fc7e717d1645ba07fbf4679a",
+      "schema": {
+        "indivResp": {
+          "shape": [
+            1,
+            2
+          ],
+          "dtype": "object",
+          "first_element": {
+            "shape": [
+              56,
+              63
+            ],
+            "dtype": "float64"
+          }
+        },
+        "meanResp": {
+          "shape": [
+            2,
+            63
+          ],
+          "dtype": "float64"
+        },
+        "t": {
+          "shape": [
+            1,
+            63
+          ],
+          "dtype": "float64"
+        }
+      },
+      "time_axis": {
+        "length": 63,
+        "first": 0.0,
+        "last": 0.5166666666666666,
+        "median_step": 0.008333333333333331,
+        "physical_flash_sync_present": false
+      },
+      "individual_array_shapes": [
+        [
+          56,
+          63
+        ],
+        [
+          56,
+          63
+        ]
+      ],
+      "identity_fields_present": [],
+      "release_manifest_matches": [
+        {
+          "path": "data/reference/pang_l1l2_author_curves/L1_CDM_highLum.mat",
+          "bytes": 55790,
+          "sha256": "4425910a67db801af030652ff1d7d6428edbc6da90539869f375d25ffba7eac0"
+        }
+      ]
+    },
+    {
+      "path": "computational-model/data/L1_CDM_lowLum.mat",
+      "bytes": 33593,
+      "sha256": "0608ea5df61490290f2143993a307d4edd7fa5a234089aedc8c6cec250af0e04",
+      "git_blob": "5e25fb3ecddcf8bb8af33235cdd014408f7d462e",
+      "schema": {
+        "indivResp": {
+          "shape": [
+            1,
+            2
+          ],
+          "dtype": "object",
+          "first_element": {
+            "shape": [
+              33,
+              63
+            ],
+            "dtype": "float64"
+          }
+        },
+        "meanResp": {
+          "shape": [
+            2,
+            63
+          ],
+          "dtype": "float64"
+        },
+        "t": {
+          "shape": [
+            1,
+            63
+          ],
+          "dtype": "float64"
+        }
+      },
+      "time_axis": {
+        "length": 63,
+        "first": 0.0,
+        "last": 0.5166666666666666,
+        "median_step": 0.008333333333333331,
+        "physical_flash_sync_present": false
+      },
+      "individual_array_shapes": [
+        [
+          33,
+          63
+        ],
+        [
+          33,
+          63
+        ]
+      ],
+      "identity_fields_present": [],
+      "release_manifest_matches": [
+        {
+          "path": "data/reference/pang_l1l2_author_curves/L1_CDM_lowLum.mat",
+          "bytes": 33593,
+          "sha256": "0608ea5df61490290f2143993a307d4edd7fa5a234089aedc8c6cec250af0e04"
+        }
+      ]
+    },
+    {
+      "path": "computational-model/data/L1_highLum.mat",
+      "bytes": 1464,
+      "sha256": "bbc8c90dbc57fba0c4d2afdebe29797e06360448a9dfb0b9018cd32583da6746",
+      "git_blob": "7c392525939485066bd2488004c495656cfd90a3",
+      "schema": {
+        "meanResp": {
+          "shape": [
+            2,
+            63
+          ],
+          "dtype": "float64"
+        },
+        "t": {
+          "shape": [
+            1,
+            63
+          ],
+          "dtype": "float64"
+        }
+      },
+      "time_axis": {
+        "length": 63,
+        "first": 0.0,
+        "last": 0.5166666666666666,
+        "median_step": 0.008333333333333331,
+        "physical_flash_sync_present": false
+      },
+      "identity_fields_present": [],
+      "release_manifest_matches": [
+        {
+          "path": "data/reference/pang_l1l2_author_curves/L1_highLum.mat",
+          "bytes": 1464,
+          "sha256": "bbc8c90dbc57fba0c4d2afdebe29797e06360448a9dfb0b9018cd32583da6746"
+        }
+      ]
+    },
+    {
+      "path": "computational-model/data/L1_lowLum.mat",
+      "bytes": 1468,
+      "sha256": "8b539a2b34c39e8fec11e6576f3f7badd1fc80815e93319093a4cf41ea03d33a",
+      "git_blob": "e4b75cf1cee86c7c46ddaca3f2a6d427605b28e5",
+      "schema": {
+        "meanResp": {
+          "shape": [
+            2,
+            63
+          ],
+          "dtype": "float64"
+        },
+        "t": {
+          "shape": [
+            1,
+            63
+          ],
+          "dtype": "float64"
+        }
+      },
+      "time_axis": {
+        "length": 63,
+        "first": 0.0,
+        "last": 0.5166666666666666,
+        "median_step": 0.008333333333333331,
+        "physical_flash_sync_present": false
+      },
+      "identity_fields_present": [],
+      "release_manifest_matches": [
+        {
+          "path": "data/reference/pang_l1l2_author_curves/L1_lowLum.mat",
+          "bytes": 1468,
+          "sha256": "8b539a2b34c39e8fec11e6576f3f7badd1fc80815e93319093a4cf41ea03d33a"
+        }
+      ]
+    },
+    {
+      "path": "computational-model/data/L2_2s_natstim_corrected_fixedtiming.mat",
+      "bytes": 291730,
+      "sha256": "1160cf372b1e98999c3cddc4874a9496776b787641551354da441fd0326231ed",
+      "git_blob": "39b97aae17bf2786267aad1cf068c4d80446d731",
+      "schema": {
+        "indivResp_fixed": {
+          "shape": [
+            52,
+            708
+          ],
+          "dtype": "float64"
+        },
+        "meanResp_fixed": {
+          "shape": [
+            1,
+            708
+          ],
+          "dtype": "float64"
+        },
+        "t_fixed": {
+          "shape": [
+            1,
+            708
+          ],
+          "dtype": "float64"
+        }
+      },
+      "time_axis": {
+        "length": 708,
+        "first": 0.0,
+        "last": 1.994858474,
+        "median_step": 0.002821581999999989,
+        "physical_flash_sync_present": false
+      },
+      "identity_fields_present": [],
+      "release_manifest_matches": []
+    },
+    {
+      "path": "computational-model/data/L2_CDM_highLum.mat",
+      "bytes": 100252,
+      "sha256": "e19bd5d5e40863d509c72fb3d7348d96e9469f0d1ab6256897d4ef2b5366e5dc",
+      "git_blob": "32ae6ada7717fd105c18a90ca971a0e241ff2a5a",
+      "schema": {
+        "indivResp": {
+          "shape": [
+            1,
+            2
+          ],
+          "dtype": "object",
+          "first_element": {
+            "shape": [
+              102,
+              63
+            ],
+            "dtype": "float64"
+          }
+        },
+        "meanResp": {
+          "shape": [
+            2,
+            63
+          ],
+          "dtype": "float64"
+        },
+        "t": {
+          "shape": [
+            1,
+            63
+          ],
+          "dtype": "float64"
+        }
+      },
+      "time_axis": {
+        "length": 63,
+        "first": 0.0,
+        "last": 0.5166666666666666,
+        "median_step": 0.008333333333333331,
+        "physical_flash_sync_present": false
+      },
+      "individual_array_shapes": [
+        [
+          102,
+          63
+        ],
+        [
+          102,
+          63
+        ]
+      ],
+      "identity_fields_present": [],
+      "release_manifest_matches": [
+        {
+          "path": "data/reference/pang_l1l2_author_curves/L2_CDM_highLum.mat",
+          "bytes": 100252,
+          "sha256": "e19bd5d5e40863d509c72fb3d7348d96e9469f0d1ab6256897d4ef2b5366e5dc"
+        }
+      ]
+    },
+    {
+      "path": "computational-model/data/L2_CDM_lowLum.mat",
+      "bytes": 89722,
+      "sha256": "0a835999723058712b6a311ec9ec52dca36333313dfb3ced9493bde89c4d6e3e",
+      "git_blob": "ccfe3cf9e84df4fa10d89b652ad8537836c4ca9e",
+      "schema": {
+        "indivResp": {
+          "shape": [
+            1,
+            2
+          ],
+          "dtype": "object",
+          "first_element": {
+            "shape": [
+              91,
+              63
+            ],
+            "dtype": "float64"
+          }
+        },
+        "meanResp": {
+          "shape": [
+            2,
+            63
+          ],
+          "dtype": "float64"
+        },
+        "t": {
+          "shape": [
+            1,
+            63
+          ],
+          "dtype": "float64"
+        }
+      },
+      "time_axis": {
+        "length": 63,
+        "first": 0.0,
+        "last": 0.5166666666666666,
+        "median_step": 0.008333333333333331,
+        "physical_flash_sync_present": false
+      },
+      "individual_array_shapes": [
+        [
+          91,
+          63
+        ],
+        [
+          91,
+          63
+        ]
+      ],
+      "identity_fields_present": [],
+      "release_manifest_matches": [
+        {
+          "path": "data/reference/pang_l1l2_author_curves/L2_CDM_lowLum.mat",
+          "bytes": 89722,
+          "sha256": "0a835999723058712b6a311ec9ec52dca36333313dfb3ced9493bde89c4d6e3e"
+        }
+      ]
+    },
+    {
+      "path": "computational-model/data/L2_highLum.mat",
+      "bytes": 1463,
+      "sha256": "1c9266f5c387a217013f8715a49f6351f78e9a9de9894a5ac2892b2a06cf6e36",
+      "git_blob": "745fc159b808f14b7876cdfcdfad12a96ea7473a",
+      "schema": {
+        "meanResp": {
+          "shape": [
+            2,
+            63
+          ],
+          "dtype": "float64"
+        },
+        "t": {
+          "shape": [
+            1,
+            63
+          ],
+          "dtype": "float64"
+        }
+      },
+      "time_axis": {
+        "length": 63,
+        "first": 0.0,
+        "last": 0.5166666666666666,
+        "median_step": 0.008333333333333331,
+        "physical_flash_sync_present": false
+      },
+      "identity_fields_present": [],
+      "release_manifest_matches": [
+        {
+          "path": "data/reference/pang_l1l2_author_curves/L2_highLum.mat",
+          "bytes": 1463,
+          "sha256": "1c9266f5c387a217013f8715a49f6351f78e9a9de9894a5ac2892b2a06cf6e36"
+        }
+      ]
+    },
+    {
+      "path": "computational-model/data/L2_lowLum.mat",
+      "bytes": 1459,
+      "sha256": "49c0e5587618f9d11e0dea12a218b6eecd511e563d8d42ad986e9c410c6d012c",
+      "git_blob": "1d6cc9f26c015a85c5dfbbce687d4449a79b65fc",
+      "schema": {
+        "meanResp": {
+          "shape": [
+            2,
+            63
+          ],
+          "dtype": "float64"
+        },
+        "t": {
+          "shape": [
+            1,
+            63
+          ],
+          "dtype": "float64"
+        }
+      },
+      "time_axis": {
+        "length": 63,
+        "first": 0.0,
+        "last": 0.5166666666666666,
+        "median_step": 0.008333333333333331,
+        "physical_flash_sync_present": false
+      },
+      "identity_fields_present": [],
+      "release_manifest_matches": [
+        {
+          "path": "data/reference/pang_l1l2_author_curves/L2_lowLum.mat",
+          "bytes": 1459,
+          "sha256": "49c0e5587618f9d11e0dea12a218b6eecd511e563d8d42ad986e9c410c6d012c"
+        }
+      ]
+    }
+  ],
+  "source_texts": [
+    {
+      "path": "imaging-analysis/README.md",
+      "sha256": "acd5f2f34751b74800bf877cbbdb2e99ce03db83aec4ae649d04138b7339659d",
+      "git_blob": "06945b9650d90cced1e58e711979a1f96a06990b",
+      "bytes": 46
+    },
+    {
+      "path": "stimulus/README.md",
+      "sha256": "5ee30c1e5155e3c433d38428d53737a7e642be635dd964990b6eb2b93f8083a2",
+      "git_blob": "281f2fdbe32a8c1a9fec32907c6a163443107d05",
+      "bytes": 66
+    },
+    {
+      "path": "stimulus/FullFieldFlashOntoGray.m",
+      "sha256": "a69879b3b105061002135ff0d306f04a2e70f053b0e8a8dc4d2b05d45a379a21",
+      "git_blob": "a8b0d59d67788cf8552f5edbed8d590e8b55e0ed",
+      "bytes": 13049
+    },
+    {
+      "path": "stimulus/fullfield_6contrastA_LDflash20ms_Gray500ms.txt",
+      "sha256": "9334d0f72dd5288da02f63a44b8761940526bd394682c6bbe9c9d24ccb55d334",
+      "git_blob": "42dcd91dee4492d201a1c0e0997774529221a31f",
+      "bytes": 147
+    },
+    {
+      "path": "stimulus/fullfield_6contrastB_LDflash20ms_Gray500ms.txt",
+      "sha256": "0cc9f23720f8e8119ea2d66f2a800764ef85b8e3b6d9df1717d6fe3719bd9f12",
+      "git_blob": "182c933cf7f306bec88bd000a871913e1cb8e4f4",
+      "bytes": 153
+    },
+    {
+      "path": "stimulus/fullfield_6contrastC_LDflash20ms_Gray500ms.txt",
+      "sha256": "dd33545236d9d4a23bbfe2fa1668c116300e1ca71c96ef0758e6653f33e4dd65",
+      "git_blob": "e8f4f7575233f205f880a0754c27501977213fd3",
+      "bytes": 157
+    }
+  ],
+  "other_author_mat_catalog": [
+    {
+      "path": "stimulus/natStim2Epochs_Schleienlocher_swampyForest_10s.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a546285399bf5dd487e9ed94c9c74709f4477b33",
+      "size": 36967,
+      "url": "https://api.github.com/repos/ClandininLab/L1L2-recurrent-feedback/git/blobs/a546285399bf5dd487e9ed94c9c74709f4477b33"
+    },
+    {
+      "path": "stimulus/stimCodeDevelopment/meanInten_pd_B.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42a3e4b8cffaba4d04390002ca0e09cb4b189d80",
+      "size": 15303493,
+      "url": "https://api.github.com/repos/ClandininLab/L1L2-recurrent-feedback/git/blobs/42a3e4b8cffaba4d04390002ca0e09cb4b189d80"
+    },
+    {
+      "path": "stimulus/stimCodeDevelopment/meanInten_pd_G.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7760d8105a2519b7748e9788d347e6e558339e8",
+      "size": 15016803,
+      "url": "https://api.github.com/repos/ClandininLab/L1L2-recurrent-feedback/git/blobs/d7760d8105a2519b7748e9788d347e6e558339e8"
+    },
+    {
+      "path": "stimulus/stimCodeDevelopment/meanInten_pd_R.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80ef5c6476dbf2dd5721bbef4a5f68e0a1d843f6",
+      "size": 14480836,
+      "url": "https://api.github.com/repos/ClandininLab/L1L2-recurrent-feedback/git/blobs/80ef5c6476dbf2dd5721bbef4a5f68e0a1d843f6"
+    },
+    {
+      "path": "stimulus/stimCodeDevelopment/meanInten_pd_video_RGB.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca8272b7b49938608b5021b15f29dab3928c656e",
+      "size": 17400974,
+      "url": "https://api.github.com/repos/ClandininLab/L1L2-recurrent-feedback/git/blobs/ca8272b7b49938608b5021b15f29dab3928c656e"
+    },
+    {
+      "path": "stimulus/stimCodeDevelopment/timingtests/160902/shortflashgrey_10ms100msLD_100msGrey/stimOut.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf45a3eaa94283829b8dff4417bf0370559d91ab",
+      "size": 479299,
+      "url": "https://api.github.com/repos/ClandininLab/L1L2-recurrent-feedback/git/blobs/bf45a3eaa94283829b8dff4417bf0370559d91ab"
+    },
+    {
+      "path": "stimulus/stimCodeDevelopment/timingtests/160902/shortflashgrey_500msLD_500msGrey/stimOut.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5967475b7b453e618fa95b22509cf13ab7093773",
+      "size": 929345,
+      "url": "https://api.github.com/repos/ClandininLab/L1L2-recurrent-feedback/git/blobs/5967475b7b453e618fa95b22509cf13ab7093773"
+    },
+    {
+      "path": "stimulus/stimCodeDevelopment/timingtests/160902/whitenoise_10ms_lightdark_halfgrey/stimOut.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bbe36b0b833189afca4785ee2dc335172c6cd953",
+      "size": 472803,
+      "url": "https://api.github.com/repos/ClandininLab/L1L2-recurrent-feedback/git/blobs/bbe36b0b833189afca4785ee2dc335172c6cd953"
+    },
+    {
+      "path": "stimulus/stimCodeDevelopment/timingtests/160902/whitenoise_500ms_lightdark/stimOut.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27a0c39fe92c14054e5412944cc2cfd2dc03a6bf",
+      "size": 449033,
+      "url": "https://api.github.com/repos/ClandininLab/L1L2-recurrent-feedback/git/blobs/27a0c39fe92c14054e5412944cc2cfd2dc03a6bf"
+    },
+    {
+      "path": "stimulus/stimCodeDevelopment/timingtests/160902/whitenoise_500ms_lightdark_halfgrey/stimOut.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "871dfed436f9379520cac879b4d461cfaa5d13df",
+      "size": 449793,
+      "url": "https://api.github.com/repos/ClandininLab/L1L2-recurrent-feedback/git/blobs/871dfed436f9379520cac879b4d461cfaa5d13df"
+    },
+    {
+      "path": "stimulus/stimCodeDevelopment/timingtests/160902/whitenoise_500ms_lightdark_halfgrey/whitenoise_100ms_lightdark_halfgrey/stimOut.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a369710d10ffc00d463c29b9bd0ac8111ffa872",
+      "size": 468128,
+      "url": "https://api.github.com/repos/ClandininLab/L1L2-recurrent-feedback/git/blobs/4a369710d10ffc00d463c29b9bd0ac8111ffa872"
+    },
+    {
+      "path": "stimulus/stimCodeDevelopment/timingtests/160906/stimOut.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4ecb510cb7f2d161946834e34dec2dc6e5e3016",
+      "size": 645555,
+      "url": "https://api.github.com/repos/ClandininLab/L1L2-recurrent-feedback/git/blobs/f4ecb510cb7f2d161946834e34dec2dc6e5e3016"
+    },
+    {
+      "path": "stimulus/stimCodeDevelopment/timingtests/160915/wn_rand9_20ms/stim.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59ddabd6621a8f384e2781cfab0f3b04b0a7f93f",
+      "size": 1559367,
+      "url": "https://api.github.com/repos/ClandininLab/L1L2-recurrent-feedback/git/blobs/59ddabd6621a8f384e2781cfab0f3b04b0a7f93f"
+    },
+    {
+      "path": "stimulus/stimCodeDevelopment/timingtests/160915/wn_rand9_30ms_flipHalfFrame/stim.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13131101963eaa9912d0a2214ff28fa336133dd8",
+      "size": 1769346,
+      "url": "https://api.github.com/repos/ClandininLab/L1L2-recurrent-feedback/git/blobs/13131101963eaa9912d0a2214ff28fa336133dd8"
+    },
+    {
+      "path": "stimulus/stimCodeDevelopment/timingtests/160915/wn_rand9_test/stim.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a32458f1cda126a700afcf2a079f961b7505b08",
+      "size": 1700455,
+      "url": "https://api.github.com/repos/ClandininLab/L1L2-recurrent-feedback/git/blobs/9a32458f1cda126a700afcf2a079f961b7505b08"
+    },
+    {
+      "path": "stimulus/stimCodeDevelopment/timingtests/160915/wn_testflip_30ms/stim.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1d65ba744e79e3331a7f80d4768ee6713d59d2f",
+      "size": 1437715,
+      "url": "https://api.github.com/repos/ClandininLab/L1L2-recurrent-feedback/git/blobs/f1d65ba744e79e3331a7f80d4768ee6713d59d2f"
+    },
+    {
+      "path": "stimulus/stimCodeDevelopment/timingtests/160915/wn_testflip_30ms_flipHalfFrame/stim.mat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eaafc80fd3fdc62b769ea478bd0b515a645f2090",
+      "size": 815466,
+      "url": "https://api.github.com/repos/ClandininLab/L1L2-recurrent-feedback/git/blobs/eaafc80fd3fdc62b769ea478bd0b515a645f2090"
+    }
+  ],
+  "claim_limits": "Other author MATs are stimulus development/calibration assets by path, contents not audited here; no demonstrated imaging-record join. Release ZIP payloads not fetched; individual matching source bytes and release manifest verified.",
+  "schema": "pang-crosswalk-evidence-projection-v1",
+  "source_inventory_sha256": "0fa687d738939f5836bb2a60ad0b5461658f1e566bccf8391f24055495ced726",
+  "omitted": "62 local candidate paths omitted for portability; no new source acquisition or field inference",
+  "complete_recording_animal_stimulus_join_verified": false,
+  "release_zip_payloads_independently_verified": false
+}
