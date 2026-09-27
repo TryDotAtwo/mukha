@@ -1,0 +1,188 @@
+{
+  "archive_sha256": "41cb1b831f81248fe3d591d68842147b2e5f1983a416cbd149ad0ac92d07ed4d",
+  "archive_bytes": 396953,
+  "manifest_files": 6,
+  "result_sha256": "2b53849cc007872d60ea145db72051822df8ec7204326f2a96cd396b8fad0dab",
+  "summary": {
+    "complete_six_ordering": true,
+    "all_six_cubic_better_than_H1": false,
+    "prior_temporal003_all_six_improved": false
+  },
+  "training": {
+    "L1": {
+      "status": "ok",
+      "rank": 2,
+      "scale": 0.02414729423762053,
+      "selected": {
+        "kind": "interior",
+        "a": 1.1882771096355287,
+        "d": -0.3432241025551631,
+        "feasible": true,
+        "a_boundary": false,
+        "sse": 5.100714354561667e-06,
+        "score": 0.116620581855538
+      }
+    },
+    "L2": {
+      "status": "ok",
+      "rank": 2,
+      "scale": 0.027376522769934214,
+      "selected": {
+        "kind": "interior",
+        "a": 2.0457373543123065,
+        "d": -1.0498773778529324,
+        "feasible": true,
+        "a_boundary": false,
+        "sse": 6.590822482563226e-06,
+        "score": 0.28153372456268977
+      }
+    }
+  },
+  "transfers": [
+    {
+      "cell": "L1",
+      "level": "highLum",
+      "row": 1,
+      "status": "ok",
+      "Es": 1.1659786699165604,
+      "support": {
+        "training_min": -0.022504962309291297,
+        "training_max": 0.02414729423762053,
+        "transfer_min": -0.003126784622360593,
+        "transfer_max": 0.05530844327957373,
+        "max_abs_over_training_scale": 2.290461313607773,
+        "outside_signed_time_fraction": 0.048387096774193616,
+        "outside_magnitude_time_fraction": 0.048387096774193616
+      },
+      "versus_H0": {
+        "delta": -1.0342466384030073,
+        "outcome": "worse"
+      },
+      "versus_H1": {
+        "delta": -1.0739567564184533,
+        "outcome": "worse"
+      }
+    },
+    {
+      "cell": "L1",
+      "level": "lowLum",
+      "row": 0,
+      "status": "ok",
+      "Es": 0.3878739688471627,
+      "support": {
+        "training_min": -0.022504962309291297,
+        "training_max": 0.02414729423762053,
+        "transfer_min": -0.019222027167500485,
+        "transfer_max": 0.007456956053889677,
+        "max_abs_over_training_scale": 0.7960323412779443,
+        "outside_signed_time_fraction": 0.0,
+        "outside_magnitude_time_fraction": 0.0
+      },
+      "versus_H0": {
+        "delta": -0.024211165919642508,
+        "outcome": "worse"
+      },
+      "versus_H1": {
+        "delta": -0.05163279489511696,
+        "outcome": "worse"
+      }
+    },
+    {
+      "cell": "L1",
+      "level": "lowLum",
+      "row": 1,
+      "status": "ok",
+      "Es": 0.14815747424246442,
+      "support": {
+        "training_min": -0.022504962309291297,
+        "training_max": 0.02414729423762053,
+        "transfer_min": -0.005981750776796212,
+        "transfer_max": 0.03420490154503545,
+        "max_abs_over_training_scale": 1.4165107365008858,
+        "outside_signed_time_fraction": 0.03225806451612907,
+        "outside_magnitude_time_fraction": 0.03225806451612907
+      },
+      "versus_H0": {
+        "delta": 0.09712523056294697,
+        "outcome": "improved"
+      },
+      "versus_H1": {
+        "delta": 0.061235858230414136,
+        "outcome": "improved"
+      }
+    },
+    {
+      "cell": "L2",
+      "level": "highLum",
+      "row": 1,
+      "status": "ok",
+      "Es": 2.5847816951355607,
+      "support": {
+        "training_min": -0.027376522769934214,
+        "training_max": 0.012134835160669972,
+        "transfer_min": -0.006401896528329693,
+        "transfer_max": 0.04521668804163628,
+        "max_abs_over_training_scale": 1.6516592856450973,
+        "outside_signed_time_fraction": 0.06451612903225817,
+        "outside_magnitude_time_fraction": 0.03225806451612907
+      },
+      "versus_H0": {
+        "delta": -2.3226467088613725,
+        "outcome": "worse"
+      },
+      "versus_H1": {
+        "delta": -2.2629319116137987,
+        "outcome": "worse"
+      }
+    },
+    {
+      "cell": "L2",
+      "level": "lowLum",
+      "row": 0,
+      "status": "ok",
+      "Es": 0.8019127276283571,
+      "support": {
+        "training_min": -0.027376522769934214,
+        "training_max": 0.012134835160669972,
+        "transfer_min": -0.026200702307968407,
+        "transfer_max": 0.006687624944765035,
+        "max_abs_over_training_scale": 0.957050043504534,
+        "outside_signed_time_fraction": 0.0,
+        "outside_magnitude_time_fraction": 0.0
+      },
+      "versus_H0": {
+        "delta": -0.061994039270038104,
+        "outcome": "worse"
+      },
+      "versus_H1": {
+        "delta": -0.11825693188772712,
+        "outcome": "worse"
+      }
+    },
+    {
+      "cell": "L2",
+      "level": "lowLum",
+      "row": 1,
+      "status": "ok",
+      "Es": 0.5670619336514201,
+      "support": {
+        "training_min": -0.027376522769934214,
+        "training_max": 0.012134835160669972,
+        "transfer_min": -0.005268044545040388,
+        "transfer_max": 0.03742619138978395,
+        "max_abs_over_training_scale": 1.3670907625597584,
+        "outside_signed_time_fraction": 0.048387096774193616,
+        "outside_magnitude_time_fraction": 0.016129032258064536
+      },
+      "versus_H0": {
+        "delta": -0.09522014901107106,
+        "outcome": "worse"
+      },
+      "versus_H1": {
+        "delta": -0.10309774819092304,
+        "outcome": "worse"
+      }
+    }
+  ],
+  "actual_review_status": "CLOSED: Astra2 NUMERICAL APPROVE ee804810571a022e3ad9867bf0a4eb1109925273 (4648 comparisons); Astra3 provenance APPROVE message39 (131 checks); Astra4 interpretation 17222606f237d88bf7b9b4a145098a09625503ec integrated"
+}
