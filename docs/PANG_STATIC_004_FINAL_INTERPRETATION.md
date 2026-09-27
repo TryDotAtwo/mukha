@@ -17,8 +17,12 @@ Result SHA256
 Source: Astra1 reports/recorded_runs/static-control-004.tar.gz.
 This report reads stored results/parameters; derived percentages and polynomial
 gain evaluations below are explanatory summaries, not changed scoring or fits.
-Independent actual numerical reconstruction belongs to Astra2; archive/receipt
-review belongs to Astra3 and was pending at first writing.
+Independent actual numerical reconstruction belongs to Astra2 and is pending
+at this handoff. Astra3 APPROVED actual provenance/structure in message39:
+131 assertions, immutable baselines and honest pre-fit failure/local execution
+history checked. The receipt did not independently bind a resolved interpreter
+path; no rerun or invented path is warranted. This does not alter the scientific
+result or turn receipt consistency into independent live process observation.
 
 ## Frozen six-condition answer
 
@@ -78,7 +82,7 @@ complexity-matched mechanism selection test.
 These are frozen CONTROL support diagnostics using time weights, not fractions
 of animals, signal energy or variance. Neither diagnostic changes a score.
 
-| Transfer | max|c|/s_train | Time outside signed training interval | Time outside |c|≤s_train |
+| Transfer | max abs(c)/s_train | Time outside signed training interval | Time outside abs(c)≤s_train |
 | --- | ---: | ---: | ---: |
 | L1 high light | 2.29046 | 4.84% | 4.84% |
 | L1 low dark | 0.79603 | 0% | 0% |
