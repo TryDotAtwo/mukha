@@ -1,0 +1,62 @@
+{
+  "public_landing_url": "https://datadryad.org/dataset/doi:10.5061/dryad.ngf1vhj4c",
+  "public_html_snapshot_sha256": "cc0b026161ea89f8b740ef575e9e075ea0845feefde0a2d6f61275456554fb01",
+  "evidence_kind": "Rendered README text from Astra 1 public landing snapshot; not downloaded README.md or workbook bytes",
+  "rendered_readme_text_sha256": "31732d9d9198214c34fb18e193d1712df580dc3504ea91ba3ba88c2bb655b686",
+  "schema_evidence": {
+    "Time Series ID": [
+      "Time Series ID: Each row corresponds to a single live imaging recording with a unique identifier, formatted as YYMMDD_fly#LDM### or Tseries-YYMMDD-### (for Leica or Bruker data, respectively)."
+    ],
+    "Fly ID": [
+      "Fly ID: number that uniquely identifies individual flies (which are also separated by empty rows for readability)"
+    ],
+    "PWM": [
+      "PWM (pulse width modulation): projector brightness setting; this value determines the current applied to the blue LED in the LightCrafter projector (LED Current (mA) = 1.8 * (PWM Value) + 140). Rows without PWM values used 200."
+    ],
+    "iResp": [
+      "iResp contains the indices of ROIs from roiDataMat selected for averaging.",
+      "roiDataMat is an nx2 struct in which each row corresponds to a single ROI, which are included for averaging if n is in iResp, and excluded if n is not in iResp. roiDataMat(:,1) contains each ROI's response to the search stimulus, and roiDataMat(:,2) contains each ROI's response to the experimental stimulus. Each cell contains the following:",
+      "The variable types are the same as above, but organized differently (by individual flies in allRespFlies). The added variable respROIMat is the subset of roiDataMat selected for averaging (indexed using iResp)."
+    ],
+    "roiDataMat": [
+      "iResp contains the indices of ROIs from roiDataMat selected for averaging.",
+      "roiDataMat is an nx2 struct in which each row corresponds to a single ROI, which are included for averaging if n is in iResp, and excluded if n is not in iResp. roiDataMat(:,1) contains each ROI's response to the search stimulus, and roiDataMat(:,2) contains each ROI's response to the experimental stimulus. Each cell contains the following:",
+      "roiMetaMat is an nx2 struct with cells corresponding to those in roiDataMat, containing metadata about each cell: seriesID, stimulus type (stimclass), and index of each ROI out of all n ROIs (roiMaskInd).",
+      "roiDataMat and roiMetaMat are nx3, since data for the experimental stimulus were collected across two time series in this experiment",
+      "roiDataMatMeans is nx2 and contains the same set of data after averaging across the two time series",
+      "The variable types are the same as above, but organized differently (by individual flies in allRespFlies). The added variable respROIMat is the subset of roiDataMat selected for averaging (indexed using iResp).",
+      "allRespROIs has the same structure/content as roiDataMat, but only includes selected ROIs."
+    ],
+    "imFrameStartTimes": [
+      "Processed time series data (before stimulus alignment): timestamp of frames (imFrameStartTimes, in seconds), inter-frame interval (imIFI, in seconds), final normalized fluorescence over time (dFF, in % deltaF/F but as decimal numbers), and fluorescence over time during intermediate processing stages (arbitrary units); first avSignal is computed by averaging intensity values across all pixels in a ROI, then dSignal is computed by subtracting the average background intensity value at each timepoint, and finally fSignal is computed by applying a 25 Hz filter if laser dither was present (see metadata section above)."
+    ],
+    "pStimDat": [
+      "Processed stimulus data (pStimDat): reconstructed stimulus value for each epoch (rcStim, relative luminance values where 0 is the darkest possible projector output and 1 is the brightest possible projector output), reconstructed stimulus index for each epoch (rcStimInd; 1 = dark flashes, 2 = light flashes, 3 = gray interleaves), timestamp for each stimulus transition (stimEpochStartTimes, in seconds), timestamps sorted by stimulus transition type (lightStartTimes and darkStartTimes, in seconds), voltage threshold used to separate light from dark in photodiode data (pdThresh, in volts), stimulus value at each imaging frame (stimvalIF, relative luminance from 0 to 1), start time of stimulus epoch corresponding to each imaging frame (stimEpochTimesIF)"
+    ],
+    "Out.imFrameTime": [
+      "Synchronization with microscope: NIDAQScanRate is in Hz, Out.imFrameTime contains the imaging frame number corresponding to each photodiode timepoint (based on triggers sent by Leica software at the start of each imaging frame; not applicable to data collected by Bruker, as both imaging and photodiode data were directly collected with the Bruker software)"
+    ],
+    "interpFrameRate": [
+      "interpFrameRate (Hz) and binWidthMult indicate the settings used to compute the stimulus-aligned average (size of the time bins, and number of time bins used in rolling average, respectively)",
+      "interpFrameRate is set to -1 to indicate different method of computing the stimulus-aligned average (no rolling average or resampling to different frame rate)"
+    ]
+  },
+  "peak_helper": {
+    "url": "https://raw.githubusercontent.com/ClandininLab/L1L2-recurrent-feedback/7fa5829e37d566e02beaaa87efd6a0f1de4e48c0/imaging-analysis/HHY_stimulusSpecificAnalysisScripts/computeFramePeaks.m",
+    "git_blob": "f61df3ffa8c22e0ec9168fd7906ebcc38f1ed0b2",
+    "sha256": "872f5a25799e71f1d180607f8b898142ab1c73895fd2fb166225f30fb376c5ac",
+    "scope": "Static inspection: first extrema over entire supplied vector; opposite extrema over inclusive suffix"
+  },
+  "run_readiness": {
+    "eight_processed_mean_diagnostic": true,
+    "recording_specific_physiological_comparison": false,
+    "roi_bootstrap_reconstruction": false
+  },
+  "missing_for_physiology": [
+    "actual cohort/ROI membership",
+    "recording-specific stimcode/PWM/filter rows",
+    "physical stimulus/frame alignment",
+    "indicator observation calibration"
+  ],
+  "script_sha256": "45a6190be32f9bf58c61ab51e40763c438e6895bba732aabc82459cd119cdf2c"
+}
