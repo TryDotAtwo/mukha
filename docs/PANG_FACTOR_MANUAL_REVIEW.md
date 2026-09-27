@@ -58,3 +58,25 @@ frozen area tolerances rtol1e-10/atol1e-14 and ratio tolerances
 rtol1e-10/atol1e-10. Failed corner closure blocks attribution. Pair/triple
 effects and averaged contrasts must follow explicit factor ordering O/E/C.
 No percentages of biological causation or p-values follow from these means.
+
+## Completed implementation review
+
+Exact runner `62e1fa5b40bca9af932abd118e80802062b830ff` passed this prewritten
+manual oracle in Astra 2's separate checkout. Maximum absolute difference was
+1.6653345369377348e-16. Sign inversion, collinear refinement, coincident split,
+all main/pair/triple terms and averaged effects passed. A same-sign positive
+tail retains negative Q. Nine author synthetic tests independently passed under -O.
+
+A second hand fixture uses t=arange(63)/128 and y[2:5]=[1,3,1], y[5:35]=-1,
+zero elsewhere, plus its sign-inverted dark version. It gives peak index3,
+O indices H2/S1, E indices H34/S31, bracket4/5, source one-based frames2/6/32.
+Historical Q=117/17 and sampled Q=52/9 match; changing O does not move E.
+A corrupted historical corner blocks attribution and suppresses contrasts.
+
+The main output dispatcher was tested with analyze_curve replaced by an explicit
+synthetic-failure stub: eight calls yielded all64 unique curve/row/condition keys
+with typed status and null metrics. This did not integrate real curves and its
+scratch output is not scientific evidence. The actual64-condition experiment
+remains pending operator review/launch. Verdict: numerical APPROVE for the frozen
+plan; artifact/adversarial checks remain Astra 3's separate review responsibility.
+Machine-readable review: `reports/astra2_factor_runner_review.json`.
