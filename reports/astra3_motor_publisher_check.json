@@ -1,0 +1,84 @@
+{
+  "candidate_count": 815,
+  "curated_group_members": {
+    "11657": [
+      {
+        "bodyId": "804257",
+        "graph_index": "148012",
+        "mancBodyid": "13115.0",
+        "rootSide": "",
+        "somaSide": "R"
+      },
+      {
+        "bodyId": "815344",
+        "graph_index": "156979",
+        "mancBodyid": "10256.0",
+        "rootSide": "",
+        "somaSide": "L"
+      }
+    ],
+    "11706": [
+      {
+        "bodyId": "800636",
+        "graph_index": "145248",
+        "mancBodyid": "12704.0",
+        "rootSide": "",
+        "somaSide": "L"
+      },
+      {
+        "bodyId": "815678",
+        "graph_index": "157213",
+        "mancBodyid": "22126.0",
+        "rootSide": "",
+        "somaSide": "R"
+      }
+    ]
+  },
+  "draft_entries_checked": 24,
+  "gate_D_passed": false,
+  "input_sha256": {
+    "configs/knee_interface_draft.json": "435dd9a5a1ae32ba7e0c9738f93e119bb69ef6974fb1fabc725a733bbe982832",
+    "reports/curated_motor_resolution.json": "e056674e933620eabcdc3b2f907139e7ff9c2902e4a493c94f5a2eac53ecd5ec",
+    "reports/curated_motor_targets.csv": "b4eecfe670321166ee9ea851f9156f4700d1eca6249488301d6dcf5373942519",
+    "reports/malecns_manc_motor_targets.csv": "732c3d9d90b1c97226eee06fb84d4108425e031809476207496105a309ab69e7",
+    "reports/malecns_motor_candidates.csv": "8108d056414b6898f25067bb555cae45dbf660ddf492ac6c67fe22f3890d7bb0",
+    "reports/motor_target_join.json": "39134f64c63f3a26b0ea372db5b463ad2835ed1047b362f15252c1587085b6a4"
+  },
+  "leg_count": 381,
+  "predicted_lookup": {
+    "815344": {
+      "exact_id_match": "False",
+      "mancBodyid": "10256.0",
+      "manc_target": ""
+    },
+    "815678": {
+      "exact_id_match": "True",
+      "mancBodyid": "22126.0",
+      "manc_target": "Tergotr."
+    }
+  },
+  "publisher_source_check": {
+    "checks": [
+      "both MANC group memberships and targets",
+      "serial groups and annotated soma sides",
+      "10256 absent and 22126 target Tergotr."
+    ],
+    "does_not_validate": "MaleCNS raw annotation or individual cross-dataset identity",
+    "sha256": {
+      "supp3.csv": "c46e3cec1a5114b8d981d5f0383012c8e7fcdebd6c4e3eaffe4ac3ba1def2e94",
+      "supp6.csv": "b56b0563f6a6000b2a43fbc7ebec46297668e8e3b6c6d596843d5ad5aab83a65"
+    },
+    "url_base": "https://cdn.elifesciences.org/articles/96084/elife-96084-"
+  },
+  "schema": "astra3-exported-motor-evidence-v1",
+  "scope": "Consistency of public exported tables and disabled draft; raw Feather and graph not revalidated. Publisher validation is recorded separately when requested.",
+  "selected_pair_is_same_curated_group": false,
+  "source_validation": "Historical digests are consistency anchors, not independent evidence of source authenticity.",
+  "unresolved": [
+    "individual cross-dataset identity",
+    "effector laterality",
+    "fast/slow motor unit identity",
+    "spike-to-muscle gain and kinetics",
+    "aggregation of motor units"
+  ]
+}
