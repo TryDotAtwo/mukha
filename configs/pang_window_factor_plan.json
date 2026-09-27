@@ -47,31 +47,34 @@
     ]
   ],
   "fixed_peak_policy": "zero-based 2 + first_argmax(polarity*y[2:31]); compute once per curve",
-  "common_grid": "u[i]=t[0]+i*median(diff(t)); no amplitude resampling",
+  "common_grid": "original t for all cells; no grid or amplitude resampling; record median-ifi corner residual",
   "start_levels": {
-    "H": "u[2]",
-    "S": "u[frameZero1-1]"
+    "H": "t[2]",
+    "S": "t[frameZero1-1]"
   },
   "end_levels": {
-    "H": "u[searchsorted(original_t, original_t[2]+0.25, right)-1]",
-    "S": "u[floor(0.25/ifi)-1]"
+    "H": "t[searchsorted(t, t[2]+0.25, right)-1]",
+    "S": "t[floor(0.25/ifi)-1]"
   },
   "split_levels": {
     "H": "linear zero in frozen [j-1,j] bracket on common grid",
-    "S": "u[j]; frozen first opposite-or-zero sample from source helper"
+    "S": "t[j]; frozen first opposite-or-zero sample from source helper"
   },
   "fixed_baseline": 0,
   "area_units": "deltaF/F seconds",
   "raw_ratio": "A2/A1",
   "display_ratio": "-A2/A1",
   "numerical_thresholds": {
-    "max_clock_deviation_seconds": 1e-12,
-    "area_and_conservation_absolute": 1e-12,
-    "corner_ratio_absolute": 1e-10,
-    "minimum_abs_area1_for_ratio_check": 1e-10
+    "area_and_conservation_relative": 1e-10,
+    "area_and_conservation_absolute": 1e-14,
+    "corner_ratio_relative": 1e-10,
+    "corner_ratio_absolute": 1e-10
   },
+  "comparison_rule": "abs(actual-reference) <= atol+rtol*abs(reference)",
+  "denominator_policy": "zero yields null and typed reason; every nonzero value retained with magnitude; no clipping threshold",
+  "per_cell_conservation": "A1+A2 equals direct same-quadrature integral from O to E",
   "failures": [
-    "clock admissibility exceeded",
+    "timing-weight residual causes corner mismatch",
     "source/corner mismatch",
     "missing crossing",
     "inconsistent original crossing bracket",
@@ -84,6 +87,8 @@
     "signed A1",
     "signed A2",
     "total area",
+    "direct full-window integral and conservation residual",
+    "denominator magnitude",
     "raw and display ratios",
     "all boundary indices and times",
     "clock deviation",

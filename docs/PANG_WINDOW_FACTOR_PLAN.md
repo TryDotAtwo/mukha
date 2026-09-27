@@ -1,6 +1,7 @@
 # Separate measurement-window factors after measurement-001
 
-Status: prospective analysis plan, not executed. Astra 1 remains the only
+Status: prospective analysis plan, not executed; revised after Astra 1/2 review.
+Astra 1 remains the only
 Molab operator on faithful-fly-compact-recovery-v2. This document authorizes no
 second kernel request. No physiological confirmation is claimed.
 
@@ -45,19 +46,21 @@ Do not switch to full-vector author peak selection in this experiment even
 though the two rules happen to agree on these inputs. Compute all alternative
 boundaries **once per curve** before constructing any condition.
 
-Let `t` be the original 63-point time vector and `ifi=median(diff(t))`. To avoid
-hiding a fourth time-weight factor, use the common grid
-`u[i]=t[0]+i*ifi` for every integration, with unchanged sample amplitudes and
-piecewise-linear interpolation. Record the maximum `abs(t-u)`. Predeclare a
-clock-admissibility tolerance of 1e-12 seconds; if exceeded, stop the three-factor
-analysis and report a separate clock-weight issue. Do not round `ifi` to 1/120.
-The tolerance is numerical, not a physiological timing tolerance.
+Let `t` be the original 63-point time vector and `ifi=median(diff(t))`. Following
+Astra 1/2 review, use the SAME ORIGINAL `t` grid for every integration, with
+unchanged sample amplitudes and piecewise-linear interpolation. Record both
+`max(abs(t-(t[0]+arange(len(t))*ifi)))` and the actual step differences. Do not
+round `ifi` to 1/120 or silently regularize t. The archived sampled corner used
+uniform ifi weights; retain its residual against common-t quadrature explicitly.
+If corner closure fails the tolerances below, stop three-factor attribution and
+report a separate timing-weight issue. Timing arrays are not evidence of the
+physiological acquisition frame rate.
 
 | Factor | H: historical choice | S: sampled choice |
 | --- | --- | --- |
-| O, start | `u[2]` | `u[frameZero1-1]`, derivative-based helper with frozen peak |
-| E, end | `u[h]`, `h=searchsorted(t,t[2]+0.25,right)-1` computed once on original t | `u[floor(0.25/ifi)-1]` |
-| C, split | zero interpolated between `u[j-1]` and `u[j]` | `u[j]`, first opposite/zero sample, frozen one-based `frameZero2=j+1` |
+| O, start | `t[2]` | `t[frameZero1-1]`, derivative-based helper with frozen peak |
+| E, end | `t[h]`, `h=searchsorted(t,t[2]+0.25,right)-1` computed once on original t | `t[floor(0.25/ifi)-1]` |
+| C, split | zero interpolated between `t[j-1]` and `t[j]` | `t[j]`, first opposite/zero sample, frozen one-based `frameZero2=j+1` |
 
 Use raw fluorescence zero throughout. Compute `j` using the reviewed source
 helper and frozen peak; do not search again after changing O or E. Validate
@@ -99,10 +102,11 @@ design before seeing new condition values; do not select a subset afterward.
 
 For a common primitive integral `F` of the fixed piecewise-linear curve, store
 `A1=F(C)-F(O)`, `A2=F(E)-F(C)` in deltaF/F seconds, total `A1+A2`, raw `A2/A1`
-and displayed `Q=-A2/A1`. Multiply areas by 100 only when explicitly comparing
-to the archived sampled percent-deltaF/F-second fields. Do not rectify either
-area or Q. If A1 is zero, store null ratio and a typed reason; if near zero,
-record its actual magnitude and flag conditioning rather than clip it.
+and displayed `Q=-A2/A1`. Divide archived sampled percent-deltaF/F-second fields
+by 100 for corner comparisons. Do not rectify either area or Q. If A1 is zero,
+store null ratio and a typed reason. For every nonzero denominator record its
+magnitude and calculate the signed ratio without clipping or a new exclusion
+threshold; nonfinite arithmetic is an explicit failure.
 
 Discriminating invariants at fixed other factors:
 
@@ -111,14 +115,17 @@ Discriminating invariants at fixed other factors:
 - C-only transfers a signed strip between phases: `delta A1 = -delta A2`;
   their sum is unchanged. It is not opposite-only area extraction.
 
-Use absolute tolerance 1e-12 deltaF/F seconds for these numerical invariants.
-HHH must reproduce the archived historical signed areas; SSS must reproduce
-archived sampled areas divided by 100, within the same area tolerance. Store
-residuals, not just a pass flag. For both corners compare Q with absolute
-1e-10 tolerance only when `abs(A1)>1e-10` deltaF/F seconds; below that numerical
-conditioning threshold require area checks and mark ratio comparison undefined.
-These tolerances/threshold are design choices frozen before execution, not
-biological effect thresholds. A corner mismatch blocks attributing the observed
+Additionally, for EVERY valid cell, `A1+A2` must match a direct integral over
+the full fixed [O,E] window using the same quadrature, detecting gaps/overlaps.
+
+Freeze all area/corner/conservation comparisons at `rtol=1e-10, atol=1e-14`
+deltaF/F seconds. HHH must reproduce archived historical signed areas; SSS must
+reproduce archived sampled areas divided by 100. Store signed and absolute
+residuals, not just a pass flag. Compare corner Q at `rtol=1e-10, atol=1e-10`
+for all eight nonzero-denominator curves; zero stays undefined. Use the explicit
+comparison `abs(actual-reference) <= atol+rtol*abs(reference)` throughout.
+These are prospective numerical design choices, not biological effect cutoffs.
+A corner mismatch blocks attributing the observed
 remote difference to only these three factors; inspect time weighting, peak,
 units and source arithmetic without silently revising this plan.
 
