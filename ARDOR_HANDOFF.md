@@ -54,6 +54,7 @@ included. The original local project is retained without modification.
 this inventory alone is not a downloadable data archive or a hash verification.
 GitHub release assets, if present, carry their own SHA-256 manifest. Read the
 release notes for actual coverage and restore instructions.
+See `docs/GITHUB_DATA_SNAPSHOT.md` for the local scientific data export.
 
 The transfer has not rerun biological or GPU experiments. Existing reports retain
 their original scope and limitations. Windows paths and private HF references in
