@@ -57,7 +57,19 @@
       "manc_target": "Tergotr."
     }
   },
-  "publisher_source_check": null,
+  "publisher_source_check": {
+    "checks": [
+      "both MANC group memberships and targets",
+      "serial groups and annotated soma sides",
+      "10256 absent and 22126 target Tergotr."
+    ],
+    "does_not_validate": "MaleCNS raw annotation or individual cross-dataset identity",
+    "sha256": {
+      "supp3.csv": "c46e3cec1a5114b8d981d5f0383012c8e7fcdebd6c4e3eaffe4ac3ba1def2e94",
+      "supp6.csv": "b56b0563f6a6000b2a43fbc7ebec46297668e8e3b6c6d596843d5ad5aab83a65"
+    },
+    "url_base": "https://cdn.elifesciences.org/articles/96084/elife-96084-"
+  },
   "schema": "astra3-exported-motor-evidence-v1",
   "scope": "Consistency of public exported tables and disabled draft; raw Feather and graph not revalidated. Publisher validation is recorded separately when requested.",
   "selected_pair_is_same_curated_group": false,

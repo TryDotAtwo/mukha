@@ -20,7 +20,7 @@ def indexed(rows):
     return result
 
 
-def audit(root):
+def audit(root, publisher_dir=None):
     hashes = {}
 
     def read(path):
@@ -65,9 +65,32 @@ def audit(root):
     for entry in draft['entries']:
         require(entry['enabled'] is False and entry['gain'] is None and entry['activation_time_constant_ms'] is None, 'draft has active or calibrated entries')
     require({str(e['body_id']) for e in draft['entries']} >= {'800636', '804257', '815344', '815678'}, 'draft omits a group member')
+    publisher_check = None
+    if publisher_dir is not None:
+        sources = {}
+        for name, digest in [('supp3.csv', lock['source_sha256']), ('supp6.csv', lock['serial_source_sha256'])]:
+            data = (publisher_dir / name).read_bytes()
+            require(hashlib.sha256(data).hexdigest() == digest, f'{name}: publisher hash mismatch')
+            sources[name] = list(csv.DictReader(data.decode('utf-8-sig').splitlines()))
+        source3 = {str(int(float(r['bodyid']))): r for r in sources['supp3.csv']}
+        require('10256' not in source3 and source3['22126']['target'] == 'Tergotr.', 'publisher predicted-ID result differs')
+        for group, expected_ids, serial in [('11657', {'11657', '13115'}, '10347'), ('11706', {'12704', '11706'}, '10737')]:
+            for name, rows in sources.items():
+                members = [r for r in rows if str(int(float(r['group']))) == group]
+                require({str(int(float(r['bodyid']))) for r in members} == expected_ids, f'{name}: group membership mismatch')
+                require(all(r['target'] == 'Ti extensor' for r in members), f'{name}: target mismatch')
+                if name == 'supp6.csv':
+                    require({r['serial'] for r in members} == {serial}, 'serial group mismatch')
+                    require({r['soma_side'] for r in members} == {'LHS', 'RHS'}, 'source soma side mismatch')
+        publisher_check = {
+            'sha256': {'supp3.csv': lock['source_sha256'], 'supp6.csv': lock['serial_source_sha256']},
+            'url_base': 'https://cdn.elifesciences.org/articles/96084/elife-96084-',
+            'checks': ['both MANC group memberships and targets', 'serial groups and annotated soma sides', '10256 absent and 22126 target Tergotr.'],
+            'does_not_validate': 'MaleCNS raw annotation or individual cross-dataset identity'
+        }
     return {
         'schema': 'astra3-exported-motor-evidence-v1',
-        'scope': 'Consistency of public exported tables and disabled draft; raw Feather, graph and publisher sources not revalidated',
+        'scope': 'Consistency of public exported tables and disabled draft; raw Feather and graph not revalidated. Publisher validation is recorded separately when requested.',
         'input_sha256': hashes,
         'candidate_count': len(candidates), 'leg_count': len(curated),
         'curated_group_members': groups,
@@ -76,7 +99,8 @@ def audit(root):
         'draft_entries_checked': len(draft['entries']),
         'gate_D_passed': False,
         'unresolved': ['individual cross-dataset identity', 'effector laterality', 'fast/slow motor unit identity', 'spike-to-muscle gain and kinetics', 'aggregation of motor units'],
-        'source_validation': 'Historical digests are consistency anchors, not independent evidence of source authenticity.'
+        'source_validation': 'Historical digests are consistency anchors, not independent evidence of source authenticity.',
+        'publisher_source_check': publisher_check
     }
 
 
@@ -84,8 +108,9 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--root', type=Path, default=Path(__file__).resolve().parents[1])
     parser.add_argument('--output', type=Path)
+    parser.add_argument('--publisher-dir', type=Path, help='Optional directory containing publisher supp3.csv and supp6.csv')
     args = parser.parse_args()
-    report = json.dumps(audit(args.root), indent=2, sort_keys=True) + '\n'
+    report = json.dumps(audit(args.root, args.publisher_dir), indent=2, sort_keys=True) + '\n'
     if args.output:
         args.output.write_text(report, encoding='utf-8')
     else:

@@ -40,3 +40,19 @@ not independent proof of authenticity. No simulation or KSP was run.
 Gate D remains open: individual identity, effector side, fast/slow identity,
 activation kinetics/gain and motor-unit aggregation require independent
 evidence. See MOTOR_MAPPING_EVIDENCE.md for the prior anatomical work.
+
+## Publisher-source follow-up
+
+Fresh public downloads of Cheong supplementary files 3 and 6 match the
+historical source SHA-256 values exactly. The optional `--publisher-dir DIR`
+accepts those files named `supp3.csv` and `supp6.csv`, verifies both digests,
+and checks both MANC groups, targets, serial IDs, soma-side labels and the
+two predicted-ID lookup results directly. No network request happens inside
+the audit. Download URLs:
+
+- https://cdn.elifesciences.org/articles/96084/elife-96084-supp3-v1.csv
+- https://cdn.elifesciences.org/articles/96084/elife-96084-supp6-v1.csv
+
+`reports/astra3_motor_publisher_check.json` records this additional executed
+check. It strengthens MANC source support but does not revalidate raw
+MaleCNS annotations, cross-specimen identities or physiology.

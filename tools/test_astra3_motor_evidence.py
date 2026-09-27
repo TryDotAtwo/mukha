@@ -44,6 +44,14 @@ class EvidenceTests(unittest.TestCase):
                 with self.assertRaisesRegex(ValueError, 'active or calibrated'):
                     audit(ROOT)
 
+    def test_unpinned_publisher_bytes_rejected(self):
+        original = Path.read_bytes
+        def read(path):
+            return b'altered publisher bytes' if path.name == 'supp3.csv' else original(path)
+        with patch.object(Path, 'read_bytes', read):
+            with self.assertRaisesRegex(ValueError, 'publisher hash mismatch'):
+                audit(ROOT, Path('synthetic-publisher-fixture'))
+
 
 if __name__ == '__main__':
     unittest.main()
