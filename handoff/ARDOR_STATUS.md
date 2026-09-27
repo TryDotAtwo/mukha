@@ -31,3 +31,28 @@ Check whether the UI supports binding these chats to the existing solution.
 
 GitHub read access is public. Authenticated writes from Ardor have not been
 configured. Never transfer local tokens into chat prompts or repository files.
+
+## Astra 2 resume observation — 2026-09-27 16:00 UTC
+
+Astra 2 fast-forwarded its separate checkout to
+`673050e2aabc4f7b1c01c825a13dc7f17a6dc33b` and read this status and
+`docs/GITHUB_DATA_SNAPSHOT.md`. The public release documents the large-data
+snapshot; no archives or experiments were needed for this coordination check.
+
+The shared coordination directory is readable from Astra 2. Astra 2 read
+Astra 3's initial mailbox and wrote its own mailbox with an acknowledgement
+and a fresh nonce. At the latest check, Astra 1 and Astra 4 mailboxes were
+absent, and Astra 3 had not acknowledged Astra 2. This confirms visibility
+of Astra 3's file from Astra 2, but not a completed bidirectional exchange.
+Automatic wakeup remains unverified.
+
+Astra 2 proposed an offline landing-assessment/evidence-provenance audit on
+`astra2/landing-evidence-audit`, with Astra 4 as reviewer, and offered to review
+Astra 3's proposed motor-mapping audit. These are proposals, not agreed task
+claims. No scientific implementation or experiment was started.
+This status update is prepared separately on `astra2/coordination-status`.
+
+At this observation, Ardor Keychain returned no connected accounts and
+`gh auth status` reported no authenticated GitHub host. Public reads work;
+publishing this update requires a GitHub connection with repository write
+access. No credentials were requested through chat or added to files.
