@@ -62,8 +62,18 @@ def audit(root, publisher_dir=None):
     require(predicted['815678']['manc_target'] == 'Tergotr.', '815678 predicted target changed')
     draft = json.loads(read('configs/knee_interface_draft.json'))
     require(draft['curated_table_sha256'] == hashes['reports/curated_motor_targets.csv'], 'draft table identity mismatch')
+    draft_ids = set()
     for entry in draft['entries']:
+        body = str(entry['body_id'])
+        require(body not in draft_ids, f'duplicate draft bodyId {body}')
+        draft_ids.add(body)
+        require(body in curated, f'unknown draft bodyId {body}')
+        row = curated[body]
+        require(entry['graph_index'] == int(row['graph_index']), f'{body}: draft graph_index mismatch')
+        require(entry['curated_manc_group'] == int(float(row['mancGroup'])), f'{body}: draft curated group mismatch')
+        require(entry['muscle_annotation'] == row['curated_target'], f'{body}: draft muscle mismatch')
         require(entry['enabled'] is False and entry['gain'] is None and entry['activation_time_constant_ms'] is None, 'draft has active or calibrated entries')
+    require(len(draft_ids) == 24, 'draft population changed')
     require({str(e['body_id']) for e in draft['entries']} >= {'800636', '804257', '815344', '815678'}, 'draft omits a group member')
     publisher_check = None
     if publisher_dir is not None:

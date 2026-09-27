@@ -52,6 +52,29 @@ class EvidenceTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, 'publisher hash mismatch'):
                 audit(ROOT, Path('synthetic-publisher-fixture'))
 
+    def test_draft_identity_corruption_rejected(self):
+        original = Path.read_bytes
+        cases = [('graph_index', 0, 'graph_index mismatch'),
+                 ('curated_manc_group', 11706, 'curated group mismatch'),
+                 ('muscle_annotation', 'Tergotr.', 'muscle mismatch'),
+                 ('duplicate', None, 'duplicate draft'),
+                 ('body_id', 0, 'unknown draft')]
+        for field, value, error in cases:
+            def read(path):
+                data = original(path)
+                if path.name == 'knee_interface_draft.json':
+                    obj = json.loads(data)
+                    entry = next(e for e in obj['entries'] if e['body_id'] == 815344)
+                    if field == 'duplicate':
+                        obj['entries'].append(entry.copy())
+                    else:
+                        entry[field] = value
+                    return json.dumps(obj).encode()
+                return data
+            with self.subTest(field=field), patch.object(Path, 'read_bytes', read):
+                with self.assertRaisesRegex(ValueError, error):
+                    audit(ROOT)
+
 
 if __name__ == '__main__':
     unittest.main()

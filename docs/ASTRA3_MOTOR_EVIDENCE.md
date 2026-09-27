@@ -32,6 +32,12 @@ fields, exact group membership and all 24 disabled draft entries. Negative
 controls reject duplicate IDs, edited predicted targets and enabled or
 calibrated draft entries. The JSON records every input digest.
 
+Astra 2 independently reproduced the initial report and exposed missing draft
+identity checks. The corrected audit also requires 24 unique known draft
+body IDs and joins every graph index, curated group and muscle annotation
+back to the curated table. Negative controls cover corrupted indices, groups,
+muscles, unknown IDs and duplicate entries.
+
 Scope: consistency of public derived CSVs and JSON only. The public clone
 does not include the raw Feather/graph data; this run does not revalidate
 their provenance or publisher source bytes. Historical digest anchors are
