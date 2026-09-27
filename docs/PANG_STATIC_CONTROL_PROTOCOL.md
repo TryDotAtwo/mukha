@@ -1,6 +1,6 @@
 # Static cubic control: protocol draft, not permission to run
 
-Status: PROPOSED for peer review. Base public main:
+Status: REVISED for exact-revision peer review; execution remains forbidden. Base public main:
 339ac3f1c511960a79dd21777c2476951f2fc5dc.
 Scientific basis: PANG_TEMPORAL_003_INTERPRETATION.md (Astra4 1b9f5ee).
 No new fit, implementation, experiment or retrospective rescue is part of this document.
@@ -13,6 +13,12 @@ narrow model-adequacy comparison, worth considering because static observation
 nonlinearity remains an explicit alternative to temporal processing. It cannot
 distinguish arbitrary static maps from memory, neural from indicator dynamics,
 or feedforward from recurrent circuitry. It does not close a biological gate.
+
+H0 excludes amplitude-dependent gain as well as history dependence. Hs adds
+gain a+d*(c/s_train)^2 without a state: competitiveness would give a concrete
+static alternative, not establish memoryless biology. The cubic is the
+lowest-order odd zero-intercept polynomial extension of H0, not a search over
+nonlinear families. Its imposed Hs(-c)=-Hs(c) symmetry is unvalidated physiology.
 
 The choice to pursue it follows inspection of temporal003 results; any future
 comparison is exploratory even though this alternative was named beforehand.
@@ -32,20 +38,45 @@ No claim of blind, independent-cohort or animal-heldout validation is permitted.
 - Weighted design columns are c and c^3/s_train^2. Use SVD rank cutoff 1e-12
   relative to largest singular value. Report singular values, condition number,
   coefficients, rank and whether the a=0 boundary is active. Rank below two
-  makes the cubic fit non-identifiable at this cutoff: retain that diagnostic,
-  do not label the nested linear prediction a successful cubic fit.
+  makes Hs nonidentifiable/nonselectable: set cubic predictions and cubic Es
+  to null with reason rank_deficient, selected_model=H0, and retain the frozen
+  archived H0 predictions/scores separately as labelled fallback outputs.
+  Keep all six condition keys; fallback scores are not cubic evidence.
+  No universal cubic-superiority conclusion is possible if either cell falls
+  back. Do not use a pseudoinverse cubic extrapolation for a deficient design.
 - For full rank evaluate the feasible unconstrained least-squares solution,
   the a=0 optimum over d, and explicit nested H0 (d=0). Select minimum loss;
   within 1e-12 + 1e-10*abs(best normalized training loss), prefer nested H0,
   then boundary, then interior. Report all candidate losses and tie decisions.
+  Full-rank H0 selection retains selected_model=H0 and the label
+  no_resolved_cubic_increment_on_training; report its valid nested predictions
+  without calling it successful identification of a nonlinear contribution.
 - Nonfinite inputs, nonpositive training control energy or s_train=0 are
   invalid, not grounds for changing scaling or selecting another training curve.
+  Nonpositive transfer CONTROL energy or nonfinite predictions/scores produces
+  a typed undefined comparison, retaining its key and reason, never a zero,
+  numerical tie or excluded condition. Any undefined condition prevents a
+  complete six-condition ordering. Invalid training leaves cubic outputs
+  undefined for all three transfers of that cell; archived baselines remain
+  separately preserved, not relabelled as successful Hs predictions.
 - No polynomial-degree search, rectifier, saturation fit, monotonicity tuning,
   tau search, per-transfer gain, baseline, time shift, window or split change.
   The signed cubic need not be monotone or bounded: describe it as a restricted
   phenomenological map, not a calibrated physiological nonlinearity.
-- Report control amplitude ranges and transfer/train amplitude ratios as
-  descriptive extrapolation diagnostics. Do not use them to exclude conditions.
+- Report signed min/max c for training and every transfer, max(abs(c))/s_train,
+  and two separate time-weighted support fractions: sum(w*I)/sum(w), with I
+  respectively indicating c outside [min(c_train),max(c_train)] and
+  abs(c)>s_train. Thus unseen signed support and excess magnitude are distinct;
+  opposite polarity may be inside magnitude support while relying on unvalidated
+  odd symmetry. Diagnostics must not trigger clipping, exclusion, new scaling
+  or refitting. All weights are the same original-grid trapezoid weights.
+
+With E=sum(w*c^2), u=c^2/s_train^2 and q=w*c^2/E, the weighted Gram determinant
+is E^2 Var_q(u). Distinct nonzero magnitudes, not merely opposite signs or many
+samples, are needed for rank two. Values only in {0,-s_train,+s_train} identify
+only a+d. Numerical rank is not biological precision. Hs has two coefficients;
+H1 had two coefficients plus 32 tau choices, so complexity is unequal. Do not
+add static model search to equalize computation budgets.
 
 ## Frozen comparator and complete outcome policy
 
@@ -77,6 +108,15 @@ comparator outcome can replace that experiment's criterion or verdict.
 
 ## Exposure ledger: not new independent evidence
 
+The cubic AND training-only scale were named before temporal003 (Astra3
+message31), but deliberately not selected for that experiment. Choosing this
+follow-up and its final fitting/rank/tie/reporting rules occurs after all six
+outcomes were known. Naming an alternative is not preregistration. Training-only
+coefficient fitting cannot make this an independent model-selection test.
+Astra1 has performed no Hs fitting or variant search; peer reviews report none
+in their review work. This is a bounded activity record, not proof about all
+unobserved activity. Any future amendment must retain this exposure history.
+
 | Material | Exposure and allowed interpretation |
 | --- | --- |
 | Two highLum/dark control-CDM mean pairs | Already inspected and used for temporal003 fitting; reused training only. |
@@ -92,6 +132,23 @@ inputs with differing controlled histories and calibrated observation dynamics.
 These processed means do not supply that design. No additional metadata request
 to the user is implied, and absence of this design does not erase the bounded
 model-comparison question.
+
+## Stop rule on these already inspected means
+
+If separately authorized in the future, perform at most this ONE frozen cubic
+comparison and its independent arithmetic/provenance review, then end this
+model sweep regardless of win, loss, mixed signs, ties or rank failure. No
+degree, offset, asymmetry, saturation, sign-constraint, scale, split, weight,
+window, tau-range or cohort-selection changes to repair a condition or obtain
+all-six success. Publish the complete outcome, including uninteresting results.
+
+Reopen the mechanism question only with an externally grounded restriction,
+validated observation map, genuinely independent source-qualified responses
+or controlled history contrast, documented before examining its outcomes and
+not selected to explain these residuals. More flexibility on these means may
+describe them better but does not supply that new mechanistic evidence. This
+is a stop rule for adaptive model searches, not a claim of no remaining
+mathematical information and not a project-wide stop or new user data request.
 
 ## Review and execution boundary
 
