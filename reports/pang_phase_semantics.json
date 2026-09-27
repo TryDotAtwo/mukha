@@ -1,0 +1,191 @@
+{
+  "source_commit": "7fa5829e37d566e02beaaa87efd6a0f1de4e48c0",
+  "sources": [
+    {
+      "name": "L1_highLum.mat",
+      "url": "https://raw.githubusercontent.com/ClandininLab/L1L2-recurrent-feedback/7fa5829e37d566e02beaaa87efd6a0f1de4e48c0/computational-model/data/L1_highLum.mat",
+      "git_blob": "7c392525939485066bd2488004c495656cfd90a3",
+      "sha256": "bbc8c90dbc57fba0c4d2afdebe29797e06360448a9dfb0b9018cd32583da6746",
+      "bytes": 1464
+    },
+    {
+      "name": "L1_lowLum.mat",
+      "url": "https://raw.githubusercontent.com/ClandininLab/L1L2-recurrent-feedback/7fa5829e37d566e02beaaa87efd6a0f1de4e48c0/computational-model/data/L1_lowLum.mat",
+      "git_blob": "e4b75cf1cee86c7c46ddaca3f2a6d427605b28e5",
+      "sha256": "8b539a2b34c39e8fec11e6576f3f7badd1fc80815e93319093a4cf41ea03d33a",
+      "bytes": 1468
+    },
+    {
+      "name": "L2_highLum.mat",
+      "url": "https://raw.githubusercontent.com/ClandininLab/L1L2-recurrent-feedback/7fa5829e37d566e02beaaa87efd6a0f1de4e48c0/computational-model/data/L2_highLum.mat",
+      "git_blob": "745fc159b808f14b7876cdfcdfad12a96ea7473a",
+      "sha256": "1c9266f5c387a217013f8715a49f6351f78e9a9de9894a5ac2892b2a06cf6e36",
+      "bytes": 1463
+    },
+    {
+      "name": "L2_lowLum.mat",
+      "url": "https://raw.githubusercontent.com/ClandininLab/L1L2-recurrent-feedback/7fa5829e37d566e02beaaa87efd6a0f1de4e48c0/computational-model/data/L2_lowLum.mat",
+      "git_blob": "1d6cc9f26c015a85c5dfbbce687d4449a79b65fc",
+      "sha256": "49c0e5587618f9d11e0dea12a218b6eecd511e563d8d42ad986e9c410c6d012c",
+      "bytes": 1459
+    }
+  ],
+  "controls": {
+    "analytic_triangle": {
+      "crossing": 0.6666666666666666,
+      "phase1_signed": 0.6666666666666666,
+      "tail_net_signed": 0.3333333333333334,
+      "tail_opposite_absolute": 0.3333333333333333,
+      "tail_return_absolute": 0.6666666666666667,
+      "first_opposite_lobe_absolute": 0.3333333333333333,
+      "legacy_abs_net_ratio": 0.5000000000000002,
+      "opposite_only_ratio": 0.5
+    },
+    "polarity_inversion": "pass",
+    "linear_subdivision": "pass",
+    "no_crossing": "pass",
+    "zero_response": "pass",
+    "absent_requested_polarity": "pass",
+    "exact_zero_crossing": "pass",
+    "corrupt_cached_blob_rejected": "pass"
+  },
+  "historical_report_sha256": "8acfef3940ce736afda0f95ef4c44cd839259c973b25f5069f8f3965cccc70f1",
+  "executed_script_sha256": "b03f79d206586f84c8ca6fc69dab73f702b812b44480af7b0528f201c429d0ba",
+  "numpy_version": "2.5.3",
+  "rows": [
+    {
+      "crossing": 0.0400000027965494,
+      "phase1_signed": -0.00040875649914850966,
+      "tail_net_signed": 0.0023991452587534884,
+      "tail_opposite_absolute": 0.0023991452587534884,
+      "tail_return_absolute": 0.0,
+      "first_opposite_lobe_absolute": 0.0023991452587534884,
+      "legacy_abs_net_ratio": 5.869375199541058,
+      "opposite_only_ratio": 5.869375199541058,
+      "file": "L1_highLum.mat",
+      "row": 0,
+      "label": "dark_raw_negative",
+      "tail_net_has_first_phase_sign": false,
+      "analysis_start_s": 0.016666666666666666,
+      "analysis_end_s": 0.26666666666666666
+    },
+    {
+      "crossing": 0.06774709436856245,
+      "phase1_signed": 0.0012130035258437037,
+      "tail_net_signed": 5.454574371404559e-05,
+      "tail_opposite_absolute": 8.277362403531572e-05,
+      "tail_return_absolute": 0.00013731936774936135,
+      "first_opposite_lobe_absolute": 6.130037541199477e-05,
+      "legacy_abs_net_ratio": 0.044967506319576724,
+      "opposite_only_ratio": 0.06823856837328035,
+      "file": "L1_highLum.mat",
+      "row": 1,
+      "label": "light_raw_positive",
+      "tail_net_has_first_phase_sign": true,
+      "analysis_start_s": 0.016666666666666666,
+      "analysis_end_s": 0.26666666666666666
+    },
+    {
+      "crossing": 0.04573079730623565,
+      "phase1_signed": -0.000375263083056458,
+      "tail_net_signed": 0.0008704325320910098,
+      "tail_opposite_absolute": 0.0008704325320910098,
+      "tail_return_absolute": 0.0,
+      "first_opposite_lobe_absolute": 0.0008704325320910098,
+      "legacy_abs_net_ratio": 2.3195261441692465,
+      "opposite_only_ratio": 2.3195261441692465,
+      "file": "L1_lowLum.mat",
+      "row": 0,
+      "label": "dark_raw_negative",
+      "tail_net_has_first_phase_sign": false,
+      "analysis_start_s": 0.016666666666666666,
+      "analysis_end_s": 0.26666666666666666
+    },
+    {
+      "crossing": 0.05361069912906102,
+      "phase1_signed": 0.0007549580075838546,
+      "tail_net_signed": -2.8675884026734024e-05,
+      "tail_opposite_absolute": 0.00011554280210672513,
+      "tail_return_absolute": 8.686691807999112e-05,
+      "first_opposite_lobe_absolute": 2.3828914879313332e-05,
+      "legacy_abs_net_ratio": 0.037983415949858566,
+      "opposite_only_ratio": 0.15304533622539473,
+      "file": "L1_lowLum.mat",
+      "row": 1,
+      "label": "light_raw_positive",
+      "tail_net_has_first_phase_sign": false,
+      "analysis_start_s": 0.016666666666666666,
+      "analysis_end_s": 0.26666666666666666
+    },
+    {
+      "crossing": 0.04399446662313775,
+      "phase1_signed": -0.0005200476053851635,
+      "tail_net_signed": 0.0013039853571879978,
+      "tail_opposite_absolute": 0.0013039853571879978,
+      "tail_return_absolute": 0.0,
+      "first_opposite_lobe_absolute": 0.0013039853571879978,
+      "legacy_abs_net_ratio": 2.5074345957659503,
+      "opposite_only_ratio": 2.5074345957659503,
+      "file": "L2_highLum.mat",
+      "row": 0,
+      "label": "dark_raw_negative",
+      "tail_net_has_first_phase_sign": false,
+      "analysis_start_s": 0.016666666666666666,
+      "analysis_end_s": 0.26666666666666666
+    },
+    {
+      "crossing": 0.04908231806504797,
+      "phase1_signed": 0.0009445727690076462,
+      "tail_net_signed": -0.0004519073592862807,
+      "tail_opposite_absolute": 0.0004550646657448824,
+      "tail_return_absolute": 3.1573064586015532e-06,
+      "first_opposite_lobe_absolute": 0.0003815178580020764,
+      "legacy_abs_net_ratio": 0.4784251400355822,
+      "opposite_only_ratio": 0.48176771623743336,
+      "file": "L2_highLum.mat",
+      "row": 1,
+      "label": "light_raw_positive",
+      "tail_net_has_first_phase_sign": false,
+      "analysis_start_s": 0.016666666666666666,
+      "analysis_end_s": 0.26666666666666666
+    },
+    {
+      "crossing": 0.05606321599103894,
+      "phase1_signed": -0.0005670947432330911,
+      "tail_net_signed": 0.0008270004801588359,
+      "tail_opposite_absolute": 0.0008270004801588359,
+      "tail_return_absolute": 0.0,
+      "first_opposite_lobe_absolute": 0.0008270004801588359,
+      "legacy_abs_net_ratio": 1.4583109613113034,
+      "opposite_only_ratio": 1.4583109613113034,
+      "file": "L2_lowLum.mat",
+      "row": 0,
+      "label": "dark_raw_negative",
+      "tail_net_has_first_phase_sign": false,
+      "analysis_start_s": 0.016666666666666666,
+      "analysis_end_s": 0.26666666666666666
+    },
+    {
+      "crossing": 0.05751280795102824,
+      "phase1_signed": 0.0008261222679283963,
+      "tail_net_signed": -0.00042409719044078154,
+      "tail_opposite_absolute": 0.00042489018877449694,
+      "tail_return_absolute": 7.929983337154225e-07,
+      "first_opposite_lobe_absolute": 0.0004188760274743387,
+      "legacy_abs_net_ratio": 0.5133588657575563,
+      "opposite_only_ratio": 0.5143187700774143,
+      "file": "L2_lowLum.mat",
+      "row": 1,
+      "label": "light_raw_positive",
+      "tail_net_has_first_phase_sign": false,
+      "analysis_start_s": 0.016666666666666666,
+      "analysis_end_s": 0.26666666666666666
+    }
+  ],
+  "claim": "Net post-crossing integral is distinct from opposite-polarity area; historical arithmetic reproduced for eight control curves",
+  "limitations": [
+    "Same historical nominal onset/window, not physical flash timing",
+    "New area definitions are a sensitivity audit, not a paper-metric replacement",
+    "No animal-level uncertainty, calibration, model fit or biological gate pass"
+  ]
+}
