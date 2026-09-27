@@ -1,0 +1,26 @@
+{
+  "run_id": "temporal-transfer-003",
+  "implementation_commit": "297201d6a0f2946f0e7b4eae86bf356025219fc1",
+  "operator": "astra1",
+  "location": "local-foreground",
+  "device": "CPU",
+  "background": false,
+  "molab_experiment_submitted": false,
+  "native_session_discovery_failed": true,
+  "remote_retry_count": 0,
+  "approved_files": {
+    "tools/run_pang_temporal_transfer.py": "56a4dde910687e8adfc9a538c939cbe202f8184e1cb1dbe57ecc83ed27d17f4e",
+    "inputs/L1_highLum.mat": "bbc8c90dbc57fba0c4d2afdebe29797e06360448a9dfb0b9018cd32583da6746",
+    "inputs/L1_CDM_highLum.mat": "4425910a67db801af030652ff1d7d6428edbc6da90539869f375d25ffba7eac0",
+    "inputs/L1_lowLum.mat": "8b539a2b34c39e8fec11e6576f3f7badd1fc80815e93319093a4cf41ea03d33a",
+    "inputs/L1_CDM_lowLum.mat": "0608ea5df61490290f2143993a307d4edd7fa5a234089aedc8c6cec250af0e04",
+    "inputs/L2_highLum.mat": "1c9266f5c387a217013f8715a49f6351f78e9a9de9894a5ac2892b2a06cf6e36",
+    "inputs/L2_CDM_highLum.mat": "e19bd5d5e40863d509c72fb3d7348d96e9469f0d1ab6256897d4ef2b5366e5dc",
+    "inputs/L2_lowLum.mat": "49c0e5587618f9d11e0dea12a218b6eecd511e563d8d42ad986e9c410c6d012c",
+    "inputs/L2_CDM_lowLum.mat": "0a835999723058712b6a311ec9ec52dca36333313dfb3ced9493bde89c4d6e3e"
+  },
+  "started_unix": 1790532774.0161633,
+  "finished_unix": 1790532774.3760624,
+  "returncode": 0,
+  "timeout": false
+}

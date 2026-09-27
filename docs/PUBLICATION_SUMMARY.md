@@ -25,9 +25,16 @@ It is a transfer for review/publication, not a claim that changes were pushed.
   is historical and is no longer the active action. Current work independently
   pursues a conditional gain-versus-temporal-reshaping discriminator on available
   mean responses, with no unique feedback or calibrated physiology claim.
+- The frozen gain-versus-memory experiment temporal-transfer003 completed ONCE
+  locally after both exact implementation approvals. Native Molab session
+  discovery failed before any experiment submission; no retry. H1 improves five
+  transfers but worsens L2/highLum/light. The predeclared all-six advantage is
+  therefore not met, even though summed normalized improvement is positive.
+  Actual numerical/provenance review is tracked in its summary/peer reports.
+  The full archive and explicit LOCAL operator receipt are included.
 
-The new discriminator's status/result belongs in its own reviewed receipt; do
-not promote a prospective plan to a completed experiment. No KSP, paid resources
+The discriminator's review status belongs in its own receipt; do not confuse
+successful execution with independent result approval. No KSP, paid resources
 or new chats were used for these increments.
 
 ## Restore and inspect

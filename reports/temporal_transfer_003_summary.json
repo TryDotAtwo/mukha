@@ -1,0 +1,96 @@
+{
+  "schema": "mukha-temporal-003-summary-v1",
+  "run_id": "temporal-transfer-003",
+  "result_sha256": "4f277a6d77d12ea8c15a1b16b89e5f2f8d376af4f84390636b303a22ba04b49a",
+  "archive_sha256": "c74de270799633ed056d8b5e6a61a383a4a96797243e3a0453ec28e8ad2af4bb",
+  "implementation_commit": "297201d6a0f2946f0e7b4eae86bf356025219fc1",
+  "execution_location": "local-foreground",
+  "molab_experiment_submitted": false,
+  "native_transport": "Failed at first session discovery; HTTP status not exposed; no retry",
+  "versions": {
+    "python": "3.12.11",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1"
+  },
+  "summary": {
+    "status": "ok",
+    "all_six_improved": false,
+    "sum_normalized_error_improvement": 0.1074468138734208
+  },
+  "fits": {
+    "L1": {
+      "selected_model": "H1",
+      "a": 1.0702731293237118,
+      "b": -0.1726037673134616,
+      "tau": 0.016095823101123306,
+      "warnings": [],
+      "profile_count": 32
+    },
+    "L2": {
+      "selected_model": "H1",
+      "a": 1.3609614178392453,
+      "b": 0.21729254631675615,
+      "tau": 0.022369712811886065,
+      "warnings": [],
+      "profile_count": 32
+    }
+  },
+  "transfers": [
+    {
+      "cell": "L1",
+      "level": "highLum",
+      "row": 1,
+      "E0": 0.13173203151355306,
+      "E1": 0.092021913498107,
+      "delta": 0.039710118015446064,
+      "outcome": "improved"
+    },
+    {
+      "cell": "L1",
+      "level": "lowLum",
+      "row": 0,
+      "E0": 0.3636628029275202,
+      "E1": 0.3362411739520457,
+      "delta": 0.027421628975474455,
+      "outcome": "improved"
+    },
+    {
+      "cell": "L1",
+      "level": "lowLum",
+      "row": 1,
+      "E0": 0.2452827048054114,
+      "E1": 0.20939333247287856,
+      "delta": 0.03588937233253284,
+      "outcome": "improved"
+    },
+    {
+      "cell": "L2",
+      "level": "highLum",
+      "row": 1,
+      "E0": 0.26213498627418824,
+      "E1": 0.3218497835217618,
+      "delta": -0.05971479724757356,
+      "outcome": "worse"
+    },
+    {
+      "cell": "L2",
+      "level": "lowLum",
+      "row": 0,
+      "E0": 0.739918688358319,
+      "E1": 0.68365579574063,
+      "delta": 0.05626289261768902,
+      "outcome": "improved"
+    },
+    {
+      "cell": "L2",
+      "level": "lowLum",
+      "row": 1,
+      "E0": 0.47184178464034904,
+      "E1": 0.46396418546049706,
+      "delta": 0.00787759917985198,
+      "outcome": "improved"
+    }
+  ],
+  "independent_actual_review": "pending",
+  "interpretation": "Mixed six-transfer outcome; no universal H1 superiority, no memory necessity or feedback identity. Static nonlinearity/optical/indicator/cohort alternatives remain."
+}
