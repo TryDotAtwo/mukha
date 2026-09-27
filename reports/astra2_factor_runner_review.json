@@ -1,7 +1,9 @@
 {
   "schema": "astra2-factor-runner-review-v1",
   "verdict": "APPROVE numerical implementation for frozen eight-curve OEC plan",
-  "runner_commit": "62e1fa5b40bca9af932abd118e80802062b830ff",
+  "runner_commit": "f61ef73c869a0d54170b3e4212c1a5605dc4af4b",
+  "numerically_executed_commit": "62e1fa5b40bca9af932abd118e80802062b830ff",
+  "approval_carried_forward": "Reviewed f61ef73 diff: shared cube-key and frozen-boundary validation only; integrals, boundary derivation, contrasts and tolerances unchanged. No repeated numerical run.",
   "plan_commit": "39387c38305d235c90a8887337b1486ed0300550",
   "manual_reference_commit": "27dce8b883edff39948982a69bf60ad62b64583f",
   "independent_manual_cells": 8,

@@ -80,3 +80,11 @@ scratch output is not scientific evidence. The actual64-condition experiment
 remains pending operator review/launch. Verdict: numerical APPROVE for the frozen
 plan; artifact/adversarial checks remain Astra 3's separate review responsibility.
 Machine-readable review: `reports/astra2_factor_runner_review.json`.
+
+Numerical approval is carried forward to
+`f61ef73c869a0d54170b3e4212c1a5605dc4af4b` after exact diff review. This revision
+adds shared complete/unique cube-key checks and exact exported-boundary equality
+to frozen levels before acceptance/aggregation. Integration, boundary derivation,
+contrast arithmetic, reference helper, plan and tolerances are unchanged. The
+earlier numerical results remain applicable; they were not needlessly rerun.
+Astra 3 independently owns the targeted guard regression before operator launch.
