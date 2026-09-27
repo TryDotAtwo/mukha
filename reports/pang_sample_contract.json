@@ -1,0 +1,82 @@
+{
+  "source_commit": "7fa5829e37d566e02beaaa87efd6a0f1de4e48c0",
+  "source_receipts": [
+    {
+      "name": "computeFrameZero1.m",
+      "git_blob": "6ec2fd08c4324e36a337f1c6a3f49ebd024d6bd6",
+      "sha256": "24acbbf35633e69c35d41ff5fdefa1d1cc63e62e605814005af1ebe40bb0ff28"
+    },
+    {
+      "name": "computeFrameZero2.m",
+      "git_blob": "5c4edb0ebc108f65b7745382fffd696c301e8324",
+      "sha256": "18943076fbc60f168a335618fe70544f9463c66d2cb8e1317c4003cc9fbf28cc"
+    },
+    {
+      "name": "compute_bootstrappedMetrics.m",
+      "git_blob": "6d59a6ee4bc0ce6ac39f3e122bb972e19ccb7422",
+      "sha256": "e4510efca704df6e34ffb514c8651b3d677910845210016162e183741f16d6ba"
+    }
+  ],
+  "script_sha256": "b1ea37eaf9ec346d8e4d0f0fb989e30b4e8e73b08804562b802833ef340fc17e",
+  "scope": "Synthetic source-derived sample and signed-area arithmetic; no MATLAB execution",
+  "fixtures": {
+    "opposite_tail": {
+      "trace": [
+        0.0,
+        1.0,
+        3.0,
+        1.0,
+        -1.0,
+        -1.0,
+        2.0
+      ],
+      "ifi_seconds": 0.04,
+      "peak_frame": 3,
+      "contrast": 2,
+      "result": {
+        "frame_zero1": 1,
+        "frame_zero2": 5,
+        "end_phase2": 6,
+        "area1_percent_df_f_seconds": 18.0,
+        "area2_percent_df_f_seconds": -4.0,
+        "signed_area_ratio": -0.2222222222222222
+      }
+    },
+    "returning_first_polarity": {
+      "trace": [
+        0.0,
+        1.0,
+        3.0,
+        1.0,
+        -1.0,
+        -1.0,
+        4.0,
+        4.0
+      ],
+      "ifi_seconds": 0.03125,
+      "peak_frame": 3,
+      "contrast": 2,
+      "result": {
+        "frame_zero1": 1,
+        "frame_zero2": 5,
+        "end_phase2": 8,
+        "area1_percent_df_f_seconds": 14.0625,
+        "area2_percent_df_f_seconds": 14.0625,
+        "signed_area_ratio": 1.0
+      }
+    }
+  },
+  "interpretation": [
+    "zero2 includes exact-zero samples and selects a sample, not an interpolated crossing",
+    "area1 includes the first opposite-sign sample; a geometric zero split changes areas",
+    "endPhase2 is floor(.25/ifi) as a one-based index, not a timestamp search",
+    "signed tail can share phase1 sign after recrossing; cancellation is author behavior"
+  ],
+  "limitations": [
+    "Peak supplied: computeFramePeaks and bootstrap ROI sampling are not implemented",
+    "No recording-specific stimulus/photodiode metadata or observation calibration",
+    "Wrapper rejects missing crossings/out-of-range windows; not author error semantics",
+    "Zero first area is represented as null ratio, not MATLAB Inf/NaN",
+    "No processed biological curves scored; gate B remains open"
+  ]
+}
