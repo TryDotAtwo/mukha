@@ -246,6 +246,15 @@ mechanism is inferred. See
 
 ## Interfaces and invariants
 
+Bound landing-series identity audit (2026-09-27, Astra 2): v3 series now reject
+reused checkpoint hashes across seed labels and reused start-state hashes across
+start IDs, including consistently altered trace bindings. The original synthetic
+300-trace v2/v3 fixtures still pass. All eight default Rust tests pass; removing
+the new guard makes the checkpoint-reuse regression fail because the old path
+accepts it. This is a conservative artifact-identity contract, not proof of
+independent training, withheld starts, or KSP origin. Gate F remains open.
+Evidence and limits: `reports/landing_identity_audit.json`.
+
 Rust orchestrates. C++ owns native/GPU buffers behind a C ABI. PyTorch is a
 reference, not the native simulation loop. MuJoCo initially uses its native CPU
 API. Raw observations and privileged assessment telemetry are separate types.

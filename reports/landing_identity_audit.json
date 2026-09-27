@@ -1,0 +1,34 @@
+{
+  "format": "faithful-fly.landing-identity-audit.v1",
+  "date": "2026-09-27",
+  "base_commit": "91791b9b78e168756cc12dc4639a903eb0e2e0ca",
+  "scope": "Offline synthetic evidence-contract regression, not KSP or biological validation",
+  "finding": "Bound v3 plans accepted reused checkpoint/start hashes under distinct labels",
+  "change": "Require three distinct checkpoint hashes and distinct hashes for all 100 starts",
+  "positive_control": "Original 300-trace v3 fixture accepted before and after independent interventions; legacy v2 fixture accepted",
+  "negative_controls": [
+    "Reuse checkpoint 0 for seed 1 and consistently update every affected trace binding: reject without creating output",
+    "Reuse start hash 0 for start ID 1 across all seeds and consistently update every affected binding: reject without creating output",
+    "Existing substituted start binding remains rejected"
+  ],
+  "guard_removal_control": {
+    "command": "cargo test --locked landing::tests::series_cli_reads_each_trace_and_records_evidence -- --nocapture",
+    "exit_code": 101,
+    "result": "Checkpoint-reuse case unexpectedly returned Ok; regression failed as expected",
+    "limitation": "Guard-removal run stops at checkpoint case; it does not separately execute the start-reuse case"
+  },
+  "restored_guard_verification": {
+    "command": "cargo test --locked",
+    "exit_code": 0,
+    "passed": 8,
+    "failed": 0,
+    "compiler": "rustc 1.98.1 (48a229cea 2026-09-01)",
+    "platform": "Linux x86_64, default CPU features"
+  },
+  "limitations": [
+    "Hash uniqueness is a conservative v3 acceptance policy, not a proof of independent training",
+    "Different serialization or metadata can produce distinct hashes for equivalent states",
+    "Authentic checkpoints, withheld starts, preregistration and KSP/control provenance remain unverified",
+    "Gate F remains open; no landing experiment was run"
+  ]
+}

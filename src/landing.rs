@@ -196,6 +196,12 @@ pub fn run_series(input: &Path, output: &Path) -> Result<(), String> {
             !checkpoints.iter().all(|h|valid_sha256(h)) || !starts.iter().all(|h|valid_sha256(h)) {
             return Err("invalid training checkpoint or start state hashes".into());
         }
+        // Distinct labels cannot turn reused artifacts into independent trials.
+        // Distinct hashes are necessary here, but do not authenticate provenance.
+        if checkpoints.iter().collect::<std::collections::HashSet<_>>().len()!=3 ||
+            starts.iter().collect::<std::collections::HashSet<_>>().len()!=starts.len() {
+            return Err("bound series requires distinct training checkpoint and start state hashes".into());
+        }
     }
     let base=input.parent().ok_or("series input has no parent directory")?;
     let mut trials=Vec::with_capacity(300);
@@ -347,6 +353,39 @@ mod tests {
         run_series(&input,&output).unwrap();
         let report:serde_json::Value=serde_json::from_slice(&fs::read(&output).unwrap()).unwrap();
         assert_eq!(report["bound_to_declared_checkpoint_and_start"],true);
+        // Reject reuse even when every trace binding agrees with the altered plan.
+        for field in ["training_checkpoint_sha256", "start_state_sha256"] {
+            let mut reused=series.clone();
+            reused["plan"][field][1]=reused["plan"][field][0].clone();
+            let changed_seed=if field=="training_checkpoint_sha256" {22} else {11};
+            for entry in reused["trials"].as_array().unwrap() {
+                let seed=entry["seed"].as_u64().unwrap();
+                let start=entry["start_id"].as_u64().unwrap();
+                if (field=="training_checkpoint_sha256" && seed==changed_seed) ||
+                    (field=="start_state_sha256" && start==1) {
+                    let path=dir.join(entry["trace"].as_str().unwrap());
+                    let mut t:serde_json::Value=serde_json::from_slice(&fs::read(&path).unwrap()).unwrap();
+                    t["binding"][field]=reused["plan"][field][0].clone();
+                    fs::write(path,serde_json::to_vec(&t).unwrap()).unwrap();
+                }
+            }
+            fs::write(&input,serde_json::to_vec(&reused).unwrap()).unwrap();
+            assert!(run_series(&input,&dir.join("reused-rejected.json")).unwrap_err()
+                .contains("distinct training checkpoint and start state hashes"));
+            assert!(!dir.join("reused-rejected.json").exists());
+            // Restore bindings before testing the next independent intervention.
+            for entry in series["trials"].as_array().unwrap() {
+                let seed=entry["seed"].as_u64().unwrap();
+                let start=entry["start_id"].as_u64().unwrap();
+                let path=dir.join(entry["trace"].as_str().unwrap());
+                let mut t:serde_json::Value=serde_json::from_slice(&fs::read(&path).unwrap()).unwrap();
+                t["binding"]["training_checkpoint_sha256"]=serde_json::json!(checkpoint_hashes[[11,22,33].iter().position(|x|*x==seed).unwrap()]);
+                t["binding"]["start_state_sha256"]=serde_json::json!(start_hashes[start as usize]);
+                fs::write(path,serde_json::to_vec(&t).unwrap()).unwrap();
+            }
+        }
+        fs::write(&input,serde_json::to_vec(&series).unwrap()).unwrap();
+        run_series(&input,&output).unwrap();
         let mut swapped:serde_json::Value=serde_json::from_slice(&fs::read(&altered).unwrap()).unwrap();
         swapped["binding"]["start_state_sha256"]=serde_json::json!(start_hashes[1]);
         fs::write(&altered,serde_json::to_vec(&swapped).unwrap()).unwrap();

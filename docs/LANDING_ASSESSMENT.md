@@ -49,6 +49,12 @@ Version 2 remains readable as an explicitly unbound diagnostic series; it must
 not be cited as proof of independent training or withheld starts. Version 3
 checks consistency of declarations and bytes, not the authenticity of a
 checkpoint, start state, KSP receipt, or preregistration timestamp.
+The three checkpoint hashes and the 100 start hashes must each be distinct:
+relabeling the same checkpoint with another seed or the same start state with
+another ID is rejected even when all trace bindings match the reused hash.
+This is a conservative artifact-identity requirement for v3. Distinct hashes
+still cannot establish independent training or withholding; different metadata
+or serialization alone can change a hash. Legacy v2 remains unbound.
 Plan preregistration, authentic checkpoint and start-state artifacts,
 independent training provenance and biological gate evidence remain required
 before a series could establish the mission goal.
