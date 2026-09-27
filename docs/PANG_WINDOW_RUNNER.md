@@ -28,6 +28,15 @@ archived corners and suppresses attribution on closure failure. All sample indic
 are zero-based unless named source_frame_zero*. Split H is a continuous time in
 the recorded bracket. Original sample steps and median-clock deviation are saved.
 
+Before acceptance, a shared validator requires exactly eight unique known condition
+labels and exact equality of every exported start/end/split to its frozen level.
+Boundary identity is not tested with area tolerances. The same key validator runs
+before `contrasts` and `invariants` build dictionaries; reordered complete cubes
+remain valid. Malformed keys or boundary metadata raise typed ValueError; the CLI
+retains failed curve records and blocks attribution. These guards address Astra3's
+duplicate-collapse and intermediate-boundary fault-injection findings without
+changing integrals, level derivation, contrasts or numerical tolerances.
+
 `contrasts(cells)` reports A1/A2/total/Q; signed unscaled finite differences for
 O,E,C,OE,OC,EC,OEC. Each includes its H-baseline value, conditional values keyed
 by the remaining axes in O,E,C order, and their average. The baseline expansion

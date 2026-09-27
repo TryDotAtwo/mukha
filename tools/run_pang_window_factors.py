@@ -77,9 +77,34 @@ def evaluate_cube(t, y, peak_time, levels):
     return cells
 
 
+def validate_cells(cells, levels=None):
+    """Reject malformed cubes before any dictionary aggregation.
+
+    Boundary metadata is an exact copy of frozen levels, not a numerical
+    estimate: area/ratio tolerances must not permit drift in this identity.
+    """
+    if not isinstance(cells, (list, tuple)) or len(cells) != len(CONDITIONS):
+        raise ValueError('condition_key_mismatch')
+    by = {}
+    for cell in cells:
+        if not isinstance(cell, dict):
+            raise ValueError('condition_key_mismatch')
+        condition = cell.get('condition')
+        if type(condition) is not str or condition not in CONDITIONS or condition in by:
+            raise ValueError('condition_key_mismatch')
+        by[condition] = cell
+        if levels is not None:
+            for axis, field in enumerate(('start', 'end', 'split')):
+                value = cell.get(field)
+                if (type(value) not in (int, float) or not math.isfinite(value)
+                        or value != levels[axis][condition[axis]]):
+                    raise ValueError('frozen_boundary_mismatch:'+condition+':'+field)
+    return by
+
+
 def contrasts(cells):
     """Unscaled signed differences; averaged effects average over remaining axes."""
-    by = {c['condition']: c for c in cells}
+    by = validate_cells(cells)
     out = {}
     for metric in METRICS:
         values = {k: c[metric] for k, c in by.items()}
@@ -118,7 +143,7 @@ def contrasts(cells):
 
 
 def invariants(cells):
-    by = {c['condition']: c for c in cells}
+    by = validate_cells(cells)
     checks = []
     for axis in range(3):
         for key in CONDITIONS:
@@ -164,6 +189,7 @@ def analyze_curve(t, y, row, archived):
               {'H': float(t[end_h]), 'S': float(t[end_s])},
               {'H': c_h, 'S': float(t[j])}]
     cells = evaluate_cube(t, y, float(t[peak]), levels)
+    validate_cells(cells, levels)
     closure = {}
     for condition, reference in [('HHH', [archived['historical_area1_df_f_seconds'], archived['historical_area2_df_f_seconds'], archived['historical_negative_signed_ratio']]),
                                   ('SSS', [archived['sampled']['area1_percent_df_f_seconds']/100, archived['sampled']['area2_percent_df_f_seconds']/100, archived['sampled_negative_signed_ratio']])]:
