@@ -1,0 +1,95 @@
+{
+  "verdict": "NUMERICAL APPROVE",
+  "archive_sha256": "c74de270799633ed056d8b5e6a61a383a4a96797243e3a0453ec28e8ad2af4bb",
+  "archive_bytes": 336371,
+  "runner_commit": "297201d6a0f2946f0e7b4eae86bf356025219fc1",
+  "runner_sha256": "56a4dde910687e8adfc9a538c939cbe202f8184e1cb1dbe57ecc83ed27d17f4e",
+  "profiles_checked": 64,
+  "floating_fields_checked": 4589,
+  "max_absolute_error": 2.914335439641036e-15,
+  "worst_absolute_path": "training/L2/profiles/29/b",
+  "max_error_over_max1_reference": 2.914335439641036e-15,
+  "selected_parameters": {
+    "L1": {
+      "model": "H1",
+      "a": 1.070273129323712,
+      "b": -0.17260376731346147,
+      "tau": 0.016095823101123306,
+      "score": 0.12180227138150689
+    },
+    "L2": {
+      "model": "H1",
+      "a": 1.3609614178392453,
+      "b": 0.21729254631675624,
+      "tau": 0.022369712811886065,
+      "score": 0.4894007988673736
+    }
+  },
+  "transfers": [
+    {
+      "cell": "L1",
+      "level": "highLum",
+      "row": 1,
+      "E0": 0.13173203151355284,
+      "E1": 0.0920219134981071,
+      "delta": 0.039710118015445744,
+      "outcome": "improved"
+    },
+    {
+      "cell": "L1",
+      "level": "lowLum",
+      "row": 0,
+      "E0": 0.36366280292751985,
+      "E1": 0.33624117395204584,
+      "delta": 0.02742162897547401,
+      "outcome": "improved"
+    },
+    {
+      "cell": "L1",
+      "level": "lowLum",
+      "row": 1,
+      "E0": 0.24528270480541103,
+      "E1": 0.20939333247287886,
+      "delta": 0.03588937233253217,
+      "outcome": "improved"
+    },
+    {
+      "cell": "L2",
+      "level": "highLum",
+      "row": 1,
+      "E0": 0.26213498627418874,
+      "E1": 0.32184978352176186,
+      "delta": -0.059714797247573115,
+      "outcome": "worse"
+    },
+    {
+      "cell": "L2",
+      "level": "lowLum",
+      "row": 0,
+      "E0": 0.7399186883583199,
+      "E1": 0.6836557957406294,
+      "delta": 0.05626289261769046,
+      "outcome": "improved"
+    },
+    {
+      "cell": "L2",
+      "level": "lowLum",
+      "row": 1,
+      "E0": 0.4718417846403499,
+      "E1": 0.46396418546049684,
+      "delta": 0.00787759917985309,
+      "outcome": "improved"
+    }
+  ],
+  "summary": {
+    "status": "ok",
+    "all_six_improved": false,
+    "sum_normalized_error_improvement": 0.10744681387342236
+  },
+  "method": "Direct integrating-factor convolution via 24-node Gauss quadrature; pivoted QR coefficients; fsum weighted scores; no runner imports",
+  "limitations": [
+    "Local foreground artifact per operator receipt, not Molab execution",
+    "Deterministic fixed mean curves; not independent animals or blind validation",
+    "Rank and comparison policies unchanged; no causal/feedback/physiological conclusion"
+  ]
+}
