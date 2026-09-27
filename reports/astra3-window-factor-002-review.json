@@ -1,0 +1,23 @@
+{
+  "verdict": "APPROVE_PROVENANCE_AND_STRUCTURE",
+  "archive_sha256": "af79f4143614bb275c84605b8627b4faf28301cad61aad4d8f4c20425c8cd444",
+  "archive_bytes": 40875,
+  "manifest_files_verified": 17,
+  "total_regular_archive_files": 18,
+  "runner_commit": "f61ef73c869a0d54170b3e4212c1a5605dc4af4b",
+  "reference_files_verified": 13,
+  "unique_curve_keys": 8,
+  "unique_condition_keys": 64,
+  "frozen_boundary_copies_verified": 192,
+  "pinned_corner_fields_verified": 48,
+  "max_corner_area_residual": 8.673617379884035e-19,
+  "max_corner_ratio_residual": 8.881784197001252e-16,
+  "valid_records": 64,
+  "invalid_records": 0,
+  "secret_pattern_hits": 0,
+  "scanned_files": 21,
+  "operator_receipt_consistent": true,
+  "numerical_quadrature_or_interactions_recomputed": false,
+  "molab_access": false,
+  "limits": "Preservation and structural/corner-reference checks only. Full numerical verdict belongs to Astra2; scientific interpretation to Astra4. Remote execution relies on Astra1 transport receipt. Pattern scanning cannot prove absence of arbitrary concealed data."
+}

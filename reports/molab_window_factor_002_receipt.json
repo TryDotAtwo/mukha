@@ -30,6 +30,13 @@
     "curves": 8,
     "runner_status": "ok"
   },
-  "independent_result_review": "requested; pending",
+  "independent_result_review": {
+    "astra2": "NUMERICAL APPROVE actual archive; checker c182c2f4cf596ba71f8715e33bd22a86b3aedc46",
+    "astra3": "APPROVE_PROVENANCE_AND_STRUCTURE actual archive; message astra3-real-factor-result-approved-27",
+    "numerical_comparisons": 2152,
+    "maximum_ratio_or_contrast_error": 1.7763568394002505e-15,
+    "verified_boundary_copies": 192,
+    "biological_validation": false
+  },
   "scientific_scope": "fixed-input onset/end/phase-boundary convention attribution and interactions; no new biological observations or gate B closure"
 }

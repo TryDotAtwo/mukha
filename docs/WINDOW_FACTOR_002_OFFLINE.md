@@ -24,6 +24,25 @@ git -C repeat-repo fetch ../mukha-window-factor-update.bundle refs/heads/astra1/
 git -C repeat-repo switch window-factor-reviewed
 ```
 
+## Check the delivered result without repeating the experiment
+
+From the delivery directory after restoring the repository:
+
+```sh
+sha256sum -c SHA256SUMS
+python -O repeat-repo/tools/check_pang_factor_result.py window-factor-002.tar.gz
+PANG_FACTOR_ARCHIVE=window-factor-002.tar.gz python -O -m unittest discover -s repeat-repo/tests -p test_pang_factor_result_checker.py
+tar -xzf window-factor-002.tar.gz
+```
+
+The checker requires the exact recorded archive digest and independently
+reconstructs2152 numerical comparisons without importing the production runner
+or boundary helper. Eight decoded-result corruption controls must reject.
+Astra2 has approved the actual numbers; Astra3 independently approved the
+archive/provenance/structure and all192 frozen-boundary copies. Their reports
+are in reports/ and the transfer delivery. Neither claims independent live
+kernel observation or biological validation.
+
 ## Optional independent LOCAL reproduction of the new experiment
 
 This section launches the NEW factor analysis locally, not experiment001 and not
