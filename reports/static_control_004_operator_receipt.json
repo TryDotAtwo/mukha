@@ -1,0 +1,41 @@
+{
+  "schema": "pang-local-operator-receipt-v1",
+  "run_id": "static-control-004",
+  "venue": "LOCAL synchronous foreground CPU",
+  "operator": "Astra1",
+  "molab_attempted": false,
+  "approved_code_commit": "5c826fe209170800619ccbf4d1829996d5f8610c",
+  "protocol_commit": "704843a695224448470a70527ce8db3649570a16",
+  "approvals": {
+    "numerical": "Astra2 20260927-static-exact-numerical-approved; evidence 0d3174922f24b71545257a87d369d88163607ea0",
+    "protective": "Astra3 astra3-static-exact-protective-approved-38; 52 checks"
+  },
+  "input_code_hashes": {
+    "tools/run_pang_static_control.py": "9739450449d38cbb853e02272871f930225a118f00858616373a70a58e3bc1df",
+    "tools/run_pang_temporal_transfer.py": "56a4dde910687e8adfc9a538c939cbe202f8184e1cb1dbe57ecc83ed27d17f4e",
+    "docs/PANG_STATIC_CONTROL_PROTOCOL.md": "9968b2b5a734441483e0a6391e55a4dbb9edf3fe72de445b78a821d48cac4665",
+    "reports/recorded_runs/temporal-transfer-003.tar.gz": "c74de270799633ed056d8b5e6a61a383a4a96797243e3a0453ec28e8ad2af4bb"
+  },
+  "status": "incomplete_or_failed_no_retry",
+  "started_utc": "2026-09-27T18:41:13.748737+00:00",
+  "command": [
+    "python",
+    "tools/run_pang_static_control.py",
+    "--baseline-archive",
+    "reports/recorded_runs/temporal-transfer-003.tar.gz",
+    "--output-dir",
+    "reports/recorded_runs/static-control-004"
+  ],
+  "thread_settings": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "returncode": 1,
+  "elapsed_seconds": 0.0364486170001328,
+  "ended_utc": "2026-09-27T18:41:13.785356+00:00",
+  "stdout": "",
+  "stderr": "Traceback (most recent call last):\n  File \"/root/workspace/mukha-astra1/tools/run_pang_static_control.py\", line 12, in <module>\n    import numpy as np\nModuleNotFoundError: No module named 'numpy'\n"
+}
