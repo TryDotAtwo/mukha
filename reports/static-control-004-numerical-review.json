@@ -1,0 +1,191 @@
+{
+  "verdict": "NUMERICAL APPROVE",
+  "archive_sha256": "41cb1b831f81248fe3d591d68842147b2e5f1983a416cbd149ad0ac92d07ed4d",
+  "result_sha256": "2b53849cc007872d60ea145db72051822df8ec7204326f2a96cd396b8fad0dab",
+  "archive_bytes": 396953,
+  "runner_commit": "5c826fe209170800619ccbf4d1829996d5f8610c",
+  "protocol_commit": "704843a695224448470a70527ce8db3649570a16",
+  "floating_fields_checked": 4648,
+  "max_absolute_error": 3.9968028886505635e-15,
+  "worst_absolute_path": "transfer/L2/highLum/1/Es",
+  "parameters": {
+    "L1": {
+      "kind": "interior",
+      "a": 1.1882771096355287,
+      "d": -0.3432241025551631,
+      "score": 0.11662058185553793,
+      "scale": 0.02414729423762053,
+      "rank": 2
+    },
+    "L2": {
+      "kind": "interior",
+      "a": 2.0457373543123065,
+      "d": -1.049877377852933,
+      "score": 0.28153372456268977,
+      "scale": 0.027376522769934214,
+      "rank": 2
+    }
+  },
+  "transfers": [
+    {
+      "cell": "L1",
+      "level": "highLum",
+      "row": 1,
+      "Es": 1.16597866991656,
+      "E0": 0.13173203151355306,
+      "E1": 0.092021913498107,
+      "versus_H0": {
+        "delta": -1.034246638403007,
+        "outcome": "worse"
+      },
+      "versus_H1": {
+        "delta": -1.073956756418453,
+        "outcome": "worse"
+      },
+      "support": {
+        "training_min": -0.022504962309291297,
+        "training_max": 0.02414729423762053,
+        "transfer_min": -0.003126784622360593,
+        "transfer_max": 0.05530844327957373,
+        "max_abs_over_training_scale": 2.290461313607773,
+        "outside_signed_time_fraction": 0.048387096774193554,
+        "outside_magnitude_time_fraction": 0.048387096774193554
+      }
+    },
+    {
+      "cell": "L1",
+      "level": "lowLum",
+      "row": 0,
+      "Es": 0.38787396884716263,
+      "E0": 0.3636628029275202,
+      "E1": 0.3362411739520457,
+      "versus_H0": {
+        "delta": -0.024211165919642452,
+        "outcome": "worse"
+      },
+      "versus_H1": {
+        "delta": -0.05163279489511691,
+        "outcome": "worse"
+      },
+      "support": {
+        "training_min": -0.022504962309291297,
+        "training_max": 0.02414729423762053,
+        "transfer_min": -0.019222027167500485,
+        "transfer_max": 0.007456956053889677,
+        "max_abs_over_training_scale": 0.7960323412779443,
+        "outside_signed_time_fraction": 0.0,
+        "outside_magnitude_time_fraction": 0.0
+      }
+    },
+    {
+      "cell": "L1",
+      "level": "lowLum",
+      "row": 1,
+      "Es": 0.14815747424246445,
+      "E0": 0.2452827048054114,
+      "E1": 0.20939333247287856,
+      "versus_H0": {
+        "delta": 0.09712523056294695,
+        "outcome": "improved"
+      },
+      "versus_H1": {
+        "delta": 0.06123585823041411,
+        "outcome": "improved"
+      },
+      "support": {
+        "training_min": -0.022504962309291297,
+        "training_max": 0.02414729423762053,
+        "transfer_min": -0.005981750776796212,
+        "transfer_max": 0.03420490154503545,
+        "max_abs_over_training_scale": 1.4165107365008858,
+        "outside_signed_time_fraction": 0.03225806451612903,
+        "outside_magnitude_time_fraction": 0.03225806451612903
+      }
+    },
+    {
+      "cell": "L2",
+      "level": "highLum",
+      "row": 1,
+      "Es": 2.5847816951355647,
+      "E0": 0.26213498627418824,
+      "E1": 0.3218497835217618,
+      "versus_H0": {
+        "delta": -2.3226467088613765,
+        "outcome": "worse"
+      },
+      "versus_H1": {
+        "delta": -2.2629319116138027,
+        "outcome": "worse"
+      },
+      "support": {
+        "training_min": -0.027376522769934214,
+        "training_max": 0.012134835160669972,
+        "transfer_min": -0.006401896528329693,
+        "transfer_max": 0.04521668804163628,
+        "max_abs_over_training_scale": 1.6516592856450973,
+        "outside_signed_time_fraction": 0.06451612903225808,
+        "outside_magnitude_time_fraction": 0.03225806451612903
+      }
+    },
+    {
+      "cell": "L2",
+      "level": "lowLum",
+      "row": 0,
+      "Es": 0.8019127276283569,
+      "E0": 0.739918688358319,
+      "E1": 0.68365579574063,
+      "versus_H0": {
+        "delta": -0.06199403927003788,
+        "outcome": "worse"
+      },
+      "versus_H1": {
+        "delta": -0.1182569318877269,
+        "outcome": "worse"
+      },
+      "support": {
+        "training_min": -0.027376522769934214,
+        "training_max": 0.012134835160669972,
+        "transfer_min": -0.026200702307968407,
+        "transfer_max": 0.006687624944765035,
+        "max_abs_over_training_scale": 0.957050043504534,
+        "outside_signed_time_fraction": 0.0,
+        "outside_magnitude_time_fraction": 0.0
+      }
+    },
+    {
+      "cell": "L2",
+      "level": "lowLum",
+      "row": 1,
+      "Es": 0.5670619336514205,
+      "E0": 0.47184178464034904,
+      "E1": 0.46396418546049706,
+      "versus_H0": {
+        "delta": -0.09522014901107151,
+        "outcome": "worse"
+      },
+      "versus_H1": {
+        "delta": -0.10309774819092349,
+        "outcome": "worse"
+      },
+      "support": {
+        "training_min": -0.027376522769934214,
+        "training_max": 0.012134835160669972,
+        "transfer_min": -0.005268044545040388,
+        "transfer_max": 0.03742619138978395,
+        "max_abs_over_training_scale": 1.3670907625597584,
+        "outside_signed_time_fraction": 0.048387096774193554,
+        "outside_magnitude_time_fraction": 0.016129032258064516
+      }
+    }
+  ],
+  "summary": {
+    "complete_six_ordering": true,
+    "all_six_cubic_better_than_H1": false,
+    "prior_temporal003_all_six_improved": false
+  },
+  "method": "Independent cubic polynomial basis, pivoted QR, scalar fsum quadrature and support indicators; no production imports; archived H0/H1 never refit",
+  "limitations": [
+    "Local result review, not new experiment or independent biological data",
+    "One-comparison stop rule applies; both original003 and cubic004 all-six claims false"
+  ]
+}
