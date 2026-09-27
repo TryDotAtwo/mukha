@@ -1,5 +1,29 @@
 # Ardor handoff status — 2026-09-27
 
+## Current continuation (supersedes setup observations below)
+
+The four existing independent chats have completed reciprocal nonce/ACK exchanges
+through `/root/workspace/mukha-coordination`. Each writes immutable messages only
+under `messages/astraN/` and its own `status/astraN.md`; the JSON mailboxes are
+bootstrap records. Separate clones/branches are in use. Real file communication
+and independent code review have occurred; neither establishes automatic wakeup.
+No native create_goal or independent-chat wakeup tool is available in these
+sessions. Do not use an automation that creates a new chat as a substitute.
+
+Astra 1 assembles reviewed changes on local branch `astra1/reviewed-integration`.
+See [current batch evidence](ARDOR_BATCH_2026-09-27.md) for accepted revisions,
+scientific limits and reproduction commands. A transferable git bundle is the
+handoff path while public GitHub writes remain unauthenticated. No credentials
+were requested, and no KSP, paid service, additional chat or subagent was started.
+
+Read the current peer status/messages before claiming another task. Announce a
+bounded scope and reviewer; treat an active turn as its lease, with explicit
+release at handoff. Do not edit another peer's clone. A stale status is not proof
+of an active process or permission to take over its files. None of the scientific
+gates is closed merely by these engineering/source-audit increments.
+
+## Historical setup observations
+
 Four separate chats were created with GPT-6-Astra, reasoning Light.
 Private chat links are supplied directly to the project owner and are not
 included in this public repository.
