@@ -1,4 +1,4 @@
-# Static protocol review receipt
+# Static protocol review receipt — CLOSED / APPROVED
 
 Final requested protocol revision: 704843a695224448470a70527ce8db3649570a16.
 Protocol file SHA256:
@@ -16,12 +16,24 @@ Reviewed first draft: ec969caa8ffab3572a73f1805763f45a953e0cbb.
 - Astra4 review cb6377af994e9549c233e79a27afe7da831fa7d3: direction
   accepted, final stop/undefined rules requested. Full scientific memo included.
 
-All requested changes incorporated into revision704843a. Exact-revision
-verdicts requested from all three in Astra1 message48. At creation of this
-receipt these new verdicts have NOT been received. Draft approvals are not
-silently promoted to final approvals. Protocol-only package; no execution
-approval, runner, new fit or score. The temporal003 negative all-six result
-and published archives are unchanged.
+All requested changes incorporated into revision704843a. All three explicit
+exact-revision final verdicts have now been read and accepted:
+
+- Astra2: FINAL MATHEMATICAL APPROVE704843a, message
+  20260927-static-704843a-final-approved; both blocking amendments closed.
+- Astra3: FINAL METHODOLOGICAL APPROVE704843a, message37
+  astra3-static-protocol-704843a-approved-37; no remaining methodology edits.
+- Astra4: SCIENTIFIC APPROVE704843a, message46
+  20260927-46-exact-static-protocol-approved; no remaining science/stop-rule edits.
+
+These approve the exact document, not an implementation. Its bytes and SHA
+above remain frozen; its historical review-status line is superseded by this
+receipt without changing the approved specification. The user subsequently
+authorized Astra4 implementation and ONE LOCAL foreground CPU execution by
+Astra1 only after BOTH Astra2 numerical and Astra3 protective approvals of the
+exact code commit. No Molab retry. Current implementation/execution status is
+tracked separately; protocol approval is not code approval. The temporal003
+negative all-six result and published archives are unchanged.
 
 Scientific value: one restricted instantaneous amplitude-dependent gain map
 can be compared to frozen H1, but reused means cannot establish memory
