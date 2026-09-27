@@ -1,5 +1,12 @@
 # Faithful fly / Mun landing
 
+Ardor continuation: [handoff](ARDOR_HANDOFF.md) and
+[four-chat setup status](handoff/ARDOR_STATUS.md).
+Large scientific inputs and outputs are distributed separately through
+[GitHub Releases](https://github.com/TryDotAtwo/mukha/releases).
+Original project code is MIT licensed; [third-party terms](THIRD_PARTY.md) remain
+with their respective sources.
+
 Research implementation in progress. The accepted scope and gates are in
 [WORK_PLAN.md](WORK_PLAN.md). A successful landing cannot substitute for passing
 the biological and causal checks.
