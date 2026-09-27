@@ -1,0 +1,36 @@
+{
+  "schema": "astra2-factor-manual-reference-v1",
+  "scope": "Hand-integrated synthetic quadrature/factor fixture; boundary levels supplied, not computed from author helpers",
+  "t": [0, 1, 1.5, 2.5, 3, 4],
+  "y": [0, 2, 1, -1, -2, 0],
+  "fixed_peak_time": 1,
+  "start": {"H": 0, "S": 1},
+  "end": {"H": 4, "S": 3},
+  "split": {"H": 2, "S": 2.5},
+  "primitive_at_boundaries": {"0": "0", "1": "1", "2": "2", "2.5": "7/4", "3": "1", "4": "0"},
+  "rows": {
+    "HHH": {"A1": "2", "A2": "-2", "Q": "1"},
+    "SHH": {"A1": "1", "A2": "-2", "Q": "2"},
+    "HSH": {"A1": "2", "A2": "-1", "Q": "1/2"},
+    "HHS": {"A1": "7/4", "A2": "-7/4", "Q": "1"},
+    "SSH": {"A1": "1", "A2": "-1", "Q": "1"},
+    "SHS": {"A1": "3/4", "A2": "-7/4", "Q": "7/3"},
+    "HSS": {"A1": "7/4", "A2": "-3/4", "Q": "3/7"},
+    "SSS": {"A1": "3/4", "A2": "-3/4", "Q": "1"}
+  },
+  "baseline_Q_contrasts": {"O": "1", "E": "-1/2", "C": "0"},
+  "pair_Q_interactions_at_other_H": {"OE": "-1/2", "OC": "1/3", "EC": "-1/14"},
+  "triple_Q_interaction": "-11/42",
+  "endpoint_Q_change": "0",
+  "factor_averaged_Q_contrasts": {"O": "143/168", "E": "-143/168", "C": "11/168"},
+  "manual_derivation": "Positive area to t=2 is triangle 1 plus trapezoid 3/4 plus triangle 1/4 =2. Negative strips 2..2.5, 2.5..3, 3..4 have areas -1/4,-3/4,-1. O strip=1, E strip=-1, C strip=-1/4.",
+  "controls": [
+    "O-only changes A1 by -1 and leaves A2 fixed",
+    "E-only changes A2 by +1 and leaves A1 fixed",
+    "C-only changes A1 by -1/4 and A2 by +1/4, total fixed",
+    "Full-window total and A1+A2 agree in every cell",
+    "Sum of baseline main, pair and triple Q terms equals SSS-HHH=0; main-only sum=1/2 is wrong",
+    "Negating every y reverses both areas and leaves every Q/interaction unchanged"
+  ],
+  "limits": ["Seconds and amplitudes synthetic", "Does not test biological stimulus or source peak/onset derivation", "No Molab execution"]
+}
