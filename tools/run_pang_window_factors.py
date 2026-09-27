@@ -24,6 +24,9 @@ def digest(path):
 
 def compare(actual, reference, ratio=False):
     residual = actual-reference
+    if not all(math.isfinite(v) for v in (actual, reference, residual)):
+        return dict(residual=None, absolute_residual=None, passed=False,
+                    reason='nonfinite_arithmetic')
     return dict(residual=residual, absolute_residual=abs(residual),
                 passed=abs(residual) <= (1e-10 if ratio else 1e-14)+1e-10*abs(reference))
 
@@ -104,6 +107,10 @@ def contrasts(cells):
                 terms[''.join('OEC'[i] for i in axes)] = {
                     'baseline': effect(axes, 'HHH'), 'conditional': conditional,
                     'averaged': sum(conditional.values())/len(conditional)}
+        if any(not math.isfinite(v) for term in terms.values()
+               for v in [term['baseline'], term['averaged'], *term['conditional'].values()]):
+            out[metric] = {'status': 'nonfinite_contrast'}
+            continue
         out[metric] = {'status': 'ok', 'terms': terms,
                        'full_change': values['SSS']-values['HHH'],
                        'baseline_expansion_residual': values['SSS']-values['HHH']-sum(v['baseline'] for v in terms.values())}
@@ -224,7 +231,10 @@ def run(reference, output):
             try:
                 curve = analyze_curve(mat['t'].ravel(), mat['meanResp'][row], row, original)
             except ValueError as exc:
-                curve = dict(status=str(exc), cells=[dict(condition=c, status=str(exc)) for c in CONDITIONS])
+                curve = dict(status=str(exc), cells=[dict(condition=c, status=str(exc),
+                             A1=None, A2=None, total=None, direct_total=None,
+                             denominator_magnitude=None, raw_ratio=None, Q=None,
+                             start=None, end=None, split=None) for c in CONDITIONS])
             curve.update(file=name, row=row, input_sha256=plan['input_mat_sha256'][name])
             for cell in curve.pop('cells'):
                 records.append(dict(file=name, row=row, input_sha256=curve['input_sha256'], **cell))

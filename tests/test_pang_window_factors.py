@@ -5,7 +5,7 @@ from pathlib import Path
 import numpy as np
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]/'tools'))
-from run_pang_window_factors import evaluate_cube, contrasts, invariants, grid, integrate, CONDITIONS
+from run_pang_window_factors import evaluate_cube, contrasts, invariants, grid, integrate, CONDITIONS, analyze_curve, compare
 
 
 class FactorControls(unittest.TestCase):
@@ -61,6 +61,21 @@ class FactorControls(unittest.TestCase):
         for t, y in [([0, 0], [1, 2]), ([0, 1], [1, float('nan')]), ([1, 0], [1, 2])]:
             with self.assertRaises(ValueError):
                 grid(t, y)
+
+    def test_missing_crossing_and_typed_row(self):
+        t = np.arange(63, dtype=float)/120
+        y = np.ones(63)
+        for row in (True, 1.5, 2):
+            with self.assertRaisesRegex(ValueError, 'invalid_curve_domain'):
+                analyze_curve(t, y, row, {})
+        with self.assertRaisesRegex(ValueError, 'missing_crossing'):
+            analyze_curve(t, y, 1, {})
+
+    def test_nonfinite_comparison_serializable(self):
+        import json
+        value = compare(float('inf'), 0.)
+        self.assertFalse(value['passed'])
+        json.dumps(value, allow_nan=False)
 
 
 if __name__ == '__main__':
