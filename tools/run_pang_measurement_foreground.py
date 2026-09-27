@@ -12,6 +12,7 @@ import time
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE_COMMIT = '469400fb6ecff677e355df514fb1f8ca08da8178'
+HISTORICAL_SHA256 = '8acfef3940ce736afda0f95ef4c44cd839259c973b25f5069f8f3965cccc70f1'
 
 
 @contextmanager
@@ -64,9 +65,12 @@ def main():
         out.mkdir(exist_ok=False)
         started = time.monotonic()
         historical_path = ROOT / 'reports/pang_author_curve_audit.json'
-        historical = json.loads(historical_path.read_text())
         rows = []
         try:
+            historical_bytes = historical_path.read_bytes()
+            if hashlib.sha256(historical_bytes).hexdigest() != HISTORICAL_SHA256:
+                raise ValueError('Historical comparator SHA256 mismatch')
+            historical = json.loads(historical_bytes)
             for name in FILES:
                 mat = loadmat(source / name)
                 t, y = mat['t'].ravel(), mat['meanResp']
@@ -87,6 +91,8 @@ def main():
                         raise ValueError('Undefined ratio; do not coerce to zero')
                     rows.append({'file': name, 'row': row, 'supplied_peak_frame': peak0+1,
                                  'ifi_seconds': ifi, 'sampled': sample,
+                                 'historical_area1_df_f_seconds': first,
+                                 'historical_area2_df_f_seconds': second,
                                  'historical_abs_ratio': abs(second/first),
                                  'historical_negative_signed_ratio': -second/first,
                                  'sampled_abs_ratio': abs(sample['signed_area_ratio']),
@@ -94,7 +100,8 @@ def main():
             result = {'schema': 'pang-measurement-diagnostic-v1', 'preflight': preflight,
                       'reference_checkpoint': BASE_COMMIT, 'rows': rows,
                       'seconds': time.monotonic()-started,
-                      'scope': 'Boundary/sign sensitivity on eight processed means; not source ROI bootstrap or biological model scoring',
+                      'scope': 'Combined onset, endpoint and crossing convention sensitivity plus separate sign-display comparison on eight processed means; not an isolated interpolation effect, source ROI bootstrap or biological model scoring',
+                      'historical_comparator_sha256': HISTORICAL_SHA256,
                       'peak_policy': 'historical index 2:31 signed maximum, supplied to source-derived helper',
                       'limitations': ['No physical flash alignment or recording-level optical metadata',
                                       'No individual ROI uncertainty, fitted model, MATLAB execution or gate B pass',
