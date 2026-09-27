@@ -23,6 +23,16 @@ FILES = {
 }
 
 
+def require(condition, message):
+    if not condition:
+        raise ValueError(message)
+
+
+def verify_blob(content, expected):
+    actual = hashlib.sha1(f"blob {len(content)}\0".encode() + content).hexdigest()
+    require(actual == expected, "Source Git blob mismatch")
+
+
 def pieces(t, y):
     """Exact signed integrals of linear segments split at every strict zero."""
     result = []
@@ -38,11 +48,13 @@ def pieces(t, y):
 
 def metric(t, y, polarity):
     t, y = np.asarray(t, float), np.asarray(y, float)
-    if (len(t) != len(y) or len(t) < 2 or polarity not in (-1, 1)
+    if (t.ndim != 1 or y.ndim != 1 or len(t) != len(y) or len(t) < 2 or polarity not in (-1, 1)
             or not np.isfinite(t).all() or not np.isfinite(y).all()
             or not (np.diff(t) > 0).all()):
         raise ValueError("Expected finite increasing paired samples and polarity +/-1")
     peak = int(np.argmax(polarity * y))
+    if polarity * y[peak] <= 0:
+        return {"crossing": None}
     crossing = next((i for i in range(peak + 1, len(t))
                      if polarity * y[i] <= 0), None)
     if crossing is None:
@@ -62,7 +74,8 @@ def metric(t, y, polarity):
         if polarity * area > 0:
             break
         lobe += abs(area)
-    assert math.isclose(polarity * net, returned - opposite, abs_tol=1e-14)
+    require(math.isclose(polarity * net, returned - opposite, abs_tol=1e-14),
+            "Signed tail conservation failed")
     return {"crossing": z, "phase1_signed": float(first), "tail_net_signed": float(net),
             "tail_opposite_absolute": float(opposite), "tail_return_absolute": float(returned),
             "first_opposite_lobe_absolute": float(lobe),
@@ -77,15 +90,25 @@ def controls():
     for field, expected in {"phase1_signed": 2/3, "tail_net_signed": 1/3,
                             "tail_opposite_absolute": 1/3,
                             "tail_return_absolute": 2/3}.items():
-        assert math.isclose(r[field], expected, abs_tol=1e-14), (field, r)
+        require(math.isclose(r[field], expected, abs_tol=1e-14), f"Triangle check: {field}")
     inverted = metric(t, [-v for v in y], -1)
-    assert inverted["opposite_only_ratio"] == r["opposite_only_ratio"]
+    require(inverted["opposite_only_ratio"] == r["opposite_only_ratio"], "Polarity check")
     refined = metric([0., .5, 1., 1.5, 2.], [2., .5, -1., .5, 2.], 1)
     for field in r:
-        assert math.isclose(r[field], refined[field], abs_tol=1e-14)
-    assert metric([0, 1, 2], [1, 2, 1], 1)["crossing"] is None
+        require(math.isclose(r[field], refined[field], abs_tol=1e-14), "Subdivision check")
+    for response in ([1, 2, 1], [0, 0, 0], [-1, -2, -1]):
+        require(metric([0, 1, 2], response, 1)["crossing"] is None, "No-phase check")
+    require(metric([0, 1, 2], [1, 0, -1], 1)["crossing"] == 1, "Exact-zero check")
+    try:
+        verify_blob(b"changed cached bytes", FILES["L1_highLum.mat"])
+    except ValueError:
+        pass
+    else:
+        raise ValueError("Corrupt cached blob was accepted")
     return {"analytic_triangle": r, "polarity_inversion": "pass",
-            "linear_subdivision": "pass", "no_crossing": "pass"}
+            "linear_subdivision": "pass", "no_crossing": "pass",
+            "zero_response": "pass", "absent_requested_polarity": "pass",
+            "exact_zero_crossing": "pass", "corrupt_cached_blob_rejected": "pass"}
 
 
 def main():
@@ -106,25 +129,24 @@ def main():
                 raise FileNotFoundError(f"{path}: use --fetch for initial acquisition")
             with urlopen(url, timeout=30) as response:
                 content = response.read(100_000)
-            actual = hashlib.sha1(f"blob {len(content)}\0".encode() + content).hexdigest()
-            if actual != blob:
-                raise ValueError(f"Source Git blob mismatch: {name}")
+            verify_blob(content, blob)
             path.write_bytes(content)
         content = path.read_bytes()
-        assert hashlib.sha1(f"blob {len(content)}\0".encode() + content).hexdigest() == blob
+        verify_blob(content, blob)
         receipts.append({"name": name, "url": url, "git_blob": blob,
                          "sha256": hashlib.sha256(content).hexdigest(), "bytes": len(content)})
         data = loadmat(path)
         t = data["t"].ravel()
         y = data["meanResp"]
-        assert y.shape == (2, 63) and len(t) == 63
+        require(y.shape == (2, 63) and len(t) == 63, f"Invalid MAT shape: {name}")
         end = int(np.searchsorted(t, t[2] + .25, side="right") - 1)
         for row, polarity in [(0, -1), (1, 1)]:
             r = metric(t[2:end + 1], y[row, 2:end + 1], polarity)
             prior = next(x for x in old["curves"] if x["file"] == name and x["row"] == row)
             for field, old_field in [("phase1_signed", "phase1_area_deltaF_over_F_seconds"),
                                      ("tail_net_signed", "phase2_signed_area_deltaF_over_F_seconds")]:
-                assert math.isclose(r[field], prior[old_field], rel_tol=1e-10, abs_tol=1e-14)
+                require(math.isclose(r[field], prior[old_field], rel_tol=1e-10, abs_tol=1e-14),
+                        f"Historical integral mismatch: {name} row {row} {field}")
             r.update(file=name, row=row, label=prior["label"],
                      tail_net_has_first_phase_sign=polarity * r["tail_net_signed"] > 0,
                      analysis_start_s=float(t[2]), analysis_end_s=float(t[end]))

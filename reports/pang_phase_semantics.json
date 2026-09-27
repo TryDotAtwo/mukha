@@ -43,10 +43,14 @@
     },
     "polarity_inversion": "pass",
     "linear_subdivision": "pass",
-    "no_crossing": "pass"
+    "no_crossing": "pass",
+    "zero_response": "pass",
+    "absent_requested_polarity": "pass",
+    "exact_zero_crossing": "pass",
+    "corrupt_cached_blob_rejected": "pass"
   },
   "historical_report_sha256": "8acfef3940ce736afda0f95ef4c44cd839259c973b25f5069f8f3965cccc70f1",
-  "executed_script_sha256": "c6cf42dfac4f13062652bce4f9a556bfc06cb845f8e3d791114ce38c1ac067f5",
+  "executed_script_sha256": "b03f79d206586f84c8ca6fc69dab73f702b812b44480af7b0528f201c429d0ba",
   "numpy_version": "2.5.3",
   "rows": [
     {

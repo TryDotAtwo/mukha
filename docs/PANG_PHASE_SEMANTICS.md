@@ -50,6 +50,15 @@ The first command downloads only four MAT files (5,854 bytes total); the second
 uses cached verified files offline. Output: `reports/pang_phase_semantics.json`.
 No original report or runtime source is modified.
 
+Peer review by Astra 1 independently reproduced opposite-only integrals using
+SciPy quadrature (maximum absolute discrepancy 1.11e-13 across eight curves).
+It also found a missing zero-response case: the initial implementation attempted
+zero/zero crossing interpolation. The revised metric returns no phase when no
+positive peak exists in the requested polarity. Explicit controls now cover
+zero response, wrong-polarity-only response, an exact-zero crossing and corrupted
+cached source bytes. Source, control and report checks use explicit exceptions
+and remain active under `python -O`.
+
 Before a prospective model comparison, resolve from the paper/author analysis
 whether the requested second phase is a contiguous lobe, signed tail, or all
 opposite-polarity area, and freeze that definition. Do not select whichever
