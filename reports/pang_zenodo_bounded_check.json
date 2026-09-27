@@ -1,0 +1,469 @@
+{
+  "record": "https://zenodo.org/records/13367946",
+  "scope": "Official open API plus two small ZIPs read in memory; stimulus ZIP not downloaded; no archive code executed",
+  "listed_files": [
+    {
+      "name": "stimulus.zip",
+      "bytes": 110668916,
+      "md5": "2d060bbfeb2f5dbec0f751673869e60e"
+    },
+    {
+      "name": "computational-model.zip",
+      "bytes": 1031073,
+      "md5": "528e122df6102c7f0f8085cd7269df2b"
+    },
+    {
+      "name": "imaging-analysis.zip",
+      "bytes": 346641,
+      "md5": "ab8412190bef160000f35b082ed99a68"
+    }
+  ],
+  "observed": [
+    {
+      "file": "imaging-analysis.zip",
+      "bytes": 346641,
+      "md5": "ab8412190bef160000f35b082ed99a68",
+      "sha256": "d7daf020fb4fb3e4000ef9d9d4b6792331f361141c27e6f9da42571c5dc1f9ec",
+      "member_count": 304,
+      "mats": [],
+      "metadata_code_hits": [
+        {
+          "file": "imaging-analysis/analyze_WhiteNoise_1D.m",
+          "examples": [
+            "164: flies = length(unique([wnROIs.flyID]'));",
+            "189: flies = length(unique([wnROIs.flyID]'));"
+          ]
+        },
+        {
+          "file": "imaging-analysis/FFFoGAnalysisBruker_v2.m",
+          "examples": [
+            "55: i_flyID = (flyID > 14);",
+            "56: %i_flyID = (flyID == 1);",
+            "60: i_flyID .* ..."
+          ]
+        },
+        {
+          "file": "imaging-analysis/plot_movingBar.m",
+          "examples": [
+            "22: flyID = zeros(length(thisRespDataMat),1);",
+            "23: % loop over all cells, save response, flyID",
+            "26: flyID(j) = thisRespDataMat(j).flyID;"
+          ]
+        },
+        {
+          "file": "imaging-analysis/matchROIsAcrossLCCurrentVal.m",
+          "examples": [
+            "29: seriesID = metaDat.seriesID(tsInds);",
+            "31: flyID = metaDat.flyID(tsInds);",
+            "41: thisFlyID = flyID(refInd(iRef));"
+          ]
+        },
+        {
+          "file": "imaging-analysis/matchROIsAcrossStimuli.m",
+          "examples": [
+            "29: seriesID = metaDat.seriesID(tsInds);",
+            "31: flyID = metaDat.flyID(tsInds);",
+            "41: thisFlyID = flyID(refStimInd(iRef));"
+          ]
+        },
+        {
+          "file": "imaging-analysis/plot_NatStimFFF.m",
+          "examples": [
+            "43: flyID = zeros(1, length(rois));",
+            "48: flyID(n) = rois(n).flyID;",
+            "75: ', N flies = ', num2str(length(unique(flyID)))];"
+          ]
+        },
+        {
+          "file": "imaging-analysis/plot_FullFieldFlash.m",
+          "examples": [
+            "87: ', flies = ' num2str(length(unique([in.flyID]')))]);"
+          ]
+        },
+        {
+          "file": "imaging-analysis/readDatabase_selectSamples_NatStim.m",
+          "examples": [
+            "18: [seriesID, flyID, genotype, age, sex, stimcode, imFrames, rot, zdepth, ...",
+            "23: metaDat.seriesID = seriesID;",
+            "24: metaDat.flyID = flyID;"
+          ]
+        },
+        {
+          "file": "imaging-analysis/readDatabase_selectSamples.m",
+          "examples": [
+            "17: [seriesID, flyID, genotype, age, sex, stimcode, imFrames, rot, zdepth, ...",
+            "22: metaDat.seriesID = seriesID;",
+            "23: metaDat.flyID = flyID;"
+          ]
+        },
+        {
+          "file": "imaging-analysis/collect_pdata.m",
+          "examples": [
+            "22: flyID = fname(ind(end)+1:end);",
+            "25: copyfile(e.name,[pData_dir flyID '_' e.name]);"
+          ]
+        },
+        {
+          "file": "imaging-analysis/matchROIsAcrossStimuli_noUniRef.m",
+          "examples": [
+            "30: seriesID = metaDat.seriesID(tsInds);",
+            "32: flyID = metaDat.flyID(tsInds);",
+            "47: thisFlyID = flyID(refStimInd(iRef));"
+          ]
+        },
+        {
+          "file": "imaging-analysis/matchROIsAcrossWavelength.m",
+          "examples": [
+            "29: seriesID = metaDat.seriesID(tsInds);",
+            "31: flyID = metaDat.flyID(tsInds);",
+            "41: thisFlyID = flyID(refInd(iRef));"
+          ]
+        },
+        {
+          "file": "imaging-analysis/test_aggregate.m",
+          "examples": [
+            "108: in(r).flyID, in(r).seriesID));",
+            "137: out(r).seriesID = in(r).seriesID;",
+            "139: out(r).flyID = in(r).flyID;"
+          ]
+        },
+        {
+          "file": "imaging-analysis/createROIMatrix.m",
+          "examples": [
+            "38: seriesID = metaDat.seriesID{iMS};",
+            "42: if ~isfile([seriesID '_pData.mat'])",
+            "43: fprintf('%s_pData.mat\\n',seriesID);"
+          ]
+        },
+        {
+          "file": "imaging-analysis/filterROIs_staticMovingGrating_noRef.m",
+          "examples": [
+            "161: load([char(roiMat(r).seriesID) '_pData.mat']);"
+          ]
+        },
+        {
+          "file": "imaging-analysis/filterROIs_movingBar_noRef.m",
+          "examples": [
+            "145: load([char(roiMat(r).seriesID) '_pData.mat']);"
+          ]
+        },
+        {
+          "file": "imaging-analysis/NaturalisticStimAnalysisBruker_v3.m",
+          "examples": [
+            "56: i_flyID = (flyID > 14);",
+            "59: i_flyID .* ..."
+          ]
+        },
+        {
+          "file": "imaging-analysis/plot_gratings_polar.m",
+          "examples": [
+            "21: flyID = zeros(length(thisRespDataMat),1);",
+            "22: % loop over all cells, save response, flyID",
+            "26: flyID(j) = thisRespDataMat(j).flyID;"
+          ]
+        },
+        {
+          "file": "imaging-analysis/loadROIData.m",
+          "examples": [
+            "47: out(r,s).seriesID = roiMetaMat(r,s).seriesID;",
+            "49: iMS = strcmpi(metaDat.seriesID, out(r,s).seriesID);",
+            "52: load([out(r,s).seriesID '_pData.mat']);"
+          ]
+        },
+        {
+          "file": "imaging-analysis/plot_FFFOntoGray.m",
+          "examples": [
+            "43: flyID = zeros(1, length(rois));",
+            "47: flyID(n) = rois(n).flyID;",
+            "81: ', N flies = ', num2str(length(unique(flyID)))];"
+          ]
+        },
+        {
+          "file": "imaging-analysis/HHY_stimulusSpecificAnalysisScripts/plot_linFilters.m",
+          "examples": [
+            "39: flyID(n) = goodROIs(n).flyID;",
+            "63: num2str(length(unique(flyID))) ')']);"
+          ]
+        },
+        {
+          "file": "imaging-analysis/HHY_stimulusSpecificAnalysisScripts/plot_shortFlash_compareGenotypes.m",
+          "examples": [
+            "572: flyID1 = zeros(1, length(respROIMat1));",
+            "575: flyID1(n) = respROIMat1(n).flyID;",
+            "586: flyID2 = zeros(1, length(respROIMat2));"
+          ]
+        },
+        {
+          "file": "imaging-analysis/HHY_stimulusSpecificAnalysisScripts/plot_shortFlashTemporalFrequency_compareGenotypes_v2.m",
+          "examples": [
+            "445: flyID1 = zeros(1, length(respROIMat1));",
+            "448: flyID1(n) = respROIMat1(n).flyID;",
+            "459: flyID2 = zeros(1, length(respROIMat2));"
+          ]
+        },
+        {
+          "file": "imaging-analysis/HHY_stimulusSpecificAnalysisScripts/selectTimeSeries_L2Project_FFFoG_v2.m",
+          "examples": [
+            "235: % new data from 9/30/17-10/2/17; flyID >= 223",
+            "236: timeseriesInd = find((flyID>=223).*i_21Dhh_asap2f_ort_TNT_CDM...",
+            "251: % new data from 9/30/17-10/2/17; flyID >= 223"
+          ]
+        },
+        {
+          "file": "imaging-analysis/HHY_stimulusSpecificAnalysisScripts/plot_linFilters_avgImpulse.m",
+          "examples": [
+            "40: flyID(n) = goodROIs(n).flyID;",
+            "64: num2str(length(unique(flyID))) ')']);"
+          ]
+        }
+      ],
+      "notebooks": []
+    },
+    {
+      "file": "computational-model.zip",
+      "bytes": 1031073,
+      "md5": "528e122df6102c7f0f8085cd7269df2b",
+      "sha256": "c35ea6c7b167250befd968a6c9068f78dc692b19ed308bd464c0166bcf6a7108",
+      "member_count": 36,
+      "mats": [
+        {
+          "name": "computational-model/data/L2_CDM_lowLum.mat",
+          "fields": [
+            [
+              "indivResp",
+              [
+                1,
+                2
+              ],
+              "cell"
+            ],
+            [
+              "meanResp",
+              [
+                2,
+                63
+              ],
+              "double"
+            ],
+            [
+              "t",
+              [
+                1,
+                63
+              ],
+              "double"
+            ]
+          ]
+        },
+        {
+          "name": "computational-model/data/L1_CDM_highLum.mat",
+          "fields": [
+            [
+              "indivResp",
+              [
+                1,
+                2
+              ],
+              "cell"
+            ],
+            [
+              "meanResp",
+              [
+                2,
+                63
+              ],
+              "double"
+            ],
+            [
+              "t",
+              [
+                1,
+                63
+              ],
+              "double"
+            ]
+          ]
+        },
+        {
+          "name": "computational-model/data/L2_2s_natstim_corrected_fixedtiming.mat",
+          "fields": [
+            [
+              "indivResp_fixed",
+              [
+                52,
+                708
+              ],
+              "double"
+            ],
+            [
+              "meanResp_fixed",
+              [
+                1,
+                708
+              ],
+              "double"
+            ],
+            [
+              "t_fixed",
+              [
+                1,
+                708
+              ],
+              "double"
+            ]
+          ]
+        },
+        {
+          "name": "computational-model/data/L2_lowLum.mat",
+          "fields": [
+            [
+              "meanResp",
+              [
+                2,
+                63
+              ],
+              "double"
+            ],
+            [
+              "t",
+              [
+                1,
+                63
+              ],
+              "double"
+            ]
+          ]
+        },
+        {
+          "name": "computational-model/data/L1_CDM_lowLum.mat",
+          "fields": [
+            [
+              "indivResp",
+              [
+                1,
+                2
+              ],
+              "cell"
+            ],
+            [
+              "meanResp",
+              [
+                2,
+                63
+              ],
+              "double"
+            ],
+            [
+              "t",
+              [
+                1,
+                63
+              ],
+              "double"
+            ]
+          ]
+        },
+        {
+          "name": "computational-model/data/L1_lowLum.mat",
+          "fields": [
+            [
+              "meanResp",
+              [
+                2,
+                63
+              ],
+              "double"
+            ],
+            [
+              "t",
+              [
+                1,
+                63
+              ],
+              "double"
+            ]
+          ]
+        },
+        {
+          "name": "computational-model/data/L2_highLum.mat",
+          "fields": [
+            [
+              "meanResp",
+              [
+                2,
+                63
+              ],
+              "double"
+            ],
+            [
+              "t",
+              [
+                1,
+                63
+              ],
+              "double"
+            ]
+          ]
+        },
+        {
+          "name": "computational-model/data/L2_CDM_highLum.mat",
+          "fields": [
+            [
+              "indivResp",
+              [
+                1,
+                2
+              ],
+              "cell"
+            ],
+            [
+              "meanResp",
+              [
+                2,
+                63
+              ],
+              "double"
+            ],
+            [
+              "t",
+              [
+                1,
+                63
+              ],
+              "double"
+            ]
+          ]
+        },
+        {
+          "name": "computational-model/data/L1_highLum.mat",
+          "fields": [
+            [
+              "meanResp",
+              [
+                2,
+                63
+              ],
+              "double"
+            ],
+            [
+              "t",
+              [
+                1,
+                63
+              ],
+              "double"
+            ]
+          ]
+        }
+      ],
+      "metadata_code_hits": [],
+      "notebooks": [
+        "computational-model/CDM_results.ipynb",
+        "computational-model/L1_2responses_to_flashes.ipynb",
+        "computational-model/Latency_plots.ipynb",
+        "computational-model/L2_responses_to_nat.ipynb",
+        "computational-model/Simulation.ipynb"
+      ]
+    }
+  ]
+}
