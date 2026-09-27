@@ -6,7 +6,9 @@ the opposite phase is ambiguous when the response crosses back. This audit
 preserves the historical report and reproduces its eight control-curve integrals
 from four original author MAT files at commit
 `7fa5829e37d566e02beaaa87efd6a0f1de4e48c0`. Downloaded bytes are verified against
-Git blob IDs and SHA-256 receipts are included in the new report.
+Git blob IDs and SHA-256 receipts are included in the new report. Subsequent
+inspection of pinned author MATLAB code confirms that signed net-tail integration
+is also the author's definition; cancellation itself is not an implementation bug.
 
 ## Executed result
 
@@ -46,7 +48,8 @@ python tools/audit_pang_phase_semantics.py --fetch
 python tools/audit_pang_phase_semantics.py
 ```
 
-The first command downloads only four MAT files (5,854 bytes total); the second
+The first command downloads four MAT files (5,854 bytes total) and three small
+author MATLAB analysis files; the second
 uses cached verified files offline. Output: `reports/pang_phase_semantics.json`.
 No original report or runtime source is modified.
 
@@ -59,10 +62,26 @@ zero response, wrong-polarity-only response, an exact-zero crossing and corrupte
 cached source bytes. Source, control and report checks use explicit exceptions
 and remain active under `python -O`.
 
-Before a prospective model comparison, resolve from the paper/author analysis
-whether the requested second phase is a contiguous lobe, signed tail, or all
-opposite-polarity area, and freeze that definition. Do not select whichever
-definition makes a model agree. Physical flash alignment, recording-specific
+## Author definition recovered after the sensitivity audit
+
+The same commit includes `imaging-analysis/HHY_stimulusSpecificAnalysisScripts/`:
+`compute_bootstrappedMetrics.m` lines 117-150 integrate area1 from frameZero1 to
+frameZero2 and area2 from frameZero2 to endPhase2 with signed `trapz`, multiplied
+by `100 * ifi`. Its areaRatio is **signed area2/area1, without abs**. Thus counting
+only opposite-polarity pieces would change this source implementation. The file
+uses bootstrapped responding-ROI averages, not the eight processed mean curves
+audited here. Static source inspection is not execution of its MATLAB bootstrap.
+
+`computeFrameZero2.m` picks the first opposite-side sample after the peak; it does
+not interpolate a zero. `computeFrameZero1.m` uses a derivative-based onset
+heuristic, defaulting to frame 2; the analysis ends at `floor(.25/ifi)`. These
+boundaries differ from the historical Python notebook-index onset and interpolated
+crossing. All three code files are now blob-verified and SHA-256 recorded.
+
+Before a prospective comparison, reproduce the source signed statistic with its
+actual ROI/time inputs and document any plotting sign/absolute transformation.
+Keep opposite-only and first-lobe values as sensitivity diagnostics. Physical
+flash alignment, recording-specific
 luminance, observation transform and cohort identity are still missing; this
 audit supplies no substitute for those gate requirements. New area definitions
 are sensitivity diagnostics, not a correction to the biological source.

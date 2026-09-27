@@ -49,8 +49,38 @@
     "exact_zero_crossing": "pass",
     "corrupt_cached_blob_rejected": "pass"
   },
+  "author_code_sources": [
+    {
+      "name": "compute_bootstrappedMetrics.m",
+      "url": "https://raw.githubusercontent.com/ClandininLab/L1L2-recurrent-feedback/7fa5829e37d566e02beaaa87efd6a0f1de4e48c0/imaging-analysis/HHY_stimulusSpecificAnalysisScripts/compute_bootstrappedMetrics.m",
+      "git_blob": "6d59a6ee4bc0ce6ac39f3e122bb972e19ccb7422",
+      "sha256": "e4510efca704df6e34ffb514c8651b3d677910845210016162e183741f16d6ba",
+      "bytes": 5843
+    },
+    {
+      "name": "computeFrameZero1.m",
+      "url": "https://raw.githubusercontent.com/ClandininLab/L1L2-recurrent-feedback/7fa5829e37d566e02beaaa87efd6a0f1de4e48c0/imaging-analysis/HHY_stimulusSpecificAnalysisScripts/computeFrameZero1.m",
+      "git_blob": "6ec2fd08c4324e36a337f1c6a3f49ebd024d6bd6",
+      "sha256": "24acbbf35633e69c35d41ff5fdefa1d1cc63e62e605814005af1ebe40bb0ff28",
+      "bytes": 1408
+    },
+    {
+      "name": "computeFrameZero2.m",
+      "url": "https://raw.githubusercontent.com/ClandininLab/L1L2-recurrent-feedback/7fa5829e37d566e02beaaa87efd6a0f1de4e48c0/imaging-analysis/HHY_stimulusSpecificAnalysisScripts/computeFrameZero2.m",
+      "git_blob": "5c4edb0ebc108f65b7745382fffd696c301e8324",
+      "sha256": "18943076fbc60f168a335618fe70544f9463c66d2cb8e1317c4003cc9fbf28cc",
+      "bytes": 1149
+    }
+  ],
+  "author_code_interpretation": {
+    "area2": "signed trapz(frameZero2:endPhase2) * 100 * ifi; cancellation is source behavior",
+    "ratio": "signed area2/area1, without absolute value in compute_bootstrappedMetrics.m",
+    "boundaries": "sample-based frameZero2; derivative-based frameZero1; endPhase2=floor(.25/ifi)",
+    "scope": "Static source inspection, not MATLAB execution or bootstrap reconstruction",
+    "conclusion": "Do not replace author net-tail metric with opposite-only metric; keep sensitivity definitions separate"
+  },
   "historical_report_sha256": "8acfef3940ce736afda0f95ef4c44cd839259c973b25f5069f8f3965cccc70f1",
-  "executed_script_sha256": "b03f79d206586f84c8ca6fc69dab73f702b812b44480af7b0528f201c429d0ba",
+  "executed_script_sha256": "9010170ee4c2c212d324deeb8f4701099c662fd862f2f65319ebab8eb08d09ae",
   "numpy_version": "2.5.3",
   "rows": [
     {
