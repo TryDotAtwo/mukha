@@ -17,6 +17,11 @@ def main():
         print('ROI_RECEIPT',json.dumps(r),flush=True);return r
     publish(['audit.py','source-pin.json'])
     def acquire(url,name):
+        if (ROOT/name).exists() and (ROOT/(name+'.identity.json')).exists():
+            record=json.loads((ROOT/(name+'.identity.json')).read_text())
+            if record['url']!=url or a.digest(ROOT/name)!=record['sha256']:raise RuntimeError('Changed saved metadata')
+            receipt=publish([name,name+'.identity.json'])
+            return record,receipt,json.loads((ROOT/name).read_bytes()) if record['http_status']==200 else None
         status=200;generation=None
         try:
             with urllib.request.urlopen(urllib.request.Request(url,method='HEAD'),timeout=30) as response:generation=response.headers.get('x-goog-generation')
@@ -44,7 +49,7 @@ def main():
                 if props is not None:
                     inline=props.get('inline',{})
                     fields=inline.get('properties',[])
-                    labels=[p['values'] for p in fields if p.get('id')=='label' and p.get('type')=='label']
+                    labels=[p['values'] for p in fields if p.get('type')=='label']
                     if len(labels)!=1 or len(labels[0])!=len(inline.get('ids',[])):raise RuntimeError('Ambiguous label coverage')
                     result['labels']=labels[0];result['label_count']=len(labels[0]);result['status']='labels_inspected'
                     result['microcompartment_name_matches']=[label for label in labels[0] if re.search(r'(^|[^a-z])(g[1-5]|gamma[1-5]|γ[1-5])([(_ -]|$)|pedc',label.lower())]
