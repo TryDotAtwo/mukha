@@ -20,20 +20,40 @@ def main():
     for label in ('source-input','graph-closure','input-protocol','build-closure','brian-reference','native-replay'):
         archive.restore(root,json.loads((root/'stage-receipts'/(label+'.json')).read_text()))
     dep=root/'dependencies';dep.mkdir(exist_ok=True)
-    name='cuda_sanitizer_api-linux-x86_64-13.0.48-archive.tar.xz'
+    import gzip,io
+    base='https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2404/x86_64/'
+    index=dep/'nvidia-Packages.gz'
+    with urllib.request.urlopen(base+'Packages.gz',timeout=60) as response:
+        data=response.read(20*1024*1024+1)
+    if len(data)>20*1024*1024:raise RuntimeError('Package metadata unexpectedly large')
+    index.write_bytes(data)
+    text=gzip.decompress(data).decode('utf-8')
+    if len(text)>64*1024*1024:raise RuntimeError('Package metadata unexpectedly large after decompression')
+    selected=[]
+    for paragraph in text.split('\n\n'):
+        fields={}
+        for line in paragraph.splitlines():
+            if line and not line.startswith(' ') and ': ' in line:
+                k,v=line.split(': ',1);fields[k]=v
+        if fields.get('Package')=='cuda-sanitizer-13-0' and fields.get('Version')=='13.0.85-1' and fields.get('Architecture')=='amd64':
+            selected.append(fields)
+    if len(selected)!=1:raise RuntimeError('Pinned official sanitizer stanza not unique')
+    fields=selected[0]
+    name='cuda-sanitizer-13-0_13.0.85-1_amd64.deb'
+    if fields['Filename'].removeprefix('./')!=name:raise RuntimeError('Unexpected official package path')
     package=dep/name
-    expected='f5f5ebda21f924270cb6603f139fa94497e975d547c2a1dfc80a6ffc053230a9'
-    url='https://developer.download.nvidia.com/compute/cuda/redist/cuda_sanitizer_api/linux-x86_64/'+name
     if not package.exists():
-        with urllib.request.urlopen(url,timeout=60) as response,package.open('xb') as output:shutil.copyfileobj(response,output,8<<20)
-    if package.stat().st_size!=11396236 or archive.digest(package)!=expected:raise RuntimeError('Official sanitizer package identity mismatch')
-    metadata=dep/'sanitizer-package.json'
-    metadata.write_text(json.dumps({'url':url,'sha256':expected,'bytes':11396236,'manifest':'https://developer.download.nvidia.com/compute/cuda/redist/redistrib_13.0.0.json','component_version':'13.0.48'},indent=2))
-    publish([package,metadata],'sanitizer-package')
-    with tarfile.open(package,'r:xz') as tf:tf.extractall(dep,filter='data')
-    candidates=[path for path in dep.rglob('compute-sanitizer') if path.is_file()]
-    if len(candidates)!=1:raise RuntimeError('Sanitizer CLI not supplied by pinned package; no memcheck claim')
-    sanitizer=candidates[0]
+        with urllib.request.urlopen(base+name,timeout=60) as response,package.open('xb') as output:shutil.copyfileobj(response,output,8<<20)
+    if package.stat().st_size!=int(fields['Size']) or archive.digest(package)!=fields['SHA256']:raise RuntimeError('Official sanitizer CLI identity mismatch')
+    metadata=dep/'sanitizer-cli-package.json'
+    metadata.write_text(json.dumps({'repository':base,'fields':fields,'index_sha256':archive.digest(index)},indent=2))
+    publish([package,metadata,index],'sanitizer-cli-package')
+    unpacked=dep/'sanitizer-cli';unpacked.mkdir(exist_ok=True)
+    payload=subprocess.check_output(['dpkg-deb','--fsys-tarfile',str(package)])
+    with tarfile.open(fileobj=io.BytesIO(payload),mode='r:') as tf:tf.extractall(unpacked,filter='data')
+    candidates={str(path.resolve()):path.resolve() for path in unpacked.rglob('compute-sanitizer') if path.is_file()}
+    if len(candidates)!=1:raise RuntimeError('Expected unique official compute-sanitizer CLI')
+    sanitizer=next(iter(candidates.values()))
     os.environ['LD_LIBRARY_PATH']=str(source/'build')+os.pathsep+os.environ.get('LD_LIBRARY_PATH','')
     binary=source/'target/release/faithful-fly'
     protocol=source/'configs/shiu_bitter_equivalence.json'
