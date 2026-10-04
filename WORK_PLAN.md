@@ -836,3 +836,27 @@ receptor action or plasticity. No learning was enabled. This closes the missing
 remote KC-to-MBON coordinate input, not whole-CNS morphology coverage, biological
 identity transfer, calibrated local plasticity, body control or KSP acceptance.
 All original contract gates remain open pending their own evidence.
+
+
+## Native Huang memory-reference replay in MoLab (2026-10-04)
+
+The unchanged native C++ FP64 translation at project commit
+28c8adb140fb33327fe3754f02ca422b5f9350c1 was built and executed entirely in
+foreground MoLab. Thirty original author files were acquired and verified
+against Git blobs at 5d7c08a9a88f923169a0c3008aca68af421e9a7f; source,
+inputs, build inputs, library, prediction arrays and logs were archived before
+dependent stages with verified immutable HF receipts.
+
+All 108 Figure 5d protocols, 18 panels and 1,944 saved author numeric values
+agree within maximum absolute error 7.105427357601002e-15 against the frozen
+1e-8 threshold. No parameters were refitted. The comparison uses the author's
+saved FIG arrays, not a new MATLAB run. Report:
+reports/huang_native_figure5d_molab.json. Final HF revision:
+9fb1c16c4ce216d541db307d211fcb4f9ac766df, manifest
+ddfebe562f3dee29d1fee3fda6595b03341f2ab192724efa26eb18d2611bdaed.
+
+This verifies original aggregate-model numerical reproduction only. It does
+not validate independent animal observations, individual MaleCNS synaptic
+parameters, receptor-dependent local plasticity or learning. Gate B remains
+open for its biological and transfer requirements; no contact learning was
+enabled and the full accepted contract remains unchanged.
