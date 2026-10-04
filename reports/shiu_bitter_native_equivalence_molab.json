@@ -1,5 +1,5 @@
 {
-  "status": "numerical_equivalence_passed; memcheck pending",
+  "status": "numerical_equivalence_passed; memcheck_unavailable_in_current_molab_runtime",
   "numerical_source_commit": "79c995ab604247564ffdaf5e4a9ac4fc6aa7cbda",
   "driver_build_commit": "ec873751305fc8de334eb51940ccaa9f9d9aa975",
   "restore_commit": "0419d94188a91f47561d0b17aef191e3bcea546c",
@@ -45,5 +45,26 @@
   },
   "scope": "Full original author graph, one fixed-input numerical trajectory. Bernoulli PCG64 replaces original Brian Poisson RNG for shared inputs. No whole-grid reproduction, MaleCNS physiology, local plasticity, checkpoint continuation or KSP acceptance.",
   "timing_limit": "One run per backend; no repeated performance benchmark claim.",
-  "execution": "Visible foreground MoLab only, restored from HF without rebuilding after HTTP410; no local computation or result download."
+  "execution": "Visible foreground MoLab only, restored from HF without rebuilding after HTTP410; no local computation or result download.",
+  "memcheck": {
+    "source_commit": "9aff1bdf365d73e1db659e51d8231e619189a48d",
+    "package": "cuda-sanitizer-13-0_13.0.85-1_amd64.deb",
+    "tool": "memcheck",
+    "leak_check": "full",
+    "filters": [],
+    "suppressions": [],
+    "passed": false,
+    "reported_errors": 2,
+    "failure": "Device not supported; cudaErrorUnknown (999) at cudaMalloc before trajectory execution",
+    "interpretation": "Instrumentation unavailable in this runtime; neither proof of a model memory defect nor a clean memory check. No instrumented trajectory comparison completed.",
+    "runtime_receipt": {
+      "revision": "8da0baf993a58c081cfe5be1b3ed44ed24257373",
+      "manifest": "manifests/5fb7d1f86117e05ed0ecedf394a9d4deda0410d87009eb38bb06321e4dbab134.json"
+    },
+    "log_receipt": {
+      "revision": "a361f33b9c8fb77f04858192e02d38389f0613da",
+      "manifest": "manifests/4d8aa10b2ce3117de305bd1d141da9662552cf5ac4cb73cc4dc502385c9b2039.json"
+    },
+    "verified": true
+  }
 }
