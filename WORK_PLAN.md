@@ -860,3 +860,19 @@ not validate independent animal observations, individual MaleCNS synaptic
 parameters, receptor-dependent local plasticity or learning. Gate B remains
 open for its biological and transfer requirements; no contact learning was
 enabled and the full accepted contract remains unchanged.
+
+
+## Huang physiological workbook scope audit (2026-10-05)
+
+Foreground MoLab inspection found two aggregate mean/SEM sheets, six population
+pairs and all six sessions including 24hr; no individual animal recordings.
+The author fit includes the 24hr data, so supplied-parameter residuals are
+calibration, not held-out physiological validation. Exact author six-weight
+selection is columns 1:6 for ACV/ETA and [7:9,4:6] for OCT/BEN. The native ABI
+already accepts each selected vector, while both current harnesses hardcode
+two imaging sessions and require generalization for this six-session protocol.
+See docs/HUANG_PHYSIOLOGICAL_CALIBRATION_AUDIT.md. Verified completed HF audit:
+f11f1dbdecce9cd817514225cfe7ad58503c16d7 / manifest
+2764ea9b2487c7b7b3adccacb78cec389bee2557709541ce2e0096b7d55220ad.
+No new physiological simulation, parameter refit or contact learning was
+performed. All full-project acceptance gates remain open.
