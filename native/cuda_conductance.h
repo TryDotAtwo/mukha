@@ -25,6 +25,11 @@ FC_API fc_model* fc_create(uint32_t neurons, uint64_t edges, const uint64_t* ind
                     const uint32_t* indices, const double* excitatory,
                     const double* inhibitory, const uint8_t* sensory,
                     fc_params params, uint32_t chunk_capacity);
+// Returns 0 on success, -1 on failure. Nonfinite internal state rejects the
+// entire chunk before copying output arrays. Runtime failures invalidate the
+// handle until a successful explicit fc_reset; invalid input rejected before
+// mutation does not invalidate an otherwise healthy handle. No failed chunk
+// may be published as a valid episode/checkpoint.
 FC_API int fc_advance(fc_model* model, uint32_t ticks, const double* direct_voltage_jump_mv,
                double* voltage_mv, double* conductance_exc,
                double* conductance_inh, uint8_t* spikes);

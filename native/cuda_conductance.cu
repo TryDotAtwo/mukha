@@ -39,15 +39,21 @@ __global__ void reset_state(uint32_t n,double rest,double* v,double* ge,double* 
 
 __global__ void integrate(uint32_t n,uint64_t tick,fc_params p,double synapse_decay,
                           double* v,double* ge,double* gi,const uint64_t* next,
-                          double* emitted,uint8_t* allowed) {
+                          double* emitted,uint8_t* allowed,uint32_t* numerical_error) {
     const uint32_t i=blockIdx.x*blockDim.x+threadIdx.x;
     if(i>=n) return;
     const bool active=tick>=next[i];
     allowed[i]=active;
+    if(!isfinite(v[i]) || !isfinite(ge[i]) || !isfinite(gi[i])) {
+        atomicExch(numerical_error,1u);allowed[i]=0;emitted[i]=0.0;return;
+    }
     if(active) {
         const double total=1.0+ge[i]+gi[i];
         const double equilibrium=(p.rest_mv+ge[i]*p.reversal_exc_mv+gi[i]*p.reversal_inh_mv)/total;
         v[i]=equilibrium+(v[i]-equilibrium)*exp(-p.dt_ms*total/p.membrane_ms);
+        if(!isfinite(total) || !isfinite(equilibrium) || !isfinite(v[i])) {
+            atomicExch(numerical_error,1u);allowed[i]=0;emitted[i]=0.0;return;
+        }
     }
     ge[i]*=synapse_decay;
     gi[i]*=synapse_decay;
@@ -58,13 +64,18 @@ __global__ void finish(uint32_t n,uint64_t tick,fc_params p,
                        const double* direct,const double* incoming_e,const double* incoming_i,
                        const double* emitted,const uint8_t* sensory,const uint8_t* allowed,
                        double* v,double* ge,double* gi,uint64_t* next,
-                       double* trace_v,double* trace_e,double* trace_i,uint8_t* trace_spikes) {
+                       double* trace_v,double* trace_e,double* trace_i,uint8_t* trace_spikes,
+                       uint32_t* numerical_error) {
     const uint32_t i=blockIdx.x*blockDim.x+threadIdx.x;
     if(i>=n) return;
     // Conductance decays and accumulates during refractory periods too.
     ge[i]+=incoming_e[i];
     gi[i]+=incoming_i[i];
     if(allowed[i]) v[i]+=direct[i];
+    // Reject transient overflow before spike reset can conceal it.
+    if(!isfinite(v[i]) || !isfinite(ge[i]) || !isfinite(gi[i])) {
+        atomicExch(numerical_error,1u);return;
+    }
     if(emitted[i]!=0.0) { v[i]=p.reset_mv;next[i]=tick+(sensory[i]?0:p.refractory_ticks); }
     trace_v[i]=v[i];trace_e[i]=ge[i];trace_i[i]=gi[i];
     trace_spikes[i]=uint8_t(emitted[i]);
@@ -76,6 +87,8 @@ struct fc_model {
     uint64_t edges,tick=0;
     fc_params p;
     double synapse_decay;
+    bool invalid_state=true;
+    Buffer<uint32_t> numerical_error;
     Buffer<uint64_t> row,col,next;
     Buffer<uint8_t> sensory,allowed,trace_spikes;
     Buffer<double> we,wi,v,ge,gi,ring,in_e,in_i,direct,trace_v,trace_e,trace_i;
@@ -88,6 +101,7 @@ struct fc_model {
              fc_params params,uint32_t capacity):
         n(count),cap(capacity),edges(edge_count),p(params),
         synapse_decay(std::exp(-params.dt_ms/params.synapse_ms)),
+        numerical_error(1),
         row(size_t(count)+1),col(edge_count),next(count),
         sensory(count),allowed(count),trace_spikes(size_t(count)*capacity),
         we(edge_count),wi(edge_count),v(count),ge(count),gi(count),
@@ -124,24 +138,29 @@ struct fc_model {
         if(sparse) cusparseDestroy(sparse);
     }
     void reset() {
+        invalid_state=true;
+        check(cudaMemset(numerical_error.data,0,sizeof(uint32_t)));
         check(cudaMemset(ring.data,0,size_t(n)*(p.delay_ticks+1)*sizeof(double)));
         check(cudaMemset(in_e.data,0,size_t(n)*sizeof(double)));
         check(cudaMemset(in_i.data,0,size_t(n)*sizeof(double)));
         reset_state<<<(n+255)/256,256>>>(n,p.rest_mv,v.data,ge.data,gi.data,next.data);
         check(cudaGetLastError());check(cudaDeviceSynchronize());
-        tick=0;
+        tick=0;invalid_state=false;
     }
     void advance(uint32_t ticks,const double* input,double* output_v,double* output_e,
                  double* output_i,uint8_t* output_spikes) {
+        require(!invalid_state,"model state invalid; explicit reset required");
         require(ticks>0 && ticks<=cap,"invalid tick count");
         for(size_t i=0;i<size_t(n)*ticks;++i) require(std::isfinite(input[i]),"nonfinite direct drive");
+        // Any runtime failure after mutation requires an explicit reset.
+        invalid_state=true;
         direct.upload(input,size_t(n)*ticks);
         const double alpha=1,beta=0;
         for(uint32_t step=0;step<ticks;++step,++tick) {
             double* fired=ring.data+(tick%(p.delay_ticks+1))*n;
             double* delayed=ring.data+((tick+1)%(p.delay_ticks+1))*n;
             integrate<<<(n+255)/256,256>>>(n,tick,p,synapse_decay,v.data,ge.data,gi.data,
-                                           next.data,fired,allowed.data);
+                                           next.data,fired,allowed.data,numerical_error.data);
             check(cudaGetLastError());
             check(cusparseDnVecSetValues(x,delayed));
             check(cusparseSpMV(sparse,CUSPARSE_OPERATION_NON_TRANSPOSE,&alpha,
@@ -152,15 +171,19 @@ struct fc_model {
             finish<<<(n+255)/256,256>>>(n,tick,p,direct.data+offset,in_e.data,in_i.data,
                                         fired,sensory.data,allowed.data,v.data,ge.data,gi.data,next.data,
                                         trace_v.data+offset,trace_e.data+offset,trace_i.data+offset,
-                                        trace_spikes.data+offset);
+                                        trace_spikes.data+offset,numerical_error.data);
             check(cudaGetLastError());
         }
         check(cudaDeviceSynchronize());
+        uint32_t error=0;
+        check(cudaMemcpy(&error,numerical_error.data,sizeof(error),cudaMemcpyDeviceToHost));
+        require(error==0,"nonfinite neural state; explicit reset required");
         const size_t total=size_t(n)*ticks;
         check(cudaMemcpy(output_v,trace_v.data,total*sizeof(double),cudaMemcpyDeviceToHost));
         check(cudaMemcpy(output_e,trace_e.data,total*sizeof(double),cudaMemcpyDeviceToHost));
         check(cudaMemcpy(output_i,trace_i.data,total*sizeof(double),cudaMemcpyDeviceToHost));
         check(cudaMemcpy(output_spikes,trace_spikes.data,total,cudaMemcpyDeviceToHost));
+        invalid_state=false;
     }
 };
 
