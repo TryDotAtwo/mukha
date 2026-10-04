@@ -1,0 +1,22 @@
+{
+  "status": "contact_stratification_stopped_before_analysis; pinned_source_recovery_started",
+  "checked_hf_revision": "9ec22f9cb1b0358ee8bef432dd1c9c44c36bb4b8",
+  "missing_object": "888ea69ade19b0376b57c60ee75c5f93102285e2d98f9943619145e449b0f801",
+  "observed_http_status": 404,
+  "nodes_recovered": true,
+  "anatomical_analysis_completed": false,
+  "source_generation": "1780494942562468",
+  "source_expected_bytes": 6777179098,
+  "source_parts": 13,
+  "first_part_verified_bytes": 536870912,
+  "first_part_receipt": {
+    "revision": "207dd2564958af36fdcbb3cb9950baea360212e4",
+    "manifest": "manifests/7b31f56a6fc0af0746e8a7e5407909536b96931325aac606d508088901d2d34f.json",
+    "verified": true
+  },
+  "recovery_driver_commit": "7941a111038dc8b18013c0408574f21ae2c444df",
+  "execution": "One foreground MoLab cell Ujoj; completed ranges immediately published and verified on private HF",
+  "whole_source_verified": false,
+  "plasticity_enabled": false,
+  "limitation": "Previous local contact reports do not supply missing remote input bytes. Full-source size/MD5 and immutable closure are required before extracting contacts."
+}
