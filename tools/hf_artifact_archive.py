@@ -48,6 +48,46 @@ def validate_manifest(root, manifest, require_files=True):
             raise ValueError('Artifact differs from manifest: ' + name)
 
 
+class ArchiveCapacityError(RuntimeError):
+    """No compute admission; keep pending immutable output in the same MoLab."""
+
+
+def _capacity_from_dates(dates, now, commits_needed=1, soft_limit=120):
+    """Conservative estimate, not a reservation or proof of server quota."""
+    if not isinstance(commits_needed, int) or not 1 <= commits_needed <= soft_limit:
+        raise ValueError('Invalid required commit capacity')
+    active = sorted(float(t) for t in dates if float(t) > now - 3600)
+    excess = len(active) + commits_needed - soft_limit
+    wait = max(0.0, active[excess - 1] + 3605 - now) if excess > 0 else 0.0
+    return {'recent_commits': len(active), 'commits_needed': commits_needed,
+            'soft_limit': soft_limit, 'wait_seconds': wait,
+            'admitted': excess <= 0, 'reservation': False}
+
+
+def require_commit_capacity(api, repo_id, commits_needed=3, now=None):
+    """Call before a new experiment, and again before each commit.
+
+    History excludes failed requests and other actors may commit concurrently.
+    Keep eight slots below the observed 128/hour server limit. Server errors
+    still stop progression; do not treat this estimate as a guaranteed slot.
+    """
+    import time
+    moment = time.time() if now is None else now
+    commits = api.list_repo_commits(repo_id, repo_type='dataset')
+    dates = []
+    for commit in commits:
+        stamp = commit.created_at
+        if stamp.tzinfo is None:
+            raise ValueError('Commit timestamp lacks timezone')
+        dates.append(stamp.timestamp())
+    record = _capacity_from_dates(dates, moment, commits_needed)
+    print('HF_COMMIT_CAPACITY', json.dumps(record), flush=True)
+    if not record['admitted']:
+        raise ArchiveCapacityError('HF commit capacity unavailable; wait %.1f seconds; '
+                                   'do not start another experiment' % record['wait_seconds'])
+    return record
+
+
 def _paced_commit(api, repo_id, revision, operations_factory, interval_seconds):
     """Serialize commit starts across MoLab publishers; 0 is for offline tests."""
     import fcntl
@@ -71,6 +111,7 @@ def _paced_commit(api, repo_id, revision, operations_factory, interval_seconds):
             remaining = previous + interval_seconds - time.time()
             print('HF_COMMIT_PACING_SECONDS', round(remaining, 1), flush=True)
             time.sleep(min(remaining, 15.0))
+        require_commit_capacity(api, repo_id, commits_needed=1)
         # Failed attempts also consume the pacing slot. Do not automatically retry 429.
         state.seek(0)
         state.truncate()
