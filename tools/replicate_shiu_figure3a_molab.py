@@ -136,6 +136,7 @@ def main():
             receipts.append(next(iter(matching_manifests.values())))
             print("REUSED_VERIFIED_TRIAL",trial,seed,len(previous["mn9_ticks"]),flush=True)
             continue
+        archive.require_commit_capacity(api, 'TryDotAtwo/faithful-fly-artifacts', commits_needed=3)
         b.start_scope()
         b.defaultclock.dt = .1*b.ms
         b.seed(seed)
