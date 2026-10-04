@@ -11,6 +11,8 @@ import subprocess
 import sys
 import threading
 import time
+import urllib.request
+import zipfile
 
 REPO = "TryDotAtwo/faithful-fly-artifacts"
 
@@ -128,9 +130,40 @@ def main():
         "--query-compute-apps=pid,process_name", "--format=csv,noheader"], text=True).strip()
     if active:
         raise RuntimeError("GPU already has compute processes; stop instead of competing")
+    # Recover missing CCCL from a pinned official wheel, inside MoLab only.
+    dependency_paths = []
+    cccl = cuda / "include"
+    if not (cccl / "nv/target").exists():
+        dependencies = root / "dependencies"
+        dependencies.mkdir()
+        with urllib.request.urlopen("https://pypi.org/pypi/nvidia-cuda-cccl/13.0.85/json", timeout=30) as response:
+            package = json.load(response)
+        wheels = [f for f in package["urls"] if f["filename"].endswith(".whl")
+                  and "manylinux2014_x86_64" in f["filename"]]
+        if len(wheels) != 1:
+            raise RuntimeError("Expected unique pinned Linux CCCL wheel")
+        entry = wheels[0]
+        if not entry["url"].startswith("https://files.pythonhosted.org/"):
+            raise RuntimeError("Unexpected dependency origin")
+        wheel = dependencies / entry["filename"]
+        with urllib.request.urlopen(entry["url"], timeout=60) as response:
+            wheel.write_bytes(response.read())
+        if sha(wheel) != entry["digests"]["sha256"]:
+            raise RuntimeError("CCCL wheel identity mismatch")
+        extracted = dependencies / "cccl"
+        with zipfile.ZipFile(wheel) as archive_file:
+            for name in archive_file.namelist():
+                if Path(name).is_absolute() or ".." in Path(name).parts:
+                    raise RuntimeError("Unsafe wheel member")
+            archive_file.extractall(extracted)
+        targets = list(extracted.rglob("nv/target"))
+        if len(targets) != 1:
+            raise RuntimeError("Expected unique CCCL nv/target")
+        cccl = targets[0].parent.parent
+        dependency_paths.append(str(wheel.relative_to(root)))
     toolchain = subprocess.check_output([nvcc, "--version"], text=True)
     metadata = {"source_commit": actual, "baseline_commit": args.baseline_commit,
-                "gpu": hardware, "nvcc": toolchain, "flags": ["-std=c++17", "-O2",
+                "gpu": hardware, "nvcc": toolchain, "cccl_include": str(cccl), "dependency_files": dependency_paths, "flags": ["-std=c++17", "-O2",
                 "-arch=sm_120", "--fmad=false", "--shared", "-Xcompiler=-fPIC"],
                 "scope": "Tiny GPU arithmetic failure regression, not physiology or full-graph performance"}
     (root / "metadata.json").write_text(json.dumps(metadata, indent=2))
@@ -144,6 +177,7 @@ def main():
                "source/tools/check_conductance_finite_state.py",
                "source/tools/run_molab_conductance_finite.py", "source/tools/hf_artifact_archive.py",
                "source/docs/CONDUCTANCE_FINITE_PROTOCOL.md"]
+    closure.extend(dependency_paths)
     publish(root, closure, archive, "source-input-closure", receipts)
     outputs = root / "outputs"
     outputs.mkdir()
@@ -152,7 +186,7 @@ def main():
         target = outputs / (label + ".so")
         log = logs / (label + "-build.log")
         command = [nvcc, "-std=c++17", "-O2", "-arch=sm_120", "--fmad=false",
-                   "--shared", "-Xcompiler=-fPIC", "-I" + str(cuda/"include"),
+                   "--shared", "-Xcompiler=-fPIC", "-I" + str(cuda/"include"), "-I" + str(cccl),
                    str(src/"cuda_conductance.cu"), "-o", str(target), "-Xlinker", str(cusparse),
                    "-Xlinker=-rpath," + str(libdir)]
         status = run_logged(command, root, log)
