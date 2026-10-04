@@ -1,0 +1,38 @@
+{
+  "status": "build_and_inputs_archived; comparison not yet executed",
+  "numerical_source_commit": "79c995ab604247564ffdaf5e4a9ac4fc6aa7cbda",
+  "build_driver_commit": "ec873751305fc8de334eb51940ccaa9f9d9aa975",
+  "nodes": 127400,
+  "edges": 14687178,
+  "sugar_cells": 21,
+  "bitter_cells": 21,
+  "events": 4284,
+  "seed": 193041,
+  "scope": "One fixed-input numerical trajectory; no author Poisson-grid/MaleCNS physiology/plasticity/KSP admission.",
+  "source_input_receipt": {
+    "revision": "57143ccf7b64dc0fdad45bac818d8713d7933055",
+    "manifest": "manifests/1ae7bc2dfa3d4928d4cd273233c7686446b940763cdb6dc4856c4bf56eaaac06.json"
+  },
+  "graph_receipt": {
+    "revision": "7da9fe5680a1fa88839f7295466014e327d41f6c",
+    "manifest": "manifests/26b6665f94525d07726b9ff2c6ccd24c654d8391af17cc6d000ebdafab786b07.json"
+  },
+  "protocol_receipt": {
+    "revision": "cb3513cce1cefe3fd1be6fd1224aa5a96d8c2991",
+    "manifest": "manifests/20b0c13bfcd83b0df9e201cb3c9693689b80985650a528a3d383f27d413c0048.json"
+  },
+  "rust_dependency_receipt": {
+    "revision": "92523dc6fc3d953f9415a9aa57bfa019965b0cbd",
+    "manifest": "manifests/9e5fbfe5f89d1ae026ef7e201a00259e036486f434ef61dfc803da4cbfdb152b.json"
+  },
+  "build_driver_receipt": {
+    "revision": "dd6f9e65b65a3aae6f6302e3c490d002a6bf8296",
+    "manifest": "manifests/f8954ac1801ba15689d5d1bc62be8b049ff42f3f37f9d6148c29d4a8d341a55a.json"
+  },
+  "build_receipt": {
+    "revision": "771cb8ecef936d6fd62d10cd83fc66d67636476f",
+    "manifest": "manifests/f62efbdc2c2e394305a41ee2bc1156be6ffc1d87a87c32f46add36d71a20f74b.json"
+  },
+  "archive_private": true,
+  "sandbox_loss": "Transport GET/api/sessions returned HTTP410 after build receipt; reference/native/compare request did not reach kernel. Restore only from immutable HF into new MoLab; no local fallback."
+}
