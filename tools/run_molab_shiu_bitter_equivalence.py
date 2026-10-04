@@ -90,7 +90,9 @@ def main():
         configuration.write_text('[source.crates-io]\nreplace-with = "vendored-sources"\n[source.vendored-sources]\ndirectory = "'+str(vendor)+'"\n')
         vendor_bundle=root/'vendor-closure.tar.gz'
         with tarfile.open(vendor_bundle,'w:gz') as tf:tf.add(vendor,arcname='vendor')
-        publish([vendor_bundle,configuration,source/'Cargo.lock'],'rust-dependencies')
+        archived_configuration=root/'vendor-config.toml'
+        shutil.copyfile(configuration,archived_configuration)
+        publish([vendor_bundle,archived_configuration,source/'Cargo.lock'],'rust-dependencies')
         print('REPLAY_SETUP_COMPLETE',flush=True)
         return
     require('source-input')
