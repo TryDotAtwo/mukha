@@ -876,3 +876,29 @@ f11f1dbdecce9cd817514225cfe7ad58503c16d7 / manifest
 2764ea9b2487c7b7b3adccacb78cec389bee2557709541ce2e0096b7d55220ad.
 No new physiological simulation, parameter refit or contact learning was
 performed. All full-project acceptance gates remain open.
+
+
+## Full original Huang calibration protocol in MoLab (2026-10-05)
+
+The reference/native harnesses now preserve fitted nine-weight source parameters,
+select the exact six weights for each author odor pair, and support six imaging
+sessions plus all-event activity output. All four model/odor combinations agree
+across all 51 events and six imaging sessions, with maximum absolute error
+9.769962616701378e-15 below the fixed 1e-8 threshold. The unchanged native
+library remains pinned; the updated-harness Figure5d regression also retains
+its original 1,944-value result. Numerical comparison is against the Python
+translation and saved Figure5d arrays, not a fresh MATLAB execution.
+
+The workbook is sparse: included calibration cells are 36/24 for the two-module
+ACV/ETA and OCT/BEN cases, 52/34 for the three-module cases. Late 3hr/24hr
+sessions supply two observed cells each per odor pair. Missing cells remain
+missing. Supplied parameters were not refitted; those 24hr observations already
+participated in the author fit. No independent animal holdout or biological
+transfer follows from the residuals. All four completed conditions were
+immediately archived before advancing. Final verified HF revision:
+f7714e1ae6ef05c448534a28e231e670334312d7 / manifest
+c54c5c203f139250acb716b3a06d87947804140886ced5ef74cb8962ff2961a7.
+Report: reports/huang_six_session_calibration_molab.json. The initial two-session
+harness coverage gap is closed; independent physiological/local plasticity,
+whole-CNS geometry, embodied control and KSP acceptance remain open. Contact
+learning remains disabled. No local computation or result/data download.
