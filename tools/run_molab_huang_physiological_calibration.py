@@ -5,7 +5,7 @@ from pathlib import Path
 import numpy as np
 from huggingface_hub import HfApi
 
-ROOT=Path('/tmp/fly-huang-physiological-v2-20261005')
+ROOT=Path('/tmp/fly-huang-physiological-v3-20261005')
 OLD=Path('/tmp/fly-huang-native-20261004')
 PIN='69987d6e38cb9da1a49879267ff4114c5450348b'
 
@@ -19,17 +19,22 @@ def workbook_observations(path):
             target=rels[sheet.attrib['{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id']]
             name=target.lstrip('/') if target.startswith('/') else 'xl/'+target
             values={'Mean':[],'Sem':[]}
+            columns=['C','D','E','F','G','H','K','L','M','N','O','P']
             for row in ET.fromstring(z.read(name)).findall('m:sheetData/m:row',ns):
-                labels=[];numbers=[]
+                labels=[];numbers={}
                 for cell in row.findall('m:c',ns):
                     val=cell.find('m:v',ns)
                     if val is None:continue
                     if cell.get('t')=='s':labels.append(shared[int(val.text)])
-                    elif cell.get('t','n')=='n':numbers.append(float(val.text))
+                    elif cell.get('t','n')=='n':
+                        column=''.join(c for c in cell.get('r') if c.isalpha())
+                        if column not in columns:raise ValueError('Unexpected numeric workbook column')
+                        numbers[column]=float(val.text)
+                    else:raise ValueError('Unexpected nonnumeric observation')
                 kinds=[kind for kind in values if kind in labels]
                 if kinds:
-                    if len(kinds)!=1 or len(numbers)!=12:raise ValueError('Unexpected aggregate workbook layout')
-                    values[kinds[0]].append(numbers)
+                    if len(kinds)!=1:raise ValueError('Ambiguous aggregate workbook row')
+                    values[kinds[0]].append([numbers.get(column,float('nan')) for column in columns])
             mean=np.asarray(values['Mean']);sem=np.asarray(values['Sem'])
             if mean.shape!=(6,12) or sem.shape!=(6,12):raise ValueError('Workbook population shape')
             result[sheet.get('name')]=(mean.reshape(6,2,6),sem.reshape(6,2,6))
@@ -59,12 +64,11 @@ def main():
     shutil.copytree(OLD/'data/reference/huang_2024',ROOT/'data/reference/huang_2024',dirs_exist_ok=True)
     closure=[p.relative_to(ROOT).as_posix() for folder in ('reference','build','tools','data','reports','native') for p in (ROOT/folder).rglob('*') if p.is_file()]
     inputs=publish(closure)
-    run=subprocess.run([sys.executable,'tools/check_huang_figure.py','--native'],cwd=ROOT,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,text=True,timeout=180)
-    (ROOT/'figure5d-regression.log').write_text(run.stdout)
-    names=['figure5d-regression.log']+[p.relative_to(ROOT).as_posix() for p in (ROOT/'reports').glob('huang_native_figure5d_comparison.json')]+[p.relative_to(ROOT).as_posix() for p in (ROOT/'build').glob('huang_native_figure5d_prediction.npy')]
-    regression=publish(names)
-    print('FIGURE5D_REGRESSION',run.stdout,flush=True)
-    if run.returncode:raise RuntimeError('Figure5d regression failed; terminal files archived')
+    regression={'repo_id':'TryDotAtwo/faithful-fly-artifacts','repo_type':'dataset','revision':'f052bd2f4c8c89eb35876ea01239a36a0418d5b3','manifest':'manifests/bef0982675d72f41541956f40c04f525d2b13e9c550f0048a869dc77a074176f.json','sha256':'bef0982675d72f41541956f40c04f525d2b13e9c550f0048a869dc77a074176f','verified':True}
+    a.restore(ROOT,regression)
+    regression_report=json.loads((ROOT/'reports/huang_native_figure5d_comparison.json').read_text())
+    if not regression_report['passed'] or regression_report['library_sha256']!=a.digest(ROOT/'build/huang_reference.dll') or regression_report['translation_sha256']!=a.digest(ROOT/'reference/huang.py'):raise RuntimeError('Previously passed regression identity drift')
+    print('FIGURE5D_REGRESSION_REUSED',json.dumps(regression_report),flush=True)
     sys.path.insert(0,str(ROOT))
     modules_loaded=[]
     for name in ('huang','huang_native'):
@@ -89,10 +93,11 @@ def main():
             mean,sem=observations[odor]
             included=np.ones(mean.shape,dtype=bool)
             if modules==2:included[[1,4],:,:]=False
+            if not np.array_equal(np.isfinite(mean),np.isfinite(sem)):raise RuntimeError('Unmatched mean/SEM missing observation')
             mask=included&np.isfinite(mean)&np.isfinite(sem)
             if not np.all(sem[mask]>0):raise RuntimeError('Nonpositive SEM in observed calibration cells')
             residual=prediction-mean
-            report={'schema':'huang-original-calibration-native-v1','modules':modules,'odor_pair':odor,'events':51,'imaging_sessions':6,'all_event_values':306,'imaging_values':72,'tolerance':1e-8,'native_reference_max_abs_error':error,'imaging_max_abs_error':imaging_error,'numerical_passed':error<1e-8 and imaging_error<1e-8,'included_calibration_observations':int(mask.sum()),'calibration_rmse':float(np.sqrt(np.mean(residual[mask]**2))),'calibration_sem_weighted_squared_error':float(np.sum((residual[mask]/sem[mask])**2)),'independent_biological_validation':False,'parameters_refitted':False,'scope':'Original aggregate mean/SEM calibration; supplied fit includes all six sessions, including 24hr.'}
+            report={'schema':'huang-original-calibration-native-v1','modules':modules,'odor_pair':odor,'events':51,'imaging_sessions':6,'all_event_values':306,'imaging_values':72,'tolerance':1e-8,'native_reference_max_abs_error':error,'imaging_max_abs_error':imaging_error,'numerical_passed':error<1e-8 and imaging_error<1e-8,'included_calibration_observations':int(mask.sum()),'included_observations_per_session':[int(mask[:,:,i].sum()) for i in range(6)],'missing_observations_preserved':True,'calibration_rmse':float(np.sqrt(np.mean(residual[mask]**2))),'calibration_sem_weighted_squared_error':float(np.sum((residual[mask]/sem[mask])**2)),'independent_biological_validation':False,'parameters_refitted':False,'scope':'Original aggregate mean/SEM calibration; supplied fit includes all six sessions, including 24hr.'}
             np.savez(ROOT/(key+'.npz'),native_all_events=native,reference_all_events=ref,prediction=prediction,mean=mean,sem=sem,included=mask)
             (ROOT/(key+'.json')).write_text(json.dumps(report,indent=2))
             receipt=publish([key+'.npz',key+'.json'])
