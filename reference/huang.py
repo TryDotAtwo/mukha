@@ -37,7 +37,7 @@ def figure5d_protocol(rest):
     name,_,odor,pun,img=events[3];events[3]=(name,300,odor,pun,img)
     return events
 
-def simulate(params,events):
+def simulate(params,events, *, return_all=False):
     wpun=np.array([27.85,0,11.38,0,0,0])
     baseline=np.array([0,0,0,35.2,9.,11.2])
     maximum=np.array([71.66,17.9,31.16])
@@ -47,7 +47,7 @@ def simulate(params,events):
     tau=params[4].ravel();adapt_tau=float(params[5].item())
     delta=np.zeros((2,3));odor_start=np.ones(2);records=[]
     last_training=max(i for i,e in enumerate(events) if e[0]=='training')
-    elapsed=0.
+    elapsed=0.;all_activity=[]
     def activation(x):return np.concatenate([x[:3],np.minimum(np.maximum(x[3:],0),maximum)])
     inverse=np.linalg.inv(np.eye(6)-recurrent)
     for i,(_,duration,odor,punishment,imaging) in enumerate(events):
@@ -68,7 +68,9 @@ def simulate(params,events):
             delta*=np.exp(-first/early)*np.exp(-(duration-first)/late)
         else:delta*=np.exp(-duration/late)
         weights=weights0+np.concatenate([np.zeros((2,3)),delta],axis=1)
+        all_activity.append(activity.copy())
         if imaging:records.append(activity.copy())
+    if return_all:return np.stack(all_activity,axis=0)
     if not records or len(records)%2:
         raise ValueError('Expected complete CS+/CS- imaging pairs')
     return np.stack(records,axis=1).reshape(6,2,len(records)//2,order='F')
