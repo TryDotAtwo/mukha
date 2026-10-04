@@ -89,7 +89,7 @@ def _verify_remote_object(remote, size, sha256, git_blob_id):
     if remote.lfs:
         if remote.lfs.sha256 != sha256:
             raise ValueError('Remote LFS digest mismatch')
-    elif remote.blob_id != git_blob_id:
+    elif remote.blob_id != (git_blob_id() if callable(git_blob_id) else git_blob_id):
         raise ValueError('Remote Git blob mismatch')
 
 
@@ -148,7 +148,7 @@ def publish(root, manifest, repo_id='TryDotAtwo/faithful-fly-artifacts',
                     continue
                 raise ValueError('Remote object missing')
             _verify_remote_object(remote, item['bytes'], sha,
-                                  _git_blob(checked_path(root, name), item['bytes']))
+                                  lambda: _git_blob(checked_path(root, name), item['bytes']))
         return missing
 
     pending = []
