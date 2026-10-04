@@ -1,0 +1,26 @@
+{
+  "source_commit": "db6ff468ce7f4393ff5062a559d5ba996c90e82d",
+  "archive_contract_cases": 11,
+  "capacity_cases": 6,
+  "source_closure": {
+    "revision": "cd3658647025080d8dd8d85574873dfbf1b51c81",
+    "manifest": "manifests/38bc548533cf79066557938ac126f2bbc674ae6f0ff39fd919f84082be960f38.json"
+  },
+  "archive_contract_log": {
+    "revision": "a0afba7e64ba942238ce3aa96150697c80d83f4a",
+    "manifest": "manifests/2080eff73efcf0397a3e9cfca31cb3d17b72302e948f6abc64e608e786789b1b.json"
+  },
+  "capacity_log": {
+    "revision": "1617b7815f0345230db6810c2705285e45983b8c",
+    "manifest": "manifests/46e56a9858ff3b8f1b020fe09118bd67890391f980dc847dda508fc0e118ff2c.json"
+  },
+  "live_probe": {
+    "recent_commits": 122,
+    "required_commits": 3,
+    "soft_limit": 120,
+    "admitted": false,
+    "wait_seconds": 222.54808712005615
+  },
+  "limits": "Conservative history estimate, no slot reservation; failed attempts absent from history, external concurrent publishers possible. Observed server limit128/hour can change. Server rejection stops stage; no automatic retry or quota bypass.",
+  "execution": "Foreground MoLab only; no local helpers, tests, datasets or binaries."
+}

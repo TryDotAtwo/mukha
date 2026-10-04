@@ -1,0 +1,51 @@
+{
+  "scope": "HF archive publication recovery and admission checks only; no MaleCNS physiological validation.",
+  "source_commit": "930399c729b58edf9f4557c2217c8c8cd0a6f9da",
+  "trigger": "HF HTTP 429: 128 repository commits/hour; stopped Shiu condition before another trial.",
+  "completed_unpublished_trial": {
+    "sugar_hz": 100,
+    "bitter_hz": 100,
+    "trial_index": 5,
+    "seed": 19304805,
+    "nodes": 127400,
+    "edges": 14687178,
+    "network_spikes": 8911,
+    "mn9_spike_count": 1
+  },
+  "recovery_receipt": {
+    "revision": "17581e95e082be46d7f862a50e1ccc21830b5890",
+    "manifest": "manifests/ef8042ac5063d16f198b82bd27c94c7c3706b9ef1b8347e5acf239b0dafce066.json",
+    "verified_files": 13,
+    "includes": "Pending completed trial, original stopped terminal, archive source and dependent source/input closure"
+  },
+  "checks_source_receipt": {
+    "revision": "d75f6a114978d213ec3bf06a6fea77f3693326ae",
+    "manifest": "manifests/bb6cb2dc550c76f8453bff6dbffbf42c71de0ae00b328adac732f7b9f28bfbbe.json"
+  },
+  "passed_checks_receipt": {
+    "revision": "aaaa0bf772cd1e1f85fda3c222eacbfb41b85731",
+    "manifest": "manifests/9fd73692f64fee46b86d532eab85c51b0aca4087e951da2fb3cdb3921612b884.json"
+  },
+  "checks": [
+    "unsafe/secret paths rejected",
+    "remote Git mismatch withholds admission",
+    "one commit per small shard; repeated publish creates no commit",
+    "deduplicated content and verified object reuse",
+    "old immutable receipt restores exactly; differing target refused",
+    "LFS SHA256 verified",
+    "missing final manifest withholds receipt",
+    "public repository rejected before commit",
+    "bounded large staging reverified at common final immutable revision",
+    "mutation during commit pacing refused",
+    "production pacing minimum enforced"
+  ],
+  "first_check_failure": "MoLab safe-path Python omitted implicit sibling-module imports; fixed explicitly, failed log retained at 740829d48efef484ff8b06e1ede6dbd82d3edc72.",
+  "admission_boundary": "Atomic commit can expose a candidate manifest before metadata verification; no admitted receipt on verification failure. Consumers must verify immutable objects, not infer admission from manifest existence.",
+  "pacing": "Shared file lock across MoLab processes; minimum 31 seconds between commit request starts; 429 returns failure without experiment continuation or bypass.",
+  "live_recovery": "MoLab confirmed original child stopped before recovery. Second condition resumes with six prior trials reverified, only missing trials execute.",
+  "resume_dependency_receipt": {
+    "revision": "51c70c77c2e05d0296e4ae161b60c2f87a250e09",
+    "manifest": "manifests/349d3dc6ef9585f0d9f0f18ff6f25b991ecb513dc5db989cbcf47e341568b3af.json"
+  },
+  "limitations": "Offline checks do not simulate the real service hourly quota. Successful network commits verify actual file/manifest identities and recovery, not guaranteed future quota availability. No simulation ran locally."
+}
