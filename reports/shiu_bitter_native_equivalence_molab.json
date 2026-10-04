@@ -1,0 +1,49 @@
+{
+  "status": "numerical_equivalence_passed; memcheck pending",
+  "numerical_source_commit": "79c995ab604247564ffdaf5e4a9ac4fc6aa7cbda",
+  "driver_build_commit": "ec873751305fc8de334eb51940ccaa9f9d9aa975",
+  "restore_commit": "0419d94188a91f47561d0b17aef191e3bcea546c",
+  "protocol_sha256": "256054c721ab689e1d8221b296565f8873b5fd97a074a14d02cd25020f2dc09d",
+  "binary_sha256": "74ec2f44a3f4ec10c002ab4ab706fde5289b634d791b9a8f71079a6157419a6e",
+  "source_bundle_sha256": "5087b73c3eaff6244be274815cce1487788dba78ae6053e78fe715fbc4296ad5",
+  "nodes": 127400,
+  "edges": 14687178,
+  "ticks": 10000,
+  "seed": 193041,
+  "sugar_cells": 21,
+  "bitter_cells": 21,
+  "input_events": 4284,
+  "all_spike_events_exact": true,
+  "network_spikes": 9683,
+  "target_spike_ticks": [
+    3036,
+    7154,
+    7371
+  ],
+  "max_target_voltage_error_mv": 5.044853423896711e-13,
+  "tolerance_mv": 0.002,
+  "numerical_comparison_passed": true,
+  "native_wall_seconds": 8.71036517,
+  "brian_wall_seconds": 19.447144527999967,
+  "spike_sha256": "74d6e20f18073ae9bfd447932512f9ed4c37b3df640e0977f72bf3d9bc550d46",
+  "archive_private": true,
+  "recovery_receipt": {
+    "revision": "c0017797262a2332066de4ea0f8aa0459d10281d",
+    "manifest": "manifests/4c9733d2b246160c0ed003e310eeefd01ea3b2b801404c1990551ef780a50be2.json"
+  },
+  "reference_receipt": {
+    "revision": "7f8222c2140c350f2a12b5d06a44fc1527746682",
+    "manifest": "manifests/4d061097c859aabc6f4275081060d5430a0d9f2279e4629ea86b829bf67935f8.json"
+  },
+  "native_receipt": {
+    "revision": "6ca694e33994a3b792d3a858edb076e1f449d765",
+    "manifest": "manifests/b439c70b668ff82c7a8741830cf37bafab4951f18ba71daf2dbacb66901e9c07.json"
+  },
+  "comparison_receipt": {
+    "revision": "6a333c5c3f1aaa9e56f39406f571888721712fc4",
+    "manifest": "manifests/a3c345f6e855a7cc54785fea7c20b2c499aa433aa30ab2c5bceeb1ef0ad6a99b.json"
+  },
+  "scope": "Full original author graph, one fixed-input numerical trajectory. Bernoulli PCG64 replaces original Brian Poisson RNG for shared inputs. No whole-grid reproduction, MaleCNS physiology, local plasticity, checkpoint continuation or KSP acceptance.",
+  "timing_limit": "One run per backend; no repeated performance benchmark claim.",
+  "execution": "Visible foreground MoLab only, restored from HF without rebuilding after HTTP410; no local computation or result download."
+}
