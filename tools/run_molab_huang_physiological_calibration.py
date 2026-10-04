@@ -5,7 +5,7 @@ from pathlib import Path
 import numpy as np
 from huggingface_hub import HfApi
 
-ROOT=Path('/tmp/fly-huang-physiological-20261005')
+ROOT=Path('/tmp/fly-huang-physiological-v2-20261005')
 OLD=Path('/tmp/fly-huang-native-20261004')
 PIN='69987d6e38cb9da1a49879267ff4114c5450348b'
 
@@ -52,12 +52,12 @@ def main():
     original_receipt={'repo_id':'TryDotAtwo/faithful-fly-artifacts','repo_type':'dataset','revision':'62d48988ff2712c029a61912b4ec6cd0e0e4d8d1','manifest':'manifests/82d4d201bc953ac385ca291996bd07e3cbb4aa0d4d8dff272d72ffec55e4fa42.json','sha256':'82d4d201bc953ac385ca291996bd07e3cbb4aa0d4d8dff272d72ffec55e4fa42','verified':True}
     a.restore(OLD,original_receipt)
     if a.digest(OLD/'build/huang_reference.dll')!='2cfd084e87f2e2722840ecc30b8e2fc1744e31da67a973b4f11b47047e4a5e66':raise RuntimeError('Native build identity drift')
-    for folder in ('reference','build','tools','reports'):(ROOT/folder).mkdir(exist_ok=True)
+    for folder in ('reference','build','tools','reports','native'):(ROOT/folder).mkdir(exist_ok=True)
     for name in ('reference/huang.py','reference/huang_native.py'):
         with urllib.request.urlopen('https://raw.githubusercontent.com/TryDotAtwo/mukha/'+PIN+'/'+name,timeout=30) as response:(ROOT/name).write_bytes(response.read())
-    for name in ('build/huang_reference.dll','tools/check_huang_figure.py','reports/huang_reference_sources.json'):shutil.copyfile(OLD/name,ROOT/name)
+    for name in ('build/huang_reference.dll','native/huang.cpp','native/huang.h','tools/check_huang_figure.py','reports/huang_reference_sources.json'):shutil.copyfile(OLD/name,ROOT/name)
     shutil.copytree(OLD/'data/reference/huang_2024',ROOT/'data/reference/huang_2024',dirs_exist_ok=True)
-    closure=[p.relative_to(ROOT).as_posix() for folder in ('reference','build','tools','data','reports') for p in (ROOT/folder).rglob('*') if p.is_file()]
+    closure=[p.relative_to(ROOT).as_posix() for folder in ('reference','build','tools','data','reports','native') for p in (ROOT/folder).rglob('*') if p.is_file()]
     inputs=publish(closure)
     run=subprocess.run([sys.executable,'tools/check_huang_figure.py','--native'],cwd=ROOT,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,text=True,timeout=180)
     (ROOT/'figure5d-regression.log').write_text(run.stdout)
