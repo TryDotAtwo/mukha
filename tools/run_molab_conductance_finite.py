@@ -142,7 +142,8 @@ def main():
     closure = ["metadata.json", "baseline/cuda_conductance.cu", "baseline/cuda_conductance.h",
                "source/AGENTS.md", "source/native/cuda_conductance.cu", "source/native/cuda_conductance.h",
                "source/tools/check_conductance_finite_state.py",
-               "source/tools/run_molab_conductance_finite.py", "source/tools/hf_artifact_archive.py"]
+               "source/tools/run_molab_conductance_finite.py", "source/tools/hf_artifact_archive.py",
+               "source/docs/CONDUCTANCE_FINITE_PROTOCOL.md"]
     publish(root, closure, archive, "source-input-closure", receipts)
     outputs = root / "outputs"
     outputs.mkdir()
