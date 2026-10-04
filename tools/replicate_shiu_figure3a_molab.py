@@ -23,6 +23,7 @@ def main():
     parser.add_argument("--source-root", type=Path, required=True)
     parser.add_argument("--sugar", type=int, required=True)
     parser.add_argument("--bitter", type=int, required=True)
+    parser.add_argument("--resume", action="store_true", help="Verify published trials and execute only missing trials")
     args = parser.parse_args()
     root, source = args.root, args.source_root
     archive = load_module("shiu_grid_archive", source/"tools/hf_artifact_archive.py")
@@ -92,11 +93,49 @@ def main():
     print("GRID_SOURCE_INPUT_CLOSURE",json.dumps(archive.publish(root,{"schema":"faithful-fly-artifacts-v1","files":closure})),flush=True)
     condition_index = freqs.index(args.sugar)*len(freqs)+freqs.index(args.bitter)
     condition = root/"figure3a"/("sugar%03d_bitter%03d"%(args.sugar,args.bitter))
-    condition.mkdir(parents=True,exist_ok=False)
+    condition.mkdir(parents=True,exist_ok=args.resume)
+    verified_previous = {}
+    if args.resume:
+        revision = api.repo_info("TryDotAtwo/faithful-fly-artifacts",repo_type="dataset").sha
+        manifest_names = [name for name in api.list_repo_files("TryDotAtwo/faithful-fly-artifacts",repo_type="dataset",revision=revision) if name.startswith("manifests/") and name.endswith(".json")]
+        prefix = str(condition.relative_to(root))+"/"
+        for name in manifest_names:
+            path = Path(api.hf_hub_download("TryDotAtwo/faithful-fly-artifacts",name,repo_type="dataset",revision=revision))
+            digest = archive.digest(path)
+            if name != "manifests/"+digest+".json":
+                raise RuntimeError("Archive manifest identity mismatch")
+            manifest = json.loads(path.read_text())
+            for relative,record in manifest.get("files",{}).items():
+                if relative.startswith(prefix):
+                    verified_previous.setdefault(relative,[]).append((record,{"repo_id":"TryDotAtwo/faithful-fly-artifacts","repo_type":"dataset","revision":revision,"manifest":name,"sha256":digest}))
+        print("RESUME_ARCHIVE_SCAN_COMPLETE",revision,flush=True)
     counts, receipts = [], []
     for trial in range(30):
         started = time.monotonic()
         seed = 19303000+condition_index*30+trial
+        directory = condition/("trial%02d"%trial)
+        if directory.exists():
+            expected_paths = [directory/"report.json",directory/"spikes.bin"]
+            matching_manifests = None
+            for path in expected_paths:
+                if not path.is_file():
+                    raise RuntimeError("Incomplete existing trial requires explicit recovery: "+str(directory))
+                relative = str(path.relative_to(root))
+                matches = [receipt for record,receipt in verified_previous.get(relative,[]) if record["bytes"]==path.stat().st_size and record["sha256"]==archive.digest(path)]
+                manifests = {receipt["manifest"]:receipt for receipt in matches}
+                matching_manifests = manifests if matching_manifests is None else {name:receipt for name,receipt in matching_manifests.items() if name in manifests}
+            if not matching_manifests:
+                raise RuntimeError("Existing trial has no verified common remote manifest")
+            previous = json.loads(expected_paths[0].read_text())
+            if previous["seed"]!=seed or previous["trial"]!=trial or previous["sugar_hz"]!=args.sugar or previous["bitter_hz"]!=args.bitter or previous["protocol_sha256"]!=archive.digest(protocol_path):
+                raise RuntimeError("Existing trial protocol mismatch")
+            events = np.fromfile(expected_paths[1],dtype="<u4").reshape(-1,2)
+            if len(events)!=previous["network_spikes"] or events[events[:,1]==target,0].tolist()!=previous["mn9_ticks"]:
+                raise RuntimeError("Existing trial event/report mismatch")
+            counts.append(len(previous["mn9_ticks"]))
+            receipts.append(next(iter(matching_manifests.values())))
+            print("REUSED_VERIFIED_TRIAL",trial,seed,len(previous["mn9_ticks"]),flush=True)
+            continue
         b.start_scope()
         b.defaultclock.dt = .1*b.ms
         b.seed(seed)
@@ -113,7 +152,6 @@ def main():
         if np.any(ticks>=10000) or np.any(indices>=len(neurons)):
             raise RuntimeError("Spike outside trial")
         ordering = np.lexsort((indices,ticks))
-        directory = condition/("trial%02d"%trial)
         directory.mkdir()
         events = np.stack((ticks[ordering],indices[ordering]),axis=1).astype("<u4")
         events.tofile(directory/"spikes.bin")
