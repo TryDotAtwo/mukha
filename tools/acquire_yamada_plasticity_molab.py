@@ -13,19 +13,25 @@ def main():
         print('YAMADA_RECEIPT',json.dumps(receipt),flush=True)
         if not receipt.get('verified'):raise RuntimeError('Unverified archive')
         return receipt
-    archive.require_commit_capacity(HfApi(token=__import__('os').environ['HF_TOKEN']), 'TryDotAtwo/faithful-fly-artifacts',commits_needed=3)
+    archive.require_commit_capacity(HfApi(token=__import__('os').environ['HF_TOKEN']), 'TryDotAtwo/faithful-fly-artifacts',commits_needed=5)
     publish(['acquire_yamada.py','source-pin.json'])
     request=urllib.request.Request(URL,headers={'User-Agent':'faithful-fly-source-audit/1.0'})
-    with urllib.request.urlopen(request,timeout=60) as response:
-        raw=response.read(8*1024*1024+1)
-        if len(raw)>8*1024*1024:raise RuntimeError('Source exceeds bound')
+    if (ROOT/'bioc-response.txt').exists():
+        raw=(ROOT/'bioc-response.txt').read_bytes()
+    else:
+        with urllib.request.urlopen(request,timeout=60) as response:
+            raw=response.read(8*1024*1024+1)
+    if len(raw)>8*1024*1024:raise RuntimeError('Source exceeds bound')
     (ROOT/'bioc-response.txt').write_bytes(raw)
     publish(['bioc-response.txt'])
     try:
         tree=ET.fromstring(raw)
     except ET.ParseError:
-        with urllib.request.urlopen('https://pmc.ncbi.nlm.nih.gov/articles/PMC11068490/',timeout=60) as response:
-            html=response.read(8*1024*1024+1)
+        if (ROOT/'PMC11068490.html').exists():
+            html=(ROOT/'PMC11068490.html').read_bytes()
+        else:
+            with urllib.request.urlopen('https://pmc.ncbi.nlm.nih.gov/articles/PMC11068490/',timeout=60) as response:
+                html=response.read(8*1024*1024+1)
         if len(html)>8*1024*1024:raise RuntimeError('HTML exceeds bound')
         (ROOT/'PMC11068490.html').write_bytes(html)
         publish(['PMC11068490.html'])
@@ -45,7 +51,7 @@ def main():
         passages.append({'offset':p.findtext('offset'),'metadata':infons,'text':text})
     if not any('Cyclic nucleotide-induced bidirectional' in p['text'] for p in passages):raise RuntimeError('Wrong article')
     (ROOT/'PMC11068490.normalized.xml').write_bytes(raw)
-    (ROOT/'acquisition.json').write_text(json.dumps({'url':URL,'pmcid':'PMC11068490','doi':'10.1113/JP285745','source_sha256':archive.digest(ROOT/'PMC11068490.bioc.xml'),'bytes':len(raw)},indent=2))
+    (ROOT/'acquisition.json').write_text(json.dumps({'bioc_request_url':URL,'article_url':'https://pmc.ncbi.nlm.nih.gov/articles/PMC11068490/','normalized_representation':'XML passages from BioC or official HTML fallback; original responses separately archived','pmcid':'PMC11068490','doi':'10.1113/JP285745','source_sha256':archive.digest(ROOT/'PMC11068490.normalized.xml'),'bytes':len(raw)},indent=2))
     receipt=publish(['PMC11068490.bioc.xml','acquisition.json'])
     selected=[p for p in passages if any(k in p['text'].lower() for k in ('forskolin','pairing protocol','bay 41','female','male flies','data availability','reasonable request'))]
     (ROOT/'source-evidence.json').write_text(json.dumps({'source_receipt':receipt,'passages':selected},ensure_ascii=False,indent=2))
