@@ -94,7 +94,7 @@ def _verify_remote_object(remote, size, sha256, git_blob_id):
 
 
 def _git_blob(path, size):
-    h = hashlib.sha1(('blob ' + str(size) + '\\0').encode())
+    h = hashlib.sha1(('blob ' + str(size) + chr(0)).encode())
     with Path(path).open('rb') as stream:
         for chunk in iter(lambda: stream.read(1024 * 1024), b''):
             h.update(chunk)
@@ -133,7 +133,7 @@ def publish(root, manifest, repo_id='TryDotAtwo/faithful-fly-artifacts',
     data = json.dumps(manifest, sort_keys=True, indent=2).encode()
     manifest_hash = hashlib.sha256(data).hexdigest()
     manifest_name = 'manifests/' + manifest_hash + '.json'
-    manifest_blob = hashlib.sha1(('blob ' + str(len(data)) + '\\0').encode() + data).hexdigest()
+    manifest_blob = hashlib.sha1(('blob ' + str(len(data)) + chr(0)).encode() + data).hexdigest()
 
     def verify_objects(batch, at_revision, allow_missing=False):
         paths = api.get_paths_info(repo_id, ['objects/' + sha for sha, _ in batch],
