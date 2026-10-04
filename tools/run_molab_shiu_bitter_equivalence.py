@@ -113,7 +113,10 @@ def main():
         build=source/'build';build.mkdir(exist_ok=True)
         metadata=root/'build-toolchain.json'
         metadata.write_text(json.dumps({'nvcc':subprocess.check_output([nvcc,'--version'],text=True),'rustc':subprocess.check_output(['rustc','--version'],text=True),'cargo':subprocess.check_output(['cargo','--version'],text=True),'gpu':subprocess.check_output(['nvidia-smi','--query-gpu=name,compute_cap,memory.total,driver_version','--format=csv,noheader'],text=True),'cccl_wheel_sha256':archive.digest(cccl_wheels[0]),'cusparse_sha256':archive.digest(cusparse),'flags':['-DFF_FP64','--fmad=false','-O2','-arch=sm_120'],'numerical_scope':'FP64 author graph'},indent=2))
-        publish([metadata,cccl_wheels[0]],'cuda-dependencies')
+        archived_cccl=root/'dependencies'/cccl_wheels[0].name
+        if not archived_cccl.exists():shutil.copyfile(cccl_wheels[0],archived_cccl)
+        if archive.digest(archived_cccl)!=archive.digest(cccl_wheels[0]):raise RuntimeError('CCCL copy differs')
+        publish([metadata,archived_cccl],'cuda-dependencies')
         lib=build/'libfly_cuda64.so'
         run([nvcc,'-DFF_FP64','-std=c++17','-O2','-arch=sm_120','--fmad=false','--shared','-Xcompiler=-fPIC','-I'+str(cccl),str(source/'native/cuda_probe.cu'),'-o',str(lib),'-Xlinker',str(cusparse),'-Xlinker=-rpath,'+str(libs)],'cuda64-build',[lib])
         os.environ['FF_CUDA_LIB_DIR']=str(build)
