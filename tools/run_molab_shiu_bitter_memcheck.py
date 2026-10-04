@@ -23,8 +23,10 @@ def main():
     import gzip,io
     base='https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2404/x86_64/'
     index=dep/'nvidia-Packages.gz'
-    with urllib.request.urlopen(base+'Packages.gz',timeout=60) as response:
-        data=response.read(20*1024*1024+1)
+    if index.exists():data=index.read_bytes()
+    else:
+        with urllib.request.urlopen(base+'Packages.gz',timeout=60) as response:
+            data=response.read(20*1024*1024+1)
     if len(data)>20*1024*1024:raise RuntimeError('Package metadata unexpectedly large')
     index.write_bytes(data)
     text=gzip.decompress(data).decode('utf-8')
@@ -51,9 +53,11 @@ def main():
     unpacked=dep/'sanitizer-cli';unpacked.mkdir(exist_ok=True)
     payload=subprocess.check_output(['dpkg-deb','--fsys-tarfile',str(package)])
     with tarfile.open(fileobj=io.BytesIO(payload),mode='r:') as tf:tf.extractall(unpacked,filter='data')
-    candidates={str(path.resolve()):path.resolve() for path in unpacked.rglob('compute-sanitizer') if path.is_file()}
-    if len(candidates)!=1:raise RuntimeError('Expected unique official compute-sanitizer CLI')
-    sanitizer=next(iter(candidates.values()))
+    # The package also contains a 112-byte launcher for /usr/local installation.
+    # Execute the verified ELF directly from its extracted sibling library directory.
+    sanitizer=unpacked/'usr/local/cuda-13.0/compute-sanitizer/compute-sanitizer'
+    with sanitizer.open('rb') as stream:
+        if stream.read(4)!=b'\x7fELF':raise RuntimeError('Expected official sanitizer ELF')
     os.environ['LD_LIBRARY_PATH']=str(source/'build')+os.pathsep+os.environ.get('LD_LIBRARY_PATH','')
     binary=source/'target/release/faithful-fly'
     protocol=source/'configs/shiu_bitter_equivalence.json'
