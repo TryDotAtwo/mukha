@@ -153,7 +153,7 @@ def main():
         log = logs / (label + "-build.log")
         command = [nvcc, "-std=c++17", "-O2", "-arch=sm_120", "--fmad=false",
                    "--shared", "-Xcompiler=-fPIC", "-I" + str(cuda/"include"),
-                   str(src/"cuda_conductance.cu"), "-o", str(target), str(cusparse),
+                   str(src/"cuda_conductance.cu"), "-o", str(target), "-Xlinker", str(cusparse),
                    "-Xlinker=-rpath," + str(libdir)]
         status = run_logged(command, root, log)
         stage_paths = [str(log.relative_to(root))]
