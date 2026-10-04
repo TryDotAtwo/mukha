@@ -1,6 +1,7 @@
 """Acquire primary gamma1 plasticity evidence in MoLab; never enable learning."""
 import importlib.util,json,sys,urllib.request,xml.etree.ElementTree as ET
 from pathlib import Path
+from huggingface_hub import HfApi
 ROOT=Path('/tmp/fly-yamada-plasticity-20261004')
 URL='https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC11068490/unicode'
 def main():
@@ -12,7 +13,7 @@ def main():
         print('YAMADA_RECEIPT',json.dumps(receipt),flush=True)
         if not receipt.get('verified'):raise RuntimeError('Unverified archive')
         return receipt
-    archive.require_commit_capacity(archive.HfApi(token=__import__('os').environ['HF_TOKEN']), 'TryDotAtwo/faithful-fly-artifacts',commits_needed=3)
+    archive.require_commit_capacity(HfApi(token=__import__('os').environ['HF_TOKEN']), 'TryDotAtwo/faithful-fly-artifacts',commits_needed=3)
     publish(['acquire_yamada.py','source-pin.json'])
     request=urllib.request.Request(URL,headers={'User-Agent':'faithful-fly-source-audit/1.0'})
     with urllib.request.urlopen(request,timeout=60) as response:
