@@ -55,7 +55,7 @@ def main():
     if not compiler:raise RuntimeError('Native compiler unavailable in MoLab')
     version=subprocess.check_output([compiler,'--version'],text=True)
     dependency=subprocess.check_output([compiler,'-std=c++17','-M','native/huang.cpp'],cwd=ROOT,text=True)
-    headers=shlex.split(dependency.replace('\\\n',' '))[1:]
+    headers=shlex.split(dependency.replace(chr(92)+chr(10),' '))[1:]
     paths=sorted({Path(h) if Path(h).is_absolute() else ROOT/h for h in headers}|{Path(compiler).resolve()})
     if len(paths)>4096 or sum(p.stat().st_size for p in paths)>100*1024*1024:raise RuntimeError('Build dependency bound exceeded')
     with tarfile.open(ROOT/'build/build-inputs.tar.gz','w:gz') as archive:
