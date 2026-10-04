@@ -156,7 +156,8 @@ def main():
                 if Path(name).is_absolute() or ".." in Path(name).parts:
                     raise RuntimeError("Unsafe wheel member")
             archive_file.extractall(extracted)
-        targets = list(extracted.rglob("nv/target"))
+        targets = [extracted / "nvidia/cu13/include/nv/target"]
+        targets = [path for path in targets if path.is_file()]
         if len(targets) != 1:
             raise RuntimeError("Expected unique CCCL nv/target")
         cccl = targets[0].parent.parent
