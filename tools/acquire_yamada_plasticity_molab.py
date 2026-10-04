@@ -19,14 +19,32 @@ def main():
     with urllib.request.urlopen(request,timeout=60) as response:
         raw=response.read(8*1024*1024+1)
         if len(raw)>8*1024*1024:raise RuntimeError('Source exceeds bound')
-    tree=ET.fromstring(raw)
+    (ROOT/'bioc-response.txt').write_bytes(raw)
+    publish(['bioc-response.txt'])
+    try:
+        tree=ET.fromstring(raw)
+    except ET.ParseError:
+        with urllib.request.urlopen('https://pmc.ncbi.nlm.nih.gov/articles/PMC11068490/',timeout=60) as response:
+            html=response.read(8*1024*1024+1)
+        if len(html)>8*1024*1024:raise RuntimeError('HTML exceeds bound')
+        (ROOT/'PMC11068490.html').write_bytes(html)
+        publish(['PMC11068490.html'])
+        from html.parser import HTMLParser
+        class TextParser(HTMLParser):
+            def __init__(self):super().__init__();self.parts=[]
+            def handle_data(self,data):self.parts.append(data)
+        parser=TextParser();parser.feed(html.decode('utf-8'))
+        text=' '.join(parser.parts)
+        if 'Cyclic nucleotide-induced bidirectional' not in text:raise RuntimeError('HTML did not supply article')
+        tree=ET.Element('collection');p=ET.SubElement(tree,'passage');ET.SubElement(p,'text').text=text
+        raw=ET.tostring(tree,encoding='utf-8')
     passages=[]
     for p in tree.findall('.//passage'):
         text=p.findtext('text') or ''
         infons={i.get('key'):i.text for i in p.findall('infon')}
         passages.append({'offset':p.findtext('offset'),'metadata':infons,'text':text})
     if not any('Cyclic nucleotide-induced bidirectional' in p['text'] for p in passages):raise RuntimeError('Wrong article')
-    (ROOT/'PMC11068490.bioc.xml').write_bytes(raw)
+    (ROOT/'PMC11068490.normalized.xml').write_bytes(raw)
     (ROOT/'acquisition.json').write_text(json.dumps({'url':URL,'pmcid':'PMC11068490','doi':'10.1113/JP285745','source_sha256':archive.digest(ROOT/'PMC11068490.bioc.xml'),'bytes':len(raw)},indent=2))
     receipt=publish(['PMC11068490.bioc.xml','acquisition.json'])
     selected=[p for p in passages if any(k in p['text'].lower() for k in ('forskolin','pairing protocol','bay 41','female','male flies','data availability','reasonable request'))]
