@@ -808,3 +808,31 @@ Initial-gravity control (2026-09-24): With the same author keyframe, 2-s relaxat
 Live full-CNS/body/rocket cabin loop (2026-09-24): `tools/probe_live_cabin_claw.py` ran the complete native FP64 graph, harnessed body and radial rocket online at 0.1 ms for 100 ms from zero-gravity relaxation. Under the unvalidated negative-position SNpp50 encoder, 35 sensory spikes changed total graph events from 5,001 to 4,754 and moved candidate motor spike tick 641 to 612. Knee differed from tick 613, after the last foot-pad contact at tick 510. Contact, slide, throttle and rocket velocity were identical to blocked sensory input; the motor-off and contact-off controls had zero slide. The sensor drive peaked at 114.42 mV; central voltage jumps, encoder gain/sign and motor mapping remain artificial. This is a live numerical loop with negative cockpit feedback, not biological behavior or landing. See `reports/live_cabin_claw_local.json` and `docs/FREE_ROOT_BODY.md`.
 Central-drive ablation (2026-09-24): A matched four-case live run removed only the ten artificial source-neuron voltage jumps. All four 100-ms cases then had zero full-graph events, exact pad contacts, slide and throttle. Passive knee drift supplied at most 0.005994 mV to the negative-position encoder, versus 35 SNpp50 spikes under periodic jumps. `tools/check_live_cabin_central_necessity.py` checks both reports and all event/trace hashes; see `reports/live_cabin_central_necessity.json`. Thus this fixture's contact depends on artificial central excitation. This does not imply natural MaleCNS silence or validate the biological encoder.
 Same-connectome visual source lead (2026-09-24): Hoeller et al., Cell 2026, DOI 10.1016/j.cell.2026.08.014 and the author `reiserlab/visualpathways` repository identify predicted anatomical receptive fields and a `ME(R)-columns-r-theta` retinotopy layer in MaleCNS. This may provide a stronger basis for column/angular registration than transferring the separate eye-map specimen, but no per-column angular table has been acquired or matched to our pinned 1,772 columns. Predicted downstream receptive fields are not measured photoreceptor optical axes. Image-to-CNS assignments remain disabled; see `docs/VISION_MAPPING.md`.
+
+
+## MoLab KC-to-MBON recovery and gamma1 candidate strata (2026-10-04)
+
+The generation-pinned complete synapse-partner source was recovered directly in
+MoLab as 13 immediately archived immutable ranges. Whole-source size
+6,777,179,098 bytes and published MD5 58efcf712f8c4d4de5f2ad51e97def76
+match; the verified HF composition receipt is
+06d9c0131f62f6555529ae045b025f959bce8e3d / manifest
+67bba473f9e8289ed0fdb866692ac5242441efe66a61518d41c4906d0a113318.
+
+A fresh full pass over 311,833,243 partner rows in all 4,759 batches recovered
+463,640 KC-to-MBON contacts. Every one of the 61,210 pairs agrees with the
+pinned candidate incoming CSR; mismatches: zero. Five completed contact shards
+were individually archived before continuing. Final report/strata receipt:
+633002a94ba6f474f65a482a69549623021ac7b3 / manifest
+f7b6479c91af427831e9bc620accb592c9bc20dc04774cb01a920c751e50e155.
+See reports/yamada_gamma1_contact_strata_molab.json.
+
+MBON11 annotation candidates 10704 and 11402 receive 41,460 retained KC
+contacts from multiple gamma and alpha/beta annotation subtypes. Preserve these
+strata for the independent Yamada gamma1 physiology controls; an aggregate
+MBON11 gain cannot by itself establish subtype-specific physiology. Annotation
+labels and broad lobar ROIs do not establish each contact's gamma1 compartment,
+receptor action or plasticity. No learning was enabled. This closes the missing
+remote KC-to-MBON coordinate input, not whole-CNS morphology coverage, biological
+identity transfer, calibrated local plasticity, body control or KSP acceptance.
+All original contract gates remain open pending their own evidence.
