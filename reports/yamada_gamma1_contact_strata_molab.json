@@ -1,0 +1,83 @@
+{
+  "status": "complete_anatomical_recovery; biological_plasticity_open",
+  "source_commit": "68a480b51c9abb0aa7394e4ca516fcde7efaa533",
+  "execution": "MoLab foreground cell SkQO; no local calculation or dataset/result download",
+  "source_generation": "1780494942562468",
+  "source_rows": 311833243,
+  "source_batches": 4759,
+  "source_bytes": 6777179098,
+  "source_sha256": "959d8ef4173b35382a3e6acfaf5167c795b6d10b877572d146af04e1b487bc07",
+  "contacts": 463640,
+  "pairs": 61210,
+  "pair_mismatches": 0,
+  "candidate_mbons": [
+    {
+      "bodyId": 10704,
+      "type": "MBON11",
+      "instance": "MBON11(y1pedc>a/B)_L"
+    },
+    {
+      "bodyId": 11402,
+      "type": "MBON11",
+      "instance": "MBON11(y1pedc>a/B)_R"
+    }
+  ],
+  "candidate_contacts": 41460,
+  "kc_type_contacts": {
+    "KCa'b'-ap1": 163,
+    "KCa'b'-ap2": 175,
+    "KCa'b'-m": 152,
+    "KCab-c": 2591,
+    "KCab-m": 4142,
+    "KCab-p": 558,
+    "KCab-s": 5859,
+    "KCg": 24,
+    "KCg-d": 3273,
+    "KCg-m": 24213,
+    "KCg-s1": 138,
+    "KCg-s2": 92,
+    "KCg-s3": 49,
+    "KCg-s4": 31
+  },
+  "roi_contacts": {
+    "CRE(L)": 9,
+    "CRE(R)": 29,
+    "ICL(L)": 9,
+    "PED(L)": 4110,
+    "PED(R)": 5079,
+    "SCL(L)": 5,
+    "SCL(R)": 99,
+    "SIP(L)": 9,
+    "SIP(R)": 1,
+    "a'L(L)": 27,
+    "a'L(R)": 26,
+    "aL(L)": 769,
+    "aL(R)": 2102,
+    "b'L(L)": 44,
+    "b'L(R)": 83,
+    "bL(L)": 390,
+    "bL(R)": 359,
+    "gL(L)": 10844,
+    "gL(R)": 14440,
+    "CentralBrain-unspecified": 3026
+  },
+  "source_closure_receipt": {
+    "revision": "06d9c0131f62f6555529ae045b025f959bce8e3d",
+    "manifest": "manifests/67bba473f9e8289ed0fdb866692ac5242441efe66a61518d41c4906d0a113318.json",
+    "verified": true
+  },
+  "input_receipt": {
+    "revision": "17c8ccdac7f53adb8d1510a7118d1d631b13cc75",
+    "manifest": "manifests/c44e04087d340af2da8f2cae6475778fa09ec89fa3aa2bf17fa5ecdd07926496.json",
+    "verified": true
+  },
+  "result_receipt": {
+    "revision": "633002a94ba6f474f65a482a69549623021ac7b3",
+    "manifest": "manifests/f7b6479c91af427831e9bc620accb592c9bc20dc04774cb01a920c751e50e155.json",
+    "verified": true
+  },
+  "mapping_accepted": false,
+  "plasticity_enabled": false,
+  "scope": "Complete published KC-MBON contact geometry and exact pair correspondence only; candidate annotation strata do not establish gamma1 microcompartment or receptor action.",
+  "next": "Keep gamma and alpha/beta candidate inputs separate for independent physiology interventions; resolve contact compartment and EPSC/PPR observation mapping before enabling a local rule."
+}
