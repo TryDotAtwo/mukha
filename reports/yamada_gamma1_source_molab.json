@@ -1,0 +1,27 @@
+{
+  "status": "source_acquired; biological_validation_open",
+  "source_commit": "17c61058ced0cc03e3ec16cbdce69d4deaf73f4c",
+  "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11068490/",
+  "doi": "10.1113/JP285745",
+  "execution": "MoLab foreground cell nQGl; no local calculation or result download",
+  "original_html_receipt": {
+    "revision": "3531cb67717a662258a0a7c661988026414d3d86",
+    "manifest": "manifests/10f961baf04a878e31e4fa260c9b68939a7776fde75ccb12e0a95fd21541b758.json",
+    "verified": true
+  },
+  "normalized_source_receipt": {
+    "revision": "6e14c9a014b48e89eb85b8be5a507e5203091c81",
+    "manifest": "manifests/deb55346c43eb50050a21d6a5e17b17366e0cf0a9d299843b9adb1e741bc9a3b.json",
+    "verified": true
+  },
+  "evidence_report_receipt": {
+    "revision": "9ec22f9cb1b0358ee8bef432dd1c9c44c36bb4b8",
+    "manifest": "manifests/792a84c8731699c4b195000b8f2e1303b5168fb47bb6bffc400d4634abd0b824.json",
+    "verified": true
+  },
+  "compartment": "gamma KC to MBON gamma1pedc",
+  "raw_recordings_acquired": false,
+  "plasticity_enabled": false,
+  "limits": "Source acquisition and independent intervention requirements only. No quantitative native rule reproduction, MaleCNS contact mapping or biological learning validation. Nonsignificant differences are not equivalence bounds.",
+  "next": "Register gamma1 paired/unpaired intervention inputs and EPSC/PPR mapping, then discriminate native candidate rules; keep gamma4 and alpha/beta protocols separate."
+}
