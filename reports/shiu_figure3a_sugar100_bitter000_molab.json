@@ -1,0 +1,71 @@
+{
+  "scope": "Completed original Shiu author graph Figure 3A sugar=100 Hz / bitter=0 Hz condition. One of 121 conditions; no MaleCNS transfer or complete biological replication.",
+  "execution": "Visible foreground MoLab notebook cell fpyt; no local simulation or result download.",
+  "author_commit": "91bdd1e7dcf193f3e7ca5a8933497fcef63b7960",
+  "harness_initial_commit": "9a0793403551f2789bbc137d3aae62634070ab12",
+  "harness_resume_commit": "8af6bff44527eff7131f6b98ae93fb203e94becf",
+  "neurons": 127400,
+  "edges": 14687178,
+  "trials": 30,
+  "duration_ms": 1000,
+  "dt_ms": 0.1,
+  "backend": "Brian2 numpy float64; unchanged author create_model and poi",
+  "protocol_sha256": "d528a52c9a25df3083852ceec0b52984fd95b2bb604853d84fd7221b25db775f",
+  "mn9_rates_hz": [
+    64,
+    62,
+    64,
+    67,
+    66,
+    58,
+    73,
+    71,
+    66,
+    67,
+    73,
+    68,
+    73,
+    71,
+    74,
+    65,
+    82,
+    66,
+    66,
+    67,
+    70,
+    68,
+    71,
+    63,
+    80,
+    75,
+    61,
+    58,
+    77,
+    59
+  ],
+  "mn9_mean_hz": 68.16666666666667,
+  "mn9_author_convention_sd_hz": 5.950256763834276,
+  "mn9_sample_sd_hz": 6.051977923093342,
+  "aggregation_convention": "Pinned author utils.py:get_rate uses numpy r.std(), ddof=0. No author published aggregate CSV for Figure 3A appears in the pinned repository tree.",
+  "recovery": "Interrupted during trial index 10. Verified absence of simulation process before resume. Reused trial indices 0-9 after verifying report/spike file hashes against common immutable HF manifests. Continued missing trials 10-29 without changing the protocol.",
+  "archive_repo": "TryDotAtwo/faithful-fly-artifacts",
+  "archive_repo_type": "dataset",
+  "archive_private": true,
+  "summary_receipt": {
+    "revision": "3148f0ba89d8eac8d2b825ca257c1718ab176c23",
+    "manifest": "manifests/609d2e987eb805ba5a70fa6ec5ac676a010f79041bfcc51d651b724c1d77c97a.json"
+  },
+  "terminal_receipt": {
+    "revision": "abb99a7af97f0d88223e6fcfea0aaf5d097e453c",
+    "manifest": "manifests/80c73f34669ccfb4702b3b45f0f2b2ecf07ee52bc646c5b3601a9b1569358a12.json"
+  },
+  "interruption_receipt": {
+    "revision": "9e2e2f1344dde0afb5176cca58e26aa2b5dca88a",
+    "manifest": "manifests/540d177080f175766efc02869bddbf14600b9d2c82c27458d9aab59ed88beeb0.json"
+  },
+  "author_aggregation_receipt": {
+    "revision": "6bb31b7067e953d9e334452a1a45ac28402364a0",
+    "manifest": "manifests/09b4be3b257ed0b453152b3f0bd76748b8e893b7efa4e1518c0bb7f3c466e280.json"
+  },
+  "remaining": "120 grid conditions; author aggregate numerical comparison; native equivalence; separate MaleCNS physiology and local plasticity; physical sensory/body cockpit control; three independent trainings and >=90/100 held-out KSP landings per seed with recordings."
+}
