@@ -33,6 +33,14 @@ FC_API fc_model* fc_create(uint32_t neurons, uint64_t edges, const uint64_t* ind
 FC_API int fc_advance(fc_model* model, uint32_t ticks, const double* direct_voltage_jump_mv,
                double* voltage_mv, double* conductance_exc,
                double* conductance_inh, uint8_t* spikes);
+// Optional deterministic depletion/recovery candidate, configured only at tick 0.
+// Each edge uses release = U * recovered_resource on a delayed source spike;
+// conductance increment = original weight * efficacy * release. Recovery is
+// exponential between ticks, reset restores resource=1. This is short-term state,
+// not learned long-term efficacy. Arrays contain one value per CSR edge.
+// No parameters are inferred or biologically admitted by this API.
+FC_API int fc_configure_release(fc_model* model, const double* utilization,
+    const double* recovery_ms, const double* postsynaptic_efficacy);
 FC_API int fc_reset(fc_model* model);
 FC_API void fc_destroy(fc_model* model);
 FC_API const char* fc_error(void);
