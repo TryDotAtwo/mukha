@@ -1036,3 +1036,8 @@ All 41460 contacts compared at both endpoints against all 8362 annotated PreSyn 
 ### 2026-10-05: complete DAN compartment contingency
 
 All 67575 points audited; counts conserve all rows. Gamma1 body13428 has both150 PreSyn and1544 PostSyn labeled dendrite, whereas11618 has147 PreSyn and1226 PostSyn labeled axon. PreSyn minimum confidence0.701/0.75, so asymmetry is not solely near-threshold0.5 detections. No generator semantics established; no biological release or misannotation conclusion. HF f9d31be8c5870407fa5d09818c2c895d45138ded, manifest caeafe6cf1512898288a7e77172e85deac079b3585ff3e5f75edae85ae937463. See docs/DAN_COMPARTMENT_AUDIT.md. Preserve kind separately from compartment and proceed to independent DAN atlas coverage; no plasticity/learning admission.
+
+
+### 2026-10-05: DAN atlas input closure completed
+
+All8362 PreSyn /225774 queries need277 keys. New169 completed (99 available70 metadata404),108 reused (99 available9 missing). Combined198 available79 unknown; no sparse-zero assumption. Seven new immutable segments remotely verified. Final HF6edf60cdd02c5f0ae4cdd463b6c8c4b94b708767 manifestd315aeb1c2bd2f6e12206ace5233c7298ff320c44d4be3d1ee621f0529b9884a. Foreground BCpL terminal; no restart needed. See docs/DAN_ATLAS_ACQUISITION.md. Next pinned decode and full source/volume classification; all biological gates remain open.
