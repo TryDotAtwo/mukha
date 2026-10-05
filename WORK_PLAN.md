@@ -902,3 +902,36 @@ Report: reports/huang_six_session_calibration_molab.json. The initial two-sessio
 harness coverage gap is closed; independent physiological/local plasticity,
 whole-CNS geometry, embodied control and KSP acceptance remain open. Contact
 learning remains disabled. No local computation or result/data download.
+
+
+## Explicit gamma1 atlas route and complete candidate sampling (2026-10-05)
+
+Official subcompartment atlas v1/v2/v3 and neuPrint debug metadata explicitly
+name g1–g5 in both hemispheres. The earlier negative fullbrain v4/v5 result
+was scoped to those label lists. Pin v3 IDs 190(L)/195(R), 256-nm grid and zero
+offset; the official state attaches this layer in the 8-nm MaleCNS space
+without a separate transform. All coordinate/contact processing ran in MoLab.
+See docs/YAMADA_GAMMA1_PLASTICITY_GATE.md for source evidence and remaining gates.
+
+All five original contact shards were restored from verified HF receipts.
+The complete 41460 MBON11 candidate contacts, both pre/post coordinates and
+27-point neighborhoods required 157 chunks. Acquisition pinned 147 available
+chunks and recorded ten metadata HTTP404 as unknown, not zero. Each completed
+input segment was immediately HF-verified. Final input closure:
+fd5ef6b95826bbe33d7dea0e719230a515796049 / manifest
+11c50bc6df1322ba054fa1553d6e38183fa1b7931fb4dcbe86a2b58832d3c484.
+
+Full provisional classification reconciles exactly: 23559 robust expected-g1;
+1233 center-g1 boundary-sensitive; 1304 near-g1 boundary-sensitive; 11627 outside;
+3737 unknown-neighborhood. Independent decoder agreement covers 9408 points.
+No contacts were discarded. Final completed classification receipt:
+39c79aac825b2e1e0a22677b2d4b9eaff79cd8f0 / manifest
+692bde3910691681fdca1afffef4bc7a46ffbee594af501c0c5144a335cc2fda.
+See docs/GAMMA_CONTACT_PROVISIONAL_CLASSIFICATION.md and linked MoLab tools.
+
+This closes full candidate volume sampling, not anatomical or biological admission.
+Bilateral landmark/territory checks, gamma1-pedc semantics, atlas-version and
+boundary sensitivity, subtype/receptor physiology and local plasticity remain
+open. Learning remains disabled. Whole-CNS geometry, body/vision, three training
+seeds, held-out KSP evaluation and recordings remain required by the original
+contract; all original acceptance gates remain open.
