@@ -1031,3 +1031,8 @@ Full 13061489098-byte source, generation 1780494991007477, size+CRC32C verified 
 ### 2026-10-05: actual annotated DAN presynapse geometry
 
 All 41460 contacts compared at both endpoints against all 8362 annotated PreSyn points of four DAN candidates; 136 exhaustive nearest-point crosschecks passed in MoLab. HF b0506b71173fbddfac3e407e435624c7c1b5ebe0, manifest 28163c60953d9da139bdc91a66c98064efb5ecfc4acf0193b795ba6e9b746bd7. Source ROI supports bilateral PPL101 gamma1 (599/873 and 710/702 L/R) and contralateral PPL102 gamma1 (147 R for body11618; 150 L for13428). Material source compartment asymmetry: gamma1 PPL102_L PreSyn are axon; PPL102_R PreSyn are dendrite. Preserved without relabeling/filtering. See docs/DAN_PRESYNAPSE_CONTACT_GEOMETRY.md. Whole PED is not pedc. No partner/release/diffusion/mask/plasticity admission. Next: independent DAN atlas sampling and source compartment semantics.
+
+
+### 2026-10-05: complete DAN compartment contingency
+
+All 67575 points audited; counts conserve all rows. Gamma1 body13428 has both150 PreSyn and1544 PostSyn labeled dendrite, whereas11618 has147 PreSyn and1226 PostSyn labeled axon. PreSyn minimum confidence0.701/0.75, so asymmetry is not solely near-threshold0.5 detections. No generator semantics established; no biological release or misannotation conclusion. HF f9d31be8c5870407fa5d09818c2c895d45138ded, manifest caeafe6cf1512898288a7e77172e85deac079b3585ff3e5f75edae85ae937463. See docs/DAN_COMPARTMENT_AUDIT.md. Preserve kind separately from compartment and proceed to independent DAN atlas coverage; no plasticity/learning admission.
