@@ -1046,3 +1046,8 @@ All8362 PreSyn /225774 queries need277 keys. New169 completed (99 available70 me
 ### 2026-10-05: all four-DAN PreSyn atlas classification
 
 All8362 PreSyn sampled at centers+27neighbors in MoLab DKWV.12672 independent decoder checks passed.3040 robust gamma1 (1413L1627R),249boundary,4288outside,785unknown. All3181 source-g1 center labels comparable; zero mismatches. Shared ROI/atlas provenance means cross-format consistency, not independent biological validation. HF935a216bab16efbc125469855a6e0f53535e8aa6 manifest27d8903b333b95598c12de41a31020ebcace3eefa16edbd955ae4cf911afc52b. See docs/DAN_ATLAS_CLASSIFICATION.md. No pedc/receptor/release/mask/plasticity admission. Next evidence-defined pedc boundary and physiological calibration; wholePED forbidden as surrogate.
+
+
+### 2026-10-05: primary pedc definition pinned
+
+Aso2014e04577 XML pinned before extraction HF1b3a6bd71b528dadb92eacd2e9f8e7975481d0c8; extraction49e47c32e378b9e70b077c0d48018a59e24dc71e. pedc is distal pedunculus core intersecting alpha/beta KCs. Preserve alpha/beta anatomical contacts; gamma-only physiology does not admit alpha/beta plasticity. WholePED or unvalidated DAN-radius surrogate cannot define pedc. See docs/PEDC_ANATOMICAL_BOUNDARY.md. XML page fields are paragraph indices. Open: registered/fine pedc boundary plus relevant class physiology; no training.
