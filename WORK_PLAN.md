@@ -1202,3 +1202,10 @@ Full project goal remains active. Partial structural evidence does not admit ana
 Shards 53–56 completed in visible foreground MoLab; each immutable source/acquisition/audit was published and remotely verified before dependent advancement. Union HF commit `49b06a11403d15657293dfa109285786f67ee261`, manifest `965817478d341caf564b70f0b291a36ebc5e285da7d9b98a1648b6903b1a7300`: 58,368 distinct SWCs / 167,216 (34.90575064587121%), 4,493,048,506 source bytes, 133,879,518 nodes; exact planned ID/generation reconciliation passes; zero duplicate body IDs; all defined structural checks pass; 4,682 multi-root files retained. Next shard 57; remaining 107. See docs/SWC_ACQUISITION_SHARDS_0000_0056.md for receipts and limitations.
 
 Full project goal remains active. Partial structural evidence does not admit anatomical geometry or biological fidelity. Plasticity and training remain disabled; broader physiology/body/runtime/training/evaluation/recording gates remain open.
+
+
+### 2026-10-05 — remote SWC union through shard 60
+
+Shards 57–60 completed in visible foreground MoLab; each immutable source/acquisition/audit was published and remotely verified before dependent advancement. Union HF commit `9422dd0116d9d76d00ea0cb7dde51e4158cb50e9`, manifest `5f646b71e93d26da0c22831d1522a247e75df7b5d059f20012bb09a29191c08c`: 62,464 distinct SWCs / 167,216 (37.355277006984977%), 4,636,427,045 source bytes, 138,242,321 nodes; exact planned ID/generation reconciliation passes, zero duplicate body IDs, all defined structural checks pass; 4,940 multi-root files retained. Next shard 61; remaining 103. See docs/SWC_ACQUISITION_SHARDS_0000_0060.md for receipts and scope.
+
+Full project goal remains active. Partial structural evidence does not admit anatomical geometry or biological fidelity. Plasticity and training remain disabled; broader physiology/body/runtime/training/evaluation/recording gates remain open.
