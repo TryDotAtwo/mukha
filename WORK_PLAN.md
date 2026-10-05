@@ -1026,3 +1026,8 @@ MoLab preflight confirmed no running cell and private HF access. Synapse CSV lis
 ### 2026-10-05: complete syn-points source and four-DAN selection
 
 Full 13061489098-byte source, generation 1780494991007477, size+CRC32C verified in MoLab and pinned to HF a9c46d71aa5c7e8b05bffa2f1160fc075958ea81 before selection. All 357489383 rows / 5455 batches scanned. Four PPL101/PPL102 bodies yield 67575 points including 8362 PreSyn (2604,2433,1689,1636 by bodies 11327,11900,11618,13428); zero duplicate kind+xyz. All original columns and both kinds retained. Selection HF a9d36c843814ce8a3f497a197df053d64d900c6d; manifest c3f39e692a67acca13bbbaec942f1d51b8654f5c2402db0b0bc0ef930421896e. See docs/DAN_COMPLETE_SYNPOINT_SELECTION.md. Next: actual presynapse atlas territory and contact proximity; no physiological release, contact-mask, plasticity or learning admission.
+
+
+### 2026-10-05: actual annotated DAN presynapse geometry
+
+All 41460 contacts compared at both endpoints against all 8362 annotated PreSyn points of four DAN candidates; 136 exhaustive nearest-point crosschecks passed in MoLab. HF b0506b71173fbddfac3e407e435624c7c1b5ebe0, manifest 28163c60953d9da139bdc91a66c98064efb5ecfc4acf0193b795ba6e9b746bd7. Source ROI supports bilateral PPL101 gamma1 (599/873 and 710/702 L/R) and contralateral PPL102 gamma1 (147 R for body11618; 150 L for13428). Material source compartment asymmetry: gamma1 PPL102_L PreSyn are axon; PPL102_R PreSyn are dendrite. Preserved without relabeling/filtering. See docs/DAN_PRESYNAPSE_CONTACT_GEOMETRY.md. Whole PED is not pedc. No partner/release/diffusion/mask/plasticity admission. Next: independent DAN atlas sampling and source compartment semantics.
