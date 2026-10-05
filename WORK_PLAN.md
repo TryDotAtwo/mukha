@@ -1051,3 +1051,8 @@ All8362 PreSyn sampled at centers+27neighbors in MoLab DKWV.12672 independent de
 ### 2026-10-05: primary pedc definition pinned
 
 Aso2014e04577 XML pinned before extraction HF1b3a6bd71b528dadb92eacd2e9f8e7975481d0c8; extraction49e47c32e378b9e70b077c0d48018a59e24dc71e. pedc is distal pedunculus core intersecting alpha/beta KCs. Preserve alpha/beta anatomical contacts; gamma-only physiology does not admit alpha/beta plasticity. WholePED or unvalidated DAN-radius surrogate cannot define pedc. See docs/PEDC_ANATOMICAL_BOUNDARY.md. XML page fields are paragraph indices. Open: registered/fine pedc boundary plus relevant class physiology; no training.
+
+
+### 2026-10-05: exact four-DAN outgoing partners
+
+Full syn-partners6.78GB pinned before selection HF70734f7acf44864905e3ec564cb6896b511d635b. All311833243rows4759batches scanned;37219outgoing DAN contacts preserved. Exact DAN→MBON11 links corroborate bilateralPPL101 and contralateralPPL102 at source threshold. ResultHFd38176c717e38bd7c7a9964134588221172bc062 manifeste5dd119b12f4163f091740af40b7904b469fbcf9ab4f90f90f796890b7201296. See docs/DAN_PARTNER_SELECTION.md. Next exact KC target subtype join; no physiological release,pedc,plasticity or training admission.
