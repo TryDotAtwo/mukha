@@ -1066,3 +1066,8 @@ All37219contacts preserved;12072to3080knownKC targets.13115contacts12112targets 
 ### 2026-10-05: full released annotation reconciliation
 
 Generation1780494878811468 fullbodyannotations211577records pinned before join.22targets58contacts newly matched;13057contacts12090targets still absent from releasedannotations, preservedunknown. KC evidence unchanged12072contacts3080targets. HFb100773edef5308434daa1660795eab651caebb3 manifestca23dc618aac9608ad979c8deff472ad5bcb4a9a585161200495297a1ad30773. See docs/DAN_FULL_ANNOTATION_RECONCILIATION.md. Nextsegmentstatistics and exactlocalPED coinnervation; no biological/training admission.
+
+
+### 2026-10-05: same-KC local DAN/MBON11 overlap
+
+12040of12072DAN→KC contacts matched sameKC with output in41460KC→MBON11table;32unmatched retained.3059exhaustive checks passed. PED KCab c/m/s medians ~0.6–1.6um, KCab-p andtails muchfarther; no arbitraryradius admission. HFb4f568e0769781a48e5c37e654ca3dfcaa84a172 manifestdce3f44aba0f174209e87388065075c6b48ef198d535bf31410afa97d598d271. See docs/DAN_KC_MBON_LOCAL_OVERLAP.md. Exactsharedcell plusEuclideanproximity is not sharedbouton/receptor/diffusion/pedc/plasticity; nextfineanatomy/physiology, no training.
