@@ -1021,3 +1021,8 @@ Official 8nm coordinate convention archived before all-41460-row nearest-node di
 ### 2026-10-05: DAN synapse input schema pinned
 
 MoLab preflight confirmed no running cell and private HF access. Synapse CSV listing has continuation after first 1000 entries, so no complete inventory claim. Flat-connectome list pins full syn-points generation 1780494991007477 (13061489098 bytes). Small non-target CSV plus ingestion arguments archived before schema inspection; fields include bodyId, pre/post, compartment, location and transmitter probabilities. Schema report HF b75d42605143f87d6937a0a0f551910a9c4ba2ae, manifest 4efab0cadef7e4e18033612a5720871ed7182c900ec16d34961370ace8be0e6a. See docs/DAN_SYNAPSE_INPUT_SCHEMA.md. Next: complete target DAN presynapse selection with immutable source closure, not arbitrary CSV subset. No anatomy/plasticity/learning admission.
+
+
+### 2026-10-05: complete syn-points source and four-DAN selection
+
+Full 13061489098-byte source, generation 1780494991007477, size+CRC32C verified in MoLab and pinned to HF a9c46d71aa5c7e8b05bffa2f1160fc075958ea81 before selection. All 357489383 rows / 5455 batches scanned. Four PPL101/PPL102 bodies yield 67575 points including 8362 PreSyn (2604,2433,1689,1636 by bodies 11327,11900,11618,13428); zero duplicate kind+xyz. All original columns and both kinds retained. Selection HF a9d36c843814ce8a3f497a197df053d64d900c6d; manifest c3f39e692a67acca13bbbaec942f1d51b8654f5c2402db0b0bc0ef930421896e. See docs/DAN_COMPLETE_SYNPOINT_SELECTION.md. Next: actual presynapse atlas territory and contact proximity; no physiological release, contact-mask, plasticity or learning admission.
