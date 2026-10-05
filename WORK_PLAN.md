@@ -1160,3 +1160,10 @@ Foreground viWy completed25–28; every immutable source/archive/audit verified 
 ### 2026-10-05: SWC source coverage through shard32
 
 Foreground fIhB completed29–32 with immediate verified source/archive/audit publication before successors. MoLab immutable-HF union cjqf reconciles exact planned IDs/generations and predecessor chain:33792distinct SWCs/167216,coverage_fraction0.20208592479188595,3445646786source bytes,102147115nodes,2992multi-root files. Zero duplicate bodies; all defined structural checks pass. FinalHFcf980afc1c60cddaa8d5f78408e03c428bdf3893 manifestf02891960f32305ce8425ed5a2e1fe9c549ea3fc3368f57176381b12e17e03e9. Last32auditHF63f2c0d32a2cff3fd325793628711faf66059255 manifesta4234c96cebc01f4e0015016772c64ab549f9918136f541e10dde8a33402ef2c. See docs/SWC_ACQUISITION_SHARDS_0000_0032.md. Next33;131remain. Bounded staging; virtual quota/reserve unproven. No historical-local count addition, morphology/biological admission or learning. All original gates and full objective remain open.
+
+
+### 2026-10-05 — remote SWC union through shard 36
+
+Shards 33–36 completed in MoLab, each source closure pinned before acquisition and each completed acquisition/audit remotely verified on private HF before advancement. Immutable union report HF commit `389a7feb7cefc4dd89b441fe3689e49735273c36`, manifest `09f3e3df85efefb6f980c6be84ac888aece6bb0d49062866adc71e684224d36b`: 37,888 distinct SWCs / 167,216 (22.658118840302363%), 3,640,610,201 source bytes, 108,036,545 nodes; zero duplicate body IDs; all defined structural checks pass; 3,239 multi-root files retained. Exact planned ID/generation reconciliation verified remotely. Next shard 37, remaining 127. See docs/SWC_ACQUISITION_SHARDS_0000_0036.md for immutable identities and limits.
+
+Full WORK_PLAN goal remains active. This partial structural audit does not admit anatomical geometry or biological fidelity. Plasticity/training remain disabled; physiology, body/cockpit, runtime acceptance, three independent training/evaluation series and reproducible recordings remain open.
