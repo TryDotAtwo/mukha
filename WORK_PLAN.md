@@ -1056,3 +1056,8 @@ Aso2014e04577 XML pinned before extraction HF1b3a6bd71b528dadb92eacd2e9f8e797548
 ### 2026-10-05: exact four-DAN outgoing partners
 
 Full syn-partners6.78GB pinned before selection HF70734f7acf44864905e3ec564cb6896b511d635b. All311833243rows4759batches scanned;37219outgoing DAN contacts preserved. Exact DAN→MBON11 links corroborate bilateralPPL101 and contralateralPPL102 at source threshold. ResultHFd38176c717e38bd7c7a9964134588221172bc062 manifeste5dd119b12f4163f091740af40b7904b469fbcf9ab4f90f90f796890b7201296. See docs/DAN_PARTNER_SELECTION.md. Next exact KC target subtype join; no physiological release,pedc,plasticity or training admission.
+
+
+### 2026-10-05: DAN target subtype join
+
+All37219contacts preserved;12072to3080knownKC targets.13115contacts12112targets absent from selected167216annotations retainedunknown. PPL101 directPED KC contacts includeKCab-c/m/p/s bilaterally;PPL102noPED KC contacts in selected-source join. HF0dd4290d6fdbed37f901f06ba8fcd009b979dc89 manifestdc3100f1460420b9c811f46bb1728a8c046640f3eb539440ecbfb40bc7502747. See docs/DAN_TARGET_ANNOTATIONS.md. Nextfullannotation reconciliation and justifiedpedc geometry; no plasticity/training.
