@@ -60,6 +60,25 @@ __global__ void integrate(uint32_t n,uint64_t tick,fc_params p,double synapse_de
     emitted[i]=(active && v[i]>p.threshold_mv)?1.0:0.0;
 }
 
+// Deterministic per-edge depletion candidate. Parameters are supplied explicitly;
+// this mechanism does not assign physiological release probabilities to a graph.
+__global__ void release_incoming(uint32_t n, const uint64_t* row, const uint64_t* col,
+    const double* delayed, const double* we, const double* wi,
+    const double* utilization, const double* recovery_decay, const double* efficacy,
+    double* resource, double* incoming_e, double* incoming_i) {
+    const uint32_t i=blockIdx.x*blockDim.x+threadIdx.x;
+    if(i>=n) return;
+    double e=0.0, inh=0.0;
+    for(uint64_t k=row[i];k<row[i+1];++k) {
+        double available=1.0-(1.0-resource[k])*recovery_decay[k];
+        const double released=utilization[k]*available*delayed[col[k]];
+        resource[k]=available-released;
+        e+=we[k]*efficacy[k]*released;
+        inh+=wi[k]*efficacy[k]*released;
+    }
+    incoming_e[i]=e; incoming_i[i]=inh;
+}
+
 __global__ void finish(uint32_t n,uint64_t tick,fc_params p,
                        const double* direct,const double* incoming_e,const double* incoming_i,
                        const double* emitted,const uint8_t* sensory,const uint8_t* allowed,
@@ -96,6 +115,7 @@ struct fc_model {
     cusparseSpMatDescr_t mat_e=nullptr,mat_i=nullptr;
     cusparseDnVecDescr_t x=nullptr,y_e=nullptr,y_i=nullptr;
     std::unique_ptr<Buffer<uint8_t>> scratch;
+    std::unique_ptr<Buffer<double>> release_u, release_decay, release_eff, release_resource;
     fc_model(uint32_t count,uint64_t edge_count,const uint64_t* indptr,const uint32_t* indices,
              const double* excitatory,const double* inhibitory,const uint8_t* sense,
              fc_params params,uint32_t capacity):
@@ -145,7 +165,33 @@ struct fc_model {
         check(cudaMemset(in_i.data,0,size_t(n)*sizeof(double)));
         reset_state<<<(n+255)/256,256>>>(n,p.rest_mv,v.data,ge.data,gi.data,next.data);
         check(cudaGetLastError());check(cudaDeviceSynchronize());
+        if(release_resource) {
+            std::vector<double> initial(edges,1.0);
+            release_resource->upload(initial.data(),edges);
+        }
         tick=0;invalid_state=false;
+    }
+    void configure_release(const double* u,const double* recovery_ms,const double* efficacy) {
+        require(!invalid_state && tick==0,"configure release only on valid reset state");
+        require(u && recovery_ms && efficacy,"null release parameters");
+        std::vector<double> decay(edges), initial(edges,1.0);
+        for(uint64_t k=0;k<edges;++k) {
+            require(std::isfinite(u[k]) && u[k]>=0.0 && u[k]<=1.0,
+                    "release utilization outside [0,1]");
+            require(std::isfinite(recovery_ms[k]) && recovery_ms[k]>0.0,
+                    "invalid release recovery time");
+            require(std::isfinite(efficacy[k]) && efficacy[k]>=0.0,
+                    "invalid postsynaptic efficacy");
+            decay[k]=std::exp(-p.dt_ms/recovery_ms[k]);
+        }
+        auto nu=std::make_unique<Buffer<double>>(edges);
+        auto nd=std::make_unique<Buffer<double>>(edges);
+        auto ne=std::make_unique<Buffer<double>>(edges);
+        auto nr=std::make_unique<Buffer<double>>(edges);
+        nu->upload(u,edges);nd->upload(decay.data(),edges);
+        ne->upload(efficacy,edges);nr->upload(initial.data(),edges);
+        release_u=std::move(nu);release_decay=std::move(nd);
+        release_eff=std::move(ne);release_resource=std::move(nr);
     }
     void advance(uint32_t ticks,const double* input,double* output_v,double* output_e,
                  double* output_i,uint8_t* output_spikes) {
@@ -162,11 +208,18 @@ struct fc_model {
             integrate<<<(n+255)/256,256>>>(n,tick,p,synapse_decay,v.data,ge.data,gi.data,
                                            next.data,fired,allowed.data,numerical_error.data);
             check(cudaGetLastError());
+            if(release_resource) {
+                release_incoming<<<(n+255)/256,256>>>(n,row.data,col.data,delayed,
+                    we.data,wi.data,release_u->data,release_decay->data,release_eff->data,
+                    release_resource->data,in_e.data,in_i.data);
+                check(cudaGetLastError());
+            } else {
             check(cusparseDnVecSetValues(x,delayed));
             check(cusparseSpMV(sparse,CUSPARSE_OPERATION_NON_TRANSPOSE,&alpha,
                   mat_e,x,&beta,y_e,CUDA_R_64F,CUSPARSE_SPMV_CSR_ALG2,scratch->data));
             check(cusparseSpMV(sparse,CUSPARSE_OPERATION_NON_TRANSPOSE,&alpha,
                   mat_i,x,&beta,y_i,CUDA_R_64F,CUSPARSE_SPMV_CSR_ALG2,scratch->data));
+            }
             const size_t offset=size_t(step)*n;
             finish<<<(n+255)/256,256>>>(n,tick,p,direct.data+offset,in_e.data,in_i.data,
                                         fired,sensory.data,allowed.data,v.data,ge.data,gi.data,next.data,
@@ -224,3 +277,12 @@ EXPORT int fc_reset(fc_model* model) {
 }
 EXPORT void fc_destroy(fc_model* model) { delete model; }
 EXPORT const char* fc_error(void) { return last_error.c_str(); }
+
+EXPORT int fc_configure_release(fc_model* model,const double* utilization,
+    const double* recovery_ms,const double* efficacy) {
+    try {
+        require(model,"null model");
+        model->configure_release(utilization,recovery_ms,efficacy);
+        last_error.clear();return 0;
+    } catch(const std::exception& e) { last_error=e.what();return -1; }
+}
