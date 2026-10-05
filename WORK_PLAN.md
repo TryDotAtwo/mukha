@@ -1041,3 +1041,8 @@ All 67575 points audited; counts conserve all rows. Gamma1 body13428 has both150
 ### 2026-10-05: DAN atlas input closure completed
 
 All8362 PreSyn /225774 queries need277 keys. New169 completed (99 available70 metadata404),108 reused (99 available9 missing). Combined198 available79 unknown; no sparse-zero assumption. Seven new immutable segments remotely verified. Final HF6edf60cdd02c5f0ae4cdd463b6c8c4b94b708767 manifestd315aeb1c2bd2f6e12206ace5233c7298ff320c44d4be3d1ee621f0529b9884a. Foreground BCpL terminal; no restart needed. See docs/DAN_ATLAS_ACQUISITION.md. Next pinned decode and full source/volume classification; all biological gates remain open.
+
+
+### 2026-10-05: all four-DAN PreSyn atlas classification
+
+All8362 PreSyn sampled at centers+27neighbors in MoLab DKWV.12672 independent decoder checks passed.3040 robust gamma1 (1413L1627R),249boundary,4288outside,785unknown. All3181 source-g1 center labels comparable; zero mismatches. Shared ROI/atlas provenance means cross-format consistency, not independent biological validation. HF935a216bab16efbc125469855a6e0f53535e8aa6 manifest27d8903b333b95598c12de41a31020ebcace3eefa16edbd955ae4cf911afc52b. See docs/DAN_ATLAS_CLASSIFICATION.md. No pedc/receptor/release/mask/plasticity admission. Next evidence-defined pedc boundary and physiological calibration; wholePED forbidden as surrogate.
