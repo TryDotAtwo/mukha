@@ -964,3 +964,24 @@ pedunculus core; whole PED is not a pedc mask. Independent landmarks/DAN
 territory, explicit pedc geometry, atlas-version sensitivity and subtype/receptor
 physiology remain open. Learning remains disabled. All original full-project
 gates and success requirements remain open. All computation/data stayed in MoLab.
+
+
+## Full candidate atlas v2/v3 sensitivity (2026-10-05)
+
+Complete generation-pinned v2 inputs (157 planned objects;147 available;10 unknown)
+were archived in groups before dependent work. Fresh v2 decoding independently
+agreed in 9408 format-reader checks. All original contact columns equal the v3
+input row for row. Every center and every 27-neighbor pre/post label agrees for
+all 41460 contacts, including unknown markers; changed labels/statuses: zero.
+All23559 robust expected-g1 contacts are robust in both versions. This closes
+v2-to-v3 version sensitivity for this frozen contact/neighborhood sample only,
+not whole-volume equality or independent anatomy admission. V1 remains untested.
+
+Verified input closure: c78cc667e5d43c9e1c62239ee8959501edca6851, manifest
+d187e5a57c02b5da5a2a53ef888472fa3dd62883ca856d056870a3129c233c0b.
+Verified comparison: 36284091f29ac8003b2033e1cda3a14f198b5df0, manifest
+d0c8b5441c9c1190c1005f1715b1e14dc93b0f1debcec2a6dd944dceb39d79d9.
+See docs/GAMMA_ATLAS_V2_V3_COMPARISON.md and its foreground MoLab tools.
+Independent landmark/DAN territory and pedc checks plus physiological transfer
+remain open; learning remains disabled. Do not repeat unchanged v2/v3 sampling.
+All original full-project goals/gates stay open; no local computation/data download.
