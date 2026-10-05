@@ -1167,3 +1167,10 @@ Foreground fIhB completed29–32 with immediate verified source/archive/audit pu
 Shards 33–36 completed in MoLab, each source closure pinned before acquisition and each completed acquisition/audit remotely verified on private HF before advancement. Immutable union report HF commit `389a7feb7cefc4dd89b441fe3689e49735273c36`, manifest `09f3e3df85efefb6f980c6be84ac888aece6bb0d49062866adc71e684224d36b`: 37,888 distinct SWCs / 167,216 (22.658118840302363%), 3,640,610,201 source bytes, 108,036,545 nodes; zero duplicate body IDs; all defined structural checks pass; 3,239 multi-root files retained. Exact planned ID/generation reconciliation verified remotely. Next shard 37, remaining 127. See docs/SWC_ACQUISITION_SHARDS_0000_0036.md for immutable identities and limits.
 
 Full WORK_PLAN goal remains active. This partial structural audit does not admit anatomical geometry or biological fidelity. Plasticity/training remain disabled; physiology, body/cockpit, runtime acceptance, three independent training/evaluation series and reproducible recordings remain open.
+
+
+### 2026-10-05 — remote SWC union through shard 40
+
+Shards 37–40 completed in visible foreground MoLab; every immutable source/acquisition/audit stage was verified on private HF before dependent advancement. Union HF commit `3c5273dd7d562d637e5ec3e8ffbe9d28bf51aed5`, manifest `9021c007ba7f3e6c900f71fda1f474bf3c38a0f897637efa9cd740233b03af36`: 41,984 distinct SWCs / 167,216 (25.107645201416134%), 3,829,650,020 source bytes, 113,754,104 nodes. Exact planned ID/generation reconciliation passes, duplicate body IDs zero, all defined structural checks pass; 3,520 multi-root files retained. Next shard 41; remaining 123. See docs/SWC_ACQUISITION_SHARDS_0000_0040.md for immutable receipts and scope.
+
+Full project goal remains active. This partial structural evidence does not admit anatomical geometry or biological fidelity. Plasticity and training remain disabled; all broader physiology/body/runtime/training/evaluation/recording gates remain open.
