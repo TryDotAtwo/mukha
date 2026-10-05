@@ -1313,3 +1313,8 @@ MoLab union 114,688 / 167,216 SWCs, coverage_fraction 0.6858673811118553; 6,045,
 ### 2026-10-05 — verified SWC through 0112
 
 MoLab union: 115,712 / 167,216 SWCs, coverage_fraction 0.6919911970146397; source bytes 6,071,912,507; nodes 181,921,970; multi-root files 8,702 retained. Zero duplicate IDs, all defined structural checks/exact plan reconciliation pass. Report HF 23d719abce44f6ef277f74b13993653bca08983d / manifest 76e544a3531c94691676d6c5bb04b9c5aeffd7798b1c04f1eb6b5f26416ba508. Source HF cf13e007ebd9d30ddd9cab02acdbf23943e9d805 / manifest 4189a263316b310b9aa5ae7cedbe7b4b60fddd04e973b4dad11ec98232de9e33. Details docs/SWC_ACQUISITION_SHARDS_0000_0112.md. Next 0113, 51 remain. Geometry admission false; plasticity/training disabled; biological fidelity unproven; actual quota unknown. Full original goal active.
+
+
+### 2026-10-05 — shard 0113 completed; union update pending
+
+MoLab acquired/published/remote-verified 1,024 SWCs for shard 0113; structural pass, 823,425 nodes, 134 multi-root files retained. Completed input HF 5ebafd4de602266814640d47198d2169a5f2c95f / manifest d804b4033d3b97b64faf87bc20cc6099fae239cfa0ef1c7da004e2c5754a428c. Audit HF c48ead3ca70fb9ad38dee4dbcdffddc0cd07dded / manifest 94e9e09a1ea509f4472c4e294a56c59a2af6c3ba1888845d4c73e77714833036. Details docs/SWC_ACQUISITION_SHARD_0113.md. Next action: reconcile/publish union 0000–0113 before 0114. Previous union through 0112 remains last verified global count. Geometry admission false; plasticity/training disabled; biological fidelity unproven. Full original goal active.
