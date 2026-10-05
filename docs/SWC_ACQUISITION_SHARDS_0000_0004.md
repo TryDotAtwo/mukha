@@ -1,0 +1,11 @@
+# MoLab SWC acquisition coverage through shard4
+
+All planned shards0–4 completed generation/size/MD5 acquisition, immutable source publication, and pinned structural audit in foreground MoLab. Each source archive and audit was remotely verified before the next shard. The batch's initial marimo duplicate-function-name rejection occurred before execution; the function was renamed and normal validation retained. No duplicate data run or validation bypass.
+
+An independent MoLab summary read audit and acquisition JSON from immutable HF manifests, verified SHA256/size, reconstructed the source-closure predecessor chain and compared every body's generation, bytes, MD5 and object name against its pinned planned shard. Exact planned IDs reconcile with zero duplicate body IDs.
+
+Measured remote-family coverage: 5120 distinct SWCs /167216 selected objects (3.0619079513922114%), 1191321673 verified source bytes, 34916649 SWC nodes. All defined syntax/topology checks pass;676 multi-root files remain explicit. Historical local or separate candidate skeletons are not added without a verified union. This is source acquisition and basic structure, not full morphology quality or biology admission.
+
+Completed union report HF7302eb033dac6e3c38037df8654ea0f04cdb699c, manifest d9a2b99f003584177cae941bab5a87a67cab3df39e5d96711658850816972c06, contains all source and audit receipts for five shards. Summary source closure HF d59e9eb16f1866cf5aa33d8e466200c394d02dca. Last shard4 audit HF64e61036b20d57c8ea3ad02c563671aa22578d9f, manifest1e454df4ffe47ee9e3e9fc42042adefdd4474593797ac3621efff2aee72cb08e. Last source archive HFb28256e91a4e6731666ac1bd1ac217c05e24f998, manifestd7da45f2915f3cbb895a73f0e289742cbfe5bab5e4fcf3bbb176098078dc0020. All verified.
+
+Sources: remote_work/acquire_complete_swc_batch_0001_0004.py and remote_work/summarize_swc_shards_0000_0004.py, captured in immutable HF source closures. Next planned shard index5;159 shards remain. Continue bounded source staging and publication; virtual statvfs is not real quota evidence. Full geometry quality, physiology/local plasticity, body/vision/contact control, native throughput, training, KSP and recordings remain open. Learning disabled; original full objective unchanged.

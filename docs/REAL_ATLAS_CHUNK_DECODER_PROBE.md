@@ -1,0 +1,9 @@
+# Real atlas chunk decoder probe
+
+MoLab foreground stages `probe_real_atlas_chunk` and `resume_real_chunk_decoder`, 2026-10-05. One generation-pinned v3 atlas chunk was acquired, source byte count/MD5 verified, and published before decoding. Decoder packages were previously archived before isolated offline installation.
+
+Chunk: `rois/malecns-subcompartments-v3/256_256_256/1792-1856_512-576_384-448`, generation `1777786229342455`. Its single-channel compressed-segmentation header was checked. Package decoding to uint64 64x64x64 in Fortran order agreed with an independently implemented format reader at 126 points spanning compression block boundaries and the candidate contact position. Decoded voxel counts: label 0 = 72849, label 191 = 189295. The first candidate MBON11 post-coordinate [57744,17009,12434], provisionally divided by 32, samples label 0 at local [12,19,4]. This result is not gamma1 contact admission, and must not be concealed or interpreted as a registration proof. Full coordinate-convention, bilateral landmark, compartment semantics and boundary checks remain required.
+
+The original attempt failed before decoder execution because nested source serialization turned a bytes escape into non-ASCII source. Original code/output were archived; corrected v2 used an integer byte constructor and reused the verified source chunk. No acquisition or live work was duplicated.
+
+Private HF `TryDotAtwo/faithful-fly-artifacts`: chunk/input closure `716ec2b80fa32b97643da42ef5c92a8a14da1c34`, manifest `73ab115ac7c1b712735bfbe17388511631679cf45be6fb428051ac23cf007864`; corrected source/failure record `ae3d65b347deff0b431e8669b2737c193b538056`, manifest `07cb48805d17f89101baeaeee2e3534a94d55115dee9a8f2373a5eafa2c97ecf`; completed report `d42aee775b131381317b6c2466bbef86cbbda884`, manifest `99e4f4eb4cf2db02e4bb59789978e8695be0b0f6dc556771eead99817d52ae15`. All verified. No contact learning enabled.

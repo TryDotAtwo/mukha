@@ -14,7 +14,9 @@ lib=c.CDLL(str(LIBRARY))
 lib.hm_simulate.argtypes=[c.POINTER(Parameters),c.POINTER(Event),c.c_size_t,c.POINTER(c.c_double),c.c_size_t]
 lib.hm_simulate.restype=c.c_int
 
-def simulate(params,events):
+def simulate(params,events, *, return_all=False):
+    if np.asarray(params[0]).size!=6:
+        raise ValueError('Select the author odor-pair six weights before native simulation')
     p=Parameters((c.c_double*6)(*params[0].ravel()),(c.c_double*36)(*params[3].ravel()),
                  float(params[1].item()),float(params[2].ravel(order='F')[0]),
                  (c.c_double*3)(*params[4].ravel()),float(params[5].item()))
@@ -24,5 +26,8 @@ def simulate(params,events):
     status=lib.hm_simulate(c.byref(p),e,len(e),out,len(out))
     if status:raise ValueError(f'Native Huang error {status}')
     activity=np.ctypeslib.as_array(out).reshape(len(events),6)
+    if return_all:return activity.copy()
     selected=activity[[i for i,event in enumerate(events) if event[4]]].T
-    return selected.reshape(6,2,2,order='F').copy()
+    if not selected.shape[1] or selected.shape[1]%2:
+        raise ValueError('Expected complete CS+/CS- imaging pairs')
+    return selected.reshape(6,2,selected.shape[1]//2,order='F').copy()

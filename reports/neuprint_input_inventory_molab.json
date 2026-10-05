@@ -1,0 +1,30 @@
+{
+  "schema": "neuprint-roi-input-inventory-v1",
+  "execution": "MoLab foreground; cell RNZF; metadata only",
+  "source_commit": "26927fd582c229bc35d27fa4eaa7e910ec7448f7",
+  "complete_top_level_listing": true,
+  "neuprint_dataset_metadata": {
+    "object": "v1.0/database/neuprint-inputs/male-cns:v1.0.json",
+    "generation": "1780895255196995",
+    "bytes": 57139
+  },
+  "neuprint_debug_metadata": {
+    "object": "v1.0/database/neuprint-inputs/Neuprint_Meta_debug.json",
+    "generation": "1780895254976045",
+    "bytes": 1747811
+  },
+  "additional_roi_routes": [
+    "rois/malecns-subcompartments-v1/",
+    "rois/malecns-subcompartments-v2/",
+    "rois/malecns-subcompartments-v3/",
+    "rois/fullbrain-roi-v4.1/"
+  ],
+  "receipt": {
+    "repo_id": "TryDotAtwo/faithful-fly-artifacts",
+    "revision": "5f0c2e9493b20b2864ac1addc25ed7dd887db6e3",
+    "manifest": "manifests/c836e72139c457053930982d4a5dba9498543d9ae8c07f4eb6d2566d7684f4ce.json",
+    "verified": true
+  },
+  "scope": "Inventory proves alternate metadata sources exist. Their contents and gamma1/pedc labels remain uninspected; no learning mask admitted.",
+  "next_action": "Acquire generation-pinned dataset metadata and subcompartment properties in MoLab, archive before label analysis."
+}

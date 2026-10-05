@@ -1,0 +1,41 @@
+{
+  "status": "native_author_figure5d_reproduction_passed",
+  "runner_commit": "5e8f074ee882ccafebf21a8f739b75a9dc225bb2",
+  "numerical_source_commit": "28c8adb140fb33327fe3754f02ca422b5f9350c1",
+  "author_source_commit": "5d7c08a9a88f923169a0c3008aca68af421e9a7f",
+  "protocols": 108,
+  "panels": 18,
+  "numeric_values": 1944,
+  "tolerance": 1e-8,
+  "max_absolute_error": 7.105427357601002e-15,
+  "passed": true,
+  "backend": "native-cpp-fp64",
+  "library_sha256": "2cfd084e87f2e2722840ecc30b8e2fc1744e31da67a973b4f11b47047e4a5e66",
+  "native_source_sha256": "1704b8c9a957a66e4411f565c8a3779e1a9c3bba691278d3f4c566550d28c2b4",
+  "prediction_sha256": "9d62cc56cc47896e47b3f8b3d97ac2d4d6a5ad0eeef4ebd17e4f8add5f3c190f",
+  "translation_sha256": "2099a43efe5088a4230fe7298f9dc3866b0c2c285142ef9bb9d5e54d4b30760f",
+  "input_receipt": {
+    "revision": "62d48988ff2712c029a61912b4ec6cd0e0e4d8d1",
+    "manifest": "manifests/82d4d201bc953ac385ca291996bd07e3cbb4aa0d4d8dff272d72ffec55e4fa42.json",
+    "verified": true
+  },
+  "build_receipt": {
+    "revision": "23d0f5ea0d7a5cfb6b5e62ab60ea8781c1d68cd0",
+    "manifest": "manifests/2c697fb9e1eca7f7abc16e189368d1dd457733628e3cb98b754d5e2beceb54ad.json",
+    "verified": true
+  },
+  "comparison_receipt": {
+    "revision": "2b074fc857db006778075138bbf13403ef5686dd",
+    "manifest": "manifests/d387dbce7f01e3569faf5e1144e3b2f5fb70a502fb175d164dc9c57b28081af2.json",
+    "verified": true
+  },
+  "final_receipt": {
+    "revision": "9fb1c16c4ce216d541db307d211fcb4f9ac766df",
+    "manifest": "manifests/ddfebe562f3dee29d1fee3fda6595b03341f2ab192724efa26eb18d2611bdaed.json",
+    "verified": true
+  },
+  "execution": "MoLab foreground cell sMly; native ELF shared library uses historical DLL filename for unchanged ctypes harness",
+  "scope": "Numerical reproduction against author saved Figure 5d panel arrays. No fresh MATLAB execution, parameter fitting, independent animal-level validation or MaleCNS per-contact learning.",
+  "full_cns_plasticity_validated": false,
+  "plasticity_enabled": false
+}

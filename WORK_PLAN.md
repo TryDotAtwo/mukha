@@ -808,3 +808,538 @@ Initial-gravity control (2026-09-24): With the same author keyframe, 2-s relaxat
 Live full-CNS/body/rocket cabin loop (2026-09-24): `tools/probe_live_cabin_claw.py` ran the complete native FP64 graph, harnessed body and radial rocket online at 0.1 ms for 100 ms from zero-gravity relaxation. Under the unvalidated negative-position SNpp50 encoder, 35 sensory spikes changed total graph events from 5,001 to 4,754 and moved candidate motor spike tick 641 to 612. Knee differed from tick 613, after the last foot-pad contact at tick 510. Contact, slide, throttle and rocket velocity were identical to blocked sensory input; the motor-off and contact-off controls had zero slide. The sensor drive peaked at 114.42 mV; central voltage jumps, encoder gain/sign and motor mapping remain artificial. This is a live numerical loop with negative cockpit feedback, not biological behavior or landing. See `reports/live_cabin_claw_local.json` and `docs/FREE_ROOT_BODY.md`.
 Central-drive ablation (2026-09-24): A matched four-case live run removed only the ten artificial source-neuron voltage jumps. All four 100-ms cases then had zero full-graph events, exact pad contacts, slide and throttle. Passive knee drift supplied at most 0.005994 mV to the negative-position encoder, versus 35 SNpp50 spikes under periodic jumps. `tools/check_live_cabin_central_necessity.py` checks both reports and all event/trace hashes; see `reports/live_cabin_central_necessity.json`. Thus this fixture's contact depends on artificial central excitation. This does not imply natural MaleCNS silence or validate the biological encoder.
 Same-connectome visual source lead (2026-09-24): Hoeller et al., Cell 2026, DOI 10.1016/j.cell.2026.08.014 and the author `reiserlab/visualpathways` repository identify predicted anatomical receptive fields and a `ME(R)-columns-r-theta` retinotopy layer in MaleCNS. This may provide a stronger basis for column/angular registration than transferring the separate eye-map specimen, but no per-column angular table has been acquired or matched to our pinned 1,772 columns. Predicted downstream receptive fields are not measured photoreceptor optical axes. Image-to-CNS assignments remain disabled; see `docs/VISION_MAPPING.md`.
+
+
+## MoLab KC-to-MBON recovery and gamma1 candidate strata (2026-10-04)
+
+The generation-pinned complete synapse-partner source was recovered directly in
+MoLab as 13 immediately archived immutable ranges. Whole-source size
+6,777,179,098 bytes and published MD5 58efcf712f8c4d4de5f2ad51e97def76
+match; the verified HF composition receipt is
+06d9c0131f62f6555529ae045b025f959bce8e3d / manifest
+67bba473f9e8289ed0fdb866692ac5242441efe66a61518d41c4906d0a113318.
+
+A fresh full pass over 311,833,243 partner rows in all 4,759 batches recovered
+463,640 KC-to-MBON contacts. Every one of the 61,210 pairs agrees with the
+pinned candidate incoming CSR; mismatches: zero. Five completed contact shards
+were individually archived before continuing. Final report/strata receipt:
+633002a94ba6f474f65a482a69549623021ac7b3 / manifest
+f7b6479c91af427831e9bc620accb592c9bc20dc04774cb01a920c751e50e155.
+See reports/yamada_gamma1_contact_strata_molab.json.
+
+MBON11 annotation candidates 10704 and 11402 receive 41,460 retained KC
+contacts from multiple gamma and alpha/beta annotation subtypes. Preserve these
+strata for the independent Yamada gamma1 physiology controls; an aggregate
+MBON11 gain cannot by itself establish subtype-specific physiology. Annotation
+labels and broad lobar ROIs do not establish each contact's gamma1 compartment,
+receptor action or plasticity. No learning was enabled. This closes the missing
+remote KC-to-MBON coordinate input, not whole-CNS morphology coverage, biological
+identity transfer, calibrated local plasticity, body control or KSP acceptance.
+All original contract gates remain open pending their own evidence.
+
+
+## Native Huang memory-reference replay in MoLab (2026-10-04)
+
+The unchanged native C++ FP64 translation at project commit
+28c8adb140fb33327fe3754f02ca422b5f9350c1 was built and executed entirely in
+foreground MoLab. Thirty original author files were acquired and verified
+against Git blobs at 5d7c08a9a88f923169a0c3008aca68af421e9a7f; source,
+inputs, build inputs, library, prediction arrays and logs were archived before
+dependent stages with verified immutable HF receipts.
+
+All 108 Figure 5d protocols, 18 panels and 1,944 saved author numeric values
+agree within maximum absolute error 7.105427357601002e-15 against the frozen
+1e-8 threshold. No parameters were refitted. The comparison uses the author's
+saved FIG arrays, not a new MATLAB run. Report:
+reports/huang_native_figure5d_molab.json. Final HF revision:
+9fb1c16c4ce216d541db307d211fcb4f9ac766df, manifest
+ddfebe562f3dee29d1fee3fda6595b03341f2ab192724efa26eb18d2611bdaed.
+
+This verifies original aggregate-model numerical reproduction only. It does
+not validate independent animal observations, individual MaleCNS synaptic
+parameters, receptor-dependent local plasticity or learning. Gate B remains
+open for its biological and transfer requirements; no contact learning was
+enabled and the full accepted contract remains unchanged.
+
+
+## Huang physiological workbook scope audit (2026-10-05)
+
+Foreground MoLab inspection found two aggregate mean/SEM sheets, six population
+pairs and all six sessions including 24hr; no individual animal recordings.
+The author fit includes the 24hr data, so supplied-parameter residuals are
+calibration, not held-out physiological validation. Exact author six-weight
+selection is columns 1:6 for ACV/ETA and [7:9,4:6] for OCT/BEN. The native ABI
+already accepts each selected vector, while both current harnesses hardcode
+two imaging sessions and require generalization for this six-session protocol.
+See docs/HUANG_PHYSIOLOGICAL_CALIBRATION_AUDIT.md. Verified completed HF audit:
+f11f1dbdecce9cd817514225cfe7ad58503c16d7 / manifest
+2764ea9b2487c7b7b3adccacb78cec389bee2557709541ce2e0096b7d55220ad.
+No new physiological simulation, parameter refit or contact learning was
+performed. All full-project acceptance gates remain open.
+
+
+## Full original Huang calibration protocol in MoLab (2026-10-05)
+
+The reference/native harnesses now preserve fitted nine-weight source parameters,
+select the exact six weights for each author odor pair, and support six imaging
+sessions plus all-event activity output. All four model/odor combinations agree
+across all 51 events and six imaging sessions, with maximum absolute error
+9.769962616701378e-15 below the fixed 1e-8 threshold. The unchanged native
+library remains pinned; the updated-harness Figure5d regression also retains
+its original 1,944-value result. Numerical comparison is against the Python
+translation and saved Figure5d arrays, not a fresh MATLAB execution.
+
+The workbook is sparse: included calibration cells are 36/24 for the two-module
+ACV/ETA and OCT/BEN cases, 52/34 for the three-module cases. Late 3hr/24hr
+sessions supply two observed cells each per odor pair. Missing cells remain
+missing. Supplied parameters were not refitted; those 24hr observations already
+participated in the author fit. No independent animal holdout or biological
+transfer follows from the residuals. All four completed conditions were
+immediately archived before advancing. Final verified HF revision:
+f7714e1ae6ef05c448534a28e231e670334312d7 / manifest
+c54c5c203f139250acb716b3a06d87947804140886ced5ef74cb8962ff2961a7.
+Report: reports/huang_six_session_calibration_molab.json. The initial two-session
+harness coverage gap is closed; independent physiological/local plasticity,
+whole-CNS geometry, embodied control and KSP acceptance remain open. Contact
+learning remains disabled. No local computation or result/data download.
+
+
+## Explicit gamma1 atlas route and complete candidate sampling (2026-10-05)
+
+Official subcompartment atlas v1/v2/v3 and neuPrint debug metadata explicitly
+name g1–g5 in both hemispheres. The earlier negative fullbrain v4/v5 result
+was scoped to those label lists. Pin v3 IDs 190(L)/195(R), 256-nm grid and zero
+offset; the official state attaches this layer in the 8-nm MaleCNS space
+without a separate transform. All coordinate/contact processing ran in MoLab.
+See docs/YAMADA_GAMMA1_PLASTICITY_GATE.md for source evidence and remaining gates.
+
+All five original contact shards were restored from verified HF receipts.
+The complete 41460 MBON11 candidate contacts, both pre/post coordinates and
+27-point neighborhoods required 157 chunks. Acquisition pinned 147 available
+chunks and recorded ten metadata HTTP404 as unknown, not zero. Each completed
+input segment was immediately HF-verified. Final input closure:
+fd5ef6b95826bbe33d7dea0e719230a515796049 / manifest
+11c50bc6df1322ba054fa1553d6e38183fa1b7931fb4dcbe86a2b58832d3c484.
+
+Full provisional classification reconciles exactly: 23559 robust expected-g1;
+1233 center-g1 boundary-sensitive; 1304 near-g1 boundary-sensitive; 11627 outside;
+3737 unknown-neighborhood. Independent decoder agreement covers 9408 points.
+No contacts were discarded. Final completed classification receipt:
+39c79aac825b2e1e0a22677b2d4b9eaff79cd8f0 / manifest
+692bde3910691681fdca1afffef4bc7a46ffbee594af501c0c5144a335cc2fda.
+See docs/GAMMA_CONTACT_PROVISIONAL_CLASSIFICATION.md and linked MoLab tools.
+
+This closes full candidate volume sampling, not anatomical or biological admission.
+Bilateral landmark/territory checks, gamma1-pedc semantics, atlas-version and
+boundary sensitivity, subtype/receptor physiology and local plasticity remain
+open. Learning remains disabled. Whole-CNS geometry, body/vision, three training
+seeds, held-out KSP evaluation and recordings remain required by the original
+contract; all original acceptance gates remain open.
+
+
+## Gamma1 candidate KC subtype join and source-ROI crosscheck (2026-10-05)
+
+A full foreground MoLab body-ID join preserves all 41,460 provisional classified
+contacts, original fields and row order, with zero missing presynaptic IDs/types.
+Pinned KC annotations yield gamma 27,820 contacts (22,981 robust g1), alpha/beta
+13,150 (355 robust), alpha-prime/beta-prime 490 (223 robust). Thus 578 robust
+g1 contacts carry non-gamma annotations. Preserve all subtypes and separate
+physiology controls; an atlas g1 filter does not isolate gamma-KC physiology.
+Joined table/strata/report/log HF: b0038a27253d4ebadb32c2ea2d75785085264a91,
+manifest 877edae6b332a5e83a8635143cd198f2440389829ef872d7929d6f26a38b3ce7.
+Final family summary HF: ee6efa05066f3b3dcb4be6244ff9b19c21080273,
+manifest 70921cd8b0f7b2d836fe8c6c0f8eb673ff7870bc4c1c451818e35a51a46677cd.
+See docs/GAMMA_KC_SUBTYPE_STRATIFICATION.md and linked durable MoLab tools.
+
+The prior scalar reclassification agrees for all rows. Source primary_post vs
+atlas center has zero lateral mismatches among 29,122 comparable post endpoints.
+All 9,189 PED-labeled post contacts have background/unknown atlas labels.
+HF crosscheck f0f4c7b0b6f3e002dac2e8487d26da685f18fd3d, manifest
+69f1e13a91774e30e81b6b3f25747fffacf40b0c080ea86ba735737093fb45df.
+See docs/GAMMA_SOURCE_ROI_CROSSCHECK.md. This is metadata consistency, not
+independent anatomical registration.
+
+Primary anatomy describes gamma1pedc innervation across gamma1 and the distal
+pedunculus core; whole PED is not a pedc mask. Independent landmarks/DAN
+territory, explicit pedc geometry, atlas-version sensitivity and subtype/receptor
+physiology remain open. Learning remains disabled. All original full-project
+gates and success requirements remain open. All computation/data stayed in MoLab.
+
+
+## Full candidate atlas v2/v3 sensitivity (2026-10-05)
+
+Complete generation-pinned v2 inputs (157 planned objects;147 available;10 unknown)
+were archived in groups before dependent work. Fresh v2 decoding independently
+agreed in 9408 format-reader checks. All original contact columns equal the v3
+input row for row. Every center and every 27-neighbor pre/post label agrees for
+all 41460 contacts, including unknown markers; changed labels/statuses: zero.
+All23559 robust expected-g1 contacts are robust in both versions. This closes
+v2-to-v3 version sensitivity for this frozen contact/neighborhood sample only,
+not whole-volume equality or independent anatomy admission. V1 remains untested.
+
+Verified input closure: c78cc667e5d43c9e1c62239ee8959501edca6851, manifest
+d187e5a57c02b5da5a2a53ef888472fa3dd62883ca856d056870a3129c233c0b.
+Verified comparison: 36284091f29ac8003b2033e1cda3a14f198b5df0, manifest
+d0c8b5441c9c1190c1005f1715b1e14dc93b0f1debcec2a6dd944dceb39d79d9.
+See docs/GAMMA_ATLAS_V2_V3_COMPARISON.md and its foreground MoLab tools.
+Independent landmark/DAN territory and pedc checks plus physiological transfer
+remain open; learning remains disabled. Do not repeat unchanged v2/v3 sampling.
+All original full-project goals/gates stay open; no local computation/data download.
+
+
+## Native no-learning paired-pulse transmission screen (2026-10-05)
+
+The unchanged conductance CUDA runtime at d06ce5a7a68b7a67828b57b15d9d989a3dd287bc
+was built and executed on current MoLab Blackwell after pinned CCCL restoration.
+Five two-neuron artificial-event conditions ran, each archived before the next.
+Native exponential conductance agrees with an independent closed form to maximum
+2.1510571102112408e-16 under the frozen1e-10 threshold. Source spikes and 2-tick
+delays agree; zero-input control has zero events/conductance. Tail-subtracted
+PPR=1.0000000000000004 is the additive-kernel software identity, not physiology.
+
+Equal scalar gains labelled presynaptic/postsynaptic produce identical outputs.
+Those labels do not implement actual calcium or receptor interventions. The
+static scalar representation cannot encode the published A1/PPR dissociation;
+separate release dynamics and justified observation/efficacy remain needed.
+Readout is offline current per leak conductance, not absolute EPSC or an actual
+voltage-clamp experiment. Full MaleCNS/three-minute optical protocol not run.
+
+Verified final report with all condition receipts: HF dc86507032b0187ec0260d89b4035288c33b5849,
+manifest526fc1bb4084534a901d322c9961a30b25c0af6d71e53d4c8cf967be8095b2fb.
+See docs/NATIVE_PAIRED_PULSE_DIAGNOSTIC.md. Complete CUDA dependency closure and
+sanitizer admission are not established. Learning remains disabled; independent
+pedc/DAN anatomy, subtype/receptor physiology and all original project gates open.
+
+
+### 2026-10-05: candidate skeletons and bilateral node geometry
+
+MBON11 10704/11402 and PPL101 11327/11900 plus PPL102 11618/13428 acquired as generation-pinned GCS SWCs, structural checks passed and each immutable input/audit archived before advancing. MBON final HF 6b93ffad58fa19aa69a7986f02b2ffe3a6500512; DAN final HF 0a43cc898d3df9c1e2ed8fd378f0dca5994e284c. All skeletons coarse, not complete morphology.
+
+Official 8nm coordinate convention archived before all-41460-row nearest-node diagnostic. Bilateral result HF 33db5a4375e025fad1440a2faad05a32bd594e4d, manifest 1bca7b32d497849b9a01106ea64c9070de47654f436649ea6beffa62d9ac2477. 170 exhaustive node-scan crosschecks passed. PPL102 proximity to robust gamma1 contacts follows opposite annotation suffix; both PPL101 skeletons are near both MBON populations. L/R suffix cannot replace territory mapping. See docs/GAMMA_BILATERAL_SKELETON_GEOMETRY.md. No surface/segment/release-site localization, contact-mask or plasticity admission; no learning enabled. Next: pinned DAN pre-synaptic coordinates and independently verified coverage/territory.
+
+
+### 2026-10-05: DAN synapse input schema pinned
+
+MoLab preflight confirmed no running cell and private HF access. Synapse CSV listing has continuation after first 1000 entries, so no complete inventory claim. Flat-connectome list pins full syn-points generation 1780494991007477 (13061489098 bytes). Small non-target CSV plus ingestion arguments archived before schema inspection; fields include bodyId, pre/post, compartment, location and transmitter probabilities. Schema report HF b75d42605143f87d6937a0a0f551910a9c4ba2ae, manifest 4efab0cadef7e4e18033612a5720871ed7182c900ec16d34961370ace8be0e6a. See docs/DAN_SYNAPSE_INPUT_SCHEMA.md. Next: complete target DAN presynapse selection with immutable source closure, not arbitrary CSV subset. No anatomy/plasticity/learning admission.
+
+
+### 2026-10-05: complete syn-points source and four-DAN selection
+
+Full 13061489098-byte source, generation 1780494991007477, size+CRC32C verified in MoLab and pinned to HF a9c46d71aa5c7e8b05bffa2f1160fc075958ea81 before selection. All 357489383 rows / 5455 batches scanned. Four PPL101/PPL102 bodies yield 67575 points including 8362 PreSyn (2604,2433,1689,1636 by bodies 11327,11900,11618,13428); zero duplicate kind+xyz. All original columns and both kinds retained. Selection HF a9d36c843814ce8a3f497a197df053d64d900c6d; manifest c3f39e692a67acca13bbbaec942f1d51b8654f5c2402db0b0bc0ef930421896e. See docs/DAN_COMPLETE_SYNPOINT_SELECTION.md. Next: actual presynapse atlas territory and contact proximity; no physiological release, contact-mask, plasticity or learning admission.
+
+
+### 2026-10-05: actual annotated DAN presynapse geometry
+
+All 41460 contacts compared at both endpoints against all 8362 annotated PreSyn points of four DAN candidates; 136 exhaustive nearest-point crosschecks passed in MoLab. HF b0506b71173fbddfac3e407e435624c7c1b5ebe0, manifest 28163c60953d9da139bdc91a66c98064efb5ecfc4acf0193b795ba6e9b746bd7. Source ROI supports bilateral PPL101 gamma1 (599/873 and 710/702 L/R) and contralateral PPL102 gamma1 (147 R for body11618; 150 L for13428). Material source compartment asymmetry: gamma1 PPL102_L PreSyn are axon; PPL102_R PreSyn are dendrite. Preserved without relabeling/filtering. See docs/DAN_PRESYNAPSE_CONTACT_GEOMETRY.md. Whole PED is not pedc. No partner/release/diffusion/mask/plasticity admission. Next: independent DAN atlas sampling and source compartment semantics.
+
+
+### 2026-10-05: complete DAN compartment contingency
+
+All 67575 points audited; counts conserve all rows. Gamma1 body13428 has both150 PreSyn and1544 PostSyn labeled dendrite, whereas11618 has147 PreSyn and1226 PostSyn labeled axon. PreSyn minimum confidence0.701/0.75, so asymmetry is not solely near-threshold0.5 detections. No generator semantics established; no biological release or misannotation conclusion. HF f9d31be8c5870407fa5d09818c2c895d45138ded, manifest caeafe6cf1512898288a7e77172e85deac079b3585ff3e5f75edae85ae937463. See docs/DAN_COMPARTMENT_AUDIT.md. Preserve kind separately from compartment and proceed to independent DAN atlas coverage; no plasticity/learning admission.
+
+
+### 2026-10-05: DAN atlas input closure completed
+
+All8362 PreSyn /225774 queries need277 keys. New169 completed (99 available70 metadata404),108 reused (99 available9 missing). Combined198 available79 unknown; no sparse-zero assumption. Seven new immutable segments remotely verified. Final HF6edf60cdd02c5f0ae4cdd463b6c8c4b94b708767 manifestd315aeb1c2bd2f6e12206ace5233c7298ff320c44d4be3d1ee621f0529b9884a. Foreground BCpL terminal; no restart needed. See docs/DAN_ATLAS_ACQUISITION.md. Next pinned decode and full source/volume classification; all biological gates remain open.
+
+
+### 2026-10-05: all four-DAN PreSyn atlas classification
+
+All8362 PreSyn sampled at centers+27neighbors in MoLab DKWV.12672 independent decoder checks passed.3040 robust gamma1 (1413L1627R),249boundary,4288outside,785unknown. All3181 source-g1 center labels comparable; zero mismatches. Shared ROI/atlas provenance means cross-format consistency, not independent biological validation. HF935a216bab16efbc125469855a6e0f53535e8aa6 manifest27d8903b333b95598c12de41a31020ebcace3eefa16edbd955ae4cf911afc52b. See docs/DAN_ATLAS_CLASSIFICATION.md. No pedc/receptor/release/mask/plasticity admission. Next evidence-defined pedc boundary and physiological calibration; wholePED forbidden as surrogate.
+
+
+### 2026-10-05: primary pedc definition pinned
+
+Aso2014e04577 XML pinned before extraction HF1b3a6bd71b528dadb92eacd2e9f8e7975481d0c8; extraction49e47c32e378b9e70b077c0d48018a59e24dc71e. pedc is distal pedunculus core intersecting alpha/beta KCs. Preserve alpha/beta anatomical contacts; gamma-only physiology does not admit alpha/beta plasticity. WholePED or unvalidated DAN-radius surrogate cannot define pedc. See docs/PEDC_ANATOMICAL_BOUNDARY.md. XML page fields are paragraph indices. Open: registered/fine pedc boundary plus relevant class physiology; no training.
+
+
+### 2026-10-05: exact four-DAN outgoing partners
+
+Full syn-partners6.78GB pinned before selection HF70734f7acf44864905e3ec564cb6896b511d635b. All311833243rows4759batches scanned;37219outgoing DAN contacts preserved. Exact DAN→MBON11 links corroborate bilateralPPL101 and contralateralPPL102 at source threshold. ResultHFd38176c717e38bd7c7a9964134588221172bc062 manifeste5dd119b12f4163f091740af40b7904b469fbcf9ab4f90f90f796890b7201296. See docs/DAN_PARTNER_SELECTION.md. Next exact KC target subtype join; no physiological release,pedc,plasticity or training admission.
+
+
+### 2026-10-05: DAN target subtype join
+
+All37219contacts preserved;12072to3080knownKC targets.13115contacts12112targets absent from selected167216annotations retainedunknown. PPL101 directPED KC contacts includeKCab-c/m/p/s bilaterally;PPL102noPED KC contacts in selected-source join. HF0dd4290d6fdbed37f901f06ba8fcd009b979dc89 manifestdc3100f1460420b9c811f46bb1728a8c046640f3eb539440ecbfb40bc7502747. See docs/DAN_TARGET_ANNOTATIONS.md. Nextfullannotation reconciliation and justifiedpedc geometry; no plasticity/training.
+
+
+### 2026-10-05: full released annotation reconciliation
+
+Generation1780494878811468 fullbodyannotations211577records pinned before join.22targets58contacts newly matched;13057contacts12090targets still absent from releasedannotations, preservedunknown. KC evidence unchanged12072contacts3080targets. HFb100773edef5308434daa1660795eab651caebb3 manifestca23dc618aac9608ad979c8deff472ad5bcb4a9a585161200495297a1ad30773. See docs/DAN_FULL_ANNOTATION_RECONCILIATION.md. Nextsegmentstatistics and exactlocalPED coinnervation; no biological/training admission.
+
+
+### 2026-10-05: same-KC local DAN/MBON11 overlap
+
+12040of12072DAN→KC contacts matched sameKC with output in41460KC→MBON11table;32unmatched retained.3059exhaustive checks passed. PED KCab c/m/s medians ~0.6–1.6um, KCab-p andtails muchfarther; no arbitraryradius admission. HFb4f568e0769781a48e5c37e654ca3dfcaa84a172 manifestdce3f44aba0f174209e87388065075c6b48ef198d535bf31410afa97d598d271. See docs/DAN_KC_MBON_LOCAL_OVERLAP.md. Exactsharedcell plusEuclideanproximity is not sharedbouton/receptor/diffusion/pedc/plasticity; nextfineanatomy/physiology, no training.
+
+
+### 2026-10-05: Yamada full protocol extraction
+
+The 27-page primary PDF was pinned before MoLab extraction with archived pypdf 6.1.1. Completed pages/report HF 5b7ca66fd588c37a322a54d9f32c4a75315b8d4f, manifest aa9c55b7f3460324b13db9fb19cca36fe2540b5d44da96e5732e3a2c0ff43c35. Exact measurement uses a single reference plus four 400-ms pairs per minute, reference-waveform subtraction, and at least three baseline minutes. Existing single-pair diagnostic does not reproduce that operator. Primary Figure 8 also establishes transient alpha/beta KC depression/PPR increase, distinct from persistent gamma effects. Original preparation-level data are supplied on request; none acquired. See docs/YAMADA_PROTOCOL_DATA_BOUNDARY.md. Next exact observation schedule and separate release/efficacy implementation; no quantitative physiology/plasticity admission or training. All original gates remain open.
+
+
+### 2026-10-05: native three-minute observation operator
+
+Unchanged two-neuron CUDA conductance runtime executed all 180000 ticks and 27 exact source events in foreground MoLab. Three sets of one reference plus four 400-ms pairs were observed with separately recorded reference-waveform subtraction. Independent exponential superposition agrees within 1e-10; all three PPR values are 1.0. This is the static additive-kernel identity, not physiology. Completed HF 13a8665fd5c1ef3c5f217da6c9907370240e7cdd, manifest 003af2494585a145eebfca5f8608a475e3a204675922d5d2924f0b00156dd4c0. See docs/YAMADA_MINUTE_OPERATOR.md. Optical recruitment, actual voltage clamp, release/efficacy dynamics and quantitative calibration remain open. Next separate release-state implementation; learning disabled and full original contract unchanged.
+
+
+### 2026-10-05: native per-edge release candidate
+
+Optional CUDA depletion/recovery state and separate postsynaptic efficacy added at 1af3f44e70827e65904511b43bbc5653a63eb35d. Five foreground MoLab conditions agree with independent formulas, max error 1.942890293094024e-16 under 1e-10. Both interventions halve A1; U reduction raises PPR from 0.66484 to 0.83242, efficacy reduction preserves PPR. Diagnostic parameters are uncalibrated and these directions are model properties, not physiological validation. Each condition immediately archived. Final HF f0d6861e46ba83e3fa77991f237b49e3e5901c8b, manifest 9d0133ac360bb308d1cdd35e72baf0db7ef74609e48735aee2d0db02185c5779. See docs/NATIVE_RELEASE_CANDIDATE.md. Next state/reset/chunk and exact observation checks, sanitizers, measured graph scaling and biological calibration. Full-CNS release not enabled, no long-term learning; original contract unchanged.
+
+
+### 2026-10-05: release state and minute observation verified
+
+Restored immutable native release build in foreground MoLab. Mixed excitatory/inhibitory three-neuron fixture matches independent event formulas to 2.255140518769849e-16. Reset and six-chunk continuation are bit-exact; eight invalid configurations reject without mutation; late configuration rejects while preserving continuation. Three separate 180000-tick minute protocols preserve release versus efficacy PPR dissociation under independent reference-subtraction checks. Each condition immediately HF verified; final 3c2373646e6be4bcf833a9c31e4269792b3b483c, manifest 9d5fde05237ae01abe22f9bd76700504e9c0b6d07ccc37b8d94bfe8709bccb9b. See docs/NATIVE_RELEASE_STATE_VERIFICATION.md. These are software checks with uncalibrated parameters; no physiological admission. Next sanitizers, complete dependency closure, persistent release checkpoint and full-graph measurement before transfer. Learning disabled; original objective and all whole-project gates remain open.
+
+
+### 2026-10-05: sanitizer instrumentation unavailable on live GPU
+
+Official pinned sanitizer components 13.0.85 and 13.2.23 both terminate memcheck with Device not supported before model kernels, followed by initial cudaMalloc error. Both terminal logs/results immediately HF verified; no sanitizer pass, kernel defect or instrumentation coverage claimed. Newer failure HF c41fdc165faac4694c141ee0f9902edd73cca51c, manifest f2117114b89f794e5ba22609cf64ca13fad44e582ff5d8c26af49981b73bbe06. Same immutable build subsequently passes uninstrumented state control; GPU reports Blackwell, driver595.71.05, virtualization None. Complete control HF a2b46fc45bd7606f9afbe5578b775a3ff3eda76d, manifest 2779f8832f5ba2fe32e9198687227ad3f3005d77487146d9d6f1df421735cc29. See docs/NATIVE_RELEASE_SANITIZER_LIMITATION.md. Instrumentation needs compatible MoLab configuration; no identical retries or local fallback. Next independent persistent-state/checkpoint work. Release full-graph admission and learning remain disabled; full original goal remains active.
+
+
+### 2026-10-05: native release-state checkpoint implemented
+
+Versioned state ABI at a041949647eb66702b44e5c9c8cc9333f47d78d9 binds exact graph/configuration and includes neural state, refractory deadlines, delay ring and release resources. Five foreground MoLab conditions save at tick412 and restore into separate handles; snapshots and suffix arrays are bit-exact, including pending arrival413. Payload corruption and changed weight reject without mutation; truncated input rejects. Every checkpoint/result immediately HF verified; final 54a29b07b53ff153bd80925891640191c01f92df, manifest 6e30a0875bd1618717d645c6e60f99c098d4addc41160318448dc80bd9c2bc08. See docs/NATIVE_RELEASE_CHECKPOINT.md. Broader identity/malformed-state/fresh-process and full-graph checks remain; FNV is corruption detection, external SHA256 receipts remain authoritative. Sanitizer unavailable; no physiological admission or learning. Original full goal unchanged.
+
+
+### 2026-10-05: immutable HF checkpoint continuation in new processes
+
+All five native release checkpoints restored from verified HF objects into separate fresh processes, using capacity127 instead of1024. Snapshot roundtrip and 612 suffix ticks are bit-exact across voltages/conductances/spikes, retaining pending arrival413. Each restored result immediately archived; final HF 5af8a7251ddec89079bedf8caa56dea5f0ab3f3b, manifest d295f0411225d6f9922dee01860a4b8a3927b8526e7d897c860dfc2bec1aa73e. See docs/NATIVE_CHECKPOINT_HF_RESTORATION.md. This is same-session two-neuron recovery, not full-CNS/new-sandbox or training recovery. Next complete generation-pinned source geometry acquisition and physiological calibration; sanitizer remains unavailable and learning disabled. Full original objective unchanged.
+
+
+### 2026-10-05: full SWC inventory input gap revalidated
+
+The historical inventory report records 167216 listed graph SWCs and 9034068018 bytes, but compressed inventory data/derived/malecns_v1_swc_bucket_inventory.csv.gz is absent from current pinned Git commit (HTTP404) and the selected immutable HF closure 66705179b8843c182534e9be8a0adf7affa7cb36 / manifest82d3d7ae1569326ce420cb7bf31754ad4a498086c25470a3ba11f6e64eba0405. Both foreground planning attempts terminated before any SWC download. Sources pinned to HF ebbec04663fcb57360c5a173ac2ddc32ffeb97bb and15afdc13749d5620dc234e61feaedd04566c9fe8. No complete acquisition plan or current availability claim established. Next regenerate and immediately archive official GCS metadata pages in MoLab, reconcile exact graph IDs and pin full shard plan before source acquisition. Do not read/copy historical local binary inventory or run local helpers. Whole-population geometry remains open; original objective unchanged.
+
+
+### 2026-10-05: full SWC input closure regenerated and acquisition started
+
+All212 official GCS metadata pages archived in14verified segments. Exact167216 graph IDs reconcile with211573 listed SWCs: no missing IDs, source9034068018bytes. Complete inventory/164-shard plan HF965d416f6ed49f2b856dca6b36d5e51a772e6c6d, manifest1ea8b4678a0ee3b48104f9076e6d6ff6f7e160ccd51808e8f2bf930e748d1ea9. The missing historical compressed input gap is closed by newly pinned current metadata, not copied local binaries.
+
+First source shard0:1024files generation/size/MD5 verified with zero errors; immutable tar+per-file SHA ledger pinned before audit HF811a855b377f7951c75a48e5f9f722cf86d2f6c6. Audit11461411nodes passes defined syntax/topology checks,163multi-root files retained. AuditHF2d133b13bdeadccca2d74b6e58fab6006617c815, manifest0847094f9e7472dbc6ea200aefc57d2fb6381f9be1a5f62b57acbf257f431f95. Coverage1024/167216 in this remote family; do not add historical local coverage without verified union. See docs/COMPLETE_SWC_INVENTORY_AND_ACQUISITION.md. Statvfs near2^63 output is virtual: disk_admitted field is not a proven quota/reserve. Continue bounded staging/publication for remaining163shards; full morphology quality and all biological/embodied/KSP gates remain open. Learning disabled; original full goal unchanged.
+
+
+### 2026-10-05: SWC source coverage through shard4
+
+Four additional planned shards1–4 completed in foreground MoLab, each source/archive/audit remotely verified before next shard. Independent HF-metadata union verifies exact planned IDs and generations with zero duplicate bodies. Remote family total5120/167216 SWCs (3.0619079513922114%),1191321673source bytes,34916649nodes; all defined structural checks pass,676multi-root files retained. Final union HF7302eb033dac6e3c38037df8654ea0f04cdb699c, manifestd9a2b99f003584177cae941bab5a87a67cab3df39e5d96711658850816972c06. Last shard4audit HF64e61036b20d57c8ea3ad02c563671aa22578d9f, manifest1e454df4ffe47ee9e3e9fc42042adefdd4474593797ac3621efff2aee72cb08e. See docs/SWC_ACQUISITION_SHARDS_0000_0004.md. Next shard5;159remaining. No historical-local coverage addition, morphology-quality admission or learning; all original gates and full goal unchanged.
+
+
+### 2026-10-05: SWC source coverage through shard8, interrupted shard recovered
+
+Shards5–8 completed with immediate immutable HF publication and structural audits. Initial cell sWoq was authoritatively interrupted during shard7 after completing5/6; remote inspection confirmed no active cell/process and1024 saved files. Recovery reverified original HF source closure and all saved files without redownloading, then completed7/8 in foreground cellTdtX. Unknown interruption cause; SSE timeout alone was never used as restart authority.
+
+MoLab immutable-metadata union in KKug verifies9216distinct SWCs/167216, coverage_fraction0.055114343125059806,1684627745source bytes,49559286nodes,1116multi-root files. Exact planned ID/generation reconciliation passes; zero duplicate bodies; all defined structural checks pass. FinalHFf1485e55b21242a5b8a958700b08368a77e65c41 manifest9a134487210cc14341e5819048522100e26a599b0a48aaa83cea6bd3a3564c95. Last8auditHF29fd7506bdeba6d86f6d42af86e672f74c361f15 manifest4d8f2254e3da25d0ed5323b43f6d47ef9ca3c38339e4a656b71e1a56f7fb6589. See docs/SWC_ACQUISITION_SHARDS_0000_0008.md. Next shard9;155remain. Virtual quota/reserve unproven, continue bounded staging. No morphology/biology admission, historical-local count addition or training. Full original objective and all gates remain open.
+
+
+### 2026-10-05: SWC source coverage through shard12
+
+Foreground MoLab BCGJ completed shards9–12 with immediate verified source/archive/audit publication before each successor. Union owOM re-read immutable HF manifests and reconciled exact planned body IDs/generations and predecessor chain:13312distinct SWCs/167216, coverage_fraction0.07960960673619749,2111128669source bytes,62192716nodes,1490multi-root files,zero duplicate bodies. All defined structural checks pass. FinalHF644caa6eac838df13d0b9ed8f4220ffce222a6aa manifest760800d310259bb28e389fbf407d81dee2ee5bf637a73bf9fe4d1cb9a19718ee. Last12auditHFf3ba0487c111879ce9db7531dc41c80a3c804a8b manifestfaa3fce433b94649647e2159de4086fe41d2659d10e5e3a2a81aa40a3423904b. See docs/SWC_ACQUISITION_SHARDS_0000_0012.md. Next13;151remain. Bounded staging only, virtual quota/reserve unproven. No historical-local count addition, full morphology or biological admission, or learning. Original full goal and all gates unchanged.
+
+
+### 2026-10-05: SWC source coverage through shard16
+
+Foreground MoLab DNjl completed13–16 with immediate verified source/archive/audit publication. Immutable HF union KEGg reconciles planned IDs/generations and predecessor chain:17408distinct SWCs/167216,coverage_fraction0.10410487034733518,2444062269source bytes,72121154nodes,1808multi-root files. Zero duplicate bodies; all defined structural checks pass. FinalHFc18a24011c40d461fbe5d87e1a9fdd05c93f3451 manifest3839be8156d6ac4f41843e3cc90fcb68a1e43d4d7cbe5f113fc57fd3f4ac7a60. Last16auditHFb8bd74d882911c44248b94bad6fae20b79ff0361 manifesta6b67907e6e248dba42c9993880559cc90dca220dafdf536763db5f2224733b5. See docs/SWC_ACQUISITION_SHARDS_0000_0016.md. Next17;147remain. Virtual quota/reserve unproven; staging bounded. No historical-local count addition, morphology/physiology/plasticity admission or learning. All original gates and full goal remain open.
+
+
+### 2026-10-05: SWC source coverage through shard20
+
+Foreground nPVH completed17–20; SSE failed during18 but browser confirmed continuing work, then code-mode confirmed idle/no errors and final verified receipts. No duplicate/restart. MoLab immutable-HF union duGF verifies21504distinct SWCs/167216,coverage_fraction0.12860013395847286,2739376998source bytes,80940983nodes,2125multi-root files. Exact planned IDs/generations reconcile; zero duplicate bodies; all defined structural checks pass. FinalHF2df4f7874ec15a3d45a65ffa494677198ff55a85 manifestbbc7896e305abec7c3b32cf3b702391933767495c1e7d1c6a66d5d9f4605954c. Last20auditHF9e851c86a5d781d8449b9fd333dfdbb63649ed1e manifestd87c952422c685120abdc39793530ad17cb24ec0e3844854a0d1eadf323ec235. See docs/SWC_ACQUISITION_SHARDS_0000_0020.md. Next21;143remain. Bounded staging, virtual quota/reserve unproven, no historical-local count addition, morphology/biological admission or learning. All original gates and full goal remain open.
+
+
+### 2026-10-05: SWC source coverage through shard24
+
+Foreground Jgqb completed21–24 with immediate verified source/archive/audit publication before successors. MoLab union pxrI reconciles exact planned IDs/generations and predecessor chain:25600distinct SWCs/167216,coverage_fraction0.15309539756961058,2992689364source bytes,88535217nodes,2452multi-root files. Zero duplicate bodies; all defined structural checks pass. FinalHFe1f0cd5a155759e7ec67e765589175e69b8208a7 manifestaa31a3e975f7b90017e5dd310508b587984a0b1251d97f075ef67b22e738d08c. Last24auditHFaf4e871ed326e43dc4086ca7f435ee64aab958f8 manifestf9af22a1c5c23fc008881820f887dd1d15fefceeb5ccdc2e712ecadbf167e9ca. See docs/SWC_ACQUISITION_SHARDS_0000_0024.md. Next25;139remain. Bounded staging; virtual quota/reserve unproven. No historical-local count addition, morphology/physiology/plasticity admission or learning. All original gates and full objective remain open.
+
+
+### 2026-10-05: SWC source coverage through shard28
+
+Foreground viWy completed25–28; every immutable source/archive/audit verified before its successor. Slower27/28downloads finished without errors/restart. MoLab immutable-HF union yLfX reconciles exact planned IDs/generations and predecessor chain:29696distinct SWCs/167216,coverage_fraction0.17759066118074826,3230286213source bytes,95663282nodes,2728multi-root files. Zero duplicate bodies; all defined structural checks pass. FinalHFfdd70643119ea7c95f682827abaecad174fe15e9 manifest587d126531ee71b33706423ed8d9fb01f3e7263c8bc4de19af0720e620eee79e. Last28auditHFdfe1155b68505080dd865a1658d298acaad9f5f1 manifest1bea210eb40240c103cb01a79fed970f6f64171874d1fd48bf7bd01eec7e2453. See docs/SWC_ACQUISITION_SHARDS_0000_0028.md. Next29;135remain. Bounded staging; virtual quota/reserve unproven. No historical-local count addition, morphology/biological admission or learning. All original gates and full objective remain open.
+
+
+### 2026-10-05: SWC source coverage through shard32
+
+Foreground fIhB completed29–32 with immediate verified source/archive/audit publication before successors. MoLab immutable-HF union cjqf reconciles exact planned IDs/generations and predecessor chain:33792distinct SWCs/167216,coverage_fraction0.20208592479188595,3445646786source bytes,102147115nodes,2992multi-root files. Zero duplicate bodies; all defined structural checks pass. FinalHFcf980afc1c60cddaa8d5f78408e03c428bdf3893 manifestf02891960f32305ce8425ed5a2e1fe9c549ea3fc3368f57176381b12e17e03e9. Last32auditHF63f2c0d32a2cff3fd325793628711faf66059255 manifesta4234c96cebc01f4e0015016772c64ab549f9918136f541e10dde8a33402ef2c. See docs/SWC_ACQUISITION_SHARDS_0000_0032.md. Next33;131remain. Bounded staging; virtual quota/reserve unproven. No historical-local count addition, morphology/biological admission or learning. All original gates and full objective remain open.
+
+
+### 2026-10-05 — remote SWC union through shard 36
+
+Shards 33–36 completed in MoLab, each source closure pinned before acquisition and each completed acquisition/audit remotely verified on private HF before advancement. Immutable union report HF commit `389a7feb7cefc4dd89b441fe3689e49735273c36`, manifest `09f3e3df85efefb6f980c6be84ac888aece6bb0d49062866adc71e684224d36b`: 37,888 distinct SWCs / 167,216 (22.658118840302363%), 3,640,610,201 source bytes, 108,036,545 nodes; zero duplicate body IDs; all defined structural checks pass; 3,239 multi-root files retained. Exact planned ID/generation reconciliation verified remotely. Next shard 37, remaining 127. See docs/SWC_ACQUISITION_SHARDS_0000_0036.md for immutable identities and limits.
+
+Full WORK_PLAN goal remains active. This partial structural audit does not admit anatomical geometry or biological fidelity. Plasticity/training remain disabled; physiology, body/cockpit, runtime acceptance, three independent training/evaluation series and reproducible recordings remain open.
+
+
+### 2026-10-05 — remote SWC union through shard 40
+
+Shards 37–40 completed in visible foreground MoLab; every immutable source/acquisition/audit stage was verified on private HF before dependent advancement. Union HF commit `3c5273dd7d562d637e5ec3e8ffbe9d28bf51aed5`, manifest `9021c007ba7f3e6c900f71fda1f474bf3c38a0f897637efa9cd740233b03af36`: 41,984 distinct SWCs / 167,216 (25.107645201416134%), 3,829,650,020 source bytes, 113,754,104 nodes. Exact planned ID/generation reconciliation passes, duplicate body IDs zero, all defined structural checks pass; 3,520 multi-root files retained. Next shard 41; remaining 123. See docs/SWC_ACQUISITION_SHARDS_0000_0040.md for immutable receipts and scope.
+
+Full project goal remains active. This partial structural evidence does not admit anatomical geometry or biological fidelity. Plasticity and training remain disabled; all broader physiology/body/runtime/training/evaluation/recording gates remain open.
+
+
+### 2026-10-05 — remote SWC union through shard 44
+
+Shards 41–44 completed in visible foreground MoLab; every immutable source/acquisition/audit was published and remotely verified before dependent advancement. Union HF commit `91ad2e66e594419e96bea875e9b09a3e2536ab09`, manifest `92a195f7bd7c84bcfa265fdebadef8a0c04cebecefb30acae6998330a1b1fd60`: 46,080 distinct SWCs / 167,216 (27.557171562529903%), 4,006,052,611 source bytes, 119,099,876 nodes; exact planned ID/generation reconciliation passes; zero duplicate body IDs; all defined structural checks pass; 3,807 multi-root files retained. Next shard 45; remaining 119. See docs/SWC_ACQUISITION_SHARDS_0000_0044.md for immutable receipts and limitations.
+
+Full project goal remains active. Partial structural evidence does not admit anatomical geometry or biological fidelity. Plasticity and training remain disabled; broader physiology/body/runtime/training/evaluation/recording gates remain open.
+
+
+### 2026-10-05 — remote SWC union through shard 48
+
+Shards 45–48 completed in visible foreground MoLab; each immutable source/acquisition/audit was published and remotely verified before dependent advancement. Union HF commit `ac036294e19293bfc1637691af6482b191c07f32`, manifest `9662610216ba2a560ffe27b90f3cf8285ddca6bf3e2368d567af5de4ab4f5978`: 50,176 distinct SWCs / 167,216 (30.00669792364367%), 4,177,316,509 source bytes, 124,291,219 nodes; exact planned ID/generation reconciliation passes, zero duplicate body IDs, all defined structural checks pass; 4,074 multi-root files retained. Next shard 49; remaining 115. See docs/SWC_ACQUISITION_SHARDS_0000_0048.md for immutable receipts and scope.
+
+Full project goal remains active. This partial structural evidence does not admit anatomical geometry or biological fidelity. Plasticity and training remain disabled; broader physiology/body/runtime/training/evaluation/recording gates remain open.
+
+
+### 2026-10-05 — remote SWC union through shard 52
+
+Shards 49–52 completed in visible foreground MoLab; each immutable source/acquisition/audit was published and remotely verified before dependent advancement. Union HF commit `62ee7d2cea8035f56c7be532608293717b0dcfba`, manifest `9880bb348e2e886fb5ed1233c75559d7fe590b9143304e26ccd2e8b0cf088b73`: 54,272 distinct SWCs / 167,216 (32.45622428475744%), 4,340,765,589 source bytes, 129,254,203 nodes. Exact planned ID/generation reconciliation passes; zero duplicate body IDs; all defined structural checks pass; 4,381 multi-root files retained. Next shard 53; remaining 111. See docs/SWC_ACQUISITION_SHARDS_0000_0052.md for receipts and limits.
+
+Full project goal remains active. Partial structural evidence does not admit anatomical geometry or biological fidelity. Plasticity and training remain disabled; broader physiology/body/runtime/training/evaluation/recording gates remain open.
+
+
+### 2026-10-05 — remote SWC union through shard 56
+
+Shards 53–56 completed in visible foreground MoLab; each immutable source/acquisition/audit was published and remotely verified before dependent advancement. Union HF commit `49b06a11403d15657293dfa109285786f67ee261`, manifest `965817478d341caf564b70f0b291a36ebc5e285da7d9b98a1648b6903b1a7300`: 58,368 distinct SWCs / 167,216 (34.90575064587121%), 4,493,048,506 source bytes, 133,879,518 nodes; exact planned ID/generation reconciliation passes; zero duplicate body IDs; all defined structural checks pass; 4,682 multi-root files retained. Next shard 57; remaining 107. See docs/SWC_ACQUISITION_SHARDS_0000_0056.md for receipts and limitations.
+
+Full project goal remains active. Partial structural evidence does not admit anatomical geometry or biological fidelity. Plasticity and training remain disabled; broader physiology/body/runtime/training/evaluation/recording gates remain open.
+
+
+### 2026-10-05 — remote SWC union through shard 60
+
+Shards 57–60 completed in visible foreground MoLab; each immutable source/acquisition/audit was published and remotely verified before dependent advancement. Union HF commit `9422dd0116d9d76d00ea0cb7dde51e4158cb50e9`, manifest `5f646b71e93d26da0c22831d1522a247e75df7b5d059f20012bb09a29191c08c`: 62,464 distinct SWCs / 167,216 (37.355277006984977%), 4,636,427,045 source bytes, 138,242,321 nodes; exact planned ID/generation reconciliation passes, zero duplicate body IDs, all defined structural checks pass; 4,940 multi-root files retained. Next shard 61; remaining 103. See docs/SWC_ACQUISITION_SHARDS_0000_0060.md for receipts and scope.
+
+Full project goal remains active. Partial structural evidence does not admit anatomical geometry or biological fidelity. Plasticity and training remain disabled; broader physiology/body/runtime/training/evaluation/recording gates remain open.
+
+
+### 2026-10-05 — remote SWC union through shard 64
+
+Shards 61–64 completed in visible foreground MoLab; each immutable source/acquisition/audit was published and remotely verified before dependent advancement. Union HF commit `fa31d788e4d27ad7833dd0334341169f0a11dbf4`, manifest `42bd9f91890527cf5498a751277102ab63506299ee81ce6ab3f9eda580ffe7d4`: 66,560 distinct SWCs / 167,216 (39.804803368098746%), 4,775,391,612 source bytes, 142,469,471 nodes; exact planned ID/generation reconciliation passes; zero duplicate body IDs; all defined structural checks pass; 5,232 multi-root files retained. Next shard 65; remaining 99. See docs/SWC_ACQUISITION_SHARDS_0000_0064.md for receipts and limits.
+
+Full project goal remains active. Partial structural evidence does not admit anatomical geometry or biological fidelity. Plasticity and training remain disabled; broader physiology/body/runtime/training/evaluation/recording gates remain open.
+
+
+### 2026-10-05 — remote SWC union through shard 68
+
+Shards 65–68 completed in visible foreground MoLab; each immutable source/acquisition/audit was published and remotely verified before dependent advancement. Union HF commit `6fa76cda228c95ce15c98167962127fd3d3258c4`, manifest `8ae679dc755e9edbc1758a8a3cfea7d8f4b75ff0ddc90ad439393ea809e4c474`: 70,656 distinct SWCs / 167,216 (42.254329729212514%), 4,904,220,586 source bytes, 146,390,197 nodes; exact planned ID/generation reconciliation passes, zero duplicate body IDs, all defined structural checks pass; 5,480 multi-root files retained. Next shard 69; remaining 95. See docs/SWC_ACQUISITION_SHARDS_0000_0068.md for receipts and limitations.
+
+Full project goal remains active. Partial structural evidence does not admit anatomical geometry or biological fidelity. Plasticity and training remain disabled; broader physiology/body/runtime/training/evaluation/recording gates remain open.
+
+
+### 2026-10-05 — remote SWC union through shard 72
+
+Shards 69–72 completed in visible foreground MoLab; each immutable source/acquisition/audit was published and remotely verified before dependent advancement. Union HF commit `dcc672830f88d09b0425bbc02ba8ea25855d6b0d`, manifest `2586de03bf2d293ab5956941d0da08489ee5ad90a1c7a985d04ba5e39ea1e629`: 74,752 distinct SWCs / 167,216 (44.70385609032628%), 5,022,320,705 source bytes, 149,991,397 nodes; exact planned ID/generation reconciliation passes; zero duplicate body IDs; all defined structural checks pass; 5,737 multi-root files retained. Next shard 73; remaining 91. See docs/SWC_ACQUISITION_SHARDS_0000_0072.md for receipts and limitations.
+
+Full project goal remains active. Partial structural evidence does not admit anatomical geometry or biological fidelity. Plasticity and training remain disabled; broader physiology/body/runtime/training/evaluation/recording gates remain open.
+
+
+### 2026-10-05 — remote SWC union through shard 76
+
+Shards 73–76 completed in visible foreground MoLab; each immutable source/acquisition/audit was published and remotely verified before dependent advancement. Union HF commit `b21b0e36f0d238c5a5bceb296375a08e0c165134`, manifest `5c6de091b75ecabac6f4f59f8e460dcdb10a21502ea77cc2bbc2ad6d244dd70c`: 78,848 distinct SWCs / 167,216 (47.15338245144005%), 5,138,679,634 source bytes, 153,539,682 nodes; exact planned ID/generation reconciliation passes; zero duplicate body IDs; all defined structural checks pass; 5,958 multi-root files retained. Next shard 77; remaining 87. See docs/SWC_ACQUISITION_SHARDS_0000_0076.md for receipts and limits.
+
+Full project goal remains active. Partial structural evidence does not admit anatomical geometry or biological fidelity. Plasticity and training remain disabled; broader physiology/body/runtime/training/evaluation/recording gates remain open.
+
+
+### 2026-10-05 — remote SWC union through shard 80
+
+Shards 77–80 completed in visible foreground MoLab; each immutable source/acquisition/audit was published and remotely verified before dependent advancement. Union HF commit `54f2aa53690bc355b8b9d45b90ea9728a2b770b7`, manifest `643039087f760cbe63d92c96c7cf8607ebb6d76174737665d090ee0e0c921c29`: 82,944 distinct SWCs / 167,216 (49.602908812553825%), 5,254,284,262 source bytes, 157,059,349 nodes; exact planned ID/generation reconciliation passes; zero duplicate body IDs; all defined structural checks pass; 6,204 multi-root files retained. Next shard 81; remaining 83. See docs/SWC_ACQUISITION_SHARDS_0000_0080.md for receipts and limits.
+
+Full project goal remains active. Partial structural evidence does not admit anatomical geometry or biological fidelity. Plasticity and training remain disabled; broader physiology/body/runtime/training/evaluation/recording gates remain open.
+
+
+### 2026-10-05 — remote SWC union through shard 84
+
+Shards 81–84 completed in visible foreground MoLab; each immutable source/acquisition/audit was published and remotely verified before dependent advancement. Union HF commit `82353dd4a09291394548503ac9f16dc2d8a41c74`, manifest `cc696d4992e5987264df36c424ca02b4077d41e905585e17aebc7fa1f86fe1e3`: 87,040 distinct SWCs / 167,216 (52.05243517366759%), 5,360,345,779 source bytes, 160,295,816 nodes; exact planned ID/generation reconciliation passes; zero duplicate body IDs; all defined structural checks pass; 6,438 multi-root files retained. Next shard 85; remaining 79. See docs/SWC_ACQUISITION_SHARDS_0000_0084.md for receipts and limits.
+
+Full project goal remains active. Partial structural evidence does not admit anatomical geometry or biological fidelity. Plasticity and training remain disabled; broader physiology/body/runtime/training/evaluation/recording gates remain open.
+
+
+### 2026-10-05 — remote SWC union through shard 88
+
+Shards 85–88 completed in visible foreground MoLab; each immutable source/acquisition/audit was published and remotely verified before dependent advancement. Union HF commit `058d7976f832470cbbf3cd4c1fa7baacaec2f3e8`, manifest `8979cd07d81c25f27ba00ec0fcf0f3e0cb750b421590f381a01a0969d9880fdc`: 91,136 distinct SWCs / 167,216 (54.50196153478136%), 5,463,678,668 source bytes, 163,442,722 nodes; exact planned ID/generation reconciliation passes; zero duplicate body IDs; all defined structural checks pass; 6,675 multi-root files retained. Next shard 89; remaining 75. See docs/SWC_ACQUISITION_SHARDS_0000_0088.md for receipts and limits.
+
+Full project goal remains active. Partial structural evidence does not admit anatomical geometry or biological fidelity. Plasticity and training remain disabled; broader physiology/body/runtime/training/evaluation/recording gates remain open.
+
+
+### 2026-10-05 — SWC acquisition through shard 0092
+
+Verified MoLab/HF union: 95,232 / 167,216 distinct SWCs (56.95148789589513%), 5,565,581,038 source bytes, 166,545,526 nodes, 6,949 multi-root files retained, zero duplicate bodies; exact planned identity/generation reconciliation and defined structural checks pass. Report commit b8f348acbf41186a6554b3618514cd6397181551, manifest 96f2b9c3456dcd6e7584db78af4ea1484587fee9c7e42be74b86a58f232d911c. Source closure commit 2ccd52774617af782a226a512c6b14fe856396b9, manifest b6da56027fcc9af4cca828ff7941bcae5cb1d495ae7490c105507335a594d437. Details: docs/SWC_ACQUISITION_SHARDS_0000_0092.md. Next shard 0093; 71 remain. Syntax/topology does not establish biological fidelity; geometry admission false, plasticity and training disabled. Actual sandbox quota remains unknown; virtual statvfs is not reserve proof. Full original objective and all broader gates remain open.
+
+
+### 2026-10-05 — SWC acquisition through shard 0096
+
+Verified MoLab/HF union: 99,328 / 167,216 distinct SWCs (coverage_fraction 0.594010142570089), 5,662,571,611 verified source bytes, 169,502,827 nodes, 7,223 multi-root files retained, zero duplicate body IDs. Exact planned identity/generation reconciliation and all defined structural checks pass. Union report commit fc5170390f09bcd39747c88f8e59f9a4e57941a9, manifest 32c210fd2b026c86755d68778dbd33317fa5595af00838bd6371535aa1d461ad; source closure commit 5ca98c354de6e2c49123dcd17956568bebc03e56, manifest 7848e0b9f44148306017348adca377efa0ea9fd364a42c3fd3ae17c0e1e53515. Details: docs/SWC_ACQUISITION_SHARDS_0000_0096.md. Next shard 0097; 67 remain. Geometry admission false; plasticity/training disabled. Source-byte and topology checks do not establish biological fidelity. Actual sandbox quota remains unknown; virtual statvfs is not reserve proof. Full original goal and broader gates remain open.
+
+
+### 2026-10-05 — SWC acquisition through shard 0100
+
+MoLab/HF verified union: 103,424 / 167,216 distinct SWCs (coverage_fraction 0.6185054061812266), 5,760,694,430 verified source bytes, 172,493,395 nodes, 7,537 multi-root files retained, zero duplicate body IDs. Exact planned identity/generation reconciliation and all defined structural checks pass. Union report commit 4b5574fef9c1eadb08ba63ed24904db02fe42480, manifest 6a4d3a120441ee55dc44b94942d757232ea1c71c4b1474c65684aae2356a740b; source closure commit 2409ad701f8a0e294072e3a39834c7c662f9d947, manifest 2eec4395d11269797c75607cbd4983454d6360e16708713c4ebdf2b533dd5edd. Details: docs/SWC_ACQUISITION_SHARDS_0000_0100.md. SSE observation failed; existing cell observed idle with errors=[] and verified final receipt, without restart. Next shard 0101; 63 remain. Geometry admission false, plasticity/training disabled. Basic structure does not establish biological fidelity. Actual quota unknown; virtual statvfs is not reserve proof. Full goal and broader gates remain open.
+
+
+### 2026-10-05 — SWC through shard 0102; interrupted 0103 preparation
+
+Verified MoLab union: 105,472 / 167,216 SWCs, coverage_fraction 0.6307530379867955, 5,809,036,234 source bytes, 173,963,399 nodes, 7,685 multi-root files retained, no duplicate IDs. All defined structural checks and exact plan reconciliation pass. Union report HF 876ced11acaa1ef893a9e19a1136efb5f9a2bb27 / manifest 4bb70c725e14154d7290768fe562589a053367caa693e8a0d2c8943ae109fa2b. Source HF e06b61d25bef644a43c824b47ff3c0dd7b7b44ce / manifest 5f0a3f4434ef4d1ec150ef9bbf31d62d610a573fc7dbc60c05bb897ed1b5a332. Batch cell jtnm authoritatively interrupted during 0103 source publication pacing after verified completion of 0101–0102; no reason inferred. Inspect existing 0103 preparation/remote state before recovery. Next 0103, 61 shards remain. Details: docs/SWC_ACQUISITION_SHARDS_0000_0102.md. Geometry admission false, plasticity/training disabled, biological fidelity unproven; actual quota unknown. Full goal remains active.
+
+
+### 2026-10-05 — recovered 0103; verified union through 0104
+
+Verified MoLab union: 107,520 / 167,216 SWCs, coverage_fraction 0.6430006697923644, 5,860,014,367 source bytes, 175,512,911 nodes, 7,855 multi-root files retained, zero duplicate IDs; all defined structural checks and exact plan reconciliation pass. Report HF 34690770150428b9b5669869ae9fac5ef5c5eb9a / manifest 5a84c04ca2eef76cf8deeeae8455578a4667020a7282e61af217a04f36e45d0c. Source HF 6e4d5a86cfc4246bd3142ca9db813334c95bd1dd / manifest e1a99012c6f1e8201a08e6c6c0d1abf36fa96ad2a4003b05f76f864fbd9894db. Existing recovery cell authoritatively interrupted; original closure restored and SHA256-matched before fresh pinned resumption; cached 0103 files reverified, no blanket redownload. 0103 and 0104 complete and HF verified. Next 0105, 59 remain. Details docs/SWC_ACQUISITION_SHARDS_0000_0104.md. Geometry admission false, plasticity/training disabled, biological fidelity unproven. Actual quota unknown. Full original goal remains active.
+
+
+### 2026-10-05 — verified SWC through 0106; recovery point 0107
+
+MoLab union 109,568 / 167,216 distinct SWCs, coverage_fraction 0.6552483015979332; 5,913,500,277 source bytes; 177,131,254 nodes; 8,041 multi-root files; zero duplicate IDs, all defined structural checks and exact plan reconciliation pass. Report HF d95ecfe1368b2bd1c53c8ba5a27ded02ab4a0f19 / manifest 4b4e7a28e924f6cc46c0d8da9e3dda623cbcc1e7c03d71e266a66db9c24f34bc. Source HF f3e8758c0caa72adce1fb1bcafee425db2b36db1 / manifest 353f445597fe0805c405ceff14b65e28232b8b599991cd4759387aefccdc9603. Cell vZer authoritatively interrupted during 0107 download; at least 960 completions cached, pinned closure HF 0422e0fa2810f145b2052227e2c6478d2f85f1ee / manifest 591d6a74c400a1cf4449dcf74f3039a4fb4d86bf0154cb6ce229aea90c4911ee. Reverify existing files before resumption, no blanket redownload. Next 0107, 57 remain; 0108 not started. Details docs/SWC_ACQUISITION_SHARDS_0000_0106.md. Geometry admission false; plasticity/training disabled; biological fidelity unproven; actual quota unknown. Full goal active.
+
+
+### 2026-10-05 — recovered 0107; verified SWC through 0108
+
+MoLab union: 111,616 / 167,216 distinct SWCs, coverage_fraction 0.6674959334035021; 5,966,429,265 source bytes, 178,736,866 nodes, 8,233 multi-root files retained; no duplicate IDs, all defined structural checks and exact plan reconciliation pass. Report HF d2dc99cf0923c1225d2a92d1e4f8fe86f8021aa3 / manifest 9103750177d1b199d286292d0ec562bdff3731419c88dc6ddbfc1c6322638417. Source HF 52729e1c3383bb67d857438be19fadee3ec112fe / manifest 880b7cfb755cd582f804a9f482284764233aa69abec479733a16e9836d2febc7. 0107 original closure restored/hash-matched; cached files reverified without blanket redownload after pinning recovery source. 0107–0108 complete and HF verified. Next 0109, 55 remain. Details docs/SWC_ACQUISITION_SHARDS_0000_0108.md. Geometry admission false, plasticity/training disabled, biological fidelity unproven; actual quota unknown. Full original goal active.
+
+
+### 2026-10-05 — verified SWC through 0109
+
+MoLab union 112,640 / 167,216 distinct SWCs, coverage_fraction 0.6736197493062864; source bytes 5,993,383,523; nodes 179,552,162; multi-root files 8,352 retained; no duplicate IDs, defined structural checks and exact plan reconciliation pass. Report HF b866a8562257ebbbeed32f47155bad74fc34e83d / manifest d5f40c8a6886e93a594c46f4b35c7f004494232d9aa587c3e84f7844744c5a22. Source HF da16f95ba66a3cac3153c0bc3b22a8b837dad512 / manifest 55853227032ad9e3db9c297dc83b16f8e0dc89cb276570b53265c85297f75472. Details docs/SWC_ACQUISITION_SHARDS_0000_0109.md. Next 0110, 54 remain. Geometry admission false, plasticity/training disabled; biological fidelity unproven; actual quota unknown. Full goal active.
+
+
+### 2026-10-05 — verified SWC through 0110
+
+MoLab union: 113,664 / 167,216 SWCs, coverage_fraction 0.6797435652090709; source bytes 6,020,050,094; nodes 180,356,237; multi-root files 8,453 retained; zero duplicate IDs. Defined structural checks/exact plan reconciliation pass. Report HF 392bde5a39b7c1b34c420807028b962a2d74ca02 / manifest b8486e7deab01bc156cf6fe69c8385b585067790c8d8c33fc635c94993efc34d. Source HF 5e0d409fa85d0563a5ced6555262ce728d158b4c / manifest 635c7ae7f1a9745551a022ded9548e54f921b1640ff45e7758c138a578aa8c70. Details docs/SWC_ACQUISITION_SHARDS_0000_0110.md. Next 0111, 53 remain. Geometry admission false; plasticity/training disabled; biological fidelity unproven; actual quota unknown. Full original goal active.
+
+
+### 2026-10-05 — verified SWC through 0111
+
+MoLab union 114,688 / 167,216 SWCs, coverage_fraction 0.6858673811118553; 6,045,972,318 source bytes, 181,140,015 nodes, 8,591 multi-root files retained. No duplicate IDs; defined structural checks/exact plan reconciliation pass. Report HF c4f20d763c54a083acf83d1eaa30f8d1e3435f23 / manifest 124da50930746981e1f198bdd36e9489f39f27239447d1b0a5e81ae8aebe0045. Source HF 0a9f534c67233ca0a6f9777bd0ec44299969773d / manifest ac232bf36f65834b8cfebc0b5d27875a64a983cf765e867fbfba906f9310bc4d. Details docs/SWC_ACQUISITION_SHARDS_0000_0111.md. Next 0112, 52 remain. Geometry admission false; plasticity/training disabled; biological fidelity unproven; actual quota unknown. Full goal active.
+
+
+### 2026-10-05 — verified SWC through 0112
+
+MoLab union: 115,712 / 167,216 SWCs, coverage_fraction 0.6919911970146397; source bytes 6,071,912,507; nodes 181,921,970; multi-root files 8,702 retained. Zero duplicate IDs, all defined structural checks/exact plan reconciliation pass. Report HF 23d719abce44f6ef277f74b13993653bca08983d / manifest 76e544a3531c94691676d6c5bb04b9c5aeffd7798b1c04f1eb6b5f26416ba508. Source HF cf13e007ebd9d30ddd9cab02acdbf23943e9d805 / manifest 4189a263316b310b9aa5ae7cedbe7b4b60fddd04e973b4dad11ec98232de9e33. Details docs/SWC_ACQUISITION_SHARDS_0000_0112.md. Next 0113, 51 remain. Geometry admission false; plasticity/training disabled; biological fidelity unproven; actual quota unknown. Full original goal active.
+
+
+### 2026-10-05 — shard 0113 completed; union update pending
+
+MoLab acquired/published/remote-verified 1,024 SWCs for shard 0113; structural pass, 823,425 nodes, 134 multi-root files retained. Completed input HF 5ebafd4de602266814640d47198d2169a5f2c95f / manifest d804b4033d3b97b64faf87bc20cc6099fae239cfa0ef1c7da004e2c5754a428c. Audit HF c48ead3ca70fb9ad38dee4dbcdffddc0cd07dded / manifest 94e9e09a1ea509f4472c4e294a56c59a2af6c3ba1888845d4c73e77714833036. Details docs/SWC_ACQUISITION_SHARD_0113.md. Next action: reconcile/publish union 0000–0113 before 0114. Previous union through 0112 remains last verified global count. Geometry admission false; plasticity/training disabled; biological fidelity unproven. Full original goal active.
+
+
+### 2026-10-05 — union 0000–0113 verified
+
+Pending global reconciliation completed in MoLab: 116,736 / 167,216 distinct SWCs, coverage_fraction 0.6981150129174242; 6,099,503,344 source bytes; 182,745,395 nodes; 8,836 multi-root files retained. No duplicate IDs; defined structural checks and exact plan reconciliation pass. Report HF 97c089241523e8541159a111df44ec1259499fa7 / manifest 4b9064142d43c9b68e166df2da53752d749e0a36747cef5f701c9a81b054aa0f. Source HF bb926e2d8d6bcb2fa619db5a0ea7a08cc5e6334e / manifest ee9764b0789f528b7e5a81a65539f8f2bc81c1f4466ec5bb9e4432df731d4752. Details docs/SWC_ACQUISITION_SHARDS_0000_0113.md. Next 0114, 50 remain. Geometry admission false; plasticity/training disabled; biological fidelity unproven; actual quota unknown. Full original goal active.
+
+
+### 2026-10-05 — verified union through 0114
+
+MoLab union 117,760 / 167,216 SWCs, coverage_fraction 0.7042388288202086; 6,125,620,916 source bytes; 183,524,270 nodes; 8,963 multi-root files retained. Zero duplicate IDs, defined structural checks/exact plan reconciliation pass. Report HF 2d8bfbc377a0310dd02dc51a0b184e98ef89308a / manifest 6262a22f3fd074a388ee7ae7b7250b2a786882379ade93397097f222920ccba4. Source HF 7af614dbe1e667eb6bf194db4fc64980a064b251 / manifest 49b7bfe866e97efa338cacf017d16083ba6622f3b36c9990c71de5f4866b49e4. Details docs/SWC_ACQUISITION_SHARDS_0000_0114.md. Next 0115, 49 remain. Geometry admission false, plasticity/training disabled; biological fidelity unproven; actual quota unknown. Full original goal active.
+
+
+### 2026-10-05 — shard 0115 verified; global union publication pending
+
+MoLab shard 0115: 1,024 files, 694,819 nodes, 120 multi-root files retained, no structural issue files; defined basic structural checks pass. Source closure HF 6c39a9ea5470da64b4b9c297cbb50fd8d4f67eb0 / manifest 6ba1782f6fd509b8792f0a3afec29bb9f676954ce7941f8fd85e17e2e646ff69. Completed input HF c501b455ee386efe343335570a2401c39b47a169 / manifest 57be50c3c10ed0bbcffd9d9d00e91a73d17c9c93b534d8d6d31826940eb5e1bf. Audit HF a49fe39c83cf0ae1b9bd4694cfd3393981d1567c / manifest 330e440efcd75e46c169db02216316ae69ebac9bd2eaeb98a787692ad50d0c98. All remotely verified before dependent work. Global union cell summarize_swc_shards_0000_0115 dispatched, source closure HF 02f997a69d556dcb50ab9e18dac043121c2e58d6 / manifest 1faaccfb55f582aa46bc3020bfedc18e7709335bfd94882363e7887b45401d92. Transport session 80808 still pending at last poll; final union receipt not yet observed. Do not duplicate this cell; inspect/poll existing state before next stage. Last verified global union remains through 0114. Geometry admission false, plasticity/training disabled, biological fidelity unproven; actual quota unknown. Full original goal active.
+
+
+### 2026-10-05 — recovered union through 0115 verified
+
+Original union cell rFRI confirmed interrupted at publication; separately pinned foreground recovery completed. MoLab union 118,784 / 167,216 SWCs, coverage_fraction 0.710362644722993; source bytes 6,148,848,713; nodes 184,219,089; multi-root files 9,083 retained. Zero duplicate IDs; structural checks/exact plan reconciliation pass. Report HF 05233b33105412039d2d6daad275f2198d0d7805 / manifest 99637a4fecb1a86c6e50154e74984cae99defee6044d04dcbbfdc5046b40b217. Recovery source HF 0839b9d45d95c36f2362eadd8f4eb45971242b8d / manifest aee0be5115114840320ed8d06630344c74c006170f0ad12b7374b59a4801c4d3. Details docs/SWC_ACQUISITION_SHARDS_0000_0115.md. Next 0116, 48 remain. Geometry admission false, plasticity/training disabled; biological fidelity unproven; actual quota unknown. Full original goal active.
+
+
+### 2026-10-05 — shard 0116 complete; union pending
+
+MoLab shard 0116: 1,024 verified SWCs, 708,111 nodes, 102 multi-root files retained; structural pass. Source HF 2d453203b40fc0e26365f00d39a8a48444c41cc5 / manifest a02f965f4183d4a51113273620caf522b111b9d2ccc2c406ec50686158fcaf27. Input HF de224fe0ea23b2c9c6b699651b4b9655c214bd9a / manifest d73d2468aa1dc7d0979d972773dafa7c2953ae327738888cc3b8c94c5cce5584. Audit HF d5a687a7026a120299155e694cb034312f0dd3a7 / manifest b94454d7bc8583d977e3460bc420d082202317e60a2417253e58b9a59f1b1f42. All remote-verified. Details docs/SWC_ACQUISITION_SHARD_0116.md. Next action reconcile/publish union 0000–0116 before 0117. Last verified global union remains through 0115. Geometry admission false, plasticity/training disabled, biological fidelity unproven; actual quota unknown. Full original goal active.

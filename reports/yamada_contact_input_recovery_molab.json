@@ -1,0 +1,40 @@
+{
+  "status": "full_pinned_source_and_contact_coordinates_recovered; biological_mapping_open",
+  "checked_hf_revision": "9ec22f9cb1b0358ee8bef432dd1c9c44c36bb4b8",
+  "missing_object": "888ea69ade19b0376b57c60ee75c5f93102285e2d98f9943619145e449b0f801",
+  "observed_http_status": 404,
+  "nodes_recovered": true,
+  "anatomical_analysis_completed": true,
+  "source_generation": "1780494942562468",
+  "source_expected_bytes": 6777179098,
+  "source_parts": 13,
+  "first_part_verified_bytes": 536870912,
+  "first_part_receipt": {
+    "revision": "207dd2564958af36fdcbb3cb9950baea360212e4",
+    "manifest": "manifests/7b31f56a6fc0af0746e8a7e5407909536b96931325aac606d508088901d2d34f.json",
+    "verified": true
+  },
+  "recovery_driver_commit": "7941a111038dc8b18013c0408574f21ae2c444df",
+  "execution": "Sequential foreground MoLab cells Ujoj (full source) and SkQO (full contact recovery); each completed shard immediately archived",
+  "whole_source_verified": true,
+  "plasticity_enabled": false,
+  "limitation": "Remote coordinate input restored and exact pair correspondence verified. Broad ROI and annotation strata do not establish gamma1 microcompartment or measured local plasticity.",
+  "source_parts_verified": 13,
+  "source_verified_bytes": 6777179098,
+  "source_verified_md5": "58efcf712f8c4d4de5f2ad51e97def76",
+  "source_sha256": "959d8ef4173b35382a3e6acfaf5167c795b6d10b877572d146af04e1b487bc07",
+  "source_closure_receipt": {
+    "revision": "06d9c0131f62f6555529ae045b025f959bce8e3d",
+    "manifest": "manifests/67bba473f9e8289ed0fdb866692ac5242441efe66a61518d41c4906d0a113318.json",
+    "verified": true
+  },
+  "extraction_source_commit": "68a480b51c9abb0aa7394e4ca516fcde7efaa533",
+  "contacts_recovered": 463640,
+  "pairs_reconciled": 61210,
+  "pair_mismatches": 0,
+  "result_receipt": {
+    "revision": "633002a94ba6f474f65a482a69549623021ac7b3",
+    "manifest": "manifests/f7b6479c91af427831e9bc620accb592c9bc20dc04774cb01a920c751e50e155.json",
+    "verified": true
+  }
+}

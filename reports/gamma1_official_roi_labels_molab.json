@@ -1,0 +1,55 @@
+{
+  "status": "official_atlas_label_audit_complete; gamma1_contact_assignment_open",
+  "source_commit": "60fed46652cee091e8ca5fc4d62c0020b9bd50ae",
+  "execution": "MoLab foreground cell brQU; metadata only; no local computation or data download",
+  "scope": "Only official fullbrain-roi-v4/v5 info and explicitly referenced segment_properties/info",
+  "atlases": [
+    {
+      "name": "fullbrain-roi-v4",
+      "label_count": 90,
+      "properties_generation": "1758224718640900",
+      "properties_sha256": "9955cc05c4409366b65cabdc87482f8226b48ba78dd45b6824da758803ce2f7d",
+      "properties_receipt": {
+        "revision": "152e82a63d6db882e81f1749d34a14d9195eb8f3",
+        "manifest": "manifests/8a4df610589d481afdb00417b4bf31bcc09fe44431ed6760b92454e16fb3052c.json",
+        "verified": true
+      },
+      "microcompartment_name_matches": []
+    },
+    {
+      "name": "fullbrain-roi-v5",
+      "label_count": 82,
+      "properties_generation": "1779144090259185",
+      "properties_sha256": "2c45b2809adab85facc80b89085fcf90e9ad1ab8cdada4f48c1f712847cd4737",
+      "properties_receipt": {
+        "revision": "825b74a996faafb7ba2e50031de123ac56d623e4",
+        "manifest": "manifests/8376bdd5df336b5f923b95bb4ec4eab009e0587975bae85f933c3c4968c3d8a3.json",
+        "verified": true
+      },
+      "microcompartment_name_matches": []
+    }
+  ],
+  "shared_mb_labels": [
+    "PED(L)",
+    "PED(R)",
+    "a'L(L)",
+    "a'L(R)",
+    "aL(L)",
+    "aL(R)",
+    "b'L(L)",
+    "b'L(R)",
+    "bL(L)",
+    "bL(R)",
+    "gL(L)",
+    "gL(R)"
+  ],
+  "result_receipt": {
+    "revision": "1fecf23bc09da213a94b2ef84f3a81c0eb9535c0",
+    "manifest": "manifests/1eeead259e32442dfe95dfafccf4efbfed2456e73fb9dbd505c6aeb7bb94d6c3.json",
+    "verified": true
+  },
+  "gamma1_contact_mask_assigned": false,
+  "plasticity_enabled": false,
+  "conclusion": "These inspected atlas labels do not provide an explicit gamma1/pedc mask. Broad lobes are insufficient for direct contact assignment.",
+  "limits": "No volume or mesh classification; no claim about every published atlas, neuPrint ROI hierarchy, other subcompartment sources, or biological learning."
+}
