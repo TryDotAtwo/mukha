@@ -67,6 +67,7 @@ code='''def classify_gamma_contact_candidates():
         print('GAMMA_CLASSIFICATION_RECEIPT',json.dumps(r),flush=True);return r
     (root/'classify-source.py').write_text(_GAMMA_CLASSIFY_SOURCE);(root/'classify-probe.py').write_text(_GAMMA_CLASSIFY_PROBE)
     source=publish(['classify-source.py','classify-probe.py'])
+    a.restore(root,{'repo_id':'TryDotAtwo/faithful-fly-artifacts','repo_type':'dataset','revision':'fd5ef6b95826bbe33d7dea0e719230a515796049','manifest':'manifests/11c50bc6df1322ba054fa1553d6e38183fa1b7931fb4dcbe86a2b58832d3c484.json','sha256':'11c50bc6df1322ba054fa1553d6e38183fa1b7931fb4dcbe86a2b58832d3c484','verified':True})
     closure=json.loads((root/'acquisition-report.json').read_text())
     if closure['requested_chunks']!=157 or len(closure['objects'])!=157:raise RuntimeError('Incomplete acquisition')
     for receipt in closure['segment_receipts']:a.restore(root,receipt)
