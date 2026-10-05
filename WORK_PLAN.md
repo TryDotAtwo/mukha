@@ -935,3 +935,32 @@ boundary sensitivity, subtype/receptor physiology and local plasticity remain
 open. Learning remains disabled. Whole-CNS geometry, body/vision, three training
 seeds, held-out KSP evaluation and recordings remain required by the original
 contract; all original acceptance gates remain open.
+
+
+## Gamma1 candidate KC subtype join and source-ROI crosscheck (2026-10-05)
+
+A full foreground MoLab body-ID join preserves all 41,460 provisional classified
+contacts, original fields and row order, with zero missing presynaptic IDs/types.
+Pinned KC annotations yield gamma 27,820 contacts (22,981 robust g1), alpha/beta
+13,150 (355 robust), alpha-prime/beta-prime 490 (223 robust). Thus 578 robust
+g1 contacts carry non-gamma annotations. Preserve all subtypes and separate
+physiology controls; an atlas g1 filter does not isolate gamma-KC physiology.
+Joined table/strata/report/log HF: b0038a27253d4ebadb32c2ea2d75785085264a91,
+manifest 877edae6b332a5e83a8635143cd198f2440389829ef872d7929d6f26a38b3ce7.
+Final family summary HF: ee6efa05066f3b3dcb4be6244ff9b19c21080273,
+manifest 70921cd8b0f7b2d836fe8c6c0f8eb673ff7870bc4c1c451818e35a51a46677cd.
+See docs/GAMMA_KC_SUBTYPE_STRATIFICATION.md and linked durable MoLab tools.
+
+The prior scalar reclassification agrees for all rows. Source primary_post vs
+atlas center has zero lateral mismatches among 29,122 comparable post endpoints.
+All 9,189 PED-labeled post contacts have background/unknown atlas labels.
+HF crosscheck f0f4c7b0b6f3e002dac2e8487d26da685f18fd3d, manifest
+69f1e13a91774e30e81b6b3f25747fffacf40b0c080ea86ba735737093fb45df.
+See docs/GAMMA_SOURCE_ROI_CROSSCHECK.md. This is metadata consistency, not
+independent anatomical registration.
+
+Primary anatomy describes gamma1pedc innervation across gamma1 and the distal
+pedunculus core; whole PED is not a pedc mask. Independent landmarks/DAN
+territory, explicit pedc geometry, atlas-version sensitivity and subtype/receptor
+physiology remain open. Learning remains disabled. All original full-project
+gates and success requirements remain open. All computation/data stayed in MoLab.
