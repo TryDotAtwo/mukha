@@ -1071,3 +1071,8 @@ Generation1780494878811468 fullbodyannotations211577records pinned before join.2
 ### 2026-10-05: same-KC local DAN/MBON11 overlap
 
 12040of12072DAN→KC contacts matched sameKC with output in41460KC→MBON11table;32unmatched retained.3059exhaustive checks passed. PED KCab c/m/s medians ~0.6–1.6um, KCab-p andtails muchfarther; no arbitraryradius admission. HFb4f568e0769781a48e5c37e654ca3dfcaa84a172 manifestdce3f44aba0f174209e87388065075c6b48ef198d535bf31410afa97d598d271. See docs/DAN_KC_MBON_LOCAL_OVERLAP.md. Exactsharedcell plusEuclideanproximity is not sharedbouton/receptor/diffusion/pedc/plasticity; nextfineanatomy/physiology, no training.
+
+
+### 2026-10-05: Yamada full protocol extraction
+
+The 27-page primary PDF was pinned before MoLab extraction with archived pypdf 6.1.1. Completed pages/report HF 5b7ca66fd588c37a322a54d9f32c4a75315b8d4f, manifest aa9c55b7f3460324b13db9fb19cca36fe2540b5d44da96e5732e3a2c0ff43c35. Exact measurement uses a single reference plus four 400-ms pairs per minute, reference-waveform subtraction, and at least three baseline minutes. Existing single-pair diagnostic does not reproduce that operator. Primary Figure 8 also establishes transient alpha/beta KC depression/PPR increase, distinct from persistent gamma effects. Original preparation-level data are supplied on request; none acquired. See docs/YAMADA_PROTOCOL_DATA_BOUNDARY.md. Next exact observation schedule and separate release/efficacy implementation; no quantitative physiology/plasticity admission or training. All original gates remain open.
