@@ -1061,3 +1061,8 @@ Full syn-partners6.78GB pinned before selection HF70734f7acf44864905e3ec564cb689
 ### 2026-10-05: DAN target subtype join
 
 All37219contacts preserved;12072to3080knownKC targets.13115contacts12112targets absent from selected167216annotations retainedunknown. PPL101 directPED KC contacts includeKCab-c/m/p/s bilaterally;PPL102noPED KC contacts in selected-source join. HF0dd4290d6fdbed37f901f06ba8fcd009b979dc89 manifestdc3100f1460420b9c811f46bb1728a8c046640f3eb539440ecbfb40bc7502747. See docs/DAN_TARGET_ANNOTATIONS.md. Nextfullannotation reconciliation and justifiedpedc geometry; no plasticity/training.
+
+
+### 2026-10-05: full released annotation reconciliation
+
+Generation1780494878811468 fullbodyannotations211577records pinned before join.22targets58contacts newly matched;13057contacts12090targets still absent from releasedannotations, preservedunknown. KC evidence unchanged12072contacts3080targets. HFb100773edef5308434daa1660795eab651caebb3 manifestca23dc618aac9608ad979c8deff472ad5bcb4a9a585161200495297a1ad30773. See docs/DAN_FULL_ANNOTATION_RECONCILIATION.md. Nextsegmentstatistics and exactlocalPED coinnervation; no biological/training admission.
