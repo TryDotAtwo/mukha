@@ -985,3 +985,27 @@ See docs/GAMMA_ATLAS_V2_V3_COMPARISON.md and its foreground MoLab tools.
 Independent landmark/DAN territory and pedc checks plus physiological transfer
 remain open; learning remains disabled. Do not repeat unchanged v2/v3 sampling.
 All original full-project goals/gates stay open; no local computation/data download.
+
+
+## Native no-learning paired-pulse transmission screen (2026-10-05)
+
+The unchanged conductance CUDA runtime at d06ce5a7a68b7a67828b57b15d9d989a3dd287bc
+was built and executed on current MoLab Blackwell after pinned CCCL restoration.
+Five two-neuron artificial-event conditions ran, each archived before the next.
+Native exponential conductance agrees with an independent closed form to maximum
+2.1510571102112408e-16 under the frozen1e-10 threshold. Source spikes and 2-tick
+delays agree; zero-input control has zero events/conductance. Tail-subtracted
+PPR=1.0000000000000004 is the additive-kernel software identity, not physiology.
+
+Equal scalar gains labelled presynaptic/postsynaptic produce identical outputs.
+Those labels do not implement actual calcium or receptor interventions. The
+static scalar representation cannot encode the published A1/PPR dissociation;
+separate release dynamics and justified observation/efficacy remain needed.
+Readout is offline current per leak conductance, not absolute EPSC or an actual
+voltage-clamp experiment. Full MaleCNS/three-minute optical protocol not run.
+
+Verified final report with all condition receipts: HF dc86507032b0187ec0260d89b4035288c33b5849,
+manifest526fc1bb4084534a901d322c9961a30b25c0af6d71e53d4c8cf967be8095b2fb.
+See docs/NATIVE_PAIRED_PULSE_DIAGNOSTIC.md. Complete CUDA dependency closure and
+sanitizer admission are not established. Learning remains disabled; independent
+pedc/DAN anatomy, subtype/receptor physiology and all original project gates open.
