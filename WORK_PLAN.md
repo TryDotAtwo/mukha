@@ -1009,3 +1009,10 @@ manifest526fc1bb4084534a901d322c9961a30b25c0af6d71e53d4c8cf967be8095b2fb.
 See docs/NATIVE_PAIRED_PULSE_DIAGNOSTIC.md. Complete CUDA dependency closure and
 sanitizer admission are not established. Learning remains disabled; independent
 pedc/DAN anatomy, subtype/receptor physiology and all original project gates open.
+
+
+### 2026-10-05: candidate skeletons and bilateral node geometry
+
+MBON11 10704/11402 and PPL101 11327/11900 plus PPL102 11618/13428 acquired as generation-pinned GCS SWCs, structural checks passed and each immutable input/audit archived before advancing. MBON final HF 6b93ffad58fa19aa69a7986f02b2ffe3a6500512; DAN final HF 0a43cc898d3df9c1e2ed8fd378f0dca5994e284c. All skeletons coarse, not complete morphology.
+
+Official 8nm coordinate convention archived before all-41460-row nearest-node diagnostic. Bilateral result HF 33db5a4375e025fad1440a2faad05a32bd594e4d, manifest 1bca7b32d497849b9a01106ea64c9070de47654f436649ea6beffa62d9ac2477. 170 exhaustive node-scan crosschecks passed. PPL102 proximity to robust gamma1 contacts follows opposite annotation suffix; both PPL101 skeletons are near both MBON populations. L/R suffix cannot replace territory mapping. See docs/GAMMA_BILATERAL_SKELETON_GEOMETRY.md. No surface/segment/release-site localization, contact-mask or plasticity admission; no learning enabled. Next: pinned DAN pre-synaptic coordinates and independently verified coverage/territory.
