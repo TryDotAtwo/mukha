@@ -1303,3 +1303,8 @@ MoLab union 112,640 / 167,216 distinct SWCs, coverage_fraction 0.673619749306286
 ### 2026-10-05 — verified SWC through 0110
 
 MoLab union: 113,664 / 167,216 SWCs, coverage_fraction 0.6797435652090709; source bytes 6,020,050,094; nodes 180,356,237; multi-root files 8,453 retained; zero duplicate IDs. Defined structural checks/exact plan reconciliation pass. Report HF 392bde5a39b7c1b34c420807028b962a2d74ca02 / manifest b8486e7deab01bc156cf6fe69c8385b585067790c8d8c33fc635c94993efc34d. Source HF 5e0d409fa85d0563a5ced6555262ce728d158b4c / manifest 635c7ae7f1a9745551a022ded9548e54f921b1640ff45e7758c138a578aa8c70. Details docs/SWC_ACQUISITION_SHARDS_0000_0110.md. Next 0111, 53 remain. Geometry admission false; plasticity/training disabled; biological fidelity unproven; actual quota unknown. Full original goal active.
+
+
+### 2026-10-05 — verified SWC through 0111
+
+MoLab union 114,688 / 167,216 SWCs, coverage_fraction 0.6858673811118553; 6,045,972,318 source bytes, 181,140,015 nodes, 8,591 multi-root files retained. No duplicate IDs; defined structural checks/exact plan reconciliation pass. Report HF c4f20d763c54a083acf83d1eaa30f8d1e3435f23 / manifest 124da50930746981e1f198bdd36e9489f39f27239447d1b0a5e81ae8aebe0045. Source HF 0a9f534c67233ca0a6f9777bd0ec44299969773d / manifest ac232bf36f65834b8cfebc0b5d27875a64a983cf765e867fbfba906f9310bc4d. Details docs/SWC_ACQUISITION_SHARDS_0000_0111.md. Next 0112, 52 remain. Geometry admission false; plasticity/training disabled; biological fidelity unproven; actual quota unknown. Full goal active.
