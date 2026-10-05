@@ -22,3 +22,36 @@ not inspect all alternative ROI sources, neuPrint hierarchy, volumes or meshes.
 Continue independent model/physiology replication with explicit compartment
 uncertainty while investigating a source-backed local assignment; the absence
 of atlas labels does not justify inventing or enabling a teaching mask.
+
+
+## Explicit subcompartment labels and coordinate evidence (2026-10-05)
+
+The official malecns-subcompartments v1/v2/v3 property lists explicitly contain
+g1–g5 for both hemispheres (190/199/199 total labels). The neuPrint debug
+hierarchy independently places them under MB(L/R)/gL(L/R). This changes the
+available anatomical route; the earlier scoped fullbrain v4/v5 finding remains
+valid for those lists only. See docs/MALECNS_SUBCOMPARTMENT_LABEL_AUDIT.md.
+Verified metadata report HF commit b5b5a270dd04a4d0bed222bd18e5eeef025fa83b.
+
+Pin v3 g1 IDs 190(L), 195(R), finest 256-nm isotropic resolution and zero offset.
+Do not reuse v1 IDs (181/186). The official Neuroglancer dataset state attaches
+v3 directly in the 8-nm MaleCNS space without an additional transform. The
+publisher download documentation explicitly specifies synapse voxel units of
+8 nm. These support the proposed coordinate scale, but do not replace bilateral
+landmark/territory checks. See docs/GAMMA_ATLAS_REGISTRATION_METADATA.md and
+docs/NEUROGLANCER_TRANSFORM_AUDIT.md.
+
+The original 463640 KC-MBON contact shards have been restored and verified in
+current MoLab. All 41460 MBON11 candidate contacts remain in a fixed table. Their
+pre/post positions plus 27 coarse-neighbor positions require 157 atlas chunks.
+The plan/table were archived before acquisition at f4153cc33a77074a13563ed6e2f3213b647f1c91.
+A real chunk was read by two independent decoders agreeing at 126 points; its
+first provisional contact sampled label zero, and was not promoted to gamma1.
+See docs/GAMMA_CONTACT_SAMPLING_PLAN.md and docs/REAL_ATLAS_CHUNK_DECODER_PROBE.md.
+
+Mask admission still requires gamma1 versus pedc semantics, bilateral registration,
+MBON/DAN territory correspondence, retained uncertain/outside contacts and exact
+total reconciliation, and atlas-version/boundary sensitivity. Expert guidance
+from Astra is advisory, not independent source replay. A paired-pulse no-learning
+transmission assay can falsify a model but cannot validate anatomical registration.
+No contact plasticity is enabled by these source or decoder checks.
